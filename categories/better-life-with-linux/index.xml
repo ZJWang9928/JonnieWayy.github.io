@@ -7,27 +7,207 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 23 Jan 2020 22:28:56 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 22:23:58 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/categories/better-life-with-linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>BLWL[2] Change Tsinghua Source for Pip</title>
-      <link>https://GodLovesJonny.github.io/post/blwl2-change-tsinghua-source-for-pip/</link>
-      <pubDate>Thu, 23 Jan 2020 22:28:56 +0800</pubDate>
+      <title>BLWL[1] 使用Pacman优雅地安装程序</title>
+      <link>https://GodLovesJonny.github.io/post/blwl1/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/post/blwl2-change-tsinghua-source-for-pip/</guid>
-      <description>修改 ~/.pip/pip.conf (没有就创建一个) [global] index-url = https://pypi.tuna.tsinghua.edu.cn/simple</description>
+      <guid>https://GodLovesJonny.github.io/post/blwl1/</guid>
+      <description>Reason to use pacman Arch下简洁高效的包管理命令 享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源</description>
     </item>
     
     <item>
-      <title>BLWL[1] Install Software Graciously With Pacman</title>
-      <link>https://GodLovesJonny.github.io/post/blwl1-install-software-graciously-with-pacman/</link>
+      <title>BLWL[2] Manjaro Xfce桌面背景替换</title>
+      <link>https://GodLovesJonny.github.io/post/blwl2/</link>
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/post/blwl1-install-software-graciously-with-pacman/</guid>
-      <description>Reason to use pacman Arch下简洁高效的包管理命令 享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源</description>
+      <guid>https://GodLovesJonny.github.io/post/blwl2/</guid>
+      <description>新机子一开始想也装KDE桌面版，然而独显驱动似乎配置上似乎出了什么问题，看了一些资料捣鼓了两天仍然未见成效 主要是KDE桌面的画面撕裂问题，暂</description>
+    </item>
+    
+    <item>
+      <title>BLWL[4] Manjaro KDE上Teamviewer闪退问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl4/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl4/</guid>
+      <description>直接pacman安装的TV会出现一直&amp;quot;Not Ready,&amp;hellip;&amp;ldquo;的情况 此时先 sudo teamviewer --daemon enable 再打开Teamviewe</description>
+    </item>
+    
+    <item>
+      <title>BLWL[5] Manjaro KDE 中文字符变方框问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl5/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl5/</guid>
+      <description>该问题一般出现在刚刚装完的Manjaro上，一些操作后突然中文字符全部变成了方框 一般情况下可以通过安装字体解决 sudo pacman -S wqy-microhei 然后重启即可</description>
+    </item>
+    
+    <item>
+      <title>BLWL[6] Manjaro KDE安装Google拼音输入法</title>
+      <link>https://GodLovesJonny.github.io/post/blwl6/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl6/</guid>
+      <description>先安装相关软件 sudo pacman -S fcitx-im fcitx-configtool fcitx-googlepinyin 然后在用户根目录编辑.xprofile文件（没有就新建一个） vim ~/.xprofile 若是刚装好的Manjaro上使用vim需要安装一下</description>
+    </item>
+    
+    <item>
+      <title>BLWL[7] Manjaro KDE画面撕裂问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl7/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl7/</guid>
+      <description>之前在新机子上装Manjaro KDE屡试未果，画面一直撕裂，最后没办法换了XFCE XFCE倒确实顺风顺水没出什么幺蛾子，但是用习惯了KDE的</description>
+    </item>
+    
+    <item>
+      <title>BLWL[8] Manjaro KDE成功安装并平稳使用TIM</title>
+      <link>https://GodLovesJonny.github.io/post/blwl8/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl8/</guid>
+      <description>配置好镜像源（开箱后的常规三步走即可） 安装QQ或TIM，pacman一下即可 sudo pacman -S deepin.com.qq.office sudo pacman -S deepin.com.qq.im 尝试一下是否可以打开（如果启动菜单没有，可以在/</description>
+    </item>
+    
+    <item>
+      <title>BLWL[9] Unzip解压中文乱码问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl9/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl9/</guid>
+      <description>1.执行unzip命令，查看系统上是否有unzip，若有直接卸载 yaourt -Rns unzip 2.安装unzip-icon yaourt unzip-icon 3.指定编码解压文件 unzip -O GBK ZIP_file</description>
+    </item>
+    
+    <item>
+      <title>BLWL[10] Manjaro更新时Invalid Software Package问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl10/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl10/</guid>
+      <description>Manjaro更新报错-无效或已损坏的软件包(PGP 签名) 原因：使用了社区源且开启了验证，关闭验证即可 vim /etc/pacman.conf 找到社区源相关部分 [archlinuxcn] #SigLevel = Optional TrustedOnly SigLevel = Optional</description>
+    </item>
+    
+    <item>
+      <title>BLWL[11] 使用Clear命令Terminals Database Inaccessible报错问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl11/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl11/</guid>
+      <description>问题： 当使用clear命令时出现如下报错 ~$ clear terminals database is inaccessible 临时解决方法： ~$ export TERMINFO=/usr/share/terminfo 最好将上面这条 export 命令添加到 .bashrc 中。</description>
+    </item>
+    
+    <item>
+      <title>BLWL[12] Manjaro KDE安装并激活Edraw</title>
+      <link>https://GodLovesJonny.github.io/post/blwl12/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl12/</guid>
+      <description>Edraw Max 的跨平台性使其成为了Visio很好的替代品 ArchLinux的AUR源里就有，直接 yay edraw 然后选择Edraw Max即可。 安装完成后还需要破解</description>
+    </item>
+    
+    <item>
+      <title>BLWL[13] 为较常用命令设置别名</title>
+      <link>https://GodLovesJonny.github.io/post/blwl13/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl13/</guid>
+      <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应shell的配置文件中即可。</description>
+    </item>
+    
+    <item>
+      <title>BLWL[14] Vim Macro的使用</title>
+      <link>https://GodLovesJonny.github.io/post/blwl14/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl14/</guid>
+      <description>可以通过Vim的宏录制完成重复的同一操作 在normal模式下输入qa（qb，qc，etc.）选择将录制好的宏放入寄存器a（b，c，etc.）</description>
+    </item>
+    
+    <item>
+      <title>BLWL[15] Vim Tips</title>
+      <link>https://GodLovesJonny.github.io/post/blwl15/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl15/</guid>
+      <description>i 如ci&amp;rdquo;，di&amp;lt;，yi(等，在相应符号间执行有关操作 f查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa vi</description>
+    </item>
+    
+    <item>
+      <title>BLWL[16] Vimdiff Tips</title>
+      <link>https://GodLovesJonny.github.io/post/blwl16/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl16/</guid>
+      <description>Vimdiff是Vim自带的一个文件差异编辑器 启动vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折</description>
+    </item>
+    
+    <item>
+      <title>BLWL[17] Vim保存上次退出时光标位置</title>
+      <link>https://GodLovesJonny.github.io/post/blwl17/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl17/</guid>
+      <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在.vimrc中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
+    </item>
+    
+    <item>
+      <title>BLWL[18] Vimscript Notes</title>
+      <link>https://GodLovesJonny.github.io/post/blwl18/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl18/</guid>
+      <description>:echo命令输出的信息在脚本运行完毕后就会消失，:echom打印的信息会保存下来，可以执行:messages命令再次查看 :set /:set no或直接:s</description>
+    </item>
+    
+    <item>
+      <title>BLWL[19] 修改iPython使用的默认Python</title>
+      <link>https://GodLovesJonny.github.io/post/blwl19/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl19/</guid>
+      <description>iPython是一个很好用的交互式Python解释器，Manjaro前一次内核升级后系统Python升到了3.8，而Pytorch目前还只支</description>
+    </item>
+    
+    <item>
+      <title>BLWL[20] 订阅Linux邮件列表</title>
+      <link>https://GodLovesJonny.github.io/post/blwl20/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl20/</guid>
+      <description>学习Linux内核可以订阅Linux的邮件列表，订阅的方法如下： 登录网站：http://vger.kernel.org/vger-lists</description>
+    </item>
+    
+    <item>
+      <title>BLWL[21] Ack Command Tips</title>
+      <link>https://GodLovesJonny.github.io/post/blwl21/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl21/</guid>
+      <description>ack是一个使用Perl语言开发的高效代码搜索工具 默认会搜索当前目录下所有文件内容，只要包含关键字就输出 文本搜索 ack keyword ack -l keyword # 只显示文件名 ack -i</description>
+    </item>
+    
+    <item>
+      <title>BLWL[22] 撤销git提交</title>
+      <link>https://GodLovesJonny.github.io/post/blwl22/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl22/</guid>
+      <description>Git Commit Withdrawal 撤销上一次提交 git reset &amp;ndash;soft HEAD^ 撤销前n次提交 git reset &amp;ndash;soft HEAD~n 仅修改commit注释 git commit &amp;ndash;amend 参数： &amp;ndash;soft 不删除工作空间改动代码，撤销commit，不撤销git</description>
+    </item>
+    
+    <item>
+      <title>BLWL[23] Ranger Notes</title>
+      <link>https://GodLovesJonny.github.io/post/blwl23/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl23/</guid>
+      <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
     </item>
     
   </channel>
