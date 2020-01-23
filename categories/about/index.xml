@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Jonathan`s Blog</title>
+    <link>https://GodLovesJonny.github.io/categories/about/</link>
+    <description>Recent content in About on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Fri, 24 Jan 2020 00:35:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://GodLovesJonny.github.io/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://GodLovesJonny.github.io/about/</link>
+      <pubDate>Fri, 24 Jan 2020 00:35:26 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/about/</guid>
+      <description>Hello, this Jonathan Wang.</description>
+    </item>
+    
+  </channel>
+</rss>
