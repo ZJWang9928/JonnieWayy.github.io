@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Jan 2020 10:47:47 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 11:47:52 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -217,6 +217,18 @@
       
       <guid>https://GodLovesJonny.github.io/post/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Verbs</title>
+      <link>https://GodLovesJonny.github.io/post/kli3/</link>
+      <pubDate>Fri, 24 Jan 2020 11:47:52 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/kli3/</guid>
+      <description>Klingon verbs do not have tense (past, present, future), so a verb such as yaj could mean &amp;ldquo;understands, understood, will understand&amp;rdquo;.
+In grammar, a subject is the one doing the action and an object is the one the action is done to. Klingon verbs show the subject and the object of verbs by means of prefixes.
+The most important verb prefixes are:
+ jI- = I (subject), no object bI- = you (subject), no object &amp;ndash; for single person vI- = I (subject), him/her/it/them (object) Da- = you (subject), him/her/it/them (object) &amp;ndash; for single person  If the subject is third person (he/she/it/they) and has either no object or a third-person object (him/her/it/them), then the verb has no prefix.</description>
     </item>
     
     <item>
