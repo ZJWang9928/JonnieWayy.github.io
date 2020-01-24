@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Jan 2020 15:51:42 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 16:28:50 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -217,6 +217,15 @@
       
       <guid>https://GodLovesJonny.github.io/post/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>Hugo LeaveIt添加网站流量统计</title>
+      <link>https://GodLovesJonny.github.io/post/blog2/</link>
+      <pubDate>Fri, 24 Jan 2020 16:28:50 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blog2/</guid>
+      <description>不蒜子是一个通过仅仅两行代码实现的网页流量计数器 在themes/layouts/partials/head.html文件中引入不蒜子js文件</description>
     </item>
     
     <item>
