@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Jan 2020 20:14:03 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 20:27:21 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -217,6 +217,16 @@
       
       <guid>https://GodLovesJonny.github.io/post/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Suffixes for Each Other</title>
+      <link>https://GodLovesJonny.github.io/post/kli13/</link>
+      <pubDate>Fri, 24 Jan 2020 20:27:21 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/kli13/</guid>
+      <description>-&amp;lsquo;egh indicates that the subject of the verb affects itself (or the subjects affect themselves). For example, from legh (see), one could form legh&#39;egh torgh &amp;ldquo;Torg sees himself&amp;rdquo; or legh&#39;egh puqpu&amp;rsquo; &amp;ldquo;the children see themselves&amp;rdquo; (perhaps in a mirror).
+-chuq indicates that the subjects of the verb affect each other. It only makes sense if the subject is plural: &amp;ldquo;we, you, they&amp;rdquo;. For example, leghchuq puqpu&amp;rsquo; would mean &amp;ldquo;the children see each other&amp;rdquo; &amp;ndash; that is, each child sees another child.</description>
     </item>
     
     <item>
