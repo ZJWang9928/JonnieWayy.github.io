@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>BLWL[1] 使用Pacman优雅地安装程序</title>
+      <link>https://GodLovesJonny.github.io/post/blwl1/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl1/</guid>
+      <description>Reason to use pacman Arch下简洁高效的包管理命令 享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源</description>
+    </item>
+    
+    <item>
       <title>BLWL[2] Manjaro Xfce桌面背景替换</title>
       <link>https://GodLovesJonny.github.io/post/blwl2/</link>
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
@@ -46,6 +55,69 @@
       
       <guid>https://GodLovesJonny.github.io/post/blwl6/</guid>
       <description>先安装相关软件 sudo pacman -S fcitx-im fcitx-configtool fcitx-googlepinyin 然后在用户根目录编辑.xprofile文件（没有就新建一个） vim ~/.xprofile 若是刚装好的Manjaro上使用vim需要安装一下</description>
+    </item>
+    
+    <item>
+      <title>BLWL[7] Manjaro KDE画面撕裂问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl7/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl7/</guid>
+      <description>之前在新机子上装Manjaro KDE屡试未果，画面一直撕裂，最后没办法换了XFCE XFCE倒确实顺风顺水没出什么幺蛾子，但是用习惯了KDE的</description>
+    </item>
+    
+    <item>
+      <title>BLWL[8] Manjaro KDE成功安装并平稳使用TIM</title>
+      <link>https://GodLovesJonny.github.io/post/blwl8/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl8/</guid>
+      <description>配置好镜像源（开箱后的常规三步走即可） 安装QQ或TIM，pacman一下即可 sudo pacman -S deepin.com.qq.office sudo pacman -S deepin.com.qq.im 尝试一下是否可以打开（如果启动菜单没有，可以在/</description>
+    </item>
+    
+    <item>
+      <title>BLWL[9] Unzip解压中文乱码问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl9/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl9/</guid>
+      <description>1.执行unzip命令，查看系统上是否有unzip，若有直接卸载 yaourt -Rns unzip 2.安装unzip-icon yaourt unzip-icon 3.指定编码解压文件 unzip -O GBK ZIP_file</description>
+    </item>
+    
+    <item>
+      <title>BLWL[10] Manjaro更新时Invalid Software Package问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl10/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl10/</guid>
+      <description>Manjaro更新报错-无效或已损坏的软件包(PGP 签名) 原因：使用了社区源且开启了验证，关闭验证即可 vim /etc/pacman.conf 找到社区源相关部分 [archlinuxcn] #SigLevel = Optional TrustedOnly SigLevel = Optional</description>
+    </item>
+    
+    <item>
+      <title>BLWL[11] 使用Clear命令Terminals Database Inaccessible报错问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/post/blwl11/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl11/</guid>
+      <description>问题： 当使用clear命令时出现如下报错 ~$ clear terminals database is inaccessible 临时解决方法： ~$ export TERMINFO=/usr/share/terminfo 最好将上面这条 export 命令添加到 .bashrc 中。</description>
+    </item>
+    
+    <item>
+      <title>BLWL[12] Manjaro KDE安装并激活Edraw</title>
+      <link>https://GodLovesJonny.github.io/post/blwl12/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl12/</guid>
+      <description>Edraw Max 的跨平台性使其成为了Visio很好的替代品 ArchLinux的AUR源里就有，直接 yay edraw 然后选择Edraw Max即可。 安装完成后还需要破解</description>
+    </item>
+    
+    <item>
+      <title>BLWL[13] 为较常用命令设置别名</title>
+      <link>https://GodLovesJonny.github.io/post/blwl13/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blwl13/</guid>
+      <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应shell的配置文件中即可。</description>
     </item>
     
   </channel>
