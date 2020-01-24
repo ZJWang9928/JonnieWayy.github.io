@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Jonathan`s Blog</title>
+    <link>https://GodLovesJonny.github.io/tags/blog/</link>
+    <description>Recent content in blog on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Fri, 24 Jan 2020 09:51:39 +0800</lastBuildDate>
+    
+	<atom:link href="https://GodLovesJonny.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>修改LeaveIt主题标题栏失去焦点时内容</title>
+      <link>https://GodLovesJonny.github.io/post/blog1/</link>
+      <pubDate>Fri, 24 Jan 2020 09:51:39 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blog1/</guid>
+      <description>LeaveIt主题默认在失去焦点时会在标题栏显示I Miss You 可以在themes/LeaveIt/assets/js/main.js文件中进行修改 找</description>
+    </item>
+    
+  </channel>
+</rss>

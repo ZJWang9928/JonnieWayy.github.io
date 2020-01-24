@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 23 Jan 2020 22:28:56 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 09:51:39 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -217,6 +217,15 @@
       
       <guid>https://GodLovesJonny.github.io/post/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>修改LeaveIt主题标题栏失去焦点时内容</title>
+      <link>https://GodLovesJonny.github.io/post/blog1/</link>
+      <pubDate>Fri, 24 Jan 2020 09:51:39 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/blog1/</guid>
+      <description>LeaveIt主题默认在失去焦点时会在标题栏显示I Miss You 可以在themes/LeaveIt/assets/js/main.js文件中进行修改 找</description>
     </item>
     
   </channel>
