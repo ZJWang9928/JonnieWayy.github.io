@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Jan 2020 12:56:54 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 15:20:08 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -217,6 +217,15 @@
       
       <guid>https://GodLovesJonny.github.io/post/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>[Sharp Tools] 内网文件共享工具NitrorShare</title>
+      <link>https://GodLovesJonny.github.io/post/sharp1/</link>
+      <pubDate>Fri, 24 Jan 2020 15:20:08 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/post/sharp1/</guid>
+      <description>NitroShare是一款基于Qt5的跨平台开源应用软件，可以在本地网络（内网）中实现文件共享。 NitroShare已包含在AUR中，Man</description>
     </item>
     
     <item>
