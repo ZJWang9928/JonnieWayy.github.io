@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020s on Jonathan`s Blog</title>
+    <link>https://GodLovesJonny.github.io/2020/</link>
+    <description>Recent content in 2020s on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Fri, 24 Jan 2020 22:35:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://GodLovesJonny.github.io/2020/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[KLI] Klingon Vocabulary</title>
+      <link>https://GodLovesJonny.github.io/2020/kliv/</link>
+      <pubDate>Fri, 24 Jan 2020 22:35:24 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kliv/</guid>
+      <description>   Kli Eng     tlhIngan Klingon   Hol language   batlh honor   Qapla&amp;rsquo; success   HISlaH yes   ghobe&amp;rsquo; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   &amp;mdash;&amp;mdash;&amp;mdash;- &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   pong name   puq child   loD man   be&amp;rsquo; woman   Duj ship   qach building   Dlvl&amp;rsquo; English, federation, the Federation   Suvwl&amp;rsquo; fighter, warroir   jagh enemy   mang soldier   muSwl&amp;rsquo; hater   qoq robot   yuch chocolate   mu&amp;rsquo; word   &amp;mdash;&amp;mdash;&amp;mdash;- &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&amp;rsquo; repair   Hub&amp;rsquo; defend   &amp;mdash;&amp;mdash;&amp;mdash;- &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy    </description>
+    </item>
+    
+    <item>
+      <title>BLWL[1] 使用Pacman优雅地安装程序</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl1/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl1/</guid>
+      <description>Reason to use pacman Arch下简洁高效的包管理命令 享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源</description>
+    </item>
+    
+    <item>
+      <title>BLWL[2] Manjaro Xfce桌面背景替换</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl2/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl2/</guid>
+      <description>新机子一开始想也装KDE桌面版，然而独显驱动似乎配置上似乎出了什么问题，看了一些资料捣鼓了两天仍然未见成效 主要是KDE桌面的画面撕裂问题，暂</description>
+    </item>
+    
+    <item>
+      <title>BLWL[3] Manjaro Pip替换清华源</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl3/</link>
+      <pubDate>Thu, 23 Jan 2020 22:28:56 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl3/</guid>
+      <description>修改 ~/.pip/pip.conf (没有就创建一个) [global] index-url = https://pypi.tuna.tsinghua.edu.cn/simple</description>
+    </item>
+    
+    <item>
+      <title>BLWL[4] Manjaro KDE上Teamviewer闪退问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl4/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl4/</guid>
+      <description>直接pacman安装的TV会出现一直&amp;quot;Not Ready,&amp;hellip;&amp;ldquo;的情况 此时先 sudo teamviewer --daemon enable 再打开Teamviewe</description>
+    </item>
+    
+    <item>
+      <title>BLWL[5] Manjaro KDE 中文字符变方框问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl5/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl5/</guid>
+      <description>该问题一般出现在刚刚装完的Manjaro上，一些操作后突然中文字符全部变成了方框 一般情况下可以通过安装字体解决 sudo pacman -S wqy-microhei 然后重启即可</description>
+    </item>
+    
+    <item>
+      <title>BLWL[6] Manjaro KDE安装Google拼音输入法</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl6/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl6/</guid>
+      <description>先安装相关软件 sudo pacman -S fcitx-im fcitx-configtool fcitx-googlepinyin 然后在用户根目录编辑.xprofile文件（没有就新建一个） vim ~/.xprofile 若是刚装好的Manjaro上使用vim需要安装一下</description>
+    </item>
+    
+    <item>
+      <title>BLWL[7] Manjaro KDE画面撕裂问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl7/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl7/</guid>
+      <description>之前在新机子上装Manjaro KDE屡试未果，画面一直撕裂，最后没办法换了XFCE XFCE倒确实顺风顺水没出什么幺蛾子，但是用习惯了KDE的</description>
+    </item>
+    
+    <item>
+      <title>BLWL[8] Manjaro KDE成功安装并平稳使用TIM</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl8/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl8/</guid>
+      <description>配置好镜像源（开箱后的常规三步走即可） 安装QQ或TIM，pacman一下即可 sudo pacman -S deepin.com.qq.office sudo pacman -S deepin.com.qq.im 尝试一下是否可以打开（如果启动菜单没有，可以在/</description>
+    </item>
+    
+    <item>
+      <title>BLWL[9] Unzip解压中文乱码问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl9/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl9/</guid>
+      <description>1.执行unzip命令，查看系统上是否有unzip，若有直接卸载 yaourt -Rns unzip 2.安装unzip-icon yaourt unzip-icon 3.指定编码解压文件 unzip -O GBK ZIP_file</description>
+    </item>
+    
+    <item>
+      <title>BLWL[10] Manjaro更新时Invalid Software Package问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl10/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl10/</guid>
+      <description>Manjaro更新报错-无效或已损坏的软件包(PGP 签名) 原因：使用了社区源且开启了验证，关闭验证即可 vim /etc/pacman.conf 找到社区源相关部分 [archlinuxcn] #SigLevel = Optional TrustedOnly SigLevel = Optional</description>
+    </item>
+    
+    <item>
+      <title>BLWL[11] 使用Clear命令Terminals Database Inaccessible报错问题解决方案</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl11/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl11/</guid>
+      <description>问题： 当使用clear命令时出现如下报错 ~$ clear terminals database is inaccessible 临时解决方法： ~$ export TERMINFO=/usr/share/terminfo 最好将上面这条 export 命令添加到 .bashrc 中。</description>
+    </item>
+    
+    <item>
+      <title>BLWL[12] Manjaro KDE安装并激活Edraw</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl12/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl12/</guid>
+      <description>Edraw Max 的跨平台性使其成为了Visio很好的替代品 ArchLinux的AUR源里就有，直接 yay edraw 然后选择Edraw Max即可。 安装完成后还需要破解</description>
+    </item>
+    
+    <item>
+      <title>BLWL[13] 为较常用命令设置别名</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl13/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl13/</guid>
+      <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应shell的配置文件中即可。</description>
+    </item>
+    
+    <item>
+      <title>BLWL[14] Vim Macro的使用</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl14/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl14/</guid>
+      <description>可以通过Vim的宏录制完成重复的同一操作 在normal模式下输入qa（qb，qc，etc.）选择将录制好的宏放入寄存器a（b，c，etc.）</description>
+    </item>
+    
+    <item>
+      <title>BLWL[15] Vim Tips</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl15/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl15/</guid>
+      <description>i 如ci&amp;rdquo;，di&amp;lt;，yi(等，在相应符号间执行有关操作 f查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa vi</description>
+    </item>
+    
+    <item>
+      <title>BLWL[16] Vimdiff Tips</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl16/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl16/</guid>
+      <description>Vimdiff是Vim自带的一个文件差异编辑器 启动vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折</description>
+    </item>
+    
+    <item>
+      <title>BLWL[17] Vim保存上次退出时光标位置</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl17/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl17/</guid>
+      <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在.vimrc中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
+    </item>
+    
+    <item>
+      <title>BLWL[18] Vimscript Notes</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl18/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl18/</guid>
+      <description>:echo命令输出的信息在脚本运行完毕后就会消失，:echom打印的信息会保存下来，可以执行:messages命令再次查看 :set /:set no或直接:s</description>
+    </item>
+    
+    <item>
+      <title>BLWL[19] 修改iPython使用的默认Python</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl19/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl19/</guid>
+      <description>iPython是一个很好用的交互式Python解释器，Manjaro前一次内核升级后系统Python升到了3.8，而Pytorch目前还只支</description>
+    </item>
+    
+    <item>
+      <title>BLWL[20] 订阅Linux邮件列表</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl20/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl20/</guid>
+      <description>学习Linux内核可以订阅Linux的邮件列表，订阅的方法如下： 登录网站：http://vger.kernel.org/vger-lists</description>
+    </item>
+    
+    <item>
+      <title>BLWL[21] Ack Command Tips</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl21/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl21/</guid>
+      <description>ack是一个使用Perl语言开发的高效代码搜索工具 默认会搜索当前目录下所有文件内容，只要包含关键字就输出 文本搜索 ack keyword ack -l keyword # 只显示文件名 ack -i</description>
+    </item>
+    
+    <item>
+      <title>BLWL[22] 撤销git提交</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl22/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl22/</guid>
+      <description>Git Commit Withdrawal 撤销上一次提交 git reset &amp;ndash;soft HEAD^ 撤销前n次提交 git reset &amp;ndash;soft HEAD~n 仅修改commit注释 git commit &amp;ndash;amend 参数： &amp;ndash;soft 不删除工作空间改动代码，撤销commit，不撤销git</description>
+    </item>
+    
+    <item>
+      <title>BLWL[23] Ranger Notes</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl23/</link>
+      <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl23/</guid>
+      <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Suffixes for Each Other</title>
+      <link>https://GodLovesJonny.github.io/2020/kli13/</link>
+      <pubDate>Fri, 24 Jan 2020 20:27:21 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli13/</guid>
+      <description>-&amp;lsquo;egh indicates that the subject of the verb affects itself (or the subjects affect themselves). For example, from legh (see), one could form legh&#39;egh torgh &amp;ldquo;Torg sees himself&amp;rdquo; or legh&#39;egh puqpu&amp;rsquo; &amp;ldquo;the children see themselves&amp;rdquo; (perhaps in a mirror).
+-chuq indicates that the subjects of the verb affect each other. It only makes sense if the subject is plural: &amp;ldquo;we, you, they&amp;rdquo;. For example, leghchuq puqpu&amp;rsquo; would mean &amp;ldquo;the children see each other&amp;rdquo; &amp;ndash; that is, each child sees another child.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Apostrophes And Quotes</title>
+      <link>https://GodLovesJonny.github.io/2020/kli12/</link>
+      <pubDate>Fri, 24 Jan 2020 20:14:03 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli12/</guid>
+      <description>Klingon uses the apostrophe &#39; as a letter.
+It does not use the double-quote character &amp;quot; as a letter. When you see what might look like a double-quote in the middle of the word, it is actually two apostrophes side by side.
+For example, maw&amp;rsquo; means &amp;ldquo;to be crazy&amp;rdquo; or &amp;ldquo;he/she is crazy&amp;rdquo;; when you add the question suffix -&amp;lsquo;a&amp;rsquo; , you get maw&#39;&amp;lsquo;a&amp;rsquo;? &amp;ldquo;is he/she crazy?&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Negatives And Questions</title>
+      <link>https://GodLovesJonny.github.io/2020/kli11/</link>
+      <pubDate>Fri, 24 Jan 2020 20:03:58 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli11/</guid>
+      <description>The verb suffix -&amp;lsquo;a&amp;rsquo; for a yes/no question and the verb suffix -be&amp;rsquo; for negative.
+The verb suffix -&amp;lsquo;a&amp;rsquo; is classified as a &amp;ldquo;type 9&amp;rdquo; verb suffix and will always be the last suffix on a verb. The verb suffix -be&amp;rsquo; is classified as a &amp;ldquo;rover&amp;rdquo;.
+These suffixes can be added to any verb to turn it into a negative or a question. For example, jIQong &amp;ldquo;I slept&amp;rdquo;, jIQongbe&amp;rsquo; &amp;ldquo;I did not sleep&amp;rdquo;, jIQong&#39;a&amp;rsquo;?</description>
+    </item>
+    
+    <item>
+      <title>Hugo LeaveIt添加网站流量统计</title>
+      <link>https://GodLovesJonny.github.io/2020/blog2/</link>
+      <pubDate>Fri, 24 Jan 2020 16:28:50 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blog2/</guid>
+      <description>不蒜子是一个通过仅仅两行代码实现的网页流量计数器 1.在themes/layouts/partials/head.html文件中引入不蒜子js</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Words for &#34;Yes&#34; And &#34;No&#34;</title>
+      <link>https://GodLovesJonny.github.io/2020/kli10/</link>
+      <pubDate>Fri, 24 Jan 2020 15:51:42 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli10/</guid>
+      <description>HISlaH means &amp;ldquo;yes&amp;rdquo; and ghobe&amp;rsquo; means &amp;ldquo;no&amp;rdquo;.
+These words are primarily used to answer yes/no questions.
+Besides these two words, Qo&amp;rsquo; is used to express refusal (as in &amp;ldquo;No, I won&#39;t!&amp;quot;). HIja&amp;rsquo; also means &amp;ldquo;yes&amp;rdquo; and is a direct synonym with no different connotations.
+Note that unlike the English word &amp;ldquo;no&amp;rdquo;, the words ghobe&amp;rsquo; and Qo&amp;rsquo; cannot be used as determiners (as in &amp;ldquo;We have no bananas.&amp;quot;), nor as adverbs (&amp;ldquo;I am no better.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Adjectives</title>
+      <link>https://GodLovesJonny.github.io/2020/kli9/</link>
+      <pubDate>Fri, 24 Jan 2020 15:44:39 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli9/</guid>
+      <description>Klingon does not have adjectives as a separate class of words; instead, it has verbs which mean things such as &amp;ldquo;be handsome&amp;rdquo;, &amp;ldquo;be smart&amp;rdquo;, or &amp;ldquo;be big&amp;rdquo;.
+A sentence such as val torgh &amp;ldquo;Torg is smart&amp;rdquo; has the same grammar (verb + subject) as yaj torgh &amp;ldquo;Torg understands&amp;rdquo;, even though one sentence has an adjective in English and the other an active verb.
+Note that the English translation includes the connecting word &amp;ldquo;is&amp;rdquo; when you use an adjective, but the Klingon translation just connects the subject directly to the verb without using any sort of connecting word.</description>
+    </item>
+    
+    <item>
+      <title>内网文件共享工具NitroShare</title>
+      <link>https://GodLovesJonny.github.io/2020/sharp1/</link>
+      <pubDate>Fri, 24 Jan 2020 15:20:08 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/sharp1/</guid>
+      <description>NitroShare是一款基于Qt5的跨平台开源应用软件，可以在本地网络（内网）中实现文件共享。 NitroShare已包含在AUR中，Man</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Joining Two Sentences With &#34;And&#34;</title>
+      <link>https://GodLovesJonny.github.io/2020/kli8/</link>
+      <pubDate>Fri, 24 Jan 2020 12:56:54 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli8/</guid>
+      <description>As mentioned in the previous post, nouns are joined with je.
+To join two sentences with &amp;ldquo;and&amp;rdquo; a different word is used: &amp;lsquo;ej.
+This word is placed between the sentences.
+For example, &amp;ldquo;I run&amp;rdquo; (jIqet) + &amp;ldquo;I jump&amp;rdquo; (jISup) can become &amp;ldquo;I run and I jump&amp;rdquo; (jIqet &amp;lsquo;ej jISup).
+&amp;lsquo;ej is only for joining sentences or verb phrases together, not nouns &amp;ndash; you cannot say torgh &amp;lsquo;ej mara, for example.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Plurals</title>
+      <link>https://GodLovesJonny.github.io/2020/kli7/</link>
+      <pubDate>Fri, 24 Jan 2020 12:48:25 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli7/</guid>
+      <description>English plurals are a good example of using suffixes. In English an -s or an -es is generally added to the end of the noun to make it plural.
+Klingon plurals are formed in a similar fashion to the English method of forming plurals. In Klingon a -pu&amp;rsquo;, -Du&amp;rsquo;, or -mey is added to the end of the noun.
+These are the &amp;ldquo;Type 2&amp;rdquo; noun suffixes.
+Nearly all Klingon nouns belong to one of three groups, depending on which &amp;ldquo;Type 2&amp;rdquo; noun suffix they use to form their plural:</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Verb And Noun Suffixes</title>
+      <link>https://GodLovesJonny.github.io/2020/kli6/</link>
+      <pubDate>Fri, 24 Jan 2020 12:39:30 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli6/</guid>
+      <description>Meaning is added to Klingon words through use of syllables added to the front or ends of words.
+Syllables added to the beginnings of words are called prefixes and in Klingon indicate who is doing a particular verb and who that action is done to.
+Suffixes are added to the ends of words and occassionally you will encounter a word with more than one suffix. Klingon linguists categorize these suffixes according to which ones cannot occur together and what order they must occur in.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Word Order</title>
+      <link>https://GodLovesJonny.github.io/2020/kli5/</link>
+      <pubDate>Fri, 24 Jan 2020 12:34:14 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli5/</guid>
+      <description>Klingon word order in a sentence may seem like the opposite of English word order - first comes the object (if any), then the verb, then the subject. So a sentence such as mara legh torgh means &amp;ldquo;Torg sees Mara&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Joining Nouns With And Without &#34;And&#34;</title>
+      <link>https://GodLovesJonny.github.io/2020/kli4/</link>
+      <pubDate>Fri, 24 Jan 2020 12:22:46 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli4/</guid>
+      <description>Nouns are joined with je, which comes after the nouns.
+If there is no je after two nouns next to each other, the effect is similar to possession: mara pong &amp;ldquo;Mara&#39;s name&amp;rdquo;; tlhIngan Hol &amp;ldquo;a Klingon&#39;s language, the Klingon language&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Verbs</title>
+      <link>https://GodLovesJonny.github.io/2020/kli3/</link>
+      <pubDate>Fri, 24 Jan 2020 11:47:52 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli3/</guid>
+      <description>Klingon verbs do not have tense (past, present, future), so a verb such as yaj could mean &amp;ldquo;understands, understood, will understand&amp;rdquo;.
+In grammar, a subject is the one doing the action and an object is the one the action is done to. Klingon verbs show the subject and the object of verbs by means of prefixes.
+The most important verb prefixes are:
+ jI- = I (subject), no object bI- = you (subject), no object &amp;ndash; for single person ma- = we (subject), no object Su- = you (subject), no object &amp;ndash; for multiple people, also some times said as &amp;ldquo;you guys&amp;rdquo;, &amp;ldquo;all of you&amp;rdquo;, &amp;ldquo;you all&amp;rdquo;, or &amp;ldquo;y&#39;all&amp;rdquo; vI- = I (subject), him/her/it/them (object) Da- = you (subject), him/her/it/them (object) &amp;ndash; for single person lu- = they (subject), him/her/it (object)  If the subject is third person (he/she/it/they) and has either no object or a third-person object (him/her/it/them), then the verb has no prefix.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] nuqheH &amp; nuqjatlh &amp; Qapla&#39;</title>
+      <link>https://GodLovesJonny.github.io/2020/kli2/</link>
+      <pubDate>Fri, 24 Jan 2020 10:47:47 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli2/</guid>
+      <description>nuqneH is a truncated form of nuq DaneH, meaning &amp;ldquo;What do you want?&amp;rdquo;
+It is a common misconception that this is &amp;ldquo;the Klingon word for hello&amp;rdquo;. In fact, Klingons have no word for hello. If a Klingon wishes to say something, they&#39;ll walk up to you and say it, without wasting time - as they see it - on idle chatter.
+nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you say?</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Alphabet</title>
+      <link>https://GodLovesJonny.github.io/2020/kli1/</link>
+      <pubDate>Fri, 24 Jan 2020 10:44:47 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli1/</guid>
+      <description>a b ch D e gh H I j l m n ng   o p Q q r S t tlh u v w y &#39;       letter prounciation     a &amp;lsquo;at   D Day   e &amp;lsquo;et   gh ghay   H Hay   I &amp;lsquo;It   j jay   m may   ng ngay   o &amp;lsquo;ot   Q Qay   q qay   r ray   S Say   tlh tlhay   u &amp;lsquo;ut   w way   y yay   &#39; qaghwI&amp;rsquo;    Notes:  In Klingon, case matters.</description>
+    </item>
+    
+    <item>
+      <title>修改LeaveIt主题标题栏失去焦点时内容</title>
+      <link>https://GodLovesJonny.github.io/2020/blog1/</link>
+      <pubDate>Fri, 24 Jan 2020 09:51:39 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blog1/</guid>
+      <description>LeaveIt主题默认在失去焦点时会在标题栏显示I Miss You 可以在themes/LeaveIt/assets/js/main.js文件中进行修改 找</description>
+    </item>
+    
+  </channel>
+</rss>

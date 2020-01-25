@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/blwl2/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/blwl1/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           BLWL[1] 使用Pacman优雅地安装程序 | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="BLWL[1] 使用Pacman优雅地安装程序 | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "2020",
+    "name" : "BLWL[1] 使用Pacman优雅地安装程序",
+    "headline" : "BLWL[1] 使用Pacman优雅地安装程序",
+    "description" : "Reason to use pacman Arch下简洁高效的包管理命令 享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-01-23 22:23:58 \x2b0800 CST",
+    "dateModified" : "2020-01-23 22:23:58 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/blwl1\/",
+    "wordCount" : "362",
+    "keywords" : [ "Manjaro","Linux", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://GodLovesJonny.github.io">Jonathan`s Blog</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+    
+        <div class="top-scroll-bar"></div>
+    
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://GodLovesJonny.github.io">Jonathan`s Blog</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">BLWL[1] 使用Pacman优雅地安装程序</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-01-23 itemprop="datePublished">January 23, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/better-life-with-linux/"> Better Life With Linux </a>
+                        
+                </span>
+                <span class="post-word-count">, 362 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="reason-to-use-pacman">Reason to use pacman</h2>
+<ul>
+<li>Arch下简洁高效的包管理命令</li>
+<li>享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源等</li>
+</ul>
+<h2 id="commonly-used-commands">Commonly Used Commands</h2>
+<ol>
+<li>安装软件</li>
+</ol>
+<blockquote>
+<p>sudo pacman -S 软件名</p>
+</blockquote>
+<ol start="2">
+<li>获取最新软件情况，但是可能不会实际执行</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Sy</p>
+</blockquote>
+<ol start="3">
+<li>强制更新软件库</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Syy</p>
+</blockquote>
+<ol start="4">
+<li>更新软件</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Su<br>
+sudo pacman -Syu</p>
+</blockquote>
+<ol start="5">
+<li>搜索软件(支持正则表达式)</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Ss 软件名</p>
+</blockquote>
+<ol start="6">
+<li>删除软件(并不是很好的删除命令)</li>
+</ol>
+<blockquote>
+<p>sudo pacman -R 软件名</p>
+</blockquote>
+<ol start="7">
+<li>删除软件及依赖</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Rs 软件名</p>
+</blockquote>
+<ol start="8">
+<li>删除软件、依赖及全局配置文件(最佳方式)</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Rns 软件名</p>
+</blockquote>
+<ol start="9">
+<li>显示本地所有软件</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Q</p>
+</blockquote>
+<ol start="10">
+<li>查看本地一共有多少个软件</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Q | wc -l</p>
+</blockquote>
+<ol start="11">
+<li>查看自己安装的软件</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Qe</p>
+</blockquote>
+<ol start="12">
+<li>查看自己安装的软件且不显示版本号</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Qeq</p>
+</blockquote>
+<ol start="13">
+<li>查询本地安装的软件</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Qs 软件名</p>
+</blockquote>
+<ol start="14">
+<li>查询不再被需要的孤儿(Orphans)软件</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Qdt</p>
+</blockquote>
+<ol start="15">
+<li>查询不再被需要的孤儿(Orphans)软件且不显示版本号</li>
+</ol>
+<blockquote>
+<p>sudo pacman -Qdtq</p>
+</blockquote>
+<ol start="16">
+<li>删除不再被需要的孤儿(Orphans)软件</li>
+</ol>
+<blockquote>
+<p>sudo pacman -R $(pacman -Qdtq)</p>
+</blockquote>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/blwl1/>https://GodLovesJonny.github.io/2020/blwl1/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/manjaro/">
+                    #Manjaro</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/linux/">
+                    #Linux</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/blwl2/" class="prev" rel="prev" title="BLWL[2] Manjaro Xfce桌面背景替换"><i class="iconfont icon-left"></i>&nbsp;BLWL[2] Manjaro Xfce桌面背景替换</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+
+     </div>
+  </body>
+</html>
