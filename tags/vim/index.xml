@@ -14,46 +14,46 @@
     
     <item>
       <title>BLWL[14] Vim Macro的使用</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl14/</link>
+      <link>https://GodLovesJonny.github.io/post/blwl14/</link>
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl14/</guid>
+      <guid>https://GodLovesJonny.github.io/post/blwl14/</guid>
       <description>可以通过Vim的宏录制完成重复的同一操作 在normal模式下输入qa（qb，qc，etc.）选择将录制好的宏放入寄存器a（b，c，etc.）</description>
     </item>
     
     <item>
       <title>BLWL[15] Vim Tips</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl15/</link>
+      <link>https://GodLovesJonny.github.io/post/blwl15/</link>
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl15/</guid>
+      <guid>https://GodLovesJonny.github.io/post/blwl15/</guid>
       <description>i 如ci&amp;rdquo;，di&amp;lt;，yi(等，在相应符号间执行有关操作 f查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa vi</description>
     </item>
     
     <item>
       <title>BLWL[16] Vimdiff Tips</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl16/</link>
+      <link>https://GodLovesJonny.github.io/post/blwl16/</link>
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl16/</guid>
+      <guid>https://GodLovesJonny.github.io/post/blwl16/</guid>
       <description>Vimdiff是Vim自带的一个文件差异编辑器 启动vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折</description>
     </item>
     
     <item>
       <title>BLWL[17] Vim保存上次退出时光标位置</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl17/</link>
+      <link>https://GodLovesJonny.github.io/post/blwl17/</link>
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl17/</guid>
+      <guid>https://GodLovesJonny.github.io/post/blwl17/</guid>
       <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在.vimrc中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
     </item>
     
     <item>
       <title>BLWL[18] Vimscript Notes</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl18/</link>
+      <link>https://GodLovesJonny.github.io/post/blwl18/</link>
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl18/</guid>
+      <guid>https://GodLovesJonny.github.io/post/blwl18/</guid>
       <description>:echo命令输出的信息在脚本运行完毕后就会消失，:echom打印的信息会保存下来，可以执行:messages命令再次查看 :set /:set no或直接:s</description>
     </item>
     

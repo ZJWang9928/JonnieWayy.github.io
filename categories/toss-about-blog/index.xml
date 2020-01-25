@@ -14,19 +14,19 @@
     
     <item>
       <title>Hugo LeaveIt添加网站流量统计</title>
-      <link>https://GodLovesJonny.github.io/2020/blog2/</link>
+      <link>https://GodLovesJonny.github.io/post/blog2/</link>
       <pubDate>Fri, 24 Jan 2020 16:28:50 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog2/</guid>
+      <guid>https://GodLovesJonny.github.io/post/blog2/</guid>
       <description>不蒜子是一个通过仅仅两行代码实现的网页流量计数器 1.在themes/layouts/partials/head.html文件中引入不蒜子js</description>
     </item>
     
     <item>
       <title>修改LeaveIt主题标题栏失去焦点时内容</title>
-      <link>https://GodLovesJonny.github.io/2020/blog1/</link>
+      <link>https://GodLovesJonny.github.io/post/blog1/</link>
       <pubDate>Fri, 24 Jan 2020 09:51:39 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog1/</guid>
+      <guid>https://GodLovesJonny.github.io/post/blog1/</guid>
       <description>LeaveIt主题默认在失去焦点时会在标题栏显示I Miss You 可以在themes/LeaveIt/assets/js/main.js文件中进行修改 找</description>
     </item>
     
