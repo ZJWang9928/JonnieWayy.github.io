@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Jan 2020 15:20:08 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2020 11:06:10 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>全平台Favicon在线生成器Real Favicon Generator</title>
+      <link>https://GodLovesJonny.github.io/2020/sharp2/</link>
+      <pubDate>Sat, 25 Jan 2020 11:06:10 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/sharp2/</guid>
+      <description>一款Favicon在线生成工具，图形化操作上传需要制作的图片即可 网站传送门</description>
+    </item>
     
     <item>
       <title>内网文件共享工具NitroShare</title>
