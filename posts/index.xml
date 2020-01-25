@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 25 Jan 2020 11:06:10 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2020 11:16:48 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -226,6 +226,15 @@
       
       <guid>https://GodLovesJonny.github.io/2020/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>Hugo 添加标签页卡图标</title>
+      <link>https://GodLovesJonny.github.io/2020/blog3/</link>
+      <pubDate>Sat, 25 Jan 2020 11:16:48 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blog3/</guid>
+      <description>将需要的图标图片保存为PNG格式放到static目录下即可 可以用一些Favicon生成工具先将图片制作成比较标准的图标，此前介绍过一款很方便</description>
     </item>
     
     <item>
