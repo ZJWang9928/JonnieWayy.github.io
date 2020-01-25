@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 25 Jan 2020 11:16:48 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2020 21:49:03 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -226,6 +226,18 @@
       
       <guid>https://GodLovesJonny.github.io/2020/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Can, Cannot, Cannot Cannot...</title>
+      <link>https://GodLovesJonny.github.io/2020/kli14/</link>
+      <pubDate>Sat, 25 Jan 2020 21:49:03 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli14/</guid>
+      <description>The &amp;ldquo;Type 5&amp;rdquo; verb suffix -laH indicates &amp;ldquo;can&amp;rdquo; or &amp;ldquo;able to&amp;rdquo;.
+For example, it makes the difference between tlhIngan Hol vIjatlh &amp;ldquo;I speak Klingon&amp;rdquo; and tlhIngan Hol vIjatlhlaH &amp;ldquo;I can speak Klingon&amp;rdquo;.
+As introduced in the previous post, the verb suffix -be&amp;rsquo; means &amp;ldquo;not&amp;rdquo;.
+You may remember that this suffix is classified as a &amp;ldquo;rover&amp;rdquo;. Unlike suffix types 1-9, some of the rovers can actually be placed in different orders and change the meaning of the sentence slightly based on where they occur.</description>
     </item>
     
     <item>
