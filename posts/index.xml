@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 25 Jan 2020 22:00:44 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 11:11:17 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -226,6 +226,15 @@
       
       <guid>https://GodLovesJonny.github.io/2020/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>Manjaro KDE有活动窗口时模糊桌面小插件Inactive Blur</title>
+      <link>https://GodLovesJonny.github.io/2020/sharp3/</link>
+      <pubDate>Sun, 26 Jan 2020 11:11:17 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/sharp3/</guid>
+      <description>Manjaro KDE下一个挺有意思的桌面插件Inactive Blur 安装后在桌面配置中启用，可以对模糊度、渐变时间、壁纸图片等进行相关设置 无活动窗口时： 有活动</description>
     </item>
     
     <item>

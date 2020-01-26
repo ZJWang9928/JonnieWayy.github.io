@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kde on Jonathan`s Blog</title>
+    <link>https://GodLovesJonny.github.io/tags/kde/</link>
+    <description>Recent content in kde on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Sun, 26 Jan 2020 11:11:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://GodLovesJonny.github.io/tags/kde/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manjaro KDE有活动窗口时模糊桌面小插件Inactive Blur</title>
+      <link>https://GodLovesJonny.github.io/2020/sharp3/</link>
+      <pubDate>Sun, 26 Jan 2020 11:11:17 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/sharp3/</guid>
+      <description>Manjaro KDE下一个挺有意思的桌面插件Inactive Blur 安装后在桌面配置中启用，可以对模糊度、渐变时间、壁纸图片等进行相关设置 无活动窗口时： 有活动</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 23 Jan 2020 22:23:58 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 11:11:17 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
     
@@ -118,6 +118,15 @@
       
       <guid>https://GodLovesJonny.github.io/2020/blwl13/</guid>
       <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应shell的配置文件中即可。</description>
+    </item>
+    
+    <item>
+      <title>Manjaro KDE有活动窗口时模糊桌面小插件Inactive Blur</title>
+      <link>https://GodLovesJonny.github.io/2020/sharp3/</link>
+      <pubDate>Sun, 26 Jan 2020 11:11:17 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/sharp3/</guid>
+      <description>Manjaro KDE下一个挺有意思的桌面插件Inactive Blur 安装后在桌面配置中启用，可以对模糊度、渐变时间、壁纸图片等进行相关设置 无活动窗口时： 有活动</description>
     </item>
     
   </channel>
