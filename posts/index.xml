@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Jan 2020 11:11:17 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 11:35:21 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -226,6 +226,15 @@
       
       <guid>https://GodLovesJonny.github.io/2020/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>壁纸分享</title>
+      <link>https://GodLovesJonny.github.io/2020/sharp4/</link>
+      <pubDate>Sun, 26 Jan 2020 11:35:21 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/sharp4/</guid>
+      <description></description>
     </item>
     
     <item>

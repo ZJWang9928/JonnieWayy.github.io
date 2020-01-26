@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Jan 2020 11:11:17 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 11:35:21 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
     
@@ -118,6 +118,15 @@
       
       <guid>https://GodLovesJonny.github.io/2020/blwl13/</guid>
       <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应shell的配置文件中即可。</description>
+    </item>
+    
+    <item>
+      <title>壁纸分享</title>
+      <link>https://GodLovesJonny.github.io/2020/sharp4/</link>
+      <pubDate>Sun, 26 Jan 2020 11:35:21 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/sharp4/</guid>
+      <description></description>
     </item>
     
     <item>
