@@ -57,7 +57,7 @@
     "datePublished": "2020-01-25 17:26:21 \x2b0800 CST",
     "dateModified" : "2020-01-25 17:26:21 \x2b0800 CST",
     "url" : "https:\/\/GodLovesJonny.github.io\/2020\/torch1\/",
-    "wordCount" : "430",
+    "wordCount" : "431",
     "keywords" : [  "Jonathan`s Blog"]
 }
 </script>
@@ -137,7 +137,7 @@
                         <a href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 430 words</span>
+                <span class="post-word-count">, 431 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -223,7 +223,7 @@ def make_layers(cfg, in_channels=3, batch_norm=True, dilation=False):
             in_channels = v
     return nn.Sequential(*layers)
 </code></pre>
-<h3 id="优化器声明部分若要使用不同的学习率">优化器声明部分(若要使用不同的学习率)</h3>
+<h3 id="优化器声明部分若需要使用不同的学习率">优化器声明部分(若需要使用不同的学习率)</h3>
 <pre><code>vgg_params = list(map(id, model.base.parameters()))
 other_params = filter(lambda p: id(p) not in vgg_params, model.parameters())
 params = [

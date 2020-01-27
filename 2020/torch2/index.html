@@ -57,7 +57,7 @@
     "datePublished": "2020-01-28 00:08:03 \x2b0800 CST",
     "dateModified" : "2020-01-28 00:08:03 \x2b0800 CST",
     "url" : "https:\/\/GodLovesJonny.github.io\/2020\/torch2\/",
-    "wordCount" : "605",
+    "wordCount" : "606",
     "keywords" : [  "Jonathan`s Blog"]
 }
 </script>
@@ -137,7 +137,7 @@
                         <a href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 605 words</span>
+                <span class="post-word-count">, 606 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -298,7 +298,7 @@ def ResNet50():
                 nn.init.normal_(m.weight, 1, 0.02)
                 nn.init.constant_(m.bias, 0)
 </code></pre>
-<h3 id="优化器声明部分若要使用不同的学习率">优化器声明部分(若要使用不同的学习率)</h3>
+<h3 id="优化器声明部分若需要使用不同的学习率">优化器声明部分(若需要使用不同的学习率)</h3>
 <pre><code>resnet_params = list(map(id, model.base.parameters()))
 other_params = filter(lambda p: id(p) not in resnet_params, model.parameters())
 params = [
