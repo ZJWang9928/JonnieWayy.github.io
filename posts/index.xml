@@ -270,6 +270,15 @@ You may remember that this suffix is classified as a &amp;ldquo;rover&amp;rdquo;
     </item>
     
     <item>
+      <title>Pytorch使用预训练VGG-16模型(一部分层)作为Backbone</title>
+      <link>https://GodLovesJonny.github.io/2020/torch1/</link>
+      <pubDate>Sat, 25 Jan 2020 17:26:21 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/torch1/</guid>
+      <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
+    </item>
+    
+    <item>
       <title>Hugo 添加标签页卡图标</title>
       <link>https://GodLovesJonny.github.io/2020/blog3/</link>
       <pubDate>Sat, 25 Jan 2020 11:16:48 +0800</pubDate>

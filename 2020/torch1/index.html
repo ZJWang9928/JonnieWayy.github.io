@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://GodLovesJonny.github.io/2020/sharp2/" />
-  <link rel="next" href="https://GodLovesJonny.github.io/2020/torch1/" />
-  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/blog3/" />
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/blog3/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kli14/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/torch1/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           Hugo 添加标签页卡图标 | Jonathan`s Blog
+           Pytorch使用预训练VGG-16模型(一部分层)作为Backbone | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="Hugo 添加标签页卡图标 | Jonathan`s Blog">
+  <meta name="title" content="Pytorch使用预训练VGG-16模型(一部分层)作为Backbone | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/GodLovesJonny.github.io"
     },
     "articleSection" : "posts",
-    "name" : "Hugo 添加标签页卡图标",
-    "headline" : "Hugo 添加标签页卡图标",
-    "description" : "将需要的图标图片保存为PNG格式放到static目录下即可 可以用一些Favicon生成工具先将图片制作成比较标准的图标，此前介绍过一款很方便",
+    "name" : "Pytorch使用预训练VGG-16模型(一部分层)作为Backbone",
+    "headline" : "Pytorch使用预训练VGG-16模型(一部分层)作为Backbone",
+    "description" : "在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -54,11 +54,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-01-25 11:16:48 \x2b0800 CST",
-    "dateModified" : "2020-01-25 11:16:48 \x2b0800 CST",
-    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/blog3\/",
-    "wordCount" : "84",
-    "keywords" : [ "blog", "Jonathan`s Blog"]
+    "datePublished": "2020-01-25 17:26:21 \x2b0800 CST",
+    "dateModified" : "2020-01-25 17:26:21 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/torch1\/",
+    "wordCount" : "427",
+    "keywords" : [  "Jonathan`s Blog"]
 }
 </script>
 
@@ -125,7 +125,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Hugo 添加标签页卡图标</h1>
+        <h1 class="post-title" itemprop="name headline">Pytorch使用预训练VGG-16模型(一部分层)作为Backbone</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
@@ -134,10 +134,10 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://GodLovesJonny.github.io/categories/toss-about-blog/"> Toss About Blog </a>
+                        <a href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 84 words</span>
+                <span class="post-word-count">, 427 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -156,8 +156,82 @@
           
           
 
-          <p>将需要的图标图片保存为PNG格式放到static目录下即可</p>
-<p>可以用一些Favicon生成工具先将图片制作成比较标准的图标，此前介绍过一款很方便的<a href="https://godlovesjonny.github.io/2020/sharp2/">在线Favicon生成工具</a></p>
+          <p>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和ResNet-50是较为常用的两种Backbone</p>
+<p>在使用Backbone时通常会丢弃最后一层全连接，对于具体的任务有时还会有其他的一些修改，因此只需要加载部分预训练模型</p>
+<p>这里介绍部分加载预训练VGG-16的Pytorch实现方法</p>
+<h3 id="模型定义部分">模型定义部分</h3>
+<pre><code>class ExampleModel(nn.Module):
+    def __init__(self, load_pretrained_weights=True):
+        super(ExampleModel, self).__init__()
+
+        # VGG-16结构
+        self.frontend_feat = [64, 64, 'M', 128, 128, 'M', 256, 256, 256, 'M', 512, 512, 512,'M',512,512,512]
+        self.base = make_layers(self.frontend_feat, in_channels=3, batch_norm=False)
+        
+        # 继续声明其他部分
+
+        # 加载预训练模型参数
+        if load_weights:
+            mod = models.vgg16(pretrained=True)
+            self._initialize_weights()
+            model_keys = list(self.base.state_dict().keys())
+            model_dict_1 = {}
+            for k in range(len(model_keys)):
+                dic1 = {model_keys[k]:list(mod.state_dict().values())[k]}
+                model_dict_1.update(dic1)
+            self.base.load_state_dict(model_dict_1)
+        
+
+    def forward(self, x):
+        x = self.base(x)
+
+        # 继续其他部分结构搭建 
+        
+        return x
+        
+ 
+    def _initialize_weights(self):
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.normal_(m.weight, std=0.01)
+                if m.bias is not None:
+                    nn.init.constant_(m.bias, 0)
+            elif isinstance(m, nn.BatchNorm2d):
+                nn.init.normal_(m.weight, 1, 0.02)
+                nn.init.constant_(m.bias, 0)
+            elif isinstance(m, nn.BatchNorm1d):
+                nn.init.normal_(m.weight, 1, 0.02)
+                nn.init.constant_(m.bias, 0)
+            
+                
+# 构建CNN网络
+def make_layers(cfg, in_channels=3, batch_norm=True, dilation=False):
+    if dilation:
+        d_rate = 2
+    else:
+        d_rate = 1
+    layers = []
+    for v in cfg:
+        if v == 'M':
+            layers += [nn.MaxPool2d(kernel_size=2, stride=2)]
+        else:
+            conv2d = nn.Conv2d(in_channels, v, kernel_size=3, padding=d_rate,dilation = d_rate)
+            if batch_norm:
+                layers += [conv2d, nn.BatchNorm2d(v), nn.ReLU(inplace=True)]
+            else:
+                layers += [conv2d, nn.ReLU(inplace=True)]
+            in_channels = v
+    return nn.Sequential(*layers)
+</code></pre>
+<h3 id="优化器声明部分若要使用不同的学习率">优化器声明部分(若要使用不同的学习率)</h3>
+<pre><code>vgg_params = list(map(id, model.base.parameters()))
+other_params = filter(lambda p: id(p) not in vgg_params, model.parameters())
+params = [
+    {&quot;params&quot;: model.base.parameters(), &quot;lr&quot;: 0},
+    {&quot;params&quot;: other_params, &quot;lr&quot;: 1e-3},
+]
+optimizer = torch.optim.Adam(params)
+</code></pre>
 
     </div>
 
@@ -172,7 +246,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://GodLovesJonny.github.io/2020/blog3/>https://GodLovesJonny.github.io/2020/blog3/</span>
+                    <a href=https://GodLovesJonny.github.io/2020/torch1/>https://GodLovesJonny.github.io/2020/torch1/</span>
             </p>
             
              
@@ -185,14 +259,6 @@
   
     <div class="post-tags">
         
-            <section>
-            <i class="iconfont icon-tag"></i>Tag(s): 
-            
-            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/blog/">
-                    #blog</a></span>
-            
-            </section>
-        
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
                 <span><a href="https://GodLovesJonny.github.io">home</a></span>
@@ -201,10 +267,10 @@
 
     <div class="post-nav">
         
-        <a href="https://GodLovesJonny.github.io/2020/sharp2/" class="prev" rel="prev" title="全平台Favicon在线生成器Real Favicon Generator"><i class="iconfont icon-left"></i>&nbsp;全平台Favicon在线生成器Real Favicon Generator</a>
+        <a href="https://GodLovesJonny.github.io/2020/blog3/" class="prev" rel="prev" title="Hugo 添加标签页卡图标"><i class="iconfont icon-left"></i>&nbsp;Hugo 添加标签页卡图标</a>
          
         
-        <a href="https://GodLovesJonny.github.io/2020/torch1/" class="next" rel="next" title="Pytorch使用预训练VGG-16模型(一部分层)作为Backbone">Pytorch使用预训练VGG-16模型(一部分层)作为Backbone&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://GodLovesJonny.github.io/2020/kli14/" class="next" rel="next" title="[KLI] Can, Cannot, Cannot Cannot...">[KLI] Can, Cannot, Cannot Cannot...&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -213,7 +279,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
