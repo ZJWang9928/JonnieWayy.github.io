@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Jan 2020 00:08:03 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 18:53:37 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -226,6 +226,38 @@
       
       <guid>https://GodLovesJonny.github.io/2020/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>[KLI] This, That, These, Those</title>
+      <link>https://GodLovesJonny.github.io/2020/kli18/</link>
+      <pubDate>Tue, 28 Jan 2020 18:53:37 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli18/</guid>
+      <description>&amp;ldquo;This, these&amp;rdquo; and &amp;ldquo;that, those&amp;rdquo; use &amp;ldquo;Type 4&amp;rdquo; noun suffixes: -vam and -vetlh, respectively: Ha&amp;rsquo;DIbaHvam &amp;ldquo;this animal&amp;rdquo;, Ha&amp;rsquo;DIbaHmeyvetlh &amp;ldquo;those animals&amp;rdquo;.
+Whether &amp;ldquo;this&amp;rdquo; or &amp;ldquo;these&amp;rdquo; is appropriate as a translation of -vam depends on whether the noun is singular or plural; similarly with &amp;ldquo;that&amp;rdquo; or &amp;ldquo;those&amp;rdquo; for -vetlh.
+Note that these type 4 endings come after the type 2 plural suffix and -&amp;lsquo;e&amp;rsquo; would come last as a type 5 suffix.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] To Be Or Not To Be</title>
+      <link>https://GodLovesJonny.github.io/2020/kli17/</link>
+      <pubDate>Tue, 28 Jan 2020 18:47:04 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli17/</guid>
+      <description>Klingon does not have a verb &amp;ldquo;to be&amp;rdquo;. Instead, pronouns help to fill that role.
+For example, jIH means &amp;ldquo;I&amp;rdquo; or &amp;ldquo;me&amp;rdquo; but also means &amp;ldquo;I am&amp;rdquo; in sentences such as tlhIngan jIH &amp;ldquo;I am a Klingon&amp;rdquo;.
+ghaH means &amp;ldquo;he&amp;rdquo;, &amp;ldquo;she&amp;rdquo;, &amp;ldquo;him&amp;rdquo;, or &amp;ldquo;her&amp;rdquo; and also means &amp;ldquo;he is&amp;rdquo; or &amp;ldquo;she is&amp;rdquo; in sentences such as tlhIngan ghaH &amp;ldquo;He is a Klingon&amp;rdquo; or &amp;ldquo;She is a Klingon&amp;rdquo;.
+To specify who the &amp;ldquo;he&amp;rdquo;, &amp;ldquo;she&amp;rdquo;, or &amp;ldquo;it&amp;rdquo; is, Klingon uses pronouns in combination with a &amp;ldquo;Type 5&amp;rdquo; noun suffix -&amp;lsquo;e&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>[KLI] Klingon Pronouns</title>
+      <link>https://GodLovesJonny.github.io/2020/kli16/</link>
+      <pubDate>Tue, 28 Jan 2020 17:23:09 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/kli16/</guid>
+      <description>Kli Eng     jIH I (am); me   SoH you (are); you   ghaH he (is), she (is); him, her   &amp;lsquo;oH it (is); it   maH we (are); us   tlhIH you (are) - plural; you   chaH they (are) - language-users; them   bIH they (are) - objects etc.; them    Pronouns can be used to represent a noun.</description>
     </item>
     
     <item>
