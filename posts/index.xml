@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Jan 2020 18:53:37 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2020 18:56:28 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
       <pubDate>Fri, 24 Jan 2020 22:35:24 +0800</pubDate>
       
       <guid>https://GodLovesJonny.github.io/2020/kliv/</guid>
-      <description>   Kli Eng     HISlaH yes   ghobe&amp;rsquo; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   -vetlh that, those   -vum this, these   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&amp;rsquo; success   pong name   puq child   loD man   be&amp;rsquo; woman   Duj ship   qach building   Dlvl&amp;rsquo; English, federation, the Federation   Suvwl&amp;rsquo; fighter, warroir   jagh enemy   mang soldier   muSwl&amp;rsquo; hater   qoq robot   yuch chocolate   mu&amp;rsquo; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&amp;rsquo; repair   Hub&amp;rsquo; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong    </description>
+      <description>   Kli Eng     HISlaH yes   ghobe&amp;rsquo; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   vay&amp;rsquo; anyone, anybody   pagh no one, nobody   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&amp;rsquo; success   pong name   puq child   loD man   be&amp;rsquo; woman   Duj ship   qach building   Dlvl&amp;rsquo; English, federation, the Federation   Suvwl&amp;rsquo; fighter, warroir   jagh enemy   mang soldier   muSwl&amp;rsquo; hater   qoq robot   yuch chocolate   mu&amp;rsquo; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;lsquo;avwl&amp;rsquo; guard   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&amp;rsquo; repair   Hub&amp;rsquo; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   SaH care   ghov recognize   Qoy hear   Suj disturb   boQ assist   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong   chuS noisy    </description>
     </item>
     
     <item>
@@ -226,6 +226,15 @@
       
       <guid>https://GodLovesJonny.github.io/2020/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+    </item>
+    
+    <item>
+      <title>基于人脸检测的自动口罩/护目镜佩戴小程序</title>
+      <link>https://GodLovesJonny.github.io/2020/mask-wearing/</link>
+      <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/mask-wearing/</guid>
+      <description>最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。 为了省去P图时来回来去调整的麻烦，这里开</description>
     </item>
     
     <item>

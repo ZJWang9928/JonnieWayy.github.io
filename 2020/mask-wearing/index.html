@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/kli18/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/blwl23/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/mask-wearing/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           基于人脸检测的自动口罩/护目镜佩戴小程序 | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="基于人脸检测的自动口罩/护目镜佩戴小程序 | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "基于人脸检测的自动口罩\/护目镜佩戴小程序",
+    "headline" : "基于人脸检测的自动口罩\/护目镜佩戴小程序",
+    "description" : "最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。 为了省去P图时来回来去调整的麻烦，这里开",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-01-29 18:56:28 \x2b0800 CST",
+    "dateModified" : "2020-01-29 18:56:28 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/mask-wearing\/",
+    "wordCount" : "604",
+    "keywords" : [ "cv","python","opencv","face detection", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://GodLovesJonny.github.io">Jonathan`s Blog</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+    
+        <div class="top-scroll-bar"></div>
+    
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://GodLovesJonny.github.io">Jonathan`s Blog</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">基于人脸检测的自动口罩/护目镜佩戴小程序</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-01-29 itemprop="datePublished">January 29, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/"> Alchemy Of CV </a>
+                        
+                </span>
+                <span class="post-word-count">, 604 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。</p>
+<p>为了省去P图时来回来去调整的麻烦，这里开发了一个基于人脸检测的自动口罩/护目镜佩戴小程序，帮助你快速为头像和照片巩固防护！</p>
+<p><a href="https://github.com/GodLovesJonny/Mask-Wearing-by-Face-Detection">项目完整源代码传送门</a></p>
+<p>示例效果图:<br>
+<img src="/static/2020/mw.png" alt="Example"></p>
+<p>人脸检测部分用了dlib库的预训练模型</p>
+<pre><code>&quot;&quot;&quot;
+ __  __           _     __        __              _             
+|  \/  | __ _ ___| | __ \ \      / /__  __ _ _ __(_)_ __   __ _ 
+| |\/| |/ _` / __| |/ /  \ \ /\ / / _ \/ _` | '__| | '_ \ / _` |
+| |  | | (_| \__ \   &lt;    \ V  V /  __/ (_| | |  | | | | | (_| |
+|_|  |_|\__,_|___/_|\_\    \_/\_/ \___|\__,_|_|  |_|_| |_|\__, |
+                                                          |___/ 
+
+@author: Jonathan Wang
+@coding: utf-8
+@environment: Manjaro 18.1.5 Juhraya
+@date: 29th Jan., 2020
+
+&quot;&quot;&quot;
+import os
+import dlib
+import random
+import cv2 as cv
+import numpy as np
+
+def detect_mouth(img):
+
+    img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+    detector = dlib.get_frontal_face_detector()
+    predictor = dlib.shape_predictor('src/models/shape_predictor_68_face_landmarks.dat')
+    faces = detector(img_gray, 0)
+
+    for k, d in enumerate(faces):
+        x = []
+        y = []
+        height = d.bottom() - d.top()
+        width = d.right() - d.left()
+        shape = predictor(img_gray, d)
+
+        # get the mouth part
+        for i in range(48, 68):
+            x.append(shape.part(i).x)
+            y.append(shape.part(i).y)
+
+        y_max = (int)(max(y) + height / 3)
+        y_min = (int)(min(y) - height / 3)
+        x_max = (int)(max(x) + width / 3)
+        x_min = (int)(min(x) - width / 3)
+        size = ((x_max-x_min),(y_max-y_min))
+
+    return x_min, x_max, y_min, y_max, size
+
+
+def detect_eye(img):
+
+    img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+    detector = dlib.get_frontal_face_detector()
+    predictor = dlib.shape_predictor('src/models/shape_predictor_68_face_landmarks.dat')
+    faces = detector(img_gray, 0)
+
+    for k, d in enumerate(faces):
+        x = []
+        y = []
+        height = d.bottom() - d.top()
+        width = d.right() - d.left()
+        shape = predictor(img_gray, d)
+
+        for i in range(36, 48):
+            x.append(shape.part(i).x)
+            y.append(shape.part(i).y)
+
+        y_max = (int)(max(y) + height / 3)
+        y_min = (int)(min(y) - height / 3)
+        x_max = (int)(max(x) + width / 3)
+        x_min = (int)(min(x) - width / 3)
+        size = ((x_max-x_min),(y_max-y_min))
+
+    return x_min, x_max, y_min, y_max, size
+
+
+def wear_item(mask):
+
+    print(&quot;Processing...&quot;)
+
+    if not mask:
+        x_min, x_max, y_min, y_max, size = detect_eye(img)
+        item_img = cv.imread('src/imgs/glasses.png', cv.IMREAD_UNCHANGED)
+        #  cv.imshow(&quot;Glasses&quot;, item_img)
+    else:
+        x_min, x_max, y_min, y_max, size = detect_mouth(img)
+        which = random.randint(0, 4)
+        item_name = 'src/imgs/mask' + str(which) + '.png'
+        item_img = cv.imread(item_name, cv.IMREAD_UNCHANGED)
+        #  cv.imshow(&quot;Mask&quot;, item_img)
+
+    item_img = cv.resize(item_img, size)
+    alpha_channel = item_img[:, :, 3]
+    _, mask = cv.threshold(alpha_channel, 220, 255, cv.THRESH_BINARY)
+    color = item_img[:, :, :3]
+    item_img = cv.bitwise_not(cv.bitwise_not(color, mask=mask))
+
+    rows, cols, channels = item_img.shape
+    roi = img[y_min: y_min + rows, x_min:x_min + cols]
+    img_gray = cv.cvtColor(item_img, cv.COLOR_BGR2GRAY)
+    ret, mask = cv.threshold(img_gray, 254, 255, cv.THRESH_BINARY)
+    mask = np.uint8(mask)
+    mask_inv = cv.bitwise_not(mask)
+    img_bg = cv.bitwise_and(roi, roi, mask=mask)
+    item_img_fg = cv.bitwise_and(item_img, item_img, mask=mask_inv)
+    dst = cv.add(img_bg, item_img_fg)
+    img[y_min: y_min + rows, x_min:x_min + cols] = dst
+
+
+if __name__ == '__main__':
+    raw_img = cv.imread('src/imgs/faces/riho2.jpg')
+    img = raw_img.copy()
+
+    x = input('Wear Glasses? [Y/n]')
+    if x == 'Y' or x == 'y':
+        wear_item(False)
+        print(&quot;OK!&quot;)
+
+    x = input('Wear a mask? [Y/n]')
+    if x == 'Y' or x == 'y':
+        wear_item(True)
+        print(&quot;OK!&quot;)
+
+    cv.imwrite('Result.jpg', img)
+    cv.imshow('Raw', raw_img)
+    cv.imshow('Result', img)
+
+    cv.waitKey(0)
+    cv.destroyAllWindows()
+</code></pre>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/mask-wearing/>https://GodLovesJonny.github.io/2020/mask-wearing/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/cv/">
+                    #cv</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/python/">
+                    #python</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/opencv/">
+                    #opencv</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/face-detection/">
+                    #face detection</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/kli18/" class="prev" rel="prev" title="[KLI] This, That, These, Those"><i class="iconfont icon-left"></i>&nbsp;[KLI] This, That, These, Those</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/blwl23/" class="next" rel="next" title="BLWL[23] Ranger Notes">BLWL[23] Ranger Notes&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+     </div>
+  </body>
+</html>

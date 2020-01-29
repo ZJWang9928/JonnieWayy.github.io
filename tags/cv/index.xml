@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Jan 2020 00:08:03 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2020 18:56:28 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/cv/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>基于人脸检测的自动口罩/护目镜佩戴小程序</title>
+      <link>https://GodLovesJonny.github.io/2020/mask-wearing/</link>
+      <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/mask-wearing/</guid>
+      <description>最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。 为了省去P图时来回来去调整的麻烦，这里开</description>
+    </item>
     
     <item>
       <title>Pytorch部分加载预训练ResNet-50模型作为Backbone</title>

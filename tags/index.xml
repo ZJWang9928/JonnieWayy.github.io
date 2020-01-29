@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Jan 2020 18:53:37 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2020 18:56:28 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cv</title>
+      <link>https://GodLovesJonny.github.io/tags/cv/</link>
+      <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>face detection</title>
+      <link>https://GodLovesJonny.github.io/tags/face-detection/</link>
+      <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/tags/face-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opencv</title>
+      <link>https://GodLovesJonny.github.io/tags/opencv/</link>
+      <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://GodLovesJonny.github.io/tags/python/</link>
+      <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/tags/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>klingon</title>
@@ -18,24 +54,6 @@
       <pubDate>Tue, 28 Jan 2020 18:53:37 +0800</pubDate>
       
       <guid>https://GodLovesJonny.github.io/tags/klingon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>https://GodLovesJonny.github.io/tags/cv/</link>
-      <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
-      
-      <guid>https://GodLovesJonny.github.io/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://GodLovesJonny.github.io/tags/python/</link>
-      <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
-      
-      <guid>https://GodLovesJonny.github.io/tags/python/</guid>
       <description></description>
     </item>
     
@@ -67,7 +85,7 @@
     </item>
     
     <item>
-      <title>manjaro</title>
+      <title>Manjaro</title>
       <link>https://GodLovesJonny.github.io/tags/manjaro/</link>
       <pubDate>Sun, 26 Jan 2020 11:35:21 +0800</pubDate>
       
