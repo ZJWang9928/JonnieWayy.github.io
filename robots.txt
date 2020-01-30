@@ -1,8 +1,8 @@
 User-agent: *
 
-Disallow: /images/
-Disallow: /js/
-Disallow: /css/
+Disallow:
+Disallow:
+Disallow:
 
 User-agent: MJ12bot
 Disallow: 
