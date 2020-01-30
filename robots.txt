@@ -5,62 +5,62 @@ Disallow: /js/
 Disallow: /css/
 
 User-agent: MJ12bot
-Disallow: /
+Disallow: 
 
 User-agent: AhrefsBot
-Disallow: /
+Disallow:
 
 User-agent: BLEXBot
-Disallow: /
+Disallow:
 
 # Block SISTRIX
 User-agent: SISTRIX Crawler
-Disallow: /
+Disallow:
 User-agent: sistrix
-Disallow: /
+Disallow:
 User-agent: 007ac9
-Disallow: /
+Disallow:
 User-agent: 007ac9 Crawler
-Disallow: /
+Disallow:
 
 # Block Uptime robot
 User-agent: UptimeRobot/2.0
-Disallow: /
+Disallow:
 
 # Block Ezooms Robot
 User-agent: Ezooms Robot
-Disallow: /
+Disallow:
 
 # Block Perl LWP
 User-agent: Perl LWP
-Disallow: /
+Disallow:
 
 # Block netEstate NE Crawler (+http://www.website-datenbank.de/)
 User-agent: netEstate NE Crawler (+http://www.website-datenbank.de/)
-Disallow: /
+Disallow:
 
 # Block WiseGuys Robot
 User-agent: WiseGuys Robot
-Disallow: /
+Disallow:
 
 # Block Turnitin Robot
 User-agent: Turnitin Robot
-Disallow: /
+Disallow:
 
 # Block Heritrix
 User-agent: Heritrix
-Disallow: /
+Disallow:
 
 # Block pricepi
 User-agent: pimonster
-Disallow: /
+Disallow:
 User-agent: Pimonster
-Disallow: /
+Disallow:
 
 User-agent: SurdotlyBot
-Disallow: /
+Disallow:
 
 User-agent: ZoominfoBot
-Disallow: /
+Disallow:
 
 Sitemap: https://GodLovesJonny.github.io/sitemap.xml
