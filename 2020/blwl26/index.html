@@ -9,7 +9,7 @@
   
   
   
-  <link rel="prev" href="https://GodLovesJonny.github.io/2020/blwl25/" />
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/dl-notes1/" />
   <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
   <link rel="canonical" href="https://GodLovesJonny.github.io/2020/blwl26/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           BLWL[26]  | Jonathan`s Blog
+           BLWL26 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="BLWL[26]  | Jonathan`s Blog">
+  <meta name="title" content="BLWL26 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/GodLovesJonny.github.io"
     },
     "articleSection" : "posts",
-    "name" : "BLWL[26] ",
-    "headline" : "BLWL[26] ",
-    "description" : "",
+    "name" : "BLWL26",
+    "headline" : "BLWL26",
+    "description" : "axel是Linux下一个不错的HTTP\/ftp高速下载工具。 axel支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -54,11 +54,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-02-03 08:50:23 \x2b0800 CST",
-    "dateModified" : "2020-02-03 08:50:23 \x2b0800 CST",
+    "datePublished": "2020-03-12 11:00:10 \x2b0800 CST",
+    "dateModified" : "2020-03-12 11:00:10 \x2b0800 CST",
     "url" : "https:\/\/GodLovesJonny.github.io\/2020\/blwl26\/",
-    "wordCount" : "0",
-    "keywords" : [  "Jonathan`s Blog"]
+    "wordCount" : "275",
+    "keywords" : [ "Manjaro","Linux", "Jonathan`s Blog"]
 }
 </script>
 
@@ -145,15 +145,19 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BLWL[26] </h1>
+        <h1 class="post-title" itemprop="name headline">BLWL26</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-02-03 itemprop="datePublished">February 3, 2020</time>
+                on <time datetime=2020-03-12 itemprop="datePublished">March 12, 2020</time>
                 </span>
                 in
-                
-                <span class="post-word-count">, 0 words</span>
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/better-life-with-linux/"> Better Life With Linux </a>
+                        
+                </span>
+                <span class="post-word-count">, 275 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -172,7 +176,34 @@
           
           
 
-          
+          <p>axel是Linux下一个不错的HTTP/ftp高速下载工具。</p>
+<p>axel支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下载同一个文件。</p>
+<p>下载过程中断可以再执行下载命令恢复上次的下载进度。</p>
+<h3 id="语法">语法</h3>
+<blockquote>
+<p>axel [options] url1 [url2] [url&hellip;]</p>
+</blockquote>
+<h3 id="选项">选项</h3>
+<blockquote>
+<p>&ndash;max-speed=x , -s x         最高速度x
+&ndash;num-connections=x , -n x   连接数x
+&ndash;output=f , -o f            下载为本地文件f
+&ndash;search[=x] , -S [x]        搜索镜像
+&ndash;header=x , -H x            添加头文件字符串x（指定 HTTP header）
+&ndash;user-agent=x , -U x        设置用户代理（指定 HTTP user agent）
+&ndash;no-proxy ， -N             不使用代理服务器
+&ndash;quiet ， -q                静默模式
+&ndash;verbose ，-v               更多状态信息
+&ndash;alternate ， -a            Alternate progress indicator
+&ndash;help ，-h                  帮助
+&ndash;version ，-V               版本信息</p>
+</blockquote>
+<h3 id="实例">实例</h3>
+<p>如下载lnmp安装包指定10个线程，存到/tmp/：</p>
+<blockquote>
+<p>axel -n 10 -o /tmp/ <a href="http://www.linuxde.net/lnmp.tar.gz">http://www.linuxde.net/lnmp.tar.gz</a></p>
+</blockquote>
+
     </div>
 
     <div class="post-copyright">
@@ -199,6 +230,17 @@
   
     <div class="post-tags">
         
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/manjaro/">
+                    #Manjaro</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/linux/">
+                    #Linux</a></span>
+            
+            </section>
+        
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
                 <span><a href="https://GodLovesJonny.github.io">home</a></span>
@@ -207,7 +249,7 @@
 
     <div class="post-nav">
         
-        <a href="https://GodLovesJonny.github.io/2020/blwl25/" class="prev" rel="prev" title="BLWL[25] Top Command Tips"><i class="iconfont icon-left"></i>&nbsp;BLWL[25] Top Command Tips</a>
+        <a href="https://GodLovesJonny.github.io/2020/dl-notes1/" class="prev" rel="prev" title="炼丹杂笔记"><i class="iconfont icon-left"></i>&nbsp;炼丹杂笔记</a>
          
         
         <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
@@ -219,7 +261,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

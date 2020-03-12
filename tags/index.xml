@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 04 Mar 2020 09:07:11 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 11:00:10 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux</title>
+      <link>https://GodLovesJonny.github.io/tags/linux/</link>
+      <pubDate>Thu, 12 Mar 2020 11:00:10 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manjaro</title>
+      <link>https://GodLovesJonny.github.io/tags/manjaro/</link>
+      <pubDate>Thu, 12 Mar 2020 11:00:10 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/tags/manjaro/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cv</title>
@@ -45,24 +63,6 @@
       <pubDate>Tue, 25 Feb 2020 19:58:23 +0800</pubDate>
       
       <guid>https://GodLovesJonny.github.io/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://GodLovesJonny.github.io/tags/linux/</link>
-      <pubDate>Mon, 03 Feb 2020 00:44:13 +0800</pubDate>
-      
-      <guid>https://GodLovesJonny.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Manjaro</title>
-      <link>https://GodLovesJonny.github.io/tags/manjaro/</link>
-      <pubDate>Mon, 03 Feb 2020 00:44:13 +0800</pubDate>
-      
-      <guid>https://GodLovesJonny.github.io/tags/manjaro/</guid>
       <description></description>
     </item>
     
