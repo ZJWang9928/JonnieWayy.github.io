@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command on Jonathan`s Blog</title>
+    <link>https://GodLovesJonny.github.io/tags/command/</link>
+    <description>Recent content in Command on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Thu, 12 Mar 2020 11:00:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://GodLovesJonny.github.io/tags/command/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BLWL[26] Axel Command Tips</title>
+      <link>https://GodLovesJonny.github.io/2020/blwl26/</link>
+      <pubDate>Thu, 12 Mar 2020 11:00:10 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blwl26/</guid>
+      <description>axel是Linux下一个不错的HTTP/ftp高速下载工具。 axel支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下</description>
+    </item>
+    
+  </channel>
+</rss>
