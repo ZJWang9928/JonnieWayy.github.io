@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://GodLovesJonny.github.io/2020/dl-notes1/" />
-  <link rel="next" href="https://GodLovesJonny.github.io/2020/blwl27/" />
-  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/blwl26/" />
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/blwl26/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/blwl27/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           BLWL[26] Axel Command Tips | Jonathan`s Blog
+           BLWL[27] Shell 杂记 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="BLWL[26] Axel Command Tips | Jonathan`s Blog">
+  <meta name="title" content="BLWL[27] Shell 杂记 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/GodLovesJonny.github.io"
     },
     "articleSection" : "posts",
-    "name" : "BLWL[26] Axel Command Tips",
-    "headline" : "BLWL[26] Axel Command Tips",
-    "description" : "axel是Linux下一个不错的HTTP\/ftp高速下载工具。 axel支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下",
+    "name" : "BLWL[27] Shell 杂记",
+    "headline" : "BLWL[27] Shell 杂记",
+    "description" : "cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下Alt-#在行首添加#以注释该命令并回车执行（相当于依次按下Ctrl-A, #, En",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -54,10 +54,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-03-12 11:00:10 \x2b0800 CST",
-    "dateModified" : "2020-03-12 11:00:10 \x2b0800 CST",
-    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/blwl26\/",
-    "wordCount" : "287",
+    "datePublished": "2020-04-13 10:06:16 \x2b0800 CST",
+    "dateModified" : "2020-04-13 10:06:16 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/blwl27\/",
+    "wordCount" : "259",
     "keywords" : [ "Linux","Command","notes", "Jonathan`s Blog"]
 }
 </script>
@@ -145,11 +145,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BLWL[26] Axel Command Tips</h1>
+        <h1 class="post-title" itemprop="name headline">BLWL[27] Shell 杂记</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-03-12 itemprop="datePublished">March 12, 2020</time>
+                on <time datetime=2020-04-13 itemprop="datePublished">April 13, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -157,7 +157,7 @@
                         <a href="https://GodLovesJonny.github.io/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 287 words</span>
+                <span class="post-word-count">, 259 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -176,33 +176,15 @@
           
           
 
-          <p>axel是Linux下一个不错的HTTP/ftp高速下载工具。</p>
-<p>axel支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下载同一个文件。</p>
-<p>下载过程中断可以再执行下载命令恢复上次的下载进度。</p>
-<h3 id="语法">语法</h3>
-<blockquote>
-<p>axel [options] url1 [url2] [url&hellip;]</p>
-</blockquote>
-<h3 id="选项">选项</h3>
-<blockquote>
-<p>&ndash;max-speed=x , -s x         # 最高速度x<br>
-&ndash;num-connections=x , -n x   # 连接数x<br>
-&ndash;output=f , -o f            # 下载为本地文件f<br>
-&ndash;search[=x] , -S [x]        # 搜索镜像<br>
-&ndash;header=x , -H x            # 添加头文件字符串x（指定 HTTP header）<br>
-&ndash;user-agent=x , -U x        # 设置用户代理（指定 HTTP user agent）<br>
-&ndash;no-proxy ， -N             # 不使用代理服务器<br>
-&ndash;quiet ， -q                # 静默模式<br>
-&ndash;verbose ，-v               # 更多状态信息<br>
-&ndash;alternate ， -a            # Alternate progress indicator<br>
-&ndash;help ，-h                  # 帮助<br>
-&ndash;version ，-V               # 版本信息</p>
-</blockquote>
-<h3 id="实例">实例</h3>
-<p>如下载lnmp安装包指定10个线程，存到/tmp/：</p>
-<blockquote>
-<p>axel -n 10 -o /tmp/ <a href="http://www.linuxde.net/lnmp.tar.gz">http://www.linuxde.net/lnmp.tar.gz</a></p>
-</blockquote>
+          <ul>
+<li><strong>cd -</strong> 回到前一个工作路径</li>
+<li>若在输入命令时中途改变了主意，可以按下<strong>Alt-#<strong>在行首添加#以注释该命令并回车执行（相当于依次按下</strong>Ctrl-A, #, Enter</strong>）。这样做的话，之后借助命令行历史记录，你可以很方便恢复你刚才输入到一半的命令</li>
+<li><strong>pstree -p</strong> 以一种优雅的方式展示进程树</li>
+<li><strong>pgrep</strong>和<strong>pkill</strong> 可以<strong>名字</strong>查找进程或发送信号（-f 参数通常有用）</li>
+<li><strong>lsof</strong> 用于查看开启的套接字文件</li>
+<li><strong>uptime</strong>或<strong>w</strong> 用于查看系统已经运行多长时间</li>
+<li>使用 <strong>man ascii</strong> 查看具有十六进制和十进制值的ASCII表。<strong>man unicode</strong>，<strong>man utf-8</strong>，以及 <strong>man latin1</strong> 有助于你去了解通用的编码信息</li>
+</ul>
 
     </div>
 
@@ -217,7 +199,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://GodLovesJonny.github.io/2020/blwl26/>https://GodLovesJonny.github.io/2020/blwl26/</span>
+                    <a href=https://GodLovesJonny.github.io/2020/blwl27/>https://GodLovesJonny.github.io/2020/blwl27/</span>
             </p>
             
              
@@ -252,10 +234,10 @@
 
     <div class="post-nav">
         
-        <a href="https://GodLovesJonny.github.io/2020/dl-notes1/" class="prev" rel="prev" title="炼丹杂笔记"><i class="iconfont icon-left"></i>&nbsp;炼丹杂笔记</a>
+        <a href="https://GodLovesJonny.github.io/2020/blwl26/" class="prev" rel="prev" title="BLWL[26] Axel Command Tips"><i class="iconfont icon-left"></i>&nbsp;BLWL[26] Axel Command Tips</a>
          
         
-        <a href="https://GodLovesJonny.github.io/2020/blwl27/" class="next" rel="next" title="BLWL[27] Shell 杂记">BLWL[27] Shell 杂记&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
