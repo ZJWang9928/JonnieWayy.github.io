@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 04 Mar 2020 09:07:11 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 13:20:00 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>浅谈激活函数以零为中心的问题</title>
+      <link>https://GodLovesJonny.github.io/2020/zero-centered-active-function/</link>
+      <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/zero-centered-active-function/</guid>
+      <description>本文主要探讨神经网络中的激活函数不是以零为中心（non-zero-centered）是否会导致神经网络收敛变慢，并讨论其背后的原因。 神经元 如</description>
+    </item>
     
     <item>
       <title>炼丹杂笔记</title>

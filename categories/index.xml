@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 10:06:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 13:20:00 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alchemy Of CV</title>
+      <link>https://GodLovesJonny.github.io/categories/alchemy-of-cv/</link>
+      <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/categories/alchemy-of-cv/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Better Life With Linux</title>
@@ -18,15 +27,6 @@
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
       <guid>https://GodLovesJonny.github.io/categories/better-life-with-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alchemy Of CV</title>
-      <link>https://GodLovesJonny.github.io/categories/alchemy-of-cv/</link>
-      <pubDate>Wed, 04 Mar 2020 09:07:11 +0800</pubDate>
-      
-      <guid>https://GodLovesJonny.github.io/categories/alchemy-of-cv/</guid>
       <description></description>
     </item>
     
