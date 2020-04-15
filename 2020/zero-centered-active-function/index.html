@@ -67,7 +67,7 @@
     "datePublished": "2020-04-15 13:20:00 \x2b0800 CST",
     "dateModified" : "2020-04-15 13:20:00 \x2b0800 CST",
     "url" : "https:\/\/GodLovesJonny.github.io\/2020\/zero-centered-active-function\/",
-    "wordCount" : "1959",
+    "wordCount" : "1960",
     "keywords" : [ "machine learning","cv","active function", "Jonathan`s Blog"]
 }
 </script>
@@ -167,7 +167,7 @@
                         <a href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 1959 words</span>
+                <span class="post-word-count">, 1960 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -220,7 +220,7 @@
 <h1 id="收敛速度">收敛速度</h1>
 <p>这里首先给收敛速度做一个诠释。模型的最优解即是模型参数的最优解。通过逐轮迭代，模型参数会被更新到接近其最优解。这一过程中，迭代轮次多，则我们说模型收敛速度慢；反之，迭代轮次少，则我们说模型收敛速度快。</p>
 <h1 id="参数更新">参数更新</h1>
-<p>深度学习一般的学习方法是反向传播。简单来说，就是通过链式法则，求取全局损失函数\(L(\vec{x}\)对某一参数\(w\)的偏导数（梯度），而后辅以学习率\(\eta\)，向梯度的反方向更新参数\(w\)。$$w \leftarrow w - \eta \cdot \frac{\partial L}{\partial w}.$$</p>
+<p>深度学习一般的学习方法是反向传播。简单来说，就是通过链式法则，求取全局损失函数\(L(\vec{x})\)对某一参数\(w\)的偏导数（梯度），而后辅以学习率\(\eta\)，向梯度的反方向更新参数\(w\)。$$w \leftarrow w - \eta \cdot \frac{\partial L}{\partial w}.$$</p>
 <p>考虑到学习率\(\eta\)是全局设置的超参数，参数更新的核心步骤即是计算\(\frac{\partial L}{\partial w}\)。又因为对于某个神经元来说，其输入与输出的关系是$$f(\vec{x};\vec{x},b) = f(z) = f(\sum_{i}w_{x}x_{i} + b).$$</p>
 <p>因此，对于参数\(w_{i}\)来说，$$\frac{\partial L}{\partial w_{i}} = \frac{\partial L}{\partial f} \frac{\partial f}{\partial z} \frac{\partial z}{\partial w_{i}} = x_{i} \cdot \frac{\partial L}{\partial f} \frac{\partial f}{\partial z}.$$</p>
 <p>由此，参数的更新步骤为$$w_{i} \leftarrow w_{i} - \eta x_{i} \cdot \frac{\partial L}{\partial f} \frac{\partial f}{\partial z}.$$</p>
