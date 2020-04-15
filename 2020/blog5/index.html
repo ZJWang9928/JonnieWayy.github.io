@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="https://GodLovesJonny.github.io/2020/zero-centered-active-function/" />
-  <link rel="next" href="https://GodLovesJonny.github.io/2020/blog5/" />
-  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/blog4/" />
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/blog4/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/blog5/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           Hugo实现LaTex渲染 | Jonathan`s Blog
+           Hugo LeaveIt主题修改代码块底色 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="Hugo实现LaTex渲染 | Jonathan`s Blog">
+  <meta name="title" content="Hugo LeaveIt主题修改代码块底色 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "https:\/\/GodLovesJonny.github.io"
     },
     "articleSection" : "posts",
-    "name" : "Hugo实现LaTex渲染",
-    "headline" : "Hugo实现LaTex渲染",
-    "description" : "Hugo框架本身并不支持LaTex，但是可以通过javascript进行渲染。Hugo官网上提供了多种方法，权衡之后我选择了较为简单的KaT",
+    "name" : "Hugo LeaveIt主题修改代码块底色",
+    "headline" : "Hugo LeaveIt主题修改代码块底色",
+    "description" : "如上图，LeaveIt主题在浅色模式下默认的代码块背景色是纯白色，和文字撞色导致观感较差。 可对文件themes\/LeaveIt\/assets",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-04-15 20:56:12 \x2b0800 CST",
-    "dateModified" : "2020-04-15 20:56:12 \x2b0800 CST",
-    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/blog4\/",
-    "wordCount" : "294",
+    "datePublished": "2020-04-15 21:47:18 \x2b0800 CST",
+    "dateModified" : "2020-04-15 21:47:18 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/blog5\/",
+    "wordCount" : "197",
     "keywords" : [ "blog", "Jonathan`s Blog"]
 }
 </script>
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Hugo实现LaTex渲染</h1>
+        <h1 class="post-title" itemprop="name headline">Hugo LeaveIt主题修改代码块底色</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
@@ -167,12 +167,14 @@
                         <a href="https://GodLovesJonny.github.io/categories/toss-about-blog/"> Toss About Blog </a>
                         
                 </span>
-                <span class="post-word-count">, 294 words</span>
+                <span class="post-word-count">, 197 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -186,29 +188,33 @@
           
           
 
-          <p>Hugo框架本身并不支持LaTex，但是可以通过javascript进行渲染。Hugo官网上提供了多种方法，权衡之后我选择了较为简单的KaTex，而不是MathJax。</p>
-<h1 id="安装">安装</h1>
-<p>从<a href="https://github.com/KaTeX/KaTeX/releases">这里</a>下载katex的包，解压后放在<code>static/js</code>文件夹中，并在<code>head.html</code>中加入以下代码</p>
-<pre><code>&lt;!-- KaTeX --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/js/katex/katex.min.css&quot; &gt;
-&lt;script src=&quot;/js/katex/katex.min.js&quot; &gt; &lt;/script&gt;
-&lt;script src=&quot;/js/katex/contrib/auto-render.min.js&quot; &gt;&lt;/script&gt;
+          <p><img src="/images/2020/04/blog5/1.jpg" alt="before">
+如上图，LeaveIt主题在浅色模式下默认的代码块背景色是纯白色，和文字撞色导致观感较差。</p>
+<p>可对文件<code>themes/LeaveIt/assets/css/_common/_page/post.scss</code>从第86行起的内容做如下修改：</p>
+<pre><code>    code,
+    pre {
+        padding: 7px;
+        font-size: 13px;
+        font-family: Consolas, Monaco, Menlo, Consolas, monospace;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
 
-&lt;script&gt;
-    document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
-      renderMathInElement(document.body);
-    });
-&lt;/script&gt;
+    code:not([class]) {
+        padding: 1px 6px;
+        margin: 0 2px;
+        color: #ffffff;     // 避免改后inline代码块颜色冲突
+        // background: $light-code-notclass-background-color;    // 原本内容
+        background: #322931;    // 改成与底色相同
+        border-radius: 5px;
+
+        .dark-theme &amp;:not([class]) {
+            background: $dark-code-notclass-background-color;
+        }
+    }
 </code></pre>
-<h1 id="使用">使用</h1>
-<p>尽管<a href="https://github.com/KaTeX/KaTeX/blob/master/contrib/auto-render/README.md">KaTeX的github</a>上是如下给出auto-render的默认值的：</p>
-<pre><code>[
-  {left: &quot;$$&quot;, right: &quot;$$&quot;, display: true},
-  {left: &quot;\\[&quot;, right: &quot;\\]&quot;, display: true},
-  {left: &quot;\\(&quot;, right: &quot;\\)&quot;, display: false}
-]
-</code></pre>
-<p>但实际上，三种标识符都成立，其中前两种将数学公式以block形式展现，第三种以inline形式展现。使用中只需要将left和right放在数学公式两侧即可。</p>
+<p>改完后看起来顺眼多了。<br>
+<img src="/images/2020/04/blog5/2.jpg" alt="after"></p>
 
     </div>
 
@@ -223,7 +229,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://GodLovesJonny.github.io/2020/blog4/>https://GodLovesJonny.github.io/2020/blog4/</span>
+                    <a href=https://GodLovesJonny.github.io/2020/blog5/>https://GodLovesJonny.github.io/2020/blog5/</span>
             </p>
             
              
@@ -252,10 +258,10 @@
 
     <div class="post-nav">
         
-        <a href="https://GodLovesJonny.github.io/2020/zero-centered-active-function/" class="prev" rel="prev" title="浅谈激活函数以零为中心的问题"><i class="iconfont icon-left"></i>&nbsp;浅谈激活函数以零为中心的问题</a>
+        <a href="https://GodLovesJonny.github.io/2020/blog4/" class="prev" rel="prev" title="Hugo实现LaTex渲染"><i class="iconfont icon-left"></i>&nbsp;Hugo实现LaTex渲染</a>
          
         
-        <a href="https://GodLovesJonny.github.io/2020/blog5/" class="next" rel="next" title="Hugo LeaveIt主题修改代码块底色">Hugo LeaveIt主题修改代码块底色&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -264,7 +270,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -302,8 +308,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
