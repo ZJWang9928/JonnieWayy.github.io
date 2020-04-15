@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 25 Jan 2020 11:16:48 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 20:56:12 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo实现LaTex渲染</title>
+      <link>https://GodLovesJonny.github.io/2020/blog4/</link>
+      <pubDate>Wed, 15 Apr 2020 20:56:12 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/blog4/</guid>
+      <description>Hugo框架本身并不支持LaTex，但是可以通过javascript进行渲染。Hugo官网上提供了多种方法，权衡之后我选择了较为简单的KaT</description>
+    </item>
     
     <item>
       <title>Hugo 添加标签页卡图标</title>
