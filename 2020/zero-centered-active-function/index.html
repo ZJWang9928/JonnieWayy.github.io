@@ -67,7 +67,7 @@
     "datePublished": "2020-04-15 13:20:00 \x2b0800 CST",
     "dateModified" : "2020-04-15 13:20:00 \x2b0800 CST",
     "url" : "https:\/\/GodLovesJonny.github.io\/2020\/zero-centered-active-function\/",
-    "wordCount" : "1960",
+    "wordCount" : "1956",
     "keywords" : [ "machine learning","cv","active function", "Jonathan`s Blog"]
 }
 </script>
@@ -167,7 +167,7 @@
                         <a href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 1960 words</span>
+                <span class="post-word-count">, 1956 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -221,7 +221,7 @@
 <p>这里首先给收敛速度做一个诠释。模型的最优解即是模型参数的最优解。通过逐轮迭代，模型参数会被更新到接近其最优解。这一过程中，迭代轮次多，则我们说模型收敛速度慢；反之，迭代轮次少，则我们说模型收敛速度快。</p>
 <h1 id="参数更新">参数更新</h1>
 <p>深度学习一般的学习方法是反向传播。简单来说，就是通过链式法则，求取全局损失函数\(L(\vec{x})\)对某一参数\(w\)的偏导数（梯度），而后辅以学习率\(\eta\)，向梯度的反方向更新参数\(w\)。$$w \leftarrow w - \eta \cdot \frac{\partial L}{\partial w}.$$</p>
-<p>考虑到学习率\(\eta\)是全局设置的超参数，参数更新的核心步骤即是计算\(\frac{\partial L}{\partial w}\)。又因为对于某个神经元来说，其输入与输出的关系是$$f(\vec{x};\vec{x},b) = f(z) = f(\sum_{i}w_{x}x_{i} + b).$$</p>
+<p>考虑到学习率\(\eta\)是全局设置的超参数，参数更新的核心步骤即是计算\(\frac{\partial L}{\partial w}\)。又因为对于某个神经元来说，其输入与输出的关系是$$f(\vec{x};\vec{w},b) = f(z) = f(\sum_{i}w_{x}x_{i} + b).$$</p>
 <p>因此，对于参数\(w_{i}\)来说，$$\frac{\partial L}{\partial w_{i}} = \frac{\partial L}{\partial f} \frac{\partial f}{\partial z} \frac{\partial z}{\partial w_{i}} = x_{i} \cdot \frac{\partial L}{\partial f} \frac{\partial f}{\partial z}.$$</p>
 <p>由此，参数的更新步骤为$$w_{i} \leftarrow w_{i} - \eta x_{i} \cdot \frac{\partial L}{\partial f} \frac{\partial f}{\partial z}.$$</p>
 <h1 id="更新方向">更新方向</h1>
@@ -231,7 +231,7 @@
 <p>为了方便描述，此处以二维情况为例。亦即，神经元描述为$$f(\vec{x};\vec{w},b) = f(w_{0}x_{0} + w_{1}x_{1} + b).$$</p>
 <p>假设参数\(w_{0}\)，\(w_{1}\)的最优解\(w_{0}^{*}\)，\(w_{1}^{*}\)满足条件$$\begin{cases} w_{0} &lt; w_{0}^{*}, \\ w_{1}\geqslant w_{1}^{*}. \end{cases}$$</p>
 <p>这也就是说，我们希望\(w_{0}\)适当增大，但希望\(w_{1}\)适当减小。考虑到上一小节提到的更新方向的问题，这就必然要求\(x_{0}\)和\(x_{1}\)符号相反。</p>
-<p>但在 Sigmoid 函数中，输出值恒为正。这也就是说，**如果上一级神经元采用 Sigmoid 函数作为激活函数，就无法做到\(x_{0}\)和\(x_{1}\)符号相反**。此时，模型为了收敛，不得不向逆风前行的风助力帆船一样，走 Z 字形逼近最优解。</p>
+<p>但在 Sigmoid 函数中，输出值恒为正。这也就是说，如果上一级神经元采用 Sigmoid 函数作为激活函数，就无法做到\(x_{0}\)和\(x_{1}\)符号相反。此时，模型为了收敛，不得不向逆风前行的风助力帆船一样，走 Z 字形逼近最优解。</p>
 <p><img src="/images/2020/04/zero-centered/4.jpg" alt="graph"></p>
 <p>如图，模型参数走绿色箭头能够最快收敛，但由于输入值的符号总是为正，所以模型参数可能走类似红色折线的箭头。如此一来，使用 Sigmoid 函数作为激活函数的神经网络，收敛速度就会慢上不少了。</p>
 
