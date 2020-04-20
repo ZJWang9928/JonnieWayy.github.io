@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Apr 2020 15:53:16 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 16:19:26 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>考研数学复习杂笔记 -- 多元函数微分学</title>
+      <link>https://GodLovesJonny.github.io/2020/math-dw/</link>
+      <pubDate>Mon, 20 Apr 2020 16:19:26 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/math-dw/</guid>
+      <description>多元函数可导推不出连续与可微：多元的可导是指一阶偏导数存在，而偏导数是用一元函数极限定义的，只与点\((x_{0}, y_{0})\)邻域内过</description>
+    </item>
     
     <item>
       <title>考研数学复习杂笔记 -- 向量代数与空间解析几何</title>
