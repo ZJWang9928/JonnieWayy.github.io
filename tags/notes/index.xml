@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 10:06:16 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 15:53:16 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>考研数学复习杂笔记 -- 向量代数与空间解析几何</title>
+      <link>https://GodLovesJonny.github.io/2020/math-vk/</link>
+      <pubDate>Mon, 20 Apr 2020 15:53:16 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/math-vk/</guid>
+      <description>混合积为零等价于三向量共面 求\(\vec{a}\)和\(\vec{b}\)的对角线向量可以求\(\vec{a}^{o}+\vec{b}^{o</description>
+    </item>
     
     <item>
       <title>BLWL[27] Shell 杂记</title>
