@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 29 Jan 2020 18:56:28 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 12:54:52 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Numpy散记 -- clip函数的使用</title>
+      <link>https://GodLovesJonny.github.io/2020/numpy-clip/</link>
+      <pubDate>Tue, 21 Apr 2020 12:54:52 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/numpy-clip/</guid>
+      <description>函数原型 numpy.clip(a, a_min, a_max, out=None, **kwargs) 参数 a：数组 a_max：数组元素最大值 a_min：数组元素最小值 功能 np.clip()函数用于将数组元素的值保持在给定区间</description>
+    </item>
     
     <item>
       <title>基于人脸检测的自动口罩/护目镜佩戴小程序</title>
