@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 21 Apr 2020 12:54:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 13:09:31 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/cv/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Numpy散记 -- allclose函数的使用</title>
+      <link>https://GodLovesJonny.github.io/2020/numpy-allclose/</link>
+      <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/numpy-allclose/</guid>
+      <description>函数原型 numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False) 参数 a, b：用于比较的两个输入数组 rtol：float型，相对容忍系数（relative tolerance parameter） atol：fl</description>
+    </item>
     
     <item>
       <title>Numpy散记 -- clip函数的使用</title>

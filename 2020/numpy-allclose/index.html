@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="https://GodLovesJonny.github.io/2020/math-dw/" />
-  <link rel="next" href="https://GodLovesJonny.github.io/2020/numpy-allclose/" />
-  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/numpy-clip/" />
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/numpy-clip/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/numpy-allclose/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           Numpy散记 -- clip函数的使用 | Jonathan`s Blog
+           Numpy散记 -- allclose函数的使用 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="Numpy散记 -- clip函数的使用 | Jonathan`s Blog">
+  <meta name="title" content="Numpy散记 -- allclose函数的使用 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "https:\/\/GodLovesJonny.github.io"
     },
     "articleSection" : "posts",
-    "name" : "Numpy散记 -- clip函数的使用",
-    "headline" : "Numpy散记 -- clip函数的使用",
-    "description" : "函数原型 numpy.clip(a, a_min, a_max, out=None, **kwargs) 参数 a：数组 a_max：数组元素最大值 a_min：数组元素最小值 功能 np.clip()函数用于将数组元素的值保持在给定区间",
+    "name" : "Numpy散记 -- allclose函数的使用",
+    "headline" : "Numpy散记 -- allclose函数的使用",
+    "description" : "函数原型 numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False) 参数 a, b：用于比较的两个输入数组 rtol：float型，相对容忍系数（relative tolerance parameter） atol：fl",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-04-21 12:54:52 \x2b0800 CST",
-    "dateModified" : "2020-04-21 12:54:52 \x2b0800 CST",
-    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/numpy-clip\/",
-    "wordCount" : "177",
+    "datePublished": "2020-04-21 13:09:31 \x2b0800 CST",
+    "dateModified" : "2020-04-21 13:09:31 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/numpy-allclose\/",
+    "wordCount" : "473",
     "keywords" : [ "cv","numpy","python","notes", "Jonathan`s Blog"]
 }
 </script>
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Numpy散记 -- clip函数的使用</h1>
+        <h1 class="post-title" itemprop="name headline">Numpy散记 -- allclose函数的使用</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
@@ -167,7 +167,7 @@
                         <a href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 177 words</span>
+                <span class="post-word-count">, 473 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -188,29 +188,40 @@
 
           <h1 id="函数原型">函数原型</h1>
 <blockquote>
-<p>numpy.clip(a, a_min, a_max, out=None, **kwargs)</p>
+<p>numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False)</p>
 </blockquote>
 <h1 id="参数">参数</h1>
 <ul>
-<li><strong>a</strong>：数组</li>
-<li><strong>a_max</strong>：数组元素最大值</li>
-<li><strong>a_min</strong>：数组元素最小值</li>
+<li><strong>a</strong>, <strong>b</strong>：用于比较的两个输入数组</li>
+<li><strong>rtol</strong>：float型，相对容忍系数（relative tolerance parameter）</li>
+<li><strong>atol</strong>：float型，绝对容忍系数（absolute tolerance parameter）</li>
+<li><strong>equal_nan</strong>：bool型，是否在比较时认为NaN相等，若设为True，数组a中的shiyogNaN会被认为与数组b中的NaN相等</li>
 </ul>
 <h1 id="功能">功能</h1>
-<p>np.clip()函数用于将数组元素的值保持在给定区间内，超出给定区间的元素值被裁剪到区间边缘。</p>
+<p>np.allclose()函数用于比较给定数组的各对应元素是否都在一定限度内足够接近。</p>
+<p>容忍系数是<strong>正数</strong>，通常较小。相对差异（rtol * abs(b)）和绝对差异（atol）的和用来和a与b之差的绝对值进行比较，即若所有对应元素都满足</p>
+<p>$$|a - b| \le atol + rtol \cdot |b|,$$</p>
+<p>则函数返回True。</p>
+<p>显然，上式对于数组a和b并不对称，所以有时<code>np.all_close(a, b)</code>的返回值可能与<code>np.all_close(b, a)</code>不同。</p>
+<p>数组a与b的比较适用广播原则，因此两数组的形状不一定需要一样。</p>
 <h1 id="例子">例子</h1>
-<pre><code>&gt;&gt;&gt; a = np.arange(10)
-&gt;&gt;&gt; np.clip(a, 1, 8)
-array([1, 1, 2, 3, 4, 5, 6, 7, 8, 8])
-&gt;&gt;&gt; a
-array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-&gt;&gt;&gt; np.clip(a, 3, 6, out=a)
-array([3, 3, 3, 3, 4, 5, 6, 6, 6, 6])
-&gt;&gt;&gt; a = np.arange(10)
-&gt;&gt;&gt; a
-array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-&gt;&gt;&gt; np.clip(a, [3, 4, 1, 1, 1, 4, 4, 4, 4, 4], 8)
-array([3, 4, 2, 3, 4, 5, 6, 7, 8, 8])
+<pre><code>&gt;&gt;&gt; np.allclose([1e10,1e-7], [1.00001e10,1e-8])
+False
+&gt;&gt;&gt; np.allclose([1e10,1e-8], [1.00001e10,1e-9])
+True
+&gt;&gt;&gt; np.allclose([1e10,1e-8], [1.0001e10,1e-9])
+False
+&gt;&gt;&gt; np.allclose([1.0, np.nan], [1.0, np.nan])
+False
+&gt;&gt;&gt; np.allclose([1.0, np.nan], [1.0, np.nan], equal_nan=True)
+True
+
+&gt;&gt;&gt; array1 = np.array([0.12,0.17,0.24,0.29])
+&gt;&gt;&gt; array2 = np.array([0.13,0.19,0.26,0.31])
+&gt;&gt;&gt; np.allclose(array1,array2,0.1)  # 在0.1的容忍度下返回False
+False
+&gt;&gt;&gt; np.allclose(array1,array2,0.2)  # 在0.2的容忍度下返回True
+True
 </code></pre>
 
     </div>
@@ -226,7 +237,7 @@ array([3, 4, 2, 3, 4, 5, 6, 7, 8, 8])
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://GodLovesJonny.github.io/2020/numpy-clip/>https://GodLovesJonny.github.io/2020/numpy-clip/</span>
+                    <a href=https://GodLovesJonny.github.io/2020/numpy-allclose/>https://GodLovesJonny.github.io/2020/numpy-allclose/</span>
             </p>
             
              
@@ -264,10 +275,10 @@ array([3, 4, 2, 3, 4, 5, 6, 7, 8, 8])
 
     <div class="post-nav">
         
-        <a href="https://GodLovesJonny.github.io/2020/math-dw/" class="prev" rel="prev" title="考研数学复习杂笔记 -- 多元函数微分学"><i class="iconfont icon-left"></i>&nbsp;考研数学复习杂笔记 -- 多元函数微分学</a>
+        <a href="https://GodLovesJonny.github.io/2020/numpy-clip/" class="prev" rel="prev" title="Numpy散记 -- clip函数的使用"><i class="iconfont icon-left"></i>&nbsp;Numpy散记 -- clip函数的使用</a>
          
         
-        <a href="https://GodLovesJonny.github.io/2020/numpy-allclose/" class="next" rel="next" title="Numpy散记 -- allclose函数的使用">Numpy散记 -- allclose函数的使用&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -276,7 +287,7 @@ array([3, 4, 2, 3, 4, 5, 6, 7, 8, 8])
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
