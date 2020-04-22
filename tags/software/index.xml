@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Jonathan`s Blog</title>
+    <link>https://GodLovesJonny.github.io/tags/software/</link>
+    <description>Recent content in software on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Wed, 22 Apr 2020 14:31:05 +0800</lastBuildDate>
+    
+	<atom:link href="https://GodLovesJonny.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>软件工程复习笔记</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes/</link>
+      <pubDate>Wed, 22 Apr 2020 14:31:05 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes/</guid>
+      <description>Software Process Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to be complete before moving onto the next phase.) The waterfall model is</description>
+    </item>
+    
+  </channel>
+</rss>

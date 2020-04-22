@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="https://GodLovesJonny.github.io/2020/numpy-clip/" />
-  <link rel="next" href="https://GodLovesJonny.github.io/2020/se-notes/" />
-  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/numpy-allclose/" />
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/numpy-allclose/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           Numpy散记 -- allclose函数的使用 | Jonathan`s Blog
+           软件工程复习笔记 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="Numpy散记 -- allclose函数的使用 | Jonathan`s Blog">
+  <meta name="title" content="软件工程复习笔记 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "https:\/\/GodLovesJonny.github.io"
     },
     "articleSection" : "posts",
-    "name" : "Numpy散记 -- allclose函数的使用",
-    "headline" : "Numpy散记 -- allclose函数的使用",
-    "description" : "函数原型 numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False) 参数 a, b：用于比较的两个输入数组 rtol：float型，相对容忍系数（relative tolerance parameter） atol：fl",
+    "name" : "软件工程复习笔记",
+    "headline" : "软件工程复习笔记",
+    "description" : "Software Process Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to be complete before moving onto the next phase.) The waterfall model is",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-04-21 13:09:31 \x2b0800 CST",
-    "dateModified" : "2020-04-21 13:09:31 \x2b0800 CST",
-    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/numpy-allclose\/",
-    "wordCount" : "469",
-    "keywords" : [ "cv","numpy","python","notes", "Jonathan`s Blog"]
+    "datePublished": "2020-04-22 14:31:05 \x2b0800 CST",
+    "dateModified" : "2020-04-22 14:31:05 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes\/",
+    "wordCount" : "348",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,19 +155,19 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Numpy散记 -- allclose函数的使用</h1>
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-04-21 itemprop="datePublished">April 21, 2020</time>
+                on <time datetime=2020-04-22 itemprop="datePublished">April 22, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/"> Alchemy Of CV </a>
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 469 words</span>
+                <span class="post-word-count">, 348 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -186,43 +186,23 @@
           
           
 
-          <h1 id="函数原型">函数原型</h1>
-<blockquote>
-<p>numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False)</p>
-</blockquote>
-<h1 id="参数">参数</h1>
+          <h1 id="software-process">Software Process</h1>
 <ul>
-<li><strong>a</strong>, <strong>b</strong>：用于比较的两个输入数组</li>
-<li><strong>rtol</strong>：float型，相对容忍系数（relative tolerance parameter）</li>
-<li><strong>atol</strong>：float型，绝对容忍系数（absolute tolerance parameter）</li>
-<li><strong>equal_nan</strong>：bool型，是否在比较时认为NaN相等，若设为True，数组a中的使用NaN会被认为与数组b中的NaN相等</li>
+<li><strong>Software process models</strong>: The waterfall model, Incremental development, Reuse-oriented software engineering.</li>
+<li><strong>Waterfall model phases</strong>: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance.</li>
+<li>The <strong>main drawback of the waterfall model</strong>: the difficulty of accommodating change after the process is underway. (In principle, a phase has to be complete before moving onto the next phase.)</li>
+<li>The <strong>waterfall model</strong> is mostly used for <strong>large systems</strong>. (stable requirements, only appropriate when the requirements are well-understood and changes will be fairly limited during the design process)</li>
+<li><strong>Incremental development benefits</strong>: 1. The <strong>cost of accommodating changing customer requirements</strong> is reduced; 2. It is <strong>easier to get customer feedback</strong> on the development work that has been done; 3. <strong>More rapid delivery and deployment</strong> of useful software to the customer is possible.</li>
+<li><strong>Incremental development problems</strong>: 1. The <strong>process is not visible</strong> (lack of documents); 2. <strong>System structure tends to degrade</strong> as new increments are added.</li>
+<li>Process stages of <strong>reuse-oriented software engineering</strong>: Requirements specification; Component analysis; Requirements modification; System design with reuse; Development and integration; System validation.</li>
+<li><strong>Software specification</strong> is the process of establishing what <strong>services are required</strong> and <strong>the constraints</strong> on the system’s operation and development.</li>
+<li><strong>Requirements engineering process</strong>: Feasibility study (Feasibility report); Requirements elicitation and analysis (System model); Requirements specification (User and system requirements); Requirements validation (Requirements document).</li>
+<li>Requirement specification (<strong>what to do</strong>) / Software design (<strong>how to do</strong>)</li>
+<li><strong>Design activities</strong>: Architectural design; Interface design; Component design; Database design.</li>
+<li><strong>Software validation</strong>: <strong>Verification and validation (V &amp; V)</strong> is intended to show that a system conforms to its specification and meets the requirements of the system customer, which involves <strong>checking and review</strong> processes and <strong>system testing</strong> (most commonly used).</li>
+<li><strong>Testing stages</strong>: Development or component testing (<strong>Individual components</strong> are tested independently); System testing (Testing of the system <strong>as a whole</strong>); Acceptance testing (Testing with customer data to check that the system <strong>meets the customer’s needs</strong>).</li>
+<li><strong>Software evolution</strong>: Define system requirements; Assess existing systems; Propose system changes; Modify systems.</li>
 </ul>
-<h1 id="功能">功能</h1>
-<p>np.allclose()函数用于比较给定数组的各对应元素是否都在一定限度内足够接近。</p>
-<p>容忍系数是<strong>正数</strong>，通常较小。相对差异（rtol * abs(b)）和绝对差异（atol）的和用来和a与b之差的绝对值进行比较，即若所有对应元素都满足</p>
-<p>$$|a - b| \le atol + rtol \cdot |b|,$$</p>
-<p>则函数返回True。</p>
-<p>显然，上式对于数组a和b并不对称，所以有时<code>np.all_close(a, b)</code>的返回值可能与<code>np.all_close(b, a)</code>不同。</p>
-<p>数组a与b的比较适用广播原则，因此两数组的形状不一定需要一样。</p>
-<h1 id="例子">例子</h1>
-<pre><code>&gt;&gt;&gt; np.allclose([1e10,1e-7], [1.00001e10,1e-8])
-False
-&gt;&gt;&gt; np.allclose([1e10,1e-8], [1.00001e10,1e-9])
-True
-&gt;&gt;&gt; np.allclose([1e10,1e-8], [1.0001e10,1e-9])
-False
-&gt;&gt;&gt; np.allclose([1.0, np.nan], [1.0, np.nan])
-False
-&gt;&gt;&gt; np.allclose([1.0, np.nan], [1.0, np.nan], equal_nan=True)
-True
-
-&gt;&gt;&gt; array1 = np.array([0.12,0.17,0.24,0.29])
-&gt;&gt;&gt; array2 = np.array([0.13,0.19,0.26,0.31])
-&gt;&gt;&gt; np.allclose(array1,array2,0.1)  # 在0.1的容忍度下返回False
-False
-&gt;&gt;&gt; np.allclose(array1,array2,0.2)  # 在0.2的容忍度下返回True
-True
-</code></pre>
 
     </div>
 
@@ -237,7 +217,7 @@ True
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://GodLovesJonny.github.io/2020/numpy-allclose/>https://GodLovesJonny.github.io/2020/numpy-allclose/</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes/>https://GodLovesJonny.github.io/2020/se-notes/</span>
             </p>
             
              
@@ -253,14 +233,8 @@ True
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/cv/">
-                    #cv</a></span>
-            
-            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/numpy/">
-                    #numpy</a></span>
-            
-            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/python/">
-                    #python</a></span>
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
             
             <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
                     #notes</a></span>
@@ -275,10 +249,10 @@ True
 
     <div class="post-nav">
         
-        <a href="https://GodLovesJonny.github.io/2020/numpy-clip/" class="prev" rel="prev" title="Numpy散记 -- clip函数的使用"><i class="iconfont icon-left"></i>&nbsp;Numpy散记 -- clip函数的使用</a>
+        <a href="https://GodLovesJonny.github.io/2020/numpy-allclose/" class="prev" rel="prev" title="Numpy散记 -- allclose函数的使用"><i class="iconfont icon-left"></i>&nbsp;Numpy散记 -- allclose函数的使用</a>
          
         
-        <a href="https://GodLovesJonny.github.io/2020/se-notes/" class="next" rel="next" title="软件工程复习笔记">软件工程复习笔记&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -287,7 +261,7 @@ True
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
