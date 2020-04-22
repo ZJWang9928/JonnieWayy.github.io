@@ -56,7 +56,7 @@
     "articleSection" : "posts",
     "name" : "软件工程复习笔记",
     "headline" : "软件工程复习笔记",
-    "description" : "Software Process Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to be complete before moving onto the next phase.) The waterfall model is",
+    "description" : "Software Process Software processes are the activities involved in producing a software system. General Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -67,7 +67,7 @@
     "datePublished": "2020-04-22 14:31:05 \x2b0800 CST",
     "dateModified" : "2020-04-22 14:31:05 \x2b0800 CST",
     "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes\/",
-    "wordCount" : "447",
+    "wordCount" : "918",
     "keywords" : [ "software","notes", "Jonathan`s Blog"]
 }
 </script>
@@ -167,7 +167,7 @@
                         <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 447 words</span>
+                <span class="post-word-count">, 918 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -188,7 +188,8 @@
 
           <h1 id="software-process">Software Process</h1>
 <ul>
-<li><strong>Software process models</strong>: The waterfall model, Incremental development, Reuse-oriented software engineering.</li>
+<li><strong>Software processes</strong> are the activities involved in producing a software system.</li>
+<li><strong>General Software process models</strong>: The waterfall model, Incremental development, Reuse-oriented software engineering.</li>
 <li><strong>Waterfall model phases</strong>: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance.</li>
 <li>The <strong>main drawback of the waterfall model</strong>: the difficulty of accommodating change after the process is underway. (In principle, a phase has to be complete before moving onto the next phase.)</li>
 <li>The <strong>waterfall model</strong> is mostly used for <strong>large systems</strong>. (stable requirements, only appropriate when the requirements are well-understood and changes will be fairly limited during the design process)</li>
@@ -205,7 +206,136 @@
 <li><strong>Reducing the costs of rework</strong>: change <strong>avoidance</strong> (where the software process includes activities that can <strong>anticipate possible changes</strong> before significant rework is required; <strong>prototype system</strong>) and change <strong>tolerance</strong> (where the process is designed so that changes can be <strong>accommodated at relatively low cost</strong>; <strong>incremental development</strong>).</li>
 <li><strong>A prototype</strong> is an initial version of a system used to demonstrate concepts and try out design options.</li>
 <li>A prototype can be used in: <strong>The requirements engineering process</strong> to help with requirements elicitation and validation; <strong>In design processes</strong> to explore options and develop a UI design; <strong>In the testing process</strong> to run back-to-back tests.</li>
+<li>Prototype development <strong>may involve leaving out functionality</strong>.</li>
+<li><strong>Incremental development and delivery \(\downarrow\)</strong></li>
 </ul>
+<table>
+<thead>
+<tr>
+<th>Incremental development</th>
+<th>Incremental delivery</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Develop the system in increments and evaluate each increment before proceeding to the development of the next increment;</td>
+<td>Deploy an increment for use by end-users;</td>
+</tr>
+<tr>
+<td>Normal approach used in agile methods;</td>
+<td>More realistic evaluation about practical use of software;</td>
+</tr>
+<tr>
+<td>Evaluation done by user/customer proxy.</td>
+<td>Difficult to implement for replacement systems as increments have less functionality than the system being replaced.</td>
+</tr>
+<tr>
+<td>Deliver after finishing.</td>
+<td>Deliver every increment.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Incremental delivery pros and cons \(\downarrow\)</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Customer value can be delivered with each increment so <strong>system functionality is available earlier</strong>.</td>
+<td>Most systems <strong>require a set of basic facilities that are used by different parts of the system.</strong></td>
+</tr>
+<tr>
+<td><strong>Early increments act as a prototype</strong> to help elicit requirements for later increments.</td>
+<td>The essence of <strong>iterative processes</strong> is that the specification is developed in conjunction with the software.</td>
+</tr>
+<tr>
+<td>Lower risk of <strong>overall project failure</strong>.</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>The highest priority system services</strong> tend to receive the most testing.</td>
+<td>&mdash;</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Incremental delivery</strong> combines advantages of <strong>waterfall model</strong> and <strong>incremental development</strong>, which can deal with software changes well.</li>
+<li><strong>Boehm’s spiral model</strong>: 1. Process is represented as a <strong>spiral</strong> rather than as a sequence of activities with backtracking; 2. <strong>Each loop</strong> in the spiral represents <strong>a phase in the process</strong>; 3. No fixed phases such as specification or design - <strong>loops in the spiral are chosen depending on what is required</strong>; 4. <strong>Risks are explicitly assessed and resolved</strong> throughout the process.</li>
+<li><strong>Spiral model sectors</strong>: Objective setting; Risk assessment and reduction; Development and validation; Planning (for the next phase).</li>
+<li><strong>The Rational Unified Process (RUP)</strong> is a modern generic process derived from the work on the UML and associated process, bringing together aspects of the 3 generic process models discussed previously.</li>
+<li>RUP is organized into phases (inception, elaboration, construction and transition) but separates activities (requirements, analysis and design, etc.) from these phases.</li>
+<li><strong>RUP phases\(\downarrow\)</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Activities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inception</td>
+<td>Establish the business case for the system.</td>
+</tr>
+<tr>
+<td>Elaboration</td>
+<td>Develop an understanding of the problem domain and the system architecture.</td>
+</tr>
+<tr>
+<td>Construction</td>
+<td>System design, programming and testing.</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Deploy the system in its operating environment.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>RUP good practice\(\downarrow\)</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Develop software <strong>iteratively</strong></td>
+<td>Plan increments based on customer priorities and deliver highest priority increments first.</td>
+</tr>
+<tr>
+<td>Manage requirements</td>
+<td>Explicitly document customer requirements and keep track of changes to these requirements.</td>
+</tr>
+<tr>
+<td>Use component-based architectures</td>
+<td>Organize the system architecture as a set of reusable components.</td>
+</tr>
+<tr>
+<td>Visually model software</td>
+<td>Use <strong>graphical UML models</strong> to present static and dynamic views of the software.</td>
+</tr>
+<tr>
+<td>Verify software quality</td>
+<td>Ensure that the software meet’s organizational quality standards.</td>
+</tr>
+<tr>
+<td>Control changes to software</td>
+<td>Manage software changes using a change management system and configuration management tools.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="agile-software-development">Agile Software Development</h1>
 
     </div>
 
@@ -264,7 +394,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
