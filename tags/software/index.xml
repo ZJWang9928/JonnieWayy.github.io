@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 17:18:47 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 17:24:10 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件工程复习笔记[3] - Requirements Engineering</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes3/</link>
+      <pubDate>Wed, 22 Apr 2020 17:24:10 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes3/</guid>
+      <description>Types Of Requirement User requirements: Statements in natural language plus diagrams of the services the system provides and its operational constraints. Written for customers. System requirements: A structured document setting out detailed descriptions of the system’s functions, services and operational constraints. Defines what should be implemented so may be part of a contract between client and contractor. Functional And Non-functional Requirements Functional requirements</description>
+    </item>
     
     <item>
       <title>软件工程复习笔记[2] - Agile Software Development</title>

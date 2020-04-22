@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/se-notes2/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes3/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           软件工程复习笔记[3] - Requirements Engineering | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="软件工程复习笔记[3] - Requirements Engineering | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "软件工程复习笔记[3] - Requirements Engineering",
+    "headline" : "软件工程复习笔记[3] - Requirements Engineering",
+    "description" : "Types Of Requirement User requirements: Statements in natural language plus diagrams of the services the system provides and its operational constraints. Written for customers. System requirements: A structured document setting out detailed descriptions of the system’s functions, services and operational constraints. Defines what should be implemented so may be part of a contract between client and contractor. Functional And Non-functional Requirements Functional requirements",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-22 17:24:10 \x2b0800 CST",
+    "dateModified" : "2020-04-22 17:24:10 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes3\/",
+    "wordCount" : "468",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://GodLovesJonny.github.io">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://GodLovesJonny.github.io">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记[3] - Requirements Engineering</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-22 itemprop="datePublished">April 22, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 468 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="types-of-requirement">Types Of Requirement</h1>
+<ul>
+<li><strong>User requirements</strong>: Statements in <strong>natural language plus diagrams</strong> of the services the system provides and its operational constraints. Written for customers.</li>
+<li><strong>System requirements</strong>: <strong>A structured document setting out detailed descriptions</strong> of the system’s functions, services and operational constraints. Defines what should be implemented so may be part of a contract between client and contractor.</li>
+</ul>
+<h1 id="functional-and-non-functional-requirements">Functional And Non-functional Requirements</h1>
+<h3 id="functional-requirements">Functional requirements</h3>
+<ul>
+<li>Statements of services the system should provide, how the system should <strong>react to particular inputs</strong> and how the system should <strong>behave in particular situations</strong>.</li>
+<li>May state what the system should not do.</li>
+</ul>
+<h3 id="non-functional-requirements">Non-functional requirements</h3>
+<ul>
+<li>Constraints on the services or functions offered by the system such as timing constraints, constraints on the development process, standards, etc.</li>
+<li>Often apply to the system <strong>as a whole</strong> rather than individual features or services.</li>
+<li>Non-functional requirements may be <strong>more critical than functional requirements</strong>. If these are not met, the system may be useless.</li>
+<li>Non-functional requirements may <strong>affect the overall architecture</strong> of a system rather than the individual components.</li>
+<li>A single non-functional requirement, such as a security requirement, may <strong>generate a number of related functional requirements</strong> that define system services that are required.</li>
+<li>Non-functional requirements may be very <strong>difficult to state precisely</strong> and imprecise requirements may be <strong>difficult to verify</strong>.</li>
+</ul>
+<h3 id="domain-requirements">Domain requirements</h3>
+<ul>
+<li>Constraints on the system from the domain of operation.</li>
+</ul>
+<h2 id="requirements-completeness-and-consistency">Requirements completeness and consistency</h2>
+<h3 id="complete">Complete</h3>
+<ul>
+<li>They should include descriptions of all facilities required.</li>
+</ul>
+<h3 id="consistent">Consistent</h3>
+<ul>
+<li>There should be no conflicts or contradictions in the descriptions of the system facilities.</li>
+</ul>
+<p>In principle, requirements should be both complete and consistent.   <br>
+In practice, it is impossible to produce a complete and consistent requirements document.</p>
+<h1 id="requirements-engineering-processes">Requirements Engineering Processes</h1>
+<h3 id="generic-activities">Generic activities</h3>
+<ul>
+<li>Requirements elicitation;</li>
+<li>Requirements analysis;</li>
+<li>Requirements validation;</li>
+<li>Requirements management.</li>
+</ul>
+<p>In practice, RE is an <strong>iterative activity</strong> in which these processes are interleaved.</p>
+<h3 id="stages-of-requirements-elicitation-and-analysis">Stages of Requirements elicitation and analysis</h3>
+<ul>
+<li>Requirements discovery (Interaction is with system stakeholders from managers to external regulators.);</li>
+<li>Requirements classification and organization;</li>
+<li>Requirements prioritization and negotiation;</li>
+<li>Requirements specification.</li>
+</ul>
+<h2 id="interviewing">Interviewing</h2>
+<p>Formal or informal interviews with stakeholders are part of most RE processes.</p>
+<h3 id="types-of-interview">Types of interview</h3>
+<ul>
+<li><strong>Closed interviews</strong> based on pre-determined list of questions;</li>
+<li><strong>Open interviews</strong> where various issues are explored with stakeholders.</li>
+</ul>
+<p>Normally <strong>a mix of closed and open-ended interviewing</strong>.<br>
+Interviews are <strong>good for getting an overall understanding</strong> of what stakeholders do and how they might interact with the system.    <br>
+Interviews are <strong>not good for understanding domain requirements</strong>.</p>
+<h2 id="ethnography">Ethnography</h2>
+<p><strong>To spends a considerable time observing and analysing how people actually work</strong>.  <br>
+Ethnography is effective for <strong>understanding existing processes</strong> but <strong>cannot identify new features</strong> that should be added to a system.     <br>
+Ethnography can be combined with prototyping. <strong>Prototype development</strong> results in unanswered questions which focus the ethnographic analysis.     <br>
+The <strong>problem with ethnography</strong> is that it studies existing practices which may have some historical basis which is no longer relevant.</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes3/>https://GodLovesJonny.github.io/2020/se-notes3/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/se-notes2/" class="prev" rel="prev" title="软件工程复习笔记[2] - Agile Software Development"><i class="iconfont icon-left"></i>&nbsp;软件工程复习笔记[2] - Agile Software Development</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
