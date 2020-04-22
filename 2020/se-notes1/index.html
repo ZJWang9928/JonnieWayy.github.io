@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/numpy-allclose/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/se-notes2/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes1/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           软件工程复习笔记[1] - Software Process | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="软件工程复习笔记[1] - Software Process | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "软件工程复习笔记[1] - Software Process",
+    "headline" : "软件工程复习笔记[1] - Software Process",
+    "description" : "Software Process Software processes are the activities involved in producing a software system. General Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-22 14:31:05 \x2b0800 CST",
+    "dateModified" : "2020-04-22 14:31:05 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes1\/",
+    "wordCount" : "915",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://GodLovesJonny.github.io">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://GodLovesJonny.github.io">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记[1] - Software Process</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-22 itemprop="datePublished">April 22, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 915 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="software-process">Software Process</h1>
+<ul>
+<li><strong>Software processes</strong> are the activities involved in producing a software system.</li>
+<li><strong>General Software process models</strong>: The waterfall model, Incremental development, Reuse-oriented software engineering.</li>
+<li><strong>Waterfall model phases</strong>: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance.</li>
+<li>The <strong>main drawback of the waterfall model</strong>: the difficulty of accommodating change after the process is underway. (In principle, a phase has to be complete before moving onto the next phase.)</li>
+<li>The <strong>waterfall model</strong> is mostly used for <strong>large systems</strong>. (stable requirements, only appropriate when the requirements are well-understood and changes will be fairly limited during the design process)</li>
+<li><strong>Incremental development benefits</strong>: 1. The <strong>cost of accommodating changing customer requirements</strong> is reduced; 2. It is <strong>easier to get customer feedback</strong> on the development work that has been done; 3. <strong>More rapid delivery and deployment</strong> of useful software to the customer is possible.</li>
+<li><strong>Incremental development problems</strong>: 1. The <strong>process is not visible</strong> (lack of documents); 2. <strong>System structure tends to degrade</strong> as new increments are added.</li>
+<li>Process stages of <strong>reuse-oriented software engineering</strong>: Requirements specification; Component analysis; Requirements modification; System design with reuse; Development and integration; System validation.</li>
+<li><strong>Software specification</strong> is the process of establishing what <strong>services are required</strong> and <strong>the constraints</strong> on the system’s operation and development.</li>
+<li><strong>Requirements engineering process</strong>: Feasibility study (Feasibility report); Requirements elicitation and analysis (System model); Requirements specification (User and system requirements); Requirements validation (Requirements document).</li>
+<li>Requirement specification (<strong>what to do</strong>) / Software design (<strong>how to do</strong>)</li>
+<li><strong>Design activities</strong>: Architectural design; Interface design; Component design; Database design.</li>
+<li><strong>Software validation</strong>: <strong>Verification and validation (V &amp; V)</strong> is intended to show that a system conforms to its specification and meets the requirements of the system customer, which involves <strong>checking and review</strong> processes and <strong>system testing</strong> (most commonly used).</li>
+<li><strong>Testing stages</strong>: Development or component testing (<strong>Individual components</strong> are tested independently); System testing (Testing of the system <strong>as a whole</strong>); Acceptance testing (Testing with customer data to check that the system <strong>meets the customer’s needs</strong>).</li>
+<li><strong>Software evolution</strong>: Define system requirements; Assess existing systems; Propose system changes; Modify systems.</li>
+<li><strong>Reducing the costs of rework</strong>: change <strong>avoidance</strong> (where the software process includes activities that can <strong>anticipate possible changes</strong> before significant rework is required; <strong>prototype system</strong>) and change <strong>tolerance</strong> (where the process is designed so that changes can be <strong>accommodated at relatively low cost</strong>; <strong>incremental development</strong>).</li>
+<li><strong>A prototype</strong> is an initial version of a system used to demonstrate concepts and try out design options.</li>
+<li>A prototype can be used in: <strong>The requirements engineering process</strong> to help with requirements elicitation and validation; <strong>In design processes</strong> to explore options and develop a UI design; <strong>In the testing process</strong> to run back-to-back tests.</li>
+<li>Prototype development <strong>may involve leaving out functionality</strong>.</li>
+<li><strong>Incremental development and delivery \(\downarrow\)</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Incremental development</th>
+<th>Incremental delivery</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Develop the system in increments and evaluate each increment before proceeding to the development of the next increment;</td>
+<td>Deploy an increment for use by end-users;</td>
+</tr>
+<tr>
+<td>Normal approach used in agile methods;</td>
+<td>More realistic evaluation about practical use of software;</td>
+</tr>
+<tr>
+<td>Evaluation done by user/customer proxy.</td>
+<td>Difficult to implement for replacement systems as increments have less functionality than the system being replaced.</td>
+</tr>
+<tr>
+<td>Deliver after finishing.</td>
+<td>Deliver every increment.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Incremental delivery pros and cons \(\downarrow\)</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Customer value can be delivered with each increment so <strong>system functionality is available earlier</strong>.</td>
+<td>Most systems <strong>require a set of basic facilities that are used by different parts of the system.</strong></td>
+</tr>
+<tr>
+<td><strong>Early increments act as a prototype</strong> to help elicit requirements for later increments.</td>
+<td>The essence of <strong>iterative processes</strong> is that the specification is developed in conjunction with the software.</td>
+</tr>
+<tr>
+<td>Lower risk of <strong>overall project failure</strong>.</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td><strong>The highest priority system services</strong> tend to receive the most testing.</td>
+<td>&mdash;</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Incremental delivery</strong> combines advantages of <strong>waterfall model</strong> and <strong>incremental development</strong>, which can deal with software changes well.</li>
+<li><strong>Boehm’s spiral model</strong>: 1. Process is represented as a <strong>spiral</strong> rather than as a sequence of activities with backtracking; 2. <strong>Each loop</strong> in the spiral represents <strong>a phase in the process</strong>; 3. No fixed phases such as specification or design - <strong>loops in the spiral are chosen depending on what is required</strong>; 4. <strong>Risks are explicitly assessed and resolved</strong> throughout the process.</li>
+<li><strong>Spiral model sectors</strong>: Objective setting; Risk assessment and reduction; Development and validation; Planning (for the next phase).</li>
+<li><strong>The Rational Unified Process (RUP)</strong> is a modern generic process derived from the work on the UML and associated process, bringing together aspects of the 3 generic process models discussed previously.</li>
+<li>RUP is organized into phases (inception, elaboration, construction and transition) but separates activities (requirements, analysis and design, etc.) from these phases.</li>
+<li><strong>RUP phases\(\downarrow\)</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Activities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inception</td>
+<td>Establish the business case for the system.</td>
+</tr>
+<tr>
+<td>Elaboration</td>
+<td>Develop an understanding of the problem domain and the system architecture.</td>
+</tr>
+<tr>
+<td>Construction</td>
+<td>System design, programming and testing.</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Deploy the system in its operating environment.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>RUP good practice\(\downarrow\)</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Develop software <strong>iteratively</strong></td>
+<td>Plan increments based on customer priorities and deliver highest priority increments first.</td>
+</tr>
+<tr>
+<td>Manage requirements</td>
+<td>Explicitly document customer requirements and keep track of changes to these requirements.</td>
+</tr>
+<tr>
+<td>Use component-based architectures</td>
+<td>Organize the system architecture as a set of reusable components.</td>
+</tr>
+<tr>
+<td>Visually model software</td>
+<td>Use <strong>graphical UML models</strong> to present static and dynamic views of the software.</td>
+</tr>
+<tr>
+<td>Verify software quality</td>
+<td>Ensure that the software meet’s organizational quality standards.</td>
+</tr>
+<tr>
+<td>Control changes to software</td>
+<td>Manage software changes using a change management system and configuration management tools.</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes1/>https://GodLovesJonny.github.io/2020/se-notes1/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/numpy-allclose/" class="prev" rel="prev" title="Numpy散记 -- allclose函数的使用"><i class="iconfont icon-left"></i>&nbsp;Numpy散记 -- allclose函数的使用</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/se-notes2/" class="next" rel="next" title="软件工程复习笔记[2] - Agile Software Development">软件工程复习笔记[2] - Agile Software Development&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/se-notes1/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes2/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           软件工程复习笔记[2] - Agile Software Development | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="软件工程复习笔记[2] - Agile Software Development | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "软件工程复习笔记[2] - Agile Software Development",
+    "headline" : "软件工程复习笔记[2] - Agile Software Development",
+    "description" : "Agile Methods Features Focus on the code rather than the design. Are based on an iterative approach to software development. Are intended to deliver working software quickly and evolve this quickly to meet changing requirements. The aim of agile methods is to reduce overheads in the software process (e.g. by limiting documentation) and to be able to respond quickly to changing requirements without excessive rework. The principles of agile methods",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-22 17:18:47 \x2b0800 CST",
+    "dateModified" : "2020-04-22 17:18:47 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes2\/",
+    "wordCount" : "1373",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://GodLovesJonny.github.io">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://GodLovesJonny.github.io">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记[2] - Agile Software Development</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-22 itemprop="datePublished">April 22, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 1373 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="agile-methods">Agile Methods</h1>
+<h2 id="features">Features</h2>
+<ul>
+<li><strong>Focus on the code</strong> rather than the design.</li>
+<li>Are <strong>based on an iterative approach</strong> to software development.</li>
+<li>Are intended to <strong>deliver working software quickly and evolve this quickly</strong> to meet changing requirements.</li>
+</ul>
+<p>The <strong>aim of agile methods</strong> is to <strong>reduce overheads in the software process</strong> (e.g. by limiting documentation) and to be able to <strong>respond quickly to changing requirements without excessive rework</strong>.</p>
+<h2 id="the-principles-of-agile-methods">The principles of agile methods</h2>
+<table>
+<thead>
+<tr>
+<th>Principle</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Customer involvement</td>
+<td>Customers should be closely involved throughout the development process. Their role is provide and prioritize new system requirements and to evaluate the iterations of the system.</td>
+</tr>
+<tr>
+<td>Incremental delivery</td>
+<td>The software is developed in increments with the customer specifying the requirements to be included in each increment.</td>
+</tr>
+<tr>
+<td>People not process</td>
+<td>The skills of the development team should be recognized and exploited. Team members should be left to develop their own ways of working without prescriptive processes.</td>
+</tr>
+<tr>
+<td>Embrace change</td>
+<td>Expect the system requirements to change and so design the system to accommodate these changes.</td>
+</tr>
+<tr>
+<td>Maintain simplicity</td>
+<td>Focus on simplicity in both the software being developed and in the development process. Wherever possible, actively work to eliminate complexity from the system.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="agile-method-applicability">Agile method applicability</h2>
+<ul>
+<li><strong>small or medium-sized product</strong></li>
+<li>Custom system development within an organization, where there is a clear commitment from the <strong>customer to become involved in the development process</strong> and where there are not a lot of external rules and regulations that affect the software.</li>
+<li>Because of their focus on small, tightly-integrated teams, there are <strong>problems in scaling agile methods to large systems</strong>.</li>
+</ul>
+<h2 id="two-key-issues">Two key issues</h2>
+<ul>
+<li>Are systems that are developed using an agile approach <strong>maintainable</strong>, given the emphasis in the development process of <strong>minimizing formal documentation</strong>?</li>
+<li>Can agile methods be used effectively for <strong>evolving a system in response to customer change requests</strong>?</li>
+</ul>
+<p>Problems may arise if <strong>original development team cannot be maintained</strong>.</p>
+<h2 id="plan-driven-and-agile-development">Plan-driven and agile development</h2>
+<h3 id="plan-driven-development">Plan-driven development</h3>
+<ul>
+<li>A plan-driven approach to software engineering is <strong>based around separate development stages</strong> with the outputs to be produced at each of these stages planned in advance.</li>
+<li>Not necessarily waterfall model – plan-driven, <strong>incremental development is possible (delivered as a whole).</strong></li>
+<li>Iteration occurs within activities.</li>
+</ul>
+<h3 id="agile-development">Agile development</h3>
+<ul>
+<li><strong>Specification, design, implementation and testing are inter-leaved and the outputs</strong> from the development process are decided through a process of negotiation during the software development process.</li>
+<li>Agile methods rely on <strong>good tools</strong> to keep track of an evolving design.</li>
+</ul>
+<h1 id="extreme-programming-xp">Extreme Programming (XP)</h1>
+<p>Perhaps the best-known and most widely used agile method.</p>
+<p>Extreme Programming (XP) takes an <strong>‘extreme’ approach</strong> to iterative development:</p>
+<ul>
+<li>New versions may be built several times per day;</li>
+<li>Increments are delivered to customers every 2 weeks;</li>
+<li>All tests must be run for every build and the build is only accepted if tests run successfull.</li>
+</ul>
+<p>User requirements are expressed as <strong>scenarios</strong> or <strong>user stories</strong>, which are later broke into <strong>implementation tasks</strong>.</p>
+<p>A particular strength of extreme programming is the development of <strong>automated tests before a program feature is created</strong>. All tests must successfully execute when an increment is integrated into a system.</p>
+<h2 id="xp-practices">XP practices</h2>
+<table>
+<thead>
+<tr>
+<th>Principle or practive</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Incremental planning</td>
+<td>Requirements are recorded on story cards and the stories to be included in a release are determined by the time available and their relative priority. The developers break these stories into development ‘Tasks’.</td>
+</tr>
+<tr>
+<td>Small releases</td>
+<td>The minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the first release.</td>
+</tr>
+<tr>
+<td>Simple design</td>
+<td>Enough design is carried out to meet the current requirements and no more.</td>
+</tr>
+<tr>
+<td>Test-first development</td>
+<td>An <strong>automated unit test framework</strong> is used to write tests for a new piece of functionality before that functionality itself is implemented.</td>
+</tr>
+<tr>
+<td>Refactoring</td>
+<td>All developers are expected to refactor the code continuously as soon as possible code improvements are found. This keeps the code simple and maintainable. This <strong>improves the understandability</strong> of the software and so reduces the need for documentation. <strong>Changes are easier to make</strong> because the code is well-structured and clear. However, some changes requires architecture refactoring and this is much more expensive.</td>
+</tr>
+<tr>
+<td>Pair programming</td>
+<td>Developers work in pairs, checking each other’s work and providing the support to always do a good job.</td>
+</tr>
+<tr>
+<td>Collective ownership</td>
+<td>The pairs of developers work on all areas of the system, so that no islands of expertise develop and all the developers take responsibility for all of the code. Anyone can change anything.</td>
+</tr>
+<tr>
+<td>Continuous integration</td>
+<td>As soon as the work on a task is complete, it is integrated into the whole system. After any such integration, all the unit tests in the system must pass.</td>
+</tr>
+<tr>
+<td>Sustainable pace</td>
+<td>Large amounts of overtime are not considered acceptable as the net effect is often to reduce code quality and medium term productivity.</td>
+</tr>
+<tr>
+<td>On-site customer</td>
+<td>A representative of the end-user of the system (the customer) should be available full time for the use of the XP team. In an extreme programming process, the customer is a member of the development team and is responsible for bringing system requirements to the team for implementation.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="scrum">Scrum</h1>
+<p>The Scrum approach is a <strong>general agile method</strong> but its focus is on <strong>managing iterative development</strong> rather than specific agile practices.</p>
+<h2 id="three-phases-in-scrum">Three phases in Scrum:</h2>
+<ul>
+<li>The <strong>initial phase</strong> is an outline planning phase where you establish the general objectives for the project and design the software architecture.</li>
+<li>This is followed by a series of <strong>sprint cycles</strong> (<strong>Assess, Select, Review, Develop</strong>), where each cycle develops <strong>an increment</strong> of the system.</li>
+<li>The <strong>project closure phase</strong> wraps up the project, completes required documentation such as system help frames and user manuals and assesses the lessons learned from the project.</li>
+</ul>
+<h2 id="the-sprint-cycle">The Sprint cycle</h2>
+<p><strong>Sprints are fixed length, normally 2–4 weeks.</strong> They correspond to <strong>the development of a release</strong> of the system in XP.</p>
+<p>The starting point for planning is the product backlog, which is the list of work to be done on the project.</p>
+<p>The <strong>selection phase</strong> involves all of the project team who work with the customer to select the features and functionality to be developed during the sprint.</p>
+<p>Once these are agreed, the team organize themselves to <strong>develop</strong> the software. <strong>During this stage the team is isolated from the customer and the organization, with all communications channelled through the so-called ‘Scrum master’.</strong></p>
+<p>The role of the Scrum master is to <strong>protect the development team from external distractions</strong>.</p>
+<p>At the end of the sprint, the work done is <strong>reviewed and presented to stakeholders</strong>. The next sprint cycle then begins.</p>
+<h2 id="scrum-benefits">Scrum benefits</h2>
+<ul>
+<li>The product is <strong>broken down into a set of manageable and understandable chunks</strong>.</li>
+<li>Unstable requirements do not hold up progress.</li>
+<li>The whole team have visibility of everything and consequently team communication is improved.</li>
+<li>Customers see on-time delivery of increments and gain feedback on how the product works.</li>
+<li>Trust between customers and developers is established and a positive culture is created in which everyone expects the project to succeed.</li>
+</ul>
+<h1 id="scaling-agile-methods">Scaling Agile Methods</h1>
+<p>Agile methods have proved to be successful for small and medium sized projects that can be developed by a small co-located team. It is sometimes argued that the success of these methods comes because of improved communications which is possible when everyone is working together.</p>
+<p><strong>Scaling up agile methods</strong> involves changing these to cope with larger, longer projects where there are multiple development teams, perhaps working in different locations.</p>
+<h2 id="scaling-out-and-scaling-up">Scaling out and scaling up</h2>
+<ul>
+<li><strong>‘Scaling up’</strong> is concerned with using agile methods for developing large software systems that cannot be developed by a small team.</li>
+<li><strong>‘Scaling out’</strong> is concerned with how agile methods can be introduced across a large organization with many years of software development experience.</li>
+</ul>
+<p>When scaling agile methods, it is essential to maintain <strong>agile fundamentals</strong>:</p>
+<ul>
+<li>Flexible planning</li>
+<li>frequent system releases</li>
+<li>continuous integration</li>
+<li>test-driven development</li>
+<li>good team communications.</li>
+</ul>
+<p>For large systems development, it is not possible to focus only on the code of the system. You need to do more <strong>up-front design and system documentation</strong>. <strong>Cross-team communication mechanisms have to be designed and used.</strong></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes2/>https://GodLovesJonny.github.io/2020/se-notes2/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/se-notes1/" class="prev" rel="prev" title="软件工程复习笔记[1] - Software Process"><i class="iconfont icon-left"></i>&nbsp;软件工程复习笔记[1] - Software Process</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1400 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

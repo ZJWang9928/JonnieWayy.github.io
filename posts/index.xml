@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 14:31:05 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 17:18:47 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,11 +22,20 @@
     </item>
     
     <item>
-      <title>软件工程复习笔记</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes/</link>
+      <title>软件工程复习笔记[2] - Agile Software Development</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes2/</link>
+      <pubDate>Wed, 22 Apr 2020 17:18:47 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes2/</guid>
+      <description>Agile Methods Features Focus on the code rather than the design. Are based on an iterative approach to software development. Are intended to deliver working software quickly and evolve this quickly to meet changing requirements. The aim of agile methods is to reduce overheads in the software process (e.g. by limiting documentation) and to be able to respond quickly to changing requirements without excessive rework. The principles of agile methods</description>
+    </item>
+    
+    <item>
+      <title>软件工程复习笔记[1] - Software Process</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes1/</link>
       <pubDate>Wed, 22 Apr 2020 14:31:05 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes/</guid>
+      <guid>https://GodLovesJonny.github.io/2020/se-notes1/</guid>
       <description>Software Process Software processes are the activities involved in producing a software system. General Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to</description>
     </item>
     
