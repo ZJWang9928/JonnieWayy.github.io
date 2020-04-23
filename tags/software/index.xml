@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 23 Apr 2020 13:47:30 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2020 19:09:46 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件工程复习笔记[6] - Design And Implementation</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes6/</link>
+      <pubDate>Thu, 23 Apr 2020 19:09:46 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes6/</guid>
+      <description>Software design and implementation activities are invariably inter-leaved. An Object-oriented Design Process Object-oriented design processes involve developing a number of different system models. They require a lot of effort for development and maintenance of these models and, for small systems, this may not be cost-effective. However, for large systems developed by different groups design models are an important communication mechanism. Common activities Define the context and modes of use of</description>
+    </item>
     
     <item>
       <title>软件工程复习笔记[5] - Architectural Design</title>
