@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/se-notes4/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes5/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           软件工程复习笔记[5] - Architectural Design | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="软件工程复习笔记[5] - Architectural Design | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "软件工程复习笔记[5] - Architectural Design",
+    "headline" : "软件工程复习笔记[5] - Architectural Design",
+    "description" : "The design process for identifying the sub-systems making up a system and the framework for sub-system control and communication is architectural design, which is an early stage of the system design process. The output of this design process is a description of the software architecture. It represents the link between specification and design processes and is often carried out in parallel with some specification activities. Each architectural model only shows",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-23 13:47:30 \x2b0800 CST",
+    "dateModified" : "2020-04-23 13:47:30 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes5\/",
+    "wordCount" : "970",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://GodLovesJonny.github.io">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://GodLovesJonny.github.io">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记[5] - Architectural Design</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-23 itemprop="datePublished">April 23, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 970 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>The design process for <strong>identifying the sub-systems making up a system and the framework for sub-system control and communication</strong> is <strong>architectural design</strong>, which is an <strong>early stage</strong> of the system design process.      <br>
+The output of this design process is <strong>a description of the software architecture</strong>.     <br>
+It represents the <strong>link between specification and design</strong> processes and is often carried out <strong>in parallel with some specification activities</strong>.     <br>
+Each architectural model only shows <strong>one view or perspective</strong> of the system. For both <strong>design and documentation</strong>, you usually need to present <strong>multiple views</strong> of the software architecture.</p>
+<h1 id="4--1-view-model-of-software-architecture">4 + 1 View Model of Software Architecture</h1>
+<ul>
+<li><strong>A logical view</strong>, which shows the key abstractions in the system as objects or object classes.</li>
+<li><strong>A process view</strong>, which shows how, at run-time, the system is composed of interacting processes.</li>
+<li><strong>A development view</strong>, which shows how the software is decomposed for development.</li>
+<li><strong>A physical view</strong>, which shows the system hardware and how software components are distributed across the processors in the system.</li>
+<li><strong>Related using use cases or scenarios (+1)</strong></li>
+</ul>
+<p><img src="/images/2020/04/se-notes5/Picture1.png" alt="Pic"></p>
+<h3 id="logic-view">Logic View</h3>
+<p><img src="/images/2020/04/se-notes5/Picture2.png" alt="Pic"></p>
+<h3 id="development-view">Development View</h3>
+<p><img src="/images/2020/04/se-notes5/Picture3.png" alt="Pic"></p>
+<h3 id="process-view">Process View</h3>
+<p><img src="/images/2020/04/se-notes5/Picture4.png" alt="Pic"></p>
+<h3 id="physical-view">Physical View</h3>
+<p><img src="/images/2020/04/se-notes5/Picture5.png" alt="Pic"></p>
+<h1 id="architectural-patterns">Architectural Patterns</h1>
+<p>Patterns are a means of representing, sharing and reusing knowledge. <br>
+An architectural pattern is a <strong>stylized description of good design practice</strong>, which has been tried and tested in different environments.</p>
+<h2 id="the-model-view-controller-mvc-pattern">The Model-View-Controller (MVC) Pattern</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>MVC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Separates presentation and interaction from the system data. The system is structured into three logical components that interact with each other. The Model component manages the system data and associated operations on that data. The View component defines and manages how the data is presented to the user. The Controller component manages user interaction (e.g., key presses, mouse clicks, etc.) and passes these interactions to the View and the Model.</td>
+</tr>
+<tr>
+<td>When used</td>
+<td>Used when there are multiple ways to view and interact with data. Also used when the future requirements for interaction and presentation of data are unknown.</td>
+</tr>
+<tr>
+<td>Advantages</td>
+<td>Allows the data to change independently of its representation and vice versa. Supports presentation of the same data in different ways with changes made in one representation shown in all of them.</td>
+</tr>
+<tr>
+<td>Disadvantages</td>
+<td>Can involve additional code and code complexity when the data model and interactions are simple.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-organization-of-the-model-view-controller">The organization of the Model-View-Controller</h3>
+<p><img src="/images/2020/04/se-notes5/Picture6.png" alt="Pic"></p>
+<h3 id="web-application-architecture-using-the-mvc-pattern">Web application architecture using the MVC pattern</h3>
+<p><img src="/images/2020/04/se-notes5/Picture7.png" alt="Pic"></p>
+<h2 id="layered-architecture">Layered Architecture</h2>
+<ul>
+<li>Used to model the <strong>interfacing of sub-systems</strong>.</li>
+<li><strong>Organises the system into a set of layers</strong> (or abstract machines) each of which provide a set of services.</li>
+<li>Supports the <strong>incremental development of sub-systems</strong> in different layers. When a layer interface changes, only the adjacent layer is affected.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Layered Architecture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>Organizes the system into layers with related functionality associated with each layer. A layer provides services to the layer above it so the lowest-level layers represent core services that are likely to be used throughout the system.</td>
+</tr>
+<tr>
+<td>When used</td>
+<td>Used when building new facilities on top of existing systems; when the development is spread across several teams with each team responsibility for a layer of functionality; when there is a requirement for multi-level security.</td>
+</tr>
+<tr>
+<td>Advantages</td>
+<td>Allows replacement of entire layers so long as the interface is maintained. Redundant facilities (e.g., authentication) can be provided in each layer to increase the dependability of the system.</td>
+</tr>
+<tr>
+<td>Disadvantages</td>
+<td>In practice, providing a clean separation between layers is often difficult and a high-level layer may have to interact directly with lower-level layers rather than through the layer immediately below it. Performance can be a problem because of multiple levels of interpretation of a service request as it is processed at each layer.</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/images/2020/04/se-notes5/Picture8.png" alt="Pic"></p>
+<h2 id="repository-architecture">Repository Architecture</h2>
+<p>When <strong>large amounts of data</strong> are to be shared, the repository model of sharing is most commonly used a this is an efficient data sharing mechanism.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Repository</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>All data in a system is managed in a <strong>central repository</strong> that is accessible to all system components. Components do not interact directly, only through the repository.</td>
+</tr>
+<tr>
+<td>When used</td>
+<td>You should use this pattern when you have a system in which <strong>large volumes of information</strong> are generated that has to be stored for a long time. You may also use it in <strong>data-driven systems</strong> where the inclusion of data in the repository triggers an action or tool.</td>
+</tr>
+<tr>
+<td>Advantages</td>
+<td><strong>Components can be independent</strong>—they do not need to know of the existence of other components. Changes made by one component can be propagated to all components. All data can be managed <strong>consistently</strong> (e.g., backups done at the same time) as it is all in one place.</td>
+</tr>
+<tr>
+<td>Disadvantages</td>
+<td>The repository is a single point of failure so <strong>problems in the repository affect the whole system</strong>. May be inefficiencies in organizing all communication through the repository. Distributing the repository across several computers may be difficult.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="a-repository-architecture-for-an-ide">A repository architecture for an IDE</h3>
+<p><img src="/images/2020/04/se-notes5/Picture9.png" alt="Pic"></p>
+<h2 id="client-server-architecture">Client-server Architecture</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Client-server</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>In a client–server architecture, the functionality of the system is organized into services, with each service delivered from a separate server. Clients are users of these services and access servers to make use of them.</td>
+</tr>
+<tr>
+<td>When used</td>
+<td>Used when data in a shared database has to be <strong>accessed from a range of locations</strong>. Because servers can be replicated, may also be used when <strong>the load on a system is variable</strong>.</td>
+</tr>
+<tr>
+<td>Advantages</td>
+<td>The principal advantage of this model is that <strong>servers can be distributed across a network</strong>. General functionality (e.g., a printing service) can be available to all clients and does not need to be implemented by all services.</td>
+</tr>
+<tr>
+<td>Disadvantages</td>
+<td>Each service is a single point of failure so susceptible to denial of service attacks or server failure. Performance may be unpredictable because it depends on the network as well as the system. May be management problems if servers are owned by different organizations.</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes5/>https://GodLovesJonny.github.io/2020/se-notes5/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/se-notes4/" class="prev" rel="prev" title="软件工程复习笔记[4] - System Modeling"><i class="iconfont icon-left"></i>&nbsp;软件工程复习笔记[4] - System Modeling</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
