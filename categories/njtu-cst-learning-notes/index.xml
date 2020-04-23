@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 17:24:10 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2020 09:53:53 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件工程复习笔记[4] - System Modeling</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes4/</link>
+      <pubDate>Thu, 23 Apr 2020 09:53:53 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes4/</guid>
+      <description>System modeling is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system. System modeling helps the analyst to understand the functionality of the system and models are used to communicate with customers. Unified Modeling Language (UML) The UML is the standard language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system. It can be used</description>
+    </item>
     
     <item>
       <title>软件工程复习笔记[3] - Requirements Engineering</title>

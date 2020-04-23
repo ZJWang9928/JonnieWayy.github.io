@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/se-notes3/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes4/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           软件工程复习笔记[4] - System Modeling | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="软件工程复习笔记[4] - System Modeling | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "软件工程复习笔记[4] - System Modeling",
+    "headline" : "软件工程复习笔记[4] - System Modeling",
+    "description" : "System modeling is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system. System modeling helps the analyst to understand the functionality of the system and models are used to communicate with customers. Unified Modeling Language (UML) The UML is the standard language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system. It can be used",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-23 09:53:53 \x2b0800 CST",
+    "dateModified" : "2020-04-23 09:53:53 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes4\/",
+    "wordCount" : "1396",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://GodLovesJonny.github.io">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://GodLovesJonny.github.io">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记[4] - System Modeling</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-23 itemprop="datePublished">April 23, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 1396 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>System modeling is the process of <strong>developing abstract models of a system</strong>, with each model <strong>presenting a different view or perspective</strong> of that system. <br>
+System modeling helps the analyst to <strong>understand the functionality of the system</strong> and models are used to <strong>communicate with customers</strong>.</p>
+<h1 id="unified-modeling-language-uml">Unified Modeling Language (UML)</h1>
+<p>The UML is the standard language for <strong>visualizing, specifying, constructing, and documenting</strong> the artifacts of a software-intensive system.<br>
+It can be used with <strong>all processes</strong>, throughout the development life cycle, and across different implementation technologies.</p>
+<h3 id="the-uml-may-be-used-to">The UML may be used to:</h3>
+<ul>
+<li>Display the boundary of a system &amp; its major functions using <strong>use cases and actors</strong></li>
+<li>Illustrate use case realizations with <strong>interaction diagrams</strong></li>
+<li>Represent a static structure of a system using <strong>class diagrams</strong></li>
+<li>Model the behavior of objects with <strong>state transition diagrams</strong></li>
+<li>Reveal the physical implementation architecture with <strong>component &amp; deployment diagrams</strong></li>
+<li>Extend your functionality with <strong>stereotypes</strong></li>
+</ul>
+<h3 id="the-elements-of-uml">The elements of UML</h3>
+<ul>
+<li>Things</li>
+<li>Relationships</li>
+<li>Diagrams</li>
+<li>Rules</li>
+</ul>
+<h2 id="things">Things</h2>
+<h3 id="structural-thing-object-classes">Structural thing: Object classes</h3>
+<ul>
+<li>Classes in different abstraction</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture1.png" alt="Pic"></p>
+<h3 id="structural-thing-interfaces">Structural thing: Interfaces</h3>
+<ul>
+<li>The services set of a class or a component</li>
+<li>Description of a external behavior of a class or a component</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture2.png" alt="Pic">
+<img src="/images/2020/04/se-notes4/Picture3.png" alt="Pic"></p>
+<h3 id="structural-thing-components">Structural thing: Components</h3>
+<ul>
+<li>Physical parts in system</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture4.png" alt="Pic"></p>
+<h3 id="behavioral-thing-interaction">Behavioral thing: Interaction</h3>
+<ul>
+<li>Communication between objects</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture5.png" alt="Pic"></p>
+<h3 id="grouping-thing-package">Grouping thing: Package</h3>
+<ul>
+<li>Organize some things into a group</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture6.png" alt="Pic"></p>
+<h3 id="comment-thing-comment">Comment thing: Comment</h3>
+<p><img src="/images/2020/04/se-notes4/Picture7.png" alt="Pic"></p>
+<h2 id="uml-relationships">UML Relationships</h2>
+<h3 id="types">Types:</h3>
+<ul>
+<li>Association</li>
+<li>Generalization</li>
+<li>Dependency</li>
+<li>Realization</li>
+</ul>
+<h3 id="association">Association</h3>
+<p><img src="/images/2020/04/se-notes4/Picture8.png" alt="Pic"></p>
+<h3 id="aggregation-not-must-and-composition-must">Aggregation (not must) and Composition (must)</h3>
+<ul>
+<li>Special association</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture9.png" alt="Pic"></p>
+<h3 id="generalization">Generalization</h3>
+<ul>
+<li>A relationship to show <strong>general and special</strong> (<strong>a kind of</strong>)</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture10.png" alt="Pic"></p>
+<h3 id="dependency">Dependency</h3>
+<ul>
+<li>Reflect the relationship that of <strong>one thing will be affected by another</strong>.</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture11.png" alt="Pic"></p>
+<h3 id="realization">Realization</h3>
+<ul>
+<li>A part is <strong>realized by another</strong></li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture12.png" alt="Pic"></p>
+<h2 id="uml-diagrams">UML Diagrams</h2>
+<h4 id="functional-model">Functional model</h4>
+<ul>
+<li>Use case diagram</li>
+</ul>
+<h4 id="structural-model">Structural model</h4>
+<ul>
+<li>Class diagram</li>
+<li>Object diagram</li>
+<li>Component diagram</li>
+<li>Deployment diagram</li>
+<li>Sequence diagram</li>
+</ul>
+<h4 id="behavioral-model">Behavioral model</h4>
+<ul>
+<li>Collaboration diagram</li>
+<li>State diagram</li>
+<li>Activity diagram</li>
+</ul>
+<h3 id="existing-and-planned-system-models">Existing and planned system models</h3>
+<ul>
+<li><strong>Models of the existing system</strong> are used during requirements engineering. They help clarify what the existing system does and can be used as a basis for discussing its strengths and weaknesses. These then lead to requirements for the new system.</li>
+<li><strong>Models of the new system</strong> are used during requirements engineering to help explain the proposed requirements to other system stakeholders. Engineers use these models to discuss design proposals and to document the system for implementation.</li>
+<li>In a <strong>model-driven engineering process</strong>, it is possible to generate a complete or partial system implementation from the system model.</li>
+</ul>
+<h3 id="use-of-graphical-models">Use of graphical models</h3>
+<ul>
+<li>As <strong>a means of facilitating discussion</strong> about an existing or proposed system</li>
+<li>As a way of <strong>documenting</strong> an existing system</li>
+<li>As a <strong>detailed system description</strong> that can be used to generate a system implementation</li>
+</ul>
+<h3 id="use-of-uml-diagrams">Use of UML diagrams</h3>
+<ul>
+<li><strong>Activity diagrams</strong> (Show the activities involved in a process or in data processing)</li>
+<li><strong>Use case diagrams</strong> (Show the interactions between a system and its environments)</li>
+<li><strong>Sequence diagrams</strong> (Show interactions between system components)</li>
+<li><strong>Class diagrams</strong> (Show static relationships between classes)</li>
+<li><strong>State diagrams</strong> (Show how the system reacts to internal &amp; external events)</li>
+</ul>
+<h3 id="context-models">Context models</h3>
+<ul>
+<li>Context models are used to illustrate the <strong>operational context</strong> of a system - they show what lies <strong>outside the system boundaries</strong>.</li>
+<li><strong>Architectural models</strong> show the system and its relationship with other systems.</li>
+<li><strong>System boundaries</strong> are established to define <strong>what is inside and what is outside the system</strong>.</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture13.png" alt="Pic"></p>
+<h3 id="process-models">Process models</h3>
+<ul>
+<li>Context models <strong>simply show the other systems</strong> in the environment, not how the system being developed is used in that environment.</li>
+<li>Process models reveal <strong>how the system being developed</strong> is used in broader business processes.</li>
+<li><strong>UML activity diagrams</strong> may be used to define business process models.</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture14.png" alt="Pic"></p>
+<h3 id="interaction-models">Interaction models</h3>
+<ul>
+<li><strong>Modeling system-to-system interaction</strong> highlights the communication problems that may arise.</li>
+<li><strong>Modeling component interaction</strong> helps us understand if a proposed system structure is likely to deliver the required system performance and dependability.</li>
+<li><strong>Use case diagrams and sequence diagrams</strong> may be used for interaction modeling.</li>
+</ul>
+<h4 id="use-case-modeling">Use case modeling</h4>
+<ul>
+<li><strong>Use cases</strong> were developed originally to support <strong>requirements elicitation</strong> and now incorporated into the UML.</li>
+<li><strong>Each use case represents a discrete task</strong> that involves external interaction with a system.</li>
+<li>Actors in a use case may be <strong>people or other systems</strong>.</li>
+<li>Represented diagramatically to provide an overview of the use case and in a <strong>more detailed textual form</strong> (<strong>use case description</strong>).</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture15.png" alt="Pic"></p>
+<h4 id="sequence-diagrams">Sequence diagrams</h4>
+<ul>
+<li>Sequence diagrams are part of the UML and are used to <strong>model the interactions between the actors and the objects within a system</strong>.</li>
+<li>A sequence diagram shows the <strong>sequence of interactions</strong> that take place during a particular use case or use case instance.</li>
+<li>The objects and actors involved are listed along the <strong>top of the diagram</strong>, with a <strong>dotted line</strong> drawn vertically from these.</li>
+<li>Interactions between objects are indicated by <strong>annotated arrows</strong>.</li>
+<li><strong>Vertical triangle</strong> denotes <strong>life span</strong>.</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture16.png" alt="Pic">
+<img src="/images/2020/04/se-notes4/Picture17.png" alt="Pic"></p>
+<h3 id="structural-models">Structural models</h3>
+<ul>
+<li>Structural models of software display the <strong>organization of a system</strong> in terms of the components that make up that system and their relationships.</li>
+<li>Structural models may be <strong>static models</strong>, which show the structure of the system design, or <strong>dynamic models</strong>, which show the organization of the system when it is executing.</li>
+</ul>
+<h4 id="class-diagrams">Class diagrams</h4>
+<ul>
+<li>Class diagrams are used when developing an object-oriented system model to show the <strong>classes in a system and the associations between these classes</strong>.</li>
+<li>An <strong>association</strong> is a <strong>link between classes</strong> that indicates that there is some relationship between these classes.</li>
+<li>When you are developing models <strong>during the early stages</strong> of the software engineering process, <strong>objects represent something in the real world</strong>, such as a patient, a prescription, doctor, etc.</li>
+</ul>
+<h3 id="behavioral-models">Behavioral models</h3>
+<p>Behavioral models are models of the <strong>dynamic behavior</strong> of a system as it is executing. They show <strong>what happens or what is supposed to happen</strong> when a system responds to a <strong>stimulus</strong> from its environment.       <br>
+You can think of these <strong>stimuli</strong> as being of two types:</p>
+<ul>
+<li><strong>Data</strong>. Some data arrives that has to be processed by the system.</li>
+<li><strong>Events</strong>. Some event happens that triggers system processing. Events may have associated data, although this is not always the case.</li>
+</ul>
+<h4 id="data-driven-modeling">Data-driven modeling</h4>
+<ul>
+<li><strong>Many business systems</strong> are data-processing systems that are primarily driven by data.</li>
+<li>Data-driven models show the sequence of actions involved in <strong>processing input data and generating an associated output</strong>.</li>
+<li>They are <strong>particularly useful during the analysis of requirements</strong> as they can be used to show end-to-end processing in a system.</li>
+</ul>
+<p><img src="/images/2020/04/se-notes4/Picture20.png" alt="Pic"></p>
+<h4 id="event-driven-modeling">Event-driven modeling</h4>
+<ul>
+<li><strong>Real-time systems</strong> are often event-driven, with minimal data processing. For example, a landline phone switching system responds to events such as ‘receiver off hook’ by generating a dial tone.</li>
+<li>Event-driven modeling shows how a system responds to <strong>external and internal events</strong>.</li>
+<li>It is based on the assumption that <strong>a system has a finite number of states and that events (stimuli) may cause a transition from one state to another</strong>.</li>
+<li><strong>Statecharts</strong> are an integral part of the UML and are used to represent <strong>state machine models</strong>.</li>
+</ul>
+<h1 id="model-driven-architecture-mda">Model Driven Architecture (MDA)</h1>
+<p>MDA is a model-focused approach to software design and implementation that uses <strong>a subset of UML models</strong> to describe a system.     <br>
+<strong>Models at different levels of abstraction are created.</strong> From a high-level, platform independent model, it is possible, in principle, to generate a working program without manual intervention.</p>
+<h2 id="types-of-model">Types of Model</h2>
+<h3 id="a-computation-independent-model-cim">A computation independent model (CIM)</h3>
+<ul>
+<li>These model the important domain abstractions used in a system. CIMs are sometimes called <strong>domain models</strong>.</li>
+</ul>
+<h3 id="a-platform-independent-model-pim">A platform independent model (PIM)</h3>
+<ul>
+<li>These model the operation of the system <strong>without reference to its implementation</strong>. The PIM is usually described using UML models that show the static system structure and how it responds to external and internal events.</li>
+</ul>
+<h3 id="platform-specific-models-psm">Platform specific models (PSM)</h3>
+<ul>
+<li>These are transformations of the platform-independent model with <strong>a separate PSM for each application platform</strong>. In principle, there may be layers of PSM, with each layer adding some platform-specific detail.</li>
+</ul>
+<h4 id="mda-transformations">MDA transformations</h4>
+<p><img src="/images/2020/04/se-notes4/Picture21.png" alt="Pic"></p>
+<h2 id="agile-methods-and-mda">Agile Methods And MDA</h2>
+<p>If <strong>transformations can be completely automated and a complete program generated from a PIM</strong>, then, in principle, MDA could be used in an agile development process as no separate coding would be required.</p>
+<h2 id="executable-uml">Executable UML</h2>
+<ul>
+<li>The <strong>fundamental notion</strong> behind model-driven engineering is that <strong>completely automated transformation of models to code</strong> should be possible.</li>
+<li>This is possible using <strong>a subset of UML 2</strong>, called <strong>Executable UML</strong> or <strong>xUML</strong>.</li>
+<li><strong>To create an executable subset of UML</strong>, the number of model types has therefore been dramatically reduced to these 3 key types: <strong>Domain models</strong>, <strong>Class models</strong> and <strong>State models</strong>.</li>
+<li>The dynamic behavior of the system may be specified declaratively using the <strong>object constraint language (OCL)</strong>, or may be expressed using <strong>UML’s action language</strong>.</li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes4/>https://GodLovesJonny.github.io/2020/se-notes4/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/se-notes3/" class="prev" rel="prev" title="软件工程复习笔记[3] - Requirements Engineering"><i class="iconfont icon-left"></i>&nbsp;软件工程复习笔记[3] - Requirements Engineering</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1400 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
