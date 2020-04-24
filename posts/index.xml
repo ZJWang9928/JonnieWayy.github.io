@@ -27,7 +27,7 @@
       <pubDate>Fri, 24 Apr 2020 13:43:03 +0800</pubDate>
       
       <guid>https://GodLovesJonny.github.io/2020/se-notes7/</guid>
-      <description>Program Testing Goals To demonstrate to the developer and the customer that the software meets its requirements. (leads to validation testing) To discover situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. (leads to defect testing) Verification vs Validation Verification &amp;ldquo;Are we building the product right”. The software should conform to its specification. Validation &amp;ldquo;Are</description>
+      <description>Program Testing Goals To demonstrate to the developer and the customer that the software meets its requirements. (leads to validation testing) To discover situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. (leads to defect testing) Testing can only show the presence of errors in a program. It cannot demonstrate that there are no remaining faults. Verification vs Validation Verification &amp;ldquo;Are</description>
     </item>
     
     <item>
