@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/se-notes6/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes7/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           软件工程复习笔记[7] - Software Testing | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="软件工程复习笔记[7] - Software Testing | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "软件工程复习笔记[7] - Software Testing",
+    "headline" : "软件工程复习笔记[7] - Software Testing",
+    "description" : "Program Testing Goals To demonstrate to the developer and the customer that the software meets its requirements. (leads to validation testing) To discover situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. (leads to defect testing) Verification vs Validation Verification \x26ldquo;Are we building the product right”. The software should conform to its specification. Validation \x26ldquo;Are",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-24 13:43:03 \x2b0800 CST",
+    "dateModified" : "2020-04-24 13:43:03 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes7\/",
+    "wordCount" : "1670",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://GodLovesJonny.github.io">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://GodLovesJonny.github.io">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记[7] - Software Testing</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-24 itemprop="datePublished">April 24, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 1670 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="program-testing-goals">Program Testing Goals</h1>
+<ul>
+<li>To <strong>demonstrate</strong> to the developer and the customer that the software meets its requirements. (leads to <strong>validation testing</strong>)</li>
+<li>To <strong>discover</strong> situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. (leads to <strong>defect testing</strong>)</li>
+</ul>
+<h1 id="verification-vs-validation">Verification vs Validation</h1>
+<h2 id="verification">Verification</h2>
+<ul>
+<li><strong>&ldquo;Are we building the product right”.</strong></li>
+<li>The software should conform to its specification.</li>
+</ul>
+<h2 id="validation">Validation</h2>
+<ul>
+<li><strong>&ldquo;Are we building the right product”.</strong></li>
+<li>The software should do what the user really requires.</li>
+</ul>
+<h1 id="inspections-and-testing">Inspections And Testing</h1>
+<h2 id="software-inspections">Software inspections</h2>
+<ul>
+<li>Concerned with analysis of the static system representation to discover problems  (<strong>static verification</strong>)</li>
+<li>May be supplement by tool-based document and code analysis.</li>
+<li>These involve <strong>people examining the source representation</strong> with the aim of discovering anomalies and defects.</li>
+<li>Inspections <strong>not require execution</strong> of a system so may be <strong>used before implementation</strong>.</li>
+<li>They have been shown to be an effective technique for discovering program errors.</li>
+</ul>
+<h2 id="software-testing">Software testing</h2>
+<ul>
+<li>Concerned with exercising and observing product behaviour (<strong>dynamic verification</strong>)</li>
+<li>The system is executed with <strong>test data</strong> and its operational behaviour is observed.</li>
+</ul>
+<p><img src="/images/2020/04/se-notes7/Picture1.png" alt="Pic"></p>
+<ul>
+<li>Inspections and testing are <strong>complementary</strong> and not opposing verification techniques.</li>
+<li><strong>Both</strong> should be used during the V &amp; V process.</li>
+<li>Inspections can check conformance with a specification but not conformance with the <strong>customer’s real requirements</strong>.</li>
+<li>Inspections cannot check <strong>non-functional characteristics</strong> such as performance, usability, etc.</li>
+</ul>
+<h3 id="a-model-of-the-software-testing-process">A model of the software testing process</h3>
+<p><img src="/images/2020/04/se-notes7/Picture2.png" alt="Pic"></p>
+<h1 id="test-data-and-test-cases">Test Data And Test Cases</h1>
+<h2 id="test-data">Test data</h2>
+<p>Inputs which have been devised to test the system.</p>
+<h2 id="test-case">Test case</h2>
+<p>Inputs to test the system and the <strong>predicted outputs</strong> from these inputs if the system operates according to its specification.</p>
+<h1 id="choosing-test-case">Choosing Test Case</h1>
+<h2 id="black-box-testing">Black-box testing</h2>
+<ul>
+<li>An approach to testing where the program is considered as a ‘black-box’.</li>
+<li>The program test cases are based on the <strong>system specification</strong>.</li>
+</ul>
+<h2 id="white-box-testing">White-box testing</h2>
+<ul>
+<li>Derivation of test cases according to <strong>program structure</strong>.</li>
+<li><strong>Knowledge of the program</strong> is used to identify additional test cases.</li>
+</ul>
+<h1 id="stages-of-testing">Stages of Testing</h1>
+<h2 id="development-testing">Development testing</h2>
+<p>Development testing includes all testing activities that are carried out by the team developing the system.</p>
+<ul>
+<li><strong>Unit testing</strong>, where individual program units or object classes are tested. Unit testing should focus on <strong>testing the functionality of objects or methods</strong>. (Whenever possible, unit testing should <strong>be automated</strong> so that tests are run and checked without manual intervention.) (Automated test components: a <strong>setup part</strong>, a <strong>call part</strong>, an <strong>assertion part</strong>)</li>
+<li><strong>Component testing</strong>, where several individual units are integrated to create composite components. Component testing should focus on <strong>testing component interfaces</strong>.</li>
+<li><strong>System testing</strong>, where some or all of the components in a system are integrated and the system is tested as a whole. System testing should focus on <strong>testing component interactions</strong>.</li>
+</ul>
+<h2 id="release-testing">Release testing</h2>
+<p>A separate testing team test a complete version of the system before it is released to users.</p>
+<h2 id="user-testing">User testing</h2>
+<p>Users or potential users of a system test the system in their own environment.</p>
+<h1 id="testing-strategies-unit-testing">Testing Strategies (Unit Testing)</h1>
+<h2 id="partition-testing-black-box">Partition testing (Black-box)</h2>
+<ul>
+<li>Where you identify groups of inputs that have <strong>common characteristics</strong> and should be processed in the same way.</li>
+<li>Input data and output results often fall into different classes where all members of a class are <strong>related</strong>.</li>
+<li>Each of these classes is an <strong>equivalence partition</strong> or domain where the program behaves in an equivalent way for each class member.</li>
+<li>Test cases should be <strong>chosen from each partition</strong>.</li>
+</ul>
+<h2 id="guideline-based-testing">Guideline-based testing</h2>
+<p>Where you use testing guidelines to choose test cases.</p>
+<h3 id="general-testing-guidelines">General testing guidelines</h3>
+<ul>
+<li>Choose inputs that force the system to generate all error messages.</li>
+<li>Design inputs that cause input buffers to overflow.</li>
+<li>Repeat the same input or series of inputs numerous times.</li>
+<li>Force invalid outputs to be generated.</li>
+<li>Force computation results to be too large or too small.</li>
+</ul>
+<h2 id="structural-testing-white-box">Structural testing (White-box)</h2>
+<ul>
+<li>Derivation of test cases <strong>according to program structure</strong>. Knowledge of the program is used to identify additional test cases.</li>
+<li>Objective is to <strong>exercise all program statements</strong> (not all path combinations)</li>
+</ul>
+<p><img src="/images/2020/04/se-notes7/Picture3.png" alt="Pic"></p>
+<h2 id="path-testing">Path testing</h2>
+<p>The objective of path testing is to ensure that the set of test cases is such that <strong>each path through the program is executed at least once</strong>.  <br>
+The starting point for path testing is a <strong>program flow graph</strong> that shows nodes representing program decisions and arcs representing the flow of control.   <br>
+Statements with conditions are therefore nodes in the flow graph.</p>
+<h3 id="program-flow-graphs">Program flow graphs</h3>
+<ul>
+<li><strong>Describes the program control flow.</strong> Each branch is shown as a separate path and loops are shown by arrows looping back to the loop condition node.</li>
+<li>Used as a basis for computing the <strong>cyclomatic complexity</strong>.</li>
+<li><strong>Cyclomatic complexity = Number of edges - Number of nodes +2</strong>.</li>
+</ul>
+<h3 id="cyclomatic-complexity">Cyclomatic complexity</h3>
+<ul>
+<li><strong>The number of tests</strong> to test all control statements equals the cyclomatic complexity.</li>
+<li>Cyclomatic complexity equals <strong>number of conditions in a program</strong>.</li>
+<li>Useful if used with care. <strong>Does not imply adequacy of testing</strong>.</li>
+<li>Although all paths are executed, <strong>all combinations of paths</strong> are not executed.</li>
+</ul>
+<h1 id="component-testing">Component Testing</h1>
+<p>Software components are often composite components that are <strong>made up of several interacting objects</strong>.      <br>
+You access the functionality of these objects through the defined component interface. Testing composite components should therefore focus on showing that the <strong>component interface</strong> behaves according to its specification.   <br>
+You can assume that unit tests on the individual objects within the component have been completed.</p>
+<h2 id="interface-testing">Interface testing</h2>
+<p><img src="/images/2020/04/se-notes7/Picture4.png" alt="Pic">
+Objectives are to <strong>detect faults due to interface errors or invalid assumptions about interfaces</strong>.</p>
+<h3 id="interface-types">Interface types</h3>
+<ul>
+<li><strong>Parameter interfaces.</strong> Data passed from one method or procedure to another.</li>
+<li><strong>Shared memory interfaces.</strong> Block of memory is shared between procedures or functions.</li>
+<li><strong>Procedural interfaces.</strong> Sub-system encapsulates a set of procedures to be called by other sub-systems.</li>
+<li><strong>Message passing interfaces.</strong> Sub-systems request services from other sub-systems.</li>
+</ul>
+<h3 id="interface-errors">Interface errors</h3>
+<ul>
+<li><strong>Interface misuse</strong></li>
+<li><strong>Interface misunderstanding</strong></li>
+<li><strong>Timing errors</strong> (The called and the calling component operate at different speeds and out-of-date information is accessed.)</li>
+</ul>
+<h3 id="interface-testing-guidelines">Interface testing guidelines</h3>
+<ul>
+<li>Design tests so that parameters to a called procedure are at the <strong>extreme ends of their ranges</strong>.</li>
+<li>Always test pointer parameters with <strong>null pointers</strong>.</li>
+<li>Design tests which <strong>cause the component to fail</strong>.</li>
+<li>Use <strong>stress testing</strong> in message passing systems.</li>
+<li>
+<ul>
+<li>In shared memory systems,<strong>vary the order</strong> in which components are activated.</li>
+</ul>
+</li>
+</ul>
+<h1 id="system-testing">System Testing</h1>
+<p>System testing during development involves <strong>integrating components to create a version of the system</strong> and then <strong>testing the integrated system</strong>.  <br>
+The focus in system testing is <strong>testing the interactions between components</strong>.      <br>
+System testing checks that components are <strong>compatible</strong>, <strong>interact correctly</strong> and <strong>transfer the right data at the right time</strong> across their interfaces.  <br>
+System testing tests the <strong>emergent behaviour</strong> of a system.</p>
+<h2 id="use-case-testing">Use-case testing</h2>
+<ul>
+<li>The use-cases developed to <strong>identify system interactions</strong> can be used as <strong>a basis for system testing</strong>.</li>
+<li>Each use case usually involves several system components so <strong>testing the use case forces these interactions to occur</strong>.</li>
+<li><strong>The sequence diagrams associated with the use case</strong> documents the components and interactions that are being tested.</li>
+</ul>
+<h1 id="test-driven-development">Test-driven Development</h1>
+<p>Test-driven development (TDD) is an approach to program development in which you <strong>inter-leave testing and code development</strong>.   <br>
+<strong>Tests are written before code</strong> and ‘passing’ the tests is the critical driver of development. <br>
+TDD was introduced as part of <strong>agile methods</strong> such as Extreme Programming. However, it can also be used in <strong>plan-driven development</strong> processes.</p>
+<p><img src="/images/2020/04/se-notes7/Picture5.png" alt="Pic"></p>
+<h2 id="benefits-of-test-driven-development">Benefits of test-driven development</h2>
+<h3 id="code-coverage">Code coverage</h3>
+<ul>
+<li>Every code segment that you write has at least one associated test so <strong>all code written has at least one test</strong>.</li>
+</ul>
+<h3 id="regression-testing">Regression testing</h3>
+<ul>
+<li>A regression test suite is developed incrementally as a program is developed.</li>
+<li>Regression testing is testing the system to <strong>check that changes have not ‘broken’ previously working code</strong>.</li>
+<li>In a manual testing process, regression testing is expensive but, with <strong>automated testing</strong>, it is simple and straightforward. <strong>All tests are rerun every time a change is made to the program</strong>.</li>
+</ul>
+<h3 id="simplified-debugging">Simplified debugging</h3>
+<ul>
+<li>When a test fails, it should be obvious where the problem lies. The newly written code needs to be checked and modified.</li>
+</ul>
+<h3 id="system-documentation">System documentation</h3>
+<ul>
+<li>The tests themselves are a form of documentation that describe what the code should be doing.</li>
+</ul>
+<h1 id="release-testing-1">Release Testing</h1>
+<p>The primary goal of the release testing process is to <strong>convince the supplier of the system that it is good enough for use</strong>.    <br>
+Release testing is usually a <strong>black-box testing process</strong> where tests are only derived from the <strong>system specification</strong>.</p>
+<h2 id="release-testing-and-system-testing">Release testing and system testing</h2>
+<p>Release testing is <strong>a form of system testing</strong>.</p>
+<h3 id="important-differences">Important differences:</h3>
+<ul>
+<li>A separate team that has not been involved in the system development, should be responsible for release testing.</li>
+<li><strong>System testing</strong> by the development team should focus on <strong>discovering bugs in the system</strong> (<strong>defect testing</strong>). The objective of <strong>release testing</strong> is to <strong>check that the system meets its requirements and is good enough for external use</strong> (<strong>validation testing</strong>).</li>
+</ul>
+<h2 id="requirements-based-testing">Requirements based testing</h2>
+<ul>
+<li>Requirements-based testing involves examining each requirement and developing a test or tests for it.</li>
+</ul>
+<h2 id="scenario-testing">Scenario testing</h2>
+<ul>
+<li>An approach to release testing whereby you devise <strong>typical scenarios of use</strong> and use these scenarios to develop test cases.</li>
+<li>A scenario is a story that describes one way in which the system might be used.</li>
+</ul>
+<h2 id="performance-testing">Performance testing</h2>
+<ul>
+<li>Performance tests usually involve planning a series of tests where <strong>the load is steadily increased</strong> until the system performance becomes unacceptable.</li>
+<li><strong>Stress testing is a form of performance testing</strong> where the system is deliberately overloaded to test its failure behaviour.</li>
+</ul>
+<h1 id="user-testing-1">User Testing</h1>
+<p>User or customer testing is a stage in the testing process in which <strong>users or customers</strong> provide input and advice on system testing.</p>
+<h2 id="types-of-user-testing">Types of User Testing</h2>
+<h3 id="alpha-testing">Alpha testing</h3>
+<ul>
+<li>Users of the software <strong>work with the development team</strong> to test the software at the developer’s site.</li>
+</ul>
+<h3 id="beta-testing">Beta testing</h3>
+<ul>
+<li><strong>A release of the software</strong> is made available to users to allow them to experiment and to raise problems that they discover with the system developers.</li>
+</ul>
+<h3 id="acceptance-testing">Acceptance testing</h3>
+<ul>
+<li>Customers test a system to decide whether or not it is ready to be accepted from the system developers and deployed in the customer environment. Primarily for custom systems.</li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes7/>https://GodLovesJonny.github.io/2020/se-notes7/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/se-notes6/" class="prev" rel="prev" title="软件工程复习笔记[6] - Design And Implementation"><i class="iconfont icon-left"></i>&nbsp;软件工程复习笔记[6] - Design And Implementation</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1700 Words|Read in about 4 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
