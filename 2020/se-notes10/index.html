@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/se-notes9/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes10/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           软件工程复习笔记[10] - Project Planning | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="软件工程复习笔记[10] - Project Planning | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "软件工程复习笔记[10] - Project Planning",
+    "headline" : "软件工程复习笔记[10] - Project Planning",
+    "description" : "Project planning involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems. The aim of planning at this stage is to provide information that will be used in setting a price for the system to customers. Plan sections Introduction Project organization Risk analysis Hardware and software resource requirements Work breakdown Project schedule Monitoring and",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-26 13:08:51 \x2b0800 CST",
+    "dateModified" : "2020-04-26 13:08:51 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes10\/",
+    "wordCount" : "1333",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://GodLovesJonny.github.io">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://GodLovesJonny.github.io">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记[10] - Project Planning</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-26 itemprop="datePublished">April 26, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 1333 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>Project planning involves <strong>breaking down the work into parts and assign these to project team members</strong>, anticipate problems that might arise and prepare tentative solutions to those problems.   <br>
+The aim of planning at this stage is to provide information that will be used in <strong>setting a price</strong> for the system to customers.</p>
+<h3 id="plan-sections">Plan sections</h3>
+<ul>
+<li>Introduction</li>
+<li>Project organization</li>
+<li>Risk analysis</li>
+<li>Hardware and software resource requirements</li>
+<li>Work breakdown</li>
+<li>Project schedule</li>
+<li>Monitoring and reporting mechanisms</li>
+</ul>
+<h3 id="the-project-planning-process">The project planning process</h3>
+<p><img src="/images/2020/04/se-notes10/Picture1.png" alt="Pic"></p>
+<h1 id="project-scheduling">Project Scheduling</h1>
+<p>Project scheduling is the process of <strong>deciding how the work in a project will be organized</strong> as separate tasks, and when and how these tasks will be executed.  <br>
+You <strong>estimate the calendar time</strong> needed to complete each task, the effort required and who will work on the tasks that have been identified.   <br>
+You also have to <strong>estimate the resources</strong> needed to complete each task, such as the disk space required on a server, the time required on specialized hardware, such as a simulator, and what the travel budget will be.</p>
+<h2 id="milestones-and-deliverables">Milestones And Deliverables</h2>
+<ul>
+<li><strong>Milestones</strong> are points in the schedule against which you can assess progress, for example, the handover of the system for testing.</li>
+<li><strong>Deliverables</strong> are work products that are delivered to the customer, e.g. a requirements document for the system.</li>
+</ul>
+<h2 id="schedule-representation">Schedule Representation</h2>
+<ul>
+<li><strong>Graphical notations</strong> are normally used to illustrate the project schedule.</li>
+<li><strong>Bar charts</strong> are the most commonly used representation for project schedules. They show the schedule as activities or resources against time.</li>
+</ul>
+<h3 id="activity-bar-chart">Activity bar chart</h3>
+<p><img src="/images/2020/04/se-notes10/Picture2.png" alt="Pic"></p>
+<h1 id="software-pricing">Software Pricing</h1>
+<p>Estimates are made to discover the cost, to the developer, of producing a software system.   <br>
+There is not a simple relationship between the development cost and the price charged to the customer.</p>
+<h2 id="estimation-techniques">Estimation Techniques</h2>
+<p>Organizations need to make <strong>software effort and cost estimates</strong>. There are two types of technique that can be used to do this:</p>
+<ul>
+<li><strong>Experience-based techniques.</strong> The estimate of future effort requirements is based on the manager’s experience of past projects and the application domain. Essentially, the manager makes an informed judgment of what the effort requirements are likely to be.</li>
+<li><strong>Algorithmic cost modeling.</strong> In this approach, a formulaic approach is used to compute the project effort based on estimates of product attributes, such as size, and process characteristics, such as experience of staff involved.</li>
+</ul>
+<h2 id="algorithmic-cost-modelling">Algorithmic Cost Modelling</h2>
+<p>Cost is estimated as a mathematical function of product, project and process attributes whose values are estimated by project managers:  <br>
+$$Effort = A \times \ Size^{B} \times M.$$   <br>
+<strong>A</strong> is an <strong>organisation-dependent constant</strong>, <strong>B</strong> reflects the <strong>disproportionate effort</strong> for large projects and <strong>M</strong> is a <strong>multiplier reflecting product, process and people attributes</strong>.      <br>
+The most commonly used product attribute for cost estimation is <strong>code size</strong>.   <br>
+<strong>Most models are similar but they use different values for A, B and M</strong>.</p>
+<h3 id="estimation-accuracy">Estimation accuracy</h3>
+<p>The size of a software system can only be known accurately <strong>when it is finished</strong>.  <br>
+Several factors influence the final size</p>
+<ul>
+<li>Use of COTS and components;</li>
+<li>Programming language;</li>
+<li>Distribution of system.
+As <strong>the development process progresses</strong> then the size estimate becomes more accurate.  <br>
+The estimates of the factors contributing to B and M are subjective and vary according to the <strong>judgment of the estimator</strong>.</li>
+</ul>
+<h2 id="the-cocomo-2-model">The COCOMO 2 Model</h2>
+<ul>
+<li>An empirical model based on project experience.</li>
+<li>Well-documented, ‘independent’ model which is not tied to a specific software vendor.</li>
+<li>Long history from initial version published in 1981 (COCOMO-81) through various instantiations to COCOMO 2.</li>
+<li>COCOMO 2 takes into account different approaches to software development, reuse, etc.</li>
+<li>COCOMO 2 incorporates <strong>a range of sub-models</strong> that produce increasingly detailed software estimates.</li>
+</ul>
+<h3 id="the-sub-models-in-cocomo-2">The sub-models in COCOMO 2</h3>
+<ul>
+<li><strong>Application composition model</strong>. Used when software is composed from existing parts.</li>
+<li><strong>Early design model</strong>. Used when requirements are available but design has not yet started.</li>
+<li><strong>Reuse model</strong>. Used to compute the effort of integrating reusable components.</li>
+<li><strong>Post-architecture model</strong>. Used once the system architecture has been designed and more information about the system is available.</li>
+</ul>
+<h3 id="cocomo-estimation-models">COCOMO estimation models</h3>
+<p><img src="/images/2020/04/se-notes10/Picture3.png" alt="Pic"></p>
+<h3 id="application-composition-model">Application composition model</h3>
+<p>Supports prototyping projects and projects where there is extensive reuse.   <br>
+Based on standard estimates of <strong>developer productivity in application (object) points/month</strong>.      <br>
+<strong>Formula</strong> is $$PM = (NAP \times (1 - reuse/100)) / PORD.$$    <br>
+<strong>PM</strong> is the <strong>effort in person-months</strong>, <strong>NAP</strong> is the <strong>number of application points</strong> and <strong>PROD</strong> is the <strong>productivity</strong>.</p>
+<h3 id="early-design-model">Early design model</h3>
+<p>Estimates can be made after the <strong>requirements have been agreed</strong>.<br>
+Based on <strong>a standard formula</strong> for algorithmic models   <br>
+$$PM = A \times Size^{B} \times M,$$
+where $$M = PERS \times RCPX \times RUSE \times PDIF \times PREX \times FCIL \times SCED.$$  <br>
+A = 2.94 in initial calibration, Size in KLOC, B varies from 1.1 to 1.24 depending on novelty of the project, development flexibility, risk management approaches and the process maturity.</p>
+<h4 id="multipliers">Multipliers</h4>
+<p>Multipliers reflect the capability of the developers, the non-functional requirements, the familiarity with the development platform, etc.</p>
+<ul>
+<li>RCPX - product reliability and complexity;</li>
+<li>RUSE - the reuse required;</li>
+<li>PDIF - platform difficulty;</li>
+<li>PREX - personnel experience;</li>
+<li>PERS - personnel capability;</li>
+<li>SCED - required schedule;</li>
+<li>FCIL - the team support facilities.</li>
+</ul>
+<h3 id="the-reuse-model">The reuse model</h3>
+<p>Takes into account <strong>black-box code</strong> that is reused without change and code that has to be adapted to integrate it with new code.   <br>
+There are two versions:</p>
+<ul>
+<li><strong>Black-box reuse.</strong> where code is not modified. An effort estimate (PM) is computed.</li>
+<li><strong>White-box reuse.</strong> where code is modified. A size estimate equivalent to the number of lines of new source code is computed. This then adjusts the size estimate for new code.
+The formula used to calculate the <strong>source code equivalence</strong><br>
+$$ESLOC = ASLOC \times (1 - AT / 100) \times AAM.$$
+<strong>ESLOC</strong> is the <strong>equivalence number of lines of new code</strong>. <strong>ASLOC</strong> is the <strong>number of lines of generated code</strong>. <strong>AT</strong> is the <strong>percentage of code automatically generated</strong>. <strong>AAM</strong> is the <strong>adaptation adjustment multiplier</strong> computed from the costs of changing the reused code, the costs of understanding how to integrate the code and the costs of reuse decision making.    <br>
+Apply the standard formula to calculate <strong>total effort</strong> <br>
+$$Effort = A \times ESLOC^{B} \times M.$$</li>
+</ul>
+<h3 id="post-architecture-model">Post-architecture model</h3>
+<p>Uses the same formula as the early design model but with <strong>17 rather than 7 associated multipliers</strong>.<br>
+The <strong>code size</strong> is estimated as:</p>
+<ul>
+<li>Number of lines of new code to be developed;</li>
+<li>Estimate of equivalent number of lines of new code computed using the reuse model;</li>
+<li>An estimate of the number of lines of code that have to be modified according to requirements changes.</li>
+</ul>
+<p>The <strong>exponent term</strong> depends on <strong>5 scale factors</strong>. Their <strong>sum/100</strong> is <strong>added to 1.01</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Scale factor</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Precedentedness</td>
+<td>Reflects the previous experience of the organization with this type of project. Very low means no previous experience; extra-high means that the organization is completely familiar with this application domain.</td>
+</tr>
+<tr>
+<td>Development flexibility</td>
+<td>Reflects the degree of flexibility in the development process. Very low means a prescribed process is used; extra-high means that the client sets only general goals.</td>
+</tr>
+<tr>
+<td>Architecture/risk resolution</td>
+<td>Reflects the extent of risk analysis carried out. Very low means little analysis; extra-high means a complete and thorough risk analysis.</td>
+</tr>
+<tr>
+<td>Team cohesion</td>
+<td>Reflects how well the development team knows each other and work together. Very low means very difficult interactions; extra-high means an integrated and effective team with no communication problems.</td>
+</tr>
+<tr>
+<td>Process maturity</td>
+<td>Reflects the process maturity of the organization. The computation of this value depends on the CMM Maturity Questionnaire, but an estimate can be achieved by subtracting the CMM process maturity level from 5.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="project-duration-and-staffing">Project Duration And Staffing</h2>
+<p>As well as effort estimation, managers must estimate the <strong>calendar time</strong> required to complete a project and when staff will be required.   <br>
+Calendar time can be estimated using a <strong>COCOMO 2 formula</strong>  <br>
+$$TDEV = 3 \times (PM)^{0.33 + 0.2 \times (B - 1.01)}.$$
+PM is the effort computation and B is the exponent computed as discussed above (B is 1 for the early prototyping model). This computation predicts the nominal schedule for the project.     <br>
+<strong>The time required is independent of the number of people working on the project.</strong></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes10/>https://GodLovesJonny.github.io/2020/se-notes10/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/se-notes9/" class="prev" rel="prev" title="软件工程复习笔记[9] - Project Management"><i class="iconfont icon-left"></i>&nbsp;软件工程复习笔记[9] - Project Management</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1400 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

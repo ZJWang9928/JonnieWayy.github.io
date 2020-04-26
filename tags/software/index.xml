@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 11:30:59 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 13:08:51 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件工程复习笔记[10] - Project Planning</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes10/</link>
+      <pubDate>Sun, 26 Apr 2020 13:08:51 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes10/</guid>
+      <description>Project planning involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems. The aim of planning at this stage is to provide information that will be used in setting a price for the system to customers. Plan sections Introduction Project organization Risk analysis Hardware and software resource requirements Work breakdown Project schedule Monitoring and</description>
+    </item>
     
     <item>
       <title>软件工程复习笔记[9] - Project Management</title>
