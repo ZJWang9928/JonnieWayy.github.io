@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Apr 2020 13:43:03 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 19:30:54 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件工程复习笔记[8] - Software Evolution</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes8/</link>
+      <pubDate>Fri, 24 Apr 2020 19:30:54 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes8/</guid>
+      <description>A key problem for all organizations is implementing and managing change to their existing software systems. The software evolution process Change implementation Program Evolution Dynamics Program evolution dynamics is the study of the processes of system change. After several major empirical studies, Lehman and Belady proposed that there were a number of ‘laws’ which applied to all systems as they evolved. There are sensible observations</description>
+    </item>
     
     <item>
       <title>软件工程复习笔记[7] - Software Testing</title>
