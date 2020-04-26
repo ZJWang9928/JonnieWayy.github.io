@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 13:08:51 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 16:19:25 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件工程复习笔记[11] - Quality Management</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes11/</link>
+      <pubDate>Sun, 26 Apr 2020 16:19:25 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes11/</guid>
+      <description>Concerned with ensuring that the required level of quality is achieved in a software product. Three principal concerns: At the organizational level, quality management is concerned with establishing a framework of organizational processes and standards that will lead to high-quality software. At the project level, quality management involves the application of specific quality processes and checking that these planned processes have been followed. At the project level, quality management is</description>
+    </item>
     
     <item>
       <title>软件工程复习笔记[10] - Project Planning</title>

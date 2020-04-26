@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="https://GodLovesJonny.github.io/2020/se-notes10/" />
+  <link rel="next" href="https://GodLovesJonny.github.io/2020/kliv/" />
+  <link rel="canonical" href="https://GodLovesJonny.github.io/2020/se-notes11/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           软件工程复习笔记[11] - Quality Management | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="软件工程复习笔记[11] - Quality Management | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/GodLovesJonny.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "软件工程复习笔记[11] - Quality Management",
+    "headline" : "软件工程复习笔记[11] - Quality Management",
+    "description" : "Concerned with ensuring that the required level of quality is achieved in a software product. Three principal concerns: At the organizational level, quality management is concerned with establishing a framework of organizational processes and standards that will lead to high-quality software. At the project level, quality management involves the application of specific quality processes and checking that these planned processes have been followed. At the project level, quality management is",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-04-26 16:19:25 \x2b0800 CST",
+    "dateModified" : "2020-04-26 16:19:25 \x2b0800 CST",
+    "url" : "https:\/\/GodLovesJonny.github.io\/2020\/se-notes11\/",
+    "wordCount" : "515",
+    "keywords" : [ "software","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://GodLovesJonny.github.io">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://GodLovesJonny.github.io">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">软件工程复习笔记[11] - Quality Management</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://GodLovesJonny.github.io" rel="author">Jonathan Wang</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-04-26 itemprop="datePublished">April 26, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/"> NJTU CST Learning Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 515 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>Concerned with ensuring that the required level of quality is achieved in a software product.<br>
+Three <strong>principal concerns</strong>:</p>
+<ul>
+<li>At the <strong>organizational level</strong>, quality management is concerned with establishing a framework of organizational processes and standards that will lead to high-quality software.</li>
+<li>At the <strong>project level</strong>, quality management involves the application of specific quality processes and checking that these planned processes have been followed.</li>
+<li>At the <strong>project level</strong>, quality management is also concerned with establishing a <strong>quality plan</strong> for a project. The quality plan should set out the quality goals for the project and define what processes and standards are to be used.</li>
+</ul>
+<h2 id="quality-management-activities">Quality Management Activities</h2>
+<p>Quality management provides an <strong>independent check</strong> on the software development process.    <br>
+The quality management process checks the project deliverables to ensure that they are <strong>consistent with organizational standards and goals</strong>.   <br>
+The quality team should be <strong>independent from the development team</strong> so that they can take an objective view of the software. This allows them to report on software quality without being influenced by software development issues.</p>
+<h3 id="quality-management-and-software-development">Quality management and software development</h3>
+<p><img src="/images/2020/04/se-notes11/Picture1.png" alt="Pic"></p>
+<h2 id="quality-plans">Quality Plans</h2>
+<h3 id="quality-plan-structure">Quality plan structure</h3>
+<ul>
+<li>Product introduction;</li>
+<li>Product plans;</li>
+<li>Process descriptions;</li>
+<li>Quality goals;</li>
+<li>Risks and risk management.</li>
+</ul>
+<p>Quality plans should be <strong>short, succinct documents</strong>.</p>
+<h2 id="software-standards">Software Standards</h2>
+<p>Standards define the <strong>required attributes</strong> of a product or process.    <br>
+Standards may be <strong>international, national, organizational or project standards</strong>.       <br>
+Product standards define characteristics that all software components should exhibit e.g. a common programming style.    <br>
+Process standards define how the software process should be enacted.</p>
+<h2 id="iso-9001-standards-framework">ISO 9001 Standards Framework</h2>
+<p>An international set of standards that can be used as a basis for developing quality management systems.     <br>
+The ISO 9001 standard is a framework for developing software standards.  <br>
+It sets out general quality principles, describes quality processes in general and lays out the organizational standards and procedures that should be defined. These should be documented in an organizational quality manual.</p>
+<h2 id="quality-reviews">Quality Reviews</h2>
+<p>A group of people carefully examine part or all of a software system and its associated documentation.   <br>
+Code, designs, specifications, test plans, standards, etc. can all be reviewed.  <br>
+Software or documents may be &lsquo;signed off&rsquo; at a review which signifies that progress to the next development stage has been approved by management.</p>
+<h3 id="the-software-review-process">The software review process</h3>
+<p><img src="/images/2020/04/se-notes11/Picture2.png" alt="Pic"></p>
+<h2 id="program-inspections">Program Inspections</h2>
+<p>These are peer reviews where engineers <strong>examine the source of a system</strong> with the aim of discovering anomalies and defects. <br>
+Inspections <strong>do not require execution</strong> of a system so may be used before implementation.</p>
+<h2 id="software-measurement-and-metrics">Software Measurement And Metrics</h2>
+<p><strong>Software measurement</strong> is concerned with deriving a <strong>numeric value</strong> for an attribute of a software product or process.   <br>
+This allows for <strong>objective comparisons</strong> between techniques and processes.</p>
+<h3 id="relationships-between-internal-and-external-software">Relationships between internal and external software</h3>
+<p><img src="/images/2020/04/se-notes11/Picture3.png" alt="Pic"></p>
+<h3 id="product-metrics">Product metrics</h3>
+<p>A quality metric should be a <strong>predictor of product quality</strong>.   <br>
+Classes of product metric</p>
+<ul>
+<li><strong>Dynamic metrics</strong> which are collected by measurements made of a program in execution;</li>
+<li><strong>Dynamic metrics</strong> help assess <strong>efficiency and reliability</strong>;</li>
+<li><strong>Dynamic metrics</strong> are <strong>closely related</strong> to software quality attributes;</li>
+<li><strong>Static metrics</strong> which are collected by measurements made of the system representations;</li>
+<li><strong>Static metrics</strong> help assess <strong>complexity, understandability and maintainability</strong>;</li>
+<li><strong>Static metrics</strong> have an <strong>indirect relationship</strong> with quality attributes.</li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://GodLovesJonny.github.io/2020/se-notes11/>https://GodLovesJonny.github.io/2020/se-notes11/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/software/">
+                    #software</a></span>
+            
+            <span class="tag"><a href="https://GodLovesJonny.github.io/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://GodLovesJonny.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://GodLovesJonny.github.io/2020/se-notes10/" class="prev" rel="prev" title="软件工程复习笔记[10] - Project Planning"><i class="iconfont icon-left"></i>&nbsp;软件工程复习笔记[10] - Project Planning</a>
+         
+        
+        <a href="https://GodLovesJonny.github.io/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://GodLovesJonny.github.io">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
