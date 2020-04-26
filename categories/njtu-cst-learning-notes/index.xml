@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Apr 2020 19:30:54 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 11:30:59 +0800</lastBuildDate>
     
 	<atom:link href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>软件工程复习笔记[9] - Project Management</title>
+      <link>https://GodLovesJonny.github.io/2020/se-notes9/</link>
+      <pubDate>Sun, 26 Apr 2020 11:30:59 +0800</pubDate>
+      
+      <guid>https://GodLovesJonny.github.io/2020/se-notes9/</guid>
+      <description>Concerned with activities involved in ensuring that software is delivered on time and on schedule and in accordance with the requirements of the organisations developing and procuring the software. Success Criteria Deliver the software to the customer at the agreed time. Keep overall costs within budget. Deliver software that meets the customer’s expectations. Maintain a happy and well-functioning development team. Management</description>
+    </item>
     
     <item>
       <title>软件工程复习笔记[8] - Software Evolution</title>
