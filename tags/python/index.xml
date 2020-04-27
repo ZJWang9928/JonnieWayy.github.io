@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Jonathan`s Blog</title>
-    <link>https://GodLovesJonny.github.io/tags/python/</link>
+    <link>http://jonathanwayy.xyz/tags/python/</link>
     <description>Recent content in Python on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Tue, 21 Apr 2020 13:09:31 +0800</lastBuildDate>
     
-	<atom:link href="https://GodLovesJonny.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jonathanwayy.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Numpy散记 -- allclose函数的使用</title>
-      <link>https://GodLovesJonny.github.io/2020/numpy-allclose/</link>
+      <link>http://jonathanwayy.xyz/2020/numpy-allclose/</link>
       <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/numpy-allclose/</guid>
+      <guid>http://jonathanwayy.xyz/2020/numpy-allclose/</guid>
       <description>函数原型 numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False) 参数 a, b：用于比较的两个输入数组 rtol：float型，相对容忍系数（relative tolerance parameter） atol：fl</description>
     </item>
     
     <item>
       <title>Numpy散记 -- clip函数的使用</title>
-      <link>https://GodLovesJonny.github.io/2020/numpy-clip/</link>
+      <link>http://jonathanwayy.xyz/2020/numpy-clip/</link>
       <pubDate>Tue, 21 Apr 2020 12:54:52 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/numpy-clip/</guid>
+      <guid>http://jonathanwayy.xyz/2020/numpy-clip/</guid>
       <description>函数原型 numpy.clip(a, a_min, a_max, out=None, **kwargs) 参数 a：数组 a_max：数组元素最大值 a_min：数组元素最小值 功能 np.clip()函数用于将数组元素的值保持在给定区间</description>
     </item>
     
     <item>
       <title>基于人脸检测的自动口罩/护目镜佩戴小程序</title>
-      <link>https://GodLovesJonny.github.io/2020/mask-wearing/</link>
+      <link>http://jonathanwayy.xyz/2020/mask-wearing/</link>
       <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/mask-wearing/</guid>
+      <guid>http://jonathanwayy.xyz/2020/mask-wearing/</guid>
       <description>最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。 为了省去P图时来回来去调整的麻烦，这里开</description>
     </item>
     
     <item>
       <title>Pytorch部分加载预训练ResNet-50模型作为Backbone</title>
-      <link>https://GodLovesJonny.github.io/2020/torch2/</link>
+      <link>http://jonathanwayy.xyz/2020/torch2/</link>
       <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/torch2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/torch2/</guid>
       <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
     </item>
     
     <item>
       <title>Pytorch部分加载预训练VGG-16模型作为Backbone</title>
-      <link>https://GodLovesJonny.github.io/2020/torch1/</link>
+      <link>http://jonathanwayy.xyz/2020/torch1/</link>
       <pubDate>Sat, 25 Jan 2020 17:26:21 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/torch1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/torch1/</guid>
       <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
     </item>
     
     <item>
       <title>BLWL[19] 修改iPython使用的默认Python</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl19/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl19/</link>
       <pubDate>Thu, 23 Jan 2020 22:41:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl19/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl19/</guid>
       <description>iPython是一个很好用的交互式Python解释器，Manjaro前一次内核升级后系统Python升到了3.8，而Pytorch目前还只支</description>
     </item>
     
     <item>
       <title>BLWL[3] Manjaro Pip替换清华源</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl3/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl3/</link>
       <pubDate>Thu, 23 Jan 2020 22:25:56 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl3/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl3/</guid>
       <description>修改 ~/.pip/pip.conf (没有就创建一个) [global] index-url = https://pypi.tuna.tsinghua.edu.cn/simple</description>
     </item>
     

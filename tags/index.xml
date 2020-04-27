@@ -2,229 +2,229 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jonathan`s Blog</title>
-    <link>https://GodLovesJonny.github.io/tags/</link>
+    <link>http://jonathanwayy.xyz/tags/</link>
     <description>Recent content in Tags on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Sun, 26 Apr 2020 16:43:44 +0800</lastBuildDate>
     
-	<atom:link href="https://GodLovesJonny.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>notes</title>
-      <link>https://GodLovesJonny.github.io/tags/notes/</link>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
       <pubDate>Sun, 26 Apr 2020 16:43:44 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/notes/</guid>
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>https://GodLovesJonny.github.io/tags/software/</link>
+      <link>http://jonathanwayy.xyz/tags/software/</link>
       <pubDate>Sun, 26 Apr 2020 16:43:44 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/software/</guid>
+      <guid>http://jonathanwayy.xyz/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
-      <link>https://GodLovesJonny.github.io/tags/cv/</link>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
       <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/cv/</guid>
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>numpy</title>
-      <link>https://GodLovesJonny.github.io/tags/numpy/</link>
+      <link>http://jonathanwayy.xyz/tags/numpy/</link>
       <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/numpy/</guid>
+      <guid>http://jonathanwayy.xyz/tags/numpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://GodLovesJonny.github.io/tags/python/</link>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
       <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/python/</guid>
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>https://GodLovesJonny.github.io/tags/math/</link>
+      <link>http://jonathanwayy.xyz/tags/math/</link>
       <pubDate>Mon, 20 Apr 2020 16:19:26 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/math/</guid>
+      <guid>http://jonathanwayy.xyz/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>https://GodLovesJonny.github.io/tags/blog/</link>
+      <link>http://jonathanwayy.xyz/tags/blog/</link>
       <pubDate>Wed, 15 Apr 2020 21:47:18 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/blog/</guid>
+      <guid>http://jonathanwayy.xyz/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>active function</title>
-      <link>https://GodLovesJonny.github.io/tags/active-function/</link>
+      <link>http://jonathanwayy.xyz/tags/active-function/</link>
       <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/active-function/</guid>
+      <guid>http://jonathanwayy.xyz/tags/active-function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>https://GodLovesJonny.github.io/tags/machine-learning/</link>
+      <link>http://jonathanwayy.xyz/tags/machine-learning/</link>
       <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/machine-learning/</guid>
+      <guid>http://jonathanwayy.xyz/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Command</title>
-      <link>https://GodLovesJonny.github.io/tags/command/</link>
+      <link>http://jonathanwayy.xyz/tags/command/</link>
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/command/</guid>
+      <guid>http://jonathanwayy.xyz/tags/command/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://GodLovesJonny.github.io/tags/linux/</link>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/linux/</guid>
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep learning</title>
-      <link>https://GodLovesJonny.github.io/tags/deep-learning/</link>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
       <pubDate>Wed, 04 Mar 2020 09:07:11 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/deep-learning/</guid>
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>English</title>
-      <link>https://GodLovesJonny.github.io/tags/english/</link>
+      <link>http://jonathanwayy.xyz/tags/english/</link>
       <pubDate>Tue, 25 Feb 2020 19:58:23 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/english/</guid>
+      <guid>http://jonathanwayy.xyz/tags/english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manjaro</title>
-      <link>https://GodLovesJonny.github.io/tags/manjaro/</link>
+      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
       <pubDate>Mon, 03 Feb 2020 00:44:13 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/manjaro/</guid>
+      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>command line</title>
-      <link>https://GodLovesJonny.github.io/tags/command-line/</link>
+      <link>http://jonathanwayy.xyz/tags/command-line/</link>
       <pubDate>Thu, 30 Jan 2020 17:34:13 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/command-line/</guid>
+      <guid>http://jonathanwayy.xyz/tags/command-line/</guid>
       <description></description>
     </item>
     
     <item>
       <title>face detection</title>
-      <link>https://GodLovesJonny.github.io/tags/face-detection/</link>
+      <link>http://jonathanwayy.xyz/tags/face-detection/</link>
       <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/face-detection/</guid>
+      <guid>http://jonathanwayy.xyz/tags/face-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>opencv</title>
-      <link>https://GodLovesJonny.github.io/tags/opencv/</link>
+      <link>http://jonathanwayy.xyz/tags/opencv/</link>
       <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/opencv/</guid>
+      <guid>http://jonathanwayy.xyz/tags/opencv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>klingon</title>
-      <link>https://GodLovesJonny.github.io/tags/klingon/</link>
+      <link>http://jonathanwayy.xyz/tags/klingon/</link>
       <pubDate>Tue, 28 Jan 2020 18:53:37 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/klingon/</guid>
+      <guid>http://jonathanwayy.xyz/tags/klingon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pytorch</title>
-      <link>https://GodLovesJonny.github.io/tags/pytorch/</link>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
       <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/pytorch/</guid>
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kde</title>
-      <link>https://GodLovesJonny.github.io/tags/kde/</link>
+      <link>http://jonathanwayy.xyz/tags/kde/</link>
       <pubDate>Sun, 26 Jan 2020 11:35:21 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/kde/</guid>
+      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wallpaper</title>
-      <link>https://GodLovesJonny.github.io/tags/wallpaper/</link>
+      <link>http://jonathanwayy.xyz/tags/wallpaper/</link>
       <pubDate>Sun, 26 Jan 2020 11:35:21 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/wallpaper/</guid>
+      <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tools</title>
-      <link>https://GodLovesJonny.github.io/tags/tools/</link>
+      <link>http://jonathanwayy.xyz/tags/tools/</link>
       <pubDate>Sun, 26 Jan 2020 11:11:17 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/tools/</guid>
+      <guid>http://jonathanwayy.xyz/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://GodLovesJonny.github.io/tags/git/</link>
+      <link>http://jonathanwayy.xyz/tags/git/</link>
       <pubDate>Thu, 23 Jan 2020 22:44:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/git/</guid>
+      <guid>http://jonathanwayy.xyz/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>https://GodLovesJonny.github.io/tags/vim/</link>
+      <link>http://jonathanwayy.xyz/tags/vim/</link>
       <pubDate>Thu, 23 Jan 2020 22:40:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/tags/vim/</guid>
+      <guid>http://jonathanwayy.xyz/tags/vim/</guid>
       <description></description>
     </item>
     

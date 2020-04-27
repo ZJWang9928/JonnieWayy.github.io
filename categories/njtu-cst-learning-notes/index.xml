@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NJTU CST Learning Notes on Jonathan`s Blog</title>
-    <link>https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/</link>
+    <link>http://jonathanwayy.xyz/categories/njtu-cst-learning-notes/</link>
     <description>Recent content in NJTU CST Learning Notes on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Sun, 26 Apr 2020 16:43:44 +0800</lastBuildDate>
     
-	<atom:link href="https://GodLovesJonny.github.io/categories/njtu-cst-learning-notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jonathanwayy.xyz/categories/njtu-cst-learning-notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>软件工程复习笔记[12] - Configuration Management</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes12/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes12/</link>
       <pubDate>Sun, 26 Apr 2020 16:43:44 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes12/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes12/</guid>
       <description>Because software changes frequently, systems, can be thought of as a set of versions, each of which has to be maintained and managed. Configuration management (CM) is concerned with the policies, processes and tools for managing changing software systems. CM Activities Change management Keeping track of requests for changes to the software from customers and developers, working out the costs and impact of changes, and deciding the changes should be</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[11] - Quality Management</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes11/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes11/</link>
       <pubDate>Sun, 26 Apr 2020 16:19:25 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes11/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes11/</guid>
       <description>Concerned with ensuring that the required level of quality is achieved in a software product. Three principal concerns: At the organizational level, quality management is concerned with establishing a framework of organizational processes and standards that will lead to high-quality software. At the project level, quality management involves the application of specific quality processes and checking that these planned processes have been followed. At the project level, quality management is</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[10] - Project Planning</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes10/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes10/</link>
       <pubDate>Sun, 26 Apr 2020 13:08:51 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes10/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes10/</guid>
       <description>Project planning involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems. The aim of planning at this stage is to provide information that will be used in setting a price for the system to customers. Plan sections Introduction Project organization Risk analysis Hardware and software resource requirements Work breakdown Project schedule Monitoring and</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[9] - Project Management</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes9/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes9/</link>
       <pubDate>Sun, 26 Apr 2020 11:30:59 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes9/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes9/</guid>
       <description>Concerned with activities involved in ensuring that software is delivered on time and on schedule and in accordance with the requirements of the organisations developing and procuring the software. Success Criteria Deliver the software to the customer at the agreed time. Keep overall costs within budget. Deliver software that meets the customer’s expectations. Maintain a happy and well-functioning development team. Management</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[8] - Software Evolution</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes8/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes8/</link>
       <pubDate>Fri, 24 Apr 2020 19:30:54 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes8/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes8/</guid>
       <description>A key problem for all organizations is implementing and managing change to their existing software systems. The software evolution process Change implementation Program Evolution Dynamics Program evolution dynamics is the study of the processes of system change. After several major empirical studies, Lehman and Belady proposed that there were a number of ‘laws’ which applied to all systems as they evolved. There are sensible observations</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[7] - Software Testing</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes7/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes7/</link>
       <pubDate>Fri, 24 Apr 2020 13:43:03 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes7/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes7/</guid>
       <description>Program Testing Goals To demonstrate to the developer and the customer that the software meets its requirements. (leads to validation testing) To discover situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. (leads to defect testing) Testing can only show the presence of errors in a program. It cannot demonstrate that there are no remaining faults. Verification vs Validation Verification &amp;ldquo;Are</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[6] - Design And Implementation</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes6/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes6/</link>
       <pubDate>Thu, 23 Apr 2020 19:09:46 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes6/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes6/</guid>
       <description>Software design and implementation activities are invariably inter-leaved. An Object-oriented Design Process Object-oriented design processes involve developing a number of different system models. They require a lot of effort for development and maintenance of these models and, for small systems, this may not be cost-effective. However, for large systems developed by different groups design models are an important communication mechanism. Common activities Define the context and modes of use of</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[5] - Architectural Design</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes5/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes5/</link>
       <pubDate>Thu, 23 Apr 2020 13:47:30 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes5/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes5/</guid>
       <description>The design process for identifying the sub-systems making up a system and the framework for sub-system control and communication is architectural design, which is an early stage of the system design process. The output of this design process is a description of the software architecture. It represents the link between specification and design processes and is often carried out in parallel with some specification activities. Each architectural model only shows</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[4] - System Modeling</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes4/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes4/</link>
       <pubDate>Thu, 23 Apr 2020 09:53:53 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes4/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes4/</guid>
       <description>System modeling is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system. System modeling helps the analyst to understand the functionality of the system and models are used to communicate with customers. Unified Modeling Language (UML) The UML is the standard language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system. It can be used</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[3] - Requirements Engineering</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes3/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes3/</link>
       <pubDate>Wed, 22 Apr 2020 17:24:10 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes3/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes3/</guid>
       <description>Types Of Requirement User requirements: Statements in natural language plus diagrams of the services the system provides and its operational constraints. Written for customers. System requirements: A structured document setting out detailed descriptions of the system’s functions, services and operational constraints. Defines what should be implemented so may be part of a contract between client and contractor. Functional And Non-functional Requirements Functional requirements</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[2] - Agile Software Development</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes2/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes2/</link>
       <pubDate>Wed, 22 Apr 2020 17:18:47 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes2/</guid>
       <description>Agile Methods Features Focus on the code rather than the design. Are based on an iterative approach to software development. Are intended to deliver working software quickly and evolve this quickly to meet changing requirements. The aim of agile methods is to reduce overheads in the software process (e.g. by limiting documentation) and to be able to respond quickly to changing requirements without excessive rework. The principles of agile methods</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[1] - Software Process</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes1/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes1/</link>
       <pubDate>Wed, 22 Apr 2020 14:31:05 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes1/</guid>
       <description>Software Process Software processes are the activities involved in producing a software system. General Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to</description>
     </item>
     

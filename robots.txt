@@ -63,4 +63,4 @@ Disallow:
 User-agent: ZoominfoBot
 Disallow:
 
-Sitemap: https://GodLovesJonny.github.io/sitemap.xml
+Sitemap: http://jonathanwayy.xyz/sitemap.xml

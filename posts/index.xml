@@ -2,274 +2,274 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jonathan`s Blog</title>
-    <link>https://GodLovesJonny.github.io/posts/</link>
+    <link>http://jonathanwayy.xyz/posts/</link>
     <description>Recent content in Posts on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Sun, 26 Apr 2020 16:43:44 +0800</lastBuildDate>
     
-	<atom:link href="https://GodLovesJonny.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[KLI] Klingon Vocabulary</title>
-      <link>https://GodLovesJonny.github.io/2020/kliv/</link>
+      <link>http://jonathanwayy.xyz/2020/kliv/</link>
       <pubDate>Fri, 24 Jan 2020 22:35:24 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kliv/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kliv/</guid>
       <description>   Kli Eng     HISlaH yes   ghobe&amp;rsquo; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   vay&amp;rsquo; anyone, anybody   pagh no one, nobody   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&amp;rsquo; success   pong name   puq child   loD man   be&amp;rsquo; woman   Duj ship   qach building   Dlvl&amp;rsquo; English, federation, the Federation   Suvwl&amp;rsquo; fighter, warroir   jagh enemy   mang soldier   muSwl&amp;rsquo; hater   qoq robot   yuch chocolate   mu&amp;rsquo; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;lsquo;avwl&amp;rsquo; guard   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&amp;rsquo; repair   Hub&amp;rsquo; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   SaH care   ghov recognize   Qoy hear   Suj disturb   boQ assist   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong   chuS noisy    </description>
     </item>
     
     <item>
       <title>软件工程复习笔记[12] - Configuration Management</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes12/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes12/</link>
       <pubDate>Sun, 26 Apr 2020 16:43:44 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes12/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes12/</guid>
       <description>Because software changes frequently, systems, can be thought of as a set of versions, each of which has to be maintained and managed. Configuration management (CM) is concerned with the policies, processes and tools for managing changing software systems. CM Activities Change management Keeping track of requests for changes to the software from customers and developers, working out the costs and impact of changes, and deciding the changes should be</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[11] - Quality Management</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes11/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes11/</link>
       <pubDate>Sun, 26 Apr 2020 16:19:25 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes11/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes11/</guid>
       <description>Concerned with ensuring that the required level of quality is achieved in a software product. Three principal concerns: At the organizational level, quality management is concerned with establishing a framework of organizational processes and standards that will lead to high-quality software. At the project level, quality management involves the application of specific quality processes and checking that these planned processes have been followed. At the project level, quality management is</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[10] - Project Planning</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes10/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes10/</link>
       <pubDate>Sun, 26 Apr 2020 13:08:51 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes10/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes10/</guid>
       <description>Project planning involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems. The aim of planning at this stage is to provide information that will be used in setting a price for the system to customers. Plan sections Introduction Project organization Risk analysis Hardware and software resource requirements Work breakdown Project schedule Monitoring and</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[9] - Project Management</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes9/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes9/</link>
       <pubDate>Sun, 26 Apr 2020 11:30:59 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes9/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes9/</guid>
       <description>Concerned with activities involved in ensuring that software is delivered on time and on schedule and in accordance with the requirements of the organisations developing and procuring the software. Success Criteria Deliver the software to the customer at the agreed time. Keep overall costs within budget. Deliver software that meets the customer’s expectations. Maintain a happy and well-functioning development team. Management</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[8] - Software Evolution</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes8/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes8/</link>
       <pubDate>Fri, 24 Apr 2020 19:30:54 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes8/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes8/</guid>
       <description>A key problem for all organizations is implementing and managing change to their existing software systems. The software evolution process Change implementation Program Evolution Dynamics Program evolution dynamics is the study of the processes of system change. After several major empirical studies, Lehman and Belady proposed that there were a number of ‘laws’ which applied to all systems as they evolved. There are sensible observations</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[7] - Software Testing</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes7/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes7/</link>
       <pubDate>Fri, 24 Apr 2020 13:43:03 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes7/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes7/</guid>
       <description>Program Testing Goals To demonstrate to the developer and the customer that the software meets its requirements. (leads to validation testing) To discover situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. (leads to defect testing) Testing can only show the presence of errors in a program. It cannot demonstrate that there are no remaining faults. Verification vs Validation Verification &amp;ldquo;Are</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[6] - Design And Implementation</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes6/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes6/</link>
       <pubDate>Thu, 23 Apr 2020 19:09:46 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes6/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes6/</guid>
       <description>Software design and implementation activities are invariably inter-leaved. An Object-oriented Design Process Object-oriented design processes involve developing a number of different system models. They require a lot of effort for development and maintenance of these models and, for small systems, this may not be cost-effective. However, for large systems developed by different groups design models are an important communication mechanism. Common activities Define the context and modes of use of</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[5] - Architectural Design</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes5/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes5/</link>
       <pubDate>Thu, 23 Apr 2020 13:47:30 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes5/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes5/</guid>
       <description>The design process for identifying the sub-systems making up a system and the framework for sub-system control and communication is architectural design, which is an early stage of the system design process. The output of this design process is a description of the software architecture. It represents the link between specification and design processes and is often carried out in parallel with some specification activities. Each architectural model only shows</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[4] - System Modeling</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes4/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes4/</link>
       <pubDate>Thu, 23 Apr 2020 09:53:53 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes4/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes4/</guid>
       <description>System modeling is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system. System modeling helps the analyst to understand the functionality of the system and models are used to communicate with customers. Unified Modeling Language (UML) The UML is the standard language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system. It can be used</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[3] - Requirements Engineering</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes3/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes3/</link>
       <pubDate>Wed, 22 Apr 2020 17:24:10 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes3/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes3/</guid>
       <description>Types Of Requirement User requirements: Statements in natural language plus diagrams of the services the system provides and its operational constraints. Written for customers. System requirements: A structured document setting out detailed descriptions of the system’s functions, services and operational constraints. Defines what should be implemented so may be part of a contract between client and contractor. Functional And Non-functional Requirements Functional requirements</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[2] - Agile Software Development</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes2/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes2/</link>
       <pubDate>Wed, 22 Apr 2020 17:18:47 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes2/</guid>
       <description>Agile Methods Features Focus on the code rather than the design. Are based on an iterative approach to software development. Are intended to deliver working software quickly and evolve this quickly to meet changing requirements. The aim of agile methods is to reduce overheads in the software process (e.g. by limiting documentation) and to be able to respond quickly to changing requirements without excessive rework. The principles of agile methods</description>
     </item>
     
     <item>
       <title>软件工程复习笔记[1] - Software Process</title>
-      <link>https://GodLovesJonny.github.io/2020/se-notes1/</link>
+      <link>http://jonathanwayy.xyz/2020/se-notes1/</link>
       <pubDate>Wed, 22 Apr 2020 14:31:05 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/se-notes1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/se-notes1/</guid>
       <description>Software Process Software processes are the activities involved in producing a software system. General Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to</description>
     </item>
     
     <item>
       <title>Numpy散记 -- allclose函数的使用</title>
-      <link>https://GodLovesJonny.github.io/2020/numpy-allclose/</link>
+      <link>http://jonathanwayy.xyz/2020/numpy-allclose/</link>
       <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/numpy-allclose/</guid>
+      <guid>http://jonathanwayy.xyz/2020/numpy-allclose/</guid>
       <description>函数原型 numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False) 参数 a, b：用于比较的两个输入数组 rtol：float型，相对容忍系数（relative tolerance parameter） atol：fl</description>
     </item>
     
     <item>
       <title>Numpy散记 -- clip函数的使用</title>
-      <link>https://GodLovesJonny.github.io/2020/numpy-clip/</link>
+      <link>http://jonathanwayy.xyz/2020/numpy-clip/</link>
       <pubDate>Tue, 21 Apr 2020 12:54:52 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/numpy-clip/</guid>
+      <guid>http://jonathanwayy.xyz/2020/numpy-clip/</guid>
       <description>函数原型 numpy.clip(a, a_min, a_max, out=None, **kwargs) 参数 a：数组 a_max：数组元素最大值 a_min：数组元素最小值 功能 np.clip()函数用于将数组元素的值保持在给定区间</description>
     </item>
     
     <item>
       <title>考研数学复习杂笔记 -- 多元函数微分学</title>
-      <link>https://GodLovesJonny.github.io/2020/math-dw/</link>
+      <link>http://jonathanwayy.xyz/2020/math-dw/</link>
       <pubDate>Mon, 20 Apr 2020 16:19:26 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/math-dw/</guid>
+      <guid>http://jonathanwayy.xyz/2020/math-dw/</guid>
       <description>多元函数可导推不出连续与可微：多元的可导是指一阶偏导数存在，而偏导数是用一元函数极限定义的，只与点\((x_{0}, y_{0})\)邻域内过</description>
     </item>
     
     <item>
       <title>考研数学复习杂笔记 -- 向量代数与空间解析几何</title>
-      <link>https://GodLovesJonny.github.io/2020/math-vk/</link>
+      <link>http://jonathanwayy.xyz/2020/math-vk/</link>
       <pubDate>Mon, 20 Apr 2020 15:53:16 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/math-vk/</guid>
+      <guid>http://jonathanwayy.xyz/2020/math-vk/</guid>
       <description>混合积为零等价于三向量共面 求\(\vec{a}\)和\(\vec{b}\)的对角线向量可以求\(\vec{a}^{o}+\vec{b}^{o</description>
     </item>
     
     <item>
       <title>Hugo LeaveIt主题修改代码块底色</title>
-      <link>https://GodLovesJonny.github.io/2020/blog5/</link>
+      <link>http://jonathanwayy.xyz/2020/blog5/</link>
       <pubDate>Wed, 15 Apr 2020 21:47:18 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog5/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog5/</guid>
       <description>如上图，LeaveIt主题在浅色模式下默认的代码块背景色是纯白色，和文字撞色导致观感较差。 可对文件themes/LeaveIt/assets</description>
     </item>
     
     <item>
       <title>Hugo实现LaTex渲染</title>
-      <link>https://GodLovesJonny.github.io/2020/blog4/</link>
+      <link>http://jonathanwayy.xyz/2020/blog4/</link>
       <pubDate>Wed, 15 Apr 2020 20:56:12 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog4/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog4/</guid>
       <description>Hugo框架本身并不支持LaTex，但是可以通过javascript进行渲染。Hugo官网上提供了多种方法，权衡之后我选择了较为简单的KaT</description>
     </item>
     
     <item>
       <title>浅谈激活函数以零为中心的问题</title>
-      <link>https://GodLovesJonny.github.io/2020/zero-centered-active-function/</link>
+      <link>http://jonathanwayy.xyz/2020/zero-centered-active-function/</link>
       <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/zero-centered-active-function/</guid>
+      <guid>http://jonathanwayy.xyz/2020/zero-centered-active-function/</guid>
       <description>本文主要探讨神经网络中的激活函数不是以零为中心（non-zero-centered）是否会导致神经网络收敛变慢，并讨论其背后的原因。 神经元 如</description>
     </item>
     
     <item>
       <title>BLWL[27] Shell 杂记</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl27/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl27/</link>
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl27/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl27/</guid>
       <description>cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下Alt-#在行首添加#以注释该命令并回车执行（相当于依次按下Ctrl-A, #, En</description>
     </item>
     
     <item>
       <title>BLWL[26] Axel Command Tips</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl26/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl26/</link>
       <pubDate>Thu, 12 Mar 2020 11:00:10 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl26/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl26/</guid>
       <description>axel是Linux下一个不错的HTTP/ftp高速下载工具。 axel支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下</description>
     </item>
     
     <item>
       <title>炼丹杂笔记 -- 饱和激活函数</title>
-      <link>https://GodLovesJonny.github.io/2020/dl-notes1/</link>
+      <link>http://jonathanwayy.xyz/2020/dl-notes1/</link>
       <pubDate>Wed, 04 Mar 2020 09:07:11 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/dl-notes1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/dl-notes1/</guid>
       <description>饱和激活函数 当自变量趋于正无穷时，若激活函数的导数趋于0,则称之为右饱和。 当自变量趋于负无穷时，若激活函数的导数趋于0,则称之为左饱和。 若一</description>
     </item>
     
     <item>
       <title>34 Posh English Words</title>
-      <link>https://GodLovesJonny.github.io/2020/eng2/</link>
+      <link>http://jonathanwayy.xyz/2020/eng2/</link>
       <pubDate>Tue, 25 Feb 2020 19:58:23 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/eng2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/eng2/</guid>
       <description>marvellous great, wonderful splendid excellent, very good sensational very good, excellent, wonderful spiffing very good(often used to mock or emulate posh people) stupendous extremely large, extremely impressive ravishing extremely beautiful dashing attractive, confident and elegent(often used to describe a man) joyous very happy; causing people to be happy glorious very beautiful and impressive or extremely enjoyable eclectic not following one style or using a wide variety [She has very eclectic taste in music.</description>
     </item>
     
     <item>
       <title>BLWL[25] Top Command Tips</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl25/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl25/</link>
       <pubDate>Mon, 03 Feb 2020 00:44:13 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl25/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl25/</guid>
       <description>top命令可用于查看和管控系统进程。 top命令默认以当前消耗的CPU时间对所展示的进程进行排序。 若要对进程进行管控，必须以root用户身份运</description>
     </item>
     
     <item>
       <title>BLWL[24] Linux终端快捷键</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl24/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl24/</link>
       <pubDate>Thu, 30 Jan 2020 17:34:13 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl24/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl24/</guid>
       <description>Keystrokes for Navigating Command Lines Keystroke Full Name Meaning Ctrl + F Character forward Go forward one character. Ctrl + B Character backward Go backward one character. Alt + F Word forward Go forward one word. Alt + B Word backward Go backward one word. Ctrl + A Beginning of line Go to the beginning of the current line. Ctrl + E End of line Go to the end of</description>
     </item>
     
     <item>
       <title>English Vocab Notes</title>
-      <link>https://GodLovesJonny.github.io/2020/eng1/</link>
+      <link>http://jonathanwayy.xyz/2020/eng1/</link>
       <pubDate>Wed, 29 Jan 2020 23:32:23 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/eng1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/eng1/</guid>
       <description>Word Definition     prudent a. careful and sensible; marked by sound judgment   eradicate To eradicate something means to get rid of it completely.   lurk If someone lurks somewhere, they wait there secretly so that they cannot be seen, usually because they intend to do something bad.   posh elegant and fashionable   dough a flour mixture stiff enough to knead or roll; informal terms for money   crisps a thin crisp slice of potato fried in deep fat   mischievous naughtily or annoyingly playful   esbresso strong black coffee brewed by forcing hot water under pressure through finely ground coffee beans   stanch stop the flow of a liquid   efficacy n.</description>
     </item>
     
     <item>
       <title>基于人脸检测的自动口罩/护目镜佩戴小程序</title>
-      <link>https://GodLovesJonny.github.io/2020/mask-wearing/</link>
+      <link>http://jonathanwayy.xyz/2020/mask-wearing/</link>
       <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/mask-wearing/</guid>
+      <guid>http://jonathanwayy.xyz/2020/mask-wearing/</guid>
       <description>最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。 为了省去P图时来回来去调整的麻烦，这里开</description>
     </item>
     
     <item>
       <title>[KLI] This, That, These, Those</title>
-      <link>https://GodLovesJonny.github.io/2020/kli18/</link>
+      <link>http://jonathanwayy.xyz/2020/kli18/</link>
       <pubDate>Tue, 28 Jan 2020 18:53:37 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli18/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli18/</guid>
       <description>&amp;ldquo;This, these&amp;rdquo; and &amp;ldquo;that, those&amp;rdquo; use &amp;ldquo;Type 4&amp;rdquo; noun suffixes: -vam and -vetlh, respectively: Ha&amp;rsquo;DIbaHvam &amp;ldquo;this animal&amp;rdquo;, Ha&amp;rsquo;DIbaHmeyvetlh &amp;ldquo;those animals&amp;rdquo;.
 Whether &amp;ldquo;this&amp;rdquo; or &amp;ldquo;these&amp;rdquo; is appropriate as a translation of -vam depends on whether the noun is singular or plural; similarly with &amp;ldquo;that&amp;rdquo; or &amp;ldquo;those&amp;rdquo; for -vetlh.
 Note that these type 4 endings come after the type 2 plural suffix and -&amp;lsquo;e&amp;rsquo; would come last as a type 5 suffix.</description>
@@ -277,10 +277,10 @@ Note that these type 4 endings come after the type 2 plural suffix and -&amp;lsq
     
     <item>
       <title>[KLI] To Be Or Not To Be</title>
-      <link>https://GodLovesJonny.github.io/2020/kli17/</link>
+      <link>http://jonathanwayy.xyz/2020/kli17/</link>
       <pubDate>Tue, 28 Jan 2020 18:47:04 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli17/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli17/</guid>
       <description>Klingon does not have a verb &amp;ldquo;to be&amp;rdquo;. Instead, pronouns help to fill that role.
 For example, jIH means &amp;ldquo;I&amp;rdquo; or &amp;ldquo;me&amp;rdquo; but also means &amp;ldquo;I am&amp;rdquo; in sentences such as tlhIngan jIH &amp;ldquo;I am a Klingon&amp;rdquo;.
 ghaH means &amp;ldquo;he&amp;rdquo;, &amp;ldquo;she&amp;rdquo;, &amp;ldquo;him&amp;rdquo;, or &amp;ldquo;her&amp;rdquo; and also means &amp;ldquo;he is&amp;rdquo; or &amp;ldquo;she is&amp;rdquo; in sentences such as tlhIngan ghaH &amp;ldquo;He is a Klingon&amp;rdquo; or &amp;ldquo;She is a Klingon&amp;rdquo;.
@@ -289,46 +289,46 @@ To specify who the &amp;ldquo;he&amp;rdquo;, &amp;ldquo;she&amp;rdquo;, or &amp;
     
     <item>
       <title>[KLI] Klingon Pronouns</title>
-      <link>https://GodLovesJonny.github.io/2020/kli16/</link>
+      <link>http://jonathanwayy.xyz/2020/kli16/</link>
       <pubDate>Tue, 28 Jan 2020 17:23:09 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli16/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli16/</guid>
       <description>Kli Eng     jIH I (am); me   SoH you (are); you   ghaH he (is), she (is); him, her   &amp;lsquo;oH it (is); it   maH we (are); us   tlhIH you (are) - plural; you   chaH they (are) - language-users; them   bIH they (are) - objects etc.; them    Pronouns can be used to represent a noun.</description>
     </item>
     
     <item>
       <title>Pytorch部分加载预训练ResNet-50模型作为Backbone</title>
-      <link>https://GodLovesJonny.github.io/2020/torch2/</link>
+      <link>http://jonathanwayy.xyz/2020/torch2/</link>
       <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/torch2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/torch2/</guid>
       <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
     </item>
     
     <item>
       <title>壁纸分享</title>
-      <link>https://GodLovesJonny.github.io/2020/sharp4/</link>
+      <link>http://jonathanwayy.xyz/2020/sharp4/</link>
       <pubDate>Sun, 26 Jan 2020 11:35:21 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/sharp4/</guid>
+      <guid>http://jonathanwayy.xyz/2020/sharp4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manjaro KDE有活动窗口时模糊桌面小插件Inactive Blur</title>
-      <link>https://GodLovesJonny.github.io/2020/sharp3/</link>
+      <link>http://jonathanwayy.xyz/2020/sharp3/</link>
       <pubDate>Sun, 26 Jan 2020 11:11:17 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/sharp3/</guid>
+      <guid>http://jonathanwayy.xyz/2020/sharp3/</guid>
       <description>Manjaro KDE下一个挺有意思的桌面插件Inactive Blur 安装后在桌面配置中启用，可以对模糊度、渐变时间、壁纸图片等进行相关设置 无活动窗口时： 有活动</description>
     </item>
     
     <item>
       <title>[KLI] More Verb Prefixes</title>
-      <link>https://GodLovesJonny.github.io/2020/kli15/</link>
+      <link>http://jonathanwayy.xyz/2020/kli15/</link>
       <pubDate>Sat, 25 Jan 2020 22:00:44 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli15/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli15/</guid>
       <description>In the previous post, we have introduced the most common verb prefixes: jI-, vI-, bI-, Da-, ma-, Su-, and no prefix at all (sometimes called the &amp;ldquo;null&amp;rdquo; prefix).
 Here we are going to introduce some new verb prefixes for combinations of subjects and objects:
    Prefix Subject Object     jI- I no object   vI- I him/her/it/them   bI- you (singular) no object   Da- you (singular) him/her/it/them   ma- we no object   Su- you (plural) no object   lu- they him/her/it   &amp;mdash;&amp;mdash;&amp;mdash;- &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;   qa- I you (singular)   Sa- I you (plural)   cho- you (singular) me   ju- you (singular) us   pI- we you (singular)   re- we you (plural)   wI we him, her, it   DI- we them   tu- you (plural) me   che- you (plural) us   bo- you (plural) him, her, it, them   mu- he, she, it, they me   Du- he, she, it you (singular)   nI- they you (singular)   nu- he, she, it, they us   lI- he, she, it, they you (plural)    Pay special attention to the fact that when the subject is &amp;ldquo;we&amp;rdquo;, there are separate prefixes wI- and DI- depending on whether the third-person object is singular (him, her, it) or plural (them) &amp;ndash; unlike when the subject is &amp;ldquo;I&amp;rdquo; (vI- for both singular and plural third person subjects) or &amp;ldquo;you (singular)&amp;rdquo; (Da- for both singular and plural third person subjects) or &amp;ldquo;you (plural)&amp;rdquo; (bo- for both singular and plural third person subjects).</description>
@@ -336,10 +336,10 @@ Here we are going to introduce some new verb prefixes for combinations of subjec
     
     <item>
       <title>[KLI] Can, Cannot, Cannot Cannot...</title>
-      <link>https://GodLovesJonny.github.io/2020/kli14/</link>
+      <link>http://jonathanwayy.xyz/2020/kli14/</link>
       <pubDate>Sat, 25 Jan 2020 21:49:03 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli14/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli14/</guid>
       <description>The &amp;ldquo;Type 5&amp;rdquo; verb suffix -laH indicates &amp;ldquo;can&amp;rdquo; or &amp;ldquo;able to&amp;rdquo;.
 For example, it makes the difference between tlhIngan Hol vIjatlh &amp;ldquo;I speak Klingon&amp;rdquo; and tlhIngan Hol vIjatlhlaH &amp;ldquo;I can speak Klingon&amp;rdquo;.
 As introduced in the previous post, the verb suffix -be&amp;rsquo; means &amp;ldquo;not&amp;rdquo;.
@@ -348,47 +348,47 @@ You may remember that this suffix is classified as a &amp;ldquo;rover&amp;rdquo;
     
     <item>
       <title>Pytorch部分加载预训练VGG-16模型作为Backbone</title>
-      <link>https://GodLovesJonny.github.io/2020/torch1/</link>
+      <link>http://jonathanwayy.xyz/2020/torch1/</link>
       <pubDate>Sat, 25 Jan 2020 17:26:21 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/torch1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/torch1/</guid>
       <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
     </item>
     
     <item>
       <title>Hugo 添加标签页卡图标</title>
-      <link>https://GodLovesJonny.github.io/2020/blog3/</link>
+      <link>http://jonathanwayy.xyz/2020/blog3/</link>
       <pubDate>Sat, 25 Jan 2020 11:16:48 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog3/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog3/</guid>
       <description>将需要的图标图片保存为PNG格式放到static目录下即可 可以用一些Favicon生成工具先将图片制作成比较标准的图标，此前介绍过一款很方便</description>
     </item>
     
     <item>
       <title>全平台Favicon在线生成器Real Favicon Generator</title>
-      <link>https://GodLovesJonny.github.io/2020/sharp2/</link>
+      <link>http://jonathanwayy.xyz/2020/sharp2/</link>
       <pubDate>Sat, 25 Jan 2020 11:06:10 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/sharp2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/sharp2/</guid>
       <description>一款Favicon在线生成工具，图形化操作上传需要制作的图片即可 网站传送门</description>
     </item>
     
     <item>
       <title>[KLI] Suffixes for Each Other</title>
-      <link>https://GodLovesJonny.github.io/2020/kli13/</link>
+      <link>http://jonathanwayy.xyz/2020/kli13/</link>
       <pubDate>Fri, 24 Jan 2020 20:27:21 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli13/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli13/</guid>
       <description>-&amp;lsquo;egh indicates that the subject of the verb affects itself (or the subjects affect themselves). For example, from legh (see), one could form legh&amp;rsquo;egh torgh &amp;ldquo;Torg sees himself&amp;rdquo; or legh&amp;rsquo;egh puqpu&amp;rsquo; &amp;ldquo;the children see themselves&amp;rdquo; (perhaps in a mirror).
 -chuq indicates that the subjects of the verb affect each other. It only makes sense if the subject is plural: &amp;ldquo;we, you, they&amp;rdquo;. For example, leghchuq puqpu&amp;rsquo; would mean &amp;ldquo;the children see each other&amp;rdquo; &amp;ndash; that is, each child sees another child.</description>
     </item>
     
     <item>
       <title>[KLI] Apostrophes And Quotes</title>
-      <link>https://GodLovesJonny.github.io/2020/kli12/</link>
+      <link>http://jonathanwayy.xyz/2020/kli12/</link>
       <pubDate>Fri, 24 Jan 2020 20:14:03 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli12/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli12/</guid>
       <description>Klingon uses the apostrophe &#39; as a letter.
 It does not use the double-quote character &amp;quot; as a letter. When you see what might look like a double-quote in the middle of the word, it is actually two apostrophes side by side.
 For example, maw&amp;rsquo; means &amp;ldquo;to be crazy&amp;rdquo; or &amp;ldquo;he/she is crazy&amp;rdquo;; when you add the question suffix -&amp;lsquo;a&amp;rsquo; , you get maw&#39;&amp;lsquo;a&amp;rsquo;? &amp;ldquo;is he/she crazy?&amp;quot;.</description>
@@ -396,10 +396,10 @@ For example, maw&amp;rsquo; means &amp;ldquo;to be crazy&amp;rdquo; or &amp;ldqu
     
     <item>
       <title>[KLI] Negatives And Questions</title>
-      <link>https://GodLovesJonny.github.io/2020/kli11/</link>
+      <link>http://jonathanwayy.xyz/2020/kli11/</link>
       <pubDate>Fri, 24 Jan 2020 20:03:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli11/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli11/</guid>
       <description>The verb suffix -&amp;lsquo;a&amp;rsquo; for a yes/no question and the verb suffix -be&amp;rsquo; for negative.
 The verb suffix -&amp;lsquo;a&amp;rsquo; is classified as a &amp;ldquo;type 9&amp;rdquo; verb suffix and will always be the last suffix on a verb. The verb suffix -be&amp;rsquo; is classified as a &amp;ldquo;rover&amp;rdquo;.
 These suffixes can be added to any verb to turn it into a negative or a question. For example, jIQong &amp;ldquo;I slept&amp;rdquo;, jIQongbe&amp;rsquo; &amp;ldquo;I did not sleep&amp;rdquo;, jIQong&amp;rsquo;a&amp;rsquo;?</description>
@@ -407,19 +407,19 @@ These suffixes can be added to any verb to turn it into a negative or a question
     
     <item>
       <title>Hugo LeaveIt添加网站流量统计</title>
-      <link>https://GodLovesJonny.github.io/2020/blog2/</link>
+      <link>http://jonathanwayy.xyz/2020/blog2/</link>
       <pubDate>Fri, 24 Jan 2020 16:28:50 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog2/</guid>
       <description>不蒜子是一个通过仅仅两行代码实现的网页流量计数器 1.在themes/layouts/partials/head.html文件中引入不蒜子js</description>
     </item>
     
     <item>
       <title>[KLI] Klingon Words for &#34;Yes&#34; And &#34;No&#34;</title>
-      <link>https://GodLovesJonny.github.io/2020/kli10/</link>
+      <link>http://jonathanwayy.xyz/2020/kli10/</link>
       <pubDate>Fri, 24 Jan 2020 15:51:42 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli10/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli10/</guid>
       <description>HISlaH means &amp;ldquo;yes&amp;rdquo; and ghobe&amp;rsquo; means &amp;ldquo;no&amp;rdquo;.
 These words are primarily used to answer yes/no questions.
 Besides these two words, Qo&amp;rsquo; is used to express refusal (as in &amp;ldquo;No, I won&amp;rsquo;t!&amp;quot;). HIja&amp;rsquo; also means &amp;ldquo;yes&amp;rdquo; and is a direct synonym with no different connotations.
@@ -428,10 +428,10 @@ Note that unlike the English word &amp;ldquo;no&amp;rdquo;, the words ghobe&amp;
     
     <item>
       <title>[KLI] Klingon Adjectives</title>
-      <link>https://GodLovesJonny.github.io/2020/kli9/</link>
+      <link>http://jonathanwayy.xyz/2020/kli9/</link>
       <pubDate>Fri, 24 Jan 2020 15:44:39 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli9/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli9/</guid>
       <description>Klingon does not have adjectives as a separate class of words; instead, it has verbs which mean things such as &amp;ldquo;be handsome&amp;rdquo;, &amp;ldquo;be smart&amp;rdquo;, or &amp;ldquo;be big&amp;rdquo;.
 A sentence such as val torgh &amp;ldquo;Torg is smart&amp;rdquo; has the same grammar (verb + subject) as yaj torgh &amp;ldquo;Torg understands&amp;rdquo;, even though one sentence has an adjective in English and the other an active verb.
 Note that the English translation includes the connecting word &amp;ldquo;is&amp;rdquo; when you use an adjective, but the Klingon translation just connects the subject directly to the verb without using any sort of connecting word.</description>
@@ -439,19 +439,19 @@ Note that the English translation includes the connecting word &amp;ldquo;is&amp
     
     <item>
       <title>内网文件共享工具NitroShare</title>
-      <link>https://GodLovesJonny.github.io/2020/sharp1/</link>
+      <link>http://jonathanwayy.xyz/2020/sharp1/</link>
       <pubDate>Fri, 24 Jan 2020 15:20:08 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/sharp1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/sharp1/</guid>
       <description>NitroShare是一款基于Qt5的跨平台开源应用软件，可以在本地网络（内网）中实现文件共享。 NitroShare已包含在AUR中，Man</description>
     </item>
     
     <item>
       <title>[KLI] Joining Two Sentences With &#34;And&#34;</title>
-      <link>https://GodLovesJonny.github.io/2020/kli8/</link>
+      <link>http://jonathanwayy.xyz/2020/kli8/</link>
       <pubDate>Fri, 24 Jan 2020 12:56:54 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli8/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli8/</guid>
       <description>As mentioned in the previous post, nouns are joined with je.
 To join two sentences with &amp;ldquo;and&amp;rdquo; a different word is used: &amp;lsquo;ej.
 This word is placed between the sentences.
@@ -461,10 +461,10 @@ For example, &amp;ldquo;I run&amp;rdquo; (jIqet) + &amp;ldquo;I jump&amp;rdquo; 
     
     <item>
       <title>[KLI] Klingon Plurals</title>
-      <link>https://GodLovesJonny.github.io/2020/kli7/</link>
+      <link>http://jonathanwayy.xyz/2020/kli7/</link>
       <pubDate>Fri, 24 Jan 2020 12:48:25 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli7/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli7/</guid>
       <description>English plurals are a good example of using suffixes. In English an -s or an -es is generally added to the end of the noun to make it plural.
 Klingon plurals are formed in a similar fashion to the English method of forming plurals. In Klingon a -pu&amp;rsquo;, -Du&amp;rsquo;, or -mey is added to the end of the noun.
 These are the &amp;ldquo;Type 2&amp;rdquo; noun suffixes.
@@ -473,10 +473,10 @@ Nearly all Klingon nouns belong to one of three groups, depending on which &amp;
     
     <item>
       <title>[KLI] Klingon Verb And Noun Suffixes</title>
-      <link>https://GodLovesJonny.github.io/2020/kli6/</link>
+      <link>http://jonathanwayy.xyz/2020/kli6/</link>
       <pubDate>Fri, 24 Jan 2020 12:39:30 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli6/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli6/</guid>
       <description>Meaning is added to Klingon words through use of syllables added to the front or ends of words.
 Syllables added to the beginnings of words are called prefixes and in Klingon indicate who is doing a particular verb and who that action is done to.
 Suffixes are added to the ends of words and occassionally you will encounter a word with more than one suffix. Klingon linguists categorize these suffixes according to which ones cannot occur together and what order they must occur in.</description>
@@ -484,29 +484,29 @@ Suffixes are added to the ends of words and occassionally you will encounter a w
     
     <item>
       <title>[KLI] Klingon Word Order</title>
-      <link>https://GodLovesJonny.github.io/2020/kli5/</link>
+      <link>http://jonathanwayy.xyz/2020/kli5/</link>
       <pubDate>Fri, 24 Jan 2020 12:34:14 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli5/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli5/</guid>
       <description>Klingon word order in a sentence may seem like the opposite of English word order - first comes the object (if any), then the verb, then the subject. So a sentence such as mara legh torgh means &amp;ldquo;Torg sees Mara&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>[KLI] Joining Nouns With And Without &#34;And&#34;</title>
-      <link>https://GodLovesJonny.github.io/2020/kli4/</link>
+      <link>http://jonathanwayy.xyz/2020/kli4/</link>
       <pubDate>Fri, 24 Jan 2020 12:22:46 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli4/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli4/</guid>
       <description>Nouns are joined with je, which comes after the nouns.
 If there is no je after two nouns next to each other, the effect is similar to possession: mara pong &amp;ldquo;Mara&amp;rsquo;s name&amp;rdquo;; tlhIngan Hol &amp;ldquo;a Klingon&amp;rsquo;s language, the Klingon language&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>[KLI] Klingon Verbs</title>
-      <link>https://GodLovesJonny.github.io/2020/kli3/</link>
+      <link>http://jonathanwayy.xyz/2020/kli3/</link>
       <pubDate>Fri, 24 Jan 2020 11:47:52 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli3/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli3/</guid>
       <description>Klingon verbs do not have tense (past, present, future), so a verb such as yaj could mean &amp;ldquo;understands, understood, will understand&amp;rdquo;.
 In grammar, a subject is the one doing the action and an object is the one the action is done to. Klingon verbs show the subject and the object of verbs by means of prefixes.
 The most important verb prefixes are:
@@ -515,10 +515,10 @@ The most important verb prefixes are:
     
     <item>
       <title>[KLI] nuqheH &amp; nuqjatlh &amp; Qapla&#39;</title>
-      <link>https://GodLovesJonny.github.io/2020/kli2/</link>
+      <link>http://jonathanwayy.xyz/2020/kli2/</link>
       <pubDate>Fri, 24 Jan 2020 10:47:47 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli2/</guid>
       <description>nuqneH is a truncated form of nuq DaneH, meaning &amp;ldquo;What do you want?&amp;rdquo;
 It is a common misconception that this is &amp;ldquo;the Klingon word for hello&amp;rdquo;. In fact, Klingons have no word for hello. If a Klingon wishes to say something, they&amp;rsquo;ll walk up to you and say it, without wasting time - as they see it - on idle chatter.
 nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you say?</description>
@@ -526,226 +526,226 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
     
     <item>
       <title>[KLI] Klingon Alphabet</title>
-      <link>https://GodLovesJonny.github.io/2020/kli1/</link>
+      <link>http://jonathanwayy.xyz/2020/kli1/</link>
       <pubDate>Fri, 24 Jan 2020 10:44:47 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/kli1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/kli1/</guid>
       <description>letter prounciation     a &amp;lsquo;at   b b   ch chay   D Day   e &amp;lsquo;et   gh ghay   H Hay   I &amp;lsquo;It   j jay   l l   m may   n n   ng ngay   o &amp;lsquo;ot   p p   Q Qay   q qay   r ray   S Say   t t   tlh tlhay   u &amp;lsquo;ut   v v   w way   y yay   &#39; qaghwI&amp;rsquo;    Notes:  In Klingon, case matters.</description>
     </item>
     
     <item>
       <title>修改LeaveIt主题标题栏失去焦点时内容</title>
-      <link>https://GodLovesJonny.github.io/2020/blog1/</link>
+      <link>http://jonathanwayy.xyz/2020/blog1/</link>
       <pubDate>Fri, 24 Jan 2020 09:51:39 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog1/</guid>
       <description>LeaveIt主题默认在失去焦点时会在标题栏显示I Miss You 可以在themes/LeaveIt/assets/js/main.js文件中进行修改 找</description>
     </item>
     
     <item>
       <title>BLWL[23] Ranger Notes</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl23/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl23/</link>
       <pubDate>Thu, 23 Jan 2020 22:45:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl23/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl23/</guid>
       <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
     </item>
     
     <item>
       <title>BLWL[22] 撤销git提交</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl22/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl22/</link>
       <pubDate>Thu, 23 Jan 2020 22:44:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl22/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl22/</guid>
       <description>Git Commit Withdrawal 撤销上一次提交 git reset &amp;ndash;soft HEAD^ 撤销前n次提交 git reset &amp;ndash;soft HEAD~n 仅修改commit注释 git commit &amp;ndash;amend 参数： &amp;ndash;soft 不删除工作空间改动代码，撤销commit，不撤销git</description>
     </item>
     
     <item>
       <title>BLWL[21] Ack Command Tips</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl21/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl21/</link>
       <pubDate>Thu, 23 Jan 2020 22:43:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl21/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl21/</guid>
       <description>ack是一个使用Perl语言开发的高效代码搜索工具 默认会搜索当前目录下所有文件内容，只要包含关键字就输出 文本搜索 ack keyword ack -l keyword # 只显示文件名 ack -i</description>
     </item>
     
     <item>
       <title>BLWL[20] 订阅Linux邮件列表</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl20/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl20/</link>
       <pubDate>Thu, 23 Jan 2020 22:42:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl20/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl20/</guid>
       <description>学习Linux内核可以订阅Linux的邮件列表，订阅的方法如下： 登录网站：http://vger.kernel.org/vger-lists</description>
     </item>
     
     <item>
       <title>BLWL[19] 修改iPython使用的默认Python</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl19/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl19/</link>
       <pubDate>Thu, 23 Jan 2020 22:41:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl19/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl19/</guid>
       <description>iPython是一个很好用的交互式Python解释器，Manjaro前一次内核升级后系统Python升到了3.8，而Pytorch目前还只支</description>
     </item>
     
     <item>
       <title>BLWL[18] Vimscript Notes</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl18/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl18/</link>
       <pubDate>Thu, 23 Jan 2020 22:40:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl18/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl18/</guid>
       <description>:echo命令输出的信息在脚本运行完毕后就会消失，:echom打印的信息会保存下来，可以执行:messages命令再次查看 :set /:set no或直接:s</description>
     </item>
     
     <item>
       <title>BLWL[17] Vim保存上次退出时光标位置</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl17/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl17/</link>
       <pubDate>Thu, 23 Jan 2020 22:39:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl17/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl17/</guid>
       <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在.vimrc中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
     </item>
     
     <item>
       <title>BLWL[16] Vimdiff Tips</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl16/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl16/</link>
       <pubDate>Thu, 23 Jan 2020 22:38:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl16/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl16/</guid>
       <description>Vimdiff是Vim自带的一个文件差异编辑器 启动vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折</description>
     </item>
     
     <item>
       <title>BLWL[15] Vim Tips</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl15/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl15/</link>
       <pubDate>Thu, 23 Jan 2020 22:37:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl15/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl15/</guid>
       <description>i 如ci&amp;rdquo;，di&amp;lt;，yi(等，在相应符号间执行有关操作 f查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa vi</description>
     </item>
     
     <item>
       <title>BLWL[14] Vim Macro的使用</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl14/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl14/</link>
       <pubDate>Thu, 23 Jan 2020 22:36:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl14/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl14/</guid>
       <description>可以通过Vim的宏录制完成重复的同一操作 在normal模式下输入qa（qb，qc，etc.）选择将录制好的宏放入寄存器a（b，c，etc.）</description>
     </item>
     
     <item>
       <title>BLWL[13] 为较常用命令设置别名</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl13/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl13/</link>
       <pubDate>Thu, 23 Jan 2020 22:35:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl13/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl13/</guid>
       <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应shell的配置文件中即可。</description>
     </item>
     
     <item>
       <title>BLWL[12] Manjaro KDE安装并激活Edraw</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl12/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl12/</link>
       <pubDate>Thu, 23 Jan 2020 22:34:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl12/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl12/</guid>
       <description>Edraw Max 的跨平台性使其成为了Visio很好的替代品 ArchLinux的AUR源里就有，直接 yay edraw 然后选择Edraw Max即可。 安装完成后还需要破解</description>
     </item>
     
     <item>
       <title>BLWL[11] 使用Clear命令Terminals Database Inaccessible报错问题解决方案</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl11/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl11/</link>
       <pubDate>Thu, 23 Jan 2020 22:33:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl11/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl11/</guid>
       <description>问题： 当使用clear命令时出现如下报错 ~$ clear terminals database is inaccessible 临时解决方法： ~$ export TERMINFO=/usr/share/terminfo 最好将上面这条 export 命令添加到 .bashrc 中。</description>
     </item>
     
     <item>
       <title>BLWL[10] Manjaro更新时Invalid Software Package问题解决方案</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl10/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl10/</link>
       <pubDate>Thu, 23 Jan 2020 22:32:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl10/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl10/</guid>
       <description>Manjaro更新报错-无效或已损坏的软件包(PGP 签名) 原因：使用了社区源且开启了验证，关闭验证即可 vim /etc/pacman.conf 找到社区源相关部分 [archlinuxcn] #SigLevel = Optional TrustedOnly SigLevel = Optional</description>
     </item>
     
     <item>
       <title>BLWL[9] Unzip解压中文乱码问题解决方案</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl9/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl9/</link>
       <pubDate>Thu, 23 Jan 2020 22:31:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl9/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl9/</guid>
       <description>1.执行unzip命令，查看系统上是否有unzip，若有直接卸载 yaourt -Rns unzip 2.安装unzip-icon yaourt unzip-icon 3.指定编码解压文件 unzip -O GBK ZIP_file</description>
     </item>
     
     <item>
       <title>BLWL[8] Manjaro KDE成功安装并平稳使用TIM</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl8/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl8/</link>
       <pubDate>Thu, 23 Jan 2020 22:30:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl8/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl8/</guid>
       <description>配置好镜像源（开箱后的常规三步走即可） 安装QQ或TIM，pacman一下即可 sudo pacman -S deepin.com.qq.office sudo pacman -S deepin.com.qq.im 尝试一下是否可以打开（如果启动菜单没有，可以在/</description>
     </item>
     
     <item>
       <title>BLWL[7] Manjaro KDE画面撕裂问题解决方案</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl7/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl7/</link>
       <pubDate>Thu, 23 Jan 2020 22:29:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl7/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl7/</guid>
       <description>之前在新机子上装Manjaro KDE屡试未果，画面一直撕裂，最后没办法换了XFCE XFCE倒确实顺风顺水没出什么幺蛾子，但是用习惯了KDE的</description>
     </item>
     
     <item>
       <title>BLWL[6] Manjaro KDE安装Google拼音输入法</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl6/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl6/</link>
       <pubDate>Thu, 23 Jan 2020 22:28:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl6/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl6/</guid>
       <description>先安装相关软件 sudo pacman -S fcitx-im fcitx-configtool fcitx-googlepinyin 然后在用户根目录编辑.xprofile文件（没有就新建一个） vim ~/.xprofile 若是刚装好的Manjaro上使用vim需要安装一下</description>
     </item>
     
     <item>
       <title>BLWL[5] Manjaro KDE 中文字符变方框问题解决方案</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl5/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl5/</link>
       <pubDate>Thu, 23 Jan 2020 22:27:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl5/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl5/</guid>
       <description>该问题一般出现在刚刚装完的Manjaro上，一些操作后突然中文字符全部变成了方框 一般情况下可以通过安装字体解决 sudo pacman -S wqy-microhei 然后重启即可</description>
     </item>
     
     <item>
       <title>BLWL[4] Manjaro KDE上Teamviewer闪退问题解决方案</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl4/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl4/</link>
       <pubDate>Thu, 23 Jan 2020 22:26:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl4/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl4/</guid>
       <description>直接pacman安装的TV会出现一直&amp;quot;Not Ready,&amp;hellip;&amp;ldquo;的情况 此时先 sudo teamviewer --daemon enable 再打开Teamviewe</description>
     </item>
     
     <item>
       <title>BLWL[3] Manjaro Pip替换清华源</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl3/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl3/</link>
       <pubDate>Thu, 23 Jan 2020 22:25:56 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl3/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl3/</guid>
       <description>修改 ~/.pip/pip.conf (没有就创建一个) [global] index-url = https://pypi.tuna.tsinghua.edu.cn/simple</description>
     </item>
     
     <item>
       <title>BLWL[2] Manjaro Xfce桌面背景替换</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl2/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl2/</link>
       <pubDate>Thu, 23 Jan 2020 22:24:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl2/</guid>
       <description>新机子一开始想也装KDE桌面版，然而独显驱动似乎配置上似乎出了什么问题，看了一些资料捣鼓了两天仍然未见成效 主要是KDE桌面的画面撕裂问题，暂</description>
     </item>
     
     <item>
       <title>BLWL[1] 使用Pacman优雅地安装程序</title>
-      <link>https://GodLovesJonny.github.io/2020/blwl1/</link>
+      <link>http://jonathanwayy.xyz/2020/blwl1/</link>
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blwl1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blwl1/</guid>
       <description>Reason to use pacman Arch下简洁高效的包管理命令 享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源</description>
     </item>
     

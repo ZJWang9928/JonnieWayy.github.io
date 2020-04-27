@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Jonathan`s Blog</title>
-    <link>https://GodLovesJonny.github.io/tags/blog/</link>
+    <link>http://jonathanwayy.xyz/tags/blog/</link>
     <description>Recent content in blog on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Wed, 15 Apr 2020 21:47:18 +0800</lastBuildDate>
     
-	<atom:link href="https://GodLovesJonny.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jonathanwayy.xyz/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo LeaveIt主题修改代码块底色</title>
-      <link>https://GodLovesJonny.github.io/2020/blog5/</link>
+      <link>http://jonathanwayy.xyz/2020/blog5/</link>
       <pubDate>Wed, 15 Apr 2020 21:47:18 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog5/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog5/</guid>
       <description>如上图，LeaveIt主题在浅色模式下默认的代码块背景色是纯白色，和文字撞色导致观感较差。 可对文件themes/LeaveIt/assets</description>
     </item>
     
     <item>
       <title>Hugo实现LaTex渲染</title>
-      <link>https://GodLovesJonny.github.io/2020/blog4/</link>
+      <link>http://jonathanwayy.xyz/2020/blog4/</link>
       <pubDate>Wed, 15 Apr 2020 20:56:12 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog4/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog4/</guid>
       <description>Hugo框架本身并不支持LaTex，但是可以通过javascript进行渲染。Hugo官网上提供了多种方法，权衡之后我选择了较为简单的KaT</description>
     </item>
     
     <item>
       <title>Hugo 添加标签页卡图标</title>
-      <link>https://GodLovesJonny.github.io/2020/blog3/</link>
+      <link>http://jonathanwayy.xyz/2020/blog3/</link>
       <pubDate>Sat, 25 Jan 2020 11:16:48 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog3/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog3/</guid>
       <description>将需要的图标图片保存为PNG格式放到static目录下即可 可以用一些Favicon生成工具先将图片制作成比较标准的图标，此前介绍过一款很方便</description>
     </item>
     
     <item>
       <title>Hugo LeaveIt添加网站流量统计</title>
-      <link>https://GodLovesJonny.github.io/2020/blog2/</link>
+      <link>http://jonathanwayy.xyz/2020/blog2/</link>
       <pubDate>Fri, 24 Jan 2020 16:28:50 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog2/</guid>
       <description>不蒜子是一个通过仅仅两行代码实现的网页流量计数器 1.在themes/layouts/partials/head.html文件中引入不蒜子js</description>
     </item>
     
     <item>
       <title>修改LeaveIt主题标题栏失去焦点时内容</title>
-      <link>https://GodLovesJonny.github.io/2020/blog1/</link>
+      <link>http://jonathanwayy.xyz/2020/blog1/</link>
       <pubDate>Fri, 24 Jan 2020 09:51:39 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/blog1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/blog1/</guid>
       <description>LeaveIt主题默认在失去焦点时会在标题栏显示I Miss You 可以在themes/LeaveIt/assets/js/main.js文件中进行修改 找</description>
     </item>
     

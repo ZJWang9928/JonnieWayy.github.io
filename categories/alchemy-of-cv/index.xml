@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alchemy Of CV on Jonathan`s Blog</title>
-    <link>https://GodLovesJonny.github.io/categories/alchemy-of-cv/</link>
+    <link>http://jonathanwayy.xyz/categories/alchemy-of-cv/</link>
     <description>Recent content in Alchemy Of CV on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Tue, 21 Apr 2020 13:09:31 +0800</lastBuildDate>
     
-	<atom:link href="https://GodLovesJonny.github.io/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jonathanwayy.xyz/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Numpy散记 -- allclose函数的使用</title>
-      <link>https://GodLovesJonny.github.io/2020/numpy-allclose/</link>
+      <link>http://jonathanwayy.xyz/2020/numpy-allclose/</link>
       <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/numpy-allclose/</guid>
+      <guid>http://jonathanwayy.xyz/2020/numpy-allclose/</guid>
       <description>函数原型 numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False) 参数 a, b：用于比较的两个输入数组 rtol：float型，相对容忍系数（relative tolerance parameter） atol：fl</description>
     </item>
     
     <item>
       <title>Numpy散记 -- clip函数的使用</title>
-      <link>https://GodLovesJonny.github.io/2020/numpy-clip/</link>
+      <link>http://jonathanwayy.xyz/2020/numpy-clip/</link>
       <pubDate>Tue, 21 Apr 2020 12:54:52 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/numpy-clip/</guid>
+      <guid>http://jonathanwayy.xyz/2020/numpy-clip/</guid>
       <description>函数原型 numpy.clip(a, a_min, a_max, out=None, **kwargs) 参数 a：数组 a_max：数组元素最大值 a_min：数组元素最小值 功能 np.clip()函数用于将数组元素的值保持在给定区间</description>
     </item>
     
     <item>
       <title>浅谈激活函数以零为中心的问题</title>
-      <link>https://GodLovesJonny.github.io/2020/zero-centered-active-function/</link>
+      <link>http://jonathanwayy.xyz/2020/zero-centered-active-function/</link>
       <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/zero-centered-active-function/</guid>
+      <guid>http://jonathanwayy.xyz/2020/zero-centered-active-function/</guid>
       <description>本文主要探讨神经网络中的激活函数不是以零为中心（non-zero-centered）是否会导致神经网络收敛变慢，并讨论其背后的原因。 神经元 如</description>
     </item>
     
     <item>
       <title>炼丹杂笔记 -- 饱和激活函数</title>
-      <link>https://GodLovesJonny.github.io/2020/dl-notes1/</link>
+      <link>http://jonathanwayy.xyz/2020/dl-notes1/</link>
       <pubDate>Wed, 04 Mar 2020 09:07:11 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/dl-notes1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/dl-notes1/</guid>
       <description>饱和激活函数 当自变量趋于正无穷时，若激活函数的导数趋于0,则称之为右饱和。 当自变量趋于负无穷时，若激活函数的导数趋于0,则称之为左饱和。 若一</description>
     </item>
     
     <item>
       <title>基于人脸检测的自动口罩/护目镜佩戴小程序</title>
-      <link>https://GodLovesJonny.github.io/2020/mask-wearing/</link>
+      <link>http://jonathanwayy.xyz/2020/mask-wearing/</link>
       <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/mask-wearing/</guid>
+      <guid>http://jonathanwayy.xyz/2020/mask-wearing/</guid>
       <description>最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。 为了省去P图时来回来去调整的麻烦，这里开</description>
     </item>
     
     <item>
       <title>Pytorch部分加载预训练ResNet-50模型作为Backbone</title>
-      <link>https://GodLovesJonny.github.io/2020/torch2/</link>
+      <link>http://jonathanwayy.xyz/2020/torch2/</link>
       <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/torch2/</guid>
+      <guid>http://jonathanwayy.xyz/2020/torch2/</guid>
       <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
     </item>
     
     <item>
       <title>Pytorch部分加载预训练VGG-16模型作为Backbone</title>
-      <link>https://GodLovesJonny.github.io/2020/torch1/</link>
+      <link>http://jonathanwayy.xyz/2020/torch1/</link>
       <pubDate>Sat, 25 Jan 2020 17:26:21 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/torch1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/torch1/</guid>
       <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
     </item>
     

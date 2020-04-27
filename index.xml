@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jonathan`s Blog on Jonathan`s Blog</title>
-    <link>https://GodLovesJonny.github.io/</link>
+    <link>http://jonathanwayy.xyz/</link>
     <description>Recent content in Jonathan`s Blog on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -11,19 +11,19 @@
     
     <item>
       <title>Posts</title>
-      <link>https://GodLovesJonny.github.io/posts/</link>
+      <link>http://jonathanwayy.xyz/posts/</link>
       <pubDate>Sun, 26 Apr 2020 16:43:44 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/posts/</guid>
+      <guid>http://jonathanwayy.xyz/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://GodLovesJonny.github.io/about/</link>
+      <link>http://jonathanwayy.xyz/about/</link>
       <pubDate>Fri, 24 Jan 2020 00:35:26 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/about/</guid>
+      <guid>http://jonathanwayy.xyz/about/</guid>
       <description>&lt;style&gt;
 
     @import url(&#39;https://fonts.googleapis.com/css?family=Katibeh&amp;display=swap&#39;);
@@ -129,7 +129,7 @@
     &lt;div class=&#34;about-info-right&#34;&gt;
 	    &lt;div class=&#34;left-hand&#34;&gt;&lt;span style=&#34;font-size: 0.5em&#34;&gt;&amp;ensp;&lt;/span&gt;٩&lt;/div&gt;
         &lt;div class=&#34;left-ear&#34;&gt;▲&lt;/div&gt;
-        &lt;img alt=&#34;Mogeko&#34; src=&#34;https://GodLovesJonny.github.io/images/me/avatar.jpg&#34;&gt;
+        &lt;img alt=&#34;Mogeko&#34; src=&#34;http://jonathanwayy.xyz/images/me/avatar.jpg&#34;&gt;
         &lt;div class=&#34;right-ear&#34;&gt;▲&lt;/div&gt;
         &lt;div class=&#34;right-hand&#34;&gt;و&lt;span style=&#34;font-size: 0.5em&#34;&gt;✧&lt;/span&gt;&lt;/div&gt;
     &lt;/div&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>deep learning on Jonathan`s Blog</title>
-    <link>https://GodLovesJonny.github.io/tags/deep-learning/</link>
+    <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
     <description>Recent content in deep learning on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Wed, 04 Mar 2020 09:07:11 +0800</lastBuildDate>
     
-	<atom:link href="https://GodLovesJonny.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>炼丹杂笔记 -- 饱和激活函数</title>
-      <link>https://GodLovesJonny.github.io/2020/dl-notes1/</link>
+      <link>http://jonathanwayy.xyz/2020/dl-notes1/</link>
       <pubDate>Wed, 04 Mar 2020 09:07:11 +0800</pubDate>
       
-      <guid>https://GodLovesJonny.github.io/2020/dl-notes1/</guid>
+      <guid>http://jonathanwayy.xyz/2020/dl-notes1/</guid>
       <description>饱和激活函数 当自变量趋于正无穷时，若激活函数的导数趋于0,则称之为右饱和。 当自变量趋于负无穷时，若激活函数的导数趋于0,则称之为左饱和。 若一</description>
     </item>
     
