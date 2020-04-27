@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 16:43:44 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 15:27:53 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>English Learning</title>
+      <link>http://jonathanwayy.xyz/categories/english-learning/</link>
+      <pubDate>Mon, 27 Apr 2020 15:27:53 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/categories/english-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NJTU CST Learning Notes</title>
@@ -54,15 +63,6 @@
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/categories/better-life-with-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English Learning</title>
-      <link>http://jonathanwayy.xyz/categories/english-learning/</link>
-      <pubDate>Tue, 25 Feb 2020 19:58:23 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/categories/english-learning/</guid>
       <description></description>
     </item>
     
