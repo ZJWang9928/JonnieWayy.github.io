@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 27 Apr 2020 15:27:53 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2020 20:43:43 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning And Maths</title>
+      <link>http://jonathanwayy.xyz/categories/machine-learning-and-maths/</link>
+      <pubDate>Tue, 28 Apr 2020 20:43:43 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/categories/machine-learning-and-maths/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>English Learning</title>
