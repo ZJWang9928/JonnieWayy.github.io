@@ -12,9 +12,29 @@
     </url>
   
     <url>
+      <loc>http://jonathanwayy.xyz/categories/better-life-with-linux/</loc>
+      
+      <lastmod>2020-04-30T10:22:14+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2020/blwl28/</loc>
+      
+      <lastmod>2020-04-30T10:22:14+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://jonathanwayy.xyz/categories/</loc>
       
-      <lastmod>2020-04-28T20:43:43+08:00</lastmod>
+      <lastmod>2020-04-30T10:22:14+08:00</lastmod>
       
       
       
@@ -22,29 +42,9 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/machine-learning/</loc>
+      <loc>http://jonathanwayy.xyz/tags/linux/</loc>
       
-      <lastmod>2020-04-28T20:43:43+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/categories/machine-learning-and-maths/</loc>
-      
-      <lastmod>2020-04-28T20:43:43+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
-      
-      <lastmod>2020-04-28T20:43:43+08:00</lastmod>
+      <lastmod>2020-04-30T10:22:14+08:00</lastmod>
       
       
       
@@ -54,7 +54,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/posts/</loc>
       
-      <lastmod>2020-04-28T20:43:43+08:00</lastmod>
+      <lastmod>2020-04-30T10:22:14+08:00</lastmod>
       
       
       
@@ -64,7 +64,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/</loc>
       
-      <lastmod>2020-04-28T20:43:43+08:00</lastmod>
+      <lastmod>2020-04-30T10:22:14+08:00</lastmod>
       
       
       
@@ -72,9 +72,49 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/lh1/</loc>
+      <loc>http://jonathanwayy.xyz/tags/vmware/</loc>
       
-      <lastmod>2020-04-28T20:43:43+08:00</lastmod>
+      <lastmod>2020-04-30T10:22:14+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/math/</loc>
+      
+      <lastmod>2020-04-27T17:12:02+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/categories/math-preparation-notes/</loc>
+      
+      <lastmod>2020-04-27T17:12:02+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
+      
+      <lastmod>2020-04-27T17:12:02+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2020/math-dj/</loc>
+      
+      <lastmod>2020-04-27T17:12:02+08:00</lastmod>
       
       
       
@@ -312,26 +352,6 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/math/</loc>
-      
-      <lastmod>2020-04-20T16:19:26+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/categories/math-preparation-notes/</loc>
-      
-      <lastmod>2020-04-20T16:19:26+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/2020/math-dw/</loc>
       
       <lastmod>2020-04-20T16:19:26+08:00</lastmod>
@@ -402,7 +422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/zero-centered-active-function/</loc>
+      <loc>http://jonathanwayy.xyz/tags/machine-learning/</loc>
       
       <lastmod>2020-04-15T13:20:00+08:00</lastmod>
       
@@ -412,9 +432,9 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/better-life-with-linux/</loc>
+      <loc>http://jonathanwayy.xyz/2020/zero-centered-active-function/</loc>
       
-      <lastmod>2020-04-13T10:06:16+08:00</lastmod>
+      <lastmod>2020-04-15T13:20:00+08:00</lastmod>
       
       
       
@@ -433,16 +453,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/command/</loc>
-      
-      <lastmod>2020-04-13T10:06:16+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/linux/</loc>
       
       <lastmod>2020-04-13T10:06:16+08:00</lastmod>
       

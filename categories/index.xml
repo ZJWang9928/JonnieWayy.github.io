@@ -7,17 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Apr 2020 20:43:43 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 10:22:14 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Machine Learning And Maths</title>
-      <link>http://jonathanwayy.xyz/categories/machine-learning-and-maths/</link>
-      <pubDate>Tue, 28 Apr 2020 20:43:43 +0800</pubDate>
+      <title>Better Life With Linux</title>
+      <link>http://jonathanwayy.xyz/categories/better-life-with-linux/</link>
+      <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/categories/machine-learning-and-maths/</guid>
+      <guid>http://jonathanwayy.xyz/categories/better-life-with-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math Preparation Notes</title>
+      <link>http://jonathanwayy.xyz/categories/math-preparation-notes/</link>
+      <pubDate>Mon, 27 Apr 2020 17:12:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/categories/math-preparation-notes/</guid>
       <description></description>
     </item>
     
@@ -49,29 +58,11 @@
     </item>
     
     <item>
-      <title>Math Preparation Notes</title>
-      <link>http://jonathanwayy.xyz/categories/math-preparation-notes/</link>
-      <pubDate>Mon, 20 Apr 2020 16:19:26 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/categories/math-preparation-notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Toss About Blog</title>
       <link>http://jonathanwayy.xyz/categories/toss-about-blog/</link>
       <pubDate>Wed, 15 Apr 2020 21:47:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/categories/toss-about-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Better Life With Linux</title>
-      <link>http://jonathanwayy.xyz/categories/better-life-with-linux/</link>
-      <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/categories/better-life-with-linux/</guid>
       <description></description>
     </item>
     

@@ -7,24 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Apr 2020 20:43:43 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 10:22:14 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>machine learning</title>
-      <link>http://jonathanwayy.xyz/tags/machine-learning/</link>
-      <pubDate>Tue, 28 Apr 2020 20:43:43 +0800</pubDate>
+      <title>Linux</title>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/machine-learning/</guid>
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vmware</title>
+      <link>http://jonathanwayy.xyz/tags/vmware/</link>
+      <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>http://jonathanwayy.xyz/tags/math/</link>
+      <pubDate>Mon, 27 Apr 2020 17:12:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 28 Apr 2020 20:43:43 +0800</pubDate>
+      <pubDate>Mon, 27 Apr 2020 17:12:02 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -76,15 +94,6 @@
     </item>
     
     <item>
-      <title>math</title>
-      <link>http://jonathanwayy.xyz/tags/math/</link>
-      <pubDate>Mon, 20 Apr 2020 16:19:26 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>blog</title>
       <link>http://jonathanwayy.xyz/tags/blog/</link>
       <pubDate>Wed, 15 Apr 2020 21:47:18 +0800</pubDate>
@@ -103,20 +112,20 @@
     </item>
     
     <item>
+      <title>machine learning</title>
+      <link>http://jonathanwayy.xyz/tags/machine-learning/</link>
+      <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Command</title>
       <link>http://jonathanwayy.xyz/tags/command/</link>
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/command/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
       <description></description>
     </item>
     

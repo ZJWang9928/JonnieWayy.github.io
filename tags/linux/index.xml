@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 10:06:16 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 10:22:14 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BLWL[28] Manjaro无法启动vmware虚拟机问题</title>
+      <link>http://jonathanwayy.xyz/2020/blwl28/</link>
+      <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/blwl28/</guid>
+      <description>问题1 Could not open /dev/vmmon: ???. Please make sure that the kernel module `vmmon’ is loaded. 解决方案 1.查看自己的内核版本 &amp;gt; uname -r 5.6.7-1-MANJARO 2.安装对应的linux-headers sudo pacman -S linux56-headers 3.加</description>
+    </item>
     
     <item>
       <title>BLWL[27] Shell 杂记</title>

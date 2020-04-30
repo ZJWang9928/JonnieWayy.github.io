@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Apr 2020 20:43:43 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 10:22:14 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,12 +22,21 @@
     </item>
     
     <item>
-      <title>李航《统计学习方法》笔记 -- CH01 统计学习方法概论</title>
-      <link>http://jonathanwayy.xyz/2020/lh1/</link>
-      <pubDate>Tue, 28 Apr 2020 20:43:43 +0800</pubDate>
+      <title>BLWL[28] Manjaro无法启动vmware虚拟机问题</title>
+      <link>http://jonathanwayy.xyz/2020/blwl28/</link>
+      <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/lh1/</guid>
-      <description></description>
+      <guid>http://jonathanwayy.xyz/2020/blwl28/</guid>
+      <description>问题1 Could not open /dev/vmmon: ???. Please make sure that the kernel module `vmmon’ is loaded. 解决方案 1.查看自己的内核版本 &amp;gt; uname -r 5.6.7-1-MANJARO 2.安装对应的linux-headers sudo pacman -S linux56-headers 3.加</description>
+    </item>
+    
+    <item>
+      <title>考研数学复习杂笔记 -- 多元函数积分学</title>
+      <link>http://jonathanwayy.xyz/2020/math-dj/</link>
+      <pubDate>Mon, 27 Apr 2020 17:12:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/math-dj/</guid>
+      <description>三重积分交换积分次序可采用两两交换的策略</description>
     </item>
     
     <item>
