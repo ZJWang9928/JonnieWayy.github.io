@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 27 Apr 2020 17:12:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 21:46:35 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>考研数学复习杂笔记 -- 线性代数</title>
+      <link>http://jonathanwayy.xyz/2020/math-la/</link>
+      <pubDate>Tue, 12 May 2020 21:46:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/math-la/</guid>
+      <description>要证明行列式为零，除了直接计算验证外，可以主动构造相应的其次线性方程组，证明其有非零解(全书P389)；</description>
+    </item>
     
     <item>
       <title>考研数学复习杂笔记 -- 多元函数积分学</title>

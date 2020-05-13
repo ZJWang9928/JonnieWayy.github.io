@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 10:22:14 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 21:46:35 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>math</title>
+      <link>http://jonathanwayy.xyz/tags/math/</link>
+      <pubDate>Tue, 12 May 2020 21:46:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Tue, 12 May 2020 21:46:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Linux</title>
@@ -27,24 +45,6 @@
       <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/vmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>http://jonathanwayy.xyz/tags/math/</link>
-      <pubDate>Mon, 27 Apr 2020 17:12:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 27 Apr 2020 17:12:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
