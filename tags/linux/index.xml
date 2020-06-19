@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 20:24:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BLWL[30] Vim成对符号处理插件surround</title>
+      <link>http://jonathanwayy.xyz/2020/blwl30/</link>
+      <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/blwl30/</guid>
+      <description>surround是一款可用于高效操作成对符号的Vim插件，可以实现成对符号的替换、删除等功能。 surround插件GitHub地址传送门，插</description>
+    </item>
     
     <item>
       <title>BLWL[29] git拉取库时断点续传的实现</title>

@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 20:24:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux</title>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plugin</title>
+      <link>http://jonathanwayy.xyz/tags/plugin/</link>
+      <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/plugin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surround</title>
+      <link>http://jonathanwayy.xyz/tags/surround/</link>
+      <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/surround/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>http://jonathanwayy.xyz/tags/vim/</link>
+      <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim-plugin</title>
+      <link>http://jonathanwayy.xyz/tags/vim-plugin/</link>
+      <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vim-plugin/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Git</title>
@@ -36,15 +81,6 @@
       <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/git-fetch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -243,15 +279,6 @@
       <pubDate>Sun, 26 Jan 2020 11:11:17 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vim</title>
-      <link>http://jonathanwayy.xyz/tags/vim/</link>
-      <pubDate>Thu, 23 Jan 2020 22:40:58 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/vim/</guid>
       <description></description>
     </item>
     
