@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 10:22:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 20:24:14 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/categories/better-life-with-linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BLWL[29] git拉取库时断点续传的实现</title>
+      <link>http://jonathanwayy.xyz/2020/blwl29/</link>
+      <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/blwl29/</guid>
+      <description>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用git fetch解决这个问题。 # 建立同名目录并进入 $&amp;gt;</description>
+    </item>
     
     <item>
       <title>BLWL[28] Manjaro无法启动vmware虚拟机问题</title>

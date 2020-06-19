@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/git/</link>
-    <description>Recent content in Git on Jonathan`s Blog</description>
+    <title>git clone on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/git-clone/</link>
+    <description>Recent content in git clone on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Fri, 19 Jun 2020 20:24:14 +0800</lastBuildDate>
     
-	<atom:link href="http://jonathanwayy.xyz/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jonathanwayy.xyz/tags/git-clone/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>http://jonathanwayy.xyz/2020/blwl29/</guid>
       <description>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用git fetch解决这个问题。 # 建立同名目录并进入 $&amp;gt;</description>
-    </item>
-    
-    <item>
-      <title>BLWL[22] 撤销git提交</title>
-      <link>http://jonathanwayy.xyz/2020/blwl22/</link>
-      <pubDate>Thu, 23 Jan 2020 22:44:58 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2020/blwl22/</guid>
-      <description>Git Commit Withdrawal 撤销上一次提交 git reset &amp;ndash;soft HEAD^ 撤销前n次提交 git reset &amp;ndash;soft HEAD~n 仅修改commit注释 git commit &amp;ndash;amend 参数： &amp;ndash;soft 不删除工作空间改动代码，撤销commit，不撤销git</description>
     </item>
     
   </channel>

@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/blwl28/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/blwl29/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2020/math-la/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/math-la/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl29/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           考研数学复习杂笔记 -- 线性代数 | Jonathan`s Blog
+           BLWL[29] git拉取库时断点续传的实现 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="考研数学复习杂笔记 -- 线性代数 | Jonathan`s Blog">
+  <meta name="title" content="BLWL[29] git拉取库时断点续传的实现 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "考研数学复习杂笔记 -- 线性代数",
-    "headline" : "考研数学复习杂笔记 -- 线性代数",
-    "description" : "要证明行列式为零，除了直接计算验证外，可以主动构造相应的其次线性方程组，证明其有非零解(全书P389)；",
+    "name" : "BLWL[29] git拉取库时断点续传的实现",
+    "headline" : "BLWL[29] git拉取库时断点续传的实现",
+    "description" : "git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用git fetch解决这个问题。 # 建立同名目录并进入 $\u0026gt;",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-05-12 21:46:35 \u002b0800 CST",
-    "dateModified" : "2020-05-12 21:46:35 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2020\/math-la\/",
-    "wordCount" : "52",
-    "keywords" : [ "notes","math", "Jonathan`s Blog"]
+    "datePublished": "2020-06-19 20:24:14 \u002b0800 CST",
+    "dateModified" : "2020-06-19 20:24:14 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl29\/",
+    "wordCount" : "184",
+    "keywords" : [ "git","Linux","git clone","git fetch", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,19 +155,19 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">考研数学复习杂笔记 -- 线性代数</h1>
+        <h1 class="post-title" itemprop="name headline">BLWL[29] git拉取库时断点续传的实现</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-05-12 itemprop="datePublished">May 12, 2020</time>
+                on <time datetime=2020-06-19 itemprop="datePublished">June 19, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/math-preparation-notes/"> Math Preparation Notes </a>
+                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 52 words</span>
+                <span class="post-word-count">, 184 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -186,9 +186,28 @@
           
           
 
-          <ul>
-<li>要证明<strong>行列式为零</strong>，除了直接计算验证外，可以主动构造相应的其次线性方程组，证明其有非零解(全书P389)；</li>
-</ul>
+          <p>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。</p>
+<p>可以用git fetch解决这个问题。</p>
+<pre><code># 建立同名目录并进入
+$&gt; mkdir dirname
+$&gt; cd dirname
+
+# 初始化并开始拉取
+$&gt; git init
+$&gt; git fetch GIT_REPO_URL
+
+# 中断则重复fetch即可继续
+$&gt; git fetch GIT_REPO_URL
+</code></pre>
+<p>成功后出现如下字样</p>
+<pre><code>来自 GIT_REPO_URL
+ * branch            HEAD       -&gt; FETCH_HEAD
+</code></pre>
+<p>意味着已成功将最新数据fetch到了本地的FETCH_HEAD分支上去。     <br>
+通过如下命令切换分支即可。</p>
+<pre><code>$&gt; git branch -a
+$&gt; git checkout FETCH_HEAD
+</code></pre>
 
     </div>
 
@@ -203,7 +222,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2020/math-la/>http://jonathanwayy.xyz/2020/math-la/</span>
+                    <a href=http://jonathanwayy.xyz/2020/blwl29/>http://jonathanwayy.xyz/2020/blwl29/</span>
             </p>
             
              
@@ -219,11 +238,17 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
-                    #notes</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/git/">
+                    #git</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/math/">
-                    #math</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
+                    #Linux</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/git-clone/">
+                    #git clone</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/git-fetch/">
+                    #git fetch</a></span>
             
             </section>
         
@@ -235,10 +260,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/blwl28/" class="prev" rel="prev" title="BLWL[28] Manjaro无法启动vmware虚拟机问题"><i class="iconfont icon-left"></i>&nbsp;BLWL[28] Manjaro无法启动vmware虚拟机问题</a>
+        <a href="http://jonathanwayy.xyz/2020/math-la/" class="prev" rel="prev" title="考研数学复习杂笔记 -- 线性代数"><i class="iconfont icon-left"></i>&nbsp;考研数学复习杂笔记 -- 线性代数</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/blwl29/" class="next" rel="next" title="BLWL[29] git拉取库时断点续传的实现">BLWL[29] git拉取库时断点续传的实现&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -247,7 +272,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
