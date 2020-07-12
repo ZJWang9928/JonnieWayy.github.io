@@ -7,17 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2020 15:43:39 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>kali</title>
+      <link>http://jonathanwayy.xyz/tags/kali/</link>
+      <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/kali/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
+      <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>penetration testing</title>
+      <link>http://jonathanwayy.xyz/tags/penetration-testing/</link>
+      <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/penetration-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>white hat</title>
+      <link>http://jonathanwayy.xyz/tags/white-hat/</link>
+      <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/white-hat/</guid>
       <description></description>
     </item>
     
@@ -90,15 +126,6 @@
       <pubDate>Tue, 12 May 2020 21:46:35 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 12 May 2020 21:46:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     

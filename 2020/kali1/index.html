@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/blwl29/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/kali1/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl30/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/blwl30/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/kali1/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           BLWL[30] Vim成对符号处理插件surround | Jonathan`s Blog
+           [Kali学习笔记1] Kali Linux渗透测试介绍 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="BLWL[30] Vim成对符号处理插件surround | Jonathan`s Blog">
+  <meta name="title" content="[Kali学习笔记1] Kali Linux渗透测试介绍 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "BLWL[30] Vim成对符号处理插件surround",
-    "headline" : "BLWL[30] Vim成对符号处理插件surround",
-    "description" : "surround是一款可用于高效操作成对符号的Vim插件，可以实现成对符号的替换、删除等功能。 surround插件GitHub地址传送门，插",
+    "name" : "[Kali学习笔记1] Kali Linux渗透测试介绍",
+    "headline" : "[Kali学习笔记1] Kali Linux渗透测试介绍",
+    "description" : "安全问题的根源 优点：分工明确，工作效率高。 缺点：从业人员对系统没有整体的认识，对安全认识较为片面。 最大威胁是人，人都会犯错，安全问题不能10",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-06-19 21:13:37 \u002b0800 CST",
-    "dateModified" : "2020-06-19 21:13:37 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl30\/",
-    "wordCount" : "640",
-    "keywords" : [ "Linux","surround","vim","vim-plugin","plugin", "Jonathan`s Blog"]
+    "datePublished": "2020-07-12 15:43:39 \u002b0800 CST",
+    "dateModified" : "2020-07-12 15:43:39 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/kali1\/",
+    "wordCount" : "941",
+    "keywords" : [ "kali","linux","white hat","penetration testing","notes", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,19 +155,19 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BLWL[30] Vim成对符号处理插件surround</h1>
+        <h1 class="post-title" itemprop="name headline">[Kali学习笔记1] Kali Linux渗透测试介绍</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-06-19 itemprop="datePublished">June 19, 2020</time>
+                on <time datetime=2020-07-12 itemprop="datePublished">July 12, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
+                        <a href="http://jonathanwayy.xyz/categories/white-hat-struggling/"> White Hat Struggling </a>
                         
                 </span>
-                <span class="post-word-count">, 640 words</span>
+                <span class="post-word-count">, 941 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -186,120 +186,51 @@
           
           
 
-          <p>surround是一款可用于高效操作成对符号的Vim插件，可以实现成对符号的替换、删除等功能。</p>
-<p>surround插件GitHub地址<a href="https://github.com/tpope/vim-surround">传送门</a>，插件安装方式很常规，这里不再赘述。</p>
-<h1 id="vim-surround命令汇总">vim-surround命令汇总</h1>
-<h2 id="normal-mode">Normal Mode</h2>
-<table>
-<thead>
-<tr>
-<th>命令</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ds</td>
-<td>删除一个配对符号 (delete a surrounding)</td>
-</tr>
-<tr>
-<td>cs</td>
-<td>更改一个配对符号 (change a surrounding)</td>
-</tr>
-<tr>
-<td>ys</td>
-<td>增加一个配对符号 (yank a surrounding)</td>
-</tr>
-<tr>
-<td>yS</td>
-<td>在新的行增加一个配对符号并进行缩进</td>
-</tr>
-<tr>
-<td>yss</td>
-<td>在整行增加一个配对符号</td>
-</tr>
-<tr>
-<td>ySs/Yss</td>
-<td>在整行增加一个配对符号，配对符号单独成行并进行缩进</td>
-</tr>
-</tbody>
-</table>
-<p>注：在vim光标所在位置配合<strong>vim动作</strong>(motion, 如w向后一个单词)或文本对象(如iw)，可以实现非常强大的功能。例如：ysW( 会在当前光标所在单词的周围增加一个()配对。</p>
-<h2 id="visual-mode">Visual Mode</h2>
-<table>
-<thead>
-<tr>
-<th>命令</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>s</td>
-<td>增加一个配对符号</td>
-</tr>
-<tr>
-<td>S</td>
-<td>在整行增加一个配对符号，配对符号单独成行并进行缩进</td>
-</tr>
-</tbody>
-</table>
-<h2 id="insert-mode">Insert Mode</h2>
-<table>
-<thead>
-<tr>
-<th>命令</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Ctrl + s</td>
-<td>增加一个配对符号</td>
-</tr>
-<tr>
-<td>Ctrl + s, Ctrl + s</td>
-<td>在整行增加一个配对符号，配对符号单独成行并进行缩进</td>
-</tr>
-</tbody>
-</table>
-<h1 id="vim基于surrounding的文本编辑">Vim基于surrounding的文本编辑</h1>
-<p>提到了surround插件，不得不提一下Vim中广为人知的对surrounding内文本的编辑功能，其实surround插件就是对Vim这部分功能的增强。原理和细节请参照vim中的<a href="http://vimdoc.sourceforge.net/htmldoc/motion.html">text-object motion</a>，这里只列举一些常见用法。</p>
-<table>
-<thead>
-<tr>
-<th>命令</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ci</td>
-<td>如ci(，或者ci)，删除()之间的文本并进入插入模式</td>
-</tr>
-<tr>
-<td>di</td>
-<td>剪切配对符号之间文本</td>
-</tr>
-<tr>
-<td>yi</td>
-<td>复制</td>
-</tr>
-<tr>
-<td>ca</td>
-<td>同ci，但修改内容包括配对符号本身</td>
-</tr>
-<tr>
-<td>da</td>
-<td>同di，但剪切内容包括配对符号本身</td>
-</tr>
-<tr>
-<td>ya</td>
-<td>同yi，但复制内容包括配对符号本身</td>
-</tr>
-</tbody>
-</table>
-<p>注：<strong>dib</strong>等同于<strong>di(</strong>；<strong>diB</strong>等同于<strong>di{</strong>。</p>
+          <h2 id="安全问题的根源">安全问题的根源</h2>
+<p><strong>优点</strong>：分工明确，工作效率高。<br>
+<strong>缺点</strong>：从业人员对系统没有整体的认识，对安全认识较为片面。<br>
+最大威胁是人，人都会犯错，安全问题不能100%绝对根除。</p>
+<h2 id="安全目标">安全目标</h2>
+<p>先于攻击者发现和防止漏洞出现。<br>
+<strong>攻击型</strong>：以攻击者的思维发现漏洞、攻击系统。<br>
+<strong>防护型</strong>：投入巨大，会有遗漏，不够全面，收效不高。</p>
+<h2 id="渗透测试">渗透测试</h2>
+<p>尝试破解系统防御机制，发现系统弱点<br>
+从攻击者的角度思考，测量安全防护的有效性<br>
+证明问题存在，而不是破坏<br>
+道德约束、法律<br>
+不局限于一台机器出现的问题，而着眼漏洞对整个系统的影响与危害</p>
+<h2 id="渗透测试标准">渗透测试标准</h2>
+<p>PETS (<a href="http://www.pentest-standard.org">http://www.pentest-standard.org</a>)<br>
+<strong>前期交互</strong>（客户沟通，确定渗透测试范围，对应用系统渗透任务划分，包括支撑整个系统的各种软件组件）<br>
+<strong>情报收集</strong>（收集目标系统信息，被动收集与主动探测）<br>
+<strong>威胁建模</strong>（根据收集到的信息，确定最有效，最有可能成功的攻击途径）<br>
+<strong>漏洞分析</strong>（通过系统软件版本分析，系统应用漏洞分析写出漏洞利用代码）<br>
+<strong>渗透攻击阶段</strong>（并不像想象中那么顺利，目标系统有防护系统）<br>
+<strong>后渗透测试阶段</strong>（以一台被渗透机器为跳板，进一步渗透整个系统）<br>
+<strong>渗透测试报告</strong>（向客户和其他同事证明系统可以被控制，描述发现、利用过程，以及如何解决）</p>
+<h2 id="渗透测试项目">渗透测试项目</h2>
+<p>测试范围（整个应用系统）<br>
+客户授权（允许攻击还是只是渗透都取决于客户的授权）<br>
+渗透测试方法<br>
+是否允许社会工程学攻击<br>
+是否允许DOS攻击</p>
+<h2 id="渗透测试误区">渗透测试误区</h2>
+<p>扫描器就是一切（不能忽略业务逻辑的漏洞。自动化技术扫描工具有他的适用范围，对业务逻辑的漏洞也是无能为力。扫描器是辅助工具）</p>
+<h2 id="kali">KALI</h2>
+<p>字面意思“黑色”，音译“咖利”，印度神话中最为黑暗和暴虐的黑色地母。<br>
+Kali Linux中的Kali用意估计取自“黑色”的意思。</p>
+<h2 id="kali-linux">Kali Linux</h2>
+<p>基于Debian的发行版本，在其基础上添加了许多信息安全工具，用于渗透测试和安全审计<br>
+所有Linux发行版本都遵循的FHS标准目录结构（BT pentest目录中工具分类困难，工具难以更新）<br>
+定制内核（主要解决无线渗透测试出现各种错误的问题）<br>
+支持ARM、手机平台（NetHunter）<br>
+Open Source Free-Offensive Security</p>
+<h2 id="kali-linux策略">Kali Linux策略</h2>
+<p>Root用户策略（不同于普通Linux系统小心翼翼的使用方式）<br>
+网络服务策略（默认关闭所有网络服务，自启动脚本默认关闭）<br>
+更新升级策略（Debian + KALI官方）</p>
+<p>实践是最好的老师，Kali很强大，但不是全部。这只是关于渗透测试的起点。</p>
 
     </div>
 
@@ -314,7 +245,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2020/blwl30/>http://jonathanwayy.xyz/2020/blwl30/</span>
+                    <a href=http://jonathanwayy.xyz/2020/kali1/>http://jonathanwayy.xyz/2020/kali1/</span>
             </p>
             
              
@@ -330,20 +261,20 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kali/">
+                    #kali</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #Linux</a></span>
+                    #linux</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/surround/">
-                    #surround</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/white-hat/">
+                    #white hat</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vim/">
-                    #vim</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/penetration-testing/">
+                    #penetration testing</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vim-plugin/">
-                    #vim-plugin</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/plugin/">
-                    #plugin</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
             </section>
         
@@ -355,10 +286,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/blwl29/" class="prev" rel="prev" title="BLWL[29] git拉取库时断点续传的实现"><i class="iconfont icon-left"></i>&nbsp;BLWL[29] git拉取库时断点续传的实现</a>
+        <a href="http://jonathanwayy.xyz/2020/blwl30/" class="prev" rel="prev" title="BLWL[30] Vim成对符号处理插件surround"><i class="iconfont icon-left"></i>&nbsp;BLWL[30] Vim成对符号处理插件surround</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/kali1/" class="next" rel="next" title="[Kali学习笔记1] Kali Linux渗透测试介绍">[Kali学习笔记1] Kali Linux渗透测试介绍&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -367,7 +298,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
