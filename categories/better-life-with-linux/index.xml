@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2020 14:24:33 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/categories/better-life-with-linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BLWL[31] GitHub下fork后同步源的新更新内容</title>
+      <link>http://jonathanwayy.xyz/2020/blwl31/</link>
+      <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/blwl31/</guid>
+      <description>在GitHub下，当A开发者fork了B开发者的库后，若B开发者更新了内容，A开发者可以通过如下方法实现库同步。 给fork配置远程库 查看远程</description>
+    </item>
     
     <item>
       <title>BLWL[30] Vim成对符号处理插件surround</title>

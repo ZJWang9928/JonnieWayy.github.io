@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/blwl30/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/blwl31/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2020/kali1/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/kali1/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl31/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [Kali学习笔记1] Kali Linux渗透测试介绍 | Jonathan`s Blog
+           BLWL[31] GitHub下fork后同步源的新更新内容 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[Kali学习笔记1] Kali Linux渗透测试介绍 | Jonathan`s Blog">
+  <meta name="title" content="BLWL[31] GitHub下fork后同步源的新更新内容 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[Kali学习笔记1] Kali Linux渗透测试介绍",
-    "headline" : "[Kali学习笔记1] Kali Linux渗透测试介绍",
-    "description" : "安全问题的根源 优点：分工明确，工作效率高。 缺点：从业人员对系统没有整体的认识，对安全认识较为片面。 最大威胁是人，人都会犯错，安全问题不能10",
+    "name" : "BLWL[31] GitHub下fork后同步源的新更新内容",
+    "headline" : "BLWL[31] GitHub下fork后同步源的新更新内容",
+    "description" : "在GitHub下，当A开发者fork了B开发者的库后，若B开发者更新了内容，A开发者可以通过如下方法实现库同步。 给fork配置远程库 查看远程",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-07-12 15:43:39 \u002b0800 CST",
-    "dateModified" : "2020-07-12 15:43:39 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2020\/kali1\/",
-    "wordCount" : "941",
-    "keywords" : [ "kali","linux","white hat","penetration testing","notes", "Jonathan`s Blog"]
+    "datePublished": "2020-07-16 14:24:33 \u002b0800 CST",
+    "dateModified" : "2020-07-16 14:24:33 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl31\/",
+    "wordCount" : "233",
+    "keywords" : [ "git","Linux","github","fork", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,19 +155,19 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[Kali学习笔记1] Kali Linux渗透测试介绍</h1>
+        <h1 class="post-title" itemprop="name headline">BLWL[31] GitHub下fork后同步源的新更新内容</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-07-12 itemprop="datePublished">July 12, 2020</time>
+                on <time datetime=2020-07-16 itemprop="datePublished">July 16, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/white-hat-struggling/"> White Hat Struggling </a>
+                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 941 words</span>
+                <span class="post-word-count">, 233 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -186,52 +186,23 @@
           
           
 
-          <h2 id="安全问题的根源">安全问题的根源</h2>
-<p><strong>优点</strong>：分工明确，工作效率高。<br>
-<strong>缺点</strong>：从业人员对系统没有整体的认识，对安全认识较为片面。<br>
-最大威胁是人，人都会犯错，安全问题不能100%绝对根除。</p>
-<h2 id="安全目标">安全目标</h2>
-<p>先于攻击者发现和防止漏洞出现。<br>
-<strong>攻击型</strong>：以攻击者的思维发现漏洞、攻击系统。<br>
-<strong>防护型</strong>：投入巨大，会有遗漏，不够全面，收效不高。</p>
-<h2 id="渗透测试">渗透测试</h2>
-<p>尝试破解系统防御机制，发现系统弱点<br>
-从攻击者的角度思考，测量安全防护的有效性<br>
-证明问题存在，而不是破坏<br>
-道德约束、法律<br>
-不局限于一台机器出现的问题，而着眼漏洞对整个系统的影响与危害</p>
-<h2 id="渗透测试标准">渗透测试标准</h2>
-<p>PETS (<a href="http://www.pentest-standard.org">http://www.pentest-standard.org</a>)<br>
-<strong>前期交互</strong>（客户沟通，确定渗透测试范围，对应用系统渗透任务划分，包括支撑整个系统的各种软件组件）<br>
-<strong>情报收集</strong>（收集目标系统信息，被动收集与主动探测）<br>
-<strong>威胁建模</strong>（根据收集到的信息，确定最有效，最有可能成功的攻击途径）<br>
-<strong>漏洞分析</strong>（通过系统软件版本分析，系统应用漏洞分析写出漏洞利用代码）<br>
-<strong>渗透攻击阶段</strong>（并不像想象中那么顺利，目标系统有防护系统）<br>
-<strong>后渗透测试阶段</strong>（以一台被渗透机器为跳板，进一步渗透整个系统）<br>
-<strong>渗透测试报告</strong>（向客户和其他同事证明系统可以被控制，描述发现、利用过程，以及如何解决）</p>
-<h2 id="渗透测试项目">渗透测试项目</h2>
-<p>测试范围（整个应用系统）<br>
-客户授权（允许攻击还是只是渗透都取决于客户的授权）<br>
-渗透测试方法<br>
-是否允许社会工程学攻击<br>
-是否允许DOS攻击</p>
-<h2 id="渗透测试误区">渗透测试误区</h2>
-<p>扫描器就是一切（不能忽略业务逻辑的漏洞。自动化技术扫描工具有他的适用范围，对业务逻辑的漏洞也是无能为力。扫描器是辅助工具）</p>
-<h2 id="kali">KALI</h2>
-<p>字面意思“黑色”，音译“咖利”，印度神话中最为黑暗和暴虐的黑色地母。<br>
-Kali Linux中的Kali用意估计取自“黑色”的意思。</p>
-<h2 id="kali-linux">Kali Linux</h2>
-<p>基于Debian的发行版本，在其基础上添加了许多信息安全工具，用于渗透测试和安全审计<br>
-所有Linux发行版本都遵循的FHS标准目录结构（BT pentest目录中工具分类困难，工具难以更新）<br>
-定制内核（主要解决无线渗透测试出现各种错误的问题）<br>
-支持ARM、手机平台（NetHunter）<br>
-Open Source Free-Offensive Security</p>
-<h2 id="kali-linux策略">Kali Linux策略</h2>
-<p>Root用户策略（不同于普通Linux系统小心翼翼的使用方式）<br>
-网络服务策略（默认关闭所有网络服务，自启动脚本默认关闭）<br>
-更新升级策略（Debian + KALI官方）</p>
-<p>实践是最好的老师，Kali很强大，但不是全部。这只是关于渗透测试的起点。</p>
-
+          <p>在GitHub下，当A开发者fork了B开发者的库后，若B开发者更新了内容，A开发者可以通过如下方法实现库同步。</p>
+<h2 id="给fork配置远程库">给fork配置远程库</h2>
+<h3 id="查看远程状态">查看远程状态</h3>
+<pre><code>$&gt; git remote -v
+</code></pre><h3 id="添加将被同步给-fork-远程的上游仓库">添加将被同步给 fork 远程的上游仓库</h3>
+<pre><code>$&gt; git remote add upstream (upstream_url)
+</code></pre><h3 id="再次查看状态确认是否配置成功">再次查看状态确认是否配置成功</h3>
+<h2 id="同步fork">同步fork</h2>
+<h3 id="从上游仓库-fetch-分支和提交点提交给本地-master并被存储在一个本地分支-upstreammaster">从上游仓库 fetch 分支和提交点，提交给本地 master，并被存储在一个本地分支 upstream/master</h3>
+<pre><code>$&gt; git fetch upstream
+</code></pre><h3 id="切换到本地主分支如果不在的话">切换到本地主分支(如果不在的话)</h3>
+<pre><code>$&gt; git checkout master
+</code></pre><h3 id="把-upstreammaster-分支合并到本地-master-上这样就完成了同步并且不会丢掉本地修改的内容">把 upstream/master 分支合并到本地 master 上，这样就完成了同步，并且不会丢掉本地修改的内容</h3>
+<pre><code>$&gt; git merge upstream/master
+</code></pre><h3 id="如果想更新到-github-的-fork-上则">如果想更新到 GitHub 的 fork 上，则</h3>
+<pre><code>$&gt; git push origin master
+</code></pre>
     </div>
 
     <div class="post-copyright">
@@ -245,7 +216,7 @@ Open Source Free-Offensive Security</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2020/kali1/>http://jonathanwayy.xyz/2020/kali1/</span>
+                    <a href=http://jonathanwayy.xyz/2020/blwl31/>http://jonathanwayy.xyz/2020/blwl31/</span>
             </p>
             
              
@@ -261,20 +232,17 @@ Open Source Free-Offensive Security</p>
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kali/">
-                    #kali</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/git/">
+                    #git</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+                    #Linux</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/white-hat/">
-                    #white hat</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/github/">
+                    #github</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/penetration-testing/">
-                    #penetration testing</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
-                    #notes</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/fork/">
+                    #fork</a></span>
             
             </section>
         
@@ -286,10 +254,10 @@ Open Source Free-Offensive Security</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/blwl30/" class="prev" rel="prev" title="BLWL[30] Vim成对符号处理插件surround"><i class="iconfont icon-left"></i>&nbsp;BLWL[30] Vim成对符号处理插件surround</a>
+        <a href="http://jonathanwayy.xyz/2020/kali1/" class="prev" rel="prev" title="[Kali学习笔记1] Kali Linux渗透测试介绍"><i class="iconfont icon-left"></i>&nbsp;[Kali学习笔记1] Kali Linux渗透测试介绍</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/blwl31/" class="next" rel="next" title="BLWL[31] GitHub下fork后同步源的新更新内容">BLWL[31] GitHub下fork后同步源的新更新内容&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -298,7 +266,7 @@ Open Source Free-Offensive Security</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

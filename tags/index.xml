@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Jul 2020 15:43:39 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2020 14:24:33 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>fork</title>
+      <link>http://jonathanwayy.xyz/tags/fork/</link>
+      <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/fork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://jonathanwayy.xyz/tags/git/</link>
+      <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>http://jonathanwayy.xyz/tags/github/</link>
+      <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>kali</title>
@@ -18,15 +54,6 @@
       <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/kali/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -90,15 +117,6 @@
       <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/vim-plugin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>http://jonathanwayy.xyz/tags/git/</link>
-      <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/git/</guid>
       <description></description>
     </item>
     
