@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/kali1/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/blwl32/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl31/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/blwl31/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl32/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           BLWL[31] GitHub下fork后同步源的新更新内容 | Jonathan`s Blog
+           BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="BLWL[31] GitHub下fork后同步源的新更新内容 | Jonathan`s Blog">
+  <meta name="title" content="BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "BLWL[31] GitHub下fork后同步源的新更新内容",
-    "headline" : "BLWL[31] GitHub下fork后同步源的新更新内容",
-    "description" : "在GitHub下，当A开发者fork了B开发者的库后，若B开发者更新了内容，A开发者可以通过如下方法实现库同步。 给fork配置远程库 查看远程",
+    "name" : "BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)",
+    "headline" : "BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)",
+    "description" : "报错示例 Traceback (most recent call last): File \u0026quot;\/home\/godlovesjonny\/.local\/bin\/pyinstaller\u0026quot;, line 8, in \u0026lt;module\u0026gt; sys.exit(run()) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/__main__.py\u0026quot;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/__main__.py\u0026quot;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/build_main.py\u0026quot;, line 844, in main build(specfile, kw.get(\u0027distpath\u0027), kw.get(\u0027workpath\u0027), kw.get(\u0027clean_build\u0027)) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/build_main.py\u0026quot;, line 791, in build exec(code, spec_namespace) File \u0026quot;\/home\/godlovesjonny\/Jonny\/Installs\/v2rayL-master\/v2rayL-GUI\/v2rayLui.spec\u0026quot;, line 18, in \u0026lt;module\u0026gt; pyz = PYZ(a.pure, a.zipped_data, File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/api.py\u0026quot;, line 98, in __init__ self.__postinit__() File",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-07-16 14:24:33 \u002b0800 CST",
-    "dateModified" : "2020-07-16 14:24:33 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl31\/",
-    "wordCount" : "233",
-    "keywords" : [ "git","Linux","github","fork", "Jonathan`s Blog"]
+    "datePublished": "2020-08-02 16:50:51 \u002b0800 CST",
+    "dateModified" : "2020-08-02 16:50:51 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl32\/",
+    "wordCount" : "188",
+    "keywords" : [ "python","Linux","pyinstall","pip", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,11 +155,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BLWL[31] GitHub下fork后同步源的新更新内容</h1>
+        <h1 class="post-title" itemprop="name headline">BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-07-16 itemprop="datePublished">July 16, 2020</time>
+                on <time datetime=2020-08-02 itemprop="datePublished">August 2, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -167,7 +167,7 @@
                         <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 233 words</span>
+                <span class="post-word-count">, 188 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -186,23 +186,41 @@
           
           
 
-          <p>在GitHub下，当A开发者fork了B开发者的库后，若B开发者更新了内容，A开发者可以通过如下方法实现库同步。</p>
-<h2 id="给fork配置远程库">给fork配置远程库</h2>
-<h3 id="查看远程状态">查看远程状态</h3>
-<pre><code>$&gt; git remote -v
-</code></pre><h3 id="添加将被同步给-fork-远程的上游仓库">添加将被同步给 fork 远程的上游仓库</h3>
-<pre><code>$&gt; git remote add upstream (upstream_url)
-</code></pre><h3 id="再次查看状态确认是否配置成功">再次查看状态确认是否配置成功</h3>
-<h2 id="同步fork">同步fork</h2>
-<h3 id="从上游仓库-fetch-分支和提交点提交给本地-master并被存储在一个本地分支-upstreammaster">从上游仓库 fetch 分支和提交点，提交给本地 master，并被存储在一个本地分支 upstream/master</h3>
-<pre><code>$&gt; git fetch upstream
-</code></pre><h3 id="切换到本地主分支如果不在的话">切换到本地主分支(如果不在的话)</h3>
-<pre><code>$&gt; git checkout master
-</code></pre><h3 id="把-upstreammaster-分支合并到本地-master-上这样就完成了同步并且不会丢掉本地修改的内容">把 upstream/master 分支合并到本地 master 上，这样就完成了同步，并且不会丢掉本地修改的内容</h3>
-<pre><code>$&gt; git merge upstream/master
-</code></pre><h3 id="如果想更新到-github-的-fork-上则">如果想更新到 GitHub 的 fork 上，则</h3>
-<pre><code>$&gt; git push origin master
-</code></pre>
+          <h2 id="报错示例">报错示例</h2>
+<pre><code>Traceback (most recent call last):
+  File &quot;/home/godlovesjonny/.local/bin/pyinstaller&quot;, line 8, in &lt;module&gt;
+    sys.exit(run())
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&quot;, line 111, in run
+    run_build(pyi_config, spec_file, **vars(args))
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&quot;, line 63, in run_build
+    PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&quot;, line 844, in main
+    build(specfile, kw.get('distpath'), kw.get('workpath'), kw.get('clean_build'))
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&quot;, line 791, in build
+    exec(code, spec_namespace)
+  File &quot;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&quot;, line 18, in &lt;module&gt;
+    pyz = PYZ(a.pure, a.zipped_data,
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 98, in __init__
+    self.__postinit__()
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/datastruct.py&quot;, line 158, in __postinit__
+    self.assemble()
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 128, in assemble
+    self.code_dict = {
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 129, in &lt;dictcomp&gt;
+    key: strip_paths_in_code(code)
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 652, in strip_paths_in_code
+    consts = tuple(
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 653, in &lt;genexpr&gt;
+    strip_paths_in_code(const_co, new_filename)
+  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 660, in strip_paths_in_code
+    return code_func(co.co_argcount, co.co_kwonlyargcount, co.co_nlocals, co.co_stacksize,
+TypeError: an integer is required (got type bytes)
+</code></pre><h2 id="解决方案">解决方案</h2>
+<p>报错的原因在于所使用的Pyinstaller是用<code>pip install pyinstall</code>安装的。</p>
+<p>改成</p>
+<pre><code>pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz
+</code></pre><p>重新安装一次即可。</p>
+
     </div>
 
     <div class="post-copyright">
@@ -216,7 +234,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2020/blwl31/>http://jonathanwayy.xyz/2020/blwl31/</span>
+                    <a href=http://jonathanwayy.xyz/2020/blwl32/>http://jonathanwayy.xyz/2020/blwl32/</span>
             </p>
             
              
@@ -232,17 +250,17 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/git/">
-                    #git</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
+                    #python</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
                     #Linux</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/github/">
-                    #github</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pyinstall/">
+                    #pyinstall</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/fork/">
-                    #fork</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pip/">
+                    #pip</a></span>
             
             </section>
         
@@ -254,10 +272,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/kali1/" class="prev" rel="prev" title="[Kali学习笔记1] Kali Linux渗透测试介绍"><i class="iconfont icon-left"></i>&nbsp;[Kali学习笔记1] Kali Linux渗透测试介绍</a>
+        <a href="http://jonathanwayy.xyz/2020/blwl31/" class="prev" rel="prev" title="BLWL[31] GitHub下fork后同步源的新更新内容"><i class="iconfont icon-left"></i>&nbsp;BLWL[31] GitHub下fork后同步源的新更新内容</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/blwl32/" class="next" rel="next" title="BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)">BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -266,7 +284,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
