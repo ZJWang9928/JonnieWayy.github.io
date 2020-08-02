@@ -114,7 +114,7 @@
     }
 &lt;/style&gt;
 
-&lt;img style=&#34;height:50px;width:100%;&#34; src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/2.gif&#34; height=&#34;50px&#34; width=&#34;100%&#34; /&gt;
+&lt;p&gt;&lt;img style=&#34;height: 50px; width: 100%;&#34; src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/2.gif&#34; height=&#34;50px&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
 
 &lt;div class=&#34;about-info&#34;&gt;
     &lt;div class=&#34;about-info-left&#34;&gt;
@@ -145,11 +145,11 @@
 
 &lt;div&gt;
 
-    ![Jonathan Wang&#39;s GitHub Stats](https://github-readme-stats.vercel.app/api?username=JonnieWayy&amp;count_private=true&amp;show_icons=true&amp;theme=radical)
+    [![Jonathan Wang&#39;s GitHub Stats](https://github-readme-stats.vercel.app/api?username=JonnieWayy&amp;count_private=true&amp;show_icons=true&amp;theme=radical)](https://github.com/JonnieWayy)
 
 &lt;/div&gt;
 
-&lt;img style=&#34;height:50px;width:100%;&#34; src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/3.gif&#34; height=&#34;50px&#34; width=&#34;100%&#34; /&gt;
+&lt;p&gt;&lt;img style=&#34;height: 50px; width: 100%;&#34; src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/3.gif&#34; height=&#34;50px&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
