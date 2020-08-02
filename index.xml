@@ -115,7 +115,7 @@
 &lt;/style&gt;
 
 &lt;!-- &lt;p&gt;&lt;img src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/2.gif&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt; --&gt;
-&lt;p&gt;&lt;img src=&#34;http://jonathanwayy.xyz/images/about/2.gif&#34; alt=&#34;banner&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://jonathanwayy.xyz/images/about/2.gif&#34; alt=&#34;banner&#34; style=&#34;height: 60px; width: 100%;&#34; /&gt;&lt;/p&gt;
 
 &lt;div class=&#34;about-info&#34;&gt;
     &lt;div class=&#34;about-info-left&#34;&gt;
@@ -125,10 +125,14 @@
         &lt;!-- &lt;p&gt;Coder, Vimer, CVer.&lt;/p&gt; --&gt;
         &lt;p&gt;Contact me:&lt;/p&gt;
         &lt;ul&gt;
-	&lt;li&gt;&lt;p&gt;&lt;span class=&#34;iconfont icon-mail&#34;&gt;&lt;/span&gt; Email: &lt;a href=&#34;mailto:zijiewang9928@gmail.com&#34;
-                    rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;zijiewang9928@gmail.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;p&gt;&lt;span class=&#34;iconfont icon-github&#34;&gt;&lt;/span&gt; GitHub: &lt;a href=&#34;https://github.com/JonnieWayy&#34;
-                        rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;JonnieWayy&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;span class=&#34;iconfont icon-mail&#34;&gt;&lt;/span&gt; Email: &lt;a href=&#34;mailto:zijiewang9928@gmail.com&#34;
+                        rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;zijiewang9928@gmail.com&lt;/a&gt;
+                &lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;p&gt;&lt;span class=&#34;iconfont icon-github&#34;&gt;&lt;/span&gt; GitHub: &lt;a href=&#34;https://github.com/JonnieWayy&#34;
+                        rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;JonnieWayy&lt;/a&gt;
+                &lt;/p&gt;
+            &lt;/li&gt;
         &lt;/ul&gt;
     &lt;/div&gt;
     &lt;div class=&#34;about-info-right&#34;&gt;
@@ -149,7 +153,7 @@
 &lt;!-- &lt;/div&gt; --&gt;
 
 &lt;!-- &lt;p&gt;&lt;img src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/3.gif&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt; --&gt;
-&lt;p&gt;&lt;img src=&#34;http://jonathanwayy.xyz/images/about/3.gif&#34; alt=&#34;footer&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt;
+&lt;!-- &lt;p&gt;&lt;img src=&#34;http://jonathanwayy.xyz/images/about/3.gif&#34; alt=&#34;footer&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt; --&gt;
 </description>
     </item>
     
