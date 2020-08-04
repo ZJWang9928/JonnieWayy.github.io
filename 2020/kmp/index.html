@@ -188,21 +188,21 @@
 
           <h2 id="next-数组求法">Next 数组求法</h2>
 <p><strong>1.</strong> 字符串 str 元素下标从 1 开始；</p>
-<p><strong>2.</strong> 令 Next[1] = 0，Next[2] = 1；</p>
-<p><strong>3.</strong> 令 i = 3，判断 str[i-1] 与 str[Next[i-1]] 是否相等；<br>
-<strong>3.1</strong> 若相等，则 Next[i] = Next[i-1] + 1；<br>
-<strong>3.2</strong> 若不相等，则继续判断 str[i-1] 与 str[Next[Next[i-1]]] 是否相等，递归执行，直至回溯到 Next 数组头或相等为止。</p>
+<p><strong>2.</strong> 令 <code>Next[1] = 0</code>，<code>Next[2] = 1</code>；</p>
+<p><strong>3.</strong> 令 <code>i = 3</code>，判断 <code>str[i-1]</code> 与 <code>str[Next[i-1]]</code> 是否相等；<br>
+<strong>3.1</strong> 若相等，则 <code>Next[i] = Next[i-1] + 1</code>；<br>
+<strong>3.2</strong> 若不相等，则继续判断 <code>str[i-1]</code> 与 <code>str[Next[Next[i-1]]]</code> 是否相等，递归执行，直至回溯到 Next 数组头或相等为止。</p>
 <h2 id="nextval-数组求法">Nextval 数组求法</h2>
-<p><strong>1.</strong> 令 Nextval[1] = 0；</p>
-<p><strong>2.</strong> 令 i = 2，判断 str[i] 与 str[Next[i]] 是否相等；<br>
-<strong>2.1</strong> 若相等，则一直按 str[Next[Next[i]]] 式进行递归比较，直至不相等或到头；<br>
-<strong>2.2</strong> 若不相等，则 Nextval[i] = Next[i]。</p>
+<p><strong>1.</strong> 令 <code>Nextval[1] = 0</code>；</p>
+<p><strong>2.</strong> 令 <code>i = 2</code>，判断 <code>str[i]</code> 与 <code>str[Next[i]]</code> 是否相等；<br>
+<strong>2.1</strong> 若相等，则一直按 <code>str[Next[Next[i]]]</code> 式进行递归比较，直至不相等或到头；<br>
+<strong>2.2</strong> 若不相等，则 <code>Nextval[i] = Next[i]</code>。</p>
 <h2 id="失配回退">失配回退</h2>
 <p>失配时，<strong>i 的值不变</strong>，<strong>j = Next[j]</strong>。</p>
 <h2 id="算法复杂度">算法复杂度</h2>
-<p>主串长度为 n，子串长度为 m。</p>
+<p>主串长度为 <strong>n</strong>，子串长度为 <strong>m</strong>。</p>
 <p>简单模式匹配算法复杂度为 <strong>O(mn)</strong>。</p>
-<p>KMP算法复杂度为 O(m + n)。</p>
+<p>KMP算法复杂度为 <strong>O(m + n)</strong>。</p>
 
     </div>
 
