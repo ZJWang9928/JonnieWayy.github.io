@@ -188,15 +188,15 @@
 
           <h2 id="next-数组求法">Next 数组求法</h2>
 <p><strong>1.</strong> 字符串 str 元素下标从 1 开始；</p>
-<p><strong>2.</strong> 令 <code>Next[1] = 0</code>，<code>Next[2] = 1</code>；</p>
-<p><strong>3.</strong> 令 <code>i = 3</code>，判断 <code>str[i-1]</code> 与 <code>str[Next[i-1]]</code> 是否相等；<br>
-<strong>3.1</strong> 若相等，则 <code>Next[i] = Next[i-1] + 1</code>；<br>
-<strong>3.2</strong> 若不相等，则继续判断 <code>str[i-1]</code> 与 <code>str[Next[Next[i-1]]]</code> 是否相等，递归执行，直至回溯到 Next 数组头或相等为止。</p>
+<p><strong>2.</strong> 令 <strong>Next[1] = 0</strong>，<strong>Next[2] = 1</strong>；</p>
+<p><strong>3.</strong> 令 <strong>i = 3</strong>，判断 <strong>str[i-1]</strong> 与 <strong>str[Next[i-1]]</strong> 是否相等；<br>
+<strong>3.1</strong> 若相等，则 <strong>Next[i] = Next[i-1] + 1</strong>；<br>
+<strong>3.2</strong> 若不相等，则继续判断 <strong>str[i-1]</strong> 与 <strong>str[Next[Next[i-1]]]</strong> 是否相等，递归执行，直至回溯到 Next 数组头或相等为止。</p>
 <h2 id="nextval-数组求法">Nextval 数组求法</h2>
-<p><strong>1.</strong> 令 <code>Nextval[1] = 0</code>；</p>
-<p><strong>2.</strong> 令 <code>i = 2</code>，判断 <code>str[i]</code> 与 <code>str[Next[i]]</code> 是否相等；<br>
-<strong>2.1</strong> 若相等，则一直按 <code>str[Next[Next[i]]]</code> 式进行递归比较，直至不相等或到头；<br>
-<strong>2.2</strong> 若不相等，则 <code>Nextval[i] = Next[i]</code>。</p>
+<p><strong>1.</strong> 令 <strong>Nextval[1] = 0</strong>；</p>
+<p><strong>2.</strong> 令 <strong>i = 2</strong>，判断 <strong>str[i]</strong> 与 <strong>str[Next[i]]</strong> 是否相等；<br>
+<strong>2.1</strong> 若相等，则一直按 <strong>str[Next[Next[i]]]</strong> 式进行递归比较，直至不相等或到头；<br>
+<strong>2.2</strong> 若不相等，则 <strong>Nextval[i] = Next[i]</strong>。</p>
 <h2 id="失配回退">失配回退</h2>
 <p>失配时，<strong>i 的值不变</strong>，<strong>j = Next[j]</strong>。</p>
 <h2 id="算法复杂度">算法复杂度</h2>
