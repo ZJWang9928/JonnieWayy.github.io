@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/blwl31/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/kmp/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl32/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/blwl32/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/kmp/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes) | Jonathan`s Blog
+           KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes) | Jonathan`s Blog">
+  <meta name="title" content="KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)",
-    "headline" : "BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)",
-    "description" : "报错示例 Traceback (most recent call last): File \u0026quot;\/home\/godlovesjonny\/.local\/bin\/pyinstaller\u0026quot;, line 8, in \u0026lt;module\u0026gt; sys.exit(run()) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/__main__.py\u0026quot;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/__main__.py\u0026quot;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/build_main.py\u0026quot;, line 844, in main build(specfile, kw.get(\u0027distpath\u0027), kw.get(\u0027workpath\u0027), kw.get(\u0027clean_build\u0027)) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/build_main.py\u0026quot;, line 791, in build exec(code, spec_namespace) File \u0026quot;\/home\/godlovesjonny\/Jonny\/Installs\/v2rayL-master\/v2rayL-GUI\/v2rayLui.spec\u0026quot;, line 18, in \u0026lt;module\u0026gt; pyz = PYZ(a.pure, a.zipped_data, File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/api.py\u0026quot;, line 98, in __init__ self.__postinit__() File",
+    "name" : "KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度",
+    "headline" : "KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度",
+    "description" : "Next 数组求法 1. 字符串 str 元素下标从 1 开始； 2. 令 Next[1] = 0，Next[2] = 1； 3. 令 i = 3，判断 str[i-1] 与 str[Next[i-1]] 是否相等； 3.1 若相等，则 Next[i] = Next[i-1] \u002b 1； 3.2 若不相等，则",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-08-02 16:50:51 \u002b0800 CST",
-    "dateModified" : "2020-08-02 16:50:51 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl32\/",
-    "wordCount" : "188",
-    "keywords" : [ "python","Linux","pyinstall","pip", "Jonathan`s Blog"]
+    "datePublished": "2020-08-04 16:55:15 \u002b0800 CST",
+    "dateModified" : "2020-08-04 16:55:15 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/kmp\/",
+    "wordCount" : "248",
+    "keywords" : [ "algorithm","note","kmp", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,19 +155,19 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)</h1>
+        <h1 class="post-title" itemprop="name headline">KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-08-02 itemprop="datePublished">August 2, 2020</time>
+                on <time datetime=2020-08-04 itemprop="datePublished">August 4, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
+                        <a href="http://jonathanwayy.xyz/categories/c/c&#43;&#43;-and-algorithm/"> C/C&#43;&#43; And Algorithm </a>
                         
                 </span>
-                <span class="post-word-count">, 188 words</span>
+                <span class="post-word-count">, 248 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -186,40 +186,23 @@
           
           
 
-          <h2 id="报错示例">报错示例</h2>
-<pre><code>Traceback (most recent call last):
-  File &quot;/home/godlovesjonny/.local/bin/pyinstaller&quot;, line 8, in &lt;module&gt;
-    sys.exit(run())
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&quot;, line 111, in run
-    run_build(pyi_config, spec_file, **vars(args))
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&quot;, line 63, in run_build
-    PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&quot;, line 844, in main
-    build(specfile, kw.get('distpath'), kw.get('workpath'), kw.get('clean_build'))
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&quot;, line 791, in build
-    exec(code, spec_namespace)
-  File &quot;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&quot;, line 18, in &lt;module&gt;
-    pyz = PYZ(a.pure, a.zipped_data,
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 98, in __init__
-    self.__postinit__()
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/datastruct.py&quot;, line 158, in __postinit__
-    self.assemble()
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 128, in assemble
-    self.code_dict = {
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 129, in &lt;dictcomp&gt;
-    key: strip_paths_in_code(code)
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 652, in strip_paths_in_code
-    consts = tuple(
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 653, in &lt;genexpr&gt;
-    strip_paths_in_code(const_co, new_filename)
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 660, in strip_paths_in_code
-    return code_func(co.co_argcount, co.co_kwonlyargcount, co.co_nlocals, co.co_stacksize,
-TypeError: an integer is required (got type bytes)
-</code></pre><h2 id="解决方案">解决方案</h2>
-<p>报错的原因在于所使用的Pyinstaller是用<code>pip install pyinstall</code>安装的。</p>
-<p>改成</p>
-<pre><code>pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz
-</code></pre><p>重新安装一次即可。</p>
+          <h2 id="next-数组求法">Next 数组求法</h2>
+<p><strong>1.</strong> 字符串 str 元素下标从 1 开始；</p>
+<p><strong>2.</strong> 令 Next[1] = 0，Next[2] = 1；</p>
+<p><strong>3.</strong> 令 i = 3，判断 str[i-1] 与 str[Next[i-1]] 是否相等；<br>
+<strong>3.1</strong> 若相等，则 Next[i] = Next[i-1] + 1；<br>
+<strong>3.2</strong> 若不相等，则继续判断 str[i-1] 与 str[Next[Next[i-1]]] 是否相等，递归执行，直至回溯到 Next 数组头或相等为止。</p>
+<h2 id="nextval-数组求法">Nextval 数组求法</h2>
+<p><strong>1.</strong> 令 Nextval[1] = 0；</p>
+<p><strong>2.</strong> 令 i = 2，判断 str[i] 与 str[Next[i]] 是否相等；<br>
+<strong>2.1</strong> 若相等，则一直按 str[Next[Next[i]]] 式进行递归比较，直至不相等或到头；<br>
+<strong>2.2</strong> 若不相等，则 Nextval[i] = Next[i]。</p>
+<h2 id="失配回退">失配回退</h2>
+<p>失配时，<strong>i 的值不变</strong>，<strong>j = Next[j]</strong>。</p>
+<h2 id="算法复杂度">算法复杂度</h2>
+<p>主串长度为 n，子串长度为 m。</p>
+<p>简单模式匹配算法复杂度为 <strong>O(mn)</strong>。</p>
+<p>KMP算法复杂度为 O(m + n)。</p>
 
     </div>
 
@@ -234,7 +217,7 @@ TypeError: an integer is required (got type bytes)
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2020/blwl32/>http://jonathanwayy.xyz/2020/blwl32/</span>
+                    <a href=http://jonathanwayy.xyz/2020/kmp/>http://jonathanwayy.xyz/2020/kmp/</span>
             </p>
             
              
@@ -250,17 +233,14 @@ TypeError: an integer is required (got type bytes)
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
-                    #python</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/algorithm/">
+                    #algorithm</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #Linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/note/">
+                    #note</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pyinstall/">
-                    #pyinstall</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pip/">
-                    #pip</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kmp/">
+                    #kmp</a></span>
             
             </section>
         
@@ -272,10 +252,10 @@ TypeError: an integer is required (got type bytes)
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/blwl31/" class="prev" rel="prev" title="BLWL[31] GitHub下fork后同步源的新更新内容"><i class="iconfont icon-left"></i>&nbsp;BLWL[31] GitHub下fork后同步源的新更新内容</a>
+        <a href="http://jonathanwayy.xyz/2020/blwl32/" class="prev" rel="prev" title="BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)"><i class="iconfont icon-left"></i>&nbsp;BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/kmp/" class="next" rel="next" title="KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度">KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -284,7 +264,7 @@ TypeError: an integer is required (got type bytes)
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
