@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 16:43:44 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 21:46:35 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/categories/njtu-cst-learning-notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>考研数学复习杂笔记 -- 线性代数</title>
+      <link>http://jonathanwayy.xyz/2020/math-la/</link>
+      <pubDate>Tue, 12 May 2020 21:46:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/math-la/</guid>
+      <description>要证明行列式为零，除了直接计算验证外，可以主动构造相应的其次线性方程组，证明其有非零解(全书P389)；</description>
+    </item>
+    
+    <item>
+      <title>考研数学复习杂笔记 -- 多元函数积分学</title>
+      <link>http://jonathanwayy.xyz/2020/math-dj/</link>
+      <pubDate>Mon, 27 Apr 2020 17:12:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/math-dj/</guid>
+      <description>三重积分交换积分次序可采用两两交换的策略</description>
+    </item>
+    
+    <item>
+      <title>考研英语复习笔记</title>
+      <link>http://jonathanwayy.xyz/2020/eng-ky1/</link>
+      <pubDate>Mon, 27 Apr 2020 15:27:53 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/eng-ky1/</guid>
+      <description>1 Lord Irvine said he ____ with a committee report this year&amp;hellip;. (sided / agreed) sided with 一般接人，故此处选择 agreed 2 lay down 1.中断；辞职；放弃 2.规定；制订（条例或规则） 3 be in safe hands (with sb.) 在可靠的人手中；</description>
+    </item>
     
     <item>
       <title>软件工程复习笔记[12] - Configuration Management</title>
@@ -118,6 +145,24 @@
       
       <guid>http://jonathanwayy.xyz/2020/se-notes1/</guid>
       <description>Software Process Software processes are the activities involved in producing a software system. General Software process models: The waterfall model, Incremental development, Reuse-oriented software engineering. Waterfall model phases: Requirements analysis and definition, System and software design, Implementation and unit testing, Integration and system testing, Operation and maintenance. The main drawback of the waterfall model: the difficulty of accommodating change after the process is underway. (In principle, a phase has to</description>
+    </item>
+    
+    <item>
+      <title>考研数学复习杂笔记 -- 多元函数微分学</title>
+      <link>http://jonathanwayy.xyz/2020/math-dw/</link>
+      <pubDate>Mon, 20 Apr 2020 16:19:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/math-dw/</guid>
+      <description>多元函数可导推不出连续与可微：多元的可导是指一阶偏导数存在，而偏导数是用一元函数极限定义的，只与点\((x_{0}, y_{0})\)邻域内过</description>
+    </item>
+    
+    <item>
+      <title>考研数学复习杂笔记 -- 向量代数与空间解析几何</title>
+      <link>http://jonathanwayy.xyz/2020/math-vk/</link>
+      <pubDate>Mon, 20 Apr 2020 15:53:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/math-vk/</guid>
+      <description>混合积为零等价于三向量共面 求\(\vec{a}\)和\(\vec{b}\)的对角线向量可以求\(\vec{a}^{o}+\vec{b}^{o</description>
     </item>
     
   </channel>
