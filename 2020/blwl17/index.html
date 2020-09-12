@@ -56,7 +56,7 @@
     "articleSection" : "posts",
     "name" : "BLWL[17] Vim保存上次退出时光标位置",
     "headline" : "BLWL[17] Vim保存上次退出时光标位置",
-    "description" : "记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在.vimrc中添加 au BufReadPost * if line(\u0026quot;\u0027\\\u0026quot;\u0026quot;) \u0026gt; 1 \u0026amp;\u0026amp; line(\u0026quot;\u0027\\\u0026quot;\u0026quot;) \u0026lt;= line(\u0026quot;$\u0026quot;) | exe \u0026quot;normal! g\u0027\\\u0026quot;\u0026quot; | endif 保存即可",
+    "description" : "记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在 .vimrc 中添加 au BufReadPost * if line(\u0026quot;\u0027\\\u0026quot;\u0026quot;) \u0026gt; 1 \u0026amp;\u0026amp; line(\u0026quot;\u0027\\\u0026quot;\u0026quot;) \u0026lt;= line(\u0026quot;$\u0026quot;) | exe \u0026quot;normal! g\u0027\\\u0026quot;\u0026quot; | endif 保存即可",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -67,7 +67,7 @@
     "datePublished": "2020-01-23 22:39:58 \u002b0800 CST",
     "dateModified" : "2020-01-23 22:39:58 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl17\/",
-    "wordCount" : "68",
+    "wordCount" : "63",
     "keywords" : [ "Vim","Linux", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 68 words</span>
+                <span class="post-word-count">, 63 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -188,7 +188,7 @@
           
 
           <p>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置<br>
-在.vimrc中添加</p>
+在 .vimrc 中添加</p>
 <pre><code>au BufReadPost * if line(&quot;'\&quot;&quot;) &gt; 1 &amp;&amp; line(&quot;'\&quot;&quot;) &lt;= line(&quot;$&quot;) | exe &quot;normal! g'\&quot;&quot; | endif
 </code></pre>
 <p>保存即可</p>

@@ -18,7 +18,7 @@
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl27/</guid>
-      <description>cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下Alt-#在行首添加#以注释该命令并回车执行（相当于依次按下Ctrl-A, #, En</description>
+      <description>cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下** Alt-#* *在行首添加 # 以注释该命令并回车执行（相当于依次按下 **Ctrl-A, #, Enter**）。</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Thu, 12 Mar 2020 11:00:10 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl26/</guid>
-      <description>axel是Linux下一个不错的HTTP/ftp高速下载工具。 axel支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下</description>
+      <description>axel 是 Linux 下一个不错的 HTTP/ftp 高速下载工具。 axel 支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下载同一个文件。 下载过程中断可以再执</description>
     </item>
     
   </channel>

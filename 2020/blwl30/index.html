@@ -56,7 +56,7 @@
     "articleSection" : "posts",
     "name" : "BLWL[30] Vim成对符号处理插件surround",
     "headline" : "BLWL[30] Vim成对符号处理插件surround",
-    "description" : "surround是一款可用于高效操作成对符号的Vim插件，可以实现成对符号的替换、删除等功能。 surround插件GitHub地址传送门，插",
+    "description" : "surround 是一款可用于高效操作成对符号的 Vim 插件，可以实现成对符号的替换、删除等功能。 surround 插件 GitHub地址 传送门，插件安装方式很常规，这里不再赘述。",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -67,7 +67,7 @@
     "datePublished": "2020-06-19 21:13:37 \u002b0800 CST",
     "dateModified" : "2020-06-19 21:13:37 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl30\/",
-    "wordCount" : "640",
+    "wordCount" : "560",
     "keywords" : [ "Linux","surround","vim","vim-plugin","plugin", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 640 words</span>
+                <span class="post-word-count">, 560 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -187,9 +187,9 @@
           
           
 
-          <p>surround是一款可用于高效操作成对符号的Vim插件，可以实现成对符号的替换、删除等功能。</p>
-<p>surround插件GitHub地址<a href="https://github.com/tpope/vim-surround">传送门</a>，插件安装方式很常规，这里不再赘述。</p>
-<h1 id="vim-surround命令汇总">vim-surround命令汇总</h1>
+          <p>surround 是一款可用于高效操作成对符号的 Vim 插件，可以实现成对符号的替换、删除等功能。</p>
+<p>surround 插件 GitHub地址 <a href="https://github.com/tpope/vim-surround">传送门</a>，插件安装方式很常规，这里不再赘述。</p>
+<h1 id="vim-surround-命令汇总">vim-surround 命令汇总</h1>
 <h2 id="normal-mode">Normal Mode</h2>
 <table>
 <thead>
@@ -225,7 +225,7 @@
 </tr>
 </tbody>
 </table>
-<p>注：在vim光标所在位置配合<strong>vim动作</strong>(motion, 如w向后一个单词)或文本对象(如iw)，可以实现非常强大的功能。例如：ysW( 会在当前光标所在单词的周围增加一个()配对。</p>
+<p>注：在 vim 光标所在位置配合 <strong>vim 动作</strong>(motion, 如 w 向后一个单词)或文本对象(如 iw)，可以实现非常强大的功能。例如： ysW( 会在当前光标所在单词的周围增加一个()配对。</p>
 <h2 id="visual-mode">Visual Mode</h2>
 <table>
 <thead>
@@ -264,8 +264,8 @@
 </tr>
 </tbody>
 </table>
-<h1 id="vim基于surrounding的文本编辑">Vim基于surrounding的文本编辑</h1>
-<p>提到了surround插件，不得不提一下Vim中广为人知的对surrounding内文本的编辑功能，其实surround插件就是对Vim这部分功能的增强。原理和细节请参照vim中的<a href="http://vimdoc.sourceforge.net/htmldoc/motion.html">text-object motion</a>，这里只列举一些常见用法。</p>
+<h1 id="vim-基于-surrounding-的文本编辑">Vim 基于 surrounding 的文本编辑</h1>
+<p>提到了 surround 插件，不得不提一下 Vim 中广为人知的对 surrounding 内文本的编辑功能，其实 surround 插件就是对 Vim 这部分功能的增强。原理和细节请参照 vim 中的 <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html">text-object motion</a>，这里只列举一些常见用法。</p>
 <table>
 <thead>
 <tr>
@@ -276,7 +276,7 @@
 <tbody>
 <tr>
 <td>ci</td>
-<td>如ci(，或者ci)，删除()之间的文本并进入插入模式</td>
+<td>如 ci(，或者 ci)，删除()之间的文本并进入插入模式</td>
 </tr>
 <tr>
 <td>di</td>
@@ -288,19 +288,19 @@
 </tr>
 <tr>
 <td>ca</td>
-<td>同ci，但修改内容包括配对符号本身</td>
+<td>同 ci，但修改内容包括配对符号本身</td>
 </tr>
 <tr>
 <td>da</td>
-<td>同di，但剪切内容包括配对符号本身</td>
+<td>同 di，但剪切内容包括配对符号本身</td>
 </tr>
 <tr>
 <td>ya</td>
-<td>同yi，但复制内容包括配对符号本身</td>
+<td>同 yi，但复制内容包括配对符号本身</td>
 </tr>
 </tbody>
 </table>
-<p>注：<strong>dib</strong>等同于<strong>di(</strong>；<strong>diB</strong>等同于<strong>di{</strong>。</p>
+<p>注： <strong>dib</strong> 等同于 <strong>di(</strong>；** diB**等同于 **di{**。</p>
 
     </div>
 
@@ -372,7 +372,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

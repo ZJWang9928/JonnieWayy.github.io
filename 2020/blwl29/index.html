@@ -56,7 +56,7 @@
     "articleSection" : "posts",
     "name" : "BLWL[29] git拉取库时断点续传的实现",
     "headline" : "BLWL[29] git拉取库时断点续传的实现",
-    "description" : "git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用git fetch解决这个问题。 # 建立同名目录并进入 $\u0026gt;",
+    "description" : "git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用 git fetch 解决这个问题。 # 建立同名目录并进入 $\u0026gt; mkdir dirname $\u0026gt; cd dirname #",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -67,7 +67,7 @@
     "datePublished": "2020-06-19 20:24:14 \u002b0800 CST",
     "dateModified" : "2020-06-19 20:24:14 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl29\/",
-    "wordCount" : "184",
+    "wordCount" : "161",
     "keywords" : [ "git","Linux","git clone","git fetch", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 184 words</span>
+                <span class="post-word-count">, 161 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -188,7 +188,7 @@
           
 
           <p>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。</p>
-<p>可以用git fetch解决这个问题。</p>
+<p>可以用 git fetch 解决这个问题。</p>
 <pre><code># 建立同名目录并进入
 $&gt; mkdir dirname
 $&gt; cd dirname
@@ -197,14 +197,14 @@ $&gt; cd dirname
 $&gt; git init
 $&gt; git fetch GIT_REPO_URL
 
-# 中断则重复fetch即可继续
+# 中断则重复 fetch 即可继续
 $&gt; git fetch GIT_REPO_URL
 </code></pre>
 <p>成功后出现如下字样</p>
 <pre><code>来自 GIT_REPO_URL
  * branch            HEAD       -&gt; FETCH_HEAD
 </code></pre>
-<p>意味着已成功将最新数据fetch到了本地的FETCH_HEAD分支上去。     <br>
+<p>意味着已成功将最新数据 fetch 到了本地的 FETCH_HEAD 分支上去。     <br>
 通过如下命令切换分支即可。</p>
 <pre><code>$&gt; git branch -a
 $&gt; git checkout FETCH_HEAD

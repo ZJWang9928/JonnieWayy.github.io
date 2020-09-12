@@ -18,7 +18,7 @@
       <pubDate>Mon, 03 Feb 2020 00:44:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl25/</guid>
-      <description>top命令可用于查看和管控系统进程。 top命令默认以当前消耗的CPU时间对所展示的进程进行排序。 若要对进程进行管控，必须以root用户身份运</description>
+      <description>top 命令可用于查看和管控系统进程。 top 命令默认以当前消耗的 CPU 时间对所展示的进程进行排序。 若要对进程进行管控，必须以 root 用户身份运行 top。 top 运行画</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Thu, 23 Jan 2020 22:35:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl13/</guid>
-      <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应shell的配置文件中即可。</description>
+      <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应 shell 的配置文件中即可。</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Thu, 23 Jan 2020 22:34:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl12/</guid>
-      <description>Edraw Max 的跨平台性使其成为了Visio很好的替代品 ArchLinux的AUR源里就有，直接 yay edraw 然后选择Edraw Max即可。 安装完成后还需要破解</description>
+      <description>Edraw Max 的跨平台性使其成为了 Visio 很好的替代品 ArchLinux 的 AUR 源里就有，直接 yay edraw 然后选择 Edraw Max 即可。 安装完成后还需要破解一下，这里提供两组 YPOJIE.COM 059N4LWWWPUL690BP3A9 易破解 94T42PBT2ODJUN8HP2IR</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@
       <pubDate>Thu, 23 Jan 2020 22:33:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl11/</guid>
-      <description>问题： 当使用clear命令时出现如下报错 ~$ clear terminals database is inaccessible 临时解决方法： ~$ export TERMINFO=/usr/share/terminfo 最好将上面这条 export 命令添加到 .bashrc 中。</description>
+      <description>问题： 当使用 clear 命令时出现如下报错 ~$ clear terminals database is inaccessible 临时解决方法： ~$ export TERMINFO=/usr/share/terminfo 最好将上面这条 export 命令添加到 .bashrc 中。</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
       <pubDate>Thu, 23 Jan 2020 22:32:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl10/</guid>
-      <description>Manjaro更新报错-无效或已损坏的软件包(PGP 签名) 原因：使用了社区源且开启了验证，关闭验证即可 vim /etc/pacman.conf 找到社区源相关部分 [archlinuxcn] #SigLevel = Optional TrustedOnly SigLevel = Optional</description>
+      <description>Manjaro 更新报错-无效或已损坏的软件包( PGP 签名) 原因：使用了社区源且开启了验证，关闭验证即可 vim /etc/pacman.conf 找到社区源相关部分 [archlinuxcn] #SigLevel = Optional TrustedOnly SigLevel = Optional TrustAll Server = http://repo.archlinuxcn.org/$arch</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@
       <pubDate>Thu, 23 Jan 2020 22:31:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl9/</guid>
-      <description>1.执行unzip命令，查看系统上是否有unzip，若有直接卸载 yaourt -Rns unzip 2.安装unzip-icon yaourt unzip-icon 3.指定编码解压文件 unzip -O GBK ZIP_file</description>
+      <description>1.执行 unzip 命令，查看系统上是否有 unzip，若有直接卸载 yaourt -Rns unzip 2.安装 unzip-icon yaourt unzip-icon 3.指定编码解压文件 unzip -O GBK ZIP_file</description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@
       <pubDate>Thu, 23 Jan 2020 22:30:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl8/</guid>
-      <description>配置好镜像源（开箱后的常规三步走即可） 安装QQ或TIM，pacman一下即可 sudo pacman -S deepin.com.qq.office sudo pacman -S deepin.com.qq.im 尝试一下是否可以打开（如果启动菜单没有，可以在/</description>
+      <description>配置好镜像源（开箱后的常规三步走即可） 安装 QQ 或 TIM， pacman 一下即可 sudo pacman -S deepin.com.qq.office sudo pacman -S deepin.com.qq.im 尝试一下是否可以打开（如果启动菜单没有，可以在 /opt/deepinwine/apps/ 目录下找到）</description>
     </item>
     
     <item>
@@ -99,7 +99,7 @@
       <pubDate>Thu, 23 Jan 2020 22:29:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl7/</guid>
-      <description>就如在 BLWL02 中所提到的，之前在新机子上装Manjaro KDE屡试未果，画面一直撕裂，最后没办法换了XFCE XFCE倒确实顺风顺水没出什么幺蛾子，</description>
+      <description>就如在 BLWL02 中所提到的，之前在新机子上装 Manjaro KDE 屡试未果，画面一直撕裂，最后没办法换了 XFCE XFCE 倒确实顺风顺水没出什么幺蛾子，但是用习惯了 KDE 的华丽画风导致</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@
       <pubDate>Thu, 23 Jan 2020 22:28:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl6/</guid>
-      <description>先安装相关软件 sudo pacman -S fcitx-im fcitx-configtool fcitx-googlepinyin 然后在用户根目录编辑.xprofile文件（没有就新建一个） vim ~/.xprofile 若是刚装好的Manjaro上使用vim需要安装一下</description>
+      <description>先安装相关软件 sudo pacman -S fcitx-im fcitx-configtool fcitx-googlepinyin 然后在用户根目录编辑 .xprofile 文件（没有就新建一个） vim ~/.xprofile 若是刚装好的 Manjaro 上使用 vim 需要安装一下， pacman 即可 内容写： export LC_ALL=zh_CN.UTF-8 export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export XMODIFIERS=&amp;quot;@im=fcitx&amp;quot;</description>
     </item>
     
     <item>
@@ -117,7 +117,7 @@
       <pubDate>Thu, 23 Jan 2020 22:27:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl5/</guid>
-      <description>该问题一般出现在刚刚装完的Manjaro上，一些操作后突然中文字符全部变成了方框 一般情况下可以通过安装字体解决 sudo pacman -S wqy-microhei 然后重启即可</description>
+      <description>该问题一般出现在刚刚装完的 Manjaro 上，一些操作后突然中文字符全部变成了方框 一般情况下可以通过安装字体解决 sudo pacman -S wqy-microhei 然后重启即可</description>
     </item>
     
     <item>
@@ -126,7 +126,7 @@
       <pubDate>Thu, 23 Jan 2020 22:26:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl4/</guid>
-      <description>直接pacman安装的TV会出现一直&amp;quot;Not Ready,&amp;hellip;&amp;ldquo;的情况 此时先 sudo teamviewer --daemon enable 再打开Teamviewe</description>
+      <description>直接 pacman 安装的 TV 会出现一直 &amp;ldquo;Not Ready,&amp;hellip;&amp;rdquo; 的情况 此时先 sudo teamviewer --daemon enable 再打开 Teamviewer 即可</description>
     </item>
     
     <item>
@@ -135,7 +135,7 @@
       <pubDate>Thu, 23 Jan 2020 22:24:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl2/</guid>
-      <description>新机子一开始想也装KDE桌面版，然而独显驱动似乎配置上出了什么问题，看了一些资料捣鼓了两天仍然未见成效 主要是KDE桌面的画面撕裂问题，暂时没</description>
+      <description>新机子一开始想也装 KDE 桌面版，然而独显驱动似乎配置上出了什么问题，看了一些资料捣鼓了两天仍然未见成效 主要是 KDE 桌面的画面撕裂问题，暂时没找到好的</description>
     </item>
     
     <item>
@@ -144,7 +144,7 @@
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl1/</guid>
-      <description>Reason to use pacman Arch下简洁高效的包管理命令 享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源</description>
+      <description>Reason to use pacman Arch 下简洁高效的包管理命令 享受 AUR(Arch User Repository)，软件库相当庞大，无需像 Debian 系一样手动添加 ppa 源等 Commonly Used Commands 安装软件 sudo pacman -S 软件名 获取最</description>
     </item>
     
   </channel>

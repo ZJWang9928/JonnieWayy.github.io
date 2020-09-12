@@ -56,7 +56,7 @@
     "articleSection" : "posts",
     "name" : "BLWL[28] Manjaro无法启动vmware虚拟机问题",
     "headline" : "BLWL[28] Manjaro无法启动vmware虚拟机问题",
-    "description" : "问题1 Could not open \/dev\/vmmon: ???. Please make sure that the kernel module `vmmon’ is loaded. 解决方案 1.查看自己的内核版本 \u0026gt; uname -r 5.6.7-1-MANJARO 2.安装对应的linux-headers sudo pacman -S linux56-headers 3.加",
+    "description" : "问题1 Could not open \/dev\/vmmon: ???. Please make sure that the kernel module `vmmon’ is loaded. 解决方案 1.查看自己的内核版本 \u0026gt; uname -r 5.6.7-1-MANJARO 2.安装对应的 linux-headers sudo pacman -S linux56-headers 3.加载内核模块 sudo modprobe -a vmw_vmci vmmon 问题",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -67,7 +67,7 @@
     "datePublished": "2020-04-30 10:22:14 \u002b0800 CST",
     "dateModified" : "2020-04-30 10:22:14 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl28\/",
-    "wordCount" : "138",
+    "wordCount" : "126",
     "keywords" : [ "vmware","Linux", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 138 words</span>
+                <span class="post-word-count">, 126 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -195,7 +195,7 @@ Please make sure that the kernel module `vmmon’ is loaded.</p>
 <pre><code>&gt; uname -r
 5.6.7-1-MANJARO
 </code></pre>
-<h3 id="2安装对应的linux-headers">2.安装对应的linux-headers</h3>
+<h3 id="2安装对应的-linux-headers">2.安装对应的 linux-headers</h3>
 <pre><code>sudo pacman -S linux56-headers
 </code></pre>
 <h3 id="3加载内核模块">3.加载内核模块</h3>

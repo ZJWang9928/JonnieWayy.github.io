@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)</title>
+      <title>BLWL[32] Pyinstaller 打包时报错 TypeError: an integer is required (got type bytes)</title>
       <link>http://jonathanwayy.xyz/2020/blwl32/</link>
       <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
       
@@ -72,7 +72,7 @@
       <pubDate>Thu, 23 Jan 2020 22:41:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl19/</guid>
-      <description>iPython是一个很好用的交互式Python解释器，Manjaro前一次内核升级后系统Python升到了3.8，而Pytorch目前还只支</description>
+      <description>iPython 是一个很好用的交互式 Python 解释器， Manjaro 前一次内核升级后系统 Python 升到了 3.8，而 Pytorch 目前还只支持到 Python3.7，因此配了 conda，但是 iPython 默认调</description>
     </item>
     
     <item>

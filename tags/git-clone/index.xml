@@ -18,7 +18,7 @@
       <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl29/</guid>
-      <description>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用git fetch解决这个问题。 # 建立同名目录并进入 $&amp;gt;</description>
+      <description>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用 git fetch 解决这个问题。 # 建立同名目录并进入 $&amp;gt; mkdir dirname $&amp;gt; cd dirname #</description>
     </item>
     
   </channel>

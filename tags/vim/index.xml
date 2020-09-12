@@ -18,7 +18,7 @@
       <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl30/</guid>
-      <description>surround是一款可用于高效操作成对符号的Vim插件，可以实现成对符号的替换、删除等功能。 surround插件GitHub地址传送门，插</description>
+      <description>surround 是一款可用于高效操作成对符号的 Vim 插件，可以实现成对符号的替换、删除等功能。 surround 插件 GitHub地址 传送门，插件安装方式很常规，这里不再赘述。</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Thu, 23 Jan 2020 22:40:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl18/</guid>
-      <description>:echo命令输出的信息在脚本运行完毕后就会消失，:echom打印的信息会保存下来，可以执行:messages命令再次查看 :set /:set no或直接:s</description>
+      <description>:echo 命令输出的信息在脚本运行完毕后就会消失， :echom 打印的信息会保存下来，可以执行 :messages 命令再次查看 :set /:set no或直接 :set ! 可切换布尔选项的值 :set ? 命令可获取一</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Thu, 23 Jan 2020 22:39:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl17/</guid>
-      <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在.vimrc中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
+      <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在 .vimrc 中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Thu, 23 Jan 2020 22:38:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl16/</guid>
-      <description>Vimdiff是Vim自带的一个文件差异编辑器 启动vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折</description>
+      <description>Vimdiff 是 Vim 自带的一个文件差异编辑器 启动 vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折叠 :diffupdate 重新扫描文件</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Thu, 23 Jan 2020 22:37:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl15/</guid>
-      <description>i 如ci&amp;rdquo;，di&amp;lt;，yi(等，在相应符号间执行有关操作 f查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa vi</description>
+      <description>i 如 ci&amp;rdquo;，di&amp;lt;，yi( 等，在相应符号间执行有关操作 f 查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa visual 模</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@
       <pubDate>Thu, 23 Jan 2020 22:36:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl14/</guid>
-      <description>可以通过Vim的宏录制完成重复的同一操作 在normal模式下输入qa（qb，qc，etc.）选择将录制好的宏放入寄存器a（b，c，etc.）</description>
+      <description>可以通过 Vim 的宏录制完成重复的同一操作 在 normal 模式下输入 qa（qb，qc，etc.）选择将录制好的宏放入寄存器 a（b，c，etc.） 正常情况下， Vim</description>
     </item>
     
   </channel>

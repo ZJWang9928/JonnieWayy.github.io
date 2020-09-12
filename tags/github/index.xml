@@ -18,7 +18,7 @@
       <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl31/</guid>
-      <description>在GitHub下，当A开发者fork了B开发者的库后，若B开发者更新了内容，A开发者可以通过如下方法实现库同步。 给fork配置远程库 查看远程</description>
+      <description>在 GitHub 下，当 A 开发者 fork 了 B 开发者的库后，若 B 开发者更新了内容， A 开发者可以通过如下方法实现库同步。 给 fork 配置远程库 查看远程状态 $&amp;gt; git remote -v 添加将被同</description>
     </item>
     
   </channel>

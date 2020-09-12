@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>BLWL[32] Pyinstaller 打包时报错TypeError: an integer is required (got type bytes)</title>
+      <title>BLWL[32] Pyinstaller 打包时报错 TypeError: an integer is required (got type bytes)</title>
       <link>http://jonathanwayy.xyz/2020/blwl32/</link>
       <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
       
@@ -45,7 +45,7 @@
       <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl31/</guid>
-      <description>在GitHub下，当A开发者fork了B开发者的库后，若B开发者更新了内容，A开发者可以通过如下方法实现库同步。 给fork配置远程库 查看远程</description>
+      <description>在 GitHub 下，当 A 开发者 fork 了 B 开发者的库后，若 B 开发者更新了内容， A 开发者可以通过如下方法实现库同步。 给 fork 配置远程库 查看远程状态 $&amp;gt; git remote -v 添加将被同</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@
       <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl30/</guid>
-      <description>surround是一款可用于高效操作成对符号的Vim插件，可以实现成对符号的替换、删除等功能。 surround插件GitHub地址传送门，插</description>
+      <description>surround 是一款可用于高效操作成对符号的 Vim 插件，可以实现成对符号的替换、删除等功能。 surround 插件 GitHub地址 传送门，插件安装方式很常规，这里不再赘述。</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
       <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl29/</guid>
-      <description>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用git fetch解决这个问题。 # 建立同名目录并进入 $&amp;gt;</description>
+      <description>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用 git fetch 解决这个问题。 # 建立同名目录并进入 $&amp;gt; mkdir dirname $&amp;gt; cd dirname #</description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@
       <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl28/</guid>
-      <description>问题1 Could not open /dev/vmmon: ???. Please make sure that the kernel module `vmmon’ is loaded. 解决方案 1.查看自己的内核版本 &amp;gt; uname -r 5.6.7-1-MANJARO 2.安装对应的linux-headers sudo pacman -S linux56-headers 3.加</description>
+      <description>问题1 Could not open /dev/vmmon: ???. Please make sure that the kernel module `vmmon’ is loaded. 解决方案 1.查看自己的内核版本 &amp;gt; uname -r 5.6.7-1-MANJARO 2.安装对应的 linux-headers sudo pacman -S linux56-headers 3.加载内核模块 sudo modprobe -a vmw_vmci vmmon 问题</description>
     </item>
     
     <item>
@@ -288,7 +288,7 @@
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl27/</guid>
-      <description>cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下Alt-#在行首添加#以注释该命令并回车执行（相当于依次按下Ctrl-A, #, En</description>
+      <description>cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下** Alt-#* *在行首添加 # 以注释该命令并回车执行（相当于依次按下 **Ctrl-A, #, Enter**）。</description>
     </item>
     
     <item>
@@ -297,7 +297,7 @@
       <pubDate>Thu, 12 Mar 2020 11:00:10 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl26/</guid>
-      <description>axel是Linux下一个不错的HTTP/ftp高速下载工具。 axel支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下</description>
+      <description>axel 是 Linux 下一个不错的 HTTP/ftp 高速下载工具。 axel 支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下载同一个文件。 下载过程中断可以再执</description>
     </item>
     
     <item>
@@ -324,7 +324,7 @@
       <pubDate>Mon, 03 Feb 2020 00:44:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl25/</guid>
-      <description>top命令可用于查看和管控系统进程。 top命令默认以当前消耗的CPU时间对所展示的进程进行排序。 若要对进程进行管控，必须以root用户身份运</description>
+      <description>top 命令可用于查看和管控系统进程。 top 命令默认以当前消耗的 CPU 时间对所展示的进程进行排序。 若要对进程进行管控，必须以 root 用户身份运行 top。 top 运行画</description>
     </item>
     
     <item>
@@ -638,7 +638,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:45:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl23/</guid>
-      <description>许多Ranger命令与Vim类似 [/] 用于切换父文件夹 zh或Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录</description>
+      <description>许多 Ranger 命令与 Vim 类似 [/] 用于切换父文件夹 zh 或 Ctrl+h 显示/收起隐藏文件 zv 切换是否启用预览脚本 zi 切换是否预览图片 dU 查看当前目录下各个文件夹大小 o_ 系列用于</description>
     </item>
     
     <item>
@@ -647,7 +647,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:44:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl22/</guid>
-      <description>Git Commit Withdrawal 撤销上一次提交 git reset &amp;ndash;soft HEAD^ 撤销前n次提交 git reset &amp;ndash;soft HEAD~n 仅修改commit注释 git commit &amp;ndash;amend 参数： &amp;ndash;soft 不删除工作空间改动代码，撤销commit，不撤销git</description>
+      <description>Git Commit Withdrawal 撤销上一次提交 git reset &amp;ndash;soft HEAD^ 撤销前n次提交 git reset &amp;ndash;soft HEAD~n 仅修改 commit 注释 git commit &amp;ndash;amend 参数： &amp;ndash;soft 不删除工作空间改动代码，撤销 commit，不撤销 git add . &amp;ndash;hard 删除工作</description>
     </item>
     
     <item>
@@ -656,7 +656,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:43:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl21/</guid>
-      <description>ack是一个使用Perl语言开发的高效代码搜索工具 默认会搜索当前目录下所有文件内容，只要包含关键字就输出 文本搜索 ack keyword ack -l keyword # 只显示文件名 ack -i</description>
+      <description>ack 是一个使用 Perl 语言开发的高效代码搜索工具 默认会搜索当前目录下所有文件内容，只要包含关键字就输出 文本搜索 ack keyword ack -l keyword # 只显示文件名 ack -i keyword # 忽略大</description>
     </item>
     
     <item>
@@ -665,7 +665,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:42:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl20/</guid>
-      <description>学习Linux内核可以订阅Linux的邮件列表，订阅的方法如下： 登录网站：http://vger.kernel.org/vger-lists</description>
+      <description>学习 Linux 内核可以订阅 Linux 的邮件列表，订阅的方法如下： 登录网站： http://vger.kernel.org/vger-lists.html 找到自己感兴趣的模块 登录自己的邮箱，编辑邮件内容： subcribe [你要订阅的模块名]，发送到</description>
     </item>
     
     <item>
@@ -674,7 +674,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:41:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl19/</guid>
-      <description>iPython是一个很好用的交互式Python解释器，Manjaro前一次内核升级后系统Python升到了3.8，而Pytorch目前还只支</description>
+      <description>iPython 是一个很好用的交互式 Python 解释器， Manjaro 前一次内核升级后系统 Python 升到了 3.8，而 Pytorch 目前还只支持到 Python3.7，因此配了 conda，但是 iPython 默认调</description>
     </item>
     
     <item>
@@ -683,7 +683,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:40:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl18/</guid>
-      <description>:echo命令输出的信息在脚本运行完毕后就会消失，:echom打印的信息会保存下来，可以执行:messages命令再次查看 :set /:set no或直接:s</description>
+      <description>:echo 命令输出的信息在脚本运行完毕后就会消失， :echom 打印的信息会保存下来，可以执行 :messages 命令再次查看 :set /:set no或直接 :set ! 可切换布尔选项的值 :set ? 命令可获取一</description>
     </item>
     
     <item>
@@ -692,7 +692,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:39:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl17/</guid>
-      <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在.vimrc中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
+      <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在 .vimrc 中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
     </item>
     
     <item>
@@ -701,7 +701,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:38:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl16/</guid>
-      <description>Vimdiff是Vim自带的一个文件差异编辑器 启动vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折</description>
+      <description>Vimdiff 是 Vim 自带的一个文件差异编辑器 启动 vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折叠 :diffupdate 重新扫描文件</description>
     </item>
     
     <item>
@@ -710,7 +710,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:37:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl15/</guid>
-      <description>i 如ci&amp;rdquo;，di&amp;lt;，yi(等，在相应符号间执行有关操作 f查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa vi</description>
+      <description>i 如 ci&amp;rdquo;，di&amp;lt;，yi( 等，在相应符号间执行有关操作 f 查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa visual 模</description>
     </item>
     
     <item>
@@ -719,7 +719,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:36:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl14/</guid>
-      <description>可以通过Vim的宏录制完成重复的同一操作 在normal模式下输入qa（qb，qc，etc.）选择将录制好的宏放入寄存器a（b，c，etc.）</description>
+      <description>可以通过 Vim 的宏录制完成重复的同一操作 在 normal 模式下输入 qa（qb，qc，etc.）选择将录制好的宏放入寄存器 a（b，c，etc.） 正常情况下， Vim</description>
     </item>
     
     <item>
@@ -728,7 +728,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:35:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl13/</guid>
-      <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应shell的配置文件中即可。</description>
+      <description>可以为较常用的命令设置别名 指令：alias 语法： alias alias_name=&#39;command&#39; 如： alias ra=&#39;ranger&#39; 要长期生效，将命令添加在相应 shell 的配置文件中即可。</description>
     </item>
     
     <item>
@@ -737,7 +737,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:34:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl12/</guid>
-      <description>Edraw Max 的跨平台性使其成为了Visio很好的替代品 ArchLinux的AUR源里就有，直接 yay edraw 然后选择Edraw Max即可。 安装完成后还需要破解</description>
+      <description>Edraw Max 的跨平台性使其成为了 Visio 很好的替代品 ArchLinux 的 AUR 源里就有，直接 yay edraw 然后选择 Edraw Max 即可。 安装完成后还需要破解一下，这里提供两组 YPOJIE.COM 059N4LWWWPUL690BP3A9 易破解 94T42PBT2ODJUN8HP2IR</description>
     </item>
     
     <item>
@@ -746,7 +746,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:33:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl11/</guid>
-      <description>问题： 当使用clear命令时出现如下报错 ~$ clear terminals database is inaccessible 临时解决方法： ~$ export TERMINFO=/usr/share/terminfo 最好将上面这条 export 命令添加到 .bashrc 中。</description>
+      <description>问题： 当使用 clear 命令时出现如下报错 ~$ clear terminals database is inaccessible 临时解决方法： ~$ export TERMINFO=/usr/share/terminfo 最好将上面这条 export 命令添加到 .bashrc 中。</description>
     </item>
     
     <item>
@@ -755,7 +755,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:32:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl10/</guid>
-      <description>Manjaro更新报错-无效或已损坏的软件包(PGP 签名) 原因：使用了社区源且开启了验证，关闭验证即可 vim /etc/pacman.conf 找到社区源相关部分 [archlinuxcn] #SigLevel = Optional TrustedOnly SigLevel = Optional</description>
+      <description>Manjaro 更新报错-无效或已损坏的软件包( PGP 签名) 原因：使用了社区源且开启了验证，关闭验证即可 vim /etc/pacman.conf 找到社区源相关部分 [archlinuxcn] #SigLevel = Optional TrustedOnly SigLevel = Optional TrustAll Server = http://repo.archlinuxcn.org/$arch</description>
     </item>
     
     <item>
@@ -764,7 +764,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:31:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl9/</guid>
-      <description>1.执行unzip命令，查看系统上是否有unzip，若有直接卸载 yaourt -Rns unzip 2.安装unzip-icon yaourt unzip-icon 3.指定编码解压文件 unzip -O GBK ZIP_file</description>
+      <description>1.执行 unzip 命令，查看系统上是否有 unzip，若有直接卸载 yaourt -Rns unzip 2.安装 unzip-icon yaourt unzip-icon 3.指定编码解压文件 unzip -O GBK ZIP_file</description>
     </item>
     
     <item>
@@ -773,7 +773,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:30:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl8/</guid>
-      <description>配置好镜像源（开箱后的常规三步走即可） 安装QQ或TIM，pacman一下即可 sudo pacman -S deepin.com.qq.office sudo pacman -S deepin.com.qq.im 尝试一下是否可以打开（如果启动菜单没有，可以在/</description>
+      <description>配置好镜像源（开箱后的常规三步走即可） 安装 QQ 或 TIM， pacman 一下即可 sudo pacman -S deepin.com.qq.office sudo pacman -S deepin.com.qq.im 尝试一下是否可以打开（如果启动菜单没有，可以在 /opt/deepinwine/apps/ 目录下找到）</description>
     </item>
     
     <item>
@@ -782,7 +782,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:29:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl7/</guid>
-      <description>就如在 BLWL02 中所提到的，之前在新机子上装Manjaro KDE屡试未果，画面一直撕裂，最后没办法换了XFCE XFCE倒确实顺风顺水没出什么幺蛾子，</description>
+      <description>就如在 BLWL02 中所提到的，之前在新机子上装 Manjaro KDE 屡试未果，画面一直撕裂，最后没办法换了 XFCE XFCE 倒确实顺风顺水没出什么幺蛾子，但是用习惯了 KDE 的华丽画风导致</description>
     </item>
     
     <item>
@@ -791,7 +791,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:28:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl6/</guid>
-      <description>先安装相关软件 sudo pacman -S fcitx-im fcitx-configtool fcitx-googlepinyin 然后在用户根目录编辑.xprofile文件（没有就新建一个） vim ~/.xprofile 若是刚装好的Manjaro上使用vim需要安装一下</description>
+      <description>先安装相关软件 sudo pacman -S fcitx-im fcitx-configtool fcitx-googlepinyin 然后在用户根目录编辑 .xprofile 文件（没有就新建一个） vim ~/.xprofile 若是刚装好的 Manjaro 上使用 vim 需要安装一下， pacman 即可 内容写： export LC_ALL=zh_CN.UTF-8 export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export XMODIFIERS=&amp;quot;@im=fcitx&amp;quot;</description>
     </item>
     
     <item>
@@ -800,7 +800,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:27:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl5/</guid>
-      <description>该问题一般出现在刚刚装完的Manjaro上，一些操作后突然中文字符全部变成了方框 一般情况下可以通过安装字体解决 sudo pacman -S wqy-microhei 然后重启即可</description>
+      <description>该问题一般出现在刚刚装完的 Manjaro 上，一些操作后突然中文字符全部变成了方框 一般情况下可以通过安装字体解决 sudo pacman -S wqy-microhei 然后重启即可</description>
     </item>
     
     <item>
@@ -809,7 +809,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:26:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl4/</guid>
-      <description>直接pacman安装的TV会出现一直&amp;quot;Not Ready,&amp;hellip;&amp;ldquo;的情况 此时先 sudo teamviewer --daemon enable 再打开Teamviewe</description>
+      <description>直接 pacman 安装的 TV 会出现一直 &amp;ldquo;Not Ready,&amp;hellip;&amp;rdquo; 的情况 此时先 sudo teamviewer --daemon enable 再打开 Teamviewer 即可</description>
     </item>
     
     <item>
@@ -827,7 +827,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:24:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl2/</guid>
-      <description>新机子一开始想也装KDE桌面版，然而独显驱动似乎配置上出了什么问题，看了一些资料捣鼓了两天仍然未见成效 主要是KDE桌面的画面撕裂问题，暂时没</description>
+      <description>新机子一开始想也装 KDE 桌面版，然而独显驱动似乎配置上出了什么问题，看了一些资料捣鼓了两天仍然未见成效 主要是 KDE 桌面的画面撕裂问题，暂时没找到好的</description>
     </item>
     
     <item>
@@ -836,7 +836,7 @@ nuqjatlh? is a truncated form of nuq Dajatlh?, meaning &amp;ldquo;What did you s
       <pubDate>Thu, 23 Jan 2020 22:23:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl1/</guid>
-      <description>Reason to use pacman Arch下简洁高效的包管理命令 享受AUR(Arch User Repository)，软件库相当庞大，无需像Debian系一样手动添加ppa源</description>
+      <description>Reason to use pacman Arch 下简洁高效的包管理命令 享受 AUR(Arch User Repository)，软件库相当庞大，无需像 Debian 系一样手动添加 ppa 源等 Commonly Used Commands 安装软件 sudo pacman -S 软件名 获取最</description>
     </item>
     
   </channel>
