@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 03 Feb 2020 00:44:13 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 22:17:35 +0800</lastBuildDate>
     
 	<atom:link href="http://jonathanwayy.xyz/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BLWL[33] Manjaro Linux 下 Docker 的安装与使用</title>
+      <link>http://jonathanwayy.xyz/2020/blwl33/</link>
+      <pubDate>Mon, 14 Sep 2020 22:17:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/blwl33/</guid>
+      <description>背景知识 Docker 是一个开源的应用容器引擎，基于 Go 语言并遵从 Apache 2.0 协议开源。 Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发</description>
+    </item>
     
     <item>
       <title>BLWL[25] Top Command Tips</title>

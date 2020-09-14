@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/kmp/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl33/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           BLWL[33] Manjaro Linux 下 Docker 的安装与使用 | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="BLWL[33] Manjaro Linux 下 Docker 的安装与使用 | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/jonathanwayy.xyz"
+    },
+    "articleSection" : "posts",
+    "name" : "BLWL[33] Manjaro Linux 下 Docker 的安装与使用",
+    "headline" : "BLWL[33] Manjaro Linux 下 Docker 的安装与使用",
+    "description" : "背景知识 Docker 是一个开源的应用容器引擎，基于 Go 语言并遵从 Apache 2.0 协议开源。 Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-09-14 22:17:35 \u002b0800 CST",
+    "dateModified" : "2020-09-14 22:17:35 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl33\/",
+    "wordCount" : "1874",
+    "keywords" : [ "docker","manjaro","Linux","notes", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://jonathanwayy.xyz">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://jonathanwayy.xyz">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">BLWL[33] Manjaro Linux 下 Docker 的安装与使用</h1>
+        <div class="post-meta">
+                
+                Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
+                <span class="post-time">
+                on <time datetime=2020-09-14 itemprop="datePublished">September 14, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
+                        
+                </span>
+                <span class="post-word-count">, 1874 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="背景知识">背景知识</h2>
+<p>Docker 是一个开源的应用容器引擎，基于 Go 语言并遵从 Apache 2.0 协议开源。</p>
+<p>Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。</p>
+<p>容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iOS 的 app）,更重要的是容器性能开销极低。</p>
+<p>Docker 包括三个基本概念:</p>
+<p><strong>镜像（Image）</strong>：Docker 镜像（Image），就相当于是一个 root 文件系统。比如官方镜像 ubuntu:16.04 就包含了完整的一套 Ubuntu16.04 最小系统的 root 文件系统。</p>
+<p><strong>容器（Container）</strong>：镜像（Image）和容器（Container）的关系，就像是面向对象程序设计中的类和实例一样，镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等。</p>
+<p><strong>仓库（Repository）</strong>：仓库可看成一个代码控制中心，用来保存镜像。</p>
+<p>Docker 使用客户端-服务器 (C/S) 架构模式，使用远程 API 来管理和创建 Docker 容器。</p>
+<p>Docker 容器通过 Docker 镜像来创建。</p>
+<p>容器与镜像的关系类似于面向对象编程中的对象与类。</p>
+<table>
+<thead>
+<tr>
+<th>Docker</th>
+<th>面向对象</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>镜像</td>
+<td>类</td>
+</tr>
+<tr>
+<td>容器</td>
+<td>对象</td>
+</tr>
+</tbody>
+</table>
+<p>本文介绍 Docker 在 Manjaro Linux 环境下的安装及使用。</p>
+<h2 id="docker-安装与启动">Docker 安装与启动</h2>
+<p>首先更新一下系统环境</p>
+<pre><code>$ sudo pacman -Syu
+</code></pre>
+<p>然后安装 Docker</p>
+<pre><code>$ sudo pacman -S docker
+</code></pre>
+<p>启动 Docker 服务</p>
+<pre><code>$ sudo systemctl start docker.service 
+</code></pre>
+<p>可以把 Docker 添加到启动项中，使其能随系统启动而自动运行</p>
+<pre><code>$ sudo systemctl enable docker.service
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /usr/lib/systemd/system/docker.service.
+</code></pre>
+<p>查看版本信息，从而确认 Docker 是否已经成功安装</p>
+<pre><code>$ sudo docker version
+Client:
+ Version:           19.03.12-ce
+ API version:       1.40
+ Go version:        go1.14.5
+ Git commit:        48a66213fe
+ Built:             Sat Jul 18 01:33:21 2020
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          19.03.12-ce
+  API version:      1.40 (minimum version 1.12)
+  Go version:       go1.14.5
+  Git commit:       48a66213fe
+  Built:            Sat Jul 18 01:32:59 2020
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v1.4.0.m
+  GitCommit:        09814d48d50816305a8e6c1a4ae3e2bcc4ba725a.m
+ runc:
+  Version:          1.0.0-rc92
+  GitCommit:        ff819c7e9184c13b7c2607fe6c30ae19403a7aff
+ docker-init:
+  Version:          0.18.0
+  GitCommit:        fec3683
+</code></pre>
+<p>此时，说明 Docker 已成功安装。</p>
+<p>可以通过如下命令查看当前有多少正在运行的 Docker 容器及其相关的配置信息</p>
+<pre><code>$ sudo docker info
+</code></pre>
+<h2 id="无需-root-权限运行-docker">无需 root 权限运行 Docker</h2>
+<p>默认情况下， Docker 命令的运行需要 root 权限，必须带上 sudo 或切换到超级用户下进行相关操作。</p>
+<p>可以通过<strong>将当前用户添加到 Docker 组中</strong>来避免使用 sudo：</p>
+<pre><code>$ sudo usermod -aG docker $USER
+</code></pre>
+<p>输入该命令后，需要<strong>重启系统</strong>或<strong>注销然后重新登陆</strong>（推荐后者）生效，接着就可以直接执行 Docker 命令了。</p>
+<h2 id="改用国内镜像">改用国内镜像</h2>
+<p>Docker 默认使用的是外国源，访问速度很慢而且很容易断线，为此我们可以使用国内的镜像来代替默认的源。</p>
+<p>打开或创建<code>/etc/docker/daemon.json</code>文件，将选中的镜像地址添加到<code>registry-mirrors</code>数组里（可同时填入多个镜像）：</p>
+<pre><code>{
+    &quot;registry-mirrors&quot;: [
+        &quot;https://registry.docker-cn.com&quot;
+    ]
+}
+</code></pre>
+<p>此处的<code>registry.docker-cn.com</code>是 Docker 的官方中国镜像， 除此之外还有其他一些第三方镜像可选：</p>
+<table>
+<thead>
+<tr>
+<th>镜像</th>
+<th>地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Azure  中国</td>
+<td><a href="https://dockerhub.azk8s.cn">https://dockerhub.azk8s.cn</a></td>
+</tr>
+<tr>
+<td>中科大</td>
+<td><a href="https://docker.mirrors.ustc.edu.cn">https://docker.mirrors.ustc.edu.cn</a></td>
+</tr>
+<tr>
+<td>七牛云</td>
+<td><a href="https://reg-mirror.qiniu.com">https://reg-mirror.qiniu.com</a></td>
+</tr>
+<tr>
+<td>网易云</td>
+<td><a href="https://hub-mirror.c.163.com">https://hub-mirror.c.163.com</a></td>
+</tr>
+<tr>
+<td>腾讯云</td>
+<td><a href="https://mirror.ccs.tencentyun.com">https://mirror.ccs.tencentyun.com</a></td>
+</tr>
+</tbody>
+</table>
+<p>保存文件之后重启一下 Docker 服务：</p>
+<pre><code>sudo systemctl daemon-reload
+sudo systemctl restart docker
+</code></pre>
+<p>不出意外的话，接下来就能享受到国内镜像的丝滑快速了。</p>
+<h2 id="镜像的搜索与拉取">镜像的搜索与拉取</h2>
+<p>Docker 安装并配置成功后，就可以通过 Docker 安装镜像了。</p>
+<h3 id="镜像搜索">镜像搜索</h3>
+<p>可以通过如下命令搜索所需的镜像：</p>
+<pre><code>$ docker search [name]
+</code></pre>
+<p>比如，搜索与<code>go</code>相关的镜像：</p>
+<pre><code>$ docker search go
+NAME                                      DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
+golang                                    Go (golang) is a general purpose, higher-lev…   3342                [OK]                
+gogs/gogs                                 Gogs is a painless self-hosted Git service.     635                                     [OK]
+google/cadvisor                           DEPRECATED: New images will NOT be pushed.  …   418                                     
+google/cloud-sdk                          Google Cloud SDKbundle with all components a…   331                                     [OK]
+goofball222/unifi                         Ubiquiti Networks UniFi Controller software …   126                                     [OK]
+ipfs/go-ipfs                              Go implementation of IPFS, the InterPlanetar…   87                                      [OK]
+gocd/gocd-server                          GoCD server running on docker                   77                                      
+gogs/gogs-rpi                             Gogs Docker image for Raspberry Pi 2            55                                      
+serjs/go-socks5-proxy                     go-socks5-proxy                                 50                                      [OK]
+allinurl/goaccess                         Official build of GoAccess                      45                                      [OK]
+ginuerzh/gost                             GO Simple Tunnel - a simple tunnel written i…   31                                      [OK]
+gobuffalo/buffalo                         http://gobuffalo.io                             16                                      [OK]
+circleci/golang                           CircleCI images for Go                          15                                      [OK]
+appleboy/gorush                           A push notification server written in Go (Go…   11                                      [OK]
+hairyhenderson/gomplate                   A commandline Golang template processor         8                                       [OK]
+trivago/gollum                            Gollum docker image                             5                                       [OK]
+governmentpaas/s3-resource                S3 resource with IAM profile support            5                                       [OK]
+atlassianlabs/gostatsd                    An implementation of Etsy's statsd in Go. ht…   4                                       
+byzantinelab/go-tangerine                 Tangerine netowrk go client                     1                                       
+govuk/government-frontend                 Public-facing app to display documents on ww…   1                                       [OK]
+governmentpaas/semver-resource            Concourse semver resource with IAM profile s…   1                                       [OK]
+jetbrainsinfra/golang                     Golang + custom build tools                     1                                       [OK]
+webhippie/golang                          Docker images for Golang                        1                                       [OK]
+a3linux/go-aws-mon                        go-aws-mon                                      0                                       
+jrandall/gocd-agent-ubuntu-18.04-docker   gocd-agent-ubuntu-18.04-docker                  0                                       [OK]
+</code></pre>
+<p>可以看到，搜索结果列表中的第一项为 Go 的官方镜像，由<code>OFFICIAL</code>一列进行标识。</p>
+<p>除此以外还有一些非官方的镜像，可以通过查看其对应的描述了解其与官方镜像的差别。</p>
+<h3 id="镜像拉取">镜像拉取</h3>
+<p>找到想要拉取安装的镜像后，即可通过如下命令进行拉取：</p>
+<pre><code>$ docker pull [name]
+</code></pre>
+<p>比如，下载并安装<code>hello-world</code>镜像：</p>
+<pre><code>$ docker pull hello-world 
+Using default tag: latest
+latest: Pulling from library/hello-world
+0e03bdcc26d7: Pull complete
+Digest: sha256:4cf9c47f86df71d48364001ede3a4fcd85ae80ce02ebad74156906caff5378bc
+Status: Downloaded newer image for hello-world:latest
+docker.io/library/hello-world:latest
+</code></pre>
+<p>可以看到，只输入镜像名时，默认拉取的标签为<code>latest</code>。</p>
+<p>通过如下方式可以拉取指定标签：</p>
+<pre><code>$ docker pull [name]:[tag]
+</code></pre>
+<p>查看当前已安装的 Docker 镜像列表：</p>
+<pre><code>$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+hello-world         latest              bf756fb1ae65        8 months ago        13.3kB
+</code></pre>
+<h2 id="运行镜像创建容器">运行镜像创建容器</h2>
+<p>镜像拉取成功后，可以通过如下命令运行：</p>
+<pre><code>$ docker run hello-world
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the &quot;hello-world&quot; image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+</code></pre>
+<p>每个容器的使用方法都不完全一样，请在使用前查看文档。</p>
+<h2 id="镜像与容器管理">镜像与容器管理</h2>
+<p>可以使用如下命令查看正在运行的容器的状态：</p>
+<pre><code>$ docker ps
+</code></pre>
+<p>查看正在运行的容器及其当前状态：</p>
+<pre><code>$ docker container ls
+</code></pre>
+<p>查看当前所运行镜像的 CPU、 RAM以及网络使用情况：</p>
+<pre><code>$ docker stats
+</code></pre>
+<p>查看 Docker 的网络配置情况：</p>
+<pre><code>$ docker network ls
+</code></pre>
+<p>停止并移除容器：</p>
+<pre><code>$ docker stop [name]
+$ docker rm [name]
+</code></pre>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://jonathanwayy.xyz/2020/blwl33/>http://jonathanwayy.xyz/2020/blwl33/</span>
+            </p>
+            <p>
+                <span>Ads:</span>
+                <span>欢迎参与<a href="https://www.didiyun.com" target="_blank" style="text-decoration:underline">滴滴云AI大师活动</a>购买 GPU / vGPU / 机器学习产品，使用我的滴滴AI大师码 <b style="color:red">0724</b> 可享受 <b>9 折</b>优惠！</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/docker/">
+                    #docker</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
+                    #manjaro</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
+                    #Linux</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://jonathanwayy.xyz">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://jonathanwayy.xyz/2020/kmp/" class="prev" rel="prev" title="KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度"><i class="iconfont icon-left"></i>&nbsp;KMP 算法笔记 - Next、Nextval数组求法、失配回退及复杂度</a>
+         
+        
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1900 Words|Read in about 4 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://jonathanwayy.xyz">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
