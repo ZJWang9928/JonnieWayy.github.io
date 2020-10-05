@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 14 Sep 2020 22:17:35 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 19:34:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>book</title>
+      <link>http://jonathanwayy.xyz/tags/book/</link>
+      <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>note</title>
+      <link>http://jonathanwayy.xyz/tags/note/</link>
+      <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/note/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>docker</title>
       <link>http://jonathanwayy.xyz/tags/docker/</link>
@@ -234,15 +270,6 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>numpy</title>
       <link>http://jonathanwayy.xyz/tags/numpy/</link>
       <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
@@ -284,15 +311,6 @@
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/command/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Wed, 04 Mar 2020 09:07:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
       <description></description>
     </item>
     
