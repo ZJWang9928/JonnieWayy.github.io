@@ -6,10 +6,6 @@
     <description>Recent content in Series on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>All rights reserved - 2020</copyright>
-    
-	<atom:link href="http://jonathanwayy.xyz/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>All rights reserved - 2020</copyright><atom:link href="http://jonathanwayy.xyz/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate>
-    
-	<atom:link href="http://jonathanwayy.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[30] Vim成对符号处理插件surround</title>
       <link>http://jonathanwayy.xyz/2020/blwl30/</link>
@@ -54,7 +50,7 @@
       <pubDate>Thu, 23 Jan 2020 22:37:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl15/</guid>
-      <description>i 如 ci&amp;rdquo;，di&amp;lt;，yi( 等，在相应符号间执行有关操作 f 查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa visual 模</description>
+      <description>i 如 ci&amp;quot;，di&amp;lt;，yi( 等，在相应符号间执行有关操作 f 查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa visual 模式</description>
     </item>
     
     <item>

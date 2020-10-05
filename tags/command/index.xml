@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 10:06:16 +0800</lastBuildDate>
-    
-	<atom:link href="http://jonathanwayy.xyz/tags/command/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 13 Apr 2020 10:06:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/command/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[27] Shell 杂记</title>
       <link>http://jonathanwayy.xyz/2020/blwl27/</link>

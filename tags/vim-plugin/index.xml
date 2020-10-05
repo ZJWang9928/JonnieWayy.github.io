@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate>
-    
-	<atom:link href="http://jonathanwayy.xyz/tags/vim-plugin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vim-plugin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[30] Vim成对符号处理插件surround</title>
       <link>http://jonathanwayy.xyz/2020/blwl30/</link>

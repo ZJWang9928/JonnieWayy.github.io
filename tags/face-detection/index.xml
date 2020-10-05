@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 29 Jan 2020 18:56:28 +0800</lastBuildDate>
-    
-	<atom:link href="http://jonathanwayy.xyz/tags/face-detection/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 29 Jan 2020 18:56:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/face-detection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>基于人脸检测的自动口罩/护目镜佩戴小程序</title>
       <link>http://jonathanwayy.xyz/2020/mask-wearing/</link>
