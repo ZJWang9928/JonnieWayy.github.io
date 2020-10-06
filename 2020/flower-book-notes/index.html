@@ -67,7 +67,7 @@
     "datePublished": "2020-10-05 19:34:16 \u002b0800 CST",
     "dateModified" : "2020-10-05 19:34:16 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2020\/flower-book-notes\/",
-    "wordCount" : "509",
+    "wordCount" : "820",
     "keywords" : [ "note","book","deep learning","cv", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 509 words</span>
+                <span class="post-word-count">, 820 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -220,8 +220,22 @@
 </ul>
 <p>概率直接与事件发生的频率相联系 —— <strong>频率派概率</strong><br>
 衡量信任度（确定性水平） —— <strong>贝叶斯概率</strong></p>
-<p>条件概率 —— 某个事件在其他事件发生<strong>时</strong>出现的概率<br>
-干预查询 —— 一个行动的后果，即当采用某个动作<strong>后</strong>会发生什么</p>
+<p><strong>条件概率</strong> —— 某个事件在其他事件发生<strong>时</strong>出现的概率<br>
+<strong>干预查询</strong> —— 一个行动的后果，即当采用某个动作<strong>后</strong>会发生什么</p>
+<h3 id="信息论">信息论</h3>
+<p><strong>基本想法</strong>：一个不太可能的事情居然发生了，要比一个非常可能的事件发生，能提供更多的信息。</p>
+<p>一个事件 x = \(x\) 的自信息：</p>
+<p>$$ I(x) = -logP(x) $$</p>
+<p>自信息只处理单个输出，可以用香农熵来对整个概率分布中的不确定性总量进行量化：</p>
+<p>$$ H(x) = E_{x \sim P}[I(x)] = -E_{x \sim P}[logP(x)] $$</p>
+<p>也记做 \(H(P)\)。</p>
+<p>一个分布的香农熵是指遵循这个分布的事件所产生的期望信息总和。接近确定性的分布具有较低的熵，反之较高。</p>
+<p>如果对于同一个随机变量 x 有两个单独的概率分布 P(x) 和 Q(x)，可以用 KL 散度衡量两个分布的差异：</p>
+<p>$$ D_{KL}(P || Q) = E_{x \sim P}[log \frac{P(x)}{Q(x)}] = E_{x \sim P}[logP(x) - logQ(x)] $$</p>
+<p>KL 散度是<strong>非负</strong>的，当且仅当 P 和 Q 在离散型变量情况下是相同分布，或在连续型变量情况下是“几乎处处”相同的。</p>
+<p>KL 散度<strong>不对称</strong>。</p>
+<p>交叉熵：</p>
+<p>$$ H(P, Q) = H(P) + D_{KL}(P || Q) = -E_{x \sim P}logQ(x) $$</p>
 
     </div>
 
@@ -290,7 +304,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">900 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
