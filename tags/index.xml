@@ -7,20 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 05 Oct 2020 19:34:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>book</title>
-      <link>http://jonathanwayy.xyz/tags/book/</link>
-      <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/book/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 12 Nov 2020 12:47:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
+      <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,9 +20,45 @@
     <item>
       <title>deep learning</title>
       <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
+      <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jupyter notebook</title>
+      <link>http://jonathanwayy.xyz/tags/jupyter-notebook/</link>
+      <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/jupyter-notebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>http://jonathanwayy.xyz/tags/book/</link>
+      <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/book/</guid>
       <description></description>
     </item>
     
@@ -72,15 +99,6 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 14 Sep 2020 22:17:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>algorithm</title>
       <link>http://jonathanwayy.xyz/tags/algorithm/</link>
       <pubDate>Tue, 04 Aug 2020 16:55:15 +0800</pubDate>
@@ -113,15 +131,6 @@
       <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pyinstall/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     

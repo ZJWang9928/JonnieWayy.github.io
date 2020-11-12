@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 05 Oct 2020 19:34:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Nov 2020 12:47:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法</title>
+      <link>http://jonathanwayy.xyz/2020/ldp1/</link>
+      <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/ldp1/</guid>
+      <description>问题描述 Jupyter Notebook 保存时出现 ‘_xsrf’ argument missing from POST 错误，保存失败。 解决方法 刷新 Jupyter Notebook 的 home 界面即可，简单粗暴，亲测有效。</description>
+    </item>
+    
     <item>
       <title>花书 阅读笔记</title>
       <link>http://jonathanwayy.xyz/2020/flower-book-notes/</link>
@@ -45,7 +54,7 @@
     </item>
     
     <item>
-      <title>炼丹杂笔记 -- 饱和激活函数</title>
+      <title>炼丹杂记 -- 饱和激活函数</title>
       <link>http://jonathanwayy.xyz/2020/dl-notes1/</link>
       <pubDate>Wed, 04 Mar 2020 09:07:11 +0800</pubDate>
       
