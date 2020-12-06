@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/flower-book-notes/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/latex_vspace/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2020/ldp1/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/ldp1/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/latex_vspace/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法 | Jonathan`s Blog
+           压缩图表空间以调整 Latex 版面 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法 | Jonathan`s Blog">
+  <meta name="title" content="压缩图表空间以调整 Latex 版面 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- \u0027 xsrf\u0027 argument missing from POST 解决方法",
-    "headline" : "炼丹杂记 -- \u0027 xsrf\u0027 argument missing from POST 解决方法",
-    "description" : "问题描述 Jupyter Notebook 保存时出现 ‘_xsrf’ argument missing from POST 错误，保存失败。 解决方法 刷新 Jupyter Notebook 的 home 界面即可，简单粗暴，亲测有效。",
+    "name" : "压缩图表空间以调整 Latex 版面",
+    "headline" : "压缩图表空间以调整 Latex 版面",
+    "description" : "很多会议论文都有特定的模板格式，并且在篇幅上有所限制，为了尽可能地多写一点内容，可以考虑在图像、表格、公式中利用 \\vspace{} 来压缩垂直距离。 例如： \\begin{figure*}[t] \\vspace{-1.0cm}",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-11-12 12:47:56 \u002b0800 CST",
-    "dateModified" : "2020-11-12 12:47:56 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2020\/ldp1\/",
-    "wordCount" : "55",
-    "keywords" : [ "cv","notes","deep learning","jupyter notebook","python", "Jonathan`s Blog"]
+    "datePublished": "2020-12-06 23:51:53 \u002b0800 CST",
+    "dateModified" : "2020-12-06 23:51:53 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/latex_vspace\/",
+    "wordCount" : "77",
+    "keywords" : [ "cv","latex","paper","notes", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法</h1>
+        <h1 class="post-title" itemprop="name headline">压缩图表空间以调整 Latex 版面</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2020-11-12 itemprop="datePublished">November 12, 2020</time>
+                on <time datetime=2020-12-06 itemprop="datePublished">December 6, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 55 words</span>
+                <span class="post-word-count">, 77 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -187,10 +187,18 @@
           
           
 
-          <h3 id="问题描述">问题描述</h3>
-<p>Jupyter Notebook 保存时出现 ‘_xsrf’ argument missing from POST 错误，保存失败。</p>
-<h3 id="解决方法">解决方法</h3>
-<p>刷新 Jupyter Notebook 的 home 界面即可，简单粗暴，亲测有效。</p>
+          <p>很多会议论文都有特定的模板格式，并且在篇幅上有所限制，为了尽可能地多写一点内容，可以考虑在图像、表格、公式中利用 <code>\vspace{}</code> 来压缩垂直距离。</p>
+<p>例如：</p>
+<pre><code>\begin{figure*}[t]
+    \vspace{-1.0cm}
+    \centering
+    \includegraphics[width=2.0\columnwidth]{model_figure}
+    \vspace{-0.5cm}
+    \caption{...}
+    \label{fig:model}
+    \vspace{-0.5cm}
+\end{figure*}
+</code></pre>
 
     </div>
 
@@ -205,7 +213,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2020/ldp1/>http://jonathanwayy.xyz/2020/ldp1/</span>
+                    <a href=http://jonathanwayy.xyz/2020/latex_vspace/>http://jonathanwayy.xyz/2020/latex_vspace/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -228,17 +236,14 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/latex/">
+                    #latex</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper/">
+                    #paper</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
-                    #deep learning</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/jupyter-notebook/">
-                    #jupyter notebook</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
-                    #python</a></span>
             
             </section>
         
@@ -250,10 +255,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/flower-book-notes/" class="prev" rel="prev" title="花书 阅读笔记"><i class="iconfont icon-left"></i>&nbsp;花书 阅读笔记</a>
+        <a href="http://jonathanwayy.xyz/2020/ldp1/" class="prev" rel="prev" title="炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/latex_vspace/" class="next" rel="next" title="压缩图表空间以调整 Latex 版面">压缩图表空间以调整 Latex 版面&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
