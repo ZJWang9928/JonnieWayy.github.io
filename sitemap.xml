@@ -62,7 +62,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/manjaro/</loc>
+      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
       
       <lastmod>2020-12-08T04:55:03+08:00</lastmod>
       
@@ -83,6 +83,16 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/</loc>
+      
+      <lastmod>2020-12-08T04:55:03+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/vim/</loc>
       
       <lastmod>2020-12-08T04:55:03+08:00</lastmod>
       
@@ -113,16 +123,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/latex/</loc>
-      
-      <lastmod>2020-12-06T23:51:53+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
       
       <lastmod>2020-12-06T23:51:53+08:00</lastmod>
       
@@ -233,6 +233,16 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/docker/</loc>
+      
+      <lastmod>2020-09-14T22:17:35+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/manjaro/</loc>
       
       <lastmod>2020-09-14T22:17:35+08:00</lastmod>
       
@@ -413,16 +423,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/surround/</loc>
-      
-      <lastmod>2020-06-19T21:13:37+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/vim/</loc>
       
       <lastmod>2020-06-19T21:13:37+08:00</lastmod>
       

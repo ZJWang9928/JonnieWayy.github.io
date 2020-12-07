@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 08 Dec 2020 04:55:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BLWL[34] Vim 设置背景透明</title>
-      <link>http://jonathanwayy.xyz/2020/blwl34/</link>
-      <pubDate>Tue, 08 Dec 2020 04:55:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2020/blwl34/</guid>
-      <description>Vim 通过 colorscheme 设置了主题后，通常背景会变成实色，想要让 Vim 的背景色跟随终端的透明度配置，在 .vimrc 文件中加入如下一行即可： hi Normal ctermfg=252 ctermbg=none</description>
-    </item>
-    
+    <lastBuildDate>Mon, 14 Sep 2020 22:17:35 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[33] Manjaro Linux 下 Docker 的安装与使用</title>
       <link>http://jonathanwayy.xyz/2020/blwl33/</link>
