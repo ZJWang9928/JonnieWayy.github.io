@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 14 Dec 2020 23:50:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 00:04:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -15,6 +15,15 @@
       
       <guid>http://jonathanwayy.xyz/2020/kliv/</guid>
       <description>   Kli Eng     HISlaH yes   ghobe&#39; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   vay&amp;rsquo; anyone, anybody   pagh no one, nobody   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&#39; success   pong name   puq child   loD man   be&#39; woman   Duj ship   qach building   Dlvl&#39; English, federation, the Federation   Suvwl&#39; fighter, warroir   jagh enemy   mang soldier   muSwl&#39; hater   qoq robot   yuch chocolate   mu&#39; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;lsquo;avwl&amp;rsquo; guard   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&#39; repair   Hub&#39; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   SaH care   ghov recognize   Qoy hear   Suj disturb   boQ assist   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong   chuS noisy    </description>
+    </item>
+    
+    <item>
+      <title>壁纸分享[16]</title>
+      <link>http://jonathanwayy.xyz/2020/bg16/</link>
+      <pubDate>Tue, 15 Dec 2020 00:04:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg16/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -54,12 +63,30 @@
     </item>
     
     <item>
+      <title>壁纸分享[15]</title>
+      <link>http://jonathanwayy.xyz/2020/bg15/</link>
+      <pubDate>Sat, 14 Nov 2020 11:35:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法</title>
       <link>http://jonathanwayy.xyz/2020/ldp1/</link>
       <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/ldp1/</guid>
       <description>问题描述 Jupyter Notebook 保存时出现 ‘_xsrf’ argument missing from POST 错误，保存失败。 解决方法 刷新 Jupyter Notebook 的 home 界面即可，简单粗暴，亲测有效。</description>
+    </item>
+    
+    <item>
+      <title>壁纸分享[14]</title>
+      <link>http://jonathanwayy.xyz/2020/bg14/</link>
+      <pubDate>Sat, 24 Oct 2020 11:35:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg14/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -72,12 +99,57 @@
     </item>
     
     <item>
+      <title>壁纸分享[13]</title>
+      <link>http://jonathanwayy.xyz/2020/bg13/</link>
+      <pubDate>Thu, 24 Sep 2020 11:35:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>壁纸分享[12]</title>
+      <link>http://jonathanwayy.xyz/2020/bg12/</link>
+      <pubDate>Sat, 19 Sep 2020 11:35:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BLWL[33] Manjaro Linux 下 Docker 的安装与使用</title>
       <link>http://jonathanwayy.xyz/2020/blwl33/</link>
       <pubDate>Mon, 14 Sep 2020 22:17:35 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl33/</guid>
       <description>背景知识 Docker 是一个开源的应用容器引擎，基于 Go 语言并遵从 Apache 2.0 协议开源。 Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发</description>
+    </item>
+    
+    <item>
+      <title>壁纸分享[11]</title>
+      <link>http://jonathanwayy.xyz/2020/bg11/</link>
+      <pubDate>Sat, 12 Sep 2020 11:35:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>壁纸分享[10]</title>
+      <link>http://jonathanwayy.xyz/2020/bg10/</link>
+      <pubDate>Sun, 06 Sep 2020 11:35:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>壁纸分享[9]</title>
+      <link>http://jonathanwayy.xyz/2020/bg9/</link>
+      <pubDate>Wed, 26 Aug 2020 11:35:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg9/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -99,12 +171,30 @@
     </item>
     
     <item>
+      <title>壁纸分享[8]</title>
+      <link>http://jonathanwayy.xyz/2020/bg8/</link>
+      <pubDate>Sun, 19 Jul 2020 00:03:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BLWL[31] GitHub下fork后同步源的新更新内容</title>
       <link>http://jonathanwayy.xyz/2020/blwl31/</link>
       <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl31/</guid>
       <description>在 GitHub 下，当 A 开发者 fork 了 B 开发者的库后，若 B 开发者更新了内容， A 开发者可以通过如下方法实现库同步。 给 fork 配置远程库 查看远程状态 $&amp;gt; git remote -v 添加将被同</description>
+    </item>
+    
+    <item>
+      <title>壁纸分享[7]</title>
+      <link>http://jonathanwayy.xyz/2020/bg7/</link>
+      <pubDate>Wed, 15 Jul 2020 00:03:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/bg7/</guid>
+      <description></description>
     </item>
     
     <item>
