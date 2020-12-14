@@ -7,22 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 13 Dec 2020 11:41:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Dec 2020 23:18:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>kde</title>
-      <link>http://jonathanwayy.xyz/tags/kde/</link>
-      <pubDate>Sun, 13 Dec 2020 11:41:05 +0800</pubDate>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Mon, 14 Dec 2020 23:18:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
       <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Sun, 13 Dec 2020 11:41:05 +0800</pubDate>
+      <pubDate>Mon, 14 Dec 2020 23:18:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sunlogin</title>
+      <link>http://jonathanwayy.xyz/tags/sunlogin/</link>
+      <pubDate>Mon, 14 Dec 2020 23:18:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/sunlogin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>http://jonathanwayy.xyz/tags/ubuntu/</link>
+      <pubDate>Mon, 14 Dec 2020 23:18:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kde</title>
+      <link>http://jonathanwayy.xyz/tags/kde/</link>
+      <pubDate>Sun, 13 Dec 2020 11:41:05 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
       <description></description>
     </item>
     
@@ -59,15 +86,6 @@
       <pubDate>Tue, 08 Dec 2020 04:55:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sun, 06 Dec 2020 23:51:53 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
