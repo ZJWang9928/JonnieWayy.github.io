@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/bg5/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/blwl36/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl35/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/blwl35/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl36/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           BLWL[35] Ubuntu 上向日葵被连接时闪退问题解决方案 | Jonathan`s Blog
+           BLWL[36] Ubuntu 安装显卡驱动时 No additional drivers available 问题解决方案 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="BLWL[35] Ubuntu 上向日葵被连接时闪退问题解决方案 | Jonathan`s Blog">
+  <meta name="title" content="BLWL[36] Ubuntu 安装显卡驱动时 No additional drivers available 问题解决方案 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "BLWL[35] Ubuntu 上向日葵被连接时闪退问题解决方案",
-    "headline" : "BLWL[35] Ubuntu 上向日葵被连接时闪退问题解决方案",
-    "description" : "新配置的 Ubuntu 炼丹工作站上装的向日葵一被连接就闪退，查阅了一些资料后顺利解决了这个问题，具体方法如下。 sudo apt-get update sudo apt-get upgrade sudo apt-get install lightdm 安装 lightdm 的过程中会让选择",
+    "name" : "BLWL[36] Ubuntu 安装显卡驱动时 No additional drivers available 问题解决方案",
+    "headline" : "BLWL[36] Ubuntu 安装显卡驱动时 No additional drivers available 问题解决方案",
+    "description" : "新配置的 Ubuntu 炼丹工作站在通过 Software and Updates 中的 Additional Drivers 选项卡安装 GPU 显卡驱动时出现了 No additional drivers available 的问题。 解决方案如下。 sudo add-apt-repository ppa:xorg-edgers\/ppa sudo apt-get update 完成后回到 Software and Updates 中的 Additional Drivers 选项卡",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-14 23:18:03 \u002b0800 CST",
-    "dateModified" : "2020-12-14 23:18:03 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl35\/",
-    "wordCount" : "111",
-    "keywords" : [ "Ubuntu","sunlogin","Linux","cv", "Jonathan`s Blog"]
+    "datePublished": "2020-12-14 23:50:32 \u002b0800 CST",
+    "dateModified" : "2020-12-14 23:50:32 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl36\/",
+    "wordCount" : "86",
+    "keywords" : [ "Ubuntu","drivers","Nvidia","Linux","cv", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BLWL[35] Ubuntu 上向日葵被连接时闪退问题解决方案</h1>
+        <h1 class="post-title" itemprop="name headline">BLWL[36] Ubuntu 安装显卡驱动时 No additional drivers available 问题解决方案</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 111 words</span>
+                <span class="post-word-count">, 86 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -187,11 +187,11 @@
           
           
 
-          <p>新配置的 Ubuntu 炼丹工作站上装的向日葵一被连接就闪退，查阅了一些资料后顺利解决了这个问题，具体方法如下。</p>
-<pre><code>sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install lightdm
-</code></pre><p>安装 lightdm 的过程中会让选择使用原始桌面还是 lightdm，此时选择 lightdm，完成安装后重启工作站即可。</p>
+          <p>新配置的 Ubuntu 炼丹工作站在通过 Software and Updates 中的 Additional Drivers 选项卡安装 GPU 显卡驱动时出现了 No additional drivers available 的问题。</p>
+<p>解决方案如下。</p>
+<pre><code>sudo add-apt-repository ppa:xorg-edgers/ppa
+sudo apt-get update
+</code></pre><p>完成后回到 Software and Updates 中的 Additional Drivers 选项卡，不出意外的话就能看见可选项了。</p>
 
     </div>
 
@@ -206,7 +206,7 @@ sudo apt-get install lightdm
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2020/blwl35/>http://jonathanwayy.xyz/2020/blwl35/</span>
+                    <a href=http://jonathanwayy.xyz/2020/blwl36/>http://jonathanwayy.xyz/2020/blwl36/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -229,8 +229,11 @@ sudo apt-get install lightdm
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/ubuntu/">
                     #Ubuntu</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/sunlogin/">
-                    #sunlogin</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/drivers/">
+                    #drivers</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nvidia/">
+                    #Nvidia</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
                     #Linux</a></span>
@@ -248,10 +251,10 @@ sudo apt-get install lightdm
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/bg5/" class="prev" rel="prev" title="壁纸分享[5]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[5]</a>
+        <a href="http://jonathanwayy.xyz/2020/blwl35/" class="prev" rel="prev" title="BLWL[35] Ubuntu 上向日葵被连接时闪退问题解决方案"><i class="iconfont icon-left"></i>&nbsp;BLWL[35] Ubuntu 上向日葵被连接时闪退问题解决方案</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/blwl36/" class="next" rel="next" title="BLWL[36] Ubuntu 安装显卡驱动时 No additional drivers available 问题解决方案">BLWL[36] Ubuntu 安装显卡驱动时 No additional drivers available 问题解决方案&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -260,7 +263,7 @@ sudo apt-get install lightdm
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
