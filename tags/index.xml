@@ -7,22 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 15 Dec 2020 00:04:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 00:33:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>kde</title>
-      <link>http://jonathanwayy.xyz/tags/kde/</link>
-      <pubDate>Tue, 15 Dec 2020 00:04:04 +0800</pubDate>
+      <title>conda</title>
+      <link>http://jonathanwayy.xyz/tags/conda/</link>
+      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
+      <guid>http://jonathanwayy.xyz/tags/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
       <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Tue, 15 Dec 2020 00:04:04 +0800</pubDate>
+      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opencv</title>
+      <link>http://jonathanwayy.xyz/tags/opencv/</link>
+      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kde</title>
+      <link>http://jonathanwayy.xyz/tags/kde/</link>
+      <pubDate>Tue, 15 Dec 2020 00:04:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
       <description></description>
     </item>
     
@@ -41,15 +95,6 @@
       <pubDate>Tue, 15 Dec 2020 00:04:04 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 14 Dec 2020 23:50:32 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
@@ -86,15 +131,6 @@
       <pubDate>Mon, 14 Dec 2020 23:18:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/sunlogin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 08 Dec 2020 04:55:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -140,15 +176,6 @@
       <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/jupyter-notebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     
@@ -414,29 +441,11 @@
     </item>
     
     <item>
-      <title>opencv</title>
-      <link>http://jonathanwayy.xyz/tags/opencv/</link>
-      <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/opencv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>klingon</title>
       <link>http://jonathanwayy.xyz/tags/klingon/</link>
       <pubDate>Tue, 28 Jan 2020 18:53:37 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/klingon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
