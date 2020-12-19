@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 18 Dec 2020 00:33:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Dec 2020 21:00:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLWL[37] 简单干净卸载 cuda 的方法</title>
+      <link>http://jonathanwayy.xyz/2020/blwl37/</link>
+      <pubDate>Sat, 19 Dec 2020 21:00:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/blwl37/</guid>
+      <description>网上有各种有关如何通过一系列命令卸载 cuda 的教程，但其实 cuda 是自带卸载脚本的。 第一步： 找到 cuda 所在路径 cuda 位于 /usr/local/cuda/bin 目录下。 进入目录后运行卸载脚本： sudo ./uninstall_cuda_10.0.pl 第</description>
+    </item>
+    
     <item>
       <title>通过 Conda 安装 Python OpenCV</title>
       <link>http://jonathanwayy.xyz/2020/conda-opencv/</link>

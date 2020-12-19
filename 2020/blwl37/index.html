@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/bg16/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/blwl37/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2020/conda-opencv/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2020/conda-opencv/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2020/blwl37/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           通过 Conda 安装 Python OpenCV | Jonathan`s Blog
+           BLWL[37] 简单干净卸载 cuda 的方法 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="通过 Conda 安装 Python OpenCV | Jonathan`s Blog">
+  <meta name="title" content="BLWL[37] 简单干净卸载 cuda 的方法 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "通过 Conda 安装 Python OpenCV",
-    "headline" : "通过 Conda 安装 Python OpenCV",
-    "description" : "可通过以下命令安装 OpenCV： conda install -c menpo opencv",
+    "name" : "BLWL[37] 简单干净卸载 cuda 的方法",
+    "headline" : "BLWL[37] 简单干净卸载 cuda 的方法",
+    "description" : "网上有各种有关如何通过一系列命令卸载 cuda 的教程，但其实 cuda 是自带卸载脚本的。 第一步： 找到 cuda 所在路径 cuda 位于 \/usr\/local\/cuda\/bin 目录下。 进入目录后运行卸载脚本： sudo .\/uninstall_cuda_10.0.pl 第",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-18 00:33:49 \u002b0800 CST",
-    "dateModified" : "2020-12-18 00:33:49 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2020\/conda-opencv\/",
-    "wordCount" : "21",
-    "keywords" : [ "cv","pytorch","python","conda","notes","opencv","linux", "Jonathan`s Blog"]
+    "datePublished": "2020-12-19 21:00:26 \u002b0800 CST",
+    "dateModified" : "2020-12-19 21:00:26 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2020\/blwl37\/",
+    "wordCount" : "82",
+    "keywords" : [ "Ubuntu","cuda","drivers","Nvidia","Linux","cv", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,20 +155,20 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">通过 Conda 安装 Python OpenCV</h1>
+        <h1 class="post-title" itemprop="name headline">BLWL[37] 简单干净卸载 cuda 的方法</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2020-12-18 itemprop="datePublished">December 18, 2020</time>
+                on <time datetime=2020-12-19 itemprop="datePublished">December 19, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
+                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 21 words</span>
+                <span class="post-word-count">, 82 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -187,8 +187,13 @@
           
           
 
-          <p>可通过以下命令安装 OpenCV：</p>
-<pre><code>conda install -c menpo opencv
+          <p>网上有各种有关如何通过一系列命令卸载 cuda 的教程，但其实 cuda 是自带卸载脚本的。</p>
+<h2 id="第一步-找到-cuda-所在路径">第一步： 找到 cuda 所在路径</h2>
+<p>cuda 位于 <code>/usr/local/cuda/bin</code> 目录下。</p>
+<p>进入目录后运行卸载脚本：</p>
+<pre><code>sudo ./uninstall_cuda_10.0.pl
+</code></pre><h2 id="第二步-删除-cuda-目录">第二步： 删除 cuda 目录</h2>
+<pre><code>sudo rm -rf cuda-10.0
 </code></pre>
     </div>
 
@@ -203,7 +208,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2020/conda-opencv/>http://jonathanwayy.xyz/2020/conda-opencv/</span>
+                    <a href=http://jonathanwayy.xyz/2020/blwl37/>http://jonathanwayy.xyz/2020/blwl37/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -223,26 +228,23 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
-                    #cv</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/ubuntu/">
+                    #Ubuntu</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pytorch/">
-                    #pytorch</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cuda/">
+                    #cuda</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
-                    #python</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/drivers/">
+                    #drivers</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/conda/">
-                    #conda</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
-                    #notes</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/opencv/">
-                    #opencv</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nvidia/">
+                    #Nvidia</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+                    #Linux</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
             </section>
         
@@ -254,10 +256,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/bg16/" class="prev" rel="prev" title="壁纸分享[16]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[16]</a>
+        <a href="http://jonathanwayy.xyz/2020/conda-opencv/" class="prev" rel="prev" title="通过 Conda 安装 Python OpenCV"><i class="iconfont icon-left"></i>&nbsp;通过 Conda 安装 Python OpenCV</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/blwl37/" class="next" rel="next" title="BLWL[37] 简单干净卸载 cuda 的方法">BLWL[37] 简单干净卸载 cuda 的方法&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
