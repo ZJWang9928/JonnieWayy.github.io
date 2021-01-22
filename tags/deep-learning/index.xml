@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 12 Nov 2020 12:47:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 14:27:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案</title>
+      <link>http://jonathanwayy.xyz/2021/ldp2/</link>
+      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp2/</guid>
+      <description>问题描述 使用指令 nvidia-smi 时报错： Failed to initialize NVML: Driver/library version mismatch 问题原因 NVIDIA 内核驱动版本与系统驱动不一致。 解决办法 网上有很多调整驱动版本的方法教程，但其实最简单的方法</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法</title>
       <link>http://jonathanwayy.xyz/2020/ldp1/</link>

@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 20 Jan 2021 01:22:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 14:27:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nvidia</title>
+      <link>http://jonathanwayy.xyz/tags/nvidia/</link>
+      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/nvidia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nvidia-smi</title>
+      <link>http://jonathanwayy.xyz/tags/nvidia-smi/</link>
+      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/nvidia-smi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>kde</title>
       <link>http://jonathanwayy.xyz/tags/kde/</link>
@@ -54,29 +108,11 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sat, 19 Dec 2020 21:00:26 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>drivers</title>
       <link>http://jonathanwayy.xyz/tags/drivers/</link>
       <pubDate>Sat, 19 Dec 2020 21:00:26 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/drivers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nvidia</title>
-      <link>http://jonathanwayy.xyz/tags/nvidia/</link>
-      <pubDate>Sat, 19 Dec 2020 21:00:26 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/nvidia/</guid>
       <description></description>
     </item>
     
@@ -99,29 +135,11 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>opencv</title>
       <link>http://jonathanwayy.xyz/tags/opencv/</link>
       <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/opencv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     
@@ -167,15 +185,6 @@
       <pubDate>Sun, 06 Dec 2020 23:51:53 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
       <description></description>
     </item>
     

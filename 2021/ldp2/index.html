@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2020/bg17/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/ldp2/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/bg18/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg18/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp2/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           壁纸分享[18] | Jonathan`s Blog
+           炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="壁纸分享[18] | Jonathan`s Blog">
+  <meta name="title" content="炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "壁纸分享[18]",
-    "headline" : "壁纸分享[18]",
-    "description" : "",
+    "name" : "炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案",
+    "headline" : "炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案",
+    "description" : "问题描述 使用指令 nvidia-smi 时报错： Failed to initialize NVML: Driver\/library version mismatch 问题原因 NVIDIA 内核驱动版本与系统驱动不一致。 解决办法 网上有很多调整驱动版本的方法教程，但其实最简单的方法",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-01-20 01:22:14 \u002b0800 CST",
-    "dateModified" : "2021-01-20 01:22:14 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/bg18\/",
-    "wordCount" : "0",
-    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
+    "datePublished": "2021-01-22 14:27:20 \u002b0800 CST",
+    "dateModified" : "2021-01-22 14:27:20 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp2\/",
+    "wordCount" : "83",
+    "keywords" : [ "cv","notes","deep learning","nvidia","nvidia-smi","python", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,27 +155,25 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">壁纸分享[18]</h1>
+        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-01-20 itemprop="datePublished">January 20, 2021</time>
+                on <time datetime=2021-01-22 itemprop="datePublished">January 22, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/sharp-tools/"> Sharp Tools </a>
+                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 0 words</span>
+                <span class="post-word-count">, 83 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -189,16 +187,15 @@
           
           
 
-          <p><img src="/images/2020/01/wallpaper/171.jpg" alt="171">
-<img src="/images/2020/01/wallpaper/172.webp" alt="172">
-<img src="/images/2020/01/wallpaper/173.jpg" alt="173">
-<img src="/images/2020/01/wallpaper/174.webp" alt="174">
-<img src="/images/2020/01/wallpaper/175.jpg" alt="175">
-<img src="/images/2020/01/wallpaper/176.jpg" alt="176">
-<img src="/images/2020/01/wallpaper/177.jpg" alt="177">
-<img src="/images/2020/01/wallpaper/178.jpg" alt="178">
-<img src="/images/2020/01/wallpaper/179.png" alt="179">
-<img src="/images/2020/01/walpalper/180.png" alt="180"></p>
+          <h2 id="问题描述">问题描述</h2>
+<p>使用指令</p>
+<pre><code>nvidia-smi
+</code></pre><p>时报错：</p>
+<pre><code>Failed to initialize NVML: Driver/library version mismatch
+</code></pre><h2 id="问题原因">问题原因</h2>
+<p>NVIDIA 内核驱动版本与系统驱动不一致。</p>
+<h2 id="解决办法">解决办法</h2>
+<p>网上有很多调整驱动版本的方法教程，但其实最简单的方法只需要<strong>重启一下</strong>就能解决了。</p>
 
     </div>
 
@@ -213,7 +210,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/bg18/>http://jonathanwayy.xyz/2021/bg18/</span>
+                    <a href=http://jonathanwayy.xyz/2021/ldp2/>http://jonathanwayy.xyz/2021/ldp2/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -233,17 +230,23 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
-                    #wallpaper</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
+                    #deep learning</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #kde</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nvidia/">
+                    #nvidia</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nvidia-smi/">
+                    #nvidia-smi</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
+                    #python</a></span>
             
             </section>
         
@@ -255,10 +258,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2020/bg17/" class="prev" rel="prev" title="壁纸分享[17]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[17]</a>
+        <a href="http://jonathanwayy.xyz/2021/bg18/" class="prev" rel="prev" title="壁纸分享[18]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[18]</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/ldp2/" class="next" rel="next" title="炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案">炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -267,7 +270,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -305,9 +308,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 
