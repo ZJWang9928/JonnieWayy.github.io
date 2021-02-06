@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 22 Jan 2021 14:33:34 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Feb 2021 13:26:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Language Learning</title>
+      <link>http://jonathanwayy.xyz/categories/language-learning/</link>
+      <pubDate>Sat, 06 Feb 2021 13:26:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/categories/language-learning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Awesome Wallpapers</title>
       <link>http://jonathanwayy.xyz/categories/awesome-wallpapers/</link>
@@ -59,15 +68,6 @@
       <pubDate>Wed, 15 Apr 2020 21:47:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/categories/toss-about-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Language Learning</title>
-      <link>http://jonathanwayy.xyz/categories/language-learning/</link>
-      <pubDate>Tue, 25 Feb 2020 19:58:23 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/categories/language-learning/</guid>
       <description></description>
     </item>
     
