@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 21 Feb 2021 16:02:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Mar 2021 17:48:10 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gelu</title>
+      <link>http://jonathanwayy.xyz/tags/gelu/</link>
+      <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/gelu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>CATTI</title>
       <link>http://jonathanwayy.xyz/tags/catti/</link>
@@ -23,15 +77,6 @@
       <pubDate>Sun, 21 Feb 2021 16:02:55 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sun, 21 Feb 2021 16:02:55 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -72,24 +117,6 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Nvidia</title>
       <link>http://jonathanwayy.xyz/tags/nvidia/</link>
       <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
@@ -104,15 +131,6 @@
       <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/nvidia-smi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     
@@ -158,15 +176,6 @@
       <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/opencv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     

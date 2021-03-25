@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 21 Feb 2021 16:02:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Mar 2021 17:48:10 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- GELU 激活函数的 Pytorch 实现</title>
+      <link>http://jonathanwayy.xyz/2021/ldp3/</link>
+      <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp3/</guid>
+      <description>Transformers 中提出了一个新的激活函数 GELU，由于比较新，该模块仅在 1.8 以上版本的 Pytorch 中被收录。 要在较低版本的 Pytorch 中使用 GELU，可自行编写实现，代码如下：</description>
+    </item>
+    
     <item>
       <title>[CATTI 备考笔记] -- 庄绎传《英汉翻译简明教程》学习笔记 (Part I)</title>
       <link>http://jonathanwayy.xyz/2021/catti-scect-notes/</link>

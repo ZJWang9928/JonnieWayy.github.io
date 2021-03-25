@@ -12,9 +12,9 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-scect-notes/</loc>
+      <loc>http://jonathanwayy.xyz/categories/alchemy-of-cv/</loc>
       
-      <lastmod>2021-02-21T16:02:55+08:00</lastmod>
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
       
       
       
@@ -23,6 +23,116 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/categories/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/cv/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/deep-learning/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/gelu/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/posts/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/python/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/pytorch/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/ldp3/</loc>
+      
+      <lastmod>2021-03-25T17:48:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/catti-scect-notes/</loc>
       
       <lastmod>2021-02-21T16:02:55+08:00</lastmod>
       
@@ -52,47 +162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/</loc>
-      
-      <lastmod>2021-02-21T16:02:55+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/categories/language-learning/</loc>
-      
-      <lastmod>2021-02-21T16:02:55+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
-      
-      <lastmod>2021-02-21T16:02:55+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/posts/</loc>
-      
-      <lastmod>2021-02-21T16:02:55+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/</loc>
       
       <lastmod>2021-02-21T16:02:55+08:00</lastmod>
       
@@ -202,36 +272,6 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/alchemy-of-cv/</loc>
-      
-      <lastmod>2021-01-22T14:27:20+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/cv/</loc>
-      
-      <lastmod>2021-01-22T14:27:20+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/deep-learning/</loc>
-      
-      <lastmod>2021-01-22T14:27:20+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/tags/nvidia/</loc>
       
       <lastmod>2021-01-22T14:27:20+08:00</lastmod>
@@ -243,16 +283,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/nvidia-smi/</loc>
-      
-      <lastmod>2021-01-22T14:27:20+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/python/</loc>
       
       <lastmod>2021-01-22T14:27:20+08:00</lastmod>
       
@@ -353,16 +383,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/opencv/</loc>
-      
-      <lastmod>2020-12-18T00:33:49+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/pytorch/</loc>
       
       <lastmod>2020-12-18T00:33:49+08:00</lastmod>
       
