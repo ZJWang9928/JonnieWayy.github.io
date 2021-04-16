@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 25 Mar 2021 17:48:10 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Apr 2021 18:48:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ACM 会议论文模板去除 ACM Reference Format 信息</title>
+      <link>http://jonathanwayy.xyz/2021/latex_acmtem/</link>
+      <pubDate>Fri, 16 Apr 2021 18:48:00 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_acmtem/</guid>
+      <description>在投稿撰文时，可以去掉 ACM 的 latex 模板中会有的 ACM Reference Format 信息。 方法如下： 在 \documentclass[sigconf]{acmart} 下面添加以下几行： \settopmatter{printacmref=false} % Removes citation information below abstract \renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column \pagestyle{plain} % removes running headers</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- GELU 激活函数的 Pytorch 实现</title>
       <link>http://jonathanwayy.xyz/2021/ldp3/</link>
