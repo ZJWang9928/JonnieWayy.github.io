@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 16 Apr 2021 18:48:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 14:19:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vmware</title>
+      <link>http://jonathanwayy.xyz/tags/vmware/</link>
+      <pubDate>Tue, 27 Apr 2021 14:19:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>http://jonathanwayy.xyz/tags/windows/</link>
+      <pubDate>Tue, 27 Apr 2021 14:19:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/windows/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>acm</title>
       <link>http://jonathanwayy.xyz/tags/acm/</link>
@@ -410,15 +428,6 @@
       <pubDate>Tue, 12 May 2020 21:46:35 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vmware</title>
-      <link>http://jonathanwayy.xyz/tags/vmware/</link>
-      <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/vmware/</guid>
       <description></description>
     </item>
     

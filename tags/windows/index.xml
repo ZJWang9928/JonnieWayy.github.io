@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/windows/</link>
+    <description>Recent content in windows on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Tue, 27 Apr 2021 14:19:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLWL[38] 激活 vmware 中的 Windows 操作系统</title>
+      <link>http://jonathanwayy.xyz/2021/vmware-windows-activate/</link>
+      <pubDate>Tue, 27 Apr 2021 14:19:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/vmware-windows-activate/</guid>
+      <description>为了方便平时工作（主要是为了用 visio 做图），之前在 vmware 中配置了一个 Windows 10 的虚拟机。 一般的在物理机上适用的激活方式尝试后没能成功在虚拟机中激活 Wind</description>
+    </item>
+    
+  </channel>
+</rss>
