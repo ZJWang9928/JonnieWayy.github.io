@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/markdown/</link>
+    <description>Recent content in markdown on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Mon, 10 May 2021 13:45:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown 数学符号与公式</title>
+      <link>http://jonathanwayy.xyz/2021/md-signs/</link>
+      <pubDate>Mon, 10 May 2021 13:45:00 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/md-signs/</guid>
+      <description>符号 代码 描述 \(\sum\) $\sum$ 求和公式 \(\sum_{i=0}^n\) $\sum_{i=0}^n$ 求和上下标 \(\pm\) $\pm 正负号 \(\times\) $\times$ 乘号 \(\div\) $\div$ 除号 \(\mid\) $\mid$ 竖线 \(\cdot\) $\cdot$ 点 \(\circ\) $circ$ 圈 未完待续</description>
+    </item>
+    
+  </channel>
+</rss>
