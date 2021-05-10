@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 08 May 2021 18:37:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 May 2021 13:21:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
+      <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -20,18 +20,36 @@
     <item>
       <title>deep learning</title>
       <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
+      <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>math</title>
+      <link>http://jonathanwayy.xyz/tags/math/</link>
+      <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
+      <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sinc</title>
+      <link>http://jonathanwayy.xyz/tags/sinc/</link>
+      <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/sinc/</guid>
       <description></description>
     </item>
     
@@ -428,15 +446,6 @@
       <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/git-fetch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>http://jonathanwayy.xyz/tags/math/</link>
-      <pubDate>Tue, 12 May 2020 21:46:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/math/</guid>
       <description></description>
     </item>
     
