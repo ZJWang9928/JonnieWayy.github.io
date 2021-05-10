@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Things About Latex on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/categories/things-about-latex/</link>
+    <description>Recent content in Things About Latex on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Fri, 16 Apr 2021 18:48:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/things-about-latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ACM 会议论文模板去除 ACM Reference Format 信息</title>
+      <link>http://jonathanwayy.xyz/2021/latex_acmtem/</link>
+      <pubDate>Fri, 16 Apr 2021 18:48:00 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_acmtem/</guid>
+      <description>在投稿撰文时，可以去掉 ACM 的 latex 模板中会有的 ACM Reference Format 信息。 方法如下： 在 \documentclass[sigconf]{acmart} 下面添加以下几行： \settopmatter{printacmref=false} % Removes citation information below abstract \renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column \pagestyle{plain} % removes running headers</description>
+    </item>
+    
+    <item>
+      <title>压缩图表空间以调整 Latex 版面</title>
+      <link>http://jonathanwayy.xyz/2020/latex_vspace/</link>
+      <pubDate>Sun, 06 Dec 2020 23:51:53 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2020/latex_vspace/</guid>
+      <description>很多会议论文都有特定的模板格式，并且在篇幅上有所限制，为了尽可能地多写一点内容，可以考虑在图像、表格、公式中利用 \vspace{} 来压缩垂直距离。 例如： \begin{figure*}[t] \vspace{-1.0cm}</description>
+    </item>
+    
+  </channel>
+</rss>
