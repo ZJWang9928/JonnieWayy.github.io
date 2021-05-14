@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PIL on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/pil/</link>
+    <description>Recent content in PIL on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Fri, 14 May 2021 19:46:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/pil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenCV 与 PIL.Image 之间的图像通道（channel）转换</title>
+      <link>http://jonathanwayy.xyz/2021/opencv-pil-channel/</link>
+      <pubDate>Fri, 14 May 2021 19:46:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/opencv-pil-channel/</guid>
+      <description>今天有学弟提到了一个打开图像并显示时图像色调变蓝的问题，经历一番周折后最终解决，在此记录。 问题的根本原因在于 OpenCV 默认是以 BGR 的通道顺序打开和显示</description>
+    </item>
+    
+  </channel>
+</rss>
