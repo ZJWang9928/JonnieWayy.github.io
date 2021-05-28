@@ -67,7 +67,7 @@
     "datePublished": "2021-05-28 19:43:09 \u002b0800 CST",
     "dateModified" : "2021-05-28 19:43:09 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn5\/",
-    "wordCount" : "883",
+    "wordCount" : "1114",
     "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 883 words</span>
+                <span class="post-word-count">, 1114 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -228,7 +228,16 @@
 <p>在两个模态各自引入一个多样性学习目标函数，来惩罚具有较高相似度分数的注意力处理后的特征，用余弦相似度作为衡量标准。</p>
 <p>即使得同模态特征之间相似度不能过高。</p>
 <h2 id="feature-learnable-aggregating">Feature Learnable Aggregating</h2>
+<h3 id="手工构建特征用于视频分析的两步">手工构建特征用于视频分析的两步</h3>
+<ul>
+<li>局部描述器提取 (local descriptor extraction)</li>
+<li>特征编码过程，一系列基于量化的方法 (quantization based method) 被设计出来，首先生成若干视觉词 (visual words) 或特征聚类中心 (feature cluster centers)，将局部描述器根据距离聚类，但由于视觉词由无监督方法生成，可能会导致不可微</li>
+</ul>
+<p>本文通过可微方法进行改进，最终得到两个编码特征 \(V_{E}\) 和 \(Q_{E}\)。</p>
 <h2 id="evidence-gating">Evidence-Gating</h2>
+<p>用于捕捉描述器之间的长距离关联，学习答案的先验分布，降低无关特征的权重。<br>
+得到的答案嵌入为 \[A_{E} = \sigma(W[V_{E}, Q_{E}] + b) \circ [V_{E}, Q_{E}].\]</p>
+<p>\(\circ\) 表示哈达玛积，\(A_{E}\) 用于后续的回答推断。</p>
 <h2 id="回答推断">回答推断</h2>
 <p>与前文类似。</p>
 
@@ -299,7 +308,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">900 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1200 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
