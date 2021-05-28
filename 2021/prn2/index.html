@@ -67,7 +67,7 @@
     "datePublished": "2021-05-27 13:55:03 \u002b0800 CST",
     "dateModified" : "2021-05-27 13:55:03 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn2\/",
-    "wordCount" : "702",
+    "wordCount" : "696",
     "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
@@ -168,12 +168,14 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 702 words</span>
+                <span class="post-word-count">, 696 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -201,13 +203,13 @@
 <li>frame-level + clip-level 得到表征视频特征的一系列向量</li>
 <li>embedding layer + LSTM 提取文本特征</li>
 </ul>
-<p><a href="/images/2021/PRN3/1.png">Fig 1</a></p>
+<p><img src="/images/2021/PRN2/1.png" alt="Fig 1"></p>
 <h2 id="attention-memory-unit-amu">Attention Memory Unit (AMU)</h2>
 <ul>
 <li>AMU 以当前时间步的单词嵌入、问题信息以及视频特征作为输入</li>
 <li>主要由四种模块构成：Attention (ATT)、Channel Fusion (CF)、Memory (LSTMa)、Refine (REF)</li>
 </ul>
-<p><a href="/images/2021/PRN3/2.png">Fig 2</a></p>
+<p><img src="/images/2021/PRN2/2.png" alt="Fig 2"></p>
 <h3 id="attention-att">Attention (ATT)</h3>
 <ul>
 <li>对于一个关于视频的问题，只有其中部分帧或 clip 与问题最为相关</li>
@@ -236,7 +238,7 @@
 <li>用 softmax 分类器解决选择问题，三个特征乘积变换</li>
 <li>用 LSTM 生成答案，用两个隐状态对 LSTM 进行初始化，用视频特征最为输入，各个单词可以用与上一项中类似方式得到</li>
 </ul>
-<p><a href="/images/2021/PRN3/3.png">Fig 3</a></p>
+<p><img src="/images/2021/PRN2/3.png" alt="Fig 3"></p>
 <h2 id="两个-trick">两个 trick</h2>
 <ul>
 <li>对于不包含在 GloVe 中的词，将所有存在的单词的词嵌入取均值作为其词嵌入</li>
@@ -310,7 +312,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -348,8 +350,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
