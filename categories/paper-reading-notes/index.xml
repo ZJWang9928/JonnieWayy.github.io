@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 28 May 2021 15:21:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 May 2021 19:43:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VQA] Learnable Aggregating Net with Diversity Learning (MM 2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn5/</link>
+      <pubDate>Fri, 28 May 2021 19:43:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn5/</guid>
+      <description>Learnable Aggregating Net with Diversity Learning for Video Question Answering (MM 2019) V-VQA 三个难点 视频通常包含大量冗余信息 一些视频相关问题涉及多个关键帧，较难定位 有效聚合视频与句子特征以捕捉回答真实分布的</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- VQA] Structured Two-stream Attention Network (AAAI 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn4/</link>
