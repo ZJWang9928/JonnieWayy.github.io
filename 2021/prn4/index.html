@@ -67,7 +67,7 @@
     "datePublished": "2021-05-28 15:21:20 \u002b0800 CST",
     "dateModified" : "2021-05-28 15:21:20 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn4\/",
-    "wordCount" : "796",
+    "wordCount" : "1112",
     "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 796 words</span>
+                <span class="post-word-count">, 1112 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -226,10 +226,17 @@
 <p>用于连结并融合视频段与文本信息，共有 N 个双分支注意力块，注意力块之间共享参数。</p>
 <p>第 i 个块以第 i 个视频段编码特征\(VE_{_i}\)和文本特征\(E\)作为输入，学习二者之间的交互性，并对二者进行更新。</p>
 <p>与诸如 <a href="http://jonathanwayy.xyz/2021/prn1/">TIGF-QA</a> 及 <a href="http://jonathanwayy.xyz/2021/prn3/">Co-memory</a>等方法直接拼接视频帧特征与文本问题特征以得到新的特征用于答案预测不同，本文按两个方向计算注意力：视频到问题、问题到视频。</p>
-<p>注意力分数都由一个共享的关联性矩阵 \(A_{i}\) 计算得到 \[A_{i} = (VE_{i})^{T}W_{s}E,\] 其中\(W_{s}\)是一个可学习的权重矩阵，为了计算方便，用两个独立的线性投影取代上式 \[A_{i} = (W_{v}VE_{i})^{T}(W_{q}E),\] 其中 \(W_{v}\) 和 \(W_{q}\) 是线性函数的参数。</p>
+<p>注意力分数都由一个共享的关联性矩阵 \(A_{i} \in \mathbb{R}^{K \times M}\) 计算得到 \[A_{i} = (VE_{i})^{T}W_{s}E,\] 其中\(W_{s}\)是一个可学习的权重矩阵，\(M\) 为单词数。为了计算方便，用两个独立的线性投影取代上式 \[A_{i} = (W_{v}VE_{i})^{T}(W_{q}E),\] 其中 \(W_{v}\) 和 \(W_{q}\) 是线性函数的参数。</p>
 <p>实际上 \(A_{i}\) 编码的就是两个输入之间的相似度（内积），由 \(A_{i}\) 可计算注意力并沿着两个方向见注意力用于双分支特征。</p>
 <h3 id="第一分支视觉注意力">第一分支：视觉注意力</h3>
+<p>视觉注意力向量表征的是“视频中哪些帧需要关注，或与问题中各个单词最具关联性”，按如下公式计算得到 \[C_{i} = softmax(max_{col}(A_{i})^{T}),\] 其中 \(C_{i} \in \mathbb{R}^{K \times 1}\)，\(max_{col}\) 表示沿着列求最大值。进而处理后的视频特征为 \[\tilde{V_{i}} = \sum_{k=1}^{K} c_{ik}ve_{ik},\] 其中 \(\tilde{V_{i}} \in \mathbb{1 \times D}\) 为根据整个问题信息处理过后的视频特征向量。</p>
 <h3 id="第二分支文本注意力">第二分支：文本注意力</h3>
+<p>文本注意力向量表征的是“问题中那个单词需要关注”，通过对 \(A_{i}\) 按行求 softmax 得到 \[B_{i} = softmax(A_{i})\], 其中 \(B_{i} \in \mathbb{R}^{K \times M}\)，用其处理问题特征 \[\tilde{E_{i}} = B_{i}E^{T},\] 其中 \(\tilde{E_{i}} \in \mathbb{K \times D}\)，按列求和得到最终的 \(\tilde{E_{i}} \in \mathbb{K \times D}\) (文中此处符号使用略有不妥)。</p>
+<h2 id="结构化双分支融合-structured-two-stream-fusion">结构化双分支融合 (Structured Two-stream Fusion)</h2>
+<p>计算完各段的特征后，首先各自求和 \[\tilde{V} = \sum_{i=1}^{N} \tilde{V_{i}},\] \[\tilde{E} = \sum_{i=1}^{N} \tilde{E_{i}}.\]</p>
+<p>Sum pooling 之后，按下式求得 H 用于答案预测 \[H = ReLU(W_{fv}\tilde{V} + b_{v}) \otimes ReLU(W_{fq}\tilde{E} + b_{q}).\]</p>
+<h2 id="答案解码器">答案解码器</h2>
+<p>依旧与前文类似。</p>
 
     </div>
 
@@ -298,7 +305,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1200 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
