@@ -9,12 +9,12 @@
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Fri, 28 May 2021 15:21:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vqa/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[论文阅读笔记 -- VQA] Structured two-stream attention network (AAAI 2019)</title>
+      <title>[论文阅读笔记 -- VQA] Structured Two-stream Attention Network (AAAI 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn4/</link>
       <pubDate>Fri, 28 May 2021 15:21:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn4/</guid>
-      <description>Structured two-stream attention network for video question answering (AAAI 2019)</description>
+      <description>Structured two-stream attention network for video question answering (AAAI 2019) 图像 QA 中两种注意力机制 visual attention: &amp;ldquo;where to look&amp;rdquo; question attention: &amp;ldquo;what words to listen to&amp;rdquo; 视频 QA 三个主要困难 考虑长距离时域结构，同时不遗漏重要信息 为了定位相关视频实</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@
       <pubDate>Thu, 27 May 2021 13:49:47 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn1/</guid>
-      <description>Tgif-qa: Toward spatio-temporal reasoning in visual question answering (CVPR 2017) 三点重要贡献 提出专为视频 VQA 设计的三种新任务，需要对视频的时空推断(spatio-temporal reasoning)来正</description>
+      <description>Tgif-qa: Toward spatio-temporal reasoning in visual question answering (CVPR 2017) 开源代码传送门 三点重要贡献 提出专为视频 VQA 设计的三种新任务，需要对视频的时空推断(spatio-temporal reaso</description>
     </item>
     
   </channel>
