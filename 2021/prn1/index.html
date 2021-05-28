@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/opencv-pil-channel/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn1/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/bg21/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg21/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2021/prn2/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn1/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           壁纸分享[21] | Jonathan`s Blog
+           [论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="壁纸分享[21] | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "壁纸分享[21]",
-    "headline" : "壁纸分享[21]",
-    "description" : "",
+    "name" : "[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017)",
+    "headline" : "[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017)",
+    "description" : "Tgif-qa: Toward spatio-temporal reasoning in visual question answering (CVPR 2017) 三点重要贡献 提出专为视频 VQA 设计的三种新任务，需要对视频的时空推断(spatio-temporal reasoning)来正",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-05-14 19:58:05 \u002b0800 CST",
-    "dateModified" : "2021-05-14 19:58:05 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/bg21\/",
-    "wordCount" : "0",
-    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
+    "datePublished": "2021-05-27 13:49:47 \u002b0800 CST",
+    "dateModified" : "2021-05-27 13:49:47 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn1\/",
+    "wordCount" : "736",
+    "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,27 +155,25 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">壁纸分享[21]</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-05-14 itemprop="datePublished">May 14, 2021</time>
+                on <time datetime=2021-05-27 itemprop="datePublished">May 27, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 0 words</span>
+                <span class="post-word-count">, 736 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -189,17 +187,78 @@
           
           
 
-          <p><img src="/images/2020/01/wallpaper/200.jpg" alt="200">
-<img src="/images/2020/01/wallpaper/201.jpg" alt="201">
-<img src="/images/2020/01/wallpaper/202.jpg" alt="202">
-<img src="/images/2020/01/wallpaper/203.jpg" alt="203">
-<img src="/images/2020/01/wallpaper/204.webp" alt="204">
-<img src="/images/2020/01/wallpaper/205.webp" alt="205">
-<img src="/images/2020/01/wallpaper/206.jpg" alt="206">
-<img src="/images/2020/01/wallpaper/207.jpg" alt="207">
-<img src="/images/2020/01/wallpaper/208.png" alt="208">
-<img src="/images/2020/01/wallpaper/209.png" alt="209">
-<img src="/images/2020/01/wallpaper/210.webp" alt="210"></p>
+          <h1 id="tgif-qa-toward-spatio-temporal-reasoning-in-visual-question-answering-cvpr-2017">Tgif-qa: Toward spatio-temporal reasoning in visual question answering (CVPR 2017)</h1>
+<h2 id="三点重要贡献">三点重要贡献</h2>
+<ul>
+<li>提出专为视频 VQA 设计的三种新任务，需要对视频的时空推断(spatio-temporal reasoning)来正确回答问题</li>
+<li>提出一个新的大规模视频 VQA 数据集 TGIF-QA</li>
+<li>提出基于 dual-LSTM 的方法，结合注意力机制解决这一问题</li>
+</ul>
+<h2 id="三种新任务及传统任务">三种新任务及传统任务</h2>
+<ul>
+<li>对某一指定动作计数 (Repetition Count)</li>
+<li>给出某一动作的计数，探测该重复动作 (Repeating Action)</li>
+<li>识别状态转化 (State Transition)</li>
+<li>Frame QA 任务：Object/Number/Color/Location</li>
+</ul>
+<h2 id="两类-qa-问题">两类 QA 问题</h2>
+<ul>
+<li>Open-ended / fill-in-the-blank: 给出完整的或不完整的句子，系统需要猜出正确的词</li>
+<li>Multiple choice: 选择题</li>
+</ul>
+<p>首次在视频 VQA 任务使用时域注意力。</p>
+<h2 id="模型输入">模型输入</h2>
+<p>(v, q, a)</p>
+<h2 id="模型输出">模型输出</h2>
+<ul>
+<li>OE: single word</li>
+<li>MC: vector of compatibility scores</li>
+</ul>
+<h2 id="特征提取">特征提取</h2>
+<h3 id="视觉特征提取">视觉特征提取</h3>
+<ul>
+<li>ResNet-152 提取帧信息</li>
+<li>C3D 提取序列信息</li>
+<li>每 4 帧采样一帧以减小帧冗余</li>
+</ul>
+<h3 id="文本特征提取">文本特征提取</h3>
+<p>GloVe</p>
+<h2 id="特征编码器">特征编码器</h2>
+<ul>
+<li>用两个双层 LSTM 分别作为视觉与文本编码器。</li>
+<li>将视觉编码器的最后一个隐状态用作问题文本编码器的初始隐状态，从而将视觉信息 “carry over” 到文本编码器。</li>
+<li>两个文本编码器之间隐状态传递类似。</li>
+</ul>
+<h2 id="答案解码器">答案解码器</h2>
+<p>设计了三种解码器以得到回答，一种面向 MC，另外两种面向 OE。</p>
+<h3 id="mc-dec">MC Dec</h3>
+<ul>
+<li>线性回归 (无 bias)，以 answer encoder 最后一个隐状态作为输入，计算得到各个候选答案的真值分数 (real-valued score)</li>
+<li>用 hinge loss 训练，max(0, 1 + sn - sp)</li>
+</ul>
+<h3 id="oe-number-dec">OE Number Dec</h3>
+<ul>
+<li>与 MC Dec 类似但多个 bias，得到整数值回答</li>
+<li>L2 损失</li>
+<li>用于解决 repetition count 任务</li>
+</ul>
+<h3 id="oe-word-dec">OE Word Dec</h3>
+<ul>
+<li>线性分类器，以 question encoder 最后一个隐状态作为输入，通过得到的 confidence vector 从词典中选词</li>
+<li>Softmax loss ？ (估计文中为交叉熵损失的笔误)</li>
+</ul>
+<h2 id="注意力机制">注意力机制</h2>
+<h3 id="spatial-attention">Spatial Attention</h3>
+<ul>
+<li>学习一段视频中各帧的哪些区域需要被注意</li>
+<li>得到一个 7x7 的注意力掩码，作用于 video encoder 的各个时间步</li>
+<li>需要同时结合视觉表达与文本信号，但是模型在编码完视频后才处理 QA 对，文本信息无法作为先验，通过定义另一组参数共享的双层 LSTM 解决这个问题</li>
+</ul>
+<h3 id="temporal-attention">Temporal Attention</h3>
+<ul>
+<li>学习一段视频中哪些帧需要被注意</li>
+<li>在最后用于融合视觉与文本信息</li>
+</ul>
 
     </div>
 
@@ -214,7 +273,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/bg21/>http://jonathanwayy.xyz/2021/bg21/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn1/>http://jonathanwayy.xyz/2021/prn1/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -234,17 +293,17 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
-                    #wallpaper</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #kde</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vqa/">
+                    #vqa</a></span>
             
             </section>
         
@@ -256,10 +315,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/opencv-pil-channel/" class="prev" rel="prev" title="OpenCV 与 PIL.Image 之间的图像通道（channel）转换"><i class="iconfont icon-left"></i>&nbsp;OpenCV 与 PIL.Image 之间的图像通道（channel）转换</a>
+        <a href="http://jonathanwayy.xyz/2021/bg21/" class="prev" rel="prev" title="壁纸分享[21]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[21]</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn1/" class="next" rel="next" title="[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017)">[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2021/prn2/" class="next" rel="next" title="[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)">[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -268,7 +327,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -306,9 +365,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 

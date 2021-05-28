@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 14 May 2021 19:46:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2021 13:55:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)</title>
+      <link>http://jonathanwayy.xyz/2021/prn2/</link>
+      <pubDate>Thu, 27 May 2021 13:55:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn2/</guid>
+      <description>Video Question Answering via Gradually Refined Attention over Appearance and Motion (MM17) 延伸模型的缺陷 由 video captioning 与 ImageQA 等任务延伸而来的模型容易弱化或忽视视频的时域信息 这些模型将整个问题编码为单一特征，不具有足够</description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017)</title>
+      <link>http://jonathanwayy.xyz/2021/prn1/</link>
+      <pubDate>Thu, 27 May 2021 13:49:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn1/</guid>
+      <description>Tgif-qa: Toward spatio-temporal reasoning in visual question answering (CVPR 2017) 三点重要贡献 提出专为视频 VQA 设计的三种新任务，需要对视频的时空推断(spatio-temporal reasoning)来正</description>
+    </item>
+    
     <item>
       <title>OpenCV 与 PIL.Image 之间的图像通道（channel）转换</title>
       <link>http://jonathanwayy.xyz/2021/opencv-pil-channel/</link>
