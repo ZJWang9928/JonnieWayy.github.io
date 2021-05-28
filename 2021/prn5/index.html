@@ -67,7 +67,7 @@
     "datePublished": "2021-05-28 19:43:09 \u002b0800 CST",
     "dateModified" : "2021-05-28 19:43:09 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn5\/",
-    "wordCount" : "1114",
+    "wordCount" : "1129",
     "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 1114 words</span>
+                <span class="post-word-count">, 1129 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -222,6 +222,7 @@
 <p>传统的 co-attention 机制需要一个有单路径特征变换的注意力生成器，或一组独立的在单一尺度条件下进行多路线性投影的注意力生成器。最终回到这所生成的注意力图具有相似的数据分布，缺乏多样性。</p>
 <p>因此 MPC 模块旨在将单路变多路，首先将输入的 V 或 Q 变换到 H 个子空间，以形成特征金字塔结构，促进多样性，这样一来就有 H 种 V 和 Q 之间的相似度矩阵，第 i 个相似度矩阵可以写作 \[S_{i} = QW_{wqi}(VW_{wvi})^{T}.\]</p>
 <p>后续各相似度矩阵的处理与<a href="http://jonathanwayy.xyz/2021/prn4/">通常做法</a>类似，沿两个方向归一化得到两种注意力图，进而得到处理后的注意力特征 \(V_{att}^{i}\) 和 \(Q_{att}^{i}\)，最终整合的文本与视频特征可由所有子空间的特征求和得到 \[Q_{att}^{f} = Q + \sum Q_{att}^{i},\] \[V_{att}^{f} = V + \sum V_{att}^{i}.\]</p>
+<p>本文使用 256-D + 512-D + 1024-D。</p>
 <!-- raw HTML omitted -->
 <h3 id="多样性学习-diversity-learning">多样性学习 (Diversity Learning)</h3>
 <p>上一节方法从输入层面促进多样性，本节方法从输出层面进一步巩固多样性。</p>
