@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn1/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn3/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn2/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn2/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn3/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017) | Jonathan`s Blog
+           [论文阅读笔记 -- VQA] Motion-Appearance Co-Memory Networks (CVPR 2018) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- VQA] Motion-Appearance Co-Memory Networks (CVPR 2018) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)",
-    "headline" : "[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)",
-    "description" : "Video Question Answering via Gradually Refined Attention over Appearance and Motion (MM17) 延伸模型的缺陷 由 video captioning 与 ImageQA 等任务延伸而来的模型容易弱化或忽视视频的时域信息 这些模型将整个问题编码为单一特征，不具有足够",
+    "name" : "[论文阅读笔记 -- VQA] Motion-Appearance Co-Memory Networks (CVPR 2018)",
+    "headline" : "[论文阅读笔记 -- VQA] Motion-Appearance Co-Memory Networks (CVPR 2018)",
+    "description" : "Motion-Appearance Co-Memory Networks for Video Question Answering (CVPR 2018) 视频 QA 与 图像 QA 相比三个独有特性 处理较长的图像序列，包含更丰富的信息（数量上及多样性上） 动作与外观信息通常互相关联，能够彼此",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-05-27 13:55:03 \u002b0800 CST",
-    "dateModified" : "2021-05-27 13:55:03 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn2\/",
-    "wordCount" : "674",
+    "datePublished": "2021-05-28 14:06:27 \u002b0800 CST",
+    "dateModified" : "2021-05-28 14:06:27 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn3\/",
+    "wordCount" : "979",
     "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- VQA] Motion-Appearance Co-Memory Networks (CVPR 2018)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-05-27 itemprop="datePublished">May 27, 2021</time>
+                on <time datetime=2021-05-28 itemprop="datePublished">May 28, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 674 words</span>
+                <span class="post-word-count">, 979 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -187,57 +187,83 @@
           
           
 
-          <h1 id="video-question-answering-via-gradually-refined-attention-over-appearance-and-motion-mm17">Video Question Answering via Gradually Refined Attention over Appearance and Motion (MM17)</h1>
-<h2 id="延伸模型的缺陷">延伸模型的缺陷</h2>
+          <h1 id="motion-appearance-co-memory-networks-for-video-question-answering-cvpr-2018">Motion-Appearance Co-Memory Networks for Video Question Answering (CVPR 2018)</h1>
+<h2 id="视频-qa-与-图像-qa-相比三个独有特性">视频 QA 与 图像 QA 相比三个独有特性</h2>
 <ul>
-<li>由 video captioning 与 ImageQA 等任务延伸而来的模型容易弱化或忽视视频的时域信息</li>
-<li>这些模型将整个问题编码为单一特征，不具有足够的表现能力来揭示问题所包含的全部信息，且粗粒度会遗漏关键词信息</li>
+<li>处理较长的图像序列，包含更丰富的信息（数量上及多样性上）</li>
+<li>动作与外观信息通常互相关联，能够彼此提供有用的注意力线索</li>
+<li>不同问题需要不同数量的帧来推断回答</li>
 </ul>
-<p>每个 clip 包含 16 个连续的帧。</p>
-<h2 id="特征提取">特征提取</h2>
+<h2 id="注意力机制--记忆力机制">注意力机制 + 记忆力机制</h2>
 <ul>
-<li>从帧提取外观特征 (appearance features)，每帧相当于一张静态图像，本文用 VGG 提取特征</li>
-<li>从 clips 提取动作特征 (motion features)，本文用 C3D 提取特征</li>
-<li>frame-level + clip-level 得到表征视频特征的一系列向量</li>
-<li>embedding layer + LSTM 提取文本特征</li>
+<li>注意力机制告诉网络“看哪里”</li>
+<li>记忆力机制在多步循环中精炼答案</li>
 </ul>
-<h2 id="attention-memory-unit-amu">Attention Memory Unit (AMU)</h2>
+<h2 id="dynamic-memory-networks-dmn-缺陷">Dynamic Memory Networks (DMN) 缺陷</h2>
 <ul>
-<li>AMU 以当前时间步的单词嵌入、问题信息以及视频特征作为输入</li>
-<li>主要由四种模块构成：Attention (ATT)、Channel Fusion (CF)、Memory (LSTMa)、Refine (REF)</li>
+<li>缺少动作分析 (motion analysis)，有其实对视频中动作与外观的联合分析</li>
+<li>缺少时域建模</li>
+<li>本文基于 DMN/DMN+，根据 VQA 独有特性提出 motion apprearance co-memory network</li>
 </ul>
-<h3 id="attention-att">Attention (ATT)</h3>
+<h2 id="general-dmns">General DMNs</h2>
+<p>DMN 由四个模块构成。</p>
+<h3 id="fact-module">Fact Module</h3>
 <ul>
-<li>对于一个关于视频的问题，只有其中部分帧或 clip 与问题最为相关</li>
-<li>对 appearance 和 motion 分别提取</li>
-<li>ATT1 强化当前单词的影响，ATT2 强调后续用 LSTMa 隐状态生成第二个注意力权重</li>
+<li>将输入数据转化为一组被成为 facts 的向量，用 F 表示</li>
+<li>用 GRU 编码 text-based QA 中的文本信息，用 bi-GRU 编码 image-based QA 中的局部视觉区域特征</li>
 </ul>
-<h3 id="channel-fusion-cf">Channel Fusion (CF)</h3>
+<h3 id="question-module">Question Module</h3>
 <ul>
-<li>对 ATT1 从 appearance 和 motion 得到的特征进行融合</li>
-<li>用当前单词嵌入求取权重</li>
+<li>将问题转化为嵌入 q</li>
+<li>通常是 GRU 的最后一个隐状态作为问题嵌入</li>
 </ul>
-<h3 id="memory-lstma">Memory (LSTMa)</h3>
+<h3 id="episodic-memory-module">Episodic Memory Module</h3>
 <ul>
-<li>用于控制 ATT2 的输入，并记住注意力历史</li>
-<li>其隐状态包含当前已处理的问题信息</li>
-<li>以 CF 得到的中间视频特征、自己的上一个隐状态以及上一个时间步的 refined video representation 作为输入</li>
+<li>用于从 facts 中检索相关信息，对输入的 facts 进行多轮循环迭代，更新记忆力单元</li>
+<li>包含两个重要机制：注意力机制 + 记忆力更新机制</li>
+<li>为了有效使用视频的顺序与位置信息，设计了基于注意力的 GRU，用注意力门取代 GRU 原本的更新门</li>
+<li>注意力门用第 i 步的 fact 向量、第 t-1 轮循环的记忆力单元以及问题嵌入作为输入，输出一个标量作为第 i 个 fact 在 循环 t 中的注意力值</li>
+<li>注意力 GRU 最后一个隐状态被用作上下文特征，与问题嵌入、 t-1 循环的注意力一同用于更新 episodic memory</li>
+<li>最终的 memory 被传入 answer module 用于生成最终的答案</li>
 </ul>
-<h3 id="refine-ref">Refine (REF)</h3>
+<h3 id="answer-module">Answer Module</h3>
 <ul>
-<li>ATT1 和 ATT2 得到的注意力权重的均值作为此处权重</li>
+<li>问题嵌入 + 最终 memory 用于答案生成</li>
 </ul>
-<h2 id="答案生成-answer-generation">答案生成 (Answer Generation)</h2>
+<h2 id="motion-appearance-co-memory-networks">Motion-Appearance Co-Memory Networks</h2>
+<h3 id="多级上下文-facts-multi-level-contextual-facts">多级上下文 facts (Multi-level Contextual Facts)</h3>
 <ul>
-<li>最终得到融合后的视频特征、从 AMU 的 memory 隐状态得到的注意力历史以及从 LSTMq 隐状态得到的问题特征</li>
-<li>用 softmax 分类器解决选择问题，三个特征乘积变换</li>
-<li>用 LSTM 生成答案，用两个隐状态对 LSTM 进行初始化，用视频特征最为输入，各个单词可以用与上一项中类似方式得到</li>
+<li>视频被分割成小单元，对各个单元用两支 CNN 提取单元级别的(unit-level)动作与外观特征</li>
+<li>利用时域卷积 + 反卷积，构建多级的时域特征表达，其中各级特征蕴含不同的上下文信息</li>
+<li>最终上采样得到时域粒度更粗但是语义更强的特征序列，与下采样前特征分辨率相同，但时域上下文覆盖范围不同</li>
+<li>最终得到多级的 contextual facts</li>
 </ul>
-<h2 id="两个-trick">两个 trick</h2>
+<h3 id="co-memory-attention">Co-memory Attention</h3>
 <ul>
-<li>对于不包含在 GloVe 中的词，将所有存在的单词的词嵌入取均值作为其词嵌入</li>
-<li>注意力的可视化方式值得借鉴，对标量式注意力用条行图表征</li>
+<li>使得外观与动作间信息得以交互</li>
+<li>两个独立的注意力模块分别建模外观与动作注意力</li>
+<li>t-1 步的两种注意力对 t 步的两种注意力更新都共同作用</li>
+<li>得到两个注意力门</li>
 </ul>
+<h3 id="dynamic-fact-ensemble">Dynamic Fact Ensemble</h3>
+<h4 id="需要动态选择-facts-的两个原因">需要动态选择 facts 的两个原因</h4>
+<ul>
+<li>不同问题需要不同层级的特征</li>
+<li>在多重循环过程中，各循环所关注的信息层级可能不同</li>
+</ul>
+<h4 id="基于注意力的-fact-集成方法">基于注意力的 fact 集成方法</h4>
+<ul>
+<li>对上一节得到的门沿着层级维度(i)计算 Softmax 得到注意力分数，用于对 fact 进行加权和</li>
+<li>后续的 fact 编码阶段用到的注意力分数为门沿着层级维度求均值后取 Softmax</li>
+</ul>
+<h3 id="记忆力更新">记忆力更新</h3>
+<ul>
+<li>A-GRU 分别生成外观和动作的上下文特征向量</li>
+<li>对外观和动作的 memory 分别更新，FC + ReLU，输入为前一步 memory、问题嵌入 q以及上下文特征</li>
+<li>最后拼接两个 memory</li>
+</ul>
+<h2 id="回答生成">回答生成</h2>
+<p>与前几篇文章相似</p>
 
     </div>
 
@@ -252,7 +278,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn2/>http://jonathanwayy.xyz/2021/prn2/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn3/>http://jonathanwayy.xyz/2021/prn3/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -294,10 +320,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn1/" class="prev" rel="prev" title="[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- VQA] TGIF-QA (CVPR 2017)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn2/" class="prev" rel="prev" title="[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn3/" class="next" rel="next" title="[论文阅读笔记 -- VQA] Motion-Appearance Co-Memory Networks (CVPR 2018)">[论文阅读笔记 -- VQA] Motion-Appearance Co-Memory Networks (CVPR 2018)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -306,7 +332,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

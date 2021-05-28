@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 27 May 2021 13:55:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 May 2021 14:06:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VQA] Motion-Appearance Co-Memory Networks (CVPR 2018)</title>
+      <link>http://jonathanwayy.xyz/2021/prn3/</link>
+      <pubDate>Fri, 28 May 2021 14:06:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn3/</guid>
+      <description>Motion-Appearance Co-Memory Networks for Video Question Answering (CVPR 2018) 视频 QA 与 图像 QA 相比三个独有特性 处理较长的图像序列，包含更丰富的信息（数量上及多样性上） 动作与外观信息通常互相关联，能够彼此</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- VQA] Gradually Refined Attention (MM 2017)</title>
       <link>http://jonathanwayy.xyz/2021/prn2/</link>
