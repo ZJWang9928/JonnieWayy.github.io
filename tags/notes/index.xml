@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 29 May 2021 10:55:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 May 2021 14:57:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VQA] Beyond RNNs: Positional Self-Attention with Co-Attention(AAAI 2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn7/</link>
+      <pubDate>Sat, 29 May 2021 14:57:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn7/</guid>
+      <description>Beyond RNNs: Positional Self-Attention with Co-Attention for Video Question Answering (AAAI 2019) RNN + Attention 方法问题 耗时 由于 RNN 的特点，难以建模长距离依赖关系 本文提出了一个名为 Positional Self-Attention with Co-attention (PSAC) 的新架构，是首个无需使用 RNN 的模型。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Consensus-Aware Visual-Semantic Embedding (ECCV 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn6/</link>
