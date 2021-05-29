@@ -67,7 +67,7 @@
     "datePublished": "2021-05-29 14:57:33 \u002b0800 CST",
     "dateModified" : "2021-05-29 14:57:33 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn7\/",
-    "wordCount" : "401",
+    "wordCount" : "423",
     "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 401 words</span>
+                <span class="post-word-count">, 423 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -207,6 +207,7 @@
 <p>\[P_{pos, 2j+1} = cos(pos/10000^{2j/d_{k}}).\]</p>
 <p>最终特征由 P 和 layer normalization 输出相加后经两个卷积层和一个中间的 ReLU 层处理得到。</p>
 <p>由上述方法可直接得到视频的位置自注意力特征，文本方面则可按两种层级描述信息：word + character，C 卷积后与 W 拼接得到问题编码，进而用 depthwise 卷及层进一步融合，最后得到位置自注意力特征。</p>
+<p>其中各个单词得到 300-D 向量，各个字符得到 64-D 向量。</p>
 <h2 id="video-question-co-attention-layer">Video-Question Co-Attention Layer</h2>
 <p>两个方向，与 Co-attention 类似。</p>
 
