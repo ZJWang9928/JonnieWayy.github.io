@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn6/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn8/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn7/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn7/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn8/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- VQA] Beyond RNNs: Positional Self-Attention with Co-Attention(AAAI 2019) | Jonathan`s Blog
+           [论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- VQA] Beyond RNNs: Positional Self-Attention with Co-Attention(AAAI 2019) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- VQA] Beyond RNNs: Positional Self-Attention with Co-Attention(AAAI 2019)",
-    "headline" : "[论文阅读笔记 -- VQA] Beyond RNNs: Positional Self-Attention with Co-Attention(AAAI 2019)",
-    "description" : "Beyond RNNs: Positional Self-Attention with Co-Attention for Video Question Answering (AAAI 2019) RNN \u002b Attention 方法问题 耗时 由于 RNN 的特点，难以建模长距离依赖关系 本文提出了一个名为 Positional Self-Attention with Co-attention (PSAC) 的新架构，是首个无需使用 RNN 的模型。",
+    "name" : "[论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020)",
+    "headline" : "[论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020)",
+    "description" : "Location-aware graph convolutional networks for video question answering (AAAI 2020) 与 IQA 相比 VQA 的几个困难 由于视频包含大量帧，其视觉内容更为复杂，尤其是其中一些帧主要被与问题无关的背景内容 (strong background content) 占据 视频通常",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-05-29 14:57:33 \u002b0800 CST",
-    "dateModified" : "2021-05-29 14:57:33 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn7\/",
-    "wordCount" : "423",
+    "datePublished": "2021-05-29 18:39:03 \u002b0800 CST",
+    "dateModified" : "2021-05-29 18:39:03 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn8\/",
+    "wordCount" : "1135",
     "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- VQA] Beyond RNNs: Positional Self-Attention with Co-Attention(AAAI 2019)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 423 words</span>
+                <span class="post-word-count">, 1135 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,27 +189,55 @@
           
           
 
-          <h1 id="beyond-rnns-positional-self-attention-with-co-attention-for-video-question-answering-aaai-2019">Beyond RNNs: Positional Self-Attention with Co-Attention for Video Question Answering (AAAI 2019)</h1>
-<h2 id="rnn--attention-方法问题">RNN + Attention 方法问题</h2>
+          <h1 id="location-aware-graph-convolutional-networks-for-video-question-answering-aaai-2020">Location-aware graph convolutional networks for video question answering (AAAI 2020)</h1>
+<h2 id="与-iqa-相比-vqa-的几个困难">与 IQA 相比 VQA 的几个困难</h2>
 <ul>
-<li>耗时</li>
-<li>由于 RNN 的特点，难以建模长距离依赖关系</li>
+<li>由于视频包含大量帧，其视觉内容更为复杂，尤其是其中一些帧主要被与问题无关的背景内容 (strong background content) 占据</li>
+<li>视频通常包含多种动作，但只有其中一部分是问题所关心的</li>
+<li>需要关注目标的时域位置 (temporal location) (如 before / after) 以及其相互之间的复杂关系</li>
 </ul>
-<p>本文提出了一个名为 Positional Self-Attention with Co-attention (PSAC) 的新架构，是首个无需使用 RNN 的模型。</p>
-<p><img src="/images/2021/PRN7/1.png" alt="Fig 1"></p>
-<h2 id="positional-self-attention-block">Positional Self-Attention Block</h2>
-<p>取代 RNN 以更好捕捉长距离依赖关系和位置信息。</p>
-<p>将序列化的特征 \(F \in \mathbb{R}^{n \times d_{}}\)同时视作 query、key 和 value，采用如下的 scaled dot product attention:</p>
-<p>\[SPDA(F^Q, F^K, F^V) = softmax(\frac{F^K(F^Q)^T}{\sqrt{d_k}}) F^V.\]</p>
-<p>而后再加上跳连和 layer normalization。</p>
-<p>自注意力能够确保计算效率并建模长距离依赖关系，但是忽略了输入序列的位置信息。为了弥补这一缺陷，本文定义了一个位置矩阵 \(P \in \mathbb{R}^{n \times d_{k}}\)，对 \(F\) 的位置信息进行编码:</p>
-<p>\[P_{pos, 2j} = sin(pos/10000^{2j/d_{k}}),\]</p>
-<p>\[P_{pos, 2j+1} = cos(pos/10000^{2j/d_{k}}).\]</p>
-<p>最终特征由 P 和 layer normalization 输出相加后经两个卷积层和一个中间的 ReLU 层处理得到。</p>
-<p>由上述方法可直接得到视频的位置自注意力特征，文本方面则可按两种层级描述信息：word + character，C 卷积后与 W 拼接得到问题编码，进而用 depthwise 卷及层进一步融合，最后得到位置自注意力特征。</p>
-<p>其中各个单词得到 300-D 向量，各个字符得到 64-D 向量。</p>
-<h2 id="video-question-co-attention-layer">Video-Question Co-Attention Layer</h2>
-<p>两个方向，与 Co-attention 类似。</p>
+<p><img src="/images/2021/PRN8/1.png" alt="Fig 1"></p>
+<h2 id="现有方法的问题">现有方法的问题</h2>
+<ul>
+<li>现有的 spatio-temporal 注意力机制通常不够健壮，容易受到视频中复杂背景内容的影响</li>
+<li>而通过对个帧做目标检测并用 LSTM 进行序列化处理时输入目标序列的顺序会影响表现，二者通常很难排序；此外通过递归方式处理目标难免会忽略非邻接目标之间的直接关联</li>
+</ul>
+<p><img src="/images/2021/PRN8/2.png" alt="Fig 2"></p>
+<p>本文提出 Location-aware Graph Convolutional Networks (L-GCN) 对与问题相关的目标之间的相互关系进行建模。</p>
+<h2 id="问题编码器">问题编码器</h2>
+<p>为了处理词典外的单词和拼写错误的单词，将单词级别嵌入与字符级别嵌入结合得到问题特征，实现时，单词嵌入函数采用预训练的 300-D GloVe，字符嵌入函数随机初始化。</p>
+<p>问题特征通过两层的 highway 网络得到：</p>
+<p>\[Q = h(Q^w, g(Q^c)),\]</p>
+<p>其中字符嵌入首先由一个 2D 卷积层 \(g(\cdot)\) 处理。为了对问题进行更好的编码，将 \(Q\) 传入 bi-LSTM 进一步处理，最后通过堆叠 bi-LSTM 每个方向上各个时间步的隐状态得到问题特征 \(F^Q\)。</p>
+<h2 id="location-aware-图的构建">Location-aware 图的构建</h2>
+<p>由于动作可以由目标的相互关系推断而来，本节对检测到的目标构建一个全连接图 (fully-connected graph)。</p>
+<p>可以用目标特征表示各个节点，但这样的节点类型会忽视目标的位置信息，而位置信息对于与时域关系相关问题的推理至关重要。</p>
+<p>故此，将位置信息编码为所谓的位置特征 (location features)，从而能够构建起一个 location-aware 图，即将目标的外观特征与位置特征拼接作为节点特征。</p>
+<h3 id="位置编码">位置编码</h3>
+<p>对于从一个从第 n 帧检测到的一个目标，其空间位置 \(b\) 表示为 top-left 坐标以及检测到目标的宽和高，其 aligned 特征表示为 \(o\)，对其用 MLP 进行编码得到空间位置特征</p>
+<p>\[d^s = MLP(b),\]</p>
+<p>此外，用正弦和余弦对其时域位置特征进行编码</p>
+<p>\[d^t_{2j} = sin(n/10000^{2j/d_p}),\]</p>
+<p>\[d^t_{2j+1} = cos(n/10000^{2j/d_p}),\]</p>
+<p>\(d_p\) 是其维度。接着拼接得到节点特征</p>
+<p>\[v = [o; d^s; d^t].\]</p>
+<p>通过这种方式，图中的各个节点不仅包含目标的外观特征，也包含位置特征。</p>
+<h2 id="通过图卷积进行推理">通过图卷积进行推理</h2>
+<p>构建 P 层图卷积网络以得到区域特征 (regional features)，对于第 p 层 (\(1 \le p \le P\))：</p>
+<p>\[X^{(p)} = A^{(p)}X^{(p-1)}W^{(p)},\]</p>
+<p>其中 \(A^{(p)}\) 是通过第 p 层节点特征运算而来的邻接矩阵：</p>
+<p>\[A^{(p)} = softmax(X^{(p-1)}W_{1} \cdot (X^{(p-1)}W_{2})^{T}),\]</p>
+<p>softmax 沿着行计算，最终通过跳连得到区域特征：</p>
+<p>\[F^R = X^{(P)} + X^{(0)}.\]</p>
+<h2 id="视觉编码器">视觉编码器</h2>
+<p>用如 ResNet-152 的固定特征提取器提取帧特征，为了引入上下文信息，对帧特征集合使用全局均值池化，得到全局特征 \(F^G\)i，进而由 1D 卷积 + ELU 处理以合并来自邻帧的信息。</p>
+<p>每帧用 K 个区域框进行目标检测，本文使用 RoIAlign + FC + ELU。对检测到的目标集合构建 location-aware 图，进而进行图卷积，得到区域特征 \(F^R\)。</p>
+<p>而后，将 \(F^G\) 重复 K 次后与 \(F^R\) 拼接，用 MLP 处理得到视觉特征：</p>
+<p>\[F^V = MLP([F^R, F^G]).\]</p>
+<h2 id="视觉-问题交互模块-visual-question-interaction-module">视觉-问题交互模块 (Visual-question Interaction Module)</h2>
+<p>首先用两个独立的 FC 将视觉与问题特征转化到同一维度，后续就是较为常规的注意力机制 + bi-LSTM + 最大值池化。</p>
+<h2 id="答案推断与损失函数">答案推断与损失函数</h2>
+<p>与以前的文章类似。</p>
 
     </div>
 
@@ -224,7 +252,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn7/>http://jonathanwayy.xyz/2021/prn7/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn8/>http://jonathanwayy.xyz/2021/prn8/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -266,10 +294,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn6/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Consensus-Aware Visual-Semantic Embedding (ECCV 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Consensus-Aware Visual-Semantic Embedding (ECCV 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn7/" class="prev" rel="prev" title="[论文阅读笔记 -- VQA] Beyond RNNs: Positional Self-Attention with Co-Attention(AAAI 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- VQA] Beyond RNNs: Positional Self-Attention with Co-Attention(AAAI 2019)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn8/" class="next" rel="next" title="[论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020)">[论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -278,7 +306,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1200 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
