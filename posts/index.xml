@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 29 May 2021 18:39:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 May 2021 14:39:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -20,7 +20,7 @@
     <item>
       <title>[论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn8/</link>
-      <pubDate>Sat, 29 May 2021 18:39:03 +0800</pubDate>
+      <pubDate>Sun, 30 May 2021 14:39:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn8/</guid>
       <description>Location-aware graph convolutional networks for video question answering (AAAI 2020) 与 IQA 相比 VQA 的几个困难 由于视频包含大量帧，其视觉内容更为复杂，尤其是其中一些帧主要被与问题无关的背景内容 (strong background content) 占据 视频通常</description>
