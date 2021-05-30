@@ -67,7 +67,7 @@
     "datePublished": "2021-05-29 18:39:03 \u002b0800 CST",
     "dateModified" : "2021-05-29 18:39:03 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn8\/",
-    "wordCount" : "1135",
+    "wordCount" : "1153",
     "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 1135 words</span>
+                <span class="post-word-count">, 1153 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -229,11 +229,13 @@
 <p>\[A^{(p)} = softmax(X^{(p-1)}W_{1} \cdot (X^{(p-1)}W_{2})^{T}),\]</p>
 <p>softmax 沿着行计算，最终通过跳连得到区域特征：</p>
 <p>\[F^R = X^{(P)} + X^{(0)}.\]</p>
+<p>本文 \(P = 2\)。</p>
 <h2 id="视觉编码器">视觉编码器</h2>
 <p>用如 ResNet-152 的固定特征提取器提取帧特征，为了引入上下文信息，对帧特征集合使用全局均值池化，得到全局特征 \(F^G\)i，进而由 1D 卷积 + ELU 处理以合并来自邻帧的信息。</p>
-<p>每帧用 K 个区域框进行目标检测，本文使用 RoIAlign + FC + ELU。对检测到的目标集合构建 location-aware 图，进而进行图卷积，得到区域特征 \(F^R\)。</p>
+<p>每帧用 K 个区域框进行目标检测，本文使用 RoIAlign (Mask R-CNN) + FC + ELU。对检测到的目标集合构建 location-aware 图，进而进行图卷积，得到区域特征 \(F^R\)。</p>
 <p>而后，将 \(F^G\) 重复 K 次后与 \(F^R\) 拼接，用 MLP 处理得到视觉特征：</p>
 <p>\[F^V = MLP([F^R, F^G]).\]</p>
+<p>本文 \(K = 5\)。</p>
 <h2 id="视觉-问题交互模块-visual-question-interaction-module">视觉-问题交互模块 (Visual-question Interaction Module)</h2>
 <p>首先用两个独立的 FC 将视觉与问题特征转化到同一维度，后续就是较为常规的注意力机制 + bi-LSTM + 最大值池化。</p>
 <h2 id="答案推断与损失函数">答案推断与损失函数</h2>
