@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 31 May 2021 19:24:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 May 2021 13:24:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -20,19 +20,10 @@
     <item>
       <title>壁纸分享[22]</title>
       <link>http://jonathanwayy.xyz/2021/bg22/</link>
-      <pubDate>Mon, 31 May 2021 19:24:23 +0800</pubDate>
+      <pubDate>Mon, 31 May 2021 13:24:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/bg22/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>[论文阅读笔记 -- VQA] Object-Centric Representation Learning (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn9/</link>
-      <pubDate>Sun, 30 May 2021 16:18:18 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2021/prn9/</guid>
-      <description>2104.05166 Object-Centric Representation Learning for Video Question Answering 模型高训练度带来的问题 这类模型更倾向于捕捉浅层模式 (shallow patterns)，因而会在浅层统计量形成捷径 (creating shortcuts through surface statistic</description>
     </item>
     
     <item>
