@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 30 May 2021 14:39:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 09:48:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VQA] Object-Centric Representation Learning (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn9/</link>
+      <pubDate>Tue, 01 Jun 2021 09:48:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn9/</guid>
+      <description>2104.05166 Object-Centric Representation Learning for Video Question Answering 模型高训练度带来的问题 这类模型更倾向于捕捉浅层模式 (shallow patterns)，因而会在浅层统计量形成捷径 (creating shortcuts through surface statistic</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- VQA] Location-Aware Graph Convolutional Networks (AAAI 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn8/</link>
