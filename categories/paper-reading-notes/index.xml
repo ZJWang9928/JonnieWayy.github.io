@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 01 Jun 2021 09:48:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Jun 2021 18:30:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VQA] Reasoning with Heterogeneous Graph Alignment (AAAI 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn10/</link>
+      <pubDate>Thu, 03 Jun 2021 18:30:46 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn10/</guid>
+      <description>Reasoning with Heterogeneous Graph Alignment for Video Question Answering 出发点 需要一个统一的方法同步对模态间和模态内的关联性进行建模与推理。 本文所提到的 “视频段 (video shot)” 指的是一小段能被 3D 卷</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- VQA] Object-Centric Representation Learning (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn9/</link>

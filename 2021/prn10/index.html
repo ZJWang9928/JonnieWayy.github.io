@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn9/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn10/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           [论文阅读笔记 -- VQA] Reasoning with Heterogeneous Graph Alignment (AAAI 2020) | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="[论文阅读笔记 -- VQA] Reasoning with Heterogeneous Graph Alignment (AAAI 2020) | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/jonathanwayy.xyz"
+    },
+    "articleSection" : "posts",
+    "name" : "[论文阅读笔记 -- VQA] Reasoning with Heterogeneous Graph Alignment (AAAI 2020)",
+    "headline" : "[论文阅读笔记 -- VQA] Reasoning with Heterogeneous Graph Alignment (AAAI 2020)",
+    "description" : "Reasoning with Heterogeneous Graph Alignment for Video Question Answering 出发点 需要一个统一的方法同步对模态间和模态内的关联性进行建模与推理。 本文所提到的 “视频段 (video shot)” 指的是一小段能被 3D 卷",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2021",
+    "datePublished": "2021-06-03 18:30:46 \u002b0800 CST",
+    "dateModified" : "2021-06-03 18:30:46 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn10\/",
+    "wordCount" : "1219",
+    "keywords" : [ "paper reading","cv","notes","vqa", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://jonathanwayy.xyz">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://jonathanwayy.xyz">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- VQA] Reasoning with Heterogeneous Graph Alignment (AAAI 2020)</h1>
+        <div class="post-meta">
+                
+                Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
+                <span class="post-time">
+                on <time datetime=2021-06-03 itemprop="datePublished">June 3, 2021</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 1219 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="reasoning-with-heterogeneous-graph-alignment-for-video-question-answering">Reasoning with Heterogeneous Graph Alignment for Video Question Answering</h1>
+<p><img src="/images/2021/PRN10/1.png" alt="Fig 1"></p>
+<h2 id="出发点">出发点</h2>
+<p>需要一个统一的方法同步对模态间和模态内的关联性进行建模与推理。</p>
+<p><img src="/images/2021/PRN10/2.png" alt="Fig 2"></p>
+<p>本文所提到的 “视频段 (video shot)” 指的是一小段能被 3D 卷积模块处理并产生一个动作向量 (motion vector) 的视频片段。</p>
+<h2 id="视频与文本上下文特征">视频与文本上下文特征</h2>
+<h3 id="视觉模态">视觉模态</h3>
+<p>由于视频段比帧级别具有更丰富的表达能力，因此使用 3D 卷积网络 C3D 处理得到视频段级别的视频动作特征；同时使用 2D 卷积网络 ResNet 提取帧级别特征作为补充。从而得到外观特征组 \(F_{A}\) 和动作特征组 \(F_{M}\)，各包含 \(L_{v}\) 个特征， \(L_{v}\) 是视频的帧数，拼接后用两个 FC 层将其投影到一个公共视觉空间之中，得到特征组 \(F\)，也包含 \(L_{v}\) 个特征。</p>
+<h3 id="文本模态">文本模态</h3>
+<p>GloVe 进行词嵌入得到 \(E\)，句子长度为 \(L_{q}\)。</p>
+<h3 id="聚合动态时域信息得到上下文特征">聚合动态时域信息得到上下文特征</h3>
+<p>用两个独立的 GRU 分别处理视觉与文本模态的特征组 \(F\) 和 \(E\)，得到最终的视频特征 \(V \in \mathbb{R}^{L_{v} \times d}\) 和问题特征 \(Q \in \mathbb{R}^{L_{q} \times d}\)。</p>
+<h2 id="跨模态联合融合与对齐-cross-modal-joint-fusion-and-alignment">跨模态联合融合与对齐 (Cross-Modal Joint Fusion and Alignment)</h2>
+<p>接着利用一个模块化的联合注意力嵌入操作 (co-attention embedding operation, CAEO) 将特征嵌入到一个公共空间之中。根据 scaled dot-product self-attention 定义一个通用的 CAEO:</p>
+<p>\[CAEO(\mathbb{M}_{Q}, \mathbb{M} _{K}, \mathbb{M} _{V}) = softmax(\frac{\mathbb{M} _{Q} \mathbb{M} _{K}^{T}}{\sqrt{d}}) \mathbb{M} _{V},\]</p>
+<p>在多数情况下，\(\mathbb{M} _{Q}\) 和 \(\mathbb{M} _{K}\) 通常表示两种不同的模态，而 \(\mathbb{M} _{K}\) 和 \(\mathbb{M} _{V}\) 通常相同。</p>
+<p>接着本文提出了一系列 CAEO 的变体，如图 3 所示。都加上了残差连接，模块输出统一标记为 \(Q _{update}\) 和 \(V _{update}\)。</p>
+<p><img src="/images/2021/PRN10/3.png" alt="Fig 3"></p>
+<h3 id="语言空间到视觉空间的变换">语言空间到视觉空间的变换</h3>
+<p>\[Q _{CAEO} = CAEO(W _{q}^q Q, W _{k}^q V, W _{v}^q V),\]</p>
+<p>\[Q _{q \rightarrow v} = LayerNorm(FF _{q}(Q _{CAEO}) + Q).\]</p>
+<p>其中 \(FF _{q}\) 是前向传播 (feed-forward) 模块，实现为线性变换。得到的特征称为 Linguistic Visual。</p>
+<h3 id="视觉空间到语言空间的变换">视觉空间到语言空间的变换</h3>
+<p>\[V _{CAEO} = CAEO(W _{q}^v V, W _{k}^v Q, W _{v}^v Q),\]</p>
+<p>\[V _{v \rightarrow q} = LayerNorm(FF _{v}(V _{CAEO}) + V).\]</p>
+<p>与上一节类似，得到的特征称为 Visual Linguistic。</p>
+<h3 id="联合注意力变换">联合注意力变换</h3>
+<p>交叉变换对于融合与对齐跨模态信息至关重要，因此整合前两节的变换，引入对称的联合注意力操作，并称之为 CoAtten。</p>
+<h3 id="伪孪生联合注意力-pseudo-siamese-co-attention-变换">伪孪生联合注意力 (pseudo-siamese co-attention) 变换</h3>
+<p>用前面描述的方法得到 \(Q _{CAEO}\) 和 \(V _{CAEO}\)，并如下得到联合注意力输出：</p>
+<p>\[Q _{q \rightarrow v} = LayerNorm(FF _{q}([Q _{CAEO}; Q]) + Q),\]</p>
+<p>\[V _{v \rightarrow q} = LayerNorm(FF _{v}([V _{CAEO}; V]) + V).\]</p>
+<h3 id="孪生联合注意力-siamese-co-attention-变换">孪生联合注意力 (siamese co-attention) 变换</h3>
+<p>与伪孪生类似，唯一的区别在于采用了共享的前向传播模块。</p>
+<h2 id="异构图推理-heterogeneous-graph-reasoning">异构图推理 (Heterogeneous Graph Reasoning)</h2>
+<p>以各视频段和问题中各个单词作为节点，构建无向异构图 (undirected heterogeneous)。拼接得到包含全部视觉与文本向量的异构输入矩阵 \(X\)：</p>
+<p>\[X = [Q _{update}, V _{update}]^T.\]</p>
+<p>将 \(X\) 中的向量作为节点。</p>
+<h3 id="跨模态对齐邻接矩阵">跨模态对齐邻接矩阵</h3>
+<p>非线性变换 + 内积得到节点之间的相关性分数：</p>
+<p>\[G = \phi(X)\phi(X)^{T},\]</p>
+<p>\(G\) 各行用 softmax 归一化后被用作邻接矩阵。</p>
+<h3 id="在异构图上推理">在异构图上推理</h3>
+<p>用 GCN 进行推理</p>
+<p>\[Z = GXW,\]</p>
+<p>对 Z 使用自注意力池化，得到一个局部结果向量 (local result vector) \(s _{local}\)，自注意力池化定义为 \(\rho := (FC(d)-Tanh-FC(1)-Softmax)\)：</p>
+<p>\[s _{local} = \sum^{N} \rho(Z)^TZ.\]</p>
+<h2 id="全局与局部信息融合">全局与局部信息融合</h2>
+<p>由于图结构的推理模块更多关注局部因子之间的交互，可能会损失全局的语义信息。因此使用双线性模块融合全局与局部信息。</p>
+<p>首先融合 GRU 的最后隐状态得到全局特征：</p>
+<p>\[s _{global} = Bilinear(q _{L _{q}}, v _{L _{v}}).\]</p>
+<p>接着融合全局与局部信息得到最终的输出：</p>
+<p>\[s = Bilinear(s _{global}, s _{local}).\]</p>
+<h2 id="答案预测与评估">答案预测与评估</h2>
+<p>与前文类似。</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn10/>http://jonathanwayy.xyz/2021/prn10/</span>
+            </p>
+            <p>
+                <span>Ads:</span>
+                <span>欢迎参与<a href="https://www.didiyun.com" target="_blank" style="text-decoration:underline">滴滴云AI大师活动</a>购买 GPU / vGPU / 机器学习产品，使用我的滴滴AI大师码 <b style="color:red">0724</b> 可享受 <b>9 折</b>优惠！</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vqa/">
+                    #vqa</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://jonathanwayy.xyz">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://jonathanwayy.xyz/2021/prn9/" class="prev" rel="prev" title="[论文阅读笔记 -- VQA] Object-Centric Representation Learning (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- VQA] Object-Centric Representation Learning (2021)</a>
+         
+        
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1300 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2021</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://jonathanwayy.xyz">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
