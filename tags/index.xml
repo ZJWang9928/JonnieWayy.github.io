@@ -7,22 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 03 Jun 2021 18:30:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jun 2021 16:46:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 03 Jun 2021 18:30:46 +0800</pubDate>
+      <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>matplotlib</title>
+      <link>http://jonathanwayy.xyz/tags/matplotlib/</link>
+      <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/matplotlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Thu, 03 Jun 2021 18:30:46 +0800</pubDate>
+      <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     
@@ -99,15 +126,6 @@
     </item>
     
     <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Fri, 14 May 2021 19:46:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Nvidia</title>
       <link>http://jonathanwayy.xyz/tags/nvidia/</link>
       <pubDate>Fri, 14 May 2021 19:46:19 +0800</pubDate>
@@ -122,15 +140,6 @@
       <pubDate>Fri, 14 May 2021 19:46:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Fri, 14 May 2021 19:46:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     
