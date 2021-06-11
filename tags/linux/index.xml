@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 31 May 2021 13:24:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jun 2021 11:39:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLWL[39] yay 遇到 Error: Rate limit reached 问题解决办法</title>
+      <link>http://jonathanwayy.xyz/2021/blwl39/</link>
+      <pubDate>Fri, 11 Jun 2021 11:39:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/blwl39/</guid>
+      <description>在使用 yay -S &amp;lt;软件名&amp;gt; 安装时遇到如下错误： Error: Rate limit reached 尝试后发现一个有效的替代命令可以解决这个问题： pamac build &amp;lt;软件名&amp;gt; 特此记录</description>
+    </item>
+    
     <item>
       <title>壁纸分享[22]</title>
       <link>http://jonathanwayy.xyz/2021/bg22/</link>
