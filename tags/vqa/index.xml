@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 03 Jun 2021 18:30:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vqa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jun 2021 13:42:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vqa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] TIPCB: A Simple but Effective Part-based Convolutional Baseline</title>
+      <link>http://jonathanwayy.xyz/2021/prn11/</link>
+      <pubDate>Tue, 15 Jun 2021 13:42:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn11/</guid>
+      <description>2105.11628 TIPCB: A Simple but Effective Part-based Convolutional Baseline for Text-based Person Search 视觉特征学习 在视觉 CNN 分支，ResNet-50 第 3 和第 4 个残差块的输出分别作为低级特征图和高级特征图。 用 GMP 聚合低级特</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- VQA] Reasoning with Heterogeneous Graph Alignment (AAAI 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn10/</link>
