@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 16 Jun 2021 20:28:52 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 20:38:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 插入空行</title>
+      <link>http://jonathanwayy.xyz/2021/latex_spaceline/</link>
+      <pubDate>Wed, 16 Jun 2021 20:38:50 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_spaceline/</guid>
+      <description>有时需要在 Latex 文档中插入一个空行，查阅一些文档并做了一些尝试后，发现了一种较为简单的方法： \\ \hspace*{\fill} \\ 即换行，用空格填充后，再次换行。</description>
+    </item>
+    
     <item>
       <title>Latex 取消段首缩进</title>
       <link>http://jonathanwayy.xyz/2021/latex_noindent/</link>
