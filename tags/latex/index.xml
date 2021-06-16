@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 10 May 2021 13:45:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 20:28:52 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 取消段首缩进</title>
+      <link>http://jonathanwayy.xyz/2021/latex_noindent/</link>
+      <pubDate>Wed, 16 Jun 2021 20:28:52 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_noindent/</guid>
+      <description>要取消 Latex 段首缩进，可以在需要处理的段落前加上如下代码： \noindent</description>
+    </item>
+    
     <item>
       <title>Markdown 数学符号与公式</title>
       <link>http://jonathanwayy.xyz/2021/md-signs/</link>
