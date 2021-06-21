@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 11 Jun 2021 11:39:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/better-life-with-linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 19:47:15 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/better-life-with-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案</title>
+      <link>http://jonathanwayy.xyz/2021/blwl40/</link>
+      <pubDate>Mon, 21 Jun 2021 19:47:15 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/blwl40/</guid>
+      <description>问题描述 Manjaro/ArchLinux 使用 pacman 更新时遇到如下形式的问题： &amp;gt; sudo pacman -Syu ... ... (748/748) 正在检查密钥环里的密钥 [######################] 100% (748/748) 正在检查软件包完整性 [######################] 100% 错误：xxxxx: 来自 &amp;quot;xxxxxxxxxx&amp;quot; 的签名是</description>
+    </item>
+    
     <item>
       <title>BLWL[39] yay 遇到 Error: Rate limit reached 问题解决办法</title>
       <link>http://jonathanwayy.xyz/2021/blwl39/</link>

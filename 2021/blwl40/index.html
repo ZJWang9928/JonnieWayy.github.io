@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_space/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/blwl40/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn14/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn14/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/blwl40/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021) | Jonathan`s Blog
+           BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021) | Jonathan`s Blog">
+  <meta name="title" content="BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021)",
-    "description" : "2101.08238 AXM-Net: Cross-Modal Context Sharing Attention Network for Person Re-ID (2021) 主要困难 各模态中与行人相关的信息结构相当不同 关键在于学习一个能够从数据中提取语义的网络，而不是在训练过程中简单记住各行",
+    "name" : "BLWL[40] Manjaro\/Archlinux “...” 的签名是未知信任的 问题解决方案",
+    "headline" : "BLWL[40] Manjaro\/Archlinux “...” 的签名是未知信任的 问题解决方案",
+    "description" : "问题描述 Manjaro\/ArchLinux 使用 pacman 更新时遇到如下形式的问题： \u0026gt; sudo pacman -Syu ... ... (748\/748) 正在检查密钥环里的密钥 [######################] 100% (748\/748) 正在检查软件包完整性 [######################] 100% 错误：xxxxx: 来自 \u0026quot;xxxxxxxxxx\u0026quot; 的签名是",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-21 14:24:22 \u002b0800 CST",
-    "dateModified" : "2021-06-21 14:24:22 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn14\/",
-    "wordCount" : "870",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","reid", "Jonathan`s Blog"]
+    "datePublished": "2021-06-21 19:47:15 \u002b0800 CST",
+    "dateModified" : "2021-06-21 19:47:15 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/blwl40\/",
+    "wordCount" : "252",
+    "keywords" : [ "pacman","Linux","Notes","KDE","Manjaro","ArchLinux", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -165,17 +165,15 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 870 words</span>
+                <span class="post-word-count">, 252 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -189,44 +187,34 @@
           
           
 
-          <h1 id="210108238-axm-net-cross-modal-context-sharing-attention-network-for-person-re-id-2021">2101.08238 AXM-Net: Cross-Modal Context Sharing Attention Network for Person Re-ID (2021)</h1>
-<p><img src="/images/2021/PRN14/1.png" alt="Fig 1"></p>
-<h2 id="主要困难">主要困难</h2>
-<ul>
-<li>各模态中与行人相关的信息结构相当不同</li>
-<li>关键在于学习一个能够从数据中提取语义的网络，而不是在训练过程中简单记住各行人相应的图文对</li>
-<li>特征中所表征的语义信息，如衣着的颜色与类型、行人动作等，应当在模态间被对齐，且不受背景噪音干扰</li>
-</ul>
-<p><img src="/images/2021/PRN14/2.png" alt="Fig 2"></p>
-<h2 id="视觉与文本特征学习网络">视觉与文本特征学习网络</h2>
-<h3 id="一个想法">一个想法</h3>
-<p>学习多尺度特征，基于语义信息跨模态对齐特征。</p>
-<p>故此，提出一种图文之间的自适应的上下文共享语义对齐模块 (adaptive context sharing semantic alignment block, AXM-block)，如图 2 所示，各个块由从不同感受野 (receptive fields, R) 获得多模态特征并捕捉不同数量局部上下文的多个特征流与一个上下文共享语义对齐网络 (context sharing semantic alignment network) 组成。</p>
-<p>AXM-block 的输入具有丰富的模态内语义，有来自不同上下文支持区域 R 的多粒度信息。</p>
-<p><img src="/images/2021/PRN14/T1.png" alt="Tab 1"></p>
-<p>特征学习骨架网络如表 1 所示。</p>
-<p><img src="/images/2021/PRN14/3.png" alt="Fig 3"></p>
-<h3 id="自适应的跨模态上下文共享语义对齐网络-adaptive-cross-modal-context-sharing-semantic-alignment-networ">自适应的跨模态上下文共享语义对齐网络 (Adaptive Cross-modal Context Sharing Semantic Alignment Networ)</h3>
-<p>直觉上，各模态中的语义信息应当是相同的，因为其描述的是同一个行人。故此，提出该网络来动态地结合这些信息。</p>
-<p>网络通过更加注意各模态中的显著语义信息，并同时减小无用部分信息的影响，来增强语义信息。由于文本输入没有背景信息， AXM-Net 能够减少背景所造成的影响。</p>
-<p>定义第 \(r\) 个感受野的特征图组为 \(X = (V_{r}, T_{r})\)，对特征图使用 GAP 后得到 \(x = (v_{r}, t_{r})\)，将这些向量传入上下文与语义学习迷你网络 (context and semantic learning mini-network) 中得到缩放向量 (scale vectors) 基于跨模态语义对信息进行缩放：</p>
-<p>$$\widetilde{x} = C(x_{r}) \quad \forall v_{r}, t_{r}\ in\ x$$</p>
-<p>函数 \(C(x)\) 表示非线性映射。进而进行特征对齐 (feature alignment)：</p>
-<p>$$(\widetilde{V}, \widetilde{T}) = \sum_{r=1}^{R}(V_{r} \odot \widetilde{v_{r}}, T_{r} \odot \widetilde{t_{r}}).$$</p>
-<p><img src="/images/2021/PRN14/4.png" alt="Fig 4"></p>
-<h2 id="视觉模态的注意力局部特征学习">视觉模态的注意力局部特征学习</h2>
-<p>全局视觉分支关注行人整体特征，但是模态内的局部信息同样重要。</p>
-<p>因此提出一种基于部分的注意力网络 (part based attention network) 来增强各局部视觉部分中的信息，对各个局部块做通道注意力。为了在空间区域之间使用上下文信息，局部注意力部分的参数共享。</p>
-<p><img src="/images/2021/PRN14/5.png" alt="Fig 5"></p>
-<h2 id="文本特征的非局部注意力">文本特征的非局部注意力</h2>
-<p>使用非局部注意力 (non-local attention, NLA) 通过直接计算一对文本特征之间的相互关系对文本中的长距离依赖关系进行建模。</p>
-<h2 id="目标函数">目标函数</h2>
-<p>ID Loss + Triplet Loss + Affinity Loss</p>
-<h2 id="cross-modal-affinity-loss">Cross-modal Affinity Loss</h2>
-<p>基于图文对之间的关联性，实现为二元交叉熵 (binary cross entropy)：</p>
-<p>$$L_{aff} = -[y_{ij} \cdot log(\sigma(S(V_{i}, T_{j}))) + (1 - y_{ij}) \cdot log(\sigma(1 - S(V_{i}, T_{j})))],$$</p>
-<p>配对时 \(y_{ij} = 1\)，否则 \(y_{ij} = 0\)。</p>
-<p><img src="/images/2021/PRN14/6.png" alt="Fig 6"></p>
+          <h2 id="问题描述">问题描述</h2>
+<p>Manjaro/ArchLinux 使用 pacman 更新时遇到如下形式的问题：</p>
+<pre><code>&gt; sudo pacman -Syu
+...
+...
+(748/748) 正在检查密钥环里的密钥                   [######################] 100%
+(748/748) 正在检查软件包完整性                     [######################] 100%
+错误：xxxxx: 来自 &quot;xxxxxxxxxx&quot; 的签名是未知信任的
+:: 文件 xxxxxxxxxx 已损坏 (无效或已损坏的软件包 (PGP 签名)).
+打算删除吗？ [Y/n] y
+错误：无法提交处理 (无效或已损坏的软件包)
+发生错误，没有软件包被更新。
+</code></pre><h2 id="原因分析">原因分析</h2>
+<p>签名错误，可以通过重新生成签名来解决这一问题。</p>
+<h2 id="解决办法">解决办法</h2>
+<h3 id="1-更新一下-archlinux-密钥">1. 更新一下 archlinux 密钥</h3>
+<h4 id="若尚未安装-archlinux-keyring">若尚未安装 archlinux-keyring</h4>
+<pre><code>sudo pacman -S archlinux-keyring
+</code></pre><h4 id="更新密钥">更新密钥</h4>
+<pre><code>sudo pacman-key --refresh-keys
+</code></pre><h3 id="2-重新加载签名密钥">2. 重新加载签名密钥</h3>
+<pre><code>sudo pacman-key --init
+sudo pacman-key --populate
+</code></pre><h3 id="3-清除pacman-的缓冲文件">3. 清除pacman 的缓冲文件</h3>
+<pre><code>sudo pacman -Scc
+</code></pre><h3 id="4-再次更新">4. 再次更新</h3>
+<pre><code>sudo pacman -Syu
+</code></pre><p>不出意外的话问题已经解决了。</p>
 
     </div>
 
@@ -241,7 +229,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn14/>http://jonathanwayy.xyz/2021/prn14/</span>
+                    <a href=http://jonathanwayy.xyz/2021/blwl40/>http://jonathanwayy.xyz/2021/blwl40/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -261,20 +249,23 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
-                    #paper reading</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pacman/">
+                    #pacman</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
-                    #cv</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
+                    #Linux</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
-                    #notes</a></span>
+                    #Notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
+                    #KDE</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
-                    #reid</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
+                    #Manjaro</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/archlinux/">
+                    #ArchLinux</a></span>
             
             </section>
         
@@ -286,10 +277,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/latex_space/" class="prev" rel="prev" title="Latex 公式中的空格表示"><i class="iconfont icon-left"></i>&nbsp;Latex 公式中的空格表示</a>
+        <a href="http://jonathanwayy.xyz/2021/prn14/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/blwl40/" class="next" rel="next" title="BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案">BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -298,7 +289,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">900 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -336,9 +327,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 
