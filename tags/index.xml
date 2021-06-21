@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 21 Jun 2021 14:11:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 14:24:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Mon, 21 Jun 2021 14:24:22 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 21 Jun 2021 14:11:57 +0800</pubDate>
+      <pubDate>Mon, 21 Jun 2021 14:24:22 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Mon, 21 Jun 2021 14:24:22 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Mon, 21 Jun 2021 14:24:22 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reid</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Mon, 21 Jun 2021 14:24:22 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
     </item>
     
@@ -32,15 +68,6 @@
       <pubDate>Mon, 21 Jun 2021 14:11:57 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 21 Jun 2021 14:11:57 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -68,15 +95,6 @@
       <pubDate>Sun, 20 Jun 2021 14:25:10 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sun, 20 Jun 2021 14:25:10 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -113,24 +131,6 @@
       <pubDate>Sat, 19 Jun 2021 13:29:42 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Thu, 17 Jun 2021 20:35:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reid</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Thu, 17 Jun 2021 20:35:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
     </item>
     
