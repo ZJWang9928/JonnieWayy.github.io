@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retrieval on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+    <description>Recent content in retrieval on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Tue, 22 Jun 2021 19:53:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Cross-Modal Center Loss (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn17/</link>
+      <pubDate>Tue, 22 Jun 2021 19:53:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn17/</guid>
+      <description>Cross-Modal Center Loss for 3D Cross-Modal Retrieval (CVPR 2021) 现有方法的问题 核心思想是最小化由预训练网络提取的多模态特征之间的跨模态差异，而这些预训练网络应当与跨模态数据联合训练 现有的</description>
+    </item>
+    
+  </channel>
+</rss>

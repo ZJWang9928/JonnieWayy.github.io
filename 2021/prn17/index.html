@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn15/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn17/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn16/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn16/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn17/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] Cross-Modal Center Loss (CVPR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Cross-Modal Center Loss (CVPR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017)",
-    "headline" : "[论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017)",
-    "description" : "Deep Cross-Modal Hashing (CVPR 2017) 哈希的目标 将原始空间数据点映射为汉明空间中的二进制编码，在汉明空间中保留原始空间中的相似度。 两类多模态哈希 (Multi-Modal Hashing, MMH) 多源哈希 (multi-source hashing, MSH) 目的",
+    "name" : "[论文阅读笔记 -- 跨模态检索] Cross-Modal Center Loss (CVPR 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] Cross-Modal Center Loss (CVPR 2021)",
+    "description" : "Cross-Modal Center Loss for 3D Cross-Modal Retrieval (CVPR 2021) 现有方法的问题 核心思想是最小化由预训练网络提取的多模态特征之间的跨模态差异，而这些预训练网络应当与跨模态数据联合训练 现有的",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-22 16:33:39 \u002b0800 CST",
-    "dateModified" : "2021-06-22 16:33:39 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn16\/",
-    "wordCount" : "845",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","reid","hashing", "Jonathan`s Blog"]
+    "datePublished": "2021-06-22 19:53:32 \u002b0800 CST",
+    "dateModified" : "2021-06-22 19:53:32 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn17\/",
+    "wordCount" : "697",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","reid","retrieval", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Cross-Modal Center Loss (CVPR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 845 words</span>
+                <span class="post-word-count">, 697 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,54 +189,37 @@
           
           
 
-          <h1 id="deep-cross-modal-hashing-cvpr-2017">Deep Cross-Modal Hashing (CVPR 2017)</h1>
-<h2 id="哈希的目标">哈希的目标</h2>
-<p>将原始空间数据点映射为汉明空间中的二进制编码，在汉明空间中保留原始空间中的相似度。</p>
-<h2 id="两类多模态哈希-multi-modal-hashing-mmh">两类多模态哈希 (Multi-Modal Hashing, MMH)</h2>
-<h3 id="多源哈希-multi-source-hashing-msh">多源哈希 (multi-source hashing, MSH)</h3>
-<p>目的是使用来自所有模态的全部信息学习哈希编码，需要所有模态的全部数据点都能够被观测到，包括 query 点和数据库中的点。</p>
-<p>这在实际应用中十分受限，因为很难总是能够获取到所有模态的全部数据点。</p>
-<h3 id="跨模态哈希-cross-modal-hashing-cmh">跨模态哈希 (cross-modal hashing, CMH)</h3>
-<p>Query 数据点和数据库中的点模态可以不同，因而应用更广泛。</p>
-<h2 id="基于人工特征-cmh-方法的问题">基于人工特征 CMH 方法的问题</h2>
-<p>特征提取过程独立于哈希编码学习过程，这意味着所提取的人工特征可能并非最适用于哈希编码学习阶段。</p>
-<p>因而本文提出一种端到端的深度跨模态哈希 (deep cross-modal hashing, DCHM) 方法，用于跨模态检索任务。</p>
-<p>与此前 CMH 方法将离散学习问题转化为连续学习问题不同， DCMH 直接学习离散哈希编码，以避免造成所学习到哈希编码精确度的损失。</p>
-<p><img src="/images/2021/PRN16/1.png" alt="Fig 1"></p>
-<h2 id="dcmh-模型">DCMH 模型</h2>
-<h3 id="特征学习部分">特征学习部分</h3>
-<p>用两个深度神经网络分别提取图文特征。</p>
-<p><img src="/images/2021/PRN16/T1.png" alt="Tab 1"></p>
-<p><img src="/images/2021/PRN16/T2.png" alt="Tab 2"></p>
-<h3 id="哈希编码学习部分">哈希编码学习部分</h3>
-<p>实验发现，将来自两种模态的同一训练数据的二进制编码设为相同会有更好的表现。</p>
-<p><img src="/images/2021/PRN16/2.png" alt="Loss"></p>
-<h4 id="目标函数设计思路">目标函数设计思路</h4>
+          <h1 id="cross-modal-center-loss-for-3d-cross-modal-retrieval-cvpr-2021">Cross-Modal Center Loss for 3D Cross-Modal Retrieval (CVPR 2021)</h1>
+<p><img src="/images/2021/PRN17/1.png" alt="Fig 1"></p>
+<h2 id="现有方法的问题">现有方法的问题</h2>
 <ul>
-<li>连续特征向量之间应当相似</li>
-<li>连续向量可以被视为二进制哈希编码的连续型替代 (continuous surrogate)，因此二者也应该接近 (Frobenius Norm)</li>
-<li>需保证各位上 +1 和 -1 数量的平衡，故最小化元素和的 F-Norm，从而最大化每一位能够提供的信息量</li>
+<li>核心思想是最小化由预训练网络提取的多模态特征之间的跨模态差异，而这些预训练网络应当与跨模态数据联合训练</li>
+<li>现有的损失函数主要针对两种模态的情况设计，当有更多模态时无法很好泛化</li>
 </ul>
-<p>需要注意的是，仅仅在训练过程中的多模态哈希编码设为相同，实际应用时仍需要为 query 数据和数据库中数据分别生成一串编码。</p>
-<h2 id="学习过程">学习过程</h2>
-<p>每一轮都采用交替学习的策略 (alternating learning strategy) 学习图像分支参数、文本分支参数以及编码矩阵 \(B\)，每次只学习其中之一，将其余二者固定。</p>
-<ul>
-<li>单独训练 V，固定 T 和 B</li>
-<li>单独训练 T，固定 V 和 B</li>
-<li>更新 B</li>
-</ul>
-<p>具体算法描述如下：</p>
-<p><img src="/images/2021/PRN16/A1.png" alt="Alg 1"></p>
-<h2 id="样本以外的延伸-out-of-sample-extension">样本以外的延伸 (Out-of-Sample Extension)</h2>
-<p>对于任何不曾在训练集中出现过的数据点，只要其模态能被观测到，就可以得到其哈系编码：</p>
-<p>$$b = sign(f(x)).$$</p>
-<h2 id="基于哈希检索方法的评估标准">基于哈希检索方法的评估标准</h2>
-<h3 id="hamming-ranking">Hamming Ranking</h3>
-<p>根据所给出的 query 数据点，计算数据库中数据点与其哈希编码之间的汉明距离，并由此排序。</p>
-<p>通常用 Mean Average Precision (MAP) 衡量这一标准下的模型精度。</p>
-<h3 id="hash-lookup">Hash Lookup</h3>
-<p>找出所有落入 query 数据点 Hamming 半径范围内的数据点。</p>
-<p>通常使用 precision-recall curve 衡量模型表现。</p>
+<p>故此本文提出一种新的损失函数，称为跨模态中心损失 (Cross-modal Center Loss)，用于最小化跨越多种模态的类内差异。</p>
+<p>与传统的中心损失在每个模态空间孤立学习一个中心不同，跨模态中心损失在公共空间里为各个类学习一个中心 \(C\)。</p>
+<p>此外，本文通过元数据 (metadata) 联合训练整个网络架构，而非受到预训练模型的限制。</p>
+<p>本文使用的多模态数据包括网格 (Mesh)、点云 (point cloud)和图像，其特征分别由不同子网络提取，进而由共享的两层 FC 投影到公共空间。</p>
+<p><img src="/images/2021/PRN17/2.png" alt="Fig 2"></p>
+<h2 id="跨模态中心损失-cross-modal-center-loss">跨模态中心损失 (Cross-modal Center Loss)</h2>
+<p>对于提取得到的特征 \(\{v_{i}^{m}\}_{i=1}^N (m \in [1, M])\)，共有 N 个实例和 M 个模态，跨模态中心损失定义如下：</p>
+<p>$$L _{c} = \frac{1}{2}\sum _{i=1}^{N} \sum _{m=1}^M ||v _{i}^m - C _{y _{i}}|| _{2}^2,$$</p>
+<p>其中 \(C _{y _{i}} \in \mathbb{R}^k\) 表示类别 \(y _{i}\) 在公共空间的中心， \(k\) 是特征维度。</p>
+<p>每次训练迭代后，各个类中心 \(C _{j}\) 通过 \(\Delta C _{j}\) 由来自所有模态属于类别 \(j\) 的数据更新：</p>
+<p>$$\Delta C _{j} = \frac{\sum _{i=1}^N \sum _{m=1}^M \delta(y _{i} = j)(C _{j} - v _{i}^m)}{1 + \sum _{i=1}^N \delta(y _{i} = j)},$$</p>
+<p>$$\delta(condition) = \begin{cases} 1 \ if \ condition=True, \\ 0, \ if \ otherwise, \end{cases}$$</p>
+<p>Batch Size 够大时能够为每个类学习到一个健壮的中心。</p>
+<h2 id="鉴别损失">鉴别损失</h2>
+<p>为了学习具有鉴别能力的特征，标签空间中的交叉熵损失被用于优化网络，有点类似与 ID Loss。</p>
+<p>$$L _{d} = -\frac{1}{N}(\sum _{i=1}^N \sum _{m=1}^M y _{i}^m \cdot log(\hat{y _{i}^m})),$$</p>
+<p>$$\hat{y _{i}^m} = MLP(v _{i}^m).$$</p>
+<p>为了进一步减小各实例数据中的跨模态差异，采用一种基于均方误差 (mean square error) 的损失函数，最小化所有跨模态样本对特征之间的距离：</p>
+<p>$$L _{m} = \sum _{\alpha, \beta \in [1, M], \alpha \ne \beta}||v _{i}^{\alpha} - v _{i}^{\beta}|| _{2}^2.$$</p>
+<h2 id="优化过程">优化过程</h2>
+<p><img src="/images/2021/PRN17/A1.png" alt="Alg 1"></p>
+<h2 id="batch-size-的影响">Batch Size 的影响</h2>
+<p>每次各类的中心定义为一个 mini-batch 中相应特征的均值，用于更新，实验结果表明 Batch Size 的大小对模型表现有显著影响。</p>
+<p><img src="/images/2021/PRN17/T1.png" alt="Tab 1"></p>
 
     </div>
 
@@ -251,7 +234,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn16/>http://jonathanwayy.xyz/2021/prn16/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn17/>http://jonathanwayy.xyz/2021/prn17/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -286,8 +269,8 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
                     #reid</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/hashing/">
-                    #hashing</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
             </section>
         
@@ -299,10 +282,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn15/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn16/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn17/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] Cross-Modal Center Loss (CVPR 2021)">[论文阅读笔记 -- 跨模态检索] Cross-Modal Center Loss (CVPR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -311,7 +294,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">900 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
