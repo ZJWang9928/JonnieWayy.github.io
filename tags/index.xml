@@ -7,31 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 22 Jun 2021 19:53:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Tue, 22 Jun 2021 19:53:32 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 22 Jun 2021 21:05:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 22 Jun 2021 19:53:32 +0800</pubDate>
+      <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>http://jonathanwayy.xyz/tags/latex/</link>
+      <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 22 Jun 2021 19:53:32 +0800</pubDate>
+      <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paperwriting</title>
+      <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
+      <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Tue, 22 Jun 2021 19:53:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
@@ -113,33 +140,6 @@
       <pubDate>Mon, 21 Jun 2021 19:47:15 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pacman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Mon, 21 Jun 2021 14:11:57 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>latex</title>
-      <link>http://jonathanwayy.xyz/tags/latex/</link>
-      <pubDate>Mon, 21 Jun 2021 14:11:57 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paperwriting</title>
-      <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
-      <pubDate>Mon, 21 Jun 2021 14:11:57 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
       <description></description>
     </item>
     

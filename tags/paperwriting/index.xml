@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 21 Jun 2021 14:11:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paperwriting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jun 2021 21:05:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paperwriting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 分段函数的一种实现方式</title>
+      <link>http://jonathanwayy.xyz/2021/latex_case/</link>
+      <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_case/</guid>
+      <description>代码实现 $$f(x) = \begin{cases} 2x + 1, \quad if \ x &amp;gt; 1, \\\\ -3x, \quad if \ x \le 1.\end{cases}$$ 呈现效果 $$f(x) = \begin{cases} 2x + 1, \quad if \ x &amp;gt; 1, \\ -3x, \quad if \ x \le 1.\end{cases}$$</description>
+    </item>
+    
     <item>
       <title>Latex 公式中的空格表示</title>
       <link>http://jonathanwayy.xyz/2021/latex_space/</link>
