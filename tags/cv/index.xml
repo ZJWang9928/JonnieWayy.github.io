@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 21 Jun 2021 14:24:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jun 2021 10:54:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)</title>
+      <link>http://jonathanwayy.xyz/2021/prn15/</link>
+      <pubDate>Tue, 22 Jun 2021 10:54:41 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn15/</guid>
+      <description>Self-Supervised Adversarial Hashing Networks for Cross-Modal Retrieval (CVPR 2018) 当前(当时)跨模态哈希方法的主要不足 直接使用单类标签来衡量跨模态的语义关联，而事实上标准的跨模态数据集中一个图像实例往往能</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn14/</link>

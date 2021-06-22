@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn14/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn15/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/blwl40/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/blwl40/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn15/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案 | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "BLWL[40] Manjaro\/Archlinux “...” 的签名是未知信任的 问题解决方案",
-    "headline" : "BLWL[40] Manjaro\/Archlinux “...” 的签名是未知信任的 问题解决方案",
-    "description" : "问题描述 Manjaro\/ArchLinux 使用 pacman 更新时遇到如下形式的问题： \u0026gt; sudo pacman -Syu ... ... (748\/748) 正在检查密钥环里的密钥 [######################] 100% (748\/748) 正在检查软件包完整性 [######################] 100% 错误：xxxxx: 来自 \u0026quot;xxxxxxxxxx\u0026quot; 的签名是",
+    "name" : "[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)",
+    "headline" : "[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)",
+    "description" : "Self-Supervised Adversarial Hashing Networks for Cross-Modal Retrieval (CVPR 2018) 当前(当时)跨模态哈希方法的主要不足 直接使用单类标签来衡量跨模态的语义关联，而事实上标准的跨模态数据集中一个图像实例往往能",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-21 19:47:15 \u002b0800 CST",
-    "dateModified" : "2021-06-21 19:47:15 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/blwl40\/",
-    "wordCount" : "252",
-    "keywords" : [ "pacman","Linux","Notes","KDE","Manjaro","ArchLinux", "Jonathan`s Blog"]
+    "datePublished": "2021-06-22 10:54:41 \u002b0800 CST",
+    "dateModified" : "2021-06-22 10:54:41 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn15\/",
+    "wordCount" : "436",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","reid","hashing", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,25 +155,27 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-06-21 itemprop="datePublished">June 21, 2021</time>
+                on <time datetime=2021-06-22 itemprop="datePublished">June 22, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 252 words</span>
+                <span class="post-word-count">, 436 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -187,34 +189,25 @@
           
           
 
-          <h2 id="问题描述">问题描述</h2>
-<p>Manjaro/ArchLinux 使用 pacman 更新时遇到如下形式的问题：</p>
-<pre><code>&gt; sudo pacman -Syu
-...
-...
-(748/748) 正在检查密钥环里的密钥                   [######################] 100%
-(748/748) 正在检查软件包完整性                     [######################] 100%
-错误：xxxxx: 来自 &quot;xxxxxxxxxx&quot; 的签名是未知信任的
-:: 文件 xxxxxxxxxx 已损坏 (无效或已损坏的软件包 (PGP 签名)).
-打算删除吗？ [Y/n] y
-错误：无法提交处理 (无效或已损坏的软件包)
-发生错误，没有软件包被更新。
-</code></pre><h2 id="原因分析">原因分析</h2>
-<p>签名错误，可以通过重新生成签名来解决这一问题。</p>
-<h2 id="解决办法">解决办法</h2>
-<h3 id="1-更新一下-archlinux-密钥">1. 更新一下 archlinux 密钥</h3>
-<h4 id="若尚未安装-archlinux-keyring">若尚未安装 archlinux-keyring</h4>
-<pre><code>sudo pacman -S archlinux-keyring
-</code></pre><h4 id="更新密钥">更新密钥</h4>
-<pre><code>sudo pacman-key --refresh-keys
-</code></pre><h3 id="2-重新加载签名密钥">2. 重新加载签名密钥</h3>
-<pre><code>sudo pacman-key --init
-sudo pacman-key --populate
-</code></pre><h3 id="3-清除pacman-的缓冲文件">3. 清除pacman 的缓冲文件</h3>
-<pre><code>sudo pacman -Scc
-</code></pre><h3 id="4-再次更新">4. 再次更新</h3>
-<pre><code>sudo pacman -Syu
-</code></pre><p>不出意外的话问题已经解决了。</p>
+          <h1 id="self-supervised-adversarial-hashing-networks-for-cross-modal-retrieval-cvpr-2018">Self-Supervised Adversarial Hashing Networks for Cross-Modal Retrieval (CVPR 2018)</h1>
+<h2 id="当前当时跨模态哈希方法的主要不足">当前(当时)跨模态哈希方法的主要不足</h2>
+<ul>
+<li>直接使用单类标签来衡量跨模态的语义关联，而事实上标准的跨模态数据集中一个图像实例往往能对应多个类别标签，从而使得语义关联能被描述的更加精确</li>
+<li>编码长度通常不超过 128 位，这意味着大部分有用信息都变得无效，相反高维的模态特征包含更丰富的信息，能弥合模态差异</li>
+</ul>
+<p>因而本文提出一种自监督的对抗哈希 (self-supervised adversarial hashing, SSAH) 方法。</p>
+<p><img src="/images/2021/PRN15/1.png" alt="Fig 1"></p>
+<p>对于两串长度为 \(K\) 的编码，其汉明距离可由其内积求得：</p>
+<p>$$dis_{H}(b_{i}, b_{j}) = \frac{1}{2}(K - &lt;b_{i}, b_{j}&gt;).$$</p>
+<p>由上式也可以看出，内积越大的两串编码越相似，从而在汉明空间量化编码相似度的问题转化为了计算编码原始特征 (codes' original features) 之间内积的问题。</p>
+<h2 id="自监督语义生成">自监督语义生成</h2>
+<p>使用多标签标注 (multi-label annotation) 作为从更加细粒度级别联结模态之间语义关系的辅助。</p>
+<p>设计一种端到端的全连接网络，称为 LabNet，以对不同模态间的语义关联进行建模。</p>
+<p>LabNet 从一个实例的多标签向量 (one-hot 形式) 提取抽象语义信息，用于监督 ImgNet 和 TxtNet 的特征学习过程。</p>
+<h2 id="特征学习">特征学习</h2>
+<p>在 LabNet 监督下训练 ImgNet 和 TxtNet。</p>
+<h2 id="对抗学习">对抗学习</h2>
+<p>构建两个鉴别器，分别判断标签特征与视觉/文本编码。</p>
 
     </div>
 
@@ -229,7 +222,7 @@ sudo pacman-key --populate
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/blwl40/>http://jonathanwayy.xyz/2021/blwl40/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn15/>http://jonathanwayy.xyz/2021/prn15/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -249,23 +242,23 @@ sudo pacman-key --populate
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pacman/">
-                    #pacman</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #Linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
-                    #Notes</a></span>
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #KDE</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #Manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #reid</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/archlinux/">
-                    #ArchLinux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/hashing/">
+                    #hashing</a></span>
             
             </section>
         
@@ -277,10 +270,10 @@ sudo pacman-key --populate
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn14/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] AXM-Net: Cross-Modal Context Sharing Attention Network (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/blwl40/" class="prev" rel="prev" title="BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案"><i class="iconfont icon-left"></i>&nbsp;BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn15/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)">[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -289,7 +282,7 @@ sudo pacman-key --populate
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -327,8 +320,9 @@ sudo pacman-key --populate
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
