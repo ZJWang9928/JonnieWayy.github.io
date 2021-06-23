@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 23 Jun 2021 09:36:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 00:01:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -15,6 +15,15 @@
       
       <guid>http://jonathanwayy.xyz/2020/kliv/</guid>
       <description>   Kli Eng     HISlaH yes   ghobe&#39; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   vay&amp;rsquo; anyone, anybody   pagh no one, nobody   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&#39; success   pong name   puq child   loD man   be&#39; woman   Duj ship   qach building   Dlvl&#39; English, federation, the Federation   Suvwl&#39; fighter, warroir   jagh enemy   mang soldier   muSwl&#39; hater   qoq robot   yuch chocolate   mu&#39; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;lsquo;avwl&amp;rsquo; guard   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&#39; repair   Hub&#39; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   SaH care   ghov recognize   Qoy hear   Suj disturb   boQ assist   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong   chuS noisy    </description>
+    </item>
+    
+    <item>
+      <title>炼丹杂记 -- ValueError: only one element tensors can be converted to Python scalars 问题解决方案</title>
+      <link>http://jonathanwayy.xyz/2021/ldp5/</link>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp5/</guid>
+      <description>问题描述 形如以下操作： lst = [] a, b = torch.tensor([1, 2, 3]), torch.tensor([4, 5, 6]) lst.append(a) lst.append(b) converted_lst = torch.tensor(lst) 得到如下报错信息： ValueError: only one element tensors can be converted to Python scalars 原因分析 元素为 tensor 的 list 无法转化为 tensor。</description>
     </item>
     
     <item>

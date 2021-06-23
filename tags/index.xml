@@ -7,31 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 23 Jun 2021 09:36:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Wed, 23 Jun 2021 09:36:01 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 24 Jun 2021 00:01:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Wed, 23 Jun 2021 09:36:01 +0800</pubDate>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Wed, 23 Jun 2021 09:36:01 +0800</pubDate>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numpy</title>
+      <link>http://jonathanwayy.xyz/tags/numpy/</link>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/numpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tensor</title>
+      <link>http://jonathanwayy.xyz/tags/tensor/</link>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/tensor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Wed, 23 Jun 2021 09:36:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
@@ -59,15 +104,6 @@
       <pubDate>Wed, 23 Jun 2021 09:36:01 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -198,15 +234,6 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cross-modal retrieval</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal-retrieval/</link>
       <pubDate>Sat, 29 May 2021 10:55:05 +0800</pubDate>
@@ -257,15 +284,6 @@
       <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/sinc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
@@ -590,15 +608,6 @@
       <pubDate>Sun, 26 Apr 2020 16:43:44 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>numpy</title>
-      <link>http://jonathanwayy.xyz/tags/numpy/</link>
-      <pubDate>Tue, 21 Apr 2020 13:09:31 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/numpy/</guid>
       <description></description>
     </item>
     

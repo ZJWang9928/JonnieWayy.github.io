@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 08 May 2021 18:37:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 00:01:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- ValueError: only one element tensors can be converted to Python scalars 问题解决方案</title>
+      <link>http://jonathanwayy.xyz/2021/ldp5/</link>
+      <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp5/</guid>
+      <description>问题描述 形如以下操作： lst = [] a, b = torch.tensor([1, 2, 3]), torch.tensor([4, 5, 6]) lst.append(a) lst.append(b) converted_lst = torch.tensor(lst) 得到如下报错信息： ValueError: only one element tensors can be converted to Python scalars 原因分析 元素为 tensor 的 list 无法转化为 tensor。</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- Pytorch view 函数 RuntimeError 问题解决方案</title>
       <link>http://jonathanwayy.xyz/2021/ldp4/</link>
