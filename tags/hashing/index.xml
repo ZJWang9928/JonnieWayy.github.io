@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 22 Jun 2021 16:33:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/hashing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 15:26:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/hashing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态哈希] Graph Convolutional Network Hashing (IJCAI 2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn19/</link>
+      <pubDate>Thu, 24 Jun 2021 15:26:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn19/</guid>
+      <description>Graph Convolutional Network Hashing for Cross-Modal Retrieval (IJCAI 2019) 本文提出一种针对跨模态检索的图卷积网络哈希 (graph convolution network hashing, GCH)，由一个语义编码器、两个特征编码网络和一个基于融合模块的图卷积网</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017)</title>
       <link>http://jonathanwayy.xyz/2021/prn16/</link>
