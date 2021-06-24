@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Jun 2021 21:23:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/convolution/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 22:32:06 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/convolution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- 带限函数</title>
+      <link>http://jonathanwayy.xyz/2021/ldp6/</link>
+      <pubDate>Thu, 24 Jun 2021 22:32:06 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp6/</guid>
+      <description>定义 若一个函数对于以原点为中心的有限区间（带宽） \([-\mu_{max}, \mu_{max}]\)以外的频率值，其傅里叶变换均为 0，则称之为**带限函数**。</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- 卷积定理</title>
       <link>http://jonathanwayy.xyz/2021/conv-theory/</link>
