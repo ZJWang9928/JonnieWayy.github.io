@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Jun 2021 15:26:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 21:23:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- 卷积定理</title>
+      <link>http://jonathanwayy.xyz/2021/conv-theory/</link>
+      <pubDate>Thu, 24 Jun 2021 21:23:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/conv-theory/</guid>
+      <description>卷积定义 用算子 \(\star\) 表示两个函数的卷积，定义为 $$(f \star h)(t) = \int_{-\infty}^{\infty} f(\tau)h(t-\tau)d\tau.$$ 卷积定理 空间域中两个函数的卷积的傅里叶变换，等于频率域中两个函数傅里叶变换的乘积。反过</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Graph Convolutional Network Hashing (IJCAI 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn19/</link>

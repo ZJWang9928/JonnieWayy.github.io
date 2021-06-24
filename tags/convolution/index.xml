@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>convolution on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/convolution/</link>
+    <description>Recent content in convolution on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Thu, 24 Jun 2021 21:23:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/convolution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- 卷积定理</title>
+      <link>http://jonathanwayy.xyz/2021/conv-theory/</link>
+      <pubDate>Thu, 24 Jun 2021 21:23:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/conv-theory/</guid>
+      <description>卷积定义 用算子 \(\star\) 表示两个函数的卷积，定义为 $$(f \star h)(t) = \int_{-\infty}^{\infty} f(\tau)h(t-\tau)d\tau.$$ 卷积定理 空间域中两个函数的卷积的傅里叶变换，等于频率域中两个函数傅里叶变换的乘积。反过</description>
+    </item>
+    
+  </channel>
+</rss>
