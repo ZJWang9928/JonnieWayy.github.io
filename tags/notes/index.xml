@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Jun 2021 22:32:06 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jun 2021 11:30:21 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 希腊字母</title>
+      <link>http://jonathanwayy.xyz/2021/latex_greeceletter/</link>
+      <pubDate>Fri, 25 Jun 2021 11:30:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_greeceletter/</guid>
+      <description>记录一下 Latex 中的希腊字母实现，以备查用。 小写 代码 大写 代码 \(\alpha\) \alpha \(\Alpha\) \(A\) \Alpha A \(\beta\) \beta \(\Beta\) \(B\) \Beta B \(\gamma\) \gamma \(\Gamma\) \Gamma \(\delta\) \delta \(\Delta\) \Delta \(\epsilon\) \(\varepsilon\) \epsilon \varepsilon \(\Epsilon\) \(E\) \Epsilon E \(\zeta\) \zeta \(\Zeta\) \(Z\) \Zeta Z \(\eta\) \eta \(\Eta\) \(H\) \Eta H \(\theta\) \(\vartheta\) \theta</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- 带限函数</title>
       <link>http://jonathanwayy.xyz/2021/ldp6/</link>
