@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_greeceletter/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn20/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           [论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020) | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="[论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020) | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/jonathanwayy.xyz"
+    },
+    "articleSection" : "posts",
+    "name" : "[论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020)",
+    "headline" : "[论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020)",
+    "description" : "Learning in the Frequency Domain (CVPR 2020) 出发点 受计算资源与内存限制，大多数 CNN 模型只用低分辨率的 RGB 图像作为输入，处理现实中高分辨率图像时要先缩小尺寸，而这一过程难免带来",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2021",
+    "datePublished": "2021-06-25 15:44:51 \u002b0800 CST",
+    "dateModified" : "2021-06-25 15:44:51 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn20\/",
+    "wordCount" : "1836",
+    "keywords" : [ "paper reading","cv","notes","frequency", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://jonathanwayy.xyz">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://jonathanwayy.xyz">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020)</h1>
+        <div class="post-meta">
+                
+                Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
+                <span class="post-time">
+                on <time datetime=2021-06-25 itemprop="datePublished">June 25, 2021</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 1836 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="learning-in-the-frequency-domain-cvpr-2020">Learning in the Frequency Domain (CVPR 2020)</h1>
+<p><img src="/images/2021/PRN20/1.png" alt="Fig 1"></p>
+<h2 id="出发点">出发点</h2>
+<p>受计算资源与内存限制，大多数 CNN 模型只用低分辨率的 RGB 图像作为输入，处理现实中高分辨率图像时要先缩小尺寸，而这一过程难免带来信息损失。</p>
+<p>本文试图在频域，即离散余弦变换 (discrete cosine transform, DCT) 域中对高分辨率图像进行变形，而不是在空间域中调整尺度。将变形后的 DCT 系数传入 CNN 模型用于推断。</p>
+<h2 id="cnn-模型的频谱偏好-spectral-bias">CNN 模型的频谱偏好 (Spectral Bias)</h2>
+<p>人类视觉系统 (human visual system, HVS) 对不同的频率成分敏感度不同。受这一观察结果的启发，本文在频域中分析了一系列视觉任务后发现， CNN 模型对低频通道更加敏感，而这与 HVS 是一致的，这一现象称为 CNN 模型的频谱偏好 (spectral bias)。</p>
+<p>CNN 模型在推断过程中可以只保留重要的频率通道，而不会造成精度损失。</p>
+<p>本文设计了一种静态的通道选择方法 (static channel selection approach) 来保留显著通道，而非使用整个频谱进行推断。</p>
+<p><img src="/images/2021/PRN20/2.png" alt="Fig 2"></p>
+<h2 id="频域中的数据预处理">频域中的数据预处理</h2>
+<p>首先采用空域中的预处理与增广，包括尺度调整、剪裁、翻转等。</p>
+<p>高分辨率的 RGB 图像首先变换到 YCbCr 色彩空间，进而变换到频域 (DCT 变换)，这与如 JPEG 等广泛使用的图像压缩标准一致。处于同一频率的二维 DCT 系数被分组到同一通道，以构建三维的 DCT 立方体 (cubes)，由此生成多个频率通道。YCbCr 色彩空间中，影响较大的频率通道子集被选出，拼接形成一个张量。最终，各频率通道由从训练集计算得到的均值和方差进行规范化。</p>
+<p>由于 JPEG 压缩标准在 YCbCr 色彩空间上使用 \(8 \times 8\) DCT 变换，本文将所有 \(8 \times 8\) 块中属于同一频率的成分划分为一组，以维持各频率上的空间关联 (spatial relations)。</p>
+<p>因而 Y、Cb、Cr 成分各提供 \(8 \times 8 = 64\) 个通道，一个通道对应一种频率，总共 192 个频率通道。设 RGB 图像尺度为 \(H \times W \times C\)，则转化到频域后输入特征的尺度变成了 \(H/8 \times W/8 \times 64C\)，整体尺度与原输入保持不变。</p>
+<p><img src="/images/2021/PRN20/3.png" alt="Fig 3"></p>
+<h3 id="变换到频域后模型输入层的调整">变换到频域后模型输入层的调整</h3>
+<p>由于频域中的输入特征图通常在 H 和 W 维度上比空域更小，而在 C 维度上更大，本文跳过了传统 CNN 模型的输入层，通常是一个步数为 2 的卷积层。</p>
+<p>若最大值池化紧跟该卷积层 (如 ResNet-50) 则同样跳过。</p>
+<p>进而调整接下来一层的输入尺寸，以同频域中输入的通道数相匹配。</p>
+<p>实际的频率通道数可在不损失精度的情况下进行精简。</p>
+<p><img src="/images/2021/PRN20/4.png" alt="Fig 4"></p>
+<h2 id="基于学习的频率通道选择-learning-based-frequency-channel-selection">基于学习的频率通道选择 (Learning-based Frequency Channel Selection)</h2>
+<p>设计了一种动态门控单元，赋予各频率通道一个二值分数 (binary score)。</p>
+<p>输入的 \(H \times W \times C\) 的特征 (这里 \(C = 192\)) 依次经由均值池化和 \(1 \times 1\) 卷积处理得到一个 \(1 \times 1 \times C\) 的张量，与 SE-Block 类似，使用面向通道的信息 (channel-wise information) 来增强有用特征并抑制无用特征。将该张量分别乘以两个可训练的参数得到一个 \(1 \times 1 \times C \times 2\) 的张量。</p>
+<p>推断过程中，这两个参数被规范化，以表示被采样为 0 或 1 的几率。与输入的频率通道进行元素相乘得到最终结果。</p>
+<p>乘到每个通道的数是 0 或 1，通过采样一个伯努利分布 \(Bern(p)\) 得到，其中 \(p\) 由 \(1 \times 1 \times C \times 2\) 的张量中两数计算得到。</p>
+<p>门控模块的一个困境在于伯努利采样过程不可微，因而采用采用了 Gumbel Softmax trick，使得梯度能够经过离散的采样过程反响传播。</p>
+<p>\(x = \{x_{1}, x_{2}, \cdots, x_{C}\}\) 表示频域中的输入通道，门控模块表示为 \(F(x_{i}) \in \{0, 1\}\)，如果</p>
+<p>$$F(x_{i}) \ne 0, \ i.e., \ F(x_{i})\odot x_{i} \ne 0,$$</p>
+<p>则 \(x_{i}\) 被选中。</p>
+<p>为了平衡所选择的频率通道数目，在损失函数中加上了正则化项，与交叉熵或其他精度相关的损失一同最小化：</p>
+<p>$$L = L_{Acc} + \lambda \cdot \sum_{i=1}^{C} F(x_{i}).$$</p>
+<p><img src="/images/2021/PRN20/5.png" alt="Fig 5"></p>
+<h2 id="静态频率通道选择-static-frequency-channel-selection">静态频率通道选择 (Static Frequency Channel Selection)</h2>
+<p>前一节的方法对各频率通道的重要性进行动态评估，即不同的输入图像可能会有不同的频率通道子集。其目的在于支撑本节方法。</p>
+<p>为了理解频率通道选择 (激活) 的模式，本文生成了两张热图，一张为分类任务，一张为分割任务。各框中的数字表示通道的频率索引，索引高低代表频率高低，热图值表示某个频率通道在所有验证集图像推断过程中被选择的似然。</p>
+<p>由此可观察到以下一些现象：</p>
+<ul>
+<li>低频通道更频繁得被选中。这表明总的来说在视觉推断任务上，低频通道能比高频通道提供更多有用信息。</li>
+<li>亮度成分 (luma component) Y 中的频率通道比色度成分 (chroma components) Cb 和 Cr 中的更频繁被选中。这表明亮度成分在视觉推断任务中能提供更多有效信息。</li>
+<li>分类与分割任务的热图有着共同的模式。这表明上述两点观察不仅属于某一特定任务，很可能能被推广到更多的高阶视觉任务。</li>
+<li>有意思的是，某些低频通道比稍高频的通道更少几率被选中。</li>
+</ul>
+<p>上述现象表明 CNN 模型可能真的和 HVS 具有相似的特性，针对人眼的图像压缩标准 (如 JPEG) 可能也适用于 CNN 模型。</p>
+<p>JPEG 压缩标准将更多位 (bits) 放在低频与亮度成分上。按照同样的原理，本节方法静态地选取低频通道，并将重心更多放在亮度成分而非色读成分。这确保了具有更高被激活几率的频率通道被传入 CNN 模型，而其余频率通道可以被剪枝。</p>
+<h2 id="实验结论">实验结论</h2>
+<p>在 ResNet-50 上，使用所提出的通道选择方法剪枝掉 \(87.5%\) 的频率通道后，在 ImageNet 分类任务上不会或极少会带来精度损失。</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn20/>http://jonathanwayy.xyz/2021/prn20/</span>
+            </p>
+            <p>
+                <span>Ads:</span>
+                <span>欢迎参与<a href="https://www.didiyun.com" target="_blank" style="text-decoration:underline">滴滴云AI大师活动</a>购买 GPU / vGPU / 机器学习产品，使用我的滴滴AI大师码 <b style="color:red">0724</b> 可享受 <b>9 折</b>优惠！</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://jonathanwayy.xyz">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://jonathanwayy.xyz/2021/latex_greeceletter/" class="prev" rel="prev" title="Latex 希腊字母"><i class="iconfont icon-left"></i>&nbsp;Latex 希腊字母</a>
+         
+        
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1900 Words|Read in about 4 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2021</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://jonathanwayy.xyz">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
