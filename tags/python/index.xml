@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Jun 2021 00:01:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 10:35:58 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案</title>
+      <link>http://jonathanwayy.xyz/2021/ldp7/</link>
+      <pubDate>Sat, 26 Jun 2021 10:35:58 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp7/</guid>
+      <description>背景 近期用到了一台新的堡垒机，上面的驱动环境比较老只能用 1.0.0 版本的 PyTorch。 调试了代码以后发现大体上没有遇到什么问题，唯一就是涉及到 GRU 的</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- ValueError: only one element tensors can be converted to Python scalars 问题解决方案</title>
       <link>http://jonathanwayy.xyz/2021/ldp5/</link>
