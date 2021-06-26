@@ -22,7 +22,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/</loc>
+      <loc>http://jonathanwayy.xyz/tags/adversarial/</loc>
       
       <lastmod>2021-06-26T15:10:01+08:00</lastmod>
       
@@ -32,7 +32,17 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/cross-modal/</loc>
+      <loc>http://jonathanwayy.xyz/tags/adversarial-samples/</loc>
+      
+      <lastmod>2021-06-26T15:10:01+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/categories/</loc>
       
       <lastmod>2021-06-26T15:10:01+08:00</lastmod>
       
@@ -52,7 +62,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/hashing/</loc>
+      <loc>http://jonathanwayy.xyz/tags/gan/</loc>
       
       <lastmod>2021-06-26T15:10:01+08:00</lastmod>
       
@@ -103,16 +113,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/posts/</loc>
-      
-      <lastmod>2021-06-26T15:10:01+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/reid/</loc>
       
       <lastmod>2021-06-26T15:10:01+08:00</lastmod>
       
@@ -322,7 +322,37 @@
     </url>
   
     <url>
+      <loc>http://jonathanwayy.xyz/tags/cross-modal/</loc>
+      
+      <lastmod>2021-06-24T15:26:11+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://jonathanwayy.xyz/tags/graph/</loc>
+      
+      <lastmod>2021-06-24T15:26:11+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/hashing/</loc>
+      
+      <lastmod>2021-06-24T15:26:11+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/reid/</loc>
       
       <lastmod>2021-06-24T15:26:11+08:00</lastmod>
       
