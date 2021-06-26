@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 25 Jun 2021 15:44:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 11:27:54 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn21/</link>
+      <pubDate>Sat, 26 Jun 2021 11:27:54 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn21/</guid>
+      <description>FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021) 背景 语义分割受限于数据标注的难度，因此带有自动生成标签的合成图像成了缓解这一问题的一个选择。 但是这类模型由于域偏置与偏移</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn20/</link>

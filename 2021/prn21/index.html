@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn20/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn21/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp7/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp7/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn21/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案 | Jonathan`s Blog
+           [论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案",
-    "headline" : "炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案",
-    "description" : "背景 近期用到了一台新的堡垒机，上面的驱动环境比较老只能用 1.0.0 版本的 PyTorch。 调试了代码以后发现大体上没有遇到什么问题，唯一就是涉及到 GRU 的",
+    "name" : "[论文阅读笔记 -- 频域 \/ 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)",
+    "headline" : "[论文阅读笔记 -- 频域 \/ 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)",
+    "description" : "FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021) 背景 语义分割受限于数据标注的难度，因此带有自动生成标签的合成图像成了缓解这一问题的一个选择。 但是这类模型由于域偏置与偏移",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-26 10:35:58 \u002b0800 CST",
-    "dateModified" : "2021-06-26 10:35:58 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp7\/",
-    "wordCount" : "364",
-    "keywords" : [ "cv","notes","deep learning","pytorch","rnn","python", "Jonathan`s Blog"]
+    "datePublished": "2021-06-26 11:27:54 \u002b0800 CST",
+    "dateModified" : "2021-06-26 11:27:54 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn21\/",
+    "wordCount" : "1178",
+    "keywords" : [ "paper reading","cv","notes","frequency","domain generalization", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -165,15 +165,17 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 364 words</span>
+                <span class="post-word-count">, 1178 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -187,35 +189,42 @@
           
           
 
-          <h2 id="背景">背景</h2>
-<p>近期用到了一台新的堡垒机，上面的驱动环境比较老只能用 1.0.0 版本的 PyTorch。</p>
-<p>调试了代码以后发现大体上没有遇到什么问题，唯一就是涉及到 GRU 的 <code>torch.nn.utils.rnn.pack_padded_sequence</code> 以及 <code>torch.nn.utils.rnn.pad_packed_sequence</code> 两个接口。</p>
-<p>在 1.1.0 版本以后前者新增了 <code>enforce_sorted</code> 参数，将其设为 False 则接口会自动对输入的序列按长度排序。</p>
-<p>而老版本的 PyTorch 中没有这一参数，因此需要自行实现排序以及运算过后的解排序，略为麻烦但也能够实现，特此记录一下具体方法。</p>
-<h2 id="高版本-pytorch-实现">高版本 PyTorch 实现</h2>
-<p><code>sentence_embedding</code> 为句子嵌入，<code>sentence_length</code> 为表示 batch 中各句子长度的标量数组，<code>self.gru</code> 为实例化好的 bi-GRU。</p>
-<p>有 <code>enforce_sorted</code> 参数时，如下即可实现所需的运算。</p>
-<pre><code>sentence_pack = torch.nn.utils.rnn.pack_padded_sequence(sentence_embedding, sentence_length, batch_first=True, enforce_sorted=False)
-sentence_gru,_ = self.gru(sentence_pack)
-sentence_unpacked = torch.nn.utils.rnn.pad_packed_sequence(sentence_gru, batch_first=True)[0]
-</code></pre><h2 id="低版本-pytorch-实现">低版本 PyTorch 实现</h2>
-<p>没有 <code>enforce_sorted</code> 参数的情况下，需要先对输入的特征进行人为排序，并在运算过后进行解排序。</p>
-<pre><code># 排序
-_, idx_sort_sen = torch.sort(torch.Tensor(sentence_length.type(torch.FloatTensor)), dim=0, descending=True)
-_, idx_unsort_sen = torch.sort(idx_sort_sen, dim=0)
-idx_sort_sen = idx_sort_sen.cuda()
-idx_unsort_sen = idx_unsort_sen.cuda()
-sentence_embedding = sentence_embedding.index_select(0, idx_sort_sen)
-sentence_length = list(sentence_length[idx_sort_sen])
+          <h1 id="fsdr-frequency-space-domain-randomization-for-domain-generalization-cvpr-2021">FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021)</h1>
+<p><img src="/images/2021/PRN21/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<p>语义分割受限于数据标注的难度，因此带有自动生成标签的合成图像成了缓解这一问题的一个选择。</p>
+<p>但是这类模型由于域偏置与偏移 (domain bias and shift) 问题，其在真实图像上的表现通常急剧下降。</p>
+<p>无监督的域自适应学习 (unsupervised domain adaptation, UDA) 通过从一个有标签的源域和无标签的目标域学习域不变/对齐的 (domain invariant/aligned) 特征，来解决域不匹配的问题 (domain mismatch problem)。但是其训练需要目标域数据，而这在训练阶段有时很难获得。而且其必须对新的目标域重新训练或微调。</p>
+<p>域泛化 (domain generalization) 的训练无需目标域数据，因而广受关注。一种广泛使用的域泛化策略是域随机化 (domain randomization, DR)，通过对抗扰动 (adversarial perturbation)、GAN 等手段，对源域图像随机化或风格化，以学习域无关 (domain-agnostic) 的特征。</p>
+<p>但现有的 DR 方法都在空域中随机化图像的全部频谱。</p>
+<p>本文设计了一种频率空间域随机化 (frequency space domain randomization, FSDR) 技术，将图像变换到频率空间，通过识别并随机化随域改变的频率成分 (domain-variant frequency components, DVFs) 并保持随域不变的频率成分 (domain-invariant frequency components, DIFs) 不变，进行域泛化。</p>
+<p>本文探究了两种在频率空间做域随机化的方法：</p>
+<ul>
+<li>基于谱分析 (spectrum analysis) 的 FSDR (FSDR-SA)，通过经验学习来识别 DIFs 和 DVFs</li>
+<li>基于谱学习 (spectrum learning) 的 FSDR (FSDR-SL) 通过动态的迭代学习过程识别 DIFs 和 DVFs</li>
+</ul>
+<p><img src="/images/2021/PRN21/2.png" alt="Fig 2"></p>
+<h2 id="问题定义">问题定义</h2>
+<p>本文关注语义分割上的无监督域泛化 (UDK) 问题。</p>
+<p><img src="/images/2021/PRN21/T1.png" alt="Tab 1"></p>
+<h2 id="谱分析">谱分析</h2>
+<p>对于每张源域中的图像 \(x_{s} \in \mathbb{R}^{H \times W \times 3}\)，首先用 DCT 将其转化到频率空间，进而用一个带通滤波器 (band-pass filter) \(B_{p}\) 将转化后的信号分解为 64 个频率成分：</p>
+<p>$$f_{s} = B_{p}(D(x_{s})) = \{f_{s}(0), f_{s}(1), \cdots, f_{s}(63)\} \in \mathbb{R}^{H \times W \times 3 \times 64},$$</p>
+<p>其中 \(D\) 表示 DCT，\(f_{s}(i)\) 表示频率特征。</p>
+<p>用过一系列控制实验来确定 \(f_{s}\) 中的 DIFs 和 DVFs。对各源域图像，用一个带宽拒绝过滤器 (band reject filter) \(B_{r}\) 过滤掉索引处于特定区间内的频率成分，用剩下的成分训练模型。将训练好的模型应用于目标域图像，表现的提升或下降意味着所去除的频率成分是否随频率不变。</p>
+<p>由此能够得到 \(f = \{f_{var}, f_{invar}\}\)，以及对应的二值掩码 \(I^{SA}\)。</p>
+<p>可以看出去掉高频或低频成分都能提升模型泛化能力，结合图 2 可以看出高频和低频比起中间频率成分能捕捉更多随域变化的特征。</p>
+<p><img src="/images/2021/PRN21/3.png" alt="Fig 3"></p>
+<h2 id="域随机化中的谱分析">域随机化中的谱分析</h2>
+<p>FSDR-SA</p>
+<p>与现有的使用 GAN 做图像风格迁移的 DR 方法不同，本文采用直方图匹配 (histogram matching) 进行在线的图像翻译 (online image translation)。调整源域图像的频率空间系数直方图，使其与目标图像的相似，这一过程通过匹配其累积密度函数 (cumulative density function) 实现。</p>
+<h2 id="基于-fsdr-的谱学习">基于 FSDR 的谱学习</h2>
+<p>FSDR-SL</p>
+<p>通过迭代学习识别 DIFs 和 DVFs，用交叉熵实现 FSDR-SL。</p>
+<p>交叉熵用于衡量类重叠 (class overlap)，即预测到的交叉熵随着类重叠的增加而减小。利用这一性质， FSDR-SL 根据目标域图像的交叉熵识别 DIFs 和 DVFs。</p>
+<p>FSDR-SL 是用源域图像分解后的多通道频率成分训练的。如果训练后的模型对一张真实目标图像产生交叉熵小(置信度高)的预测，则说明目标图像被激活的频率成分具有较好的跨域语义不变性，在这种情况下，这些频率成分被识别为 DIFs，随机化会作用于其他频率成分。</p>
+<p><img src="/images/2021/PRN21/4.png" alt="Fig 4"></p>
 
-# 运算
-sentence_pack = torch.nn.utils.rnn.pack_padded_sequence(sentence_embedding, sentence_length, batch_first=True)
-sentence_gru,_ = self.gru(sentence_pack)
-sentence_unpacked = torch.nn.utils.rnn.pad_packed_sequence(sentence_gru, batch_first=True)[0]
-
-# 解排序
-sentence_unpacked = sentence_unpacked.index_select(0, idx_unsort_sen)
-</code></pre>
     </div>
 
     <div class="post-copyright">
@@ -229,7 +238,7 @@ sentence_unpacked = sentence_unpacked.index_select(0, idx_unsort_sen)
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/ldp7/>http://jonathanwayy.xyz/2021/ldp7/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn21/>http://jonathanwayy.xyz/2021/prn21/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -249,23 +258,20 @@ sentence_unpacked = sentence_unpacked.index_select(0, idx_unsort_sen)
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
-                    #deep learning</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pytorch/">
-                    #pytorch</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/rnn/">
-                    #rnn</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
-                    #python</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/domain-generalization/">
+                    #domain generalization</a></span>
             
             </section>
         
@@ -277,10 +283,10 @@ sentence_unpacked = sentence_unpacked.index_select(0, idx_unsort_sen)
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn20/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/ldp7/" class="prev" rel="prev" title="炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn21/" class="next" rel="next" title="[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)">[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -289,7 +295,7 @@ sentence_unpacked = sentence_unpacked.index_select(0, idx_unsort_sen)
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1200 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -327,8 +333,9 @@ sentence_unpacked = sentence_unpacked.index_select(0, idx_unsort_sen)
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
