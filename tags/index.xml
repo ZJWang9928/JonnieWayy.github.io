@@ -7,13 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 26 Jun 2021 11:27:54 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 15:10:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Sat, 26 Jun 2021 15:10:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sat, 26 Jun 2021 11:27:54 +0800</pubDate>
+      <pubDate>Sat, 26 Jun 2021 15:10:01 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hashing</title>
+      <link>http://jonathanwayy.xyz/tags/hashing/</link>
+      <pubDate>Sat, 26 Jun 2021 15:10:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/hashing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Sat, 26 Jun 2021 15:10:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Sat, 26 Jun 2021 15:10:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reid</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Sat, 26 Jun 2021 15:10:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
     </item>
     
@@ -32,24 +77,6 @@
       <pubDate>Sat, 26 Jun 2021 11:27:54 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sat, 26 Jun 2021 11:27:54 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sat, 26 Jun 2021 11:27:54 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -126,38 +153,11 @@
     </item>
     
     <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Thu, 24 Jun 2021 15:26:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>graph</title>
       <link>http://jonathanwayy.xyz/tags/graph/</link>
       <pubDate>Thu, 24 Jun 2021 15:26:11 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hashing</title>
-      <link>http://jonathanwayy.xyz/tags/hashing/</link>
-      <pubDate>Thu, 24 Jun 2021 15:26:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/hashing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reid</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Thu, 24 Jun 2021 15:26:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
     </item>
     
