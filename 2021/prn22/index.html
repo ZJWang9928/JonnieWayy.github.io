@@ -67,7 +67,7 @@
     "datePublished": "2021-06-26 15:10:01 \u002b0800 CST",
     "dateModified" : "2021-06-26 15:10:01 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn22\/",
-    "wordCount" : "1004",
+    "wordCount" : "1063",
     "keywords" : [ "paper reading","cv","notes","cross-modal","reid","hashing", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 1004 words</span>
+                <span class="post-word-count">, 1063 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -210,7 +210,7 @@
 <p><img src="/images/2021/PRN22/2.png" alt="Fig 2"></p>
 <h3 id="ai-gan-与-advgan-架构上两大主要差异">AI-GAN 与 AdvGAN 架构上两大主要差异</h3>
 <ul>
-<li>AdvGAN 在训练时固定目标类，这制约了生成器只能产生以单个类别为目标的对抗扰动；而 AI-GAN 以原图和目标类别作为输入，能够为产生不同的目标类别产生对抗扰动。</li>
+<li>AdvGAN 在训练时固定目标类，这制约了生成器只能产生以单个类别为目标的对抗扰动，要为多个类别生成扰动则需要训练多个模型；而 AI-GAN 以原图和目标类别作为输入，能够为产生不同的目标类别产生对抗扰动。</li>
 <li>像 AdvGAN 那样简单地将原始图像嵌入为目标类别较难训练，因而 AI-GAN 采用了两个阶段来训练，以解决这一问题。</li>
 </ul>
 <p>AI-GAN 中，生成器 \(G\) 以一张干净的图像 \(x\) 以及随机采样得到的目标类别标签 \(t\)最为输入，生成对抗扰动 \(G(x, t)\)，进而得到对抗样本 \(x + G(x, t)\) 传入鉴别器 \(D\)。</p>
@@ -236,6 +236,7 @@
 <p><img src="/images/2021/PRN22/3.png" alt="Fig 3"></p>
 <h2 id="对抗样本可视化">对抗样本可视化</h2>
 <p><img src="/images/2021/PRN22/4.png" alt="Fig 4"></p>
+<p>到了第二阶段，AI-GAN 生成的扰动比第一阶段肉眼可见地小了，而 AdvGAN 变化不明显。</p>
 
     </div>
 
