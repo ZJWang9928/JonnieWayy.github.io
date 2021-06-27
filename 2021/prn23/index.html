@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn21/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn23/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn22/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn22/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn23/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 对抗样本] AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020) | Jonathan`s Blog
+           [论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 对抗样本] AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 对抗样本] AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020)",
-    "headline" : "[论文阅读笔记 -- 对抗样本] AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020)",
-    "description" : "2002.02196 AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020) 本文设计了一种新的 GAN 的变体，称为 Attack-Inspired GAN (AI-GAN) 用于生成对抗扰动。 AI-GAN 的训练包含两个阶段： 第一阶段，联合训练一个生成器、一个鉴别器和一个",
+    "name" : "[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)",
+    "headline" : "[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)",
+    "description" : "Cross-Modal Learning with Adversarial Samples (NeurIPS 2019) 文中主要以跨模态哈希检索为例，其搜索空间大致可分为四个部分：T2T、I2I、I2T\/T2I、NR (not relevant)。 理想的针",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-26 15:10:01 \u002b0800 CST",
-    "dateModified" : "2021-06-26 15:10:01 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn22\/",
-    "wordCount" : "1063",
-    "keywords" : [ "paper reading","cv","notes","adversarial","GAN","adversarial samples", "Jonathan`s Blog"]
+    "datePublished": "2021-06-27 13:29:36 \u002b0800 CST",
+    "dateModified" : "2021-06-27 13:29:36 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn23\/",
+    "wordCount" : "624",
+    "keywords" : [ "paper reading","cv","notes","adversarial","GAN","adversarial samples","cross-modal", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 对抗样本] AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-06-26 itemprop="datePublished">June 26, 2021</time>
+                on <time datetime=2021-06-27 itemprop="datePublished">June 27, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 1063 words</span>
+                <span class="post-word-count">, 624 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,54 +189,29 @@
           
           
 
-          <h1 id="200202196-ai-gan-attack-inspired-generation-of-adversarial-examples-2020">2002.02196 AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020)</h1>
-<p>本文设计了一种新的 GAN 的变体，称为 Attack-Inspired GAN (AI-GAN) 用于生成对抗扰动。</p>
-<p>AI-GAN 的训练包含两个阶段：</p>
-<ul>
-<li>第一阶段，联合训练一个生成器、一个鉴别器和一个攻击器 (attacker)。攻击器用于激励生成器在联合训练过程中快速产生有效扰动，鉴别器评估分别由生成器和攻击器生成的对抗样本之间的相似度。</li>
-<li>第二阶段，移除攻击器，使用标准的 GAN 训练策略。由于此时鉴别器评估的是生成器产生的图像与原图之间的相似度，对生成器的输出进行微调 (fine-tune)。</li>
-</ul>
-<h2 id="任务目的">任务目的</h2>
-<p>生成一个对抗样本 \(x_{a}\)，使其在某些距离度量下与原始样本 \(x\) “看起来相似”，但是能让模型输出一个错误的结果。</p>
-<p>攻击分为如下两类：</p>
-<h3 id="无目标攻击-untargeted-attack">无目标攻击 (Untargeted Attack)</h3>
-<p>对于一组实例 \((x, y)\)，对抗样本使得 \(f(x_{a} \ne y)\)。</p>
-<h3 id="有目标攻击-targeted-attack">有目标攻击 (Targeted Attack)</h3>
-<p>对于一组实例 \((x, y)\)，对抗样本使得 \(f(x_{a} = t)\)，\(t\) 为一个目标类别。</p>
-<p>有目标攻击比无目标攻击更具挑战性，本文主要关注有目标攻击。</p>
-<p><img src="/images/2021/PRN22/1.png" alt="Fig 1"></p>
-<h2 id="模型架构">模型架构</h2>
-<p>AI-GAN 包含一个生成器 \(G\)、一个鉴别器 \(D\)、一个攻击器 \(A\) 以及一个目标分类器 (target classifier) \(C\)。</p>
-<p><img src="/images/2021/PRN22/2.png" alt="Fig 2"></p>
-<h3 id="ai-gan-与-advgan-架构上两大主要差异">AI-GAN 与 AdvGAN 架构上两大主要差异</h3>
-<ul>
-<li>AdvGAN 在训练时固定目标类，这制约了生成器只能产生以单个类别为目标的对抗扰动，要为多个类别生成扰动则需要训练多个模型；而 AI-GAN 以原图和目标类别作为输入，能够为产生不同的目标类别产生对抗扰动。</li>
-<li>像 AdvGAN 那样简单地将原始图像嵌入为目标类别较难训练，因而 AI-GAN 采用了两个阶段来训练，以解决这一问题。</li>
-</ul>
-<p>AI-GAN 中，生成器 \(G\) 以一张干净的图像 \(x\) 以及随机采样得到的目标类别标签 \(t\)最为输入，生成对抗扰动 \(G(x, t)\)，进而得到对抗样本 \(x + G(x, t)\) 传入鉴别器 \(D\)。</p>
-<h3 id="第一阶段">第一阶段</h3>
-<p>\(D\) 用于区分两类对抗样本 \(x + G(x, t)\) 和 \(A(x, t)\)，\(G\) 和 \(A\) 所使用的目标类别相同。</p>
-<h3 id="第二阶段">第二阶段</h3>
-<p>用原始图像样本替代 \(A\) 生成的样本，使用标准的 GAN 训练方式。</p>
-<p>两个阶段中，目标分类器 \(C\) 都以 \(x + G(x, t)\) 作为输入，输出一个相应的几率 (logits)，用于计算一个损失 \(L_{adv}^{C}\)，其表示所生成对抗样本的有效性。</p>
-<h3 id="损失函数">损失函数</h3>
-<p>模型的整体损失函数为：</p>
-<p>$$L = L_{adv}^{C} + \lambda L_{GAN} + \gamma L_{hinge},$$</p>
-<p>其中，\(L_{adv}^{C}\) 是用于欺骗目标分类器 \(C\) 的损失，表示为：</p>
-<p>$$L_{adv}^{C} = \mathbb{E}_{x} l_{C}(x + G(x), t),$$</p>
-<p>\(l_{C}\) 表示用于训练目标分类器 \(C\) 的损失函数。</p>
-<p>\(L_{GAN}\) 是对抗损失，用于 GAN 的训练。第一阶段为：</p>
-<p>$$L_{GAN}^{1} = \mathbb{E}_{x} log D(A(x, t)) + \mathbb{E}_{x} log(1 - D(x + G(x, t))),$$</p>
-<p>第二阶段为：</p>
-<p>$$L_{GAN}^{2} = \mathbb{E}_{x} log D(x) + \mathbb{E}_{x} log(1 - D(x + G(x, t))),$$</p>
-<p>\(L_{hinge}\) 是合页损失 (hinge loss)，用于对扰动的大小进行限制：</p>
-<p>$$L_{hinge} = \mathbb{E}_{x} max(0, ||G(x)||_{2} - c),$$</p>
-<p>其中 \(c\) 表示一个人为定义的常量。</p>
-<h2 id="攻击成功率对比">攻击成功率对比</h2>
-<p><img src="/images/2021/PRN22/3.png" alt="Fig 3"></p>
-<h2 id="对抗样本可视化">对抗样本可视化</h2>
-<p><img src="/images/2021/PRN22/4.png" alt="Fig 4"></p>
-<p>到了第二阶段，AI-GAN 生成的扰动比第一阶段肉眼可见地小了，而 AdvGAN 变化不明显。</p>
+          <h1 id="cross-modal-learning-with-adversarial-samples-neurips-2019">Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)</h1>
+<p><img src="/images/2021/PRN23/1.png" alt="Fig 1"></p>
+<p>文中主要以跨模态哈希检索为例，其搜索空间大致可分为四个部分：T2T、I2I、I2T/T2I、NR (not relevant)。</p>
+<p>理想的针对跨模态任务的对抗样本应当不仅能够对跨模态检索作出有效攻击，还应该在进行同模态检索是表现不下降。</p>
+<p>本文设计了一种利用对抗样本的跨模态相关性学习方法 (Cross-Modal correlation Learning with Adversarial samples, CMLA)，是将对抗样本用于跨模态任务的首个工作。</p>
+<p><img src="/images/2021/PRN23/2.png" alt="Fig 2"></p>
+<h2 id="cmla-模型架构">CMLA 模型架构</h2>
+<p>对于一个图像数据点 \(o^{v}\)，意在通过学习一个小的扰动 \(\delta^{v}\)，生成一个对抗样本 \(\hat{o}^{v} = o^{v} + \delta^{v}\)。将该对抗样本传入跨模态哈希网络，希望能够得到失配的文本模态数据。</p>
+<p>为实现这一目标，首先由原始的配对的文本数据得到一个常规哈希编码 (regular hash codes) \(H^t = \mathcal{H}^t(o^t, \theta^t)\)。对抗样本学习问题可以转化为最大化两个跨模态哈希编码之间汉明距离的问题。</p>
+<p>为此引入一个模态间相似度正则化 (inter-modal similarity regularization)，对应的模态间相似度损失函数定义如下：</p>
+<p>$$min_{\delta^v} \mathcal{J}_{inter}^v = \sum_{i,j=1}^N(log(1 + e^{-\Gamma_{ij}}) + S_{ij}\Gamma_{ij}) + \sum_{i=1}^N ||\hat{o}_{i}^v - o_{i}^v||_{p},$$
+$$\Gamma_{ij} = \frac{1}{2}(\hat{H}_{i}^v)(H_{j}^t)^T.$$</p>
+<p>在为跨模态数据学习对抗样本的过程中，各模态的内部相关性应当被保留。为此又引入了一个模态内相似度正则化：</p>
+<p>$$min_{\delta^v} \mathcal{J}_{intra}^v = \sum_{i,j=1}^N(log(1 + e^{-\Theta_{ij}}) + S_{ij}\Theta_{ij}),$$
+$$\Theta_{ij} = \frac{1}{2}(\hat{H}_{i}^v)(H_{j}^v)^T.$$</p>
+<p>文本模态对抗样本的学习与之相似。</p>
+<p>为了学习对抗样本，网络参数固定后优化 \(\delta^v\) 和 \(\delta^t\)，具体的 CMLA 学习过程如下。</p>
+<p><img src="/images/2021/PRN23/A1.png" alt="Fig A1"></p>
+<h2 id="一些学习到的对抗样本示例">一些学习到的对抗样本示例</h2>
+<p><img src="/images/2021/PRN23/3.png" alt="Fig 3"></p>
+<p>图像中上一排为原始图像，下一排为相应的对抗样本。文本有原始的词袋向量混入学习到的扰动后产生。</p>
+<h2 id="模态内相似度正则化的作用">模态内相似度正则化的作用</h2>
+<p><img src="/images/2021/PRN23/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -251,7 +226,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn22/>http://jonathanwayy.xyz/2021/prn22/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn23/>http://jonathanwayy.xyz/2021/prn23/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -289,6 +264,9 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial-samples/">
                     #adversarial samples</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
             </section>
         
         <section>
@@ -299,10 +277,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn21/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn22/" class="prev" rel="prev" title="[论文阅读笔记 -- 对抗样本] AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 对抗样本] AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn23/" class="next" rel="next" title="[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)">[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -311,7 +289,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">1100 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
