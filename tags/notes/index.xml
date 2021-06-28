@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 27 Jun 2021 13:29:36 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jun 2021 11:45:52 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 带噪跨模态检索] Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn24/</link>
+      <pubDate>Mon, 28 Jun 2021 11:45:52 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn24/</guid>
+      <description>Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021) 背景 为了应对较高的数据标注成本，大规模数据会用到一些非专业的标注资源，从而不可避免地在标签中引入了噪音信息。 由图 2 可以看出，</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn23/</link>
