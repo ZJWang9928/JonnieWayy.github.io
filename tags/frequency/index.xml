@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 26 Jun 2021 11:27:54 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 12:00:44 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域 / 图网络] Beyond Low-frequency Information in GCNs (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn26/</link>
+      <pubDate>Tue, 29 Jun 2021 12:00:44 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn26/</guid>
+      <description>2101.00797 Beyond Low-frequency Information in Graph Convolutional Networks 背景 当前一些研究认为平滑信号，即低频信息是 GNN 成功的关键。 本文重点思考是否低频信息就能完全满足需求，以及其他信息在 GNN 中扮演着怎</description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- 频域 / 图网络] Spectral Graph Attention Network (2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn25/</link>
+      <pubDate>Tue, 29 Jun 2021 10:34:36 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn25/</guid>
+      <description>2003.07450 Spectral Graph Attention Network (2020) 背景 图注意力网络 (Graph Attention Network, GAT) 通过引入注意力机制优化 GCN 的卷积过程。具体来说，在节点聚合 (node aggregation) 阶段，GAT 赋予各边一个自注意力权重，用于捕</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn21/</link>
