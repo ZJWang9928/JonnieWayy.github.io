@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn23/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/bg24/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn24/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn25/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn27/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 带噪跨模态检索] Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 带噪跨模态检索] Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 带噪跨模态检索] Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021)",
-    "headline" : "[论文阅读笔记 -- 带噪跨模态检索] Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021)",
-    "description" : "Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021) 背景 为了应对较高的数据标注成本，大规模数据会用到一些非专业的标注资源，从而不可避免地在标签中引入了噪音信息。 由图 2 可以看出，",
+    "name" : "[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)",
+    "headline" : "[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)",
+    "description" : "Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020) 背景 对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。 攻击图像比攻击文本容易得多，因为图像空间是连续的，",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-28 11:45:52 \u002b0800 CST",
-    "dateModified" : "2021-06-28 11:45:52 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn24\/",
-    "wordCount" : "1050",
-    "keywords" : [ "paper reading","cv","notes","noisy label","retrieval","cross-modal", "Jonathan`s Blog"]
+    "datePublished": "2021-06-29 21:36:09 \u002b0800 CST",
+    "dateModified" : "2021-06-29 21:36:09 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn27\/",
+    "wordCount" : "981",
+    "keywords" : [ "paper reading","nlp","notes","adversarial","GAN","adversarial samples", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 带噪跨模态检索] Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-06-28 itemprop="datePublished">June 28, 2021</time>
+                on <time datetime=2021-06-29 itemprop="datePublished">June 29, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 1050 words</span>
+                <span class="post-word-count">, 981 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,40 +189,43 @@
           
           
 
-          <h1 id="learning-cross-modal-retrieval-with-noisy-labels-cvpr-2021">Learning Cross-Modal Retrieval With Noisy Labels (CVPR 2021)</h1>
-<p><img src="/images/2021/PRN24/2.png" alt="Fig 2"></p>
+          <h1 id="seq2sick-evaluating-the-robustness-of-sequence-to-sequence-models-with-adversarial-examples-aaai-2020">Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020)</h1>
 <h2 id="背景">背景</h2>
-<p>为了应对较高的数据标注成本，大规模数据会用到一些非专业的标注资源，从而不可避免地在标签中引入了噪音信息。</p>
-<p>由图 2 可以看出，噪声标签 (noisy labels) 会使得多模态学习在噪声数据集上过拟合，同时降低其在验证集上的表现。</p>
-<p>本文设计了一种多模态鲁棒学习框架 (Multimodal Robust Learning framework, MRL)，在最小化噪音样本影响的同时缩小异质鸿沟 (heterogeneous gap)。</p>
-<p><img src="/images/2021/PRN24/1.png" alt="Fig 1"></p>
-<p>提出了两种新的损失函数:</p>
+<p>对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。</p>
+<p>攻击图像比攻击文本容易得多，因为图像空间是连续的，在累积失真 (accumulated distortion) 很小的情况下即使改变大多数像素，扰动也不易被人察觉。而在离散的文本空间上，单词级别的修改可能严重改变文本的含义，因而应当改变尽可能少的单词。</p>
+<p>同时，攻击一个分类器也比攻击序列化输出的模型容易，原因在于输出的搜索空间大小差异。</p>
+<p>本文研究为 seq2seq 问题构建对抗样本。主要研究两个问题：</p>
 <ul>
-<li>鲁棒聚类损失 (Robust Clustering loss, RC) \(\mathcal{L}_{r}\)，用于在不同模态之间从噪声标签更好地提取共享的具有鉴别能力的信息</li>
-<li>多模态对比损失 (Multimodal Contrastive loss, MC) \(\mathcal{L}_{c}\)，用于利用实例级别与配对级别的鉴别信息</li>
+<li>是否有可能轻微改变 seq2seq 模型的输入就严重改变其输出？</li>
+<li>seq2seq 模型是否比基于 CNN 的图像分类器更加健壮？</li>
 </ul>
-<p><img src="/images/2021/PRN24/3.png" alt="Fig 3"></p>
-<h2 id="鲁棒聚类分配-robust-clustering-assignment">鲁棒聚类分配 (Robust Clustering Assignment)</h2>
-<p>为了从噪声标签挖掘有效信息，首先将多模态数据聚类为 \(K\) 个公共类特定聚类分配 (common class-specific clustering assignment) \(C = \{c_{1}, \cdots, c_{K}\}\)，其中 \(c_{k}\) 是第 \(k\) 个类归一化厚的聚类中心向量 (clustering center vector)。对于一个样本 \(x_{j}^i\)，由对应模态网络得到 \(z_{j}^i\)， 其属于第 \(k\) 类的几率定义为</p>
-<p>$$p(k|x_{j}^i) = \frac{exp(\frac{1}{\tau_{1}}c_{k}^Tz_{j}^i)}{\sum_{t=1}^K exp(\frac{1}{\tau_{1}}c_{t}^Tz_{j}^i)}.$$</p>
-<p>通过标准交叉熵损失函数 \(\mathcal{L}_{CE}\) 实现聚类：</p>
-<p>$$\mathcal{L}_{CE} = -\frac{1}{N} \sum_{j=1}^N \sum_{k=1}^K q(k|x_{j}^i)log(k | x_{j}^i)),$$</p>
-<p>其中 \(q(k | x_{j}^i)\) 是不同标签的 ground-truth 几率。由图 3 可以看出，交叉熵倾向于重点优化更困难的样本，因为这些样本会产生更大的损失值，可以证明其能够在干净标注的标签 (clean-annotated labels) 上发挥作用。</p>
-<p>与交叉熵类似，传统的监督学习损失函数通常更关注较为困难的样本，而这些样本在含有噪声标签的情况下更可能是噪声样本，这导致了模型在噪声数据集上表现变差。</p>
-<p>为了减小噪声样本的影响，本对损失函数进行了修改，以降低困难样本的权重，同时提高简单样本的权重，使得模型在训练时更多关注干净样本而非噪声样本。</p>
-<p>与交叉熵损失不同，这里最小化负样本的对数似然，而不是正样本的对数似然的负值。RC 定义如下：</p>
-<p>$$\mathcal{L}_{r} = \frac{1}{N} \sum_{i=1}^m \sum_{j=1}^N log(1-p(y_{j}^i | x_{j}^i)).$$</p>
-<p>值得注意的是 RC 的目标与如 Focal Loss 等的全监督损失 (fully supervised losses) 正好相反，那些损失主要关注的是不带噪声标签的干净数据集上的困难样本。</p>
-<p>由图 3 可以看出 RC 中干净样本能产生更大的损失值，从而主导梯度沿着正确的方向下降。</p>
-<h2 id="多模态对比学习-multimodal-contrastive-learning">多模态对比学习 (Multimodal Contrastive Learning)</h2>
-<p>通过在公共空间中最大化不同模态的一致性，学习公共特征的表征。</p>
-<p>将某个样本 \(x_{j}^i\) 属于 \(m\) 个模态中第 \(j\) 个实例的几率定义为：</p>
-<p>$$P(j|x_{j}^i) = \frac{\sum_{l=1}^m exp(\frac{1}{\tau_{2}}(z_{j}^l)^Tz_{j}^i)}{\sum_{l=1}^m \sum_{t=1}^N exp(\frac{1}{\tau_{2}}(z_{t}^l)^T z_{j}^i)}.$$</p>
-<p>\(P(j | x_{j}^i)\) 也可以视为一个以 \(x_{j}^i\) 为中心的多模态聚类被正确识别为第 \(j\) 个聚类的几率。</p>
-<p>为了消除跨模态差异并挖掘实例级别的有效信息，用过最大化这些概率，使得来自同一实例的样本紧凑，而来自不同实例的样本分散。因而 MC 应最大化联合概率 \(\prod_{i=1}^m \prod_{j=1}^N P(j | x_{j}^i)\)，可以等价转化为最小化以下负的对数似然：</p>
-<p>$$\mathcal{L}_{c} = -\frac{1}{N} \sum_{i=1}^m \sum_{j=1}^N log(P(j | x_{j}^i)).$$</p>
-<h2 id="优化过程">优化过程</h2>
-<p><img src="/images/2021/PRN24/A1.png" alt="Alg 1"></p>
+<h2 id="问题建模">问题建模</h2>
+<p>seq2seq 上对抗样本的定义可以建模为如下优化问题：</p>
+<p>$$min_{\delta} L(X + \delta) + \lambda \cdot R(\delta),$$</p>
+<p>后一项控制扰动的大小，前一项可以是不同形式的损失函数。</p>
+<h2 id="本文关注的两种攻击">本文关注的两种攻击</h2>
+<h3 id="无重合攻击-non-overlapping-attack">无重合攻击 (non-overlapping attack)</h3>
+<p>要求输出与原始输出没有重合，比无目标攻击只要求与原始输出不同更加困难。</p>
+<h3 id="目标关键词攻击-targeted-keywords-attack">目标关键词攻击 (targeted keywords attack)</h3>
+<p>要求找到一个对抗输入序列，使得所有目标关键词必须出现在其对应的输出中，比无重合攻击更加困难。</p>
+<h2 id="处理离散的输入空间">处理离散的输入空间</h2>
+<h3 id="一种简单方法">一种简单方法</h3>
+<p>首先在连续空间通过解前述优化问题，学习 \(X + \delta^{*}\)，进而在单词嵌入集合 \(\mathbb{W}\) 中搜索其最接近的词嵌入。由于维度灾难问题，这个方法在目标关键词攻击上表现极差。</p>
+<p>为了解决离散输入空间问题，本文增加了一个额外的约束，要求 \(X + \delta\) 属于属于词典 \(\mathbb{W}\)：</p>
+<p>$$min_{\delta} L(X + \delta) + \lambda \cdot R(\delta),$$
+$$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$</p>
+<p>接着使用投影梯度下降 (projected gradient descent) 来解这个约束优化问题。在每步迭代将当前解 \(x_{i} + \delta_{i}\) 投影回 \(\mathbb{W}\) 以确保 \(X + \delta\) 能够映射到一个特定的输入词。</p>
+<h3 id="group-lasso-正则化">Group Lasso 正则化</h3>
+<p>广泛使用的 \(\mathcal{l}_{2}\) 范数 \(||\delta||_{2}^2\) 并不适用于本任务，因为使用 \(\mathcal{l}_{2}\) 正则化学习到的扰动 \(\{\delta_{t}\}_{t=1}^M\) 是非零的，由此大多数输入的单词会被扰动到另一个词，导致对抗序列与原始输入差异巨大。</p>
+<p>为了解决这一问题，本文将各个包含 \(d\) 个变量的 \(\delta_{t}\) 处理为一组，使用 group lasso 正则化来保证组稀疏性 (group sparsity)，即在最优解 \(\delta^{*}\) 中只有少数组 (单词) 允许非零：</p>
+<p>$$R(\delta) = \sum_{t=1}^N ||\delta_{t}||_{2}.$$</p>
+<h3 id="梯度正则化">梯度正则化</h3>
+<p>攻击 seq2seq 模型时容易出现对抗样本集中于一个只有很少或没有嵌入向量的区域，这会影响投影梯度下降的表现，因为这些区域中最近的嵌入都很远。</p>
+<p>为了解决这一问题，本文采用梯度正则化，拉近 \(X + \delta\) 到单词嵌入空间的距离。最终的目标函数变成了：</p>
+<p>$$min_{\delta} L(X + \delta) + \lambda_{1} \sum_{i=1}^N ||\delta_{i}||_{2} + \lambda_{2} \sum_{i=1}^N min_{w_{j} \in \mathbb{W}} \{||x_{i} + \delta_{i} - w_{j}||_{2}\}$$
+$$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$</p>
+<p>第三项就是梯度正则化项。具体优化过程如下：</p>
+<p><img src="/images/2021/PRN27/A1.png" alt="Alg 1"></p>
 
     </div>
 
@@ -237,7 +240,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn24/>http://jonathanwayy.xyz/2021/prn24/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn27/>http://jonathanwayy.xyz/2021/prn27/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -260,20 +263,20 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
                     #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
-                    #cv</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nlp/">
+                    #nlp</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/noisy-label/">
-                    #noisy label</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
+                    #adversarial</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/gan/">
+                    #GAN</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial-samples/">
+                    #adversarial samples</a></span>
             
             </section>
         
@@ -285,10 +288,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn23/" class="prev" rel="prev" title="[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn25/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / 图网络] Spectral Graph Attention Network (2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / 图网络] Spectral Graph Attention Network (2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/bg24/" class="next" rel="next" title="壁纸分享[24]">壁纸分享[24]&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -297,7 +300,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">1100 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

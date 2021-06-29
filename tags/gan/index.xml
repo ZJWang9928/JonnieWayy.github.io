@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 27 Jun 2021 13:29:36 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/gan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 21:36:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/gan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn27/</link>
+      <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn27/</guid>
+      <description>Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020) 背景 对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。 攻击图像比攻击文本容易得多，因为图像空间是连续的，</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn23/</link>

@@ -7,38 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 29 Jun 2021 12:00:44 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 21:36:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 29 Jun 2021 12:00:44 +0800</pubDate>
+      <title>adversarial</title>
+      <link>http://jonathanwayy.xyz/tags/adversarial/</link>
+      <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <guid>http://jonathanwayy.xyz/tags/adversarial/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>frequency</title>
-      <link>http://jonathanwayy.xyz/tags/frequency/</link>
-      <pubDate>Tue, 29 Jun 2021 12:00:44 +0800</pubDate>
+      <title>adversarial samples</title>
+      <link>http://jonathanwayy.xyz/tags/adversarial-samples/</link>
+      <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
+      <guid>http://jonathanwayy.xyz/tags/adversarial-samples/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>graph</title>
-      <link>http://jonathanwayy.xyz/tags/graph/</link>
-      <pubDate>Tue, 29 Jun 2021 12:00:44 +0800</pubDate>
+      <title>GAN</title>
+      <link>http://jonathanwayy.xyz/tags/gan/</link>
+      <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/graph/</guid>
+      <guid>http://jonathanwayy.xyz/tags/gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>http://jonathanwayy.xyz/tags/nlp/</link>
+      <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 29 Jun 2021 12:00:44 +0800</pubDate>
+      <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,9 +56,36 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Tue, 29 Jun 2021 12:00:44 +0800</pubDate>
+      <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Tue, 29 Jun 2021 19:34:36 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frequency</title>
+      <link>http://jonathanwayy.xyz/tags/frequency/</link>
+      <pubDate>Tue, 29 Jun 2021 19:34:36 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graph</title>
+      <link>http://jonathanwayy.xyz/tags/graph/</link>
+      <pubDate>Tue, 29 Jun 2021 19:34:36 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/graph/</guid>
       <description></description>
     </item>
     
@@ -113,33 +149,6 @@
       <pubDate>Mon, 28 Jun 2021 11:45:52 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>adversarial</title>
-      <link>http://jonathanwayy.xyz/tags/adversarial/</link>
-      <pubDate>Sun, 27 Jun 2021 13:29:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/adversarial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>adversarial samples</title>
-      <link>http://jonathanwayy.xyz/tags/adversarial-samples/</link>
-      <pubDate>Sun, 27 Jun 2021 13:29:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/adversarial-samples/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GAN</title>
-      <link>http://jonathanwayy.xyz/tags/gan/</link>
-      <pubDate>Sun, 27 Jun 2021 13:29:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/gan/</guid>
       <description></description>
     </item>
     
