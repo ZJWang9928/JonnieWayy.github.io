@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-28 16:34:36 \u002b0800 CST",
-    "dateModified" : "2021-06-28 16:34:36 \u002b0800 CST",
+    "datePublished": "2021-06-29 10:34:36 \u002b0800 CST",
+    "dateModified" : "2021-06-29 10:34:36 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn25\/",
-    "wordCount" : "1425",
+    "wordCount" : "2294",
     "keywords" : [ "paper reading","cv","notes","cross-modal","reid", "Jonathan`s Blog"]
 }
 </script>
@@ -160,7 +160,7 @@
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-06-28 itemprop="datePublished">June 28, 2021</time>
+                on <time datetime=2021-06-29 itemprop="datePublished">June 29, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 1425 words</span>
+                <span class="post-word-count">, 2294 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -220,6 +220,37 @@ $$graph \ convolution: \ H' = \sigma(AGG(B_{L}F_{L}B_{L}^TX_{L}, B_{H}F_{H}B_{H}
 <p>理论上有很多再参数化的方式，如关于频谱基的自注意力等。但是这类方法无法反应高低频成分的本质，而且会引入过多额外需要学习的参数。</p>
 <h2 id="频谱基的选取">频谱基的选取</h2>
 <p>频谱基的选取是 SpGAT 另一个重要问题。本文选择图小波作为频谱基，而非较为常见的傅里叶基。</p>
+<p>谱图小波 \(\psi_{si}(\lambda)\) 定义为以节点 \(i\) 为中心的信号 \(x\) 在频域中调制产生的信号。对于一张图 \(G\)，图小波变换使用一组小波 \(\Psi_{s} = (\psi_{s1}(\lambda_{1}), \psi_{s2}(\lambda_{2}), \cdots, \psi_{sn}(\lambda_{n}))\) 作为基，谱图小波变换定义如下：</p>
+<p>$$\Psi_{s}(\lambda) = Ug_{s}(\lambda)U^T,$$</p>
+<p>其中 \(U\) 为归一化图拉普拉斯矩阵 \(L = I - \hat{A}\) 的特征向量，\(g_{s}(\lambda) = diag(g_{s}(\lambda_{1}), \cdots, g_{s}(\lambda_{n}))\) 是带有由超参数 \(s\) 控制尺度热核 (heat kernel) 的放缩矩阵 (scaling matrix)。</p>
+<p>图小波的逆 \(\Psi_{s}^{-1}\) 可以通过将 \(\Psi_{s}(\lambda)\) 中的 \(g_{s}(\lambda)\) 替换为 \(g_{s}(-\lambda)\) 得到。图小波中较小的索引对应低频成分，反之亦然。</p>
+<h3 id="谱图小波基相比傅里叶基的三个好处">谱图小波基相比傅里叶基的三个好处</h3>
+<ul>
+<li>对于现实场景中稀疏的网络，图小波基通常远比傅里叶基稀疏，悉数性使其在使用中计算效率更高。</li>
+<li>在谱图小波中，由热核滤波器 (heat kernel filter) 得到的信号 \(\Psi_{s}\) 通常处于图上以及频域中的局部，可以通过调整 \(s\) 方便地控制局部邻域的范围，\(s\) 越小邻域越小。</li>
+<li>由于在构建小波的过程中，特征值 \(\lambda\) 的信息会隐式包含在小波中，不会在再参数化过程中遇到信息损失问题。</li>
+</ul>
+<p>因而，使用图小波基 \(\Psi_{s}\) 的 SpGAT 层架构可以写作：</p>
+<p>$$X = H\Theta^T,$$
+$$H' = \sigma(AGG(\Psi_{sL}\alpha_{L}\Psi_{sL}^{-1}X, \Psi_{sL}\alpha_{L}\Psi_{sL}^{-1}X)).$$</p>
+<p>在上式中为了进一步降低参数复杂度，特征变换阶段的参数进行了共享，即令 \(\Theta_{L} = \Theta_{H} = \Theta\)。</p>
+<p>通过显式地结合高低频特征，SpGAT 可以更好地处理全局信息。</p>
+<h2 id="利用切比雪夫多项式对谱小波快速逼近">利用切比雪夫多项式对谱小波快速逼近</h2>
+<p>上一节中图谱小波变换的计算复杂度较高，因而采用切比雪夫多项式在不做特征分解的情况下快速逼近谱图小波。</p>
+<h3 id="一条引理">一条引理</h3>
+<p>\(s\) 为热核滤波器 \(g_{s}(\lambda) = e^{-\lambda s}\) 固定的放缩参数，\(M\) 是对放缩的小波所做切比雪夫多项式逼近的度 (\(M\) 越大逼近精度越高，但同时计算复杂度也越高)，图小波如下得到：</p>
+<p>$$\Psi_{s}(\lambda) = \frac{1}{2}c_{0,s} + \sum_{i=1}^M c_{i,s}T_{i}(\widetilde{L}),$$
+$$c_{i,s} = 2e^{-s}J_{i}(-s),$$</p>
+<p>其中 \(\widetilde{L} = \frac{2}{\lambda_{max}}L - I_{n}\)，\(T_{i}(\widetilde{L})\) 是第 \(i\) 阶切比雪夫多项式逼近，\(J_{i}(-s)\) 是第一类 Bessel 函数。</p>
+<p>为了进一步加速计算，为 Bessel 函数 \(J_{i}(s)\) 构建一张查询表。将使用到切比雪夫多项式逼近的 SpGAT 称为 SpGAT-Cheby。</p>
+<p><img src="/images/2021/PRN25/3.png" alt="Fig 3"></p>
+<h2 id="高低频边界-d-的选取">高低频边界 \(d\) 的选取</h2>
+<p>由图 3 可以看出在几个数据集上做好的表现都在 \(d\) 较小时得到，换句话说 SpGAT 中只有一小部分频率成分需要为处理为低频成分。</p>
+<h2 id="高低频成分的影响">高低频成分的影响</h2>
+<p>文中通过在测试阶段人为将 \(\alpha_{L}\) 或 \(\alpha_{H}\) 设为 0 观察图中高低频成分对分类精度的影响。</p>
+<p><img src="/images/2021/PRN25/T3.png" alt="Tab 3"></p>
+<h2 id="特征可视化">特征可视化</h2>
+<p><img src="/images/2021/PRN25/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -291,7 +322,7 @@ $$graph \ convolution: \ H' = \sigma(AGG(B_{L}F_{L}B_{L}^TX_{L}, B_{H}F_{H}B_{H}
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">1500 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">2300 Words|Read in about 5 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
