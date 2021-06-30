@@ -56,7 +56,7 @@
     "articleSection" : "posts",
     "name" : "[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)",
     "headline" : "[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)",
-    "description" : "Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020) 背景 对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。 攻击图像比攻击文本容易得多，因为图像空间是连续的，",
+    "description" : "Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020) 开源代码传送门 背景 对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。 攻击图像比攻击文本容易得多，因为图像",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -67,7 +67,7 @@
     "datePublished": "2021-06-29 21:36:09 \u002b0800 CST",
     "dateModified" : "2021-06-29 21:36:09 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn27\/",
-    "wordCount" : "985",
+    "wordCount" : "1000",
     "keywords" : [ "paper reading","nlp","notes","adversarial","GAN","adversarial samples", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 985 words</span>
+                <span class="post-word-count">, 1000 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -190,6 +190,7 @@
           
 
           <h1 id="seq2sick-evaluating-the-robustness-of-sequence-to-sequence-models-with-adversarial-examples-aaai-2020">Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020)</h1>
+<p><a href="https://github.com/cmhcbb/Seq2Sick">开源代码传送门</a></p>
 <h2 id="背景">背景</h2>
 <p>对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。</p>
 <p>攻击图像比攻击文本容易得多，因为图像空间是连续的，在累积失真 (accumulated distortion) 很小的情况下即使改变大多数像素，扰动也不易被人察觉。而在离散的文本空间上，单词级别的修改可能严重改变文本的含义，因而应当改变尽可能少的单词。</p>
@@ -226,6 +227,8 @@ $$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$<
 $$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$</p>
 <p>第三项就是梯度正则化项。具体优化过程如下：</p>
 <p><img src="/images/2021/PRN27/A1.png" alt="Alg 1"></p>
+<h2 id="单词投影相关代码">单词投影相关代码</h2>
+<p><img src="/images/2021/PRN27/C1.png" alt="Code 1"></p>
 <h2 id="一些例子">一些例子</h2>
 <p><img src="/images/2021/PRN27/T7.png" alt="Tab 7"></p>
 <p><img src="/images/2021/PRN27/T8.png" alt="Tab 8"></p>
@@ -304,7 +307,7 @@ $$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$<
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1100 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
