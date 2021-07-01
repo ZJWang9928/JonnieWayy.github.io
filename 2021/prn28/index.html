@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn26/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn28/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn27/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn27/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn28/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020) | Jonathan`s Blog
+           [论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)",
-    "headline" : "[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)",
-    "description" : "Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020) 开源代码传送门 背景 对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。 攻击图像比攻击文本容易得多，因为图像",
+    "name" : "[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)",
+    "headline" : "[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)",
+    "description" : "High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification (CVPR 2020) 背景 本文研究遮挡 ReID 问题 (Occluded Person Re-Identification)，该问题主要受到遮挡 (occlusion) 和出界 (outliers) 两个问题困扰。大部分现",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-29 21:36:09 \u002b0800 CST",
-    "dateModified" : "2021-06-29 21:36:09 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn27\/",
-    "wordCount" : "1005",
-    "keywords" : [ "paper reading","nlp","notes","adversarial","GAN","adversarial samples", "Jonathan`s Blog"]
+    "datePublished": "2021-06-30 13:01:57 \u002b0800 CST",
+    "dateModified" : "2021-06-30 13:01:57 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn28\/",
+    "wordCount" : "972",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","reid", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-06-29 itemprop="datePublished">June 29, 2021</time>
+                on <time datetime=2021-06-30 itemprop="datePublished">June 30, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 1005 words</span>
+                <span class="post-word-count">, 972 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,52 +189,50 @@
           
           
 
-          <h1 id="seq2sick-evaluating-the-robustness-of-sequence-to-sequence-models-with-adversarial-examples-aaai-2020">Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020)</h1>
-<p><a href="https://github.com/cmhcbb/Seq2Sick">开源代码传送门</a></p>
+          <h1 id="high-order-information-matters-learning-relation-and-topology-for-occluded-person-re-identification-cvpr-2020">High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification (CVPR 2020)</h1>
+<p><img src="/images/2021/PRN28/1.png" alt="Fig 1"></p>
 <h2 id="背景">背景</h2>
-<p>对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。</p>
-<p>攻击图像比攻击文本容易得多，因为图像空间是连续的，在累积失真 (accumulated distortion) 很小的情况下即使改变大多数像素，扰动也不易被人察觉。而在离散的文本空间上，单词级别的修改可能严重改变文本的含义，因而应当改变尽可能少的单词。</p>
-<p>同时，攻击一个分类器也比攻击序列化输出的模型容易，原因在于输出的搜索空间大小差异。</p>
-<p>本文研究为 seq2seq 问题构建对抗样本。主要研究两个问题：</p>
-<ul>
-<li>是否有可能轻微改变 seq2seq 模型的输入就严重改变其输出？</li>
-<li>seq2seq 模型是否比基于 CNN 的图像分类器更加健壮？</li>
-</ul>
-<h2 id="问题建模">问题建模</h2>
-<p>seq2seq 上对抗样本的定义可以建模为如下优化问题：</p>
-<p>$$min_{\delta} L(X + \delta) + \lambda \cdot R(\delta),$$</p>
-<p>后一项控制扰动的大小，前一项可以是不同形式的损失函数。</p>
-<h2 id="本文关注的两种攻击">本文关注的两种攻击</h2>
-<h3 id="无重合攻击-non-overlapping-attack">无重合攻击 (non-overlapping attack)</h3>
-<p>要求输出与原始输出没有重合，比无目标攻击只要求与原始输出不同更加困难。</p>
-<h3 id="目标关键词攻击-targeted-keywords-attack">目标关键词攻击 (targeted keywords attack)</h3>
-<p>要求找到一个对抗输入序列，使得所有目标关键词必须出现在其对应的输出中，比无重合攻击更加困难。</p>
-<h2 id="处理离散的输入空间">处理离散的输入空间</h2>
-<h3 id="一种简单方法">一种简单方法</h3>
-<p>首先在连续空间通过解前述优化问题，学习 \(X + \delta^{*}\)，进而在单词嵌入集合 \(\mathbb{W}\) 中搜索其最接近的词嵌入。由于维度灾难问题，这个方法在目标关键词攻击上表现极差。</p>
-<p>为了解决离散输入空间问题，本文增加了一个额外的约束，要求 \(X + \delta\) 属于属于词典 \(\mathbb{W}\)：</p>
-<p>$$min_{\delta} L(X + \delta) + \lambda \cdot R(\delta),$$
-$$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$</p>
-<p>接着使用投影梯度下降 (projected gradient descent) 来解这个约束优化问题。在每步迭代将当前解 \(x_{i} + \delta_{i}\) 投影回 \(\mathbb{W}\) 以确保 \(X + \delta\) 能够映射到一个特定的输入词。</p>
-<h3 id="group-lasso-正则化">Group Lasso 正则化</h3>
-<p>广泛使用的 \(\mathcal{l}_{2}\) 范数 \(||\delta||_{2}^2\) 并不适用于本任务，因为使用 \(\mathcal{l}_{2}\) 正则化学习到的扰动 \(\{\delta_{t}\}_{t=1}^M\) 是非零的，由此大多数输入的单词会被扰动到另一个词，导致对抗序列与原始输入差异巨大。</p>
-<p>为了解决这一问题，本文将各个包含 \(d\) 个变量的 \(\delta_{t}\) 处理为一组，使用 group lasso 正则化来保证组稀疏性 (group sparsity)，即在最优解 \(\delta^{*}\) 中只有少数组 (单词) 允许非零：</p>
-<p>$$R(\delta) = \sum_{t=1}^N ||\delta_{t}||_{2}.$$</p>
-<h3 id="梯度正则化">梯度正则化</h3>
-<p>攻击 seq2seq 模型时容易出现对抗样本集中于一个只有很少或没有嵌入向量的区域，这会影响投影梯度下降的表现，因为这些区域中最近的嵌入都很远。</p>
-<p>为了解决这一问题，本文采用梯度正则化，拉近 \(X + \delta\) 到单词嵌入空间的距离。最终的目标函数变成了：</p>
-<p>$$min_{\delta} L(X + \delta) + \lambda_{1} \sum_{i=1}^N ||\delta_{i}||_{2} + \lambda_{2} \sum_{i=1}^N min_{w_{j} \in \mathbb{W}} \{||x_{i} + \delta_{i} - w_{j}||_{2}\}$$
-$$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$</p>
-<p>第三项就是梯度正则化项。具体优化过程如下：</p>
-<p><img src="/images/2021/PRN27/A1.png" alt="Alg 1"></p>
-<h2 id="单词投影相关代码">单词投影相关代码</h2>
-<p><img src="/images/2021/PRN27/C1.png" alt="Code 1"></p>
-<h3 id="扰动初始化">扰动初始化</h3>
-<p><img src="/images/2021/PRN27/C2.png" alt="Code 2"></p>
-<h2 id="一些例子">一些例子</h2>
-<p><img src="/images/2021/PRN27/T7.png" alt="Tab 7"></p>
-<p><img src="/images/2021/PRN27/T8.png" alt="Tab 8"></p>
-<p><img src="/images/2021/PRN27/T9.png" alt="Tab 9"></p>
+<p>本文研究遮挡 ReID 问题 (Occluded Person Re-Identification)，该问题主要受到遮挡 (occlusion) 和出界 (outliers) 两个问题困扰。大部分现有方法只用到了一阶信息 (one-order information)。</p>
+<p>本文设计了一种新的架构，联合建模高阶关系 (high-order relation) 和行人拓扑信息 (human-topology information)，由一阶语义模块 \(\mathcal{S}\)、高阶关系模块 \(\mathcal{R}\) 以及高阶行人拓扑模块 \(\mathcal{T}\) 构成。</p>
+<p><img src="/images/2021/PRN28/2.png" alt="Fig 2"></p>
+<h2 id="语义特征提取">语义特征提取</h2>
+<p>用 CNN 和关键点模型分别提取特征图 \(m_{cnn}\) 和关键点热图 \(m_{kp}\)，通过外积和全局均值池化得到全局与局部特征：</p>
+<p>$$V_{l}^S = \{v_{k}^S\}_{k=1}^K = g(m_{cnn} \otimes m_{kp}),$$
+$$V_{g}^S = v_{K+1}^S = g(m_{cnn}).$$</p>
+<h3 id="训练损失">训练损失</h3>
+<p>分类损失 + 三元组损失。</p>
+<h2 id="高阶关系学习">高阶关系学习</h2>
+<h3 id="一个困难">一个困难</h3>
+<p>遮挡 ReID 中许多遮挡区域的特征是无意义的，甚至是噪声信息，直接在图中传播会带来更多噪声。</p>
+<p><img src="/images/2021/PRN28/3.png" alt="Fig 3"></p>
+<h3 id="方向自适应的图卷积层">方向自适应的图卷积层</h3>
+<p>为解决上述问题，本文设计了一种方向自适应的图卷积层 (adaptive-direction graph convolutional layer, ADGC) 来动态学习信息传递的方向和度。</p>
+<p>一个简单的图卷积层接受两个输入，一个邻接矩阵 \(A\) 和所有节点的特征 \(X\)，输出可以如下计算得到：</p>
+<p>$$O = \hat{A}XW,$$</p>
+<p>其中 \(\hat{A}\) 是 \(A\) 的归一化版本。通过基于输入的特征去动态学习邻接矩阵，对简单的图卷积层进行优化。</p>
+<p>ADGC 的输入为一个全局特征 \(V_{g}\)、K 个局部特征 \(V_{l}\) 以及一张预先定义的邻接矩阵为 \(A\) 的图。使用 \(V_{l}\) 和 \(V_{g}\) 之间的差异动态更新图中边的权重，得到 \(A^{adp}\)，进而通过 \(V_{l}\) 与 \(A^{adp}\) 相乘进行简单图卷积，为了稳定训练，加上残差连接：</p>
+<p>$$V^{out} = [FC_{1}(A^{adp} \otimes V_{l}^{in}) + FC_{2}(V_{l}^{in}), V_{g}^{in}].$$</p>
+<p>最终的高阶关系模块 \(f_{R}\) 实现为 ADGC 的层叠，因而由语义特征 \(V^S = \{v_{k}^S\}_{k=1}^{K+1}\) 有</p>
+<p>$$V^{R} = \{v_{k}^R\}_{k=1}^{K+1} = f_{R}(V^S).$$</p>
+<h3 id="训练损失-1">训练损失</h3>
+<p>分类损失 + 三元组损失。</p>
+<h3 id="相似度衡量">相似度衡量</h3>
+<p>余弦相似度。</p>
+<h2 id="高阶行人拓扑学习">高阶行人拓扑学习</h2>
+<h3 id="图匹配-graph-matching-回顾">图匹配 (graph matching) 回顾</h3>
+<p>对于两张图 \(G_{1} = (V_{1}, E_{1})\) 和 \(G_{2} = (V_{2}, E_{2})\)，图匹配的目的在于在 \(V_{1}\) 和 \(V_{2}\) 之间学习一个匹配矩阵 \(U \in [0, 1]^{K \times K}\)，\(U_{ia}\) 表示 \(v_{1i}\) 与 \(v_{2a}\) 之间的匹配度 (matching degree)。</p>
+<p>构建一个正对称方阵 (square symmetric positive matrix) \(M \in \mathbb{R}^{KK \times KK}\)，\(M_{ia;jb}\) 表示 \((i, j) \in E_{1}\) 与 \((a, b) \in E_{2}\) 的匹配度。最优的 \(u^{*}\) 可如下得到：</p>
+<p>$$U^{*} = argmax_{U} U^TMU, s.t \ ||U|| = 1.$$</p>
+<p><img src="/images/2021/PRN28/4.png" alt="Fig 4"></p>
+<h3 id="cross-graph-embedded-alignment-layer-with-similarity-prediction">Cross-Graph Embedded-Alignment Layer with Similarity Prediction</h3>
+<p>本文设计了一种跨图嵌入对齐层 (cross-graph embedded-alignment layer, CGEA) 在考虑由图匹配学习到的高阶行人拓扑信息的同时，避免敏感的一对一对齐。</p>
+<p>CGEA 以两张子图作为输入，输出嵌入特征，包括语义特征和行人拓扑指导下对齐的特征。</p>
+<p>通过层叠的 CGEA 和一个相似度预测层 \(f_{P}\) 实现高阶行人拓扑模块：</p>
+<p>$$(V_{1}^T, V_{2}^T) = F_{T}(V_{1}^R, V_{2}^R),$$
+$$s_{x_{1}, x_{2}}^T = \sigma(FC_{s}(-|v_{1}^T-v_{2}^T)),$$</p>
+<p>其中 \(|\cdot|\) 表示元素绝对值。</p>
+<h3 id="损失函数">损失函数</h3>
+<p>交叉熵。</p>
 
     </div>
 
@@ -249,7 +247,7 @@ $$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$<
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn27/>http://jonathanwayy.xyz/2021/prn27/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn28/>http://jonathanwayy.xyz/2021/prn28/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -272,20 +270,17 @@ $$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$<
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
                     #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nlp/">
-                    #nlp</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
-                    #adversarial</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/gan/">
-                    #GAN</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial-samples/">
-                    #adversarial samples</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #reid</a></span>
             
             </section>
         
@@ -297,10 +292,10 @@ $$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$<
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn26/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / 图网络] Beyond Low-frequency Information in GCNs (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / 图网络] Beyond Low-frequency Information in GCNs (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn27/" class="prev" rel="prev" title="[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn28/" class="next" rel="next" title="[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)">[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -309,7 +304,7 @@ $$s.t. \quad x_{i} + \delta_{i} \in \mathbb{W} \quad \forall i = 1, \cdots, N$$<
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">1100 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
