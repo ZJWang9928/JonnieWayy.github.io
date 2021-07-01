@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 30 Jun 2021 13:01:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 13:01:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn28/</link>
-      <pubDate>Wed, 30 Jun 2021 13:01:57 +0800</pubDate>
+      <pubDate>Thu, 01 Jul 2021 13:01:57 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn28/</guid>
       <description>High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification (CVPR 2020) 背景 本文研究遮挡 ReID 问题 (Occluded Person Re-Identification)，该问题主要受到遮挡 (occlusion) 和出界 (outliers) 两个问题困扰。大部分现</description>
