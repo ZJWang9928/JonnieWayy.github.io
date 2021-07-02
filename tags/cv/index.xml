@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 01 Jul 2021 13:01:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 11:05:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn29/</link>
+      <pubDate>Fri, 02 Jul 2021 11:05:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn29/</guid>
+      <description>Vulnerability of Person Re-Identification Models to Metric Adversarial Attacks (CVPR 2020) 背景 闭集 (closed-set) 任务，即训练与测试使用同样类别的任务上对抗样本已经有了较广泛的研究，开集 (open-set) 任务如 ReID 上的相关研究较少。 为了骗过</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn28/</link>

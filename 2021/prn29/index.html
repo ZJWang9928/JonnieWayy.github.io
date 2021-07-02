@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn27/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn29/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn28/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn28/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn29/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020) | Jonathan`s Blog
+           [论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)",
-    "headline" : "[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)",
-    "description" : "High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification (CVPR 2020) 背景 本文研究遮挡 ReID 问题 (Occluded Person Re-Identification)，该问题主要受到遮挡 (occlusion) 和出界 (outliers) 两个问题困扰。大部分现",
+    "name" : "[论文阅读笔记 -- 对抗样本 \/ ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)",
+    "headline" : "[论文阅读笔记 -- 对抗样本 \/ ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)",
+    "description" : "Vulnerability of Person Re-Identification Models to Metric Adversarial Attacks (CVPR 2020) 背景 闭集 (closed-set) 任务，即训练与测试使用同样类别的任务上对抗样本已经有了较广泛的研究，开集 (open-set) 任务如 ReID 上的相关研究较少。 为了骗过",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-01 13:01:57 \u002b0800 CST",
-    "dateModified" : "2021-07-01 13:01:57 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn28\/",
-    "wordCount" : "972",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","reid", "Jonathan`s Blog"]
+    "datePublished": "2021-07-02 11:05:32 \u002b0800 CST",
+    "dateModified" : "2021-07-02 11:05:32 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn29\/",
+    "wordCount" : "970",
+    "keywords" : [ "paper reading","cv","notes","adversarial","GAN","adversarial samples", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-07-01 itemprop="datePublished">July 1, 2021</time>
+                on <time datetime=2021-07-02 itemprop="datePublished">July 2, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 972 words</span>
+                <span class="post-word-count">, 970 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,50 +189,45 @@
           
           
 
-          <h1 id="high-order-information-matters-learning-relation-and-topology-for-occluded-person-re-identification-cvpr-2020">High-Order Information Matters: Learning Relation and Topology for Occluded Person Re-Identification (CVPR 2020)</h1>
-<p><img src="/images/2021/PRN28/1.png" alt="Fig 1"></p>
+          <h1 id="vulnerability-of-person-re-identification-models-to-metric-adversarial-attacks-cvpr-2020">Vulnerability of Person Re-Identification Models to Metric Adversarial Attacks (CVPR 2020)</h1>
 <h2 id="背景">背景</h2>
-<p>本文研究遮挡 ReID 问题 (Occluded Person Re-Identification)，该问题主要受到遮挡 (occlusion) 和出界 (outliers) 两个问题困扰。大部分现有方法只用到了一阶信息 (one-order information)。</p>
-<p>本文设计了一种新的架构，联合建模高阶关系 (high-order relation) 和行人拓扑信息 (human-topology information)，由一阶语义模块 \(\mathcal{S}\)、高阶关系模块 \(\mathcal{R}\) 以及高阶行人拓扑模块 \(\mathcal{T}\) 构成。</p>
-<p><img src="/images/2021/PRN28/2.png" alt="Fig 2"></p>
-<h2 id="语义特征提取">语义特征提取</h2>
-<p>用 CNN 和关键点模型分别提取特征图 \(m_{cnn}\) 和关键点热图 \(m_{kp}\)，通过外积和全局均值池化得到全局与局部特征：</p>
-<p>$$V_{l}^S = \{v_{k}^S\}_{k=1}^K = g(m_{cnn} \otimes m_{kp}),$$
-$$V_{g}^S = v_{K+1}^S = g(m_{cnn}).$$</p>
-<h3 id="训练损失">训练损失</h3>
-<p>分类损失 + 三元组损失。</p>
-<h2 id="高阶关系学习">高阶关系学习</h2>
-<h3 id="一个困难">一个困难</h3>
-<p>遮挡 ReID 中许多遮挡区域的特征是无意义的，甚至是噪声信息，直接在图中传播会带来更多噪声。</p>
-<p><img src="/images/2021/PRN28/3.png" alt="Fig 3"></p>
-<h3 id="方向自适应的图卷积层">方向自适应的图卷积层</h3>
-<p>为解决上述问题，本文设计了一种方向自适应的图卷积层 (adaptive-direction graph convolutional layer, ADGC) 来动态学习信息传递的方向和度。</p>
-<p>一个简单的图卷积层接受两个输入，一个邻接矩阵 \(A\) 和所有节点的特征 \(X\)，输出可以如下计算得到：</p>
-<p>$$O = \hat{A}XW,$$</p>
-<p>其中 \(\hat{A}\) 是 \(A\) 的归一化版本。通过基于输入的特征去动态学习邻接矩阵，对简单的图卷积层进行优化。</p>
-<p>ADGC 的输入为一个全局特征 \(V_{g}\)、K 个局部特征 \(V_{l}\) 以及一张预先定义的邻接矩阵为 \(A\) 的图。使用 \(V_{l}\) 和 \(V_{g}\) 之间的差异动态更新图中边的权重，得到 \(A^{adp}\)，进而通过 \(V_{l}\) 与 \(A^{adp}\) 相乘进行简单图卷积，为了稳定训练，加上残差连接：</p>
-<p>$$V^{out} = [FC_{1}(A^{adp} \otimes V_{l}^{in}) + FC_{2}(V_{l}^{in}), V_{g}^{in}].$$</p>
-<p>最终的高阶关系模块 \(f_{R}\) 实现为 ADGC 的层叠，因而由语义特征 \(V^S = \{v_{k}^S\}_{k=1}^{K+1}\) 有</p>
-<p>$$V^{R} = \{v_{k}^R\}_{k=1}^{K+1} = f_{R}(V^S).$$</p>
-<h3 id="训练损失-1">训练损失</h3>
-<p>分类损失 + 三元组损失。</p>
-<h3 id="相似度衡量">相似度衡量</h3>
-<p>余弦相似度。</p>
-<h2 id="高阶行人拓扑学习">高阶行人拓扑学习</h2>
-<h3 id="图匹配-graph-matching-回顾">图匹配 (graph matching) 回顾</h3>
-<p>对于两张图 \(G_{1} = (V_{1}, E_{1})\) 和 \(G_{2} = (V_{2}, E_{2})\)，图匹配的目的在于在 \(V_{1}\) 和 \(V_{2}\) 之间学习一个匹配矩阵 \(U \in [0, 1]^{K \times K}\)，\(U_{ia}\) 表示 \(v_{1i}\) 与 \(v_{2a}\) 之间的匹配度 (matching degree)。</p>
-<p>构建一个正对称方阵 (square symmetric positive matrix) \(M \in \mathbb{R}^{KK \times KK}\)，\(M_{ia;jb}\) 表示 \((i, j) \in E_{1}\) 与 \((a, b) \in E_{2}\) 的匹配度。最优的 \(u^{*}\) 可如下得到：</p>
-<p>$$U^{*} = argmax_{U} U^TMU, s.t \ ||U|| = 1.$$</p>
-<p><img src="/images/2021/PRN28/4.png" alt="Fig 4"></p>
-<h3 id="cross-graph-embedded-alignment-layer-with-similarity-prediction">Cross-Graph Embedded-Alignment Layer with Similarity Prediction</h3>
-<p>本文设计了一种跨图嵌入对齐层 (cross-graph embedded-alignment layer, CGEA) 在考虑由图匹配学习到的高阶行人拓扑信息的同时，避免敏感的一对一对齐。</p>
-<p>CGEA 以两张子图作为输入，输出嵌入特征，包括语义特征和行人拓扑指导下对齐的特征。</p>
-<p>通过层叠的 CGEA 和一个相似度预测层 \(f_{P}\) 实现高阶行人拓扑模块：</p>
-<p>$$(V_{1}^T, V_{2}^T) = F_{T}(V_{1}^R, V_{2}^R),$$
-$$s_{x_{1}, x_{2}}^T = \sigma(FC_{s}(-|v_{1}^T-v_{2}^T)),$$</p>
-<p>其中 \(|\cdot|\) 表示元素绝对值。</p>
-<h3 id="损失函数">损失函数</h3>
-<p>交叉熵。</p>
+<p>闭集 (closed-set) 任务，即训练与测试使用同样类别的任务上对抗样本已经有了较广泛的研究，开集 (open-set) 任务如 ReID 上的相关研究较少。</p>
+<p>为了骗过 ReID 模型，需要扰动图像以改变其特征之间的距离，称为度量攻击 (metric attacks)。度量攻击依赖一个称为指导 (guide) 的参照特征 (reference feature)，使被攻击的图像与其他相似图像之间的距离失真。</p>
+<p>指导可分为两种：</p>
+<ul>
+<li>拉动指导 (pulling guide)：属于另一行人 ID，将特征从其原始的 ID 簇拉远</li>
+<li>推动指导 (pushing guide)：属于同一行人 ID，将特征从其原始的 ID 簇推开</li>
+</ul>
+<p>实际应用中指导类别的选择取决于各种指导是否可获取。</p>
+<h2 id="度量攻击-metric-attacks">度量攻击 (Metric Attacks)</h2>
+<p>在 ReID 任务中，对抗攻击无法将模型误导到一个错误类别上，因为类别在开集任务测试时不可知，需要扰动图像以使特征之间距离失真。为了实现这一目的，度量攻击需要一个参照特征作为指导，指导会引入上述的两种扰动。</p>
+<p>此时就产生一个问题 —— 两种指导的效果是否一样？</p>
+<p>拉动指导在一些情况中作用有限。</p>
+<p>对于推动指导，根据三角不等式有</p>
+<p>$$D(f_{\hat{x}_{i}}, f_{g}) \le D(f_{\hat{x}_{i}}, f_{x_{j}}) + D(f_{x_{j}}, f_{g}),$$</p>
+<p>\(x_{i}\) 是原图像，\(\hat_{x}_{i}\) 是攻击后的图像，\(x_{j}\) 和 \(g\) 是两张和 \(x_{i}\) ID 相同的图像。推动指导增加 \(D(f_{\hat{x}_{i}}, f_{g})\)，假设 \(D(f_{x_{j}}, f_{g})\) 较小 (\(\mathcal{l}(x_{j}) = \mathcal{l}(g)\) 时)，则 \(D(f_{\hat{x}_{i}}\) 增加。</p>
+<p>这意味着在嵌入空间中，通过增大对抗图像与指导之间的距离，对抗图像同样会远离其他与指导相似的图像。但是对抗特征可能会被推到一个没有其他 ID 特征的方向(区域)。</p>
+<p>此外，指导的使用意味着需要能够获取额外的图像，在实际中是否能够满足也是个问题。</p>
+<p><img src="/images/2021/PRN29/1.png" alt="Fig 1"></p>
+<h2 id="自度量攻击-self-metric-attack-sma">自度量攻击 (Self Metric Attack, SMA)</h2>
+<p>当无法获取额外图像，即 \(A = \phi\) 时，通过 SMA 使用图像自身作为推动指导，即将扰动后图像的特征与其原特征推开，用 \(f_{x_{i}}\) 取代了 \(f_{g}\)。</p>
+<p>$$\hat{x}^{(0)} = x + \eta,$$
+$$\hat{x}^{(n+1)} = \Pi_{x}^{\epsilon}(\hat{x}^{(n)} + \alpha \cdot sign(\Delta_{n}^{SMA})),$$
+$$\Delta_{n}^{SMA} = \frac{\partial D(f_{\hat{x}^{(n)}}, f_{x})}{\partial \hat{x}^{(n)}},$$</p>
+<p>其中 \(\epsilon\) 是对抗边界，\(\alpha\) 是迭代步长，\(\Pi_{x}^{\epsilon}\) 是 clip 函数，确保 \(||\hat{x}^{(n+1)} - x||_{\infty} \le \epsilon\) 且 \(x\) 中的像素都处于区间 \([0, 1]\)，具体算法如下。</p>
+<p><img src="/images/2021/PRN29/A1.png" alt="Alg 1"></p>
+<p><img src="/images/2021/PRN29/2.png" alt="Fig 2"></p>
+<h2 id="最远负样本攻击-furthest-negative-attack-fna">最远负样本攻击 (Furthest-Negative Attack, FNA)</h2>
+<p>有许多额外图像可以获取的情况下。</p>
+<p>应当确保被攻击的特征向另一 ID 的簇靠近，且与其原 ID 的簇距离最远，因而这里旨在将被攻击的特征推往最远的簇。</p>
+<p>组合多个推动指导以及来自最远簇的拉动指导。</p>
+<p>$$\hat{x}^{(0)} = x,$$
+$$\hat{x}^{(n+1)} = \Pi_{x}^{\epsilon}(\hat{x}^{(n)} + \alpha \cdot sign(\Delta_{n}^{FNA})),$$
+$$\Delta_{n}^{FNA} = \sum_{g_{push} \in I_{\mathcal{l}(x)} \cup A} \frac{\partial D(f_{\hat{x}^{(n)}}, f_{g_{push}})}{\partial \hat{x}^{(n)}} - \sum_{g_{pull} \in I_{l_{far}} \cup A} \frac{\partial D(f_{\hat{x}^{(n)}}, f_{g_{pull}})}{\partial \hat{x}^{(n)}},$$</p>
+<p>其中 \(A\) 是可获取的图像集合。</p>
+<p>$$l_{far} = argmax_{i \in \mathcal{l}(A)} D(f_{x}, \sum_{g \in I_{i} \cup A} \frac{f_{g}}{|I_{i} \cup A|}),$$</p>
+<p>是最远簇的 ID。具体算法如下。</p>
+<p><img src="/images/2021/PRN29/A2.png" alt="Alg 2"></p>
 
     </div>
 
@@ -247,7 +242,7 @@ $$s_{x_{1}, x_{2}}^T = \sigma(FC_{s}(-|v_{1}^T-v_{2}^T)),$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn28/>http://jonathanwayy.xyz/2021/prn28/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn29/>http://jonathanwayy.xyz/2021/prn29/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -276,11 +271,14 @@ $$s_{x_{1}, x_{2}}^T = \sigma(FC_{s}(-|v_{1}^T-v_{2}^T)),$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
+                    #adversarial</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
-                    #reid</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/gan/">
+                    #GAN</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial-samples/">
+                    #adversarial samples</a></span>
             
             </section>
         
@@ -292,10 +290,10 @@ $$s_{x_{1}, x_{2}}^T = \sigma(FC_{s}(-|v_{1}^T-v_{2}^T)),$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn27/" class="prev" rel="prev" title="[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn28/" class="prev" rel="prev" title="[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 遮挡 ReID] High-Order Information Matters (CVPR 2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn29/" class="next" rel="next" title="[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)">[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
