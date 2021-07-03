@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn29/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn31/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn30/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn30/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn31/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索 / 图网络] Similarity Reasoning and Filtration (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索 / 图网络] Similarity Reasoning and Filtration (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021)",
-    "headline" : "[论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021)",
-    "description" : "2106.13112v2 VOLO: Vision Outlooker for Visual Recognition (2021) 背景 制约 ViT 不如 CNN 的一个主要因素 ViT 在将细粒度特征以及上下文编码成 token 时效率较低。 本文设计了一种简单轻量的注意力机制，称为 Outl",
+    "name" : "[论文阅读笔记 -- 跨模态检索 \/ 图网络] Similarity Reasoning and Filtration (2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索 \/ 图网络] Similarity Reasoning and Filtration (2021)",
+    "description" : "2101.01368 Similarity Reasoning and Filtration for Image-Text Matching (2021) 先前方法的缺陷 在局部特征之间计算基于标量的余弦相似度，可能并不足以表征区域与单词之间的关联模式 大多数方法使用池化去聚合区域",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-03 16:23:02 \u002b0800 CST",
-    "dateModified" : "2021-07-03 16:23:02 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn30\/",
-    "wordCount" : "595",
-    "keywords" : [ "paper reading","cv","notes","attention", "Jonathan`s Blog"]
+    "datePublished": "2021-07-03 21:00:55 \u002b0800 CST",
+    "dateModified" : "2021-07-03 21:00:55 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn31\/",
+    "wordCount" : "711",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","graph","retrieval", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索 / 图网络] Similarity Reasoning and Filtration (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 595 words</span>
+                <span class="post-word-count">, 711 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,71 +189,60 @@
           
           
 
-          <h1 id="210613112v2-volo-vision-outlooker-for-visual-recognition-2021">2106.13112v2 VOLO: Vision Outlooker for Visual Recognition (2021)</h1>
-<p><img src="/images/2021/PRN30/1.png" alt="Fig 1"></p>
-<h2 id="背景">背景</h2>
-<h3 id="制约-vit-不如-cnn-的一个主要因素">制约 ViT 不如 CNN 的一个主要因素</h3>
-<p>ViT 在将细粒度特征以及上下文编码成 token 时效率较低。</p>
-<p>本文设计了一种简单轻量的注意力机制，称为 Outlooker，通过高效的线性投影由一个锚点 token 特征聚合其周遭 token，避免了点乘注意力昂贵的计算量。</p>
-<p><img src="/images/2021/PRN30/2.png" alt="Fig 2"></p>
-<h2 id="outlooker">Outlooker</h2>
-<p>Outlooker 由两部分组成：</p>
+          <h1 id="210101368-similarity-reasoning-and-filtration-for-image-text-matching-2021">2101.01368 Similarity Reasoning and Filtration for Image-Text Matching (2021)</h1>
+<p><img src="/images/2021/PRN31/1.png" alt="Fig 1"></p>
+<h2 id="先前方法的缺陷">先前方法的缺陷</h2>
 <ul>
-<li>outlook 注意力层：编码空间信息</li>
-<li>多层感知机 (MLP)：进行通道间信息交互</li>
+<li>在局部特征之间计算基于标量的余弦相似度，可能并不足以表征区域与单词之间的关联模式</li>
+<li>大多数方法使用池化去聚合区域与单词之间所有的潜在对齐 (all the latent alignments between regions and words)，可能会阻碍局部与全局对齐之间的信息交流</li>
+<li>无法排除无意义特征所带来的干扰</li>
 </ul>
-<p>对于 \(X \in \mathbb{R}^{H \times W \times C}\)，有：</p>
-<p>$$\widetilde{X} = OutlookerAtt(LN(X)) + X,$$
-$$Z = MLP(LN(\widetilde{X})) + \widetilde{X},$$</p>
-<p>其中 \(LN\) 表示 LayerNorm。</p>
-<h3 id="outlook-注意力">Outlook 注意力</h3>
-<h4 id="其背后的主要观点">其背后的主要观点</h4>
-<ul>
-<li>处于各空间位置的特征具有足够的表征能力为局部聚合其邻域特征生成注意力权重</li>
-<li>密集的局部空间聚合 (dense and local spatial aggregation) 能够有效编码细粒度信息</li>
-</ul>
-<p>对于各空间位置 \((i, j)\) outlook 注意力在一个以该位置为中心的 \(K \times K\) 窗口中计算其与所有邻居的相似度。不同于自注意力需要的 Query-Key 矩阵乘法，outlook 注意力只需要简单的变形操作 (reshaping operation) 即可实现。</p>
-<p>对于输入的 \(X \in \mathbb{R}^{H \times W \times C}\)，首先使用两个线性层，将各 \(C\) 维的 token 投影为 outlook 权重 \(A \in \mathbb{R}^{H \times W \times K^{4}}\) 以及值特征 (value representation) \(V \in \mathbb{R}^{H \times W \times C}\)。用 \(V_{\Delta_{i,j}} \in \mathbb{R}^{C \times K^{4}}\) 表示以 \((i, j)\) 为中心的局部窗口中的所有值。</p>
-<p>将 \(A\) 变形到 \(\hat{A} \in \mathbb{R}^{K^2 \times K^2}\)，值投影过程为：</p>
-<p>$$Y_{\Delta_{i, j}} = MatMul(Softmax(\hat{A}_{i, j}), V_{\Delta_{i, j}}).$$</p>
-<p>进而对特征密集聚合 (dense aggregation)：</p>
-<p>$$\widetilde{Y}_{i, j} = \sum_{0 \le m, n &lt; K} Y_{\Delta_{i+m- \lfloor \frac{K}{2} \rfloor, j+n - \lfloor \frac{K}{2} \rfloor}}^{i, j}.$$</p>
-<p>PyTorch 形式的代码实现如下：</p>
-<p><img src="/images/2021/PRN30/C1.png" alt="Code 1"></p>
-<h3 id="多头-outlook-注意力">多头 Outlook 注意力</h3>
-<p>只需要将线性层维度对应多头数翻倍即可实现。</p>
-<p>分别计算，最后拼接。</p>
-<h2 id="一些注意力机制的对比">一些注意力机制的对比</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Query</th>
-<th>Key</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Transformer</td>
-<td>seq</td>
-<td>seq</td>
-<td>seq</td>
-</tr>
-<tr>
-<td>MLP-Mixer (External Attention)</td>
-<td>seq</td>
-<td>param</td>
-<td>param</td>
-</tr>
-<tr>
-<td>Outlook Attention</td>
-<td>seq</td>
-<td>param</td>
-<td>seq</td>
-</tr>
-</tbody>
-</table>
+<p>本文设计了一种相似度图推理与注意力过滤网络 (Similarity Graph Reasoning and Attention Filtration network, SGRAF)。</p>
+<p>为了更高效地建模跨模态关联，学习基于向量的相似度表征，而非基于标量的余弦相似度。</p>
+<p><img src="/images/2021/PRN31/2.png" alt="Fig 2"></p>
+<h2 id="特征提取">特征提取</h2>
+<h3 id="视觉特征提取">视觉特征提取</h3>
+<p>Faster R-CNN<br>
+自注意力机制利用所有局部特征求得全局特征。</p>
+<h3 id="文本特征提取">文本特征提取</h3>
+<p>Bi-GRU<br>
+自注意力机制利用所有局部特征求得全局特征。</p>
+<h2 id="相似度表征学习">相似度表征学习</h2>
+<h3 id="向量相似度函数">向量相似度函数</h3>
+<p>两个 \(d\) 维向量 \(x\) 和 \(y\) 之间的相似度定义为：</p>
+<p>$$s(x, y; W) = \frac{W|x - y|^2}{||W|x - y|^2||_{2}} \in \mathbb{R}^{m}.$$</p>
+<h3 id="全局相似度表征">全局相似度表征</h3>
+<p>$$s^g = s(\overline{x}, \overline{y}; W_{g}).$$</p>
+<h3 id="局部相似度表征">局部相似度表征</h3>
+<p>首先用 textual-to-visual 注意力根据各单词处理各个区域，得到 \(a_{j}^v\)，进而有</p>
+<p>$$s_{j}^l = s(a_{j}^v, t_{j}; W_{l}).$$</p>
+<h2 id="相似度图推理-similarity-graph-reasoning-sgr">相似度图推理 (Similarity Graph Reasoning, SGR)</h2>
+<h3 id="图的构建">图的构建</h3>
+<p>构建相似度图在可能的局部与全局特征之间传播相似度信息。</p>
+<p>图节点 \(\mathcal{N} = \{s_{1}^l, \cdots, s_{L}^l, s^g\}\)，而节点 \(s_{p}\) 与 \(s_{q}\) 之间的有向边为</p>
+<p>$$e(s_{p}, s_{q}; W_{in}, W_{out}) = \frac{exp((W_{in}s_{p})(W_{out}s_{q}))}{\sum_{q}exp((W_{in}s_{p})(W_{out}s_{q}))}.$$</p>
+<h3 id="图推理">图推理</h3>
+<p>如下更新</p>
+<p>$$\hat{s}_{p}^n = \sum_{q}e(s_{p}^n, s_{q}^n; W_{in}^n, W_{out}^n) \cdot s_{q}^n,$$
+$$s_{p}^{n+1} = ReLU(W_{r}^n \hat{s}_{p}^n)e(s_{p}, s_{q}; W_{in}, W_{out}).$$</p>
+<p>最终取最后一步迭代的全局特征，过一层 FC 后得到最终的相似度分数。</p>
+<h2 id="相似度注意力过滤-similarity-attention-filtration-saf">相似度注意力过滤 (Similarity Attention Filtration, SAF)</h2>
+<p>排除无意义的特征。</p>
+<p>对于局部与全局相似度表征，为每个相似度表征计算一个聚合权重：</p>
+<p>$$\beta_{p} = \frac{\sigma(BN(W_{f}s_{p}))}{\sum_{s_{q} \in \mathcal{N}} \sigma(BN(W_{f}s_{q}))},$$
+$$W_{f} \in \mathbb{R}^{m \times 1}.$$</p>
+<p>接着就是特征聚合：</p>
+<p>$$s_{f} = \sum_{s_{p} \in \mathcal{N}} \beta_{p}s_{p}.$$</p>
+<p>最后用 FC 处理 \(s_{f}\) 得到输入的图像与句子之间的最终相似度。</p>
+<h2 id="目标函数与推断策略">目标函数与推断策略</h2>
+<h3 id="目标函数">目标函数</h3>
+<p>三元组损失得到 \(\mathcal{L}_{r}\) 和 \(\mathcal{L}_{f}\)。</p>
+<h3 id="联合训练-joint-training">联合训练 (joint training)</h3>
+<p>结合 \(\mathcal{L}_{r}\) 和 \(\mathcal{L}_{f}\) 同时训练 SGR 和 SAF，共享相似度表征。</p>
+<h3 id="独立训练-independent-training">独立训练 (independent training)</h3>
+<p>分别训练 SGR 和 SAF，推断时用两个模块输出相似度的均值。</p>
+<h2 id="模块可视化">模块可视化</h2>
+<p><img src="/images/2021/PRN31/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -268,7 +257,7 @@ $$Z = MLP(LN(\widetilde{X})) + \widetilde{X},$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn30/>http://jonathanwayy.xyz/2021/prn30/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn31/>http://jonathanwayy.xyz/2021/prn31/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -297,8 +286,14 @@ $$Z = MLP(LN(\widetilde{X})) + \widetilde{X},$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
-                    #attention</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/graph/">
+                    #graph</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
             </section>
         
@@ -310,10 +305,10 @@ $$Z = MLP(LN(\widetilde{X})) + \widetilde{X},$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn29/" class="prev" rel="prev" title="[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn30/" class="prev" rel="prev" title="[论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn31/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索 / 图网络] Similarity Reasoning and Filtration (2021)">[论文阅读笔记 -- 跨模态检索 / 图网络] Similarity Reasoning and Filtration (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -322,7 +317,7 @@ $$Z = MLP(LN(\widetilde{X})) + \widetilde{X},$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
