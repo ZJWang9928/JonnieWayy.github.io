@@ -9,20 +9,11 @@
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Sat, 03 Jul 2021 16:23:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>adversarial</title>
-      <link>http://jonathanwayy.xyz/tags/adversarial/</link>
+      <title>attention</title>
+      <link>http://jonathanwayy.xyz/tags/attention/</link>
       <pubDate>Sat, 03 Jul 2021 16:23:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/adversarial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>adversarial samples</title>
-      <link>http://jonathanwayy.xyz/tags/adversarial-samples/</link>
-      <pubDate>Sat, 03 Jul 2021 16:23:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/adversarial-samples/</guid>
+      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
     </item>
     
@@ -32,15 +23,6 @@
       <pubDate>Sat, 03 Jul 2021 16:23:02 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GAN</title>
-      <link>http://jonathanwayy.xyz/tags/gan/</link>
-      <pubDate>Sat, 03 Jul 2021 16:23:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/gan/</guid>
       <description></description>
     </item>
     
@@ -59,6 +41,33 @@
       <pubDate>Sat, 03 Jul 2021 16:23:02 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adversarial</title>
+      <link>http://jonathanwayy.xyz/tags/adversarial/</link>
+      <pubDate>Fri, 02 Jul 2021 11:05:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adversarial samples</title>
+      <link>http://jonathanwayy.xyz/tags/adversarial-samples/</link>
+      <pubDate>Fri, 02 Jul 2021 11:05:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/adversarial-samples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GAN</title>
+      <link>http://jonathanwayy.xyz/tags/gan/</link>
+      <pubDate>Fri, 02 Jul 2021 11:05:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/gan/</guid>
       <description></description>
     </item>
     
@@ -284,15 +293,6 @@
       <pubDate>Mon, 21 Jun 2021 19:47:15 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pacman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Sun, 20 Jun 2021 14:25:10 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
     </item>
     

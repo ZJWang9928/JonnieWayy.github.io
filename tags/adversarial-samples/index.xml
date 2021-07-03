@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 03 Jul 2021 16:23:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/adversarial-samples/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>[论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn30/</link>
-      <pubDate>Sat, 03 Jul 2021 16:23:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2021/prn30/</guid>
-      <description>2106.13112v2 VOLO: Vision Outlooker for Visual Recognition (2021) 背景 制约 ViT 不如 CNN 的一个主要因素 ViT 在将细粒度特征以及上下文编码成 token 时效率较低。 本文设计了一种简单轻量的注意力机制，称为 Outl</description>
-    </item>
-    
+    <lastBuildDate>Fri, 02 Jul 2021 11:05:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/adversarial-samples/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn29/</link>
