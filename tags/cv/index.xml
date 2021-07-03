@@ -14,7 +14,7 @@
       <pubDate>Sat, 03 Jul 2021 21:00:55 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn31/</guid>
-      <description>2101.01368 Similarity Reasoning and Filtration for Image-Text Matching (2021) 先前方法的缺陷 在局部特征之间计算基于标量的余弦相似度，可能并不足以表征区域与单词之间的关联模式 大多数方法使用池化去聚合区域</description>
+      <description>2101.01368 Similarity Reasoning and Filtration for Image-Text Matching (2021) 开源代码传送门 先前方法的缺陷 在局部特征之间计算基于标量的余弦相似度，可能并不足以表征区域与单词之间的关联模式 大多数方法使用</description>
     </item>
     
     <item>
