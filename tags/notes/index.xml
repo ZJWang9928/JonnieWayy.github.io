@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 03 Jul 2021 21:00:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jul 2021 12:59:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] XCiT: Cross-Covariance Image Transformers (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn32/</link>
+      <pubDate>Mon, 05 Jul 2021 12:59:51 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn32/</guid>
+      <description>2106.09681 XCiT: Cross-Covariance Image Transformers (2021) 开源代码传送门 背景 Transformers 中自注意力模块计算复杂度高。 本文用一种转置的注意力 (transposed attention) 取代自注意力，称为交叉协方差注意力 (cross-covariance attention, XCA)，其对于</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Similarity Reasoning and Filtration (AAAI 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn31/</link>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transformer on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/transformer/</link>
+    <description>Recent content in transformer on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Mon, 05 Jul 2021 12:59:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] XCiT: Cross-Covariance Image Transformers (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn32/</link>
+      <pubDate>Mon, 05 Jul 2021 12:59:51 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn32/</guid>
+      <description>2106.09681 XCiT: Cross-Covariance Image Transformers (2021) 开源代码传送门 背景 Transformers 中自注意力模块计算复杂度高。 本文用一种转置的注意力 (transposed attention) 取代自注意力，称为交叉协方差注意力 (cross-covariance attention, XCA)，其对于</description>
+    </item>
+    
+  </channel>
+</rss>
