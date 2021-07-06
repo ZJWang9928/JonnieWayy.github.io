@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp8/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn33/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp9/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp9/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn33/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- Nyquist 频率与 Nyquist 间隔 | Jonathan`s Blog
+           [论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- Nyquist 频率与 Nyquist 间隔 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- Nyquist 频率与 Nyquist 间隔",
-    "headline" : "炼丹杂记 -- Nyquist 频率与 Nyquist 间隔",
-    "description" : "若带限信号 \\(x(t)\\) 的最高角频率为 \\(\\omega_{m}\\)，则在一定条件下，信号 \\(x(t)\\) 可以用等间隔 \\(T\\) 的抽样值唯一表示。 抽样间隔 \\(T\\) 需满足： $$T \\le \\frac{\\pi}{\\omega_{m}} = \\frac{1}{2f_{m}},$$ 或",
+    "name" : "[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)",
+    "headline" : "[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)",
+    "description" : "1809.02681 Query Attack via Opposite-Direction Feature:Towards Robust Image Retrieval (2018) 背景 现有分类攻击方法在在检索场景中的困难 其目标是类别预测，与检索任务不同 检索场景中训练时的类别与测试时通常是不同的 本文针",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-06 11:36:55 \u002b0800 CST",
-    "dateModified" : "2021-07-06 11:36:55 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp9\/",
-    "wordCount" : "149",
-    "keywords" : [ "cv","notes","deep learning","convolution","frequency","DIP","digital signal processing", "Jonathan`s Blog"]
+    "datePublished": "2021-07-06 15:13:34 \u002b0800 CST",
+    "dateModified" : "2021-07-06 15:13:34 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn33\/",
+    "wordCount" : "256",
+    "keywords" : [ "paper reading","cv","notes","adversarial","GAN","adversarial samples","retrieval","cross-modal","reid", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- Nyquist 频率与 Nyquist 间隔</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -165,15 +165,17 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 149 words</span>
+                <span class="post-word-count">, 256 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -187,13 +189,32 @@
           
           
 
-          <p>若<a href="http://jonathanwayy.xyz/2021/ldp6/">带限信号</a> \(x(t)\) 的最高角频率为 \(\omega_{m}\)，则在一定条件下，信号 \(x(t)\) 可以用等间隔 \(T\) 的抽样值唯一表示。</p>
-<p>抽样间隔 \(T\) 需满足：</p>
-<p>$$T \le \frac{\pi}{\omega_{m}} = \frac{1}{2f_{m}},$$</p>
-<p>或者</p>
-<p>$$ f_{sam} \ge 2f_{m}, \quad \omega_{sam} \ge 2\omega_{m}.$$</p>
-<p>\(f_{sam} = 2f_{m}\) 是使抽样信号频谱不混叠时的最小抽样频率，称为奈奎斯特频率 (Nyquist Rate)。</p>
-<p>\(T = 1/2f_{m}\) 是使抽样信号频谱不混叠时的最大抽样间隔，称为奈奎斯特间隔。</p>
+          <h1 id="180902681-query-attack-via-opposite-direction-featuretowards-robust-image-retrieval-2018">1809.02681 Query Attack via Opposite-Direction Feature:Towards Robust Image Retrieval (2018)</h1>
+<p><img src="/images/2021/PRN33/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<h3 id="现有分类攻击方法在在检索场景中的困难">现有分类攻击方法在在检索场景中的困难</h3>
+<ul>
+<li>其目标是类别预测，与检索任务不同</li>
+<li>检索场景中训练时的类别与测试时通常是不同的</li>
+</ul>
+<p>本文针对图像检索任务生成对抗样本。</p>
+<h3 id="攻击的两种选择">攻击的两种选择</h3>
+<ul>
+<li>攻击 query 图像</li>
+<li>攻击数据库中图像</li>
+</ul>
+<p>本文主要针对前者。</p>
+<p>设计了一种白盒攻击方法，称为反向特征攻击 (Opposite-Direction Feature Attack, ODFA)，核心想法在于显式地使对抗样本的特征远离其原始特征。</p>
+<p><img src="/images/2021/PRN33/2.png" alt="Fig 2"></p>
+<h2 id="反向特征攻击-odfa">反向特征攻击 (ODFA)</h2>
+<p>定义如下损失函数：</p>
+<p>$$argmin_{X'} J(X') = (\frac{f_{X'}}{||f_{X'}||_{2}} + \frac{f_{X}}{||f_{X}||_{2}})^2.$$</p>
+<p>旨在使得对抗样本 \(X'\) 的特征处于原始样本特征的对面一侧，称 \(-f_{X}\) 为反向特征。</p>
+<p>具体算法描述如下：</p>
+<p><img src="/images/2021/PRN33/A1.png" alt="Alg 1"></p>
+<h2 id="针对多尺度输入的反向特征攻击-odfa-ms">针对多尺度输入的反向特征攻击 (ODFA-MS)</h2>
+<p>具体算法描述如下：</p>
+<p><img src="/images/2021/PRN33/A2.png" alt="Alg 2"></p>
 
     </div>
 
@@ -208,7 +229,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/ldp9/>http://jonathanwayy.xyz/2021/ldp9/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn33/>http://jonathanwayy.xyz/2021/prn33/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -228,26 +249,32 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
-                    #deep learning</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
+                    #adversarial</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/convolution/">
-                    #convolution</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/gan/">
+                    #GAN</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
-                    #frequency</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial-samples/">
+                    #adversarial samples</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/dip/">
-                    #DIP</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/digital-signal-processing/">
-                    #digital signal processing</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #reid</a></span>
             
             </section>
         
@@ -259,10 +286,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/ldp8/" class="prev" rel="prev" title="炼丹杂记 -- 时域抽样定理"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- 时域抽样定理</a>
+        <a href="http://jonathanwayy.xyz/2021/ldp9/" class="prev" rel="prev" title="炼丹杂记 -- Nyquist 频率与 Nyquist 间隔"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- Nyquist 频率与 Nyquist 间隔</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn33/" class="next" rel="next" title="[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)">[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -271,7 +298,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -309,8 +336,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
