@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn32/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/ldp9/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp8/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp8/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp9/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- 时域抽样定理 | Jonathan`s Blog
+           炼丹杂记 -- Nyquist 频率与 Nyquist 间隔 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- 时域抽样定理 | Jonathan`s Blog">
+  <meta name="title" content="炼丹杂记 -- Nyquist 频率与 Nyquist 间隔 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- 时域抽样定理",
-    "headline" : "炼丹杂记 -- 时域抽样定理",
-    "description" : "时域抽样定理 设 \\(X(j\\omega)\\) 和 \\(X(e^{j\\Omega})\\) 分别表示连续时间信号 \\(x(t)\\) 和离散时间信号 \\(x[k]\\) 的频谱，即 $$X(j\\omega) = \\int_{-\\infty}^{\\infty}x(t)e^{-j\\omega t}dt, \\ X(e^{j\\Omega}) = \\sum_{-\\infty}^{\\infty} x[k]e^{-j\\Omega k}.$$ 若存在 $$x[k] = x(t)|_{t = kT},$$ 则有 $$X(e^{j\\Omega}) = \\frac{1}{T}\\sum_{-\\infty}^{\u002b\\infty} X[j(\\omega - n\\omega_{sam})], \\quad \\omega_{sam} = 2\\pi\/T, \\quad \\Omega = \\omega T.$$ 表",
+    "name" : "炼丹杂记 -- Nyquist 频率与 Nyquist 间隔",
+    "headline" : "炼丹杂记 -- Nyquist 频率与 Nyquist 间隔",
+    "description" : "若带限信号 \\(x(t)\\) 的最高角频率为 \\(\\omega_{m}\\)，则在一定条件下，信号 \\(x(t)\\) 可以用等间隔 \\(T\\) 的抽样值唯一表示。 抽样间隔 \\(T\\) 需满足： $$T \\le \\frac{\\pi}{\\omega_{m}} = \\frac{1}{2f_{m}},$$ 或",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-06 11:24:56 \u002b0800 CST",
-    "dateModified" : "2021-07-06 11:24:56 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp8\/",
-    "wordCount" : "128",
+    "datePublished": "2021-07-06 11:36:55 \u002b0800 CST",
+    "dateModified" : "2021-07-06 11:36:55 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp9\/",
+    "wordCount" : "149",
     "keywords" : [ "cv","notes","deep learning","convolution","frequency","DIP","digital signal processing", "Jonathan`s Blog"]
 }
 </script>
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- 时域抽样定理</h1>
+        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- Nyquist 频率与 Nyquist 间隔</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 128 words</span>
+                <span class="post-word-count">, 149 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -187,15 +187,13 @@
           
           
 
-          <h2 id="时域抽样定理">时域抽样定理</h2>
-<p>设 \(X(j\omega)\) 和 \(X(e^{j\Omega})\) 分别表示连续时间信号 \(x(t)\) 和离散时间信号 \(x[k]\) 的频谱，即</p>
-<p>$$X(j\omega) = \int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt, \ X(e^{j\Omega}) = \sum_{-\infty}^{\infty} x[k]e^{-j\Omega k}.$$</p>
-<p>若存在</p>
-<p>$$x[k] = x(t)|_{t = kT},$$</p>
-<p>则有</p>
-<p>$$X(e^{j\Omega}) = \frac{1}{T}\sum_{-\infty}^{+\infty} X[j(\omega - n\omega_{sam})], \quad \omega_{sam} = 2\pi/T, \quad \Omega = \omega T.$$</p>
-<p>表明信号在时域的离散化，对应其频谱的周期化。</p>
-<p>其中，\(T\) 为抽样间隔，\(\omega_{sam}\) 为抽样角频率。</p>
+          <p>若<a href="http://jonathanwayy.xyz/2021/ldp6/">带限信号</a> \(x(t)\) 的最高角频率为 \(\omega_{m}\)，则在一定条件下，信号 \(x(t)\) 可以用等间隔 \(T\) 的抽样值唯一表示。</p>
+<p>抽样间隔 \(T\) 需满足：</p>
+<p>$$T \le \frac{\pi}{\omega_{m}} = \frac{1}{2f_{m}},$$</p>
+<p>或者</p>
+<p>$$ f_{sam} \ge 2f_{m}, \quad \omega_{sam} \ge 2\omega_{m}.$$</p>
+<p>\(f_{sam} = 2f_{m}\) 是使抽样信号频谱不混叠时的最小抽样频率，称为奈奎斯特频率 (Nyquist Rate)。</p>
+<p>\(T = 1/2f_{m}\) 是使抽样信号频谱不混叠时的最大抽样间隔，称为奈奎斯特间隔。</p>
 
     </div>
 
@@ -210,7 +208,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/ldp8/>http://jonathanwayy.xyz/2021/ldp8/</span>
+                    <a href=http://jonathanwayy.xyz/2021/ldp9/>http://jonathanwayy.xyz/2021/ldp9/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -261,10 +259,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn32/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT] XCiT: Cross-Covariance Image Transformers (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT] XCiT: Cross-Covariance Image Transformers (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/ldp8/" class="prev" rel="prev" title="炼丹杂记 -- 时域抽样定理"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- 时域抽样定理</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/ldp9/" class="next" rel="next" title="炼丹杂记 -- Nyquist 频率与 Nyquist 间隔">炼丹杂记 -- Nyquist 频率与 Nyquist 间隔&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

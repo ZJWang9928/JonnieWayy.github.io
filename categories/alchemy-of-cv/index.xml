@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 06 Jul 2021 11:24:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 11:36:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- Nyquist 频率与 Nyquist 间隔</title>
+      <link>http://jonathanwayy.xyz/2021/ldp9/</link>
+      <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp9/</guid>
+      <description>若带限信号 \(x(t)\) 的最高角频率为 \(\omega_{m}\)，则在一定条件下，信号 \(x(t)\) 可以用等间隔 \(T\) 的抽样值唯一表示。 抽样间隔 \(T\) 需满足： $$T \le \frac{\pi}{\omega_{m}} = \frac{1}{2f_{m}},$$ 或</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- 时域抽样定理</title>
       <link>http://jonathanwayy.xyz/2021/ldp8/</link>
