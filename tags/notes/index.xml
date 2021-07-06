@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 05 Jul 2021 12:59:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 11:24:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- 时域抽样定理</title>
+      <link>http://jonathanwayy.xyz/2021/ldp8/</link>
+      <pubDate>Tue, 06 Jul 2021 11:24:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp8/</guid>
+      <description>时域抽样定理 设 \(X(j\omega)\) 和 \(X(e^{j\Omega})\) 分别表示连续时间信号 \(x(t)\) 和离散时间信号 \(x[k]\) 的频谱，即 $$X(j\omega) = \int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt, \ X(e^{j\Omega}) = \sum_{-\infty}^{\infty} x[k]e^{-j\Omega k}.$$ 若存在 $$x[k] = x(t)|_{t = kT},$$ 则有 $$X(e^{j\Omega}) = \frac{1}{T}\sum_{-\infty}^{+\infty} X[j(\omega - n\omega_{sam})], \quad \omega_{sam} = 2\pi/T, \quad \Omega = \omega T.$$ 表</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] XCiT: Cross-Covariance Image Transformers (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn32/</link>
