@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 06 Jul 2021 15:13:34 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 11:06:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)</title>
+      <link>http://jonathanwayy.xyz/2021/prn34/</link>
+      <pubDate>Wed, 07 Jul 2021 11:06:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn34/</guid>
+      <description>Generating Adversarial Examples with Adversarial Networks (IJCAI 2018) AdvGAN 模型架构 $$\mathcal{L}_{GAN} = \mathbb{E}_{x} log \mathcal{D}(x) + \mathbb{E}_{x} log(1 - \mathcal{D}(x + \mathcal{G}(x))),$$ $$\mathcal{L}_{adv}^{f} = \mathbb{E}_{x}\mathcal{l}_f(x + \mathcal{G}(x), t),$$ $$\mathcal{L}_{hinge} = \mathbb{E}_{x} max(0, ||\mathcal{G}(x)||_{2} - c),$$ $$\mathcal{L} = \mathcal{L}_{adv}^{f} + \alpha \mathcal{L}_{GAN} + \beta \mathcal{L}_{hinge}.$$ 样本可视化</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)</title>
       <link>http://jonathanwayy.xyz/2021/prn33/</link>
