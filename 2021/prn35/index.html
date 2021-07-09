@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn33/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn35/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn34/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn34/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn35/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018) | Jonathan`s Blog
+           [论文阅读笔记 -- ViT] Swin Transformer (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ViT] Swin Transformer (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)",
-    "headline" : "[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)",
-    "description" : "Generating Adversarial Examples with Adversarial Networks (IJCAI 2018) AdvGAN 模型架构 $$\\mathcal{L}_{GAN} = \\mathbb{E}_{x} log \\mathcal{D}(x) \u002b \\mathbb{E}_{x} log(1 - \\mathcal{D}(x \u002b \\mathcal{G}(x))),$$ $$\\mathcal{L}_{adv}^{f} = \\mathbb{E}_{x}\\mathcal{l}_f(x \u002b \\mathcal{G}(x), t),$$ $$\\mathcal{L}_{hinge} = \\mathbb{E}_{x} max(0, ||\\mathcal{G}(x)||_{2} - c),$$ $$\\mathcal{L} = \\mathcal{L}_{adv}^{f} \u002b \\alpha \\mathcal{L}_{GAN} \u002b \\beta \\mathcal{L}_{hinge}.$$ 样本可视化",
+    "name" : "[论文阅读笔记 -- ViT] Swin Transformer (2021)",
+    "headline" : "[论文阅读笔记 -- ViT] Swin Transformer (2021)",
+    "description" : "2103.14030 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows (2021) 开源代码传送门 背景 Transformer 在视觉任务上的主要困难 视觉元素的尺度可能相当不同，但是当前工作中 token 都固定尺度 图像具有更高的像素分辨率",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-07 11:06:29 \u002b0800 CST",
-    "dateModified" : "2021-07-07 11:06:29 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn34\/",
-    "wordCount" : "52",
-    "keywords" : [ "paper reading","cv","notes","adversarial","GAN","adversarial samples", "Jonathan`s Blog"]
+    "datePublished": "2021-07-09 10:54:19 \u002b0800 CST",
+    "dateModified" : "2021-07-09 10:54:19 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn35\/",
+    "wordCount" : "390",
+    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT] Swin Transformer (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-07-07 itemprop="datePublished">July 7, 2021</time>
+                on <time datetime=2021-07-09 itemprop="datePublished">July 9, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 52 words</span>
+                <span class="post-word-count">, 390 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,16 +189,35 @@
           
           
 
-          <h1 id="generating-adversarial-examples-with-adversarial-networks-ijcai-2018">Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)</h1>
-<h2 id="advgan-模型架构">AdvGAN 模型架构</h2>
-<p><img src="/images/2021/PRN34/1.png" alt="Fig 1"></p>
-<p>$$\mathcal{L}_{GAN} = \mathbb{E}_{x} log \mathcal{D}(x) + \mathbb{E}_{x} log(1 - \mathcal{D}(x + \mathcal{G}(x))),$$</p>
-<p>$$\mathcal{L}_{adv}^{f} = \mathbb{E}_{x}\mathcal{l}_f(x + \mathcal{G}(x), t),$$</p>
-<p>$$\mathcal{L}_{hinge} = \mathbb{E}_{x} max(0, ||\mathcal{G}(x)||_{2} - c),$$</p>
-<p>$$\mathcal{L} = \mathcal{L}_{adv}^{f} + \alpha \mathcal{L}_{GAN} + \beta \mathcal{L}_{hinge}.$$</p>
-<h2 id="样本可视化">样本可视化</h2>
-<p><img src="/images/2021/PRN34/2.png" alt="Fig 2"></p>
-<p><img src="/images/2021/PRN34/3.png" alt="Fig 3"></p>
+          <h1 id="210314030-swin-transformer-hierarchical-vision-transformer-using-shifted-windows-2021">2103.14030 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows (2021)</h1>
+<p><a href="https://github.com/microsoft/Swin-Transformer">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN35/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<h3 id="transformer-在视觉任务上的主要困难">Transformer 在视觉任务上的主要困难</h3>
+<ul>
+<li>视觉元素的尺度可能相当不同，但是当前工作中 token 都固定尺度</li>
+<li>图像具有更高的像素分辨率</li>
+</ul>
+<p>本文提出一种新的架构，称为 Swin Transformer，其构建层叠化的特征图，并且关于图像尺寸为线性计算复杂度。</p>
+<p><img src="/images/2021/PRN35/2.png" alt="Fig 2"></p>
+<h3 id="滑动窗口">滑动窗口</h3>
+<p>Swin Transformer 的核心部件在于其滑窗 (shifted window) 方法，将前一层窗口联系起来，提高其建模能力。</p>
+<p><img src="/images/2021/PRN35/3.png" alt="Fig 3"></p>
+<h2 id="基于自注意力的滑动窗口">基于自注意力的滑动窗口</h2>
+<h3 id="不重叠窗口中的自注意力">不重叠窗口中的自注意力</h3>
+<p>在各局部窗口中计算自注意力，各窗口包含 \(M \times M\) 个 patch，其计算复杂度关于 patch 总数 \(hw\) 是线性的，而全局的自注意力复杂度则是二阶的。</p>
+<h3 id="连续块间的滑窗划分">连续块间的滑窗划分</h3>
+<p>在前一层的邻接非重叠窗口之间形成连接。</p>
+<p>$$\hat{z}^{l} = WMSA(LN(Z^{l-1})) + z^{l-1},$$
+$$z^{l} = MLP(LN(\hat{z}^{l})) + \hat{z}^{l},$$
+$$\hat{z}^{l+1} = SWMSA(LN(Z^{l})) + z^{l},$$
+$$z^{l+1} = MLP(LN(\hat{z}^{l+1})) + \hat{z}^{l+1},$$</p>
+<h3 id="高效的批量计算方法">高效的批量计算方法</h3>
+<p><img src="/images/2021/PRN35/4.png" alt="Fig 4"></p>
+<h3 id="相对位置偏置-relative-position-bias">相对位置偏置 (Relative Position Bias)</h3>
+<p>在计算自注意力过程中，在各个 head 引入一个相对位置偏置 \(B \in \mathbb{R}^{M^2 \times M^2}\)：</p>
+<p>$$Attention(Q, K, V) = softMax(QK^T / \sqrt{d} + B)V,$$</p>
+<p>其中 \(Q, K, V \in \mathbb{R}^{M^2 \times d}\)，\(M^2\) 为一个窗口中的 patch 数。</p>
 
     </div>
 
@@ -213,7 +232,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn34/>http://jonathanwayy.xyz/2021/prn34/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn35/>http://jonathanwayy.xyz/2021/prn35/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -242,14 +261,14 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
-                    #adversarial</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/gan/">
-                    #GAN</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
+                    #transformer</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial-samples/">
-                    #adversarial samples</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
+                    #ViT</a></span>
             
             </section>
         
@@ -261,10 +280,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn33/" class="prev" rel="prev" title="[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn34/" class="prev" rel="prev" title="[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn35/" class="next" rel="next" title="[论文阅读笔记 -- ViT] Swin Transformer (2021)">[论文阅读笔记 -- ViT] Swin Transformer (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -273,7 +292,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

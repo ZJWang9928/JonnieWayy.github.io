@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 05 Jul 2021 12:59:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jul 2021 10:54:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] Swin Transformer (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn35/</link>
+      <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn35/</guid>
+      <description>2103.14030 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows (2021) 开源代码传送门 背景 Transformer 在视觉任务上的主要困难 视觉元素的尺度可能相当不同，但是当前工作中 token 都固定尺度 图像具有更高的像素分辨率</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] XCiT: Cross-Covariance Image Transformers (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn32/</link>
