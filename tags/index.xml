@@ -7,20 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 09 Jul 2021 10:54:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 10:00:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -38,16 +38,25 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>pre-training</title>
+      <link>http://jonathanwayy.xyz/tags/pre-training/</link>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pre-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>transformer</title>
       <link>http://jonathanwayy.xyz/tags/transformer/</link>
-      <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
       <description></description>
@@ -56,9 +65,18 @@
     <item>
       <title>ViT</title>
       <link>http://jonathanwayy.xyz/tags/vit/</link>
-      <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/vit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attention</title>
+      <link>http://jonathanwayy.xyz/tags/attention/</link>
+      <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
     </item>
     
@@ -86,15 +104,6 @@
       <pubDate>Wed, 07 Jul 2021 11:06:29 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/gan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Tue, 06 Jul 2021 15:13:34 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     

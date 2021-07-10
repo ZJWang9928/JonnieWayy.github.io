@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn34/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn36/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn35/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn35/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn36/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ViT] Swin Transformer (2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ViT] Swin Transformer (2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ViT] Swin Transformer (2021)",
-    "headline" : "[论文阅读笔记 -- ViT] Swin Transformer (2021)",
-    "description" : "2103.14030 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows (2021) 开源代码传送门 背景 Transformer 在视觉任务上的主要困难 视觉元素的尺度可能相当不同，但是当前工作中 token 都固定尺度 图像具有更高的像素分辨率",
+    "name" : "[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)",
+    "headline" : "[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)",
+    "description" : "Unicoder-VL: A Universal Encoder for Vision and Language by Cross-Modal Pre-Training (AAAI 2020) 背景 尚未出现能够够直接处理跨模态任务与数据的预训练模型。 本文基于多层 Transformer 提出一种通用视觉语言编码器 (Universal Encoder for Vision And Language, Uni",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-09 10:54:19 \u002b0800 CST",
-    "dateModified" : "2021-07-09 10:54:19 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn35\/",
-    "wordCount" : "390",
-    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT", "Jonathan`s Blog"]
+    "datePublished": "2021-07-10 10:00:50 \u002b0800 CST",
+    "dateModified" : "2021-07-10 10:00:50 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn36\/",
+    "wordCount" : "101",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","transformer","ViT","pre-training", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT] Swin Transformer (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-07-09 itemprop="datePublished">July 9, 2021</time>
+                on <time datetime=2021-07-10 itemprop="datePublished">July 10, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 390 words</span>
+                <span class="post-word-count">, 101 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,35 +189,17 @@
           
           
 
-          <h1 id="210314030-swin-transformer-hierarchical-vision-transformer-using-shifted-windows-2021">2103.14030 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows (2021)</h1>
-<p><a href="https://github.com/microsoft/Swin-Transformer">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN35/1.png" alt="Fig 1"></p>
+          <h1 id="unicoder-vl-a-universal-encoder-for-vision-and-language-by-cross-modal-pre-training-aaai-2020">Unicoder-VL: A Universal Encoder for Vision and Language by Cross-Modal Pre-Training (AAAI 2020)</h1>
+<p><img src="/images/2021/PRN36/1.png" alt="Fig 1"></p>
 <h2 id="背景">背景</h2>
-<h3 id="transformer-在视觉任务上的主要困难">Transformer 在视觉任务上的主要困难</h3>
+<p>尚未出现能够够直接处理跨模态任务与数据的预训练模型。</p>
+<p>本文基于多层 Transformer 提出一种通用视觉语言编码器 (Universal Encoder for Vision And Language, Unicoder-VL)。</p>
+<h3 id="用到的三种预训练任务">用到的三种预训练任务</h3>
 <ul>
-<li>视觉元素的尺度可能相当不同，但是当前工作中 token 都固定尺度</li>
-<li>图像具有更高的像素分辨率</li>
+<li>Masked Language Modeling (MLM)</li>
+<li>Masked Object Classification (MOC)</li>
+<li>Visual-linguistic Matching (VLM)</li>
 </ul>
-<p>本文提出一种新的架构，称为 Swin Transformer，其构建层叠化的特征图，并且关于图像尺寸为线性计算复杂度。</p>
-<p><img src="/images/2021/PRN35/2.png" alt="Fig 2"></p>
-<h3 id="滑动窗口">滑动窗口</h3>
-<p>Swin Transformer 的核心部件在于其滑窗 (shifted window) 方法，将前一层窗口联系起来，提高其建模能力。</p>
-<p><img src="/images/2021/PRN35/3.png" alt="Fig 3"></p>
-<h2 id="基于自注意力的滑动窗口">基于自注意力的滑动窗口</h2>
-<h3 id="不重叠窗口中的自注意力">不重叠窗口中的自注意力</h3>
-<p>在各局部窗口中计算自注意力，各窗口包含 \(M \times M\) 个 patch，其计算复杂度关于 patch 总数 \(hw\) 是线性的，而全局的自注意力复杂度则是二阶的。</p>
-<h3 id="连续块间的滑窗划分">连续块间的滑窗划分</h3>
-<p>在前一层的邻接非重叠窗口之间形成连接。</p>
-<p>$$\hat{z}^{l} = WMSA(LN(Z^{l-1})) + z^{l-1},$$
-$$z^{l} = MLP(LN(\hat{z}^{l})) + \hat{z}^{l},$$
-$$\hat{z}^{l+1} = SWMSA(LN(Z^{l})) + z^{l},$$
-$$z^{l+1} = MLP(LN(\hat{z}^{l+1})) + \hat{z}^{l+1},$$</p>
-<h3 id="高效的批量计算方法">高效的批量计算方法</h3>
-<p><img src="/images/2021/PRN35/4.png" alt="Fig 4"></p>
-<h3 id="相对位置偏置-relative-position-bias">相对位置偏置 (Relative Position Bias)</h3>
-<p>在计算自注意力过程中，在各个 head 引入一个相对位置偏置 \(B \in \mathbb{R}^{M^2 \times M^2}\)：</p>
-<p>$$Attention(Q, K, V) = softMax(QK^T / \sqrt{d} + B)V,$$</p>
-<p>其中 \(Q, K, V \in \mathbb{R}^{M^2 \times d}\)，\(M^2\) 为一个窗口中的 patch 数。</p>
 
     </div>
 
@@ -232,7 +214,7 @@ $$z^{l+1} = MLP(LN(\hat{z}^{l+1})) + \hat{z}^{l+1},$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn35/>http://jonathanwayy.xyz/2021/prn35/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn36/>http://jonathanwayy.xyz/2021/prn36/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -261,14 +243,17 @@ $$z^{l+1} = MLP(LN(\hat{z}^{l+1})) + \hat{z}^{l+1},$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
-                    #attention</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
                     #transformer</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
                     #ViT</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pre-training/">
+                    #pre-training</a></span>
             
             </section>
         
@@ -280,10 +265,10 @@ $$z^{l+1} = MLP(LN(\hat{z}^{l+1})) + \hat{z}^{l+1},$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn34/" class="prev" rel="prev" title="[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn35/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT] Swin Transformer (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT] Swin Transformer (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn36/" class="next" rel="next" title="[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)">[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -292,7 +277,7 @@ $$z^{l+1} = MLP(LN(\hat{z}^{l+1})) + \hat{z}^{l+1},$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

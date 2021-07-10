@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pre-training on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/pre-training/</link>
+    <description>Recent content in pre-training on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Sat, 10 Jul 2021 10:00:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/pre-training/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn36/</link>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn36/</guid>
+      <description>Unicoder-VL: A Universal Encoder for Vision and Language by Cross-Modal Pre-Training (AAAI 2020) 背景 尚未出现能够够直接处理跨模态任务与数据的预训练模型。 本文基于多层 Transformer 提出一种通用视觉语言编码器 (Universal Encoder for Vision And Language, Uni</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 09 Jul 2021 10:54:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 10:00:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn36/</link>
+      <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn36/</guid>
+      <description>Unicoder-VL: A Universal Encoder for Vision and Language by Cross-Modal Pre-Training (AAAI 2020) 背景 尚未出现能够够直接处理跨模态任务与数据的预训练模型。 本文基于多层 Transformer 提出一种通用视觉语言编码器 (Universal Encoder for Vision And Language, Uni</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] Swin Transformer (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn35/</link>
