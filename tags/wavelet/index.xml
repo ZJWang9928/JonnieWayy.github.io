@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wavelet on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/wavelet/</link>
+    <description>Recent content in wavelet on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Sat, 10 Jul 2021 16:41:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/wavelet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)</title>
+      <link>http://jonathanwayy.xyz/2021/prn39/</link>
+      <pubDate>Sat, 10 Jul 2021 16:41:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn39/</guid>
+      <description>Multi-level Wavelet-CNN for Image Restoration (CVPR 2018) 背景 图像恢复 (Image Restoration) 的目的 从观测到的较差图像 \(y\) 恢复潜在的干净图像 \(x\)。 本文设计了一种多级小波 CNN (multi-level wavelet CNN, MWCNN) 模型，增大感受野，改善</description>
+    </item>
+    
+  </channel>
+</rss>
