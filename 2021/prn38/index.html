@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn36/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn38/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn37/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn37/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn38/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ViT / 跨模态检索] Fine-grained Visual Textual Alignment (2020) | Jonathan`s Blog
+           [论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ViT / 跨模态检索] Fine-grained Visual Textual Alignment (2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ViT \/ 跨模态检索] Fine-grained Visual Textual Alignment (2020)",
-    "headline" : "[论文阅读笔记 -- ViT \/ 跨模态检索] Fine-grained Visual Textual Alignment (2020)",
-    "description" : "2008.05231 Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders (2020) 背景 在分类任务上预训练的 CNN 网络所提取的特征通常只能捕捉到图像的全局描述，而忽视了重要的局部细节。 现有方法的问题 由于交",
+    "name" : "[论文阅读笔记 -- 频域 \/ Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)",
+    "headline" : "[论文阅读笔记 -- 频域 \/ Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)",
+    "description" : "2105.03824 FNet: Mixing Tokens with Fourier Transforms (2021) 开源代码传送门 出发点 用更简单的 token 混合机制取代自注意力层。 最终选择傅利叶变换，设计了 FNet 模型。 离散傅利叶变换 (Discrete Fourier Transform, DFT) 傅利叶变换将",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-10 11:14:29 \u002b0800 CST",
-    "dateModified" : "2021-07-10 11:14:29 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn37\/",
-    "wordCount" : "335",
-    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","cross-modal","retrieval", "Jonathan`s Blog"]
+    "datePublished": "2021-07-10 15:34:14 \u002b0800 CST",
+    "dateModified" : "2021-07-10 15:34:14 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn38\/",
+    "wordCount" : "496",
+    "keywords" : [ "paper reading","cv","notes","attention","transformer","frequency","nlp", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT / 跨模态检索] Fine-grained Visual Textual Alignment (2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 335 words</span>
+                <span class="post-word-count">, 496 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,24 +189,28 @@
           
           
 
-          <h1 id="200805231-fine-grained-visual-textual-alignment-for-cross-modal-retrieval-using-transformer-encoders-2020">2008.05231 Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders (2020)</h1>
-<h2 id="背景">背景</h2>
-<p>在分类任务上预训练的 CNN 网络所提取的特征通常只能捕捉到图像的全局描述，而忽视了重要的局部细节。</p>
-<h3 id="现有方法的问题">现有方法的问题</h3>
-<p>由于交叉注意力或记忆力层的存在，难以分开提取图文特征，效率低下。</p>
-<p>本文提出 Transformer Encoder Reasoning and Alignment Network (TERAN)，进行细粒度的单词-区域对齐。</p>
-<h2 id="transformer-编码器回顾">Transformer 编码器回顾</h2>
-<p><img src="/images/2021/PRN37/1.png" alt="Fig 1"></p>
-<h2 id="teran">TERAN</h2>
-<p><img src="/images/2021/PRN37/2.png" alt="Fig 2"></p>
-<h3 id="特征提取">特征提取</h3>
-<p>Faster-RCNN 提取视觉特征，BERT 提取文本特征。</p>
-<h3 id="目标函数">目标函数</h3>
-<p>hinge-based triplet ranking loss</p>
-<h3 id="区域-单词对齐矩阵">区域-单词对齐矩阵</h3>
-<p>用最后一个 TE 层的输出特征计算得到区域-单词对齐矩阵 \(A \in \mathbb{R}^{|g_{k}| \times |g_{l}|}\)，用余弦相似度衡量区域与单词之间的关联度，为了最终得到全局的相似度，采用了最大-求和池化 (max-sum pooling)，具体分为 max-over-regions sum-over-words (\(M_{r}S_{w}\)) pooling 和 max-over-words sum-over-regions (\(M_{w}S_{r}\)) pooling，二者得到的注意力最终求和。</p>
-<h2 id="normalized-discouted-cumulative-gain-ndcg">Normalized Discouted Cumulative Gain (NDCG)</h2>
-<p>用于通过查看排序列表前 \(p\) 项衡量根据某个 query 排序的质量。</p>
+          <h1 id="210503824-fnet-mixing-tokens-with-fourier-transforms-2021">2105.03824 FNet: Mixing Tokens with Fourier Transforms (2021)</h1>
+<p><a href="https://github.com/google-research/google-research/tree/master/f_net">开源代码传送门</a></p>
+<h2 id="出发点">出发点</h2>
+<p>用更简单的 token 混合机制取代自注意力层。</p>
+<p>最终选择傅利叶变换，设计了 FNet 模型。</p>
+<h2 id="离散傅利叶变换-discrete-fourier-transform-dft">离散傅利叶变换 (Discrete Fourier Transform, DFT)</h2>
+<p>傅利叶变换将一个函数分解频域成分，对于一个序列 \(\{x_{n}\}, n \in [0, N-1]\)，DFT 定义为：</p>
+<p>$$X_{k} = \sum_{n=0}^{N-1} x_{n} e^{-\frac{2\pi i}{N}nk}, \quad 0 \le k \le N-1.$$</p>
+<p>对于各个 \(k\)，DFT 通过对全部的原始输入 token \(x_{n}\) 根据旋转因子 (twiddle factors) 加权求和，生成一个新的特征 \(X_{k}\)。</p>
+<p>计算 DFT 有两种主要的方法，快速傅利叶变换 (Fast Fourier Transform, FFT) 与矩阵乘法。</p>
+<p>标准的 FFT 算法是 Cooley-Tukey 算法，复杂度为 \(\mathcal{O}(NlogN)\)。</p>
+<p>一种替代方式是将 DFT 矩阵简单作用于输入序列。DFT 矩阵是如下的范德蒙矩阵：</p>
+<p>$$W_{nk} = (e^{-\frac{2\pi i}{N}nk} / \sqrt{N}), \quad n,k = 0, \cdots, N-1.$$</p>
+<p>复杂度为 \(\mathcal{O}(N^2)\)，但是对于较短序列在 TPU 上计算更快。</p>
+<p><img src="/images/2021/PRN38/1.png" alt="Fig 1"></p>
+<h2 id="fnet-架构">FNet 架构</h2>
+<p>将各 Transformer 编码层中的自注意力子层替换为傅利叶子层，其对输入的 \((sequence length, hidden dimension)\) 嵌入做 2D DFT，两个维度各一个 1D DFT：</p>
+<p>$$y = \mathcal{R}(\mathcal{F}_{seq}(\mathcal{F}_{h}(x))).$$</p>
+<p>之保留实数部分，从而无需修改前向传播层来处理复数，实验发现只对最后整体的变换结果取实部得到的结果最好，即</p>
+<p>$$y = \mathcal{R}(\mathcal{F}_{seq}(\mathcal{R}(\mathcal{F}_{h}(x))))$$</p>
+<p>会使得 FNet 精度下降且稳定性变低。</p>
+<p>可将交替的编码块视为交替使用正反傅里叶变化，即将输入在时域与频域之间来回变换。</p>
 
     </div>
 
@@ -221,7 +225,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn37/>http://jonathanwayy.xyz/2021/prn37/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn38/>http://jonathanwayy.xyz/2021/prn38/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -256,14 +260,11 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
                     #transformer</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
-                    #ViT</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nlp/">
+                    #nlp</a></span>
             
             </section>
         
@@ -275,10 +276,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn36/" class="prev" rel="prev" title="[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn37/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT / 跨模态检索] Fine-grained Visual Textual Alignment (2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT / 跨模态检索] Fine-grained Visual Textual Alignment (2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn38/" class="next" rel="next" title="[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)">[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -287,7 +288,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

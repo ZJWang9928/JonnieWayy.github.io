@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 10 Jul 2021 11:14:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 15:34:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn38/</link>
+      <pubDate>Sat, 10 Jul 2021 15:34:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn38/</guid>
+      <description>2105.03824 FNet: Mixing Tokens with Fourier Transforms (2021) 开源代码传送门 出发点 用更简单的 token 混合机制取代自注意力层。 最终选择傅利叶变换，设计了 FNet 模型。 离散傅利叶变换 (Discrete Fourier Transform, DFT) 傅利叶变换将</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT / 跨模态检索] Fine-grained Visual Textual Alignment (2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn37/</link>
