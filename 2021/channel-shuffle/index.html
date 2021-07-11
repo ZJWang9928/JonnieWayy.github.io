@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn39/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/channel-shuffle/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn40/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn40/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/channel-shuffle/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021) | Jonathan`s Blog
+           炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021) | Jonathan`s Blog">
+  <meta name="title" content="炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)",
-    "headline" : "[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)",
-    "description" : "2102.00240v1 SA-Net: Shuffle Attention for Deep Convolutional Neural Networks (ICASSP 2021) 开源代码传送门 背景 设计了 Shuffle Attention (SA) 模块，将特征沿着通道维分组，对每个子特征用 Shuffle 单元同时计算通道注意力与空间注意力。 Shuffle Attention (SA) 特",
+    "name" : "炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现",
+    "headline" : "炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现",
+    "description" : "在 ShuffleNet、SA-Net 以及一系列模型中涉及到了一种 Channel Shuffle 操作，用于在沿着通道维分组运算后保证各组特征之间能够有信息交互。 Channel Shuffle 的机",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-11 10:53:48 \u002b0800 CST",
-    "dateModified" : "2021-07-11 10:53:48 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn40\/",
-    "wordCount" : "249",
-    "keywords" : [ "paper reading","cv","notes","attention", "Jonathan`s Blog"]
+    "datePublished": "2021-07-11 14:26:18 \u002b0800 CST",
+    "dateModified" : "2021-07-11 14:26:18 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/channel-shuffle\/",
+    "wordCount" : "156",
+    "keywords" : [ "cv","notes","deep learning","pytorch","attention","python", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -165,17 +165,15 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 249 words</span>
+                <span class="post-word-count">, 156 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -189,29 +187,21 @@
           
           
 
-          <h1 id="210200240v1-sa-net-shuffle-attention-for-deep-convolutional-neural-networks-icassp-2021">2102.00240v1 SA-Net: Shuffle Attention for Deep Convolutional Neural Networks (ICASSP 2021)</h1>
-<p><a href="https://github.com/wofmanaf/SA-Net">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN40/1.png" alt="Fig 1"></p>
-<h2 id="背景">背景</h2>
-<p>设计了 Shuffle Attention (SA) 模块，将特征沿着通道维分组，对每个子特征用 Shuffle 单元同时计算通道注意力与空间注意力。</p>
-<p><img src="/images/2021/PRN40/2.png" alt="Fig 2"></p>
-<h2 id="shuffle-attention-sa">Shuffle Attention (SA)</h2>
-<h3 id="特征分组">特征分组</h3>
-<p>沿着通道维将特征图分为 \(G\) 组，各子特征输入到注意力单元时又首先被一分为二，分别用于生成通道注意力图与空间注意力图。</p>
-<h3 id="通道注意力">通道注意力</h3>
-<p>$$s = \mathcal{F}_{gap}(X_{k1}) = \frac{1}{H \times W}\sum_{i=1}^H \sum_{j=1}^W X_{k1}(i, j),$$
-$$X_{k1}^{'} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) \cdot X_{k1}.$$</p>
-<h3 id="空间注意力">空间注意力</h3>
-<p>$$X_{k2}^{'} = \sigma(W_{2} \cdot GN(X_{k2}) + b_{2}) \cdot X_{k2}.$$</p>
-<p>两个分支的结果拼接得到 \(X_{k}^{'} = [X_{k1}^{'}, X_{k2}^{'}]\)。</p>
-<h3 id="聚合-aggregation">聚合 (Aggregation)</h3>
-<p>最后聚合所有子特征，采用 channel shuffle 操作，沿着通道维形成跨组的信息交流。</p>
-<h3 id="sa-模块的-pytorch-代码实现">SA 模块的 PyTorch 代码实现</h3>
-<p><img src="/images/2021/PRN40/A1.png" alt="Alg 1"></p>
-<h2 id="效果与特征可视化">效果与特征可视化</h2>
-<p><img src="/images/2021/PRN40/3.png" alt="Fig 3"></p>
-<p><img src="/images/2021/PRN40/4.png" alt="Fig 4"></p>
+          <p>在 ShuffleNet、SA-Net 以及一系列模型中涉及到了一种 Channel Shuffle 操作，用于在沿着通道维分组运算后保证各组特征之间能够有信息交互。</p>
+<p>Channel Shuffle 的机制可以理解为“变形 —— 转置 —— 变形 (reshape &ndash; transpose (permute) &ndash; reshape)” 三个步骤下。</p>
+<p>具体的 PyTorch 实现如下：</p>
+<pre><code>def channel_shuffle(x, group_num):
+    b, c, h, w = x.shape
 
+    # 变形
+    x = x.reshape(b, group_num, -1, h, w)
+    # 转置
+    x = x.permute(0, 2, 1, 3, 4)
+    # 变形
+    x = x.reshape(b, -1, h, w)
+
+    return x
+</code></pre>
     </div>
 
     <div class="post-copyright">
@@ -225,7 +215,7 @@ $$X_{k1}^{'} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) 
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn40/>http://jonathanwayy.xyz/2021/prn40/</span>
+                    <a href=http://jonathanwayy.xyz/2021/channel-shuffle/>http://jonathanwayy.xyz/2021/channel-shuffle/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -245,17 +235,23 @@ $$X_{k1}^{'} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) 
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
-                    #paper reading</a></span>
-            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
+                    #deep learning</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pytorch/">
+                    #pytorch</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
                     #attention</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
+                    #python</a></span>
             
             </section>
         
@@ -267,10 +263,10 @@ $$X_{k1}^{'} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) 
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn39/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn40/" class="prev" rel="prev" title="[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/channel-shuffle/" class="next" rel="next" title="炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现">炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -279,7 +275,7 @@ $$X_{k1}^{'} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) 
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -317,9 +313,8 @@ $$X_{k1}^{'} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) 
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 

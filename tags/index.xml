@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 11 Jul 2021 10:53:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jul 2021 14:26:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>attention</title>
       <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Sun, 11 Jul 2021 10:53:48 +0800</pubDate>
+      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
@@ -20,18 +20,45 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sun, 11 Jul 2021 10:53:48 +0800</pubDate>
+      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sun, 11 Jul 2021 10:53:48 +0800</pubDate>
+      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
@@ -162,15 +189,6 @@
     </item>
     
     <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>digital signal processing</title>
       <link>http://jonathanwayy.xyz/tags/digital-signal-processing/</link>
       <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
@@ -248,24 +266,6 @@
       <pubDate>Sat, 26 Jun 2021 11:27:54 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Sat, 26 Jun 2021 10:35:58 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Sat, 26 Jun 2021 10:35:58 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
