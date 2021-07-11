@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 10 Jul 2021 16:41:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jul 2021 10:53:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn40/</link>
+      <pubDate>Sun, 11 Jul 2021 10:53:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn40/</guid>
+      <description>2102.00240v1 SA-Net: Shuffle Attention for Deep Convolutional Neural Networks (ICASSP 2021) 开源代码传送门 背景 设计了 Shuffle Attention (SA) 模块，将特征沿着通道维分组，对每个子特征用 Shuffle 单元同时计算通道注意力与空间注意力。 Shuffle Attention (SA) 特</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)</title>
       <link>http://jonathanwayy.xyz/2021/prn39/</link>

@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn38/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn40/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn39/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn39/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn40/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018) | Jonathan`s Blog
+           [论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 频域 \/ 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)",
-    "headline" : "[论文阅读笔记 -- 频域 \/ 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)",
-    "description" : "Multi-level Wavelet-CNN for Image Restoration (CVPR 2018) 背景 图像恢复 (Image Restoration) 的目的 从观测到的较差图像 \\(y\\) 恢复潜在的干净图像 \\(x\\)。 本文设计了一种多级小波 CNN (multi-level wavelet CNN, MWCNN) 模型，增大感受野，改善",
+    "name" : "[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)",
+    "headline" : "[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)",
+    "description" : "2102.00240v1 SA-Net: Shuffle Attention for Deep Convolutional Neural Networks (ICASSP 2021) 开源代码传送门 背景 设计了 Shuffle Attention (SA) 模块，将特征沿着通道维分组，对每个子特征用 Shuffle 单元同时计算通道注意力与空间注意力。 Shuffle Attention (SA) 特",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-10 16:41:48 \u002b0800 CST",
-    "dateModified" : "2021-07-10 16:41:48 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn39\/",
-    "wordCount" : "378",
-    "keywords" : [ "paper reading","cv","notes","wavelet","frequency", "Jonathan`s Blog"]
+    "datePublished": "2021-07-11 10:53:48 \u002b0800 CST",
+    "dateModified" : "2021-07-11 10:53:48 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn40\/",
+    "wordCount" : "249",
+    "keywords" : [ "paper reading","cv","notes","attention", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-07-10 itemprop="datePublished">July 10, 2021</time>
+                on <time datetime=2021-07-11 itemprop="datePublished">July 11, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 378 words</span>
+                <span class="post-word-count">, 249 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,22 +189,28 @@
           
           
 
-          <h1 id="multi-level-wavelet-cnn-for-image-restoration-cvpr-2018">Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)</h1>
-<p><img src="/images/2021/PRN39/1.png" alt="Fig 1"></p>
+          <h1 id="210200240v1-sa-net-shuffle-attention-for-deep-convolutional-neural-networks-icassp-2021">2102.00240v1 SA-Net: Shuffle Attention for Deep Convolutional Neural Networks (ICASSP 2021)</h1>
+<p><a href="https://github.com/wofmanaf/SA-Net">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN40/1.png" alt="Fig 1"></p>
 <h2 id="背景">背景</h2>
-<h3 id="图像恢复-image-restoration-的目的">图像恢复 (Image Restoration) 的目的</h3>
-<p>从观测到的较差图像 \(y\) 恢复潜在的干净图像 \(x\)。</p>
-<p>本文设计了一种多级小波 CNN (multi-level wavelet CNN, MWCNN) 模型，增大感受野，改善表现与效率之间的权衡。</p>
-<p><img src="/images/2021/PRN39/2.png" alt="Fig 2"></p>
-<h2 id="从多级-wpt-到-mwcnn">从多级 WPT 到 MWCNN</h2>
-<p>2D 离散小波变换 (DWT) 使用 4 种滤波器与图像 \(x\) 进行卷积，卷积结果下采样后得到四个子带图 (subband images)，\(x\) 可由逆小波变换 (IWT) 重构得到：\(x = IWT(x_{1}, x_{2}, x_{3}, x_{4})\)。</p>
-<p>在多级小波包变换 (multi-level wavelet packet transform, WPT) 中，子带图进一步用 DWT 处理生成分解结果，在二级 WPT 中，各子带图被分解为四个子带图，以此类推。实际上 WPT 是 FCN 不带非线性层的一种特殊情况。</p>
-<p>本文进一步拓展 WPT，在两级 DWT 之间加入 CNN 块，构建多级小波 CNN (MWCNN)。</p>
-<h2 id="网络架构">网络架构</h2>
-<p><img src="/images/2021/PRN39/3.png" alt="Fig 3"></p>
-<p>MWCNN 架构的核心在于各级 DWT 后的 CNN 块，实现为 4 层不带池化的 FCN，每一层为 \(3 \times 3\) 卷积 + BN + ReLU，最后一个 CNN 块的最后一层不带 BN 和 ReLU。</p>
-<p>默认使用 Haar 小波，实验中也考虑了 Daubechies 2 (DB2) 等其他小波。</p>
-<p><img src="/images/2021/PRN39/4.png" alt="Fig 4"></p>
+<p>设计了 Shuffle Attention (SA) 模块，将特征沿着通道维分组，对每个子特征用 Shuffle 单元同时计算通道注意力与空间注意力。</p>
+<p><img src="/images/2021/PRN40/2.png" alt="Fig 2"></p>
+<h2 id="shuffle-attention-sa">Shuffle Attention (SA)</h2>
+<h3 id="特征分组">特征分组</h3>
+<p>沿着通道维将特征图分为 \(G\) 组，各子特征输入到注意力单元时又首先被一分为二，分别用于生成通道注意力图与空间注意力图。</p>
+<h3 id="通道注意力">通道注意力</h3>
+<p>$$s = \mathcal{F}_{gap}(X_{k1}) = \frac{1}{H \times W}\sum_{i=1}^H \sum_{j=1}^W X_{k1}(i, j),$$
+$$X_{k1}^{'} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) \cdot X_{k1}.$$</p>
+<h3 id="空间注意力">空间注意力</h3>
+<p>$$X_{k2}^{'} = \sigma(W_{2} \cdot GN(X_{k2}) + b_{2}) \cdot X_{k2}.$$</p>
+<p>两个分支的结果拼接得到 \(X_{k}^{'} = [X_{k1}^{'}, X_{k2}^{'}]\)。</p>
+<h3 id="聚合-aggregation">聚合 (Aggregation)</h3>
+<p>最后聚合所有子特征，采用 channel shuffle 操作，沿着通道维形成跨组的信息交流。</p>
+<h3 id="sa-模块的-pytorch-代码实现">SA 模块的 PyTorch 代码实现</h3>
+<p><img src="/images/2021/PRN40/A1.png" alt="Alg 1"></p>
+<h2 id="效果与特征可视化">效果与特征可视化</h2>
+<p><img src="/images/2021/PRN40/3.png" alt="Fig 3"></p>
+<p><img src="/images/2021/PRN40/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -219,7 +225,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn39/>http://jonathanwayy.xyz/2021/prn39/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn40/>http://jonathanwayy.xyz/2021/prn40/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -248,11 +254,8 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wavelet/">
-                    #wavelet</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
-                    #frequency</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
             
             </section>
         
@@ -264,10 +267,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn38/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn39/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn40/" class="next" rel="next" title="[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)">[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -276,7 +279,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
