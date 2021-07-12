@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn41/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn43/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn42/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn42/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn43/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019) | Jonathan`s Blog
+           [论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)",
-    "description" : "CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval (ICCV 2019) 开源代码传送门 背景 现有方法的问题 现有方法通常学习一个公共的嵌入空间，在其中衡量特征相似度，使用 ranking loss 进行训练。 这类方法没有",
+    "name" : "[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)",
+    "headline" : "[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)",
+    "description" : "Non-Local Neural Networks (CVPR 2018) 开源代码传送门 核心内容 提出非局部操作用于捕捉长距离依赖关系，通过输入特征图所有位置上特征的加权和计算各位置的响应值 (respons",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-12 10:58:13 \u002b0800 CST",
-    "dateModified" : "2021-07-12 10:58:13 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn42\/",
-    "wordCount" : "533",
-    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","vqa", "Jonathan`s Blog"]
+    "datePublished": "2021-07-12 15:09:26 \u002b0800 CST",
+    "dateModified" : "2021-07-12 15:09:26 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn43\/",
+    "wordCount" : "376",
+    "keywords" : [ "paper reading","cv","notes","attention", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 533 words</span>
+                <span class="post-word-count">, 376 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,51 +189,42 @@
           
           
 
-          <h1 id="camp-cross-modal-adaptive-message-passing-for-text-image-retrieval-iccv-2019">CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval (ICCV 2019)</h1>
-<p><a href="https://github.com/ZihaoWang-CV/CAMP_iccv19">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN42/1.png" alt="Fig 1"></p>
-<h2 id="背景">背景</h2>
-<h3 id="现有方法的问题">现有方法的问题</h3>
-<p>现有方法通常学习一个公共的嵌入空间，在其中衡量特征相似度，使用 ranking loss 进行训练。</p>
-<p>这类方法没有充分挖掘图文数据之间的信息交互，所提取的可能并不是最优特征。</p>
-<h3 id="一个特殊性">一个特殊性</h3>
-<p>不同于如 VQA 等问题，信息融合时的多模态特征并不总是匹配的。</p>
-<h3 id="本文的解决方案">本文的解决方案</h3>
-<p>本文提出一种跨模态自适应消息传递模型 (Cross-modal Adaptive Message Passing model, CAMP)，由跨模态消息聚合模块 (Cross-modal Message Aggregation module) 以及跨模态门控融合模块 (Cross-modal Gated Fusion module) 构成。</p>
-<p>自适应地控制来自另一模态的消息应当以何种程度与原始特征融合。</p>
-<p>直接更具融合后的特征预测跨模态匹配分数，用交叉熵训练；而非特征距离 + Ranking Loss。</p>
-<p><img src="/images/2021/PRN42/2.png" alt="Fig 2"></p>
-<h2 id="跨模态消息聚合">跨模态消息聚合</h2>
-<p>基于跨模态注意力机制。</p>
-<p>$$A = (\widetilde{W}_{v}V)^T(\widetilde{W}_{t}T) \in \mathbb{R}^{R \times N},$$
-$$\widetilde{A}_{v} = softmax(\frac{A^T}{\sqrt{d_{h}}}),$$
-$$\widetilde{V} = \widetilde{A}_{v}V^T \in \mathbb{R}^{N \times d},$$
-$$\widetilde{A}_{t} = softmax(\frac{A}{\sqrt{d_{h}}}),$$
-$$\widetilde{T} = \widetilde{A}_{t}T^T \in \mathbb{R}^{N \times d}.$$</p>
-<p><img src="/images/2021/PRN42/3.png" alt="Fig 3"></p>
-<h2 id="跨模态门控融合">跨模态门控融合</h2>
-<p>传统的融合操作假设图文特征是匹配的，这与检索任务的特性不符。</p>
-<h3 id="v-与-widetildet-融合">\(V\) 与 \(\widetilde{T}\) 融合</h3>
-<p>$$g_{i} = \sigma(v_{i} \odot \widetilde{t}_{i}^T), \quad i \in \{1, \cdots, R\},$$
-$$G_{v} = [g_{1}, \cdots, g_{R}] \in \mathbb{R}^{d \times R}.$$
-$$\hat{V} = \mathcal{F}_{v}(G_{v} \odot (V \oplus \widetilde{T}^T)) + V.$$</p>
-<h3 id="t-与-widetildev-融合">\(T\) 与 \(\widetilde{V}\) 融合</h3>
-<p>$$h_{i} = \sigma(\widetilde{v}_{i}^T \odot t_{i}), \quad i \in \{1, \cdots, N\},$$
-$$H_{t} = [h_{1}, \cdots, h_{R}] \in \mathbb{R}^{d \times N}.$$
-$$\hat{T} = \mathcal{F}_{t}(H_{t} \odot (T \oplus \widetilde{V}^T)) + T.$$</p>
-<h2 id="融合后特征的聚合">融合后特征的聚合</h2>
-<p>$$a_{v} = softmax(\frac{W_{v}\hat{V}}{\sqrt{d}})^T \in \mathbb{R}^{R},$$
-$$v^{*} = \hat{V}a_{v} \in \mathbb{R}^d.$$
-$$a_{t} = softmax(\frac{W_{t}\hat{T}}{\sqrt{d}})^T \in \mathbb{R}^{N},$$
-$$t^{*} = \hat{T}a_{t} \in \mathbb{R}^d.$$</p>
-<h2 id="推断">推断</h2>
-<p>将图文匹配变成分类问题，即匹配与失配两类，用两层 MLP 与 sigmoid 激活函数计算最终的匹配度分数：</p>
-<p>$$m(\mathcal{I}, \mathcal{T}) = \sigma(MLP(v^{*} + t^{*})).$$</p>
-<p>用  hardest negative cross-entropy loss 训练模型：</p>
-<p>$$\mathcal{L}_{BCE-h}(\mathcal{I}, \mathcal{T}) = log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{T}'}[log(1 - m(\mathcal{I}, \mathcal{T}'))]$$
-$$+ log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{I}'}[log(1 - m(\mathcal{I}', \mathcal{T}))].$$</p>
-<h2 id="检索结果示例">检索结果示例</h2>
-<p><img src="/images/2021/PRN42/4.png" alt="Fig 4"></p>
+          <h1 id="non-local-neural-networks-cvpr-2018">Non-Local Neural Networks (CVPR 2018)</h1>
+<p><a href="https://github.com/facebookresearch/video-nonlocal-net">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN43/1.png" alt="Fig 1"></p>
+<h2 id="核心内容">核心内容</h2>
+<p>提出非局部操作用于捕捉长距离依赖关系，通过输入特征图所有位置上特征的加权和计算各位置的响应值 (response)。</p>
+<h3 id="三个优势">三个优势</h3>
+<ul>
+<li>不同于局部渐进式的卷及或递归操作，非局部操作通过计算任意两个位置之间的交互关系直接捕捉长距离依赖关系</li>
+<li>高效，浅层也可以得到很好表现</li>
+<li>保留了可变化的输入尺寸，容易与卷积等其他操作结合</li>
+</ul>
+<p><img src="/images/2021/PRN43/2.png" alt="Fig 2"></p>
+<h2 id="定义">定义</h2>
+<p>首先定义一个一般的非局部操作：</p>
+<p>$$y_{i} = \frac{1}{\mathcal{C}(x)} \sum_{\forall j}f(x_{i}, x_{j})g(x_{j}).$$</p>
+<p>非局部操作与全连接区别在于全连接使用学习好的参数，关系并非输入数据的函数，而非局部则基于位置之间的关系计算响应；此外尺度可变性也是一个差异。</p>
+<h2 id="一些实例">一些实例</h2>
+<p>文中为了简化，只考虑 \(g\) 为线性嵌入即 \(g(x_{j}) = W_{g}x_{j}\) 的形式，实现为 \(1 \times 1\) 或 \(1 \times 1 \times 1\) 卷积。</p>
+<p>对 \(f\) 的选取讨论了如下一些变体。</p>
+<h3 id="gaussian">Gaussian</h3>
+<p>$$f(x_{i}, x_{j}) = e^{x_{j}^Tx_{j}},$$
+$$\mathcal{C}(x) = \sum_{\forall j}f(x_{i}, x_{j}).$$</p>
+<h3 id="embedded-gaussian">Embedded Gaussian</h3>
+<p>$$f(x_{i}, x_{j}) = e^{\theta(x_{j})^T\theta(x_{j})},$$
+$$\mathcal{C}(x) = \sum_{\forall j}f(x_{i}, x_{j}).$$</p>
+<h3 id="点乘">点乘</h3>
+<p>$$f(x_{i}, x_{j}) = \theta(x_{j})^T\theta(x_{j}),$$
+$$\mathcal{C}(x) = N.$$</p>
+<h3 id="拼接">拼接</h3>
+<p>$$f(x_{i}, x_{j}) = ReLU(w_{f}^T[\theta(x_{i}), \phi(x_{j})]),$$
+$$\mathcal{C}(x) = N.$$</p>
+<h2 id="非局部块">非局部块</h2>
+<p>非局部块定义为</p>
+<p>$$z_{i} = W_{z}y_{i} + x_{i}.$$</p>
+<h2 id="效果示例">效果示例</h2>
+<p><img src="/images/2021/PRN43/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -248,7 +239,7 @@ $$+ log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{I}'}[log(1 - m(\mathcal{I}'
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn42/>http://jonathanwayy.xyz/2021/prn42/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn43/>http://jonathanwayy.xyz/2021/prn43/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -277,17 +268,8 @@ $$+ log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{I}'}[log(1 - m(\mathcal{I}'
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
-            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
                     #attention</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vqa/">
-                    #vqa</a></span>
             
             </section>
         
@@ -299,10 +281,10 @@ $$+ log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{I}'}[log(1 - m(\mathcal{I}'
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn41/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn42/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn43/" class="next" rel="next" title="[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)">[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -311,7 +293,7 @@ $$+ log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{I}'}[log(1 - m(\mathcal{I}'
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
