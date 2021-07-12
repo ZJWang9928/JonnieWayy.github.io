@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 11 Jul 2021 10:53:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jul 2021 10:12:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn41/</link>
+      <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn41/</guid>
+      <description>Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019) 背景 风格迁移任务。 模型应当在不损伤图像细节的情况下实现风格迁移。 本文提出一种基于白化与色彩变换的小波矫正迁移 (wavelet corrected transfer based on whitening and coloring</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn40/</link>

@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 11 Jul 2021 14:26:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jul 2021 10:12:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frequency</title>
+      <link>http://jonathanwayy.xyz/tags/frequency/</link>
+      <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>style transfer</title>
+      <link>http://jonathanwayy.xyz/tags/style-transfer/</link>
+      <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/style-transfer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wavelet</title>
+      <link>http://jonathanwayy.xyz/tags/wavelet/</link>
+      <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/wavelet/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>attention</title>
       <link>http://jonathanwayy.xyz/tags/attention/</link>
@@ -18,29 +72,11 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>deep learning</title>
       <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
       <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -59,33 +95,6 @@
       <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sun, 11 Jul 2021 10:53:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>frequency</title>
-      <link>http://jonathanwayy.xyz/tags/frequency/</link>
-      <pubDate>Sat, 10 Jul 2021 16:41:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wavelet</title>
-      <link>http://jonathanwayy.xyz/tags/wavelet/</link>
-      <pubDate>Sat, 10 Jul 2021 16:41:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/wavelet/</guid>
       <description></description>
     </item>
     

@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn40/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn41/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/channel-shuffle/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/channel-shuffle/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn41/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现 | Jonathan`s Blog
+           [论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现",
-    "headline" : "炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现",
-    "description" : "在 ShuffleNet、SA-Net 以及一系列模型中涉及到了一种 Channel Shuffle 操作，用于在沿着通道维分组运算后保证各组特征之间能够有信息交互。 Channel Shuffle 的机",
+    "name" : "[论文阅读笔记 -- 频域 \/ 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)",
+    "headline" : "[论文阅读笔记 -- 频域 \/ 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)",
+    "description" : "Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019) 背景 风格迁移任务。 模型应当在不损伤图像细节的情况下实现风格迁移。 本文提出一种基于白化与色彩变换的小波矫正迁移 (wavelet corrected transfer based on whitening and coloring",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-11 14:26:18 \u002b0800 CST",
-    "dateModified" : "2021-07-11 14:26:18 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/channel-shuffle\/",
-    "wordCount" : "156",
-    "keywords" : [ "cv","notes","deep learning","pytorch","attention","python", "Jonathan`s Blog"]
+    "datePublished": "2021-07-12 10:12:48 \u002b0800 CST",
+    "dateModified" : "2021-07-12 10:12:48 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn41\/",
+    "wordCount" : "364",
+    "keywords" : [ "paper reading","cv","notes","style transfer","frequency","wavelet", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,25 +155,27 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-07-11 itemprop="datePublished">July 11, 2021</time>
+                on <time datetime=2021-07-12 itemprop="datePublished">July 12, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 156 words</span>
+                <span class="post-word-count">, 364 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -187,21 +189,32 @@
           
           
 
-          <p>在 ShuffleNet、SA-Net 以及一系列模型中涉及到了一种 Channel Shuffle 操作，用于在沿着通道维分组运算后保证各组特征之间能够有信息交互。</p>
-<p>Channel Shuffle 的机制可以理解为“变形 —— 转置 —— 变形 (reshape &ndash; transpose (permute) &ndash; reshape)” 三个步骤下。</p>
-<p>具体的 PyTorch 实现如下：</p>
-<pre><code>def channel_shuffle(x, group_num):
-    b, c, h, w = x.shape
+          <h1 id="photorealistic-style-transfer-via-wavelet-transforms-iccv-2019">Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)</h1>
+<p><img src="/images/2021/PRN41/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<p>风格迁移任务。</p>
+<p>模型应当在不损伤图像细节的情况下实现风格迁移。</p>
+<p>本文提出一种基于白化与色彩变换的小波矫正迁移 (wavelet corrected transfer based on whitening and coloring transforms, \(WCT^2\))，用小波池化与反池化 (wavelet pooling and unpooling) 替换 VGG 编码器与解码器中的池化与反池化操作。</p>
+<p>使用 progressive 风格化而非多级策略。</p>
+<p><img src="/images/2021/PRN41/2.png" alt="Fig 2"></p>
+<h2 id="小波矫正迁移-wavelet-corrected-transfer">小波矫正迁移 (Wavelet Corrected Transfer)</h2>
+<h3 id="haar-小波池化与反池化">Haar 小波池化与反池化</h3>
+<p>Haar 小波池化与反池化有四个核，分别是 \(\{LL^T, LH^T, HL^T, HH^T\}\)，其中低通滤波器 (\(L\)) 与高通滤波器 (\(H\)) 分别为：</p>
+<p>$$L^T = \frac{1}{\sqrt{2}}[1 \quad 1],$$
+$$H^T = \frac{1}{\sqrt{2}}[-1 \quad 1].$$</p>
+<p>因此不同与通常的池化操作，Haar 小波池化的输出有四个通道。</p>
+<p>低通滤波器波着平滑的表面与纹理，高通滤波器提取形如垂直、水平、对角线边的信息。</p>
+<p>小波池化的一个重要特性在于能够通过镜像化其操作重构原始信号，即小波反池化。</p>
+<h3 id="模型架构">模型架构</h3>
+<p>三种包含高频成分的通道直接跳连传输到解码器，而低频成分 \(LL\) 则传入下一个编码器层。</p>
+<h2 id="可视化分析与结果呈现">可视化分析与结果呈现</h2>
+<p><img src="/images/2021/PRN41/3.png" alt="Fig 3"></p>
+<p><img src="/images/2021/PRN41/4.png" alt="Fig 4"></p>
+<p><img src="/images/2021/PRN41/5.png" alt="Fig 5"></p>
+<p><img src="/images/2021/PRN41/6.png" alt="Fig 6"></p>
+<p><img src="/images/2021/PRN41/7.png" alt="Fig 7"></p>
+<p><img src="/images/2021/PRN41/8.png" alt="Fig 8"></p>
 
-    # 变形
-    x = x.reshape(b, group_num, -1, h, w)
-    # 转置
-    x = x.permute(0, 2, 1, 3, 4)
-    # 变形
-    x = x.reshape(b, -1, h, w)
-
-    return x
-</code></pre>
     </div>
 
     <div class="post-copyright">
@@ -215,7 +228,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/channel-shuffle/>http://jonathanwayy.xyz/2021/channel-shuffle/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn41/>http://jonathanwayy.xyz/2021/prn41/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -235,23 +248,23 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
-                    #deep learning</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/style-transfer/">
+                    #style transfer</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pytorch/">
-                    #pytorch</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
-                    #attention</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
-                    #python</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wavelet/">
+                    #wavelet</a></span>
             
             </section>
         
@@ -263,10 +276,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn40/" class="prev" rel="prev" title="[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/channel-shuffle/" class="prev" rel="prev" title="炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn41/" class="next" rel="next" title="[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)">[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -275,7 +288,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -313,8 +326,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
