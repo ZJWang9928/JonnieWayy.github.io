@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/channel-shuffle/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn42/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn41/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn41/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn42/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 频域 \/ 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)",
-    "headline" : "[论文阅读笔记 -- 频域 \/ 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)",
-    "description" : "Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019) 开源代码传送门 背景 风格迁移任务。 模型应当在不损伤图像细节的情况下实现风格迁移。 本文提出一种基于白化与色彩变换的小波矫正迁移 (wavelet",
+    "name" : "[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)",
+    "description" : "CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval (ICCV 2019) 开源代码传送门 背景 现有方法的问题 现有方法通常学习一个公共的嵌入空间，在其中衡量特征相似度，使用 ranking loss 进行训练。 这类方法没有",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-12 10:12:48 \u002b0800 CST",
-    "dateModified" : "2021-07-12 10:12:48 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn41\/",
-    "wordCount" : "375",
-    "keywords" : [ "paper reading","cv","notes","style transfer","frequency","wavelet", "Jonathan`s Blog"]
+    "datePublished": "2021-07-12 10:58:13 \u002b0800 CST",
+    "dateModified" : "2021-07-12 10:58:13 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn42\/",
+    "wordCount" : "533",
+    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","vqa", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 375 words</span>
+                <span class="post-word-count">, 533 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,35 +189,51 @@
           
           
 
-          <h1 id="photorealistic-style-transfer-via-wavelet-transforms-iccv-2019">Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)</h1>
-<p><a href="https://github.com/ClovaAI/WCT2">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN41/1.png" alt="Fig 1"></p>
+          <h1 id="camp-cross-modal-adaptive-message-passing-for-text-image-retrieval-iccv-2019">CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval (ICCV 2019)</h1>
+<p><a href="https://github.com/ZihaoWang-CV/CAMP_iccv19">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN42/1.png" alt="Fig 1"></p>
 <h2 id="背景">背景</h2>
-<p>风格迁移任务。</p>
-<p>模型应当在不损伤图像细节的情况下实现风格迁移。</p>
-<p>本文提出一种基于白化与色彩变换的小波矫正迁移 (wavelet corrected transfer based on whitening and coloring transforms, \(WCT^2\))，用小波池化与反池化 (wavelet pooling and unpooling) 替换 VGG 编码器与解码器中的池化与反池化操作。</p>
-<p>使用 progressive 风格化而非多级策略。</p>
-<p><img src="/images/2021/PRN41/2.png" alt="Fig 2"></p>
-<h2 id="小波矫正迁移-wavelet-corrected-transfer">小波矫正迁移 (Wavelet Corrected Transfer)</h2>
-<h3 id="haar-小波池化与反池化">Haar 小波池化与反池化</h3>
-<p>Haar 小波池化与反池化有四个核，分别是 \(\{LL^T, LH^T, HL^T, HH^T\}\)，其中低通滤波器 (\(L\)) 与高通滤波器 (\(H\)) 分别为：</p>
-<p>$$L^T = \frac{1}{\sqrt{2}}[1 \quad 1],$$
-$$H^T = \frac{1}{\sqrt{2}}[-1 \quad 1].$$</p>
-<p>因此不同与通常的池化操作，Haar 小波池化的输出有四个通道。</p>
-<p>低通滤波器波着平滑的表面与纹理，高通滤波器提取形如垂直、水平、对角线边的信息。</p>
-<p>小波池化的一个重要特性在于能够通过镜像化其操作重构原始信号，即小波反池化。</p>
-<p><img src="/images/2021/PRN41/S1.png" alt="Fig S1"></p>
-<h3 id="模型架构">模型架构</h3>
-<p>三种包含高频成分的通道直接跳连传输到解码器，而低频成分 \(LL\) 则传入下一个编码器层。</p>
-<h2 id="progressive-风格化">Progressive 风格化</h2>
-<p><img src="/images/2021/PRN41/S2.png" alt="Fig S2"></p>
-<h2 id="可视化分析与结果呈现">可视化分析与结果呈现</h2>
-<p><img src="/images/2021/PRN41/3.png" alt="Fig 3"></p>
-<p><img src="/images/2021/PRN41/4.png" alt="Fig 4"></p>
-<p><img src="/images/2021/PRN41/5.png" alt="Fig 5"></p>
-<p><img src="/images/2021/PRN41/6.png" alt="Fig 6"></p>
-<p><img src="/images/2021/PRN41/7.png" alt="Fig 7"></p>
-<p><img src="/images/2021/PRN41/8.png" alt="Fig 8"></p>
+<h3 id="现有方法的问题">现有方法的问题</h3>
+<p>现有方法通常学习一个公共的嵌入空间，在其中衡量特征相似度，使用 ranking loss 进行训练。</p>
+<p>这类方法没有充分挖掘图文数据之间的信息交互，所提取的可能并不是最优特征。</p>
+<h3 id="一个特殊性">一个特殊性</h3>
+<p>不同于如 VQA 等问题，信息融合时的多模态特征并不总是匹配的。</p>
+<h3 id="本文的解决方案">本文的解决方案</h3>
+<p>本文提出一种跨模态自适应消息传递模型 (Cross-modal Adaptive Message Passing model, CAMP)，由跨模态消息聚合模块 (Cross-modal Message Aggregation module) 以及跨模态门控融合模块 (Cross-modal Gated Fusion module) 构成。</p>
+<p>自适应地控制来自另一模态的消息应当以何种程度与原始特征融合。</p>
+<p>直接更具融合后的特征预测跨模态匹配分数，用交叉熵训练；而非特征距离 + Ranking Loss。</p>
+<p><img src="/images/2021/PRN42/2.png" alt="Fig 2"></p>
+<h2 id="跨模态消息聚合">跨模态消息聚合</h2>
+<p>基于跨模态注意力机制。</p>
+<p>$$A = (\widetilde{W}_{v}V)^T(\widetilde{W}_{t}T) \in \mathbb{R}^{R \times N},$$
+$$\widetilde{A}_{v} = softmax(\frac{A^T}{\sqrt{d_{h}}}),$$
+$$\widetilde{V} = \widetilde{A}_{v}V^T \in \mathbb{R}^{N \times d},$$
+$$\widetilde{A}_{t} = softmax(\frac{A}{\sqrt{d_{h}}}),$$
+$$\widetilde{T} = \widetilde{A}_{t}T^T \in \mathbb{R}^{N \times d}.$$</p>
+<p><img src="/images/2021/PRN42/3.png" alt="Fig 3"></p>
+<h2 id="跨模态门控融合">跨模态门控融合</h2>
+<p>传统的融合操作假设图文特征是匹配的，这与检索任务的特性不符。</p>
+<h3 id="v-与-widetildet-融合">\(V\) 与 \(\widetilde{T}\) 融合</h3>
+<p>$$g_{i} = \sigma(v_{i} \odot \widetilde{t}_{i}^T), \quad i \in \{1, \cdots, R\},$$
+$$G_{v} = [g_{1}, \cdots, g_{R}] \in \mathbb{R}^{d \times R}.$$
+$$\hat{V} = \mathcal{F}_{v}(G_{v} \odot (V \oplus \widetilde{T}^T)) + V.$$</p>
+<h3 id="t-与-widetildev-融合">\(T\) 与 \(\widetilde{V}\) 融合</h3>
+<p>$$h_{i} = \sigma(\widetilde{v}_{i}^T \odot t_{i}), \quad i \in \{1, \cdots, N\},$$
+$$H_{t} = [h_{1}, \cdots, h_{R}] \in \mathbb{R}^{d \times N}.$$
+$$\hat{T} = \mathcal{F}_{t}(H_{t} \odot (T \oplus \widetilde{V}^T)) + T.$$</p>
+<h2 id="融合后特征的聚合">融合后特征的聚合</h2>
+<p>$$a_{v} = softmax(\frac{W_{v}\hat{V}}{\sqrt{d}})^T \in \mathbb{R}^{R},$$
+$$v^{*} = \hat{V}a_{v} \in \mathbb{R}^d.$$
+$$a_{t} = softmax(\frac{W_{t}\hat{T}}{\sqrt{d}})^T \in \mathbb{R}^{N},$$
+$$t^{*} = \hat{T}a_{t} \in \mathbb{R}^d.$$</p>
+<h2 id="推断">推断</h2>
+<p>将图文匹配变成分类问题，即匹配与失配两类，用两层 MLP 与 sigmoid 激活函数计算最终的匹配度分数：</p>
+<p>$$m(\mathcal{I}, \mathcal{T}) = \sigma(MLP(v^{*} + t^{*})).$$</p>
+<p>用  hardest negative cross-entropy loss 训练模型：</p>
+<p>$$\mathcal{L}_{BCE-h}(\mathcal{I}, \mathcal{T}) = log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{T}'}[log(1 - m(\mathcal{I}, \mathcal{T}'))]$$
+$$+ log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{I}'}[log(1 - m(\mathcal{I}', \mathcal{T}))].$$</p>
+<h2 id="检索结果示例">检索结果示例</h2>
+<p><img src="/images/2021/PRN42/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -232,7 +248,7 @@ $$H^T = \frac{1}{\sqrt{2}}[-1 \quad 1].$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn41/>http://jonathanwayy.xyz/2021/prn41/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn42/>http://jonathanwayy.xyz/2021/prn42/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -261,14 +277,17 @@ $$H^T = \frac{1}{\sqrt{2}}[-1 \quad 1].$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/style-transfer/">
-                    #style transfer</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
-                    #frequency</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wavelet/">
-                    #wavelet</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vqa/">
+                    #vqa</a></span>
             
             </section>
         
@@ -280,10 +299,10 @@ $$H^T = \frac{1}{\sqrt{2}}[-1 \quad 1].$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/channel-shuffle/" class="prev" rel="prev" title="炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现</a>
+        <a href="http://jonathanwayy.xyz/2021/prn41/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn42/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)">[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -292,7 +311,7 @@ $$H^T = \frac{1}{\sqrt{2}}[-1 \quad 1].$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
