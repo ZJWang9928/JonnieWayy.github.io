@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn42/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn44/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn43/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn43/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn44/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018) | Jonathan`s Blog
+           [论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)",
-    "headline" : "[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)",
-    "description" : "Non-Local Neural Networks (CVPR 2018) 开源代码传送门 核心内容 提出非局部操作用于捕捉长距离依赖关系，通过输入特征图所有位置上特征的加权和计算各位置的响应值 (respons",
+    "name" : "[论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021)",
+    "headline" : "[论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021)",
+    "description" : "2012.15028 NBNet: Noise Basis Learning for Image Denoising with Subspace Projection (CVPR 2021) 核心思想 通过图像投影，利用非局部的图像信息。 由输入图像生成一组图像基向量 (image basis vectors)，接着在这些基向量张成",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-12 15:09:26 \u002b0800 CST",
-    "dateModified" : "2021-07-12 15:09:26 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn43\/",
-    "wordCount" : "376",
-    "keywords" : [ "paper reading","cv","notes","attention", "Jonathan`s Blog"]
+    "datePublished": "2021-07-12 21:56:05 \u002b0800 CST",
+    "dateModified" : "2021-07-12 21:56:05 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn44\/",
+    "wordCount" : "183",
+    "keywords" : [ "paper reading","cv","notes","image deniosing", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 376 words</span>
+                <span class="post-word-count">, 183 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,42 +189,21 @@
           
           
 
-          <h1 id="non-local-neural-networks-cvpr-2018">Non-Local Neural Networks (CVPR 2018)</h1>
-<p><a href="https://github.com/facebookresearch/video-nonlocal-net">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN43/1.png" alt="Fig 1"></p>
-<h2 id="核心内容">核心内容</h2>
-<p>提出非局部操作用于捕捉长距离依赖关系，通过输入特征图所有位置上特征的加权和计算各位置的响应值 (response)。</p>
-<h3 id="三个优势">三个优势</h3>
-<ul>
-<li>不同于局部渐进式的卷及或递归操作，非局部操作通过计算任意两个位置之间的交互关系直接捕捉长距离依赖关系</li>
-<li>高效，浅层也可以得到很好表现</li>
-<li>保留了可变化的输入尺寸，容易与卷积等其他操作结合</li>
-</ul>
-<p><img src="/images/2021/PRN43/2.png" alt="Fig 2"></p>
-<h2 id="定义">定义</h2>
-<p>首先定义一个一般的非局部操作：</p>
-<p>$$y_{i} = \frac{1}{\mathcal{C}(x)} \sum_{\forall j}f(x_{i}, x_{j})g(x_{j}).$$</p>
-<p>非局部操作与全连接区别在于全连接使用学习好的参数，关系并非输入数据的函数，而非局部则基于位置之间的关系计算响应；此外尺度可变性也是一个差异。</p>
-<h2 id="一些实例">一些实例</h2>
-<p>文中为了简化，只考虑 \(g\) 为线性嵌入即 \(g(x_{j}) = W_{g}x_{j}\) 的形式，实现为 \(1 \times 1\) 或 \(1 \times 1 \times 1\) 卷积。</p>
-<p>对 \(f\) 的选取讨论了如下一些变体。</p>
-<h3 id="gaussian">Gaussian</h3>
-<p>$$f(x_{i}, x_{j}) = e^{x_{j}^Tx_{j}},$$
-$$\mathcal{C}(x) = \sum_{\forall j}f(x_{i}, x_{j}).$$</p>
-<h3 id="embedded-gaussian">Embedded Gaussian</h3>
-<p>$$f(x_{i}, x_{j}) = e^{\theta(x_{j})^T\theta(x_{j})},$$
-$$\mathcal{C}(x) = \sum_{\forall j}f(x_{i}, x_{j}).$$</p>
-<h3 id="点乘">点乘</h3>
-<p>$$f(x_{i}, x_{j}) = \theta(x_{j})^T\theta(x_{j}),$$
-$$\mathcal{C}(x) = N.$$</p>
-<h3 id="拼接">拼接</h3>
-<p>$$f(x_{i}, x_{j}) = ReLU(w_{f}^T[\theta(x_{i}), \phi(x_{j})]),$$
-$$\mathcal{C}(x) = N.$$</p>
-<h2 id="非局部块">非局部块</h2>
-<p>非局部块定义为</p>
-<p>$$z_{i} = W_{z}y_{i} + x_{i}.$$</p>
-<h2 id="效果示例">效果示例</h2>
-<p><img src="/images/2021/PRN43/3.png" alt="Fig 3"></p>
+          <h1 id="201215028-nbnet-noise-basis-learning-for-image-denoising-with-subspace-projection-cvpr-2021">2012.15028 NBNet: Noise Basis Learning for Image Denoising with Subspace Projection (CVPR 2021)</h1>
+<p><img src="/images/2021/PRN44/1.png" alt="Fig 1"></p>
+<h2 id="核心思想">核心思想</h2>
+<p>通过图像投影，利用非局部的图像信息。</p>
+<p>由输入图像生成一组图像基向量 (image basis vectors)，接着在这些基向量张成的子空间中重构图像。</p>
+<p><img src="/images/2021/PRN44/2.png" alt="Fig 2"></p>
+<h2 id="基的生成">基的生成</h2>
+<p>$$V = [v_{1}, v_{2}, \cdots, v_{K}] = f_{theta}(X_{1}, X_{2}).$$</p>
+<h2 id="投影重构">投影重构</h2>
+<p>通过正交线性投影 (orthogonal linear projection) 将特征图 \(X_{1}\) 投影到 \(V\) 长成的子空间 \(\mathcal{V}\) 中。</p>
+<p>正交投影矩阵 \(P: \mathbb{R}^{N} \rightarrow \mathcal{V}\) 可由 \(V\) 计算得到：</p>
+<p>$$P = V(V^TV)^{-1}V^T.$$</p>
+<p>正则化项 \((V^TV)\) 确保基向量互相正交。</p>
+<p>最终将图像特征图 \(X_{1}\) 重构到信号子空间：</p>
+<p>$$Y = PX_{1}.$$</p>
 
     </div>
 
@@ -239,7 +218,7 @@ $$\mathcal{C}(x) = N.$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn43/>http://jonathanwayy.xyz/2021/prn43/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn44/>http://jonathanwayy.xyz/2021/prn44/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -268,8 +247,8 @@ $$\mathcal{C}(x) = N.$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
-                    #attention</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/image-deniosing/">
+                    #image deniosing</a></span>
             
             </section>
         
@@ -281,10 +260,10 @@ $$\mathcal{C}(x) = N.$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn42/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn43/" class="prev" rel="prev" title="[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn44/" class="next" rel="next" title="[论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021)">[论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -293,7 +272,7 @@ $$\mathcal{C}(x) = N.$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

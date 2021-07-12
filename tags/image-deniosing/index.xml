@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>image deniosing on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/image-deniosing/</link>
+    <description>Recent content in image deniosing on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Mon, 12 Jul 2021 21:56:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/image-deniosing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn44/</link>
+      <pubDate>Mon, 12 Jul 2021 21:56:05 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn44/</guid>
+      <description>2012.15028 NBNet: Noise Basis Learning for Image Denoising with Subspace Projection (CVPR 2021) 核心思想 通过图像投影，利用非局部的图像信息。 由输入图像生成一组图像基向量 (image basis vectors)，接着在这些基向量张成</description>
+    </item>
+    
+  </channel>
+</rss>
