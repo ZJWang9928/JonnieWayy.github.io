@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 12 Jul 2021 21:56:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 14:27:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kde</title>
+      <link>http://jonathanwayy.xyz/tags/kde/</link>
+      <pubDate>Tue, 13 Jul 2021 14:27:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <pubDate>Tue, 13 Jul 2021 14:27:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
+      <pubDate>Tue, 13 Jul 2021 14:27:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wallpaper</title>
+      <link>http://jonathanwayy.xyz/tags/wallpaper/</link>
+      <pubDate>Tue, 13 Jul 2021 14:27:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
@@ -239,42 +275,6 @@
       <pubDate>Sat, 03 Jul 2021 21:00:55 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kde</title>
-      <link>http://jonathanwayy.xyz/tags/kde/</link>
-      <pubDate>Tue, 29 Jun 2021 11:39:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Tue, 29 Jun 2021 11:39:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>manjaro</title>
-      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
-      <pubDate>Tue, 29 Jun 2021 11:39:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wallpaper</title>
-      <link>http://jonathanwayy.xyz/tags/wallpaper/</link>
-      <pubDate>Tue, 29 Jun 2021 11:39:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
       <description></description>
     </item>
     
