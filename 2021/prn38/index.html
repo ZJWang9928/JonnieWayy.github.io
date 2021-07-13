@@ -207,7 +207,7 @@
 <h2 id="fnet-架构">FNet 架构</h2>
 <p>将各 Transformer 编码层中的自注意力子层替换为傅利叶子层，其对输入的 \((sequence \ length, hidden \ dimension)\) 嵌入做 2D DFT，两个维度各一个 1D DFT：</p>
 <p>$$y = \mathcal{R}(\mathcal{F}_{seq}(\mathcal{F}_{h}(x))).$$</p>
-<p>之保留实数部分，从而无需修改前向传播层来处理复数，实验发现只对最后整体的变换结果取实部得到的结果最好，即</p>
+<p>只保留实数部分，从而无需修改前向传播层来处理复数，实验发现只对最后整体的变换结果取实部得到的结果最好，即</p>
 <p>$$y = \mathcal{R}(\mathcal{F}_{seq}(\mathcal{R}(\mathcal{F}_{h}(x))))$$</p>
 <p>会使得 FNet 精度下降且稳定性变低。</p>
 <p>可将交替的编码块视为交替使用正反傅里叶变化，即将输入在时域与频域之间来回变换。</p>
