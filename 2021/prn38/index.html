@@ -67,7 +67,7 @@
     "datePublished": "2021-07-10 15:34:14 \u002b0800 CST",
     "dateModified" : "2021-07-10 15:34:14 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn38\/",
-    "wordCount" : "496",
+    "wordCount" : "498",
     "keywords" : [ "paper reading","cv","notes","attention","transformer","frequency","nlp", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 496 words</span>
+                <span class="post-word-count">, 498 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -205,7 +205,7 @@
 <p>复杂度为 \(\mathcal{O}(N^2)\)，但是对于较短序列在 TPU 上计算更快。</p>
 <p><img src="/images/2021/PRN38/1.png" alt="Fig 1"></p>
 <h2 id="fnet-架构">FNet 架构</h2>
-<p>将各 Transformer 编码层中的自注意力子层替换为傅利叶子层，其对输入的 \((sequence length, hidden dimension)\) 嵌入做 2D DFT，两个维度各一个 1D DFT：</p>
+<p>将各 Transformer 编码层中的自注意力子层替换为傅利叶子层，其对输入的 \((sequence \ length, hidden \ dimension)\) 嵌入做 2D DFT，两个维度各一个 1D DFT：</p>
 <p>$$y = \mathcal{R}(\mathcal{F}_{seq}(\mathcal{F}_{h}(x))).$$</p>
 <p>之保留实数部分，从而无需修改前向传播层来处理复数，实验发现只对最后整体的变换结果取实部得到的结果最好，即</p>
 <p>$$y = \mathcal{R}(\mathcal{F}_{seq}(\mathcal{R}(\mathcal{F}_{h}(x))))$$</p>
