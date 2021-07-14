@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 12 Jul 2021 21:56:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 10:42:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Multi-Modality Cross Attention Network (CVPR 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn45/</link>
+      <pubDate>Wed, 14 Jul 2021 10:42:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn45/</guid>
+      <description>Multi-Modality Cross Attention Network for Image and Sentence Matching (CVPR 2020) 出发点 既考虑模态间关联，也考虑模态内关联。 提出多模态交叉注意力网络 (Multi-Modality Cross Attention Network)，主要由自注意力模块与交叉注意</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 图像去噪] NBNet: Noise Basis Learning with Subspace Projection (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn44/</link>
