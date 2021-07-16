@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 15 Jul 2021 21:12:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 10:29:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CNN</title>
+      <link>http://jonathanwayy.xyz/tags/cnn/</link>
+      <pubDate>Fri, 16 Jul 2021 10:29:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
+      <pubDate>Fri, 16 Jul 2021 10:29:32 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frequency</title>
+      <link>http://jonathanwayy.xyz/tags/frequency/</link>
+      <pubDate>Fri, 16 Jul 2021 10:29:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Fri, 16 Jul 2021 10:29:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Fri, 16 Jul 2021 10:29:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -32,33 +68,6 @@
       <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/face-forgery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>frequency</title>
-      <link>http://jonathanwayy.xyz/tags/frequency/</link>
-      <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
