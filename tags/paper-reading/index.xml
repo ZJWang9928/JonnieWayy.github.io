@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 16 Jul 2021 15:02:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 19:50:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn49/</link>
+      <pubDate>Fri, 16 Jul 2021 19:50:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn49/</guid>
+      <description>2107.00645 Global Filter Networks for Image Classification (2021) 开源代码传送门 核心方法 本文提出一种全局滤波器网络 (Global Filter Network, GFNet)，在频域中学习空间位置之间的相互关系。 不同于视觉 transformer 中的自注</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)</title>
       <link>http://jonathanwayy.xyz/2021/prn48/</link>

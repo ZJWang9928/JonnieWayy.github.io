@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn47/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn49/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn48/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn48/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn49/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017) | Jonathan`s Blog
+           [论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)",
-    "headline" : "[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)",
-    "description" : "Improving image classification with frequency domain layers for feature extraction (MLSP 2017) 核心 研究从频域提取的特征对深度网络架构的作用。 提出频率特征提取层。 方法 对输入图像层级式分块以提取多粒度信息，对各块使",
+    "name" : "[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)",
+    "headline" : "[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)",
+    "description" : "2107.00645 Global Filter Networks for Image Classification (2021) 开源代码传送门 核心方法 本文提出一种全局滤波器网络 (Global Filter Network, GFNet)，在频域中学习空间位置之间的相互关系。 不同于视觉 transformer 中的自注",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-16 15:02:02 \u002b0800 CST",
-    "dateModified" : "2021-07-16 15:02:02 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn48\/",
-    "wordCount" : "190",
-    "keywords" : [ "paper reading","cv","notes","frequency","CNN", "Jonathan`s Blog"]
+    "datePublished": "2021-07-16 19:50:39 \u002b0800 CST",
+    "dateModified" : "2021-07-16 19:50:39 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn49\/",
+    "wordCount" : "505",
+    "keywords" : [ "paper reading","cv","notes","frequency","image","attention","ViT", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 190 words</span>
+                <span class="post-word-count">, 505 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,22 +189,36 @@
           
           
 
-          <h1 id="improving-image-classification-with-frequency-domain-layers-for-feature-extraction-mlsp-2017">Improving image classification with frequency domain layers for feature extraction (MLSP 2017)</h1>
-<p><img src="/images/2021/PRN48/1.png" alt="Fig 1"></p>
-<h2 id="核心">核心</h2>
-<p>研究从频域提取的特征对深度网络架构的作用。</p>
-<p>提出频率特征提取层。</p>
-<p><img src="/images/2021/PRN48/2.png" alt="Fig 2"></p>
-<h2 id="方法">方法</h2>
-<p>对输入图像层级式分块以提取多粒度信息，对各块使用 2D DFT。</p>
-<p>接着频率过滤作用于各块的幅度谱，用不同带宽进行过滤，从低频到高频指数上升。</p>
-<p>$$B_{k}(u, v) = \begin{cases} 1, \qquad \forall u, v \ | \ 2^{k-1} \le \sqrt{u^2 + v^2} &lt; 2^k \\ 0, \qquad otherwise \end{cases},$$</p>
-<p>其中 \(k\) 为带索引。</p>
-<p><img src="/images/2021/PRN48/3.png" alt="Fig 3"></p>
-<p>除此以外 Gaussian 以及 Butterworth 过滤等都可以使用。</p>
-<p>使用矩阵哈达玛积：</p>
-<p>$$R_{i,k}(u, v) = F_{i}(u, v) \odot B_{k}(u, v).$$</p>
-<p>进而就是下采样与 FC。</p>
+          <h1 id="210700645-global-filter-networks-for-image-classification-2021">2107.00645 Global Filter Networks for Image Classification (2021)</h1>
+<p><a href="https://github.com/raoyongming/GFNet">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN49/1.png" alt="Fig 1"></p>
+<h2 id="核心方法">核心方法</h2>
+<p>本文提出一种全局滤波器网络 (Global Filter Network, GFNet)，在频域中学习空间位置之间的相互关系。</p>
+<p>不同于视觉 transformer 中的自注意力机制与 MLP 模型中的全连接层，token 之间的相互关系建模为一组可学习的全局滤波器 (global filters)，作用于输入特征的谱。</p>
+<p>由于全局滤波器能够覆盖所有频率，模型可以捕捉长距离与短距离的相互关系。</p>
+<h3 id="用三个部件替代-vit-的自注意力层">用三个部件替代 ViT 的自注意力层</h3>
+<ul>
+<li>2D DFT</li>
+<li>频域特征与全局滤波器之间的哈达玛积</li>
+<li>2D IDFT</li>
+</ul>
+<h2 id="全局滤波器层">全局滤波器层</h2>
+<p>全局滤波器 \(K\) 可以视为一组可学习的针对不同隐藏维度的频率滤波器。</p>
+<p>可以证明全局滤波器层等价于滤波器尺寸为 \(H \times W\) 的面向深度的全局循环卷积 (depthwise global circular convolution)。</p>
+<p>因而全局滤波器层与标准卷积层采用相对较小滤波器增强局部归纳偏差 (enforce the inductive biases of the locality) 不同。</p>
+<h2 id="gfnet-与-fnethttpjonathanwayyxyz2021prn38-对比">GFNet 与 <a href="http://jonathanwayy.xyz/2021/prn38/">FNet</a> 对比</h2>
+<ul>
+<li>FNet 对输入做 FFT 并直接将谱的实部加到输入 token 上，这导致不同域的信息混合在一起；GFNet 从频率滤波器获得启发，更合理</li>
+<li>FNet 只保留谱的实部，而由于实序列输入的谱是共轭对称的，实部对称因而有冗余信息；GFNet 利用这一特性简化运算</li>
+<li>FNet 针对 NLP 任务；GFNet 针对视觉任务</li>
+</ul>
+<h2 id="两种变体">两种变体</h2>
+<ul>
+<li>每个块具有固定数量 token 的 transformer 形式模型</li>
+<li>具有逐步下采样 token 的 CNN 形式层叠式模型</li>
+</ul>
+<h2 id="全局滤波器可视化">全局滤波器可视化</h2>
+<p><img src="/images/2021/PRN49/4.png" alt="Fig 2"></p>
 
     </div>
 
@@ -219,7 +233,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn48/>http://jonathanwayy.xyz/2021/prn48/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn49/>http://jonathanwayy.xyz/2021/prn49/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -251,8 +265,14 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
                     #frequency</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cnn/">
-                    #CNN</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/image/">
+                    #image</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
+                    #ViT</a></span>
             
             </section>
         
@@ -264,10 +284,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn47/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] High-Frequency Component Explain Generalization of CNNs (CVPR 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] High-Frequency Component Explain Generalization of CNNs (CVPR 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn48/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn49/" class="next" rel="next" title="[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)">[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -276,7 +296,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

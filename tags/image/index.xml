@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>image on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/image/</link>
+    <description>Recent content in image on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Fri, 16 Jul 2021 19:50:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn49/</link>
+      <pubDate>Fri, 16 Jul 2021 19:50:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn49/</guid>
+      <description>2107.00645 Global Filter Networks for Image Classification (2021) 开源代码传送门 核心方法 本文提出一种全局滤波器网络 (Global Filter Network, GFNet)，在频域中学习空间位置之间的相互关系。 不同于视觉 transformer 中的自注</description>
+    </item>
+    
+  </channel>
+</rss>
