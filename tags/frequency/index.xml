@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 16 Jul 2021 10:29:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 15:02:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)</title>
+      <link>http://jonathanwayy.xyz/2021/prn48/</link>
+      <pubDate>Fri, 16 Jul 2021 15:02:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn48/</guid>
+      <description>Improving image classification with frequency domain layers for feature extraction (MLSP 2017) 核心 研究从频域提取的特征对深度网络架构的作用。 提出频率特征提取层。 方法 对输入图像层级式分块以提取多粒度信息，对各块使</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] High-Frequency Component Explain Generalization of CNNs (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn47/</link>
