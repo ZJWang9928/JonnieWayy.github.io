@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn48/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn50/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn49/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn49/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn50/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 频域] Frequency learning for image classification (2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域] Frequency learning for image classification (2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)",
-    "headline" : "[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)",
-    "description" : "2107.00645 Global Filter Networks for Image Classification (2021) 开源代码传送门 核心方法 本文提出一种全局滤波器网络 (Global Filter Network, GFNet)，在频域中学习空间位置之间的相互关系。 不同于视觉 transformer 中的自注",
+    "name" : "[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)",
+    "headline" : "[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)",
+    "description" : "2006.15476 Frequency learning for image classification (2020) 核心问题 如果一个神经网络完全设计成在频域进行操作会怎么样？ 本文设计了 FreqNet 研究上述问题。 本文方法 图像分块 对图像层级式地分块以提取多",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-16 19:50:39 \u002b0800 CST",
-    "dateModified" : "2021-07-16 19:50:39 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn49\/",
-    "wordCount" : "505",
-    "keywords" : [ "paper reading","cv","notes","frequency","image","attention","ViT", "Jonathan`s Blog"]
+    "datePublished": "2021-07-16 21:04:14 \u002b0800 CST",
+    "dateModified" : "2021-07-16 21:04:14 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn50\/",
+    "wordCount" : "467",
+    "keywords" : [ "paper reading","cv","notes","frequency","image", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 505 words</span>
+                <span class="post-word-count">, 467 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,37 +189,41 @@
           
           
 
-          <h1 id="210700645-global-filter-networks-for-image-classification-2021">2107.00645 Global Filter Networks for Image Classification (2021)</h1>
-<p><a href="https://github.com/raoyongming/GFNet">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN49/1.png" alt="Fig 1"></p>
-<h2 id="核心方法">核心方法</h2>
-<p>本文提出一种全局滤波器网络 (Global Filter Network, GFNet)，在频域中学习空间位置之间的相互关系。</p>
-<p>不同于视觉 transformer 中的自注意力机制与 MLP 模型中的全连接层，token 之间的相互关系建模为一组可学习的全局滤波器 (global filters)，作用于输入特征的谱。</p>
-<p>由于全局滤波器能够覆盖所有频率，模型可以捕捉长距离与短距离的相互关系。</p>
-<p><img src="/images/2021/PRN49/A1.png" alt="Alg 1"></p>
-<h3 id="用三个部件替代-vit-的自注意力层">用三个部件替代 ViT 的自注意力层</h3>
-<ul>
-<li>2D DFT</li>
-<li>频域特征与全局滤波器之间的哈达玛积</li>
-<li>2D IDFT</li>
-</ul>
-<h2 id="全局滤波器层">全局滤波器层</h2>
-<p>全局滤波器 \(K\) 可以视为一组可学习的针对不同隐藏维度的频率滤波器。</p>
-<p>可以证明全局滤波器层等价于滤波器尺寸为 \(H \times W\) 的面向深度的全局循环卷积 (depthwise global circular convolution)。</p>
-<p>因而全局滤波器层与标准卷积层采用相对较小滤波器增强局部归纳偏差 (enforce the inductive biases of the locality) 不同。</p>
-<h2 id="gfnet-与-fnethttpjonathanwayyxyz2021prn38-对比">GFNet 与 <a href="http://jonathanwayy.xyz/2021/prn38/">FNet</a> 对比</h2>
-<ul>
-<li>FNet 对输入做 FFT 并直接将谱的实部加到输入 token 上，这导致不同域的信息混合在一起；GFNet 从频率滤波器获得启发，更合理</li>
-<li>FNet 只保留谱的实部，而由于实序列输入的谱是共轭对称的，实部对称因而有冗余信息；GFNet 利用这一特性简化运算</li>
-<li>FNet 针对 NLP 任务；GFNet 针对视觉任务</li>
-</ul>
-<h2 id="两种变体">两种变体</h2>
-<ul>
-<li>每个块具有固定数量 token 的 transformer 形式模型</li>
-<li>具有逐步下采样 token 的 CNN 形式层叠式模型</li>
-</ul>
-<h2 id="全局滤波器可视化">全局滤波器可视化</h2>
-<p><img src="/images/2021/PRN49/4.png" alt="Fig 2"></p>
+          <h1 id="200615476-frequency-learning-for-image-classification-2020">2006.15476 Frequency learning for image classification (2020)</h1>
+<h2 id="核心问题">核心问题</h2>
+<p>如果一个神经网络完全设计成在频域进行操作会怎么样？</p>
+<p>本文设计了 FreqNet 研究上述问题。</p>
+<h2 id="本文方法">本文方法</h2>
+<p><img src="/images/2021/PRN50/1.png" alt="Fig 1"></p>
+<h3 id="图像分块">图像分块</h3>
+<p><img src="/images/2021/PRN50/2.png" alt="Fig 2"></p>
+<p>对图像层级式地分块以提取多粒度信息。</p>
+<p>值得注意的一点是，即使只看很小的一块，也有可能识别出这一部分属于什么目标，本文方法探索这一可能性，因为其能够发现训练过程中应当被强调的相关频率。</p>
+<p><img src="/images/2021/PRN50/3.png" alt="Fig 3"></p>
+<h3 id="2d-dft">2D DFT</h3>
+<p><img src="/images/2021/PRN50/4.png" alt="Fig 4"></p>
+<p>对各图像块 \(i\) 使用 2D DFT，各 \(A_{i} \times B_{i}\) 的块表示为 \(f_{i}(x, y)\)，DFT 计算如下：</p>
+<p>$$F_{i}(u, v) = \sum_{x=0}^{A_{i} - 1} \sum_{y=0}^{B_{i} - 1} f_{i}(x, y)e^{-j2 \pi (ux/A_{i} + vy/B_{i})}.$$</p>
+<p><img src="/images/2021/PRN50/5.png" alt="Fig 5"></p>
+<p>为了处理复数计算问题，如下得到各块对应谱的强度 (magnitude)：</p>
+<p>$$M_{i}(u, v) = \sqrt{(Real(F_{i}(u, v)))^2 + (Imag(F_{i}(u, v)))^2}.$$</p>
+<h3 id="频率池化">频率池化</h3>
+<p><img src="/images/2021/PRN50/6.png" alt="Fig 6"></p>
+<p>DFT 域中，频率从谱的中心沿着半径从低到高变化。在这种情况下，频率通常以径向方式进行滤波。</p>
+<p>因而，半径接近的频率成分可以被归为一组。</p>
+<p>除了半径频带之外，方形频率组 (squared frequency groups) 也是可能的选择，唯一区别是用 Chebyshev 距离而非欧几里德距离。</p>
+<p><img src="/images/2021/PRN50/7.png" alt="Fig 7"></p>
+<h3 id="频率滤波">频率滤波</h3>
+<p><img src="/images/2021/PRN50/8.png" alt="Fig 8"></p>
+<p>用一个矩阵 \(W_{i} \in R^2\) 与池化后的频率强度做哈达玛积：</p>
+<p>$$\mu_{i} = M_{i} \odot W_{i}.$$</p>
+<p><img src="/images/2021/PRN50/9.png" alt="Fig 9"></p>
+<p>为了简化滤波过程，可以根据池化类型定义带权重的环或方形。</p>
+<p>接着对每个块计算一个系数：</p>
+<p>$$C_{i}(r) = \sum_{r=1}^{R} \mu_{i}(r).$$</p>
+<p>###全连接训练</p>
+<p><img src="/images/2021/PRN50/10.png" alt="Fig 10"></p>
+<p>最终拼接所有 \(C_{i}(r)\)，作为全连接层的输入。</p>
 
     </div>
 
@@ -234,7 +238,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn49/>http://jonathanwayy.xyz/2021/prn49/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn50/>http://jonathanwayy.xyz/2021/prn50/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -269,12 +273,6 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/image/">
                     #image</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
-                    #attention</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
-                    #ViT</a></span>
-            
             </section>
         
         <section>
@@ -285,10 +283,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn48/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn49/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn50/" class="next" rel="next" title="[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)">[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -297,7 +295,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

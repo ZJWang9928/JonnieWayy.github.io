@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 16 Jul 2021 19:50:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 21:04:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn50/</link>
+      <pubDate>Fri, 16 Jul 2021 21:04:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn50/</guid>
+      <description>2006.15476 Frequency learning for image classification (2020) 核心问题 如果一个神经网络完全设计成在频域进行操作会怎么样？ 本文设计了 FreqNet 研究上述问题。 本文方法 图像分块 对图像层级式地分块以提取多</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn49/</link>
