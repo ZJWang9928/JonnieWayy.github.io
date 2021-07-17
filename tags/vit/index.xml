@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 16 Jul 2021 19:50:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 14:34:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn51/</link>
+      <pubDate>Sat, 17 Jul 2021 14:34:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn51/</guid>
+      <description>2104.09770 M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection (2021) 背景 Deepfake 检测任务。 本文提出一种多模态多尺度 Transformer (Multi-modal Multi-scale Transformer, M2TR)，包含一个多尺度 Transformer 模块 (MT) 和一个跨模态融合模块 (CMF)，利用频域</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn49/</link>

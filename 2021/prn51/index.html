@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn50/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn51/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/latex_footnote_without_number/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_footnote_without_number/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn51/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           Latex 添加无编号脚注 | Jonathan`s Blog
+           [论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="Latex 添加无编号脚注 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "Latex 添加无编号脚注",
-    "headline" : "Latex 添加无编号脚注",
-    "description" : "在使用 Latex 的过程中，有时需要添加不带编号的脚注，目前尝试过有效的有两种办法，记录如下。 方法一 \\renewcommand{\\thefootnote}{} \\footnotetext{脚注内容} 方法二 \\l",
+    "name" : "[论文阅读笔记 -- 频域 \/ ViT] M2TR: Multi-modal Multi-scale Transformers (2021)",
+    "headline" : "[论文阅读笔记 -- 频域 \/ ViT] M2TR: Multi-modal Multi-scale Transformers (2021)",
+    "description" : "2104.09770 M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection (2021) 背景 Deepfake 检测任务。 本文提出一种多模态多尺度 Transformer (Multi-modal Multi-scale Transformer, M2TR)，包含一个多尺度 Transformer 模块 (MT) 和一个跨模态融合模块 (CMF)，利用频域",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-17 11:53:47 \u002b0800 CST",
-    "dateModified" : "2021-07-17 11:53:47 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/latex_footnote_without_number\/",
-    "wordCount" : "172",
-    "keywords" : [ "cv","notes","deep learning","latex","paperwriting", "Jonathan`s Blog"]
+    "datePublished": "2021-07-17 14:34:02 \u002b0800 CST",
+    "dateModified" : "2021-07-17 14:34:02 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn51\/",
+    "wordCount" : "429",
+    "keywords" : [ "paper reading","cv","notes","frequency","transformer","attention","ViT", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Latex 添加无编号脚注</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -165,15 +165,17 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/things-about-latex-md/"> Things About Latex &amp; MD </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 172 words</span>
+                <span class="post-word-count">, 429 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -187,17 +189,24 @@
           
           
 
-          <p>在使用 Latex 的过程中，有时需要添加不带编号的脚注，目前尝试过有效的有两种办法，记录如下。</p>
-<h3 id="方法一">方法一</h3>
-<pre><code>\renewcommand{\thefootnote}{}
-\footnotetext{脚注内容}
-</code></pre><h3 id="方法二">方法二</h3>
-<pre><code>\let\thefootnote\relax\footnotetext{脚注内容}
-\footnote{脚注内容}
-\footnote{脚注内容}
-\footnote{脚注内容}
-...
-</code></pre><p>第二种方法后续使用的 <code>\footnote{}</code> 都不带脚注。</p>
+          <h1 id="210409770-m2tr-multi-modal-multi-scale-transformers-for-deepfake-detection-2021">2104.09770 M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection (2021)</h1>
+<p><img src="/images/2021/PRN51/2.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<p>Deepfake 检测任务。</p>
+<p>本文提出一种多模态多尺度 Transformer (Multi-modal Multi-scale Transformer, M2TR)，包含一个多尺度 Transformer 模块 (MT) 和一个跨模态融合模块 (CMF)，利用频域信息捕捉更多细节。</p>
+<h2 id="多尺度-transformer">多尺度 Transformer</h2>
+<p><img src="/images/2021/PRN51/3.png" alt="Fig 2"></p>
+<h2 id="跨模态融合-cmf">跨模态融合 (CMF)</h2>
+<p>首先用 DCT 将输入的图像 \(X\) 从 RGB 域变换到频域，得到 \(\mathcal{DCT}(X) \in \mathbb{R}^{H \times W \times 1}\)。</p>
+<p>由于 DCT 的性质，低频响应位于 \(\mathcal{DCT}(X)\) 的左上角，高频响应位于右下角。</p>
+<p>利用三种人工设计的二值基滤波器 \(\{t_{base}^{i}\}_{i=1}^{3}\) 将频域分为低、中、高三种频带，得到分解后的频率成分：</p>
+<p>$$d_{i} = \mathcal{DCT}(X) \odot t_{base}^{i}, i = \{1, 2, 3\}.$$</p>
+<p>低频带为整个谱的前 \(1/16\)，中频带为 \(1/16\) 到 \(1/8\)，高频带为后 \(7/8\)。</p>
+<p>接着用 IDCT 将 \(d_{i}\) 变换会 RGB 域得到 \(b_{i} = \mathcal{DCT}^{-1}(d_{i})\)，最终沿着通道维拼接得到 \(B \in \mathbb{H \times W \times 3}\)，输入几个卷积层提取频率特征 \(f_{fq}\)。</p>
+<p>CMF 用于融合 RBG 特征 \(f_{s}\) 与频率特征 \(f_{fq}\)。使用 query-key-value 机制，用 \(1 \times 1\) 卷积将两种特征嵌入</p>
+<p>$$Q = conv_{q}(f_{s}), \ K = Conv_{k}(f_{fq}), \ V = Conv_{v}(f_{fq}).$$</p>
+<p>沿着空间维度拉平得到 2D 嵌入 \(\widetilde{Q}, \widetilde{K}, \widetilde{V} \in \mathbb{R}^{(HW/16) \times C}\)，计算融合特征</p>
+<p>$$f_{fuse} = softmax(\frac{\widetilde{Q}\widetilde{K}^T}{\sqrt{H/4 \times W/4 \times C}})\widetilde{V}.$$</p>
 
     </div>
 
@@ -212,7 +221,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/latex_footnote_without_number/>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn51/>http://jonathanwayy.xyz/2021/prn51/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -232,20 +241,26 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
-                    #deep learning</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/latex/">
-                    #latex</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
+                    #transformer</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paperwriting/">
-                    #paperwriting</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
+                    #ViT</a></span>
             
             </section>
         
@@ -257,10 +272,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn50/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/latex_footnote_without_number/" class="prev" rel="prev" title="Latex 添加无编号脚注"><i class="iconfont icon-left"></i>&nbsp;Latex 添加无编号脚注</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn51/" class="next" rel="next" title="[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)">[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -269,7 +284,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -307,8 +322,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
