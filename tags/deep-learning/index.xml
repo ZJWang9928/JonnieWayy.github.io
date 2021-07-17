@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 11 Jul 2021 14:26:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 11:53:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 添加无编号脚注</title>
+      <link>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</link>
+      <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</guid>
+      <description>在使用 Latex 的过程中，有时需要添加不带编号的脚注，目前尝试过有效的有两种办法，记录如下。 方法一 \renewcommand{\thefootnote}{} \footnotetext{脚注内容} 方法二 \l</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现</title>
       <link>http://jonathanwayy.xyz/2021/channel-shuffle/</link>

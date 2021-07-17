@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 16 Jul 2021 21:04:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 11:53:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 16 Jul 2021 21:04:14 +0800</pubDate>
+      <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>http://jonathanwayy.xyz/tags/latex/</link>
+      <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paperwriting</title>
+      <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
+      <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
       <description></description>
     </item>
     
@@ -32,15 +68,6 @@
       <pubDate>Fri, 16 Jul 2021 21:04:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 16 Jul 2021 21:04:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -189,15 +216,6 @@
     </item>
     
     <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Python</title>
       <link>http://jonathanwayy.xyz/tags/python/</link>
       <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
@@ -338,24 +356,6 @@
       <pubDate>Sat, 26 Jun 2021 10:35:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/rnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>latex</title>
-      <link>http://jonathanwayy.xyz/tags/latex/</link>
-      <pubDate>Fri, 25 Jun 2021 11:30:21 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paperwriting</title>
-      <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
-      <pubDate>Fri, 25 Jun 2021 11:30:21 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
       <description></description>
     </item>
     

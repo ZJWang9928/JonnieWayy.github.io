@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 16 Jul 2021 21:04:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 11:53:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 添加无编号脚注</title>
+      <link>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</link>
+      <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</guid>
+      <description>在使用 Latex 的过程中，有时需要添加不带编号的脚注，目前尝试过有效的有两种办法，记录如下。 方法一 \renewcommand{\thefootnote}{} \footnotetext{脚注内容} 方法二 \l</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn50/</link>
