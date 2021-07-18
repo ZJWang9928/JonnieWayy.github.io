@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn51/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn53/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn52/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn52/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn53/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索 \/ 图网络] Graph Structured Network (CVPR 2020)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索 \/ 图网络] Graph Structured Network (CVPR 2020)",
-    "description" : "2004.00277 Graph Structured Network for Image-Text Matching (CVPR 2020) 开源代码传送门 总览 本文提出一种图结构匹配网络 (Graph Structured Matching Network, GSMN)，对目标、关系与属性显式建模。 以下两组相关性互相促进 细粒度目",
+    "name" : "[论文阅读笔记 -- 跨模态检索 \/ 图网络] Cross-Graph Attention Model (SIGIR 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索 \/ 图网络] Cross-Graph Attention Model (SIGIR 2021)",
+    "description" : "Cross-Graph Attention Enhanced Multi-Modal Correlation Learning for Fine-Grained Image-Text Retrieval (SIGIR 2021) 背景 SIGIR 2021 短文。 现有三类跨模态检索方法 全局相关性学习 局部相关性学习 高阶语义概念学习 在模态特定的语义概念 (modality-specific semantic concepts) 之外，还应",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-18 10:10:07 \u002b0800 CST",
-    "dateModified" : "2021-07-18 10:10:07 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn52\/",
-    "wordCount" : "960",
+    "datePublished": "2021-07-18 11:25:44 \u002b0800 CST",
+    "dateModified" : "2021-07-18 11:25:44 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn53\/",
+    "wordCount" : "608",
     "keywords" : [ "paper reading","cv","notes","attention","cross-modal","retrieval","graph","GCN", "Jonathan`s Blog"]
 }
 </script>
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 960 words</span>
+                <span class="post-word-count">, 608 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,62 +189,43 @@
           
           
 
-          <h1 id="200400277-graph-structured-network-for-image-text-matching-cvpr-2020">2004.00277 Graph Structured Network for Image-Text Matching (CVPR 2020)</h1>
-<p><a href="https://github.com/CrossmodalGroup/GSMN">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN52/1.png" alt="Fig 1"></p>
-<h2 id="总览">总览</h2>
-<p>本文提出一种图结构匹配网络 (Graph Structured Matching Network, GSMN)，对目标、关系与属性显式建模。</p>
-<h3 id="以下两组相关性互相促进">以下两组相关性互相促进</h3>
+          <h1 id="cross-graph-attention-enhanced-multi-modal-correlation-learning-for-fine-grained-image-text-retrieval-sigir-2021">Cross-Graph Attention Enhanced Multi-Modal Correlation Learning for Fine-Grained Image-Text Retrieval (SIGIR 2021)</h1>
+<p><img src="/images/2021/PRN53/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<p>SIGIR 2021 短文。</p>
+<h3 id="现有三类跨模态检索方法">现有三类跨模态检索方法</h3>
 <ul>
-<li>细粒度目标相关性 (fine-grained object correspondence)</li>
-<li>联系相关性 (relation correspondence) 与属性相关性 (attribute correspondence)</li>
+<li>全局相关性学习</li>
+<li>局部相关性学习</li>
+<li>高阶语义概念学习</li>
 </ul>
-<p>三者构成图，目标节点与联系节点或属性节点相连，在视觉图与文本图上均进行节点级别与结构级别的匹配。</p>
-<p><img src="/images/2021/PRN52/2.png" alt="Fig 2"></p>
-<h2 id="图的构建">图的构建</h2>
-<h3 id="文本图-textual-graph">文本图 (Textual Graph)</h3>
-<p>文本图实现为无向稀疏图。</p>
-<p>首先用预训练模型 Standford CoreNLP 提取文本中的语义依赖关系，其除了能够解构句子中的目标（名词）、联系（动词）以及属性（形容词或量词）之外，还能解构这些元素之间的语义依赖。</p>
-<p>将各单词作为节点，若两单词之间有语义依赖则存在一条边。单词表征 \(u\) 的相似度矩阵 \(S\) 计算如下：</p>
-<p>$$s_{ij} = \frac{exp(\lambda u_{i}^Tu_{j})}{\sum_{j=0}^m exp(\lambda u_{i}^Tu_{j})}.$$</p>
-<p>边的权重矩阵如下计算得到：</p>
-<p>$$W_{e} = ||S \circ A||_{2}.$$</p>
-<p>此外，也将文本图实现为全连接图，比起利用单词语义依赖关系的稀疏图，其能够挖掘隐式依赖。</p>
-<p>能够发现，稀疏图与稠密图能互补以提升表现。</p>
-<h3 id="视觉图-visual-graph">视觉图 (Visual Graph)</h3>
-<p>将每张图像表征为无向全连接图，以 Faster-RCNN 检测到的显著区域作为节点。</p>
-<p>受到 VQA 上方法的启发，用极坐标建模各图的空间关系。</p>
-<h2 id="多模态图匹配">多模态图匹配</h2>
-<p>目的在于匹配两张图以学习细粒度的相关性，生成相似度 \(g(G_{1}, G_{2})\) 作为一个图文对之间的相似度。</p>
-<p>文本图与视觉图的节点特征分别表示为 \(U_{\alpha} \in \mathbb{R}^{m \times d}\) 与 \(V_{\beta} \in \mathbb{R}^{n \times d}\)。</p>
-<h3 id="节点级别匹配">节点级别匹配</h3>
-<h4 id="文本图上的节点级别匹配">文本图上的节点级别匹配</h4>
-<p>根据相似度聚合视觉节点：</p>
-<p>$$C_{t \rightarrow i} = softmax_{\beta}(\lambda U_{\alpha}V_{\beta}^T)V_{\beta}.$$</p>
-<p>不同于此前方法使用学习到的相关性计算全局相似度，本文采用一种多块模块 (multi-block module) 计算文本节点与聚合后的视觉节点 \(C_{t \rightarrow i}\) 之间面向块的相似度 (block-wise similarity)，将相似度由标量变成了向量。</p>
-<p>将第 \(i\) 对节点均划分成 \(t\) 个块，分别计算余弦相似度后拼接：</p>
-<p>$$u_{i} = [u_{i1}, \cdots, u_{it}],$$
-$$c_{i} = [c_{i1}, \cdots, c_{it}],$$
-$$x_{ij} = cos(u_{ij}, c_{ij}),$$
-$$x_{i} = x_{i1} || x_{i2} || \cdots || x_{it},$$</p>
-<p>\(x_{i}\) 表示第 \(i\) 个文本节点的匹配向量。</p>
-<h4 id="视觉图上的节点级别匹配">视觉图上的节点级别匹配</h4>
-<p>视觉图的操作与文本图对称。</p>
-<p>聚合文本节点：</p>
-<p>$$C_{i \rightarrow t} = softmax_{\alpha}(\lambda V_{\beta}U_{\alpha}^T)U_{\alpha}.$$</p>
-<p>多块模块与上一节类似。</p>
-<h3 id="结构级别匹配">结构级别匹配</h3>
-<p>利用 GCN 组合邻域匹配向量以更新各节点的匹配向量，得到联系相关性，GCN 层使用 \(K\) 个核：</p>
-<p>$$\hat{x}_{i} = ||_{k=1}^K \sigma (\sum_{j \in N_{i}} W_{e}W_{k}x_{j} + b),$$</p>
-<p>\(W_{e}\) 是边权重矩阵，卷积的结果拼接 \(K\) 个核的输出得到。</p>
-<p>用得到的相关性计算图文对的整体匹配分数，用 MLP 联合考虑全部相关性，表征一张结构化的图与另一张结构化的图有多匹配：</p>
-<p>$$s_{t \rightarrow i} = \frac{1}{n} \sum_{i} W_{s}^u (tanh(W_{h}^u \hat{x}_{i} + b_{h}^u)) + b_{s}^u,$$
-$$s_{i \rightarrow t} = \frac{1}{m} \sum_{j} W_{s}^v (tanh(W_{h}^u \hat{x}_{j} + b_{h}^v)) + b_{s}^v,$$</p>
-<p>图文对的整体匹配分数为：</p>
-<p>$$g(G_{1}, G_{2}) = s_{t \rightarrow i} + s_{i \rightarrow t}.$$</p>
-<h2 id="目标函数">目标函数</h2>
-<p>三元组损失：</p>
-<p>$$L = \sum_{(I, T)} [\gamma - g(I, T) + g(I, T')]_{+} + [\gamma - g(I, T) + g(I', T)]_{+}.$$</p>
+<p>在模态特定的语义概念 (modality-specific semantic concepts) 之外，还应当考虑共享的语义概念 (shared semantic concepts)。</p>
+<p>本文提出一种跨图注意力模型 (Cross-Graph Attention Model, CGAM)，为图文模态均构建全连接带权图，通过图注意力网络更新节点。</p>
+<h2 id="特征编码">特征编码</h2>
+<h3 id="视觉表征">视觉表征</h3>
+<p>bottom-up attention model + 全连接层。</p>
+<p>表征为 \(H^{\mathcal{I}} = \{h_{1}^{\mathcal{I}}, \cdots, h_{n_{o}}^{\mathcal{I}}\}\)，目标的类别与属性表征为 \(O = \{o_{1}, \cdots, o_{n_{o}}\}\)。</p>
+<h3 id="文本表征">文本表征</h3>
+<p>Bi-GRU。</p>
+<p>表征为 \(H^{\mathcal{T}} = \{h_{1}^{\mathcal{T}}, \cdots, h_{n_{w}}^{\mathcal{T}}\}\)。</p>
+<h2 id="跨图注意力模型">跨图注意力模型</h2>
+<p>平滑图文之间的语义差异，同时强化共享的语义概念以提纯特征表征，首先如下拼接图文特征：</p>
+<p>$$Z = \left[ \begin{matrix} H^{\mathcal{I}} \\ H^{\mathcal{T}} \end{matrix} \right].$$</p>
+<p>通过四张全连接带权图构建模态内与模态间的语义关联：\(G_{I \rightarrow I} = (V_{1}, E_{1})\)，\(G_{I \rightarrow T} = (V_{2}, E_{2})\)，\(G_{T \rightarrow I} = (V_{3}, E_{3})\)，\(G_{T \rightarrow T} = (V_{4}, E_{4})\)。</p>
+<p>邻接矩阵构建如下：</p>
+<p>$$Q_{i} = FC_{q}(H^{\mathcal{I}}), K_{i} = FC_{k}(H^{\mathcal{I}}), Q_{t} = FC_{q}(H^{\mathcal{T}}), Q_{t} = FC_{k}(H^{\mathcal{T}}),$$
+$$A_{I \rightarrow I} = Q_{i}K_{i}^T, A_{I \rightarrow T} = Q_{i}K_{t}^T, A_{T \rightarrow I} = Q_{t}K_{i}^T, A_{T \rightarrow T} = Q_{t}K_{t}^T,$$
+$$ A = \left[ \begin{matrix} A_{I \rightarrow I}/N &amp; A_{I \rightarrow T}/N \\ A_{T \rightarrow I}/N &amp; A_{T \rightarrow T}/N \end{matrix} \right], \quad N = n_{o} + n_{w}.$$</p>
+<p>共享语义概念特征 \(C\) 计算如下：</p>
+<p>$$C = FC(AZW + Z).$$</p>
+<h2 id="特征重构">特征重构</h2>
+<p>用共享概念特征重构模态特定的特征。</p>
+<p>$$W^{\mathcal{I}} = softmax(H^{\mathcal{I}}C^T), \quad W^{\mathcal{T}} = softmax(H^{\mathcal{T}}C^T),$$
+$$R^{\mathcal{I}} = W^{\mathcal{I}}C, \quad R^{\mathcal{T}} = W^{\mathcal{T}}C.$$</p>
+<h2 id="多头注意力的计算">多头注意力的计算</h2>
+<p>将 \(H\) 和 \(R\) 均划分成 \(K\) 组，分别计算余弦相似度，拼接成向量用两层夹 tanh 的 FC 求得相似度。</p>
+<h2 id="损失函数">损失函数</h2>
+<p>三元组损失。</p>
 
     </div>
 
@@ -259,7 +240,7 @@ $$s_{i \rightarrow t} = \frac{1}{m} \sum_{j} W_{s}^v (tanh(W_{h}^u \hat{x}_{j} +
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn52/>http://jonathanwayy.xyz/2021/prn52/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn53/>http://jonathanwayy.xyz/2021/prn53/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -313,10 +294,10 @@ $$s_{i \rightarrow t} = \frac{1}{m} \sum_{j} W_{s}^v (tanh(W_{h}^u \hat{x}_{j} +
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn51/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn52/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn53/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)">[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -325,7 +306,7 @@ $$s_{i \rightarrow t} = \frac{1}{m} \sum_{j} W_{s}^v (tanh(W_{h}^u \hat{x}_{j} +
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">1000 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

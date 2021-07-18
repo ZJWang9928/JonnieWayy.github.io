@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 18 Jul 2021 10:10:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 11:25:44 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn53/</link>
+      <pubDate>Sun, 18 Jul 2021 11:25:44 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn53/</guid>
+      <description>Cross-Graph Attention Enhanced Multi-Modal Correlation Learning for Fine-Grained Image-Text Retrieval (SIGIR 2021) 背景 SIGIR 2021 短文。 现有三类跨模态检索方法 全局相关性学习 局部相关性学习 高阶语义概念学习 在模态特定的语义概念 (modality-specific semantic concepts) 之外，还应</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn52/</link>
