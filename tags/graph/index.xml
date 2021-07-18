@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 03 Jul 2021 21:00:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 10:10:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn52/</link>
+      <pubDate>Sun, 18 Jul 2021 10:10:07 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn52/</guid>
+      <description>2004.00277 Graph Structured Network for Image-Text Matching (CVPR 2020) 开源代码传送门 总览 本文提出一种图结构匹配网络 (Graph Structured Matching Network, GSMN)，对目标、关系与属性显式建模。 以下两组相关性互相促进 细粒度目</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Similarity Reasoning and Filtration (AAAI 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn31/</link>
