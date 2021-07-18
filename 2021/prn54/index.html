@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn53/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn54/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/latex_matrix/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_matrix/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn54/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           Latex 中矩阵的几种实现方式 | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="Latex 中矩阵的几种实现方式 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "Latex 中矩阵的几种实现方式",
-    "headline" : "Latex 中矩阵的几种实现方式",
-    "description" : "记录一下 Latex 中实现矩阵的几种方式。 1. 无括号 代码 \\begin{matrix} 0 \u0026amp; 1 \\\\ 2 \u0026amp; 3 \\end{matrix} 效果 $$\\begin{matrix} 0 \u0026amp; 1 \\\\ 2 \u0026amp; 3 \\end{matrix}$$ 2. 圆括号 代码 \\begin{pmatrix} 0 \u0026amp; 1 \\\\ 2 \u0026amp; 3 \\end{pmatrix} % 或 \\left(\\begin{matrix} 0 \u0026amp; 1 \\\\ 2 \u0026amp; 3 \\end{matrix}\\right) 效果",
+    "name" : "[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021)",
+    "description" : "Heterogeneous Attention Network for Effective and Efficient Cross-modal Retrieval (SIGIR 2021) 背景 联合嵌入 (joint embedding) 方法的问题 只进行全局匹配 文本与图像只在匹配阶段有交互 多模态的 Transformer 系方法能够在较早的阶段实现跨模态交互，但",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-18 16:20:27 \u002b0800 CST",
-    "dateModified" : "2021-07-18 16:20:27 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/latex_matrix\/",
-    "wordCount" : "215",
-    "keywords" : [ "cv","notes","deep learning","latex","paperwriting", "Jonathan`s Blog"]
+    "datePublished": "2021-07-18 19:39:50 \u002b0800 CST",
+    "dateModified" : "2021-07-18 19:39:50 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn54\/",
+    "wordCount" : "575",
+    "keywords" : [ "paper reading","cv","notes","attention","cross-modal","retrieval","transformer","ViT", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Latex 中矩阵的几种实现方式</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -165,15 +165,17 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/things-about-latex-md/"> Things About Latex &amp; MD </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 215 words</span>
+                <span class="post-word-count">, 575 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -187,45 +189,55 @@
           
           
 
-          <p>记录一下 Latex 中实现矩阵的几种方式。</p>
-<h3 id="1-无括号">1. 无括号</h3>
-<h4 id="代码">代码</h4>
-<pre><code>\begin{matrix} 0 &amp; 1 \\ 2 &amp; 3 \end{matrix}
-</code></pre><h4 id="效果">效果</h4>
-<p>$$\begin{matrix} 0 &amp; 1 \\ 2 &amp; 3 \end{matrix}$$</p>
-<h3 id="2-圆括号">2. 圆括号</h3>
-<h4 id="代码-1">代码</h4>
-<pre><code>\begin{pmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{pmatrix}
-% 或
-\left(\begin{matrix} 0 &amp; 1 \\ 2 &amp; 3 \end{matrix}\right)
-</code></pre><h4 id="效果-1">效果</h4>
-<p>$$\begin{pmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{pmatrix}$$</p>
-<h3 id="3-方括号">3. 方括号</h3>
-<h4 id="代码-2">代码</h4>
-<pre><code>\begin{bmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{bmatrix}
-% 或
-\left[\begin{matrix} 0 &amp; 1 \\ 2 &amp; 3 \end{matrix}\right]
-</code></pre><h4 id="效果-2">效果</h4>
-<p>$$\begin{bmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{bmatrix}$$</p>
-<h3 id="4-花括号">4. 花括号</h3>
-<h4 id="代码-3">代码</h4>
-<pre><code>\begin{Bmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{Bmatrix}
-% 或
-\left\{\begin{matrix} 0 &amp; 1 \\ 2 &amp; 3 \end{matrix}\right\}
-</code></pre><h4 id="效果-3">效果</h4>
-<p>$$\begin{Bmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{Bmatrix}$$</p>
-<h3 id="5-竖线">5. 竖线</h3>
-<h4 id="代码-4">代码</h4>
-<pre><code>\begin{vmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{vmatrix}
-% 或
-\left|\begin{matrix} 0 &amp; 1 \\ 2 &amp; 3 \end{matrix}\right|
-</code></pre><h4 id="效果-4">效果</h4>
-<p>$$\begin{vmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{vmatrix}$$</p>
-<h3 id="6-双竖线">6. 双竖线</h3>
-<h4 id="代码-5">代码</h4>
-<pre><code>\begin{Vmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{Vmatrix}
-</code></pre><h4 id="效果-5">效果</h4>
-<p>$$\begin{Vmatrix} 0 &amp; 1 \\ 2 &amp; 3 \end{Vmatrix}$$</p>
+          <h1 id="heterogeneous-attention-network-for-effective-and-efficient-cross-modal-retrieval-sigir-2021">Heterogeneous Attention Network for Effective and Efficient Cross-modal Retrieval (SIGIR 2021)</h1>
+<p><img src="/images/2021/PRN54/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<h3 id="联合嵌入-joint-embedding-方法的问题">联合嵌入 (joint embedding) 方法的问题</h3>
+<ul>
+<li>只进行全局匹配</li>
+<li>文本与图像只在匹配阶段有交互</li>
+</ul>
+<p>多模态的 Transformer 系方法能够在较早的阶段实现跨模态交互，但是计算量巨大。</p>
+<p>本文提出一种异质注意力网络 (Heterogeneous Attention Network, HAN)。</p>
+<h3 id="组成-han-的四个模块">组成 HAN 的四个模块</h3>
+<ul>
+<li>图文编码模块</li>
+<li>异质注意力模块</li>
+<li>匹配模块</li>
+<li>损失模块</li>
+</ul>
+<h2 id="特征编码">特征编码</h2>
+<h3 id="视觉特征">视觉特征</h3>
+<p>Faster-RCNN + FC</p>
+<h3 id="文本特征">文本特征</h3>
+<p>Bi-GRU</p>
+<h2 id="异质注意力模块">异质注意力模块</h2>
+<p>模块的输入由用 \(\mathcal{l}_{2}\) 范数规范化后的单词特征与选框特征拼接得到：</p>
+<p>$$[h_{1}, \cdots, h_{m+n}] = [\frac{o_{1}}{||o_{1}||_{2}}, \cdots, \frac{o_{m}}{||o_{m}||_{2}}, \frac{w_{1}}{||w_{1}||_{2}}, \cdots, \frac{w_{n}}{||w_{n}||_{2}}].$$</p>
+<p>异质注意力模块由若干自注意力块堆叠而成：</p>
+<p>$$q_{i} = W_{q}h_{i} + b_{q}, \ k_{i} = W_{k}h_{i} + b_{k}, \ v_{i} = W_{v}h_{i} + b_{v},$$
+$$a_{i, j} = q_{i}^Tk_{j}, \ i,j \in [1, \cdots, m+n],$$
+$$\hat{a}_{i, j} = \frac{e^{\beta a_{i,j}}}{\sum_{k=1}^{n+m} e^{\beta a_{i, k}}}, \ i,j \in [1, \cdots, m+n],$$
+$$\hat{h}_{i} = [v_{1}, v_{2}, \cdots, v_{n+m}]a_{i}, \ i \in [1, \cdots, m+n],$$
+$$\widetilde{h}_{i} = fc(\hat{h}_{i}) + q_{i}, \ i \in [1, \cdots, m+n],$$</p>
+<h2 id="对齐与匹配模块">对齐与匹配模块</h2>
+<p>得到跨模态注意力处理后的图文特征：</p>
+<p>$$\hat{w}_{i} = \widetilde{h}_{i}, \ i \in [1, \cdots, n],$$
+$$\hat{o}_{i} = \widetilde{h}_{n + i}, \ i \in [1, \cdots, m],$$</p>
+<h3 id="对齐">对齐</h3>
+<p>两两计算相似度并求 softmax，对视觉特征做加权和得到各文本特征 \(\hat{w}_{i}\) 对应的 \(\widetilde{o}_{i}\)。</p>
+<h3 id="匹配">匹配</h3>
+<p>计算 \(\hat{w}_{i}\) 与 \(\widetilde{o}_{i}\) 之间余弦相似度得到 \(r_{i}\)，求平均得到 \(S_{AVG}\)。</p>
+<h2 id="算法描述">算法描述</h2>
+<p><img src="/images/2021/PRN54/A1.png" alt="Alg 1"></p>
+<h2 id="损失模块">损失模块</h2>
+<p>提出一种 soft-max 三元组损失：</p>
+<p>$$\mathcal{L}_{soft} = \sum_{i=1}^K \{[\sum_{j \ne i}[S_{ij} - S{ii} + \mu]_{+}^p]^{1/p} + [\sum_{i \ne j}[S_{ij} - S{jj} + \mu]_{+}^p]^{1/p}\},$$</p>
+<p>其中 \(p &gt; 1\)，上式中可以如下改写：</p>
+<p>$$[S_{ij} - S{ii} + \mu]_{+}^p = w_{ij}[S_{ij} - S{ii} + \mu]_{+}^{p-1},$$</p>
+<p>其中</p>
+<p>$$w_{ij} = [S_{ij} - S{ii} + \mu]_{+}^{p-1}.$$</p>
+<p>由于 \(p &gt; 1\),\([S_{ij} - S{ii} + \mu]\) 越大则 \(w_{ij}\) 越大，从而给了更困难的样本更高的权重，且同时考虑了所有负样本，\(p = 1\) 时退化为全部直接求和的形式，而 \(p \rightarrow +\infty\) 时退化为最负样本的形式。</p>
 
     </div>
 
@@ -240,7 +252,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/latex_matrix/>http://jonathanwayy.xyz/2021/latex_matrix/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn54/>http://jonathanwayy.xyz/2021/prn54/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -260,20 +272,29 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
-                    #deep learning</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/latex/">
-                    #latex</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paperwriting/">
-                    #paperwriting</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
+                    #transformer</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
+                    #ViT</a></span>
             
             </section>
         
@@ -285,10 +306,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn53/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/latex_matrix/" class="prev" rel="prev" title="Latex 中矩阵的几种实现方式"><i class="iconfont icon-left"></i>&nbsp;Latex 中矩阵的几种实现方式</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn54/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021)">[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -297,7 +318,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -335,8 +356,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

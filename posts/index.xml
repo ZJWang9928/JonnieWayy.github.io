@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 18 Jul 2021 16:20:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 19:39:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -15,6 +15,15 @@
       
       <guid>http://jonathanwayy.xyz/2020/kliv/</guid>
       <description>   Kli Eng     HISlaH yes   ghobe&#39; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   vay&amp;rsquo; anyone, anybody   pagh no one, nobody   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&#39; success   pong name   puq child   loD man   be&#39; woman   Duj ship   qach building   Dlvl&#39; English, federation, the Federation   Suvwl&#39; fighter, warroir   jagh enemy   mang soldier   muSwl&#39; hater   qoq robot   yuch chocolate   mu&#39; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;lsquo;avwl&amp;rsquo; guard   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&#39; repair   Hub&#39; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   SaH care   ghov recognize   Qoy hear   Suj disturb   boQ assist   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong   chuS noisy    </description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn54/</link>
+      <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn54/</guid>
+      <description>Heterogeneous Attention Network for Effective and Efficient Cross-modal Retrieval (SIGIR 2021) 背景 联合嵌入 (joint embedding) 方法的问题 只进行全局匹配 文本与图像只在匹配阶段有交互 多模态的 Transformer 系方法能够在较早的阶段实现跨模态交互，但</description>
     </item>
     
     <item>
