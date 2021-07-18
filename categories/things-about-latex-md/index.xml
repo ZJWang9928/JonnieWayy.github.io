@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 17 Jul 2021 11:53:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/things-about-latex-md/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 16:20:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/things-about-latex-md/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 中矩阵的几种实现方式</title>
+      <link>http://jonathanwayy.xyz/2021/latex_matrix/</link>
+      <pubDate>Sun, 18 Jul 2021 16:20:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_matrix/</guid>
+      <description>记录一下 Latex 中实现矩阵的集中方式。 1. 无括号 代码 \begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix} 效果 $$\begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix}$$ 2. 圆括号 代码 \begin{pmatrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{pmatrix} % 或 \left(\begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix}\right) 效果</description>
+    </item>
+    
     <item>
       <title>Latex 添加无编号脚注</title>
       <link>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</link>
