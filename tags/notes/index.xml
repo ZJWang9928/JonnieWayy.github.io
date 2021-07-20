@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 20 Jul 2021 10:06:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jul 2021 14:32:30 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] CMT: Convolutional Neural Networks Meet Vision Transformers (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn56/</link>
+      <pubDate>Tue, 20 Jul 2021 14:32:30 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn56/</guid>
+      <description>2107.06263 CMT: Convolutional Neural Networks Meet Vision Transformers (2021) 核心 本文设计了一种 CNN 与 transformer 的交集，即 CMT 架构。 CMT 块 Local Perception Unit (LPU) 绝对的位置编码破坏了平移不变性，忽视了 patch 中的局部关联与结构信息。 $$LPU(X) =</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] Incorporating Convolution Designs into Visual Transformers (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn55/</link>
