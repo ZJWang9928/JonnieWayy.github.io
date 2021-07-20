@@ -7,13 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 18 Jul 2021 19:39:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jul 2021 10:06:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>attention</title>
       <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
+      <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transformer</title>
+      <link>http://jonathanwayy.xyz/tags/transformer/</link>
+      <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ViT</title>
+      <link>http://jonathanwayy.xyz/tags/vit/</link>
+      <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
@@ -27,56 +72,11 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
       <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>transformer</title>
-      <link>http://jonathanwayy.xyz/tags/transformer/</link>
-      <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ViT</title>
-      <link>http://jonathanwayy.xyz/tags/vit/</link>
-      <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
