@@ -12,9 +12,9 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn56/</loc>
+      <loc>http://jonathanwayy.xyz/2021/prn57/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -24,7 +24,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/attention/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -34,7 +34,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/categories/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -44,7 +44,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/cv/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -54,7 +54,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -64,7 +64,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/notes/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -74,7 +74,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/paper-reading/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -84,7 +84,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/categories/paper-reading-notes/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -94,7 +94,27 @@
     <url>
       <loc>http://jonathanwayy.xyz/posts/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/reid/</loc>
+      
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/retrieval/</loc>
+      
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -104,7 +124,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -114,7 +134,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/transformer/</loc>
       
-      <lastmod>2021-07-20T14:32:30+08:00</lastmod>
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
       
       
@@ -123,6 +143,16 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/vit/</loc>
+      
+      <lastmod>2021-07-21T10:10:54+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/prn56/</loc>
       
       <lastmod>2021-07-20T14:32:30+08:00</lastmod>
       
@@ -153,16 +183,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/cross-modal/</loc>
-      
-      <lastmod>2021-07-18T19:39:50+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/retrieval/</loc>
       
       <lastmod>2021-07-18T19:39:50+08:00</lastmod>
       
@@ -693,16 +713,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/2021/prn33/</loc>
-      
-      <lastmod>2021-07-06T15:13:34+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/reid/</loc>
       
       <lastmod>2021-07-06T15:13:34+08:00</lastmod>
       
