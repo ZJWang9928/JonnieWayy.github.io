@@ -67,7 +67,7 @@
     "datePublished": "2021-07-26 11:53:00 \u002b0800 CST",
     "dateModified" : "2021-07-26 11:53:00 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn59\/",
-    "wordCount" : "139",
+    "wordCount" : "570",
     "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","graph","GCN", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 139 words</span>
+                <span class="post-word-count">, 570 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -202,8 +202,39 @@
 <p><img src="/images/2021/PRN59/2.png" alt="Fig 2"></p>
 <h2 id="层级化文本编码">层级化文本编码</h2>
 <h3 id="语义角色图结构-semantic-role-graph-structure">语义角色图结构 (Semantic Role Graph Structure)</h3>
+<h4 id="构建三类节点">构建三类节点</h4>
+<ul>
+<li>全局事件节点</li>
+<li>动作节点</li>
+<li>实体节点</li>
+</ul>
+<p>所有动作节点与全局事件节点之间构建无向边，动作与实体构建有向边。</p>
+<h3 id="初始的图节点表征">初始的图节点表征</h3>
+<p>Bi-LSTM 双向均值得到 \(w_{i}\)，进而通过注意力聚合得到全局特征：</p>
+<p>$$g_{e} = \sum_{i=1}^N \alpha_{e, i}w_{i},$$
+$$\alpha_{e, i} = \frac{exp(W_{e}w_{i})}{\sum_{j=1}^N exp(W_{e}w_{j})}.$$</p>
+<p>对于动作与实体节点 \(g_{a}\) 与 \(g_{o}\)，利用上下文信息缓解分词错误，对 Bi-LSTM 得到的表征在需要的词上做最大值池化。</p>
+<h3 id="基于注意力的图推理">基于注意力的图推理</h3>
+<p>不同级别节点间的连接能够解释局部节点与全局节点的关系，并且能够为节点消歧。</p>
+<h4 id="将-gcn-多关联权重分为两部分">将 GCN 多关联权重分为两部分</h4>
+<ul>
+<li>公共变换矩阵 \(W_{t} \in \mathbb{R}^{D \times D}\) 由所有关系类型共享</li>
+<li>角色嵌入矩阵 \(W_{r} \in \mathbb{R}^{D \times K}\)</li>
+</ul>
+<p>初始节点嵌入为 \(g_{i} \in \{g_{e}, g_{a}, g_{o}\}\)，在第一个 GCN 层与其对应予以角色相乘：</p>
+<p>$$g_{i}^0 = g_{i} \odot W_{r}r_{ij},$$</p>
+<p>\(r_{ij}\) 是表示节点 \(i\) 到 \(j\) 边类型的 one-hot 向量。</p>
+<p>采用图注意力网络强化节点表征：</p>
+<p>$$\widetilde{\beta}_{ij} = (W_{a}^q g_{i}^l)^T(W_{a}^k g_{j}^l) / \sqrt{D},$$
+$$\beta_{ij} = \frac{exp(\widetilde{\beta}_{ij})}{\sum_{j \in \mathcal{N}_{i}} exp(\widetilde{\beta}_{ij})},$$
+$$g_{i}^{l + 1} = g_{i}^{l} + W_{t}^{l+1} \sum_{j \in \mathcal{N}_{i}} (\beta_{ij}g_{j}^l).$$</p>
+<p>最后一层输出为文本表征 \(c_{e}, c_{a}, c_{o}\)。</p>
 <h2 id="层级化视频编码">层级化视频编码</h2>
+<p>因为构建层级关系比较复杂，这里构建三种独立的视频嵌入。</p>
+<p>$$v_{x,i} = W_{x}^v f_{i}, \quad x \in \{e, a, o\}.$$</p>
+<p>全局特征聚合方式与文本类似。</p>
 <h2 id="视频-文本匹配">视频-文本匹配</h2>
+<p>分级匹配，与传统方法类似。</p>
 
     </div>
 
@@ -284,7 +315,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
