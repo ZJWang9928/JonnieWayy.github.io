@@ -7,14 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 25 Jul 2021 11:30:31 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jul 2021 11:53:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Fine-grained Video-Text Retrieval with HGR (CVPR 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn59/</link>
+      <pubDate>Mon, 26 Jul 2021 11:53:00 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn59/</guid>
+      <description>Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning (CVPR 2020) 开源代码传送门 核心 提出一种层级式的图推理模型 (Hierarchical Graph Reasoning model, HGR)，将视频-文本匹配分解为三级语义： 全局事件，在文本中对应整个句</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] A Deep Local and Global Scene-Graph Matching (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn58/</link>
       <pubDate>Sun, 25 Jul 2021 11:30:31 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn58/</guid>
-      <description>2106.02400 A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval (2021) 核心 提出一种局部与全局场景图匹配 (Local and Global Scene Graph Matching, LGSGM) 方法。 视觉图编码器 文本编码器 图嵌入 用多尺度节点注意力将图嵌入为向量。</description>
+      <description>2106.02400 A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval (2021) 核心 提出一种局部与全局场景图匹配 (Local and Global Scene Graph Matching, LGSGM) 方法。 视觉图编码器 文本编码器 图嵌入 用多尺度节点注意力将图嵌入为向量。 附</description>
     </item>
     
     <item>
