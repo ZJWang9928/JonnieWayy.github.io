@@ -221,7 +221,7 @@ $$\alpha_{e, i} = \frac{exp(W_{e}w_{i})}{\sum_{j=1}^N exp(W_{e}w_{j})}.$$</p>
 <li>公共变换矩阵 \(W_{t} \in \mathbb{R}^{D \times D}\) 由所有关系类型共享</li>
 <li>角色嵌入矩阵 \(W_{r} \in \mathbb{R}^{D \times K}\)</li>
 </ul>
-<p>初始节点嵌入为 \(g_{i} \in \{g_{e}, g_{a}, g_{o}\}\)，在第一个 GCN 层与其对应予以角色相乘：</p>
+<p>初始节点嵌入为 \(g_{i} \in \{g_{e}, g_{a}, g_{o}\}\)，在第一个 GCN 层与其对应语义角色相乘：</p>
 <p>$$g_{i}^0 = g_{i} \odot W_{r}r_{ij},$$</p>
 <p>\(r_{ij}\) 是表示节点 \(i\) 到 \(j\) 边类型的 one-hot 向量。</p>
 <p>采用图注意力网络强化节点表征：</p>
