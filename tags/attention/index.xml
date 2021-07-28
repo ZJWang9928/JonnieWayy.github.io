@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 27 Jul 2021 11:07:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jul 2021 10:41:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn61/</link>
+      <pubDate>Wed, 28 Jul 2021 10:41:00 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn61/</guid>
+      <description>Revamping Cross-Modal Recipe Retrieval with Hierarchical Transformers and Self-supervised Learning (CVPR 2021) 开源代码传送门 图像编码器 \(\phi_{img}\) ResNet-50 / ResNeXt / ViT 菜谱编码器 \(\phi_{rec}\) 三类数据要处理 标题 成分 指导 用三个独立的基于 Transformer 的编码器分别处理三种数据</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] Early Convolutions Help Transformers See Better (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn60/</link>
