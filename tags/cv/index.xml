@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 28 Jul 2021 10:41:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jul 2021 14:36:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 联邦学习 / 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn62/</link>
+      <pubDate>Wed, 28 Jul 2021 14:36:28 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn62/</guid>
+      <description>FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021) 概述 基于深度学习的方法需要大量高质量的多模态数据，而现实中，多模态数据由许多不同用户 (client) 分别生成。 本文研究联邦跨模态检索 (Federated Cross-Modal Retrieval, Fe</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn61/</link>

@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn60/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn62/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn61/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn61/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn62/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 联邦学习 / 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 联邦学习 / 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ViT \/ 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)",
-    "headline" : "[论文阅读笔记 -- ViT \/ 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)",
-    "description" : "Revamping Cross-Modal Recipe Retrieval with Hierarchical Transformers and Self-supervised Learning (CVPR 2021) 开源代码传送门 图像编码器 \\(\\phi_{img}\\) ResNet-50 \/ ResNeXt \/ ViT 菜谱编码器 \\(\\phi_{rec}\\) 三类数据要处理 标题 成分 指导 用三个独立的基于 Transformer 的编码器分别处理三种数据",
+    "name" : "[论文阅读笔记 -- 联邦学习 \/ 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021)",
+    "headline" : "[论文阅读笔记 -- 联邦学习 \/ 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021)",
+    "description" : "FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021) 概述 基于深度学习的方法需要大量高质量的多模态数据，而现实中，多模态数据由许多不同用户 (client) 分别生成。 本文研究联邦跨模态检索 (Federated Cross-Modal Retrieval, Fe",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-28 10:41:00 \u002b0800 CST",
-    "dateModified" : "2021-07-28 10:41:00 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn61\/",
-    "wordCount" : "261",
-    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","cross-modal","retrieval", "Jonathan`s Blog"]
+    "datePublished": "2021-07-28 14:36:28 \u002b0800 CST",
+    "dateModified" : "2021-07-28 14:36:28 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn62\/",
+    "wordCount" : "575",
+    "keywords" : [ "paper reading","cv","notes","attention","federated learning","cross-modal","retrieval", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 联邦学习 / 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 261 words</span>
+                <span class="post-word-count">, 575 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,29 +189,47 @@
           
           
 
-          <h1 id="revamping-cross-modal-recipe-retrieval-with-hierarchical-transformers-and-self-supervised-learning-cvpr-2021">Revamping Cross-Modal Recipe Retrieval with Hierarchical Transformers and Self-supervised Learning (CVPR 2021)</h1>
-<p><a href="https://github.com/amzn/image-to-recipe-transformers">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN61/1.png" alt="Fig 1"></p>
-<h2 id="图像编码器-phi_img">图像编码器 \(\phi_{img}\)</h2>
-<p>ResNet-50 / ResNeXt / ViT</p>
-<h2 id="菜谱编码器-phi_rec">菜谱编码器 \(\phi_{rec}\)</h2>
-<h3 id="三类数据要处理">三类数据要处理</h3>
+          <h1 id="fedcmr-federated-cross-modal-retrieval-sigir-2021">FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021)</h1>
+<p><img src="/images/2021/PRN62/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<p>基于深度学习的方法需要大量高质量的多模态数据，而现实中，多模态数据由许多不同用户 (client) 分别生成。</p>
+<p>本文研究联邦跨模态检索 (Federated Cross-Modal Retrieval, FedCMR)。</p>
+<h3 id="fedcmr-三大步骤">FedCMR 三大步骤</h3>
 <ul>
-<li>标题</li>
-<li>成分</li>
-<li>指导</li>
+<li>局部训练：各用户用局部数据训练跨模态检索模型</li>
+<li>聚合：服务器聚合用户的公共空间</li>
+<li>局部更新：各用户基于聚合后的模型更新局部模型的公共子空间</li>
 </ul>
-<p>用三个独立的基于 Transformer 的编码器分别处理三种数据。</p>
-<h3 id="句子表征-tr">句子表征 (TR)</h3>
-<p>两层 Transformer 网络，\(D = 512\)，4 个 head，第一层加入位置编码，最后一层输出特征的均值作为句子表征。</p>
-<h3 id="层叠式表征-htr">层叠式表征 (HTR)</h3>
-<p>首先一组 Transformer 提取各句子特征，进而用句子特征作为输入用 Transformer 汇聚成一个特征，不同成分拼接后最终再做一次变换。</p>
-<p><img src="/images/2021/PRN61/2.png" alt="Fig 2"></p>
-<h2 id="自监督菜谱损失-mathcall_rec">自监督菜谱损失 \(\mathcal{L}_{rec}\)</h2>
-<p>有时数据并不能成对获取，比如只有菜谱没有图片。</p>
-<p>在菜谱各类数据之间引入三元组损失。</p>
-<p>计算损失前再加一步映射，将一个特征映射到另一个特征的空间里。</p>
-<p><img src="/images/2021/PRN61/3.png" alt="Fig 3"></p>
+<p><img src="/images/2021/PRN62/2.png" alt="Fig 1"></p>
+<h2 id="局部跨模态检索网络">局部跨模态检索网络</h2>
+<p>用 DSCMR 作为局部模型处理各用户的多模态数据。</p>
+<h2 id="模型聚合">模型聚合</h2>
+<h3 id="聚合架构-aggregation-framewor">聚合架构 (Aggregation Framewor)</h3>
+<p>由于跨模态网络使用公共子空间来连结多个模态，本文通过利用公共空间，在用户之间共享知识。</p>
+<p>服务器收集学习公共空间的线性层参数，并如下组合所有公共子空间的更新，从而找到一个全局一致的公共空间：</p>
+<p>$$W_{t} = \sum_{k=1}^K q_{t}^kW_{t}^k,$$</p>
+<p>其中 \(K\) 是第 \(t\) 次信息通信时选中的用户数量</p>
+<h3 id="权重策略-weighting-scheme">权重策略 (Weighting Scheme)</h3>
+<p>权重与用户拥有的样本数以及标签类别数成正比，即</p>
+<p>$$q_{t}^k \propto S^k,$$
+$$S^k = \frac{n^k}{\sum_{k=1}^K n^k} \cdot \frac{c^k}{\sum_{k=1}^K c^k}.$$</p>
+<p>又因为每轮通信时，在相同的损失计算机制下，损失值小的用户检索能力更强，因而权重因与损失值成反比，收到 Gompertz 函数的启发为各用户计算 \(V_{t}^k\) 如下：</p>
+<p>$$V_{t}^k = e^{-e^{f_{t}^K/(\frac{\sum_{k=1}^K f_{t}^k}{K})}},$$</p>
+<p>其中 \(f_{t}^k\) 表示损失值，有</p>
+<p>$$q_{t}^k \propto V_{t}^k.$$</p>
+<p>最终，权重计算如下：</p>
+<p>$$q_{t}^k = \frac{e^{S^k} + \alpha V_{t}^k}{\sum_{k=1}^K e^{S^k} + \alpha V_{t}^k}.$$</p>
+<h2 id="局部更新">局部更新</h2>
+<h3 id="步骤">步骤</h3>
+<ul>
+<li>各轮通信的最初用户记录局部公共空间 \(W_{0}^k\)</li>
+<li>各用户用局部数据训练模型得到局部公共子空间 \(W_{t}^k\) 并上传到服务器，服务器返回聚合后的公共子空间 \(W_{t}\)</li>
+<li>用户收到 \(W_{t}\) 后如下更新局部子空间：</li>
+</ul>
+<p>$$W_{t + 1}^k = W_{t} + \gamma(W_{t}^k - W_{0}^k).$$</p>
+<h2 id="算法">算法</h2>
+<p>训练过程分为两个阶段，联合训练 (joint training) 与 独立增强训练 (independent enhancement training)。</p>
+<p><img src="/images/2021/PRN62/A1.png" alt="Alg 1"></p>
 
     </div>
 
@@ -226,7 +244,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn61/>http://jonathanwayy.xyz/2021/prn61/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn62/>http://jonathanwayy.xyz/2021/prn62/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -258,11 +276,8 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
                     #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
-                    #transformer</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
-                    #ViT</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/federated-learning/">
+                    #federated learning</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
                     #cross-modal</a></span>
@@ -280,10 +295,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn60/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT] Early Convolutions Help Transformers See Better (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT] Early Convolutions Help Transformers See Better (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn61/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn62/" class="next" rel="next" title="[论文阅读笔记 -- 联邦学习 / 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021)">[论文阅读笔记 -- 联邦学习 / 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -292,7 +307,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
