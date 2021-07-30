@@ -135,24 +135,6 @@
     </item>
     
     <item>
-      <title>Pytorch部分加载预训练ResNet-50模型作为Backbone</title>
-      <link>http://jonathanwayy.xyz/2020/torch2/</link>
-      <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2020/torch2/</guid>
-      <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
-    </item>
-    
-    <item>
-      <title>Pytorch部分加载预训练VGG-16模型作为Backbone</title>
-      <link>http://jonathanwayy.xyz/2020/torch1/</link>
-      <pubDate>Sat, 25 Jan 2020 17:26:21 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2020/torch1/</guid>
-      <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
-    </item>
-    
-    <item>
       <title>BLWL[19] 修改iPython使用的默认Python</title>
       <link>http://jonathanwayy.xyz/2020/blwl19/</link>
       <pubDate>Thu, 23 Jan 2020 22:41:58 +0800</pubDate>

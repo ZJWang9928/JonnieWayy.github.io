@@ -197,23 +197,5 @@
       <description>最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。 为了省去P图时来回来去调整的麻烦，这里开</description>
     </item>
     
-    <item>
-      <title>Pytorch部分加载预训练ResNet-50模型作为Backbone</title>
-      <link>http://jonathanwayy.xyz/2020/torch2/</link>
-      <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2020/torch2/</guid>
-      <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
-    </item>
-    
-    <item>
-      <title>Pytorch部分加载预训练VGG-16模型作为Backbone</title>
-      <link>http://jonathanwayy.xyz/2020/torch1/</link>
-      <pubDate>Sat, 25 Jan 2020 17:26:21 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2020/torch1/</guid>
-      <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
-    </item>
-    
   </channel>
 </rss>

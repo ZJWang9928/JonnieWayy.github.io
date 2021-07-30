@@ -1562,15 +1562,6 @@ To specify who the &amp;ldquo;he&amp;rdquo;, &amp;ldquo;she&amp;rdquo;, or &amp;
     </item>
     
     <item>
-      <title>Pytorch部分加载预训练ResNet-50模型作为Backbone</title>
-      <link>http://jonathanwayy.xyz/2020/torch2/</link>
-      <pubDate>Tue, 28 Jan 2020 00:08:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2020/torch2/</guid>
-      <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
-    </item>
-    
-    <item>
       <title>壁纸分享[1]</title>
       <link>http://jonathanwayy.xyz/2020/bg1/</link>
       <pubDate>Sun, 26 Jan 2020 11:35:21 +0800</pubDate>
@@ -1609,15 +1600,6 @@ Here we are going to introduce some new verb prefixes for combinations of subjec
 For example, it makes the difference between tlhIngan Hol vIjatlh &amp;ldquo;I speak Klingon&amp;rdquo; and tlhIngan Hol vIjatlhlaH &amp;ldquo;I can speak Klingon&amp;rdquo;.
 As introduced in the previous post, the verb suffix -be&#39; means &amp;ldquo;not&amp;rdquo;.
 You may remember that this suffix is classified as a &amp;ldquo;rover&amp;rdquo;. Unlike suffix types 1-9, some of the rovers can actually be placed in different orders and change the meaning of the sentence slightly based on where they occur.</description>
-    </item>
-    
-    <item>
-      <title>Pytorch部分加载预训练VGG-16模型作为Backbone</title>
-      <link>http://jonathanwayy.xyz/2020/torch1/</link>
-      <pubDate>Sat, 25 Jan 2020 17:26:21 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/2020/torch1/</guid>
-      <description>在写CV实(lian)验(dan)代码的时，经常需要使用预训练好的CNN模型作为自己模型的骨架网络(Backbone)，其中VGG-16和R</description>
     </item>
     
     <item>
