@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn63/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn65/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn64/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn64/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn65/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021)",
-    "description" : "2103.11920v1 Retrieve Fast, Rerank Smart: Cooperative and Joint Approaches for Improved Cross-Modal Retrieval (2021) 开源代码传送门 核心想法 要在计算效率和模型精度上找到平衡。 四种模型 Cross-Encoders 如图 1(a) 所示。 二分类问题，将 \\([CLS]\\) token 输入分类器，用交",
+    "name" : "[论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020)",
+    "headline" : "[论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020)",
+    "description" : "Wavelet Integrated CNNs for Noise-Robust Image Classification (CVPR 2020) 开源代码传送门 概述 CNN 对噪声的鲁棒性较差，随机噪声大多为高频成分，CNN 在下采样之前缺少滤波步骤，可能会导致高低频成分的混叠",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-07-30 11:12:23 \u002b0800 CST",
-    "dateModified" : "2021-07-30 11:12:23 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn64\/",
-    "wordCount" : "304",
-    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","cross-modal","retrieval", "Jonathan`s Blog"]
+    "datePublished": "2021-07-30 19:49:00 \u002b0800 CST",
+    "dateModified" : "2021-07-30 19:49:00 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn65\/",
+    "wordCount" : "390",
+    "keywords" : [ "paper reading","cv","notes","frequency","image", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 304 words</span>
+                <span class="post-word-count">, 390 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,32 +189,36 @@
           
           
 
-          <h1 id="210311920v1-retrieve-fast-rerank-smart-cooperative-and-joint-approaches-for-improved-cross-modal-retrieval-2021">2103.11920v1 Retrieve Fast, Rerank Smart: Cooperative and Joint Approaches for Improved Cross-Modal Retrieval (2021)</h1>
-<p><a href="https://github.com/UKPLab/MMT-Retrieval">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN64/1.png" alt="Fig 1"></p>
-<h2 id="核心想法">核心想法</h2>
-<p>要在计算效率和模型精度上找到平衡。</p>
-<h2 id="四种模型">四种模型</h2>
-<h3 id="cross-encoders">Cross-Encoders</h3>
-<p>如图 1(a) 所示。</p>
-<p>二分类问题，将 \([CLS]\) token 输入分类器，用交叉熵训练。</p>
-<p>表现会比较好，但是计算成分高。</p>
-<h3 id="embedding-based-retrieval-methods">Embedding-Based Retrieval Methods</h3>
-<p>如图 1(b) 所示。</p>
-<p>分别提取特征，池化得到表征，三元组损失训练。</p>
-<p>计算成本低，但是表现可能相对差。</p>
-<h3 id="separate-training-cooperative-retrieval">Separate Training, Cooperative Retrieval</h3>
-<p>如图 1(c) 所示。</p>
-<p>用合作检索 (cooperative retrieval) 方法结合上述两种模型的优势。</p>
-<p>分别独立训练 CE 和 EMB 模型，检索过程分为两步。</p>
-<p>首先用 EMB 检索 top-k 相关目标，再用 CE 进一步重排。</p>
-<p>由于要同时将两个模型放入内存，该方法参数效率更低。</p>
-<h3 id="joint-training-cooperative-retrieval">Joint Training, Cooperative Retrieval</h3>
-<p>如图 1(d) 所示。</p>
-<p>训练一个联合模型，既用于 cross-encode 也用于 embed，通过切换输入类型与损失来训练共享的参数。</p>
-<p>检索过程与上一节方法相同。</p>
-<h2 id="结果示例">结果示例</h2>
-<p><img src="/images/2021/PRN64/2.png" alt="Fig 2"></p>
+          <h1 id="wavelet-integrated-cnns-for-noise-robust-image-classification-cvpr-2020">Wavelet Integrated CNNs for Noise-Robust Image Classification (CVPR 2020)</h1>
+<p><a href="https://github.com/LiQiufu/WaveCNet">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN65/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<p>CNN 对噪声的鲁棒性较差，随机噪声大多为高频成分，CNN 在下采样之前缺少滤波步骤，可能会导致高低频成分的混叠。</p>
+<p>本文通过将小波与 CNN 结合来抑制噪声的影响。将 DWT 与 IDWT 构建为 PyTorch 中的层，用 DWT 取代下采样后设计了结合小波的卷积网络 (wavelet integrated convolutional network, WaveCNet)，旨在通过小波变换加强深度网络中的下采样操作。</p>
+<p>在下采样过程中，WaveCNet 消除特征图中的高频成分，从低频成分中提取高级信息。</p>
+<h2 id="dwt-与-idwt-层">DWT 与 IDWT 层</h2>
+<p>对于 2D 信号 \(x\)，DWT 分别沿着行和列作 1D DWT：</p>
+<p>$$X_{ll} = LXL^T,$$
+$$X_{lh} = HXL^T,$$
+$$X_{hl} = LXH^T,$$
+$$X_{hh} = HXH^T.$$</p>
+<p>相应的 IDWT 实现为：</p>
+<p>$$X = L^TX_{ll}L + H^TX_{lh}L + L^TX_{hl}H + H^TX_{hh}H.$$</p>
+<p>对于多通道数据，逐层进行 DWT 与 IDWT。</p>
+<p><img src="/images/2021/PRN65/2.png" alt="Fig 2"></p>
+<h2 id="wavecnets">WaveCNets</h2>
+<h3 id="通常基于小波的降噪方法分为三步">通常基于小波的降噪方法分为三步</h3>
+<ul>
+<li>用 DWT 将 \(X\) 分解为低频与高频成分</li>
+<li>对高频成分进行滤波</li>
+<li>用 IDWT 重构数据</li>
+</ul>
+<h3 id="本文方法">本文方法</h3>
+<p>本文采用最简单的基于小波的降噪方法，即直接丢弃高频成分，这样的 \(DWT_{ll}\) 运算后将特征图长宽减半，与 CNN 中部件的替换关系如下：</p>
+<p><img src="/images/2021/PRN65/3.png" alt="Fig 3"></p>
+<h2 id="特征图示例">特征图示例</h2>
+<p><img src="/images/2021/PRN65/5.png" alt="Fig 5"></p>
+<p><img src="/images/2021/PRN65/7.png" alt="Fig 7"></p>
 
     </div>
 
@@ -229,7 +233,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn64/>http://jonathanwayy.xyz/2021/prn64/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn65/>http://jonathanwayy.xyz/2021/prn65/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -258,20 +262,11 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
-                    #attention</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
-                    #transformer</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
-                    #ViT</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/image/">
+                    #image</a></span>
             
             </section>
         
@@ -283,10 +278,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn63/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] TIED: A Cycle Consistent Encoder-Decoder Model (CVPRW 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] TIED: A Cycle Consistent Encoder-Decoder Model (CVPRW 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn64/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn65/" class="next" rel="next" title="[论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020)">[论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
