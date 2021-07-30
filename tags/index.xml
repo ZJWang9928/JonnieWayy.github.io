@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 29 Jul 2021 11:27:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jul 2021 11:12:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>attention</title>
       <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
+      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
+      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
+      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -38,7 +38,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
+      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,7 +47,7 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
+      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
@@ -56,7 +56,7 @@
     <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
+      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
@@ -65,9 +65,18 @@
     <item>
       <title>transformer</title>
       <link>http://jonathanwayy.xyz/tags/transformer/</link>
-      <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
+      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ViT</title>
+      <link>http://jonathanwayy.xyz/tags/vit/</link>
+      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
@@ -77,15 +86,6 @@
       <pubDate>Wed, 28 Jul 2021 14:36:28 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/federated-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ViT</title>
-      <link>http://jonathanwayy.xyz/tags/vit/</link>
-      <pubDate>Wed, 28 Jul 2021 10:41:00 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
