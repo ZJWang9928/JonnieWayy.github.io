@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 30 Jul 2021 19:49:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jul 2021 21:55:30 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域] Wavelet-enhanced Convolutional Neural Network (2018)</title>
+      <link>http://jonathanwayy.xyz/2021/prn66/</link>
+      <pubDate>Fri, 30 Jul 2021 21:55:30 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn66/</guid>
+      <description>Wavelet-enhanced Convolutional Neural Network: A New Idea in A Deep Learning Paradigm (2018) 概览 结合 CNN 与小波变换提升分割任务表现。 小波变换在图像处理中的主要作用在于其能够将图像分解为含有不同级别细节的不同尺</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn65/</link>
