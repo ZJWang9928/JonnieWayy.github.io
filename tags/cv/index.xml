@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 30 Jul 2021 21:55:30 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 19:43:38 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域] Wavelet Pooling for Convolutional Neural Networks (ICLR 2018)</title>
+      <link>http://jonathanwayy.xyz/2021/prn67/</link>
+      <pubDate>Sat, 31 Jul 2021 19:43:38 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn67/</guid>
+      <description>Wavelet Pooling for Convolutional Neural Networks (ICLR 2018) 概述 本文提出一种小波池化算法，使用二阶小波分解对特征进行子采样，放弃了最近临插值方法，而采用了一种子带方法，从而得以使用更少</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] Wavelet-enhanced Convolutional Neural Network (2018)</title>
       <link>http://jonathanwayy.xyz/2021/prn66/</link>
