@@ -7,7 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 21:27:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Aug 2021 16:52:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>attention</title>
+      <link>http://jonathanwayy.xyz/tags/attention/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCN</title>
+      <link>http://jonathanwayy.xyz/tags/gcn/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/gcn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graph</title>
+      <link>http://jonathanwayy.xyz/tags/graph/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>kde</title>
       <link>http://jonathanwayy.xyz/tags/kde/</link>
@@ -45,15 +117,6 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sat, 31 Jul 2021 19:43:38 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>frequency</title>
       <link>http://jonathanwayy.xyz/tags/frequency/</link>
       <pubDate>Sat, 31 Jul 2021 19:43:38 +0800</pubDate>
@@ -68,51 +131,6 @@
       <pubDate>Sat, 31 Jul 2021 19:43:38 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sat, 31 Jul 2021 19:43:38 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sat, 31 Jul 2021 19:43:38 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -149,24 +167,6 @@
       <pubDate>Tue, 27 Jul 2021 11:07:09 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GCN</title>
-      <link>http://jonathanwayy.xyz/tags/gcn/</link>
-      <pubDate>Mon, 26 Jul 2021 11:53:00 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/gcn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>graph</title>
-      <link>http://jonathanwayy.xyz/tags/graph/</link>
-      <pubDate>Mon, 26 Jul 2021 11:53:00 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/graph/</guid>
       <description></description>
     </item>
     

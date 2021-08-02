@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 26 Jul 2021 11:53:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/gcn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Aug 2021 16:52:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/gcn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn68/</link>
+      <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn68/</guid>
+      <description>Adapted Graph Reasoning and Filtration for Description-Image Retrieval (SIGIR 2021) 概述 本文处理更加抽象的文本描述。 提出一种自适应的图推理与过滤网络 (Adapted Graph Reasoning and Filtration network, AGRF)，包含两大主要部件： 自适应图推理网</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Fine-grained Video-Text Retrieval with HGR (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn59/</link>
