@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg27/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn69/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn68/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn68/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn69/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索 \/ 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索 \/ 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)",
-    "description" : "Adapted Graph Reasoning and Filtration for Description-Image Retrieval (SIGIR 2021) 概述 本文处理更加抽象的文本描述。 提出一种自适应的图推理与过滤网络 (Adapted Graph Reasoning and Filtration network, AGRF)，包含两大主要部件： 自适应图推理网",
+    "name" : "[论文阅读笔记 -- 跨模态哈希 \/ 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)",
+    "headline" : "[论文阅读笔记 -- 跨模态哈希 \/ 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)",
+    "description" : "Set and Rebase: Determining the Semantic Graph Connectivity for Unsupervised Cross-Modal Hashing (IJCAI 2020) 概述 两类无监督跨模态哈系 跨模态量化，最小化二进制编码与原始数据低维投影之间的鸿沟 跨模态相似度搜索 三个主要问题 在没",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-02 16:52:49 \u002b0800 CST",
-    "dateModified" : "2021-08-02 16:52:49 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn68\/",
-    "wordCount" : "257",
+    "datePublished": "2021-08-03 11:07:47 \u002b0800 CST",
+    "dateModified" : "2021-08-03 11:07:47 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn69\/",
+    "wordCount" : "390",
     "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","graph","GCN", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-02 itemprop="datePublished">August 2, 2021</time>
+                on <time datetime=2021-08-03 itemprop="datePublished">August 3, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 257 words</span>
+                <span class="post-word-count">, 390 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,34 +189,44 @@
           
           
 
-          <h1 id="adapted-graph-reasoning-and-filtration-for-description-image-retrieval-sigir-2021">Adapted Graph Reasoning and Filtration for Description-Image Retrieval (SIGIR 2021)</h1>
-<p><img src="/images/2021/PRN68/1.png" alt="Fig 1"></p>
+          <h1 id="set-and-rebase-determining-the-semantic-graph-connectivity-for-unsupervised-cross-modal-hashing-ijcai-2020">Set and Rebase: Determining the Semantic Graph Connectivity for Unsupervised Cross-Modal Hashing (IJCAI 2020)</h1>
+<p><img src="/images/2021/PRN69/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文处理更加抽象的文本描述。</p>
-<p>提出一种自适应的图推理与过滤网络 (Adapted Graph Reasoning and Filtration network, AGRF)，包含两大主要部件：</p>
+<h3 id="两类无监督跨模态哈系">两类无监督跨模态哈系</h3>
 <ul>
-<li>自适应图推理网络 (Adapted Graph Reasoning network, AGR)，构建为图像上的目标关系图，在边和节点上均逐步推理，整体的图像表征由推理得到</li>
-<li>跨模态细粒度门控过滤 (Cross-Modal Fine-grained Gated Filtration, GF)</li>
+<li>跨模态量化，最小化二进制编码与原始数据低维投影之间的鸿沟</li>
+<li>跨模态相似度搜索</li>
 </ul>
-<p><img src="/images/2021/PRN68/2.png" alt="Fig 2"></p>
-<h2 id="特征提取">特征提取</h2>
-<h3 id="视觉表征">视觉表征</h3>
-<p>Faster R-CNN</p>
-<h3 id="文本表征">文本表征</h3>
-<p>BERT</p>
-<h2 id="自适应图推理与聚合">自适应图推理与聚合</h2>
-<p>以图像区域为节点构建图，在每一步动态更新节点之间的关联：</p>
-<p>$$e_{i}^0 = v_{i},$$
-$$z_{i}^t = W_{a}^t e_{i}^{t-1} + b^t,$$
-$$\theta_{i, j}^t = LeakyReLU(\phi^T[z_{i}^t || z_{j}^j]),$$
-$$a_{i, j}^t = softmax(\theta_{i, j}^t),$$
-$$e_{i}^t = LeakyReLU(\sum_{i=k}^N a_{k,i}^t z_{k}^t) + e_{i}^{t-1}.$$</p>
-<h2 id="跨模态细粒度门控过滤">跨模态细粒度门控过滤</h2>
-<p>$$g_{i} = \sigma(W_{g}(e_{i}^T + T)),$$
-$$e_{i}^{*} = g_{i} \odot e_{i}^T.$$</p>
-<p>均值池化得到最终的整体图像表征。</p>
-<h2 id="损失函数">损失函数</h2>
-<p>三元组损失。</p>
+<h3 id="三个主要问题">三个主要问题</h3>
+<ul>
+<li>在没有标签的情况下衡量数据语义关系的困难</li>
+<li>数据相似度在不同模态不一致的问题</li>
+<li>训练过程中数据语义关联的稀疏性问题</li>
+</ul>
+<p>本文提出一种新的无监督方法，称为 Semantic-Rebased Cross-modal Hashing (SRCH)，采用 Set-and-Rebase 的方式学习语义图。</p>
+<p><img src="/images/2021/PRN69/2.png" alt="Fig 2"></p>
+<h2 id="sparse-graph-setting-and-rebasing">Sparse Graph Setting and Rebasing</h2>
+<h3 id="set-the-semantic-geometric-prior">Set the Semantic Geometric Prior</h3>
+<p>在不同模态构建几何稀疏图结构，这些几何图在训练时固定，采用 KNN 构建。</p>
+<h3 id="rebase-the-graph-by-code-similarity">Rebase the Graph by Code Similarity</h3>
+<p>用处于 0 到 1 之间的连续实数表征一对样本之间的语义关联概率，而非在使用二值。</p>
+<p>概率值根据两个样本之间的相似度学到，计算如下</p>
+<p>$$S_{(i, j)} = p(e_{i, j} = 1) = \Phi(x_{i}, x_{j}).$$</p>
+<h2 id="目标函数">目标函数</h2>
+<h3 id="自编码损失">自编码损失</h3>
+<p>$$\mathcal{L}_{g}^A = ||W_{g}X_{g} - B||_{F}^2 + ||X_{g} - W_{g}^TB||_{F}^2,$$
+$$s.t. \ B \in \{+1, -1\}^{l \times n}, BB^T = nI, W{g}^TW_{g} = I, g \in \{V, T\}.$$</p>
+<h3 id="语义损失">语义损失</h3>
+<p>$$\mathcal{L}_{g}^S = \sum_{(i, j) \in \epsilon_{g}} C_{g(i, j)} ||S_{(i, j)}(z_{i} - z_{j})||_{2}^2,$$
+$$C_{g(i, j)} = \frac{\frac{1}{N} \sum_{m=1}^N a_{g(m)}}{\sqrt{a_{g(i)} a_{g(j)}}},$$
+$$\mathcal{L}_{Z} = \frac{1}{2} ||Z - B||_{F}^2.$$</p>
+<p>\(a_{g(m)}\) 表示图中第 \(m\) 个数据点的度。</p>
+<h3 id="语义图稀疏性损失">语义图稀疏性损失</h3>
+<p>$$\mathcal{L}_{g}^R = \sum_{(i,j) \in \epsilon_{g}} C_{g(i, j)} (S_{(i, j)} - 1)^2.$$</p>
+<h2 id="优化过程">优化过程</h2>
+<p><img src="/images/2021/PRN69/A1.png" alt="Alg 1"></p>
+<h2 id="样本外编码计算">样本外编码计算</h2>
+<p>$$B_{g} = sign(W_{g}^{*} X_{g}).$$</p>
 
     </div>
 
@@ -231,7 +241,7 @@ $$e_{i}^{*} = g_{i} \odot e_{i}^T.$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn68/>http://jonathanwayy.xyz/2021/prn68/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn69/>http://jonathanwayy.xyz/2021/prn69/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -285,10 +295,10 @@ $$e_{i}^{*} = g_{i} \odot e_{i}^T.$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/bg27/" class="prev" rel="prev" title="壁纸分享[27]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[27]</a>
+        <a href="http://jonathanwayy.xyz/2021/prn68/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn69/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)">[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -297,7 +307,7 @@ $$e_{i}^{*} = g_{i} \odot e_{i}^T.$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

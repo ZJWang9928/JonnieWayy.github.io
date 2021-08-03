@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 02 Aug 2021 16:52:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Aug 2021 11:07:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn69/</link>
+      <pubDate>Tue, 03 Aug 2021 11:07:47 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn69/</guid>
+      <description>Set and Rebase: Determining the Semantic Graph Connectivity for Unsupervised Cross-Modal Hashing (IJCAI 2020) 概述 两类无监督跨模态哈系 跨模态量化，最小化二进制编码与原始数据低维投影之间的鸿沟 跨模态相似度搜索 三个主要问题 在没</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn68/</link>
