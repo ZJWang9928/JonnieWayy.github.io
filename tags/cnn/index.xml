@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 27 Jul 2021 11:07:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Aug 2021 12:09:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn70/</link>
+      <pubDate>Tue, 03 Aug 2021 12:09:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn70/</guid>
+      <description>2106.03180 Transformer in Convolutional Neural Networks (2021) 开源代码传送门 概览 本文提出层级化的多头注意力 (H-MHSA)。 为了结合 CNN 与 Transformer 的优势，提出 Transformer in Convolutional Neural Networks (TransCNN) 的概念，TransCNN 直</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] Early Convolutions Help Transformers See Better (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn60/</link>
