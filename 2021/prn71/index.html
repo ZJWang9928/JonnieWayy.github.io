@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn69/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn71/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn70/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn70/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn71/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)",
-    "headline" : "[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)",
-    "description" : "2106.03180 Transformer in Convolutional Neural Networks (2021) 开源代码传送门 概览 本文提出层级化的多头注意力 (H-MHSA)。 为了结合 CNN 与 Transformer 的优势，提出 Transformer in Convolutional Neural Networks (TransCNN) 的概念，TransCNN 直",
+    "name" : "[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020)",
+    "description" : "Context-Aware Attention Network for Image-Text Retrieval (CVPR 2020) 背景 现有方法的问题 不同的局部块有不同重要性 忽略同模态中各局部之间的语义相关性 一个单词或一个图像区域在不同的全局上下文中可能有",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-03 12:09:03 \u002b0800 CST",
-    "dateModified" : "2021-08-03 12:09:03 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn70\/",
-    "wordCount" : "86",
-    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","CNN", "Jonathan`s Blog"]
+    "datePublished": "2021-08-04 19:43:07 \u002b0800 CST",
+    "dateModified" : "2021-08-04 19:43:07 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn71\/",
+    "wordCount" : "325",
+    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-03 itemprop="datePublished">August 3, 2021</time>
+                on <time datetime=2021-08-04 itemprop="datePublished">August 4, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 86 words</span>
+                <span class="post-word-count">, 325 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,14 +189,51 @@
           
           
 
-          <h1 id="210603180-transformer-in-convolutional-neural-networks-2021">2106.03180 Transformer in Convolutional Neural Networks (2021)</h1>
-<p><a href="https://github.com/yun-liu/TransCNN">开源代码传送门</a></p>
-<h2 id="概览">概览</h2>
-<p>本文提出层级化的多头注意力 (H-MHSA)。</p>
-<p>为了结合 CNN 与 Transformer 的优势，提出 Transformer in Convolutional Neural Networks (TransCNN) 的概念，TransCNN 直接处理 3D 特征图，而非序列化数据。</p>
-<p><img src="/images/2021/PRN70/1.png" alt="Fig 1"></p>
-<p><img src="/images/2021/PRN70/T1.png" alt="Tab 1"></p>
-<p><img src="/images/2021/PRN70/T2.png" alt="Tab 2"></p>
+          <h1 id="context-aware-attention-network-for-image-text-retrieval-cvpr-2020">Context-Aware Attention Network for Image-Text Retrieval (CVPR 2020)</h1>
+<p><img src="/images/2021/PRN71/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<h3 id="现有方法的问题">现有方法的问题</h3>
+<ul>
+<li>不同的局部块有不同重要性</li>
+<li>忽略同模态中各局部之间的语义相关性</li>
+<li>一个单词或一个图像区域在不同的全局上下文中可能有不同的语义</li>
+</ul>
+<p>本文提出一种知道上下文的注意力网络 (Context-Aware Attention Network, CAAN)，基于全局上下文选择局部部件。</p>
+<p><img src="/images/2021/PRN71/2.png" alt="Fig 2"></p>
+<h2 id="特征提取">特征提取</h2>
+<h3 id="视觉表征">视觉表征</h3>
+<p>Faster R-CNN</p>
+<h3 id="文本表征">文本表征</h3>
+<p>Bi-GRU</p>
+<h2 id="context-aware-attention">Context-Aware Attention</h2>
+<h3 id="公式">公式</h3>
+<p>视觉特征 \(V\) 与文本特征 \(U\) 之间计算相似度矩阵：</p>
+<p>$$H = tanh(V^TKU),$$</p>
+<p>区域的注意力函数为：</p>
+<p>$$\widetilde{f}(V, U) = tanh(H^vV^TQ_{1} + H^{uv}U^TQ_{2}),$$
+$$f(V, U) = softmax(W^v \widetilde{f}(V, U)).$$</p>
+<p>单词的注意力函数为：</p>
+<p>$$\widetilde{g}(V, U) = tanh(H^uU^TQ_{3} + H^{vu}V^TQ_{4}),$$
+$$g(V, U) = softmax(W^u \widetilde{g}(V, U)).$$</p>
+<p>而后有</p>
+<p>$$\hat{v} = Vf(V, U),$$
+$$\hat{u} = Ug(V, U).$$</p>
+<h3 id="模态间注意力-huv-hvu">模态间注意力 \(H^{uv}, H^{vu}\)</h3>
+<p>word-to-region attention:</p>
+<p>$$H^{uv}_{ij} = \frac{[H_{ij}]_{+}}{\sqrt{\sum_{k=1}^n [H_{kj}]_{+}^2}},$$</p>
+<p>region-to-word attention:</p>
+<p>$$H^{vu}_{ij} = \frac{[H_{ij}]_{+}}{\sqrt{\sum_{k=1}^m [H_{ik}]_{+}^2}},$$</p>
+<h3 id="模态内注意力-hv-hu">模态内注意力 \(H^{v}, H^{u}\)</h3>
+<p>本文讨论了两种版本的模态内注意力。</p>
+<h4 id="基于特征的注意力-fa">基于特征的注意力 (FA)</h4>
+<p>$$H^v = V^TM_{1}V,$$
+$$H^u = U^TM_{2}U.$$</p>
+<h4 id="基于语义的注意力-sa">基于语义的注意力 (SA)</h4>
+<p>$$H^u = \begin{bmatrix} norm(H^{vu}_{1}) \\ norm(H^{vu}_{2}) \\ &hellip; \\ norm(H^{uv}_{n}) \end{bmatrix} \begin{bmatrix} norm(H^{uv}_{1}) \\ norm(H^{uv}_{2}) \\ &hellip; \\ norm(H^{uv}_{n}) \end{bmatrix}^T,$$
+$$H^v = \begin{bmatrix} norm(H^{uv}_{1}) \\ norm(H^{vu}_{2}) \\ &hellip; \\ norm(H^{vu}_{m}) \end{bmatrix} \begin{bmatrix} norm(H^{vu}_{1}) \\ norm(H^{vu}_{2}) \\ &hellip; \\ norm(H^{vu}_{m}) \end{bmatrix}^T,$$</p>
+<p><img src="/images/2021/PRN71/3.png" alt="Fig 3"></p>
+<h2 id="可视化">可视化</h2>
+<p><img src="/images/2021/PRN71/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -211,7 +248,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn70/>http://jonathanwayy.xyz/2021/prn70/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn71/>http://jonathanwayy.xyz/2021/prn71/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -240,17 +277,14 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
                     #attention</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
-                    #transformer</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
-                    #ViT</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cnn/">
-                    #CNN</a></span>
             
             </section>
         
@@ -262,10 +296,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn69/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn70/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn71/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020)">[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -274,7 +308,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

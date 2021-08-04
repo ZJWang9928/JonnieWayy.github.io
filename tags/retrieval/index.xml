@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 03 Aug 2021 11:07:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Aug 2021 19:43:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn71/</link>
+      <pubDate>Wed, 04 Aug 2021 19:43:07 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn71/</guid>
+      <description>Context-Aware Attention Network for Image-Text Retrieval (CVPR 2020) 背景 现有方法的问题 不同的局部块有不同重要性 忽略同模态中各局部之间的语义相关性 一个单词或一个图像区域在不同的全局上下文中可能有</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn69/</link>
