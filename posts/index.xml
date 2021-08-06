@@ -23,7 +23,7 @@
       <pubDate>Fri, 06 Aug 2021 14:50:11 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn72/</guid>
-      <description>2009.14082 Attentional Feature Fusion (WACV 2021) 概述 本文研究特征融合 (feature fusion)，提出注意力特征融合模块 (attentional feature fusion module, AFF)。 为了缓解由于尺度变化以及小目标引起的问题，提出注意</description>
+      <description>2009.14082 Attentional Feature Fusion (WACV 2021) 开源代码传送门 概述 本文研究特征融合 (feature fusion)，提出注意力特征融合模块 (attentional feature fusion module, AFF)。 为了缓解由于尺度变化以及小目标引起的</description>
     </item>
     
     <item>
