@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 04 Aug 2021 19:43:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Aug 2021 14:50:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 注意力机制] Attentional Feature Fusion (WACV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn72/</link>
+      <pubDate>Fri, 06 Aug 2021 14:50:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn72/</guid>
+      <description>2009.14082 Attentional Feature Fusion (WACV 2021) 概述 本文研究特征融合 (feature fusion)，提出注意力特征融合模块 (attentional feature fusion module, AFF)。 为了缓解由于尺度变化以及小目标引起的问题，提出注意</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn71/</link>
