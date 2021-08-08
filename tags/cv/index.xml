@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 06 Aug 2021 14:50:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 20:31:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Learning Joint Embedding of Food Images and Recipes (TMM 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn73/</link>
+      <pubDate>Sun, 08 Aug 2021 20:31:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn73/</guid>
+      <description>Cross-Modal Food Retrieval: Learning a Joint Embedding of Food Images and Recipes with Semantic Consistency and Attention Mechanism (TMM 2021) 核心 相同食物的数据表征可能不同，而不同食物的数据表征可能相似，从而导致食物数据有较大的类内方差与较小</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Attentional Feature Fusion (WACV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn72/</link>
