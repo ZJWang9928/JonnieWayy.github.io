@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 09 Aug 2021 12:11:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 11:12:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn75/</link>
+      <pubDate>Tue, 10 Aug 2021 11:12:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn75/</guid>
+      <description>2104.09497 Attention in Attention Network for Image Super-Resolution (2021) 开源代码传送门 概览 图像超分任务。 提出一种 attention in attention 块 (\(A^2B\))，并设计了 \(A^2N\) 架构。 出发点 两个问题 图像的哪一部分倾向于有</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn74/</link>

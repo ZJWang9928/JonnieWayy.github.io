@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn73/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn75/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn74/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn74/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn75/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019) | Jonathan`s Blog
+           [论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019)",
-    "headline" : "[论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019)",
-    "description" : "CCNet: Criss-Cross Attention for Semantic Segmentation (ICCV 2019) 开源代码传送门 概述 提出十字注意力 (Criss-Cross Attention)，将参数量从非局部注意力的 \\(H \\times W\\) 减少到了 \\(H \u002b W -1\\)。 为了捕捉全图依",
+    "name" : "[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)",
+    "headline" : "[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)",
+    "description" : "2104.09497 Attention in Attention Network for Image Super-Resolution (2021) 开源代码传送门 概览 图像超分任务。 提出一种 attention in attention 块 (\\(A^2B\\))，并设计了 \\(A^2N\\) 架构。 出发点 两个问题 图像的哪一部分倾向于有",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-09 12:11:40 \u002b0800 CST",
-    "dateModified" : "2021-08-09 12:11:40 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn74\/",
-    "wordCount" : "377",
+    "datePublished": "2021-08-10 11:12:17 \u002b0800 CST",
+    "dateModified" : "2021-08-10 11:12:17 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn75\/",
+    "wordCount" : "112",
     "keywords" : [ "paper reading","cv","notes","attention", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-09 itemprop="datePublished">August 9, 2021</time>
+                on <time datetime=2021-08-10 itemprop="datePublished">August 10, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 377 words</span>
+                <span class="post-word-count">, 112 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,29 +189,24 @@
           
           
 
-          <h1 id="ccnet-criss-cross-attention-for-semantic-segmentation-iccv-2019">CCNet: Criss-Cross Attention for Semantic Segmentation (ICCV 2019)</h1>
-<p><a href="https://github.com/speedinghzl/CCNet">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN74/1.png" alt="Fig 1"></p>
-<h2 id="概述">概述</h2>
-<p>提出十字注意力 (Criss-Cross Attention)，将参数量从非局部注意力的 \(H \times W\) 减少到了 \(H + W -1\)。</p>
-<p>为了捕捉全图依赖关系，对十字注意力模块采用递归操作，共享各模块的参数以减少参数量。</p>
-<p>将十字注意力模块嵌入到 CNN 中，称为 CCNet。</p>
-<p><img src="/images/2021/PRN74/2.png" alt="Fig 2"></p>
-<h2 id="十字注意力">十字注意力</h2>
-<h3 id="affinity-操作">Affinity 操作</h3>
-<p>用于生成注意力图 \(A \in \mathbb{R}^{(H + W - 1) \times W \times H}\)，位置 \(u\) 上的 \(Q\) 为 \(Q_{u} \in \mathbb{R}^{C'}\)，通过从 \(K\) 提取与位置 \(u\) 同一行及同一列的特征向量得到集合 \(\Omega_{u} \in \mathbb{R}^{(H + W - 1) \times C'}\)。Affinity 操作定义为</p>
-<p>$$d_{i, u} = Q_{u}\Omega_{i, u}^T,$$</p>
-<p>其中 \(d_{i, u} \in D\) 是两个特征之间的相关程度，\(D \in \mathbb{R}^{(H + W -1) \times W \times H}\)。进而沿着 \(D\) 的通道维度做 softmax 得到注意力图 \(A\)。</p>
-<h3 id="aggregation-操作">Aggregation 操作</h3>
-<p>\(V\) 中与位置 \(u\) 同一行及同一列的特征向量集合为 \(\Phi_{u} \in \mathbb{R}^{(H + W - 1) \times C}\)，通过 Aggregation 操作收集上下文信息：</p>
-<p>$$H_{u}' = \sum_{i \in |\Phi_{u}|} A_{i, u}\Phi_{i, u} + H_{u}.$$</p>
-<p><img src="/images/2021/PRN74/3.png" alt="Fig 3"></p>
-<h2 id="信息传递示例">信息传递示例</h2>
-<p><img src="/images/2021/PRN74/4.png" alt="Fig 4"></p>
-<h2 id="结果示例">结果示例</h2>
-<p><img src="/images/2021/PRN74/5.png" alt="Fig 5"></p>
-<h2 id="注意力可视化">注意力可视化</h2>
-<p><img src="/images/2021/PRN74/6.png" alt="Fig 6"></p>
+          <h1 id="210409497-attention-in-attention-network-for-image-super-resolution-2021">2104.09497 Attention in Attention Network for Image Super-Resolution (2021)</h1>
+<p><a href="https://github.com/haoyuc/A2N">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN75/1.png" alt="Fig 1"></p>
+<h2 id="概览">概览</h2>
+<p>图像超分任务。</p>
+<p>提出一种 attention in attention 块 (\(A^2B\))，并设计了 \(A^2N\) 架构。</p>
+<h2 id="出发点">出发点</h2>
+<h3 id="两个问题">两个问题</h3>
+<ul>
+<li>图像的哪一部分倾向于有更高或更低的注意力系数？</li>
+<li>注意力机制是否总对超分模型有利？</li>
+</ul>
+<h2 id="网络架构">网络架构</h2>
+<p><img src="/images/2021/PRN75/2.png" alt="Fig 2"></p>
+<h2 id="a2b">\(A^2B\)</h2>
+<p><img src="/images/2021/PRN75/4.png" alt="Fig 4"></p>
+<h3 id="动态的注意力-dropout-机制">动态的注意力 Dropout 机制</h3>
+<p><img src="/images/2021/PRN75/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -226,7 +221,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn74/>http://jonathanwayy.xyz/2021/prn74/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn75/>http://jonathanwayy.xyz/2021/prn75/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -268,10 +263,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn73/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Learning Joint Embedding of Food Images and Recipes (TMM 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Learning Joint Embedding of Food Images and Recipes (TMM 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn74/" class="prev" rel="prev" title="[论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn75/" class="next" rel="next" title="[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)">[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -280,7 +275,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
