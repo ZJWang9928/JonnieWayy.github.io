@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 10 Aug 2021 11:12:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Aug 2021 15:46:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn76/</link>
+      <pubDate>Wed, 11 Aug 2021 15:46:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn76/</guid>
+      <description>Fashion Retrieval via Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019) 概述 Fashion Retrieval 任务。 一个问题在于对应位置的局部块通常是失配的，因此需要在同尺度所有局部之间遍历匹配。 设计了一种基于相似度金</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn75/</link>
