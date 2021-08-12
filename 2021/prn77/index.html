@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn75/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn77/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn76/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn76/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn77/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019) | Jonathan`s Blog
+           [论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)",
-    "headline" : "[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)",
-    "description" : "Fashion Retrieval via Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019) 概述 Fashion Retrieval 任务。 一个问题在于对应位置的局部块通常是失配的，因此需要在同尺度所有局部之间遍历匹配。 设计了一种基于相似度金",
+    "name" : "[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)",
+    "headline" : "[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)",
+    "description" : "2106.05786 CAT: Cross Attention in Vision Transformer (2021) 开源代码传送门 核心 设计了一种在单通道特征图上做注意力的方法，提出交叉注意力。 结合 Transformer 和 CNN 的优点构建 CAT。 Patch 内自注意力块 (IPSA) 与 Patch",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-11 15:46:56 \u002b0800 CST",
-    "dateModified" : "2021-08-11 15:46:56 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn76\/",
-    "wordCount" : "182",
-    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","graph","GCN", "Jonathan`s Blog"]
+    "datePublished": "2021-08-12 16:00:40 \u002b0800 CST",
+    "dateModified" : "2021-08-12 16:00:40 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn77\/",
+    "wordCount" : "78",
+    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","CNN", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-11 itemprop="datePublished">August 11, 2021</time>
+                on <time datetime=2021-08-12 itemprop="datePublished">August 12, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 182 words</span>
+                <span class="post-word-count">, 78 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,25 +189,17 @@
           
           
 
-          <h1 id="fashion-retrieval-via-graph-reasoning-networks-on-a-similarity-pyramid-iccv-2019">Fashion Retrieval via Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)</h1>
-<p><img src="/images/2021/PRN76/1.png" alt="Fig 1"></p>
-<h2 id="概述">概述</h2>
-<p>Fashion Retrieval 任务。</p>
-<p>一个问题在于对应位置的局部块通常是失配的，因此需要在同尺度所有局部之间遍历匹配。</p>
-<p>设计了一种基于相似度金字塔的图推理网络 (Graph Reasoning Network (GRNet) on a Similarity Pyramid)。</p>
-<p><img src="/images/2021/PRN76/2.png" alt="Fig 2"></p>
-<h2 id="图推理网络">图推理网络</h2>
-<p>提取多尺度的特征。</p>
-<h3 id="相似度金字塔图">相似度金字塔图</h3>
-<p>计算相似度向量，而非标量相似度：</p>
-<p>$$S_{p}(x_{l}^i, y_{l}^j) = \frac{P|x_{l}^i - y_{l}^j|^2}{||P|x_{l}^i - y_{l}^j|^2||_{2}}.$$</p>
-<p>以此为节点，构建边</p>
-<p>$$w_{p}^{l_{1}ij, l_{2}mn} = \frac{exp((T_{out} s_{l_{1}}^{ij})^T (T_{in} s_{l_{2}}^{mn}))}{\sum_{l, p, q} exp((T_{out} s_{l_{1}}^{ij})^T (T_{in} s_{l}^{pq}))}.$$</p>
-<h3 id="相似度推理">相似度推理</h3>
-<p>$$\hat{s}_{l_{1}}^{ij} = \sum_{l_{2}, m, n} w_{p}^{l_{1}ij, l_{2}mn} s_{l_{2}}^{mn},$$
-$$h_{l_{1}}^{ij} = ReLU(W\hat{s}_{l_{1}}^{ij}).$$</p>
-<h2 id="特征可视化">特征可视化</h2>
-<p><img src="/images/2021/PRN76/3.png" alt="Fig 3"></p>
+          <h1 id="210605786-cat-cross-attention-in-vision-transformer-2021">2106.05786 CAT: Cross Attention in Vision Transformer (2021)</h1>
+<p><a href="https://github.com/linhezheng19/CAT">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN77/1.png" alt="Fig 1"></p>
+<h2 id="核心">核心</h2>
+<p>设计了一种在单通道特征图上做注意力的方法，提出交叉注意力。</p>
+<p>结合 Transformer 和 CNN 的优点构建 CAT。</p>
+<p><img src="/images/2021/PRN77/2.png" alt="Fig 2"></p>
+<h2 id="patch-内自注意力块-ipsa-与-patch-间自注意力块-cpsa">Patch 内自注意力块 (IPSA) 与 Patch 间自注意力块 (CPSA)</h2>
+<p><img src="/images/2021/PRN77/3.png" alt="Fig 3"></p>
+<h2 id="cat">CAT</h2>
+<p><img src="/images/2021/PRN77/T1.png" alt="Tab 1"></p>
 
     </div>
 
@@ -222,7 +214,7 @@ $$h_{l_{1}}^{ij} = ReLU(W\hat{s}_{l_{1}}^{ij}).$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn76/>http://jonathanwayy.xyz/2021/prn76/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn77/>http://jonathanwayy.xyz/2021/prn77/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -251,20 +243,17 @@ $$h_{l_{1}}^{ij} = ReLU(W\hat{s}_{l_{1}}^{ij}).$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
-            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
                     #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/graph/">
-                    #graph</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
+                    #transformer</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/gcn/">
-                    #GCN</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
+                    #ViT</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cnn/">
+                    #CNN</a></span>
             
             </section>
         
@@ -276,10 +265,10 @@ $$h_{l_{1}}^{ij} = ReLU(W\hat{s}_{l_{1}}^{ij}).$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn75/" class="prev" rel="prev" title="[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn76/" class="prev" rel="prev" title="[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn77/" class="next" rel="next" title="[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)">[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -288,7 +277,7 @@ $$h_{l_{1}}^{ij} = ReLU(W\hat{s}_{l_{1}}^{ij}).$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

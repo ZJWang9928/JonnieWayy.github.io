@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 03 Aug 2021 12:09:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Aug 2021 16:00:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn77/</link>
+      <pubDate>Thu, 12 Aug 2021 16:00:40 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn77/</guid>
+      <description>2106.05786 CAT: Cross Attention in Vision Transformer (2021) 开源代码传送门 核心 设计了一种在单通道特征图上做注意力的方法，提出交叉注意力。 结合 Transformer 和 CNN 的优点构建 CAT。 Patch 内自注意力块 (IPSA) 与 Patch</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn70/</link>
