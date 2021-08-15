@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn77/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn78/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/bg28/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg28/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn78/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           壁纸分享[28] | Jonathan`s Blog
+           [论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="壁纸分享[28] | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "壁纸分享[28]",
-    "headline" : "壁纸分享[28]",
-    "description" : "",
+    "name" : "[论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020)",
+    "headline" : "[论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020)",
+    "description" : "Phase Consistent Ecological Domain Adaptation (CVPR 2020) 开源代码传送门 概述 无监督域适应 (Unsupervised Domain Adaptation, UDA) 任务。 通常的 UDA 方法 学习一个从源分布到目标分布的映射 训练一个对域变化不敏感的骨架网络 本文引",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-14 23:45:18 \u002b0800 CST",
-    "dateModified" : "2021-08-14 23:45:18 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/bg28\/",
-    "wordCount" : "0",
-    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
+    "datePublished": "2021-08-15 12:28:20 \u002b0800 CST",
+    "dateModified" : "2021-08-15 12:28:20 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn78\/",
+    "wordCount" : "242",
+    "keywords" : [ "paper reading","cv","notes","frequency","image", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,20 +155,20 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">壁纸分享[28]</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-14 itemprop="datePublished">August 14, 2021</time>
+                on <time datetime=2021-08-15 itemprop="datePublished">August 15, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 0 words</span>
+                <span class="post-word-count">, 242 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,16 +189,25 @@
           
           
 
-          <p><img src="/images/2020/01/wallpaper/270.jpg" alt="270">
-<img src="/images/2020/01/wallpaper/271.webp" alt="271">
-<img src="/images/2020/01/wallpaper/272.png" alt="272">
-<img src="/images/2020/01/wallpaper/273.webp" alt="273">
-<img src="/images/2020/01/wallpaper/274.jpg" alt="274">
-<img src="/images/2020/01/wallpaper/275.webp" alt="275">
-<img src="/images/2020/01/wallpaper/276.webp" alt="276">
-<img src="/images/2020/01/wallpaper/277.jpg" alt="277">
-<img src="/images/2020/01/wallpaper/278.jpg" alt="278">
-<img src="/images/2020/01/wallpaper/279.png" alt="279"></p>
+          <h1 id="phase-consistent-ecological-domain-adaptation-cvpr-2020">Phase Consistent Ecological Domain Adaptation (CVPR 2020)</h1>
+<p><a href="https://github.com/donglao/PCEDA">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN78/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<p>无监督域适应 (Unsupervised Domain Adaptation, UDA) 任务。</p>
+<h3 id="通常的-uda-方法">通常的 UDA 方法</h3>
+<ul>
+<li>学习一个从源分布到目标分布的映射</li>
+<li>训练一个对域变化不敏感的骨架网络</li>
+</ul>
+<p>本文引入两个约束，一个作用于域间映射，一个作用于目标域中的分类器。</p>
+<p>语义信息倾向于与傅里叶变换的相位有关，幅度改变能显著改变外观，但是不改变图像判读。因而保持相位一致性有助于提升表现。</p>
+<p><img src="/images/2021/PRN78/2.png" alt="Fig 2"></p>
+<h3 id="相位一致性">相位一致性</h3>
+<p>\(\mathcal{F}: \mathbb{R}^{H \times W} \rightarrow \mathbb{R}^{H \times W \times 2}\) 为傅利叶变换，对于一个变换 \(T\) 以及一张单通道图像 \(x\) 通过最小化下式保持相位一致性：</p>
+<p>$$\mathcal{L}_{ph}(T; x) = -\sum_{j}\frac{&lt;\mathcal{F}(x)_{j}, \mathcal{F}(T(x))_{j}&gt;}{||\mathcal{F}(x)_{j}||_{2} \cdot ||\mathcal{F}(T(x))_{j}||_{2}},$$</p>
+<p>即为原始与变换后相位间差异的负余弦值。</p>
+<h2 id="模型架构">模型架构</h2>
+<p><img src="/images/2021/PRN78/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -213,7 +222,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/bg28/>http://jonathanwayy.xyz/2021/bg28/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn78/>http://jonathanwayy.xyz/2021/prn78/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -233,17 +242,20 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
-                    #wallpaper</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #kde</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/image/">
+                    #image</a></span>
             
             </section>
         
@@ -255,10 +267,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn77/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/bg28/" class="prev" rel="prev" title="壁纸分享[28]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[28]</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn78/" class="next" rel="next" title="[论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020)">[论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -267,7 +279,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 12 Aug 2021 16:00:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Aug 2021 12:28:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn78/</link>
+      <pubDate>Sun, 15 Aug 2021 12:28:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn78/</guid>
+      <description>Phase Consistent Ecological Domain Adaptation (CVPR 2020) 开源代码传送门 概述 无监督域适应 (Unsupervised Domain Adaptation, UDA) 任务。 通常的 UDA 方法 学习一个从源分布到目标分布的映射 训练一个对域变化不敏感的骨架网络 本文引</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn77/</link>
