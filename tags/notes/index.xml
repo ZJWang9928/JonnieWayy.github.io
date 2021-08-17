@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 16 Aug 2021 17:57:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2021 15:53:21 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn80/</link>
+      <pubDate>Tue, 17 Aug 2021 15:53:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn80/</guid>
+      <description>2101.11873 A Graph-based Relevance Matching Model for Ad-hoc Retrieval (AAAI 2021) 背景 query-document 检索任务。 两类架构 representation-based matching interaction-based matching 两种重要关系 term-level query-document interaction document-level word relationships 一个问题 用来检索的短语可能并不连续出现在文档中，可能相隔甚远。</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建</title>
       <link>http://jonathanwayy.xyz/2021/fft-ap/</link>

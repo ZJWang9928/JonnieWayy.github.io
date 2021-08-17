@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn79/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn80/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/fft-ap/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/fft-ap/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn80/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建 | Jonathan`s Blog
+           [论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建",
-    "headline" : "炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建",
-    "description" : "简单记录一下如何使用 PyTorch 对做过傅利叶变换后的特征进行幅度与相位的分离与重建。 In [1]: import torch In [2]: import numpy as np # 生成一个张量作为特征 In [3]: feat = torch.rand((3,10)) In [4]: feat Out[4]: tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01,",
+    "name" : "[论文阅读笔记 -- 图网络 \/ Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)",
+    "headline" : "[论文阅读笔记 -- 图网络 \/ Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)",
+    "description" : "2101.11873 A Graph-based Relevance Matching Model for Ad-hoc Retrieval (AAAI 2021) 背景 query-document 检索任务。 两类架构 representation-based matching interaction-based matching 两种重要关系 term-level query-document interaction document-level word relationships 一个问题 用来检索的短语可能并不连续出现在文档中，可能相隔甚远。",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-16 17:57:11 \u002b0800 CST",
-    "dateModified" : "2021-08-16 17:57:11 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/fft-ap\/",
-    "wordCount" : "363",
-    "keywords" : [ "cv","notes","deep learning","pytorch","fft","frequency","numpy","python", "Jonathan`s Blog"]
+    "datePublished": "2021-08-17 15:53:21 \u002b0800 CST",
+    "dateModified" : "2021-08-17 15:53:21 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn80\/",
+    "wordCount" : "300",
+    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","graph","GCN", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,25 +155,27 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-16 itemprop="datePublished">August 16, 2021</time>
+                on <time datetime=2021-08-17 itemprop="datePublished">August 17, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 363 words</span>
+                <span class="post-word-count">, 300 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -187,79 +189,44 @@
           
           
 
-          <p>简单记录一下如何使用 PyTorch 对做过傅利叶变换后的特征进行幅度与相位的分离与重建。</p>
-<pre><code>In [1]: import torch
-In [2]: import numpy as np
-# 生成一个张量作为特征
-In [3]: feat = torch.rand((3,10))
-In [4]: feat
-Out[4]:
-tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01, 6.6436e-02, 6.5869e-01, 4.8748e-01,
-1.9435e-01, 2.4877e-01, 7.8698e-01, 1.3277e-01],
-[6.3847e-01, 8.6564e-01, 8.8914e-01, 8.0056e-01, 1.1412e-01, 8.1001e-03,
-7.4638e-01, 6.9028e-01, 3.3555e-01, 1.2327e-01],
-[6.1691e-05, 5.2777e-01, 9.7296e-01, 6.8016e-01, 9.2669e-01, 9.0223e-01,
-6.3513e-01, 4.3459e-01, 1.5316e-02, 2.4932e-01]])
-# 傅利叶变换
-In [5]: feat_fft = torch.fft.fft(feat)
-In [6]: feat_fft
-Out[6]:
-tensor([[ 3.8922+0.0000j, -0.1096-0.0588j, -0.1528+0.2660j, -0.8802-0.7832j,
-0.3729+0.2184j,  1.4373+0.0000j,  0.3729-0.2184j, -0.8802+0.7832j,
--0.1528-0.2660j, -0.1096+0.0588j],
-[ 5.2115+0.0000j,  0.6520-0.6961j, -0.9788-1.5679j,  0.8060+0.2855j,
--0.0105-0.3864j,  0.2358+0.0000j, -0.0105+0.3864j,  0.8060-0.2855j,
--0.9788+1.5679j,  0.6520+0.6961j],
-[ 5.3442+0.0000j, -1.5761-1.4794j, -0.0763-0.4061j, -0.5573+0.1651j,
--0.3401+0.6849j, -0.2439+0.0000j, -0.3401-0.6849j, -0.5573-0.1651j,
--0.0763+0.4061j, -1.5761+1.4794j]])
-# 求模得到幅度谱
-In [7]: feat_fft_a = torch.abs(feat_fft)
-In [8]: feat_fft_a
-Out[8]:
-tensor([[3.8922, 0.1244, 0.3068, 1.1782, 0.4321, 1.4373, 0.4321, 1.1782, 0.3068,
-0.1244],
-[5.2115, 0.9538, 1.8484, 0.8551, 0.3865, 0.2358, 0.3865, 0.8551, 1.8484,
-0.9538],
-[5.3442, 2.1616, 0.4132, 0.5813, 0.7647, 0.2439, 0.7647, 0.5813, 0.4132,
-2.1616]])
-# 求相角得到相位谱
-In [9]: feat_fft_p = torch.angle(feat_fft)
-In [10]: feat_fft_p
-Out[10]:
-tensor([[ 0.0000, -2.6495,  2.0921, -2.4144,  0.5300,  0.0000, -0.5300,  2.4144,
--2.0921,  2.6495],
-[ 0.0000, -0.8181, -2.1289,  0.3404, -1.5979,  0.0000,  1.5979, -0.3404,
-2.1289,  0.8181],
-[ 0.0000, -2.3878, -1.7566,  2.8536,  2.0316,  3.1416, -2.0316, -2.8536,
-1.7566,  2.3878]])
-# 由幅度谱和相位谱计算特征，与分解前一致
-In [11]: feat_fft_recon = feat_fft_a * np.e ** (1j * feat_fft_p)
-In [12]: feat_fft_recon
-Out[12]:
-tensor([[ 3.8922+0.0000e+00j, -0.1096-5.8784e-02j, -0.1528+2.6603e-01j,
--0.8802-7.8322e-01j,  0.3729+2.1844e-01j,  1.4373+0.0000e+00j,
-0.3729-2.1844e-01j, -0.8802+7.8322e-01j, -0.1528-2.6603e-01j,
--0.1096+5.8784e-02j],
-[ 5.2115+0.0000e+00j,  0.6520-6.9611e-01j, -0.9788-1.5679e+00j,
-0.8060+2.8550e-01j, -0.0105-3.8636e-01j,  0.2358+0.0000e+00j,
--0.0105+3.8636e-01j,  0.8060-2.8550e-01j, -0.9788+1.5679e+00j,
-0.6520+6.9611e-01j],
-[ 5.3442+0.0000e+00j, -1.5761-1.4794e+00j, -0.0763-4.0608e-01j,
--0.5573+1.6513e-01j, -0.3401+6.8493e-01j, -0.2439+3.6829e-08j,
--0.3401-6.8493e-01j, -0.5573-1.6513e-01j, -0.0763+4.0608e-01j,
--1.5761+1.4794e+00j]])
-# 还原为输入特征，二者一致
-In [13]: feat_ifft = torch.real(torch.fft.ifft(feat_fft_recon))
-In [14]: feat_ifft
-Out[14]:
-tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01, 6.6436e-02, 6.5869e-01, 4.8748e-01,
-1.9435e-01, 2.4877e-01, 7.8698e-01, 1.3277e-01],
-[6.3847e-01, 8.6564e-01, 8.8914e-01, 8.0056e-01, 1.1412e-01, 8.1001e-03,
-7.4638e-01, 6.9028e-01, 3.3555e-01, 1.2327e-01],
-[6.1810e-05, 5.2777e-01, 9.7296e-01, 6.8016e-01, 9.2669e-01, 9.0223e-01,
-6.3513e-01, 4.3459e-01, 1.5316e-02, 2.4932e-01]])
-</code></pre>
+          <h1 id="210111873-a-graph-based-relevance-matching-model-for-ad-hoc-retrieval-aaai-2021">2101.11873 A Graph-based Relevance Matching Model for Ad-hoc Retrieval (AAAI 2021)</h1>
+<p><img src="/images/2021/PRN80/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<p>query-document 检索任务。</p>
+<h3 id="两类架构">两类架构</h3>
+<ul>
+<li>representation-based matching</li>
+<li>interaction-based matching</li>
+</ul>
+<h3 id="两种重要关系">两种重要关系</h3>
+<ul>
+<li>term-level query-document interaction</li>
+<li>document-level word relationships</li>
+</ul>
+<h3 id="一个问题">一个问题</h3>
+<p>用来检索的短语可能并不连续出现在文档中，可能相隔甚远。</p>
+<p>本文用图结构来处理该问题，设计了一种基于图的关联性匹配模型 (Graph-based Relevance Matching Model, GRMM)。</p>
+<p><img src="/images/2021/PRN80/2.png" alt="Fig 2"></p>
+<h2 id="图的构建">图的构建</h2>
+<h3 id="节点特征">节点特征</h3>
+<p>文档中单词特征作为节点，计算余弦相似度矩阵作为交互矩阵 \(S \in \mathbb{R}^{n \times M}\)：</p>
+<p>$$S_{ij} = cosine(e_{i}^{(d)}, e_{j}^{(q)}).$$</p>
+<h3 id="拓扑结构">拓扑结构</h3>
+<p>邻接矩阵 \(A \in \mathbb{R}^{n \times n}\) 定义为：</p>
+<p>$$A_{ij} = \begin{cases} count(i, j) \quad if \ i \ne j \\ 0 \qquad \qquad \quad otherwise \end{cases},$$</p>
+<p>其中 \(count(i, j)\) 为两个单词在同一滑窗中共同出现的次数。</p>
+<p>进而对 \(A\) 作归一化，较常规。</p>
+<h2 id="基于图的匹配">基于图的匹配</h2>
+<h3 id="邻居聚合">邻居聚合</h3>
+<p>$$h_{i}^0 = S_{i,:}, \ i = 1, 2, \cdots, n,$$
+$$a_{i}^{t} = \sum_{(w_{i}, w_{j}) \in \epsilon} \widetilde{A}_{ij}W_{a}h_{j}^t.$$</p>
+<h3 id="状态更新">状态更新</h3>
+<p>类似 GRU 的形式根据 \(a\) 更新 \(h\)。</p>
+<h3 id="特征选取">特征选取</h3>
+<p>采用 k-max-pooling 策略选取特征。</p>
+<p>$$H = h_{1}^t || \cdots || h_{n}^t,$$
+$$x_{j} = topk(H:,j).$$</p>
+
     </div>
 
     <div class="post-copyright">
@@ -273,7 +240,7 @@ tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01, 6.6436e-02, 6.5869e-01, 4.8748e-01,
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/fft-ap/>http://jonathanwayy.xyz/2021/fft-ap/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn80/>http://jonathanwayy.xyz/2021/prn80/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -293,29 +260,29 @@ tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01, 6.6436e-02, 6.5869e-01, 4.8748e-01,
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
-                    #deep learning</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pytorch/">
-                    #pytorch</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/fft/">
-                    #fft</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
-                    #frequency</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/graph/">
+                    #graph</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/numpy/">
-                    #numpy</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
-                    #python</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/gcn/">
+                    #GCN</a></span>
             
             </section>
         
@@ -327,10 +294,10 @@ tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01, 6.6436e-02, 6.5869e-01, 4.8748e-01,
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn79/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] FDA: Fourier Domain Adaptation (CVPR 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] FDA: Fourier Domain Adaptation (CVPR 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/fft-ap/" class="prev" rel="prev" title="炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn80/" class="next" rel="next" title="[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)">[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -377,8 +344,9 @@ tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01, 6.6436e-02, 6.5869e-01, 4.8748e-01,
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
