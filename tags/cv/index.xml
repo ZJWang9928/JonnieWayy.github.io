@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 17 Aug 2021 15:53:21 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2021 20:24:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 表格使用 toprule、midrule 及 bottomrule 时出现 undefined control sequence 报错解决方案</title>
+      <link>http://jonathanwayy.xyz/2021/latex_booktabs/</link>
+      <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_booktabs/</guid>
+      <description>问题描述 在 Latex 表格中，使用 \toprule、\midrule 以及 \bottomrule 时报错 “undefined control sequence”。 解决办法 缺少相应宏包，导入即</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn80/</link>
