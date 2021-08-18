@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 17 Aug 2021 20:24:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 14:36:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ArchLinux</title>
+      <link>http://jonathanwayy.xyz/tags/archlinux/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/archlinux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backup</title>
+      <link>http://jonathanwayy.xyz/tags/backup/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pacman</title>
+      <link>http://jonathanwayy.xyz/tags/pacman/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pacman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tar</title>
+      <link>http://jonathanwayy.xyz/tags/tar/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/tar/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>acm</title>
       <link>http://jonathanwayy.xyz/tags/acm/</link>
@@ -41,15 +104,6 @@
       <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -176,24 +230,6 @@
       <pubDate>Sat, 14 Aug 2021 23:45:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/kde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Sat, 14 Aug 2021 23:45:18 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>manjaro</title>
-      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
-      <pubDate>Sat, 14 Aug 2021 23:45:18 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
       <description></description>
     </item>
     
@@ -419,24 +455,6 @@
       <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/tensor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ArchLinux</title>
-      <link>http://jonathanwayy.xyz/tags/archlinux/</link>
-      <pubDate>Mon, 21 Jun 2021 19:47:15 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/archlinux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pacman</title>
-      <link>http://jonathanwayy.xyz/tags/pacman/</link>
-      <pubDate>Mon, 21 Jun 2021 19:47:15 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pacman/</guid>
       <description></description>
     </item>
     

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 21 Jun 2021 19:47:15 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 14:36:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLWL[41] Linux 通过 tar 进行系统备份与恢复</title>
+      <link>http://jonathanwayy.xyz/2021/blwl41/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/blwl41/</guid>
+      <description>记录一下如何使用 tar 工具进行 Linux 系统的备份与恢复。 1. 安装 tar 工具 &amp;gt; sudo pacman -S tar 2. 新建一个存放备份文件的目录 &amp;gt; mkdir -p backup_dir backup_dir 目录可根据自己的设备情况选择。 3. 执</description>
+    </item>
+    
     <item>
       <title>BLWL[40] Manjaro/Archlinux “...” 的签名是未知信任的 问题解决方案</title>
       <link>http://jonathanwayy.xyz/2021/blwl40/</link>

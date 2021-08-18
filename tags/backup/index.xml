@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>backup on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/backup/</link>
+    <description>Recent content in backup on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Wed, 18 Aug 2021 14:36:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLWL[41] Linux 通过 tar 进行系统备份与恢复</title>
+      <link>http://jonathanwayy.xyz/2021/blwl41/</link>
+      <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/blwl41/</guid>
+      <description>记录一下如何使用 tar 工具进行 Linux 系统的备份与恢复。 1. 安装 tar 工具 &amp;gt; sudo pacman -S tar 2. 新建一个存放备份文件的目录 &amp;gt; mkdir -p backup_dir backup_dir 目录可根据自己的设备情况选择。 3. 执</description>
+    </item>
+    
+  </channel>
+</rss>
