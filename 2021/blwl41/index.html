@@ -67,7 +67,7 @@
     "datePublished": "2021-08-18 14:36:27 \u002b0800 CST",
     "dateModified" : "2021-08-18 14:36:27 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/blwl41\/",
-    "wordCount" : "161",
+    "wordCount" : "163",
     "keywords" : [ "pacman","Linux","Notes","tar","backup","Manjaro","ArchLinux", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
                         
                 </span>
-                <span class="post-word-count">, 161 words</span>
+                <span class="post-word-count">, 163 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,10 +194,10 @@
 <pre><code>&gt; mkdir -p backup_dir
 </code></pre><p><code>backup_dir</code> 目录可根据自己的设备情况选择。</p>
 <h3 id="3-执行下列命令进行备份">3. 执行下列命令进行备份</h3>
-<pre><code>&gt; tar -czvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc /
+<pre><code>&gt; tar -czvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc --exclude=./backup_dir /
 </code></pre><p><code>--exclude=...</code> 指定打包时需要排除在外的文件或目录。</p>
 <h3 id="4-初次备份成功后可以定期通过如下命令进行增量备份">4. 初次备份成功后可以定期通过如下命令进行增量备份</h3>
-<pre><code>&gt; tar -uzvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc /
+<pre><code>&gt; tar -uzvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc --exclude=./backup_dir /
 </code></pre><h3 id="5-通过如下命令还原备份">5. 通过如下命令还原备份</h3>
 <pre><code>&gt; tar -zxvf ./backup_dir/manjaro_bk.tar.gz -C /
 </code></pre>
