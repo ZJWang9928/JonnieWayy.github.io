@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_booktabs/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn81/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/blwl41/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/blwl41/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn81/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           BLWL[41] Linux 通过 tar 进行系统备份与恢复 | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="BLWL[41] Linux 通过 tar 进行系统备份与恢复 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "BLWL[41] Linux 通过 tar 进行系统备份与恢复",
-    "headline" : "BLWL[41] Linux 通过 tar 进行系统备份与恢复",
-    "description" : "记录一下如何使用 tar 工具进行 Linux 系统的备份与恢复。 1. 安装 tar 工具 \u0026gt; sudo pacman -S tar 2. 新建一个存放备份文件的目录 \u0026gt; mkdir -p backup_dir backup_dir 目录可根据自己的设备情况选择。 3. 执",
+    "name" : "[论文阅读笔记 -- 跨模态检索] Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021)",
+    "description" : "Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021) 开源代码传送门 背景 一张图像可能与多条不同的文本相匹配，一条文本也可能对应多张不同的图像。 本文提出一种概率跨模态嵌入模型 (Probabilistic Cross-Modal Embedding, P",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-18 14:36:27 \u002b0800 CST",
-    "dateModified" : "2021-08-18 14:36:27 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/blwl41\/",
-    "wordCount" : "163",
-    "keywords" : [ "pacman","Linux","Notes","tar","backup","Manjaro","ArchLinux", "Jonathan`s Blog"]
+    "datePublished": "2021-08-19 11:43:18 \u002b0800 CST",
+    "dateModified" : "2021-08-19 11:43:18 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn81\/",
+    "wordCount" : "645",
+    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","probability", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,25 +155,27 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">BLWL[41] Linux 通过 tar 进行系统备份与恢复</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-18 itemprop="datePublished">August 18, 2021</time>
+                on <time datetime=2021-08-19 itemprop="datePublished">August 19, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/better-life-with-linux/"> Better Life With Linux </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 163 words</span>
+                <span class="post-word-count">, 645 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -187,20 +189,48 @@
           
           
 
-          <p>记录一下如何使用 tar 工具进行 Linux 系统的备份与恢复。</p>
-<h3 id="1-安装-tar-工具">1. 安装 tar 工具</h3>
-<pre><code>&gt; sudo pacman -S tar
-</code></pre><h3 id="2-新建一个存放备份文件的目录">2. 新建一个存放备份文件的目录</h3>
-<pre><code>&gt; mkdir -p backup_dir
-</code></pre><p><code>backup_dir</code> 目录可根据自己的设备情况选择。</p>
-<h3 id="3-执行下列命令进行备份">3. 执行下列命令进行备份</h3>
-<pre><code>&gt; tar -czvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc --exclude=./backup_dir /
-</code></pre><p><code>--exclude=...</code> 指定打包时需要排除在外的文件或目录。</p>
-<h3 id="4-初次备份成功后可以定期通过如下命令进行增量备份">4. 初次备份成功后可以定期通过如下命令进行增量备份</h3>
-<pre><code>&gt; tar -uzvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc --exclude=./backup_dir /
-</code></pre><h3 id="5-通过如下命令还原备份">5. 通过如下命令还原备份</h3>
-<pre><code>&gt; tar -zxvf ./backup_dir/manjaro_bk.tar.gz -C /
-</code></pre>
+          <h1 id="probabilistic-embeddings-for-cross-modal-retrieval-cvpr-2021">Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021)</h1>
+<p><a href="https://github.com/naver-ai/pcme">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN81/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<p>一张图像可能与多条不同的文本相匹配，一条文本也可能对应多张不同的图像。</p>
+<p>本文提出一种概率跨模态嵌入模型 (Probabilistic Cross-Modal Embedding, PCME)。</p>
+<p><img src="/images/2021/PRN81/2.png" alt="Fig 2"></p>
+<h2 id="联合视觉-文本嵌入-joint-visual-textual-embeddings">联合视觉-文本嵌入 (Joint Visual-Textual Embeddings)</h2>
+<h3 id="视觉编码器">视觉编码器</h3>
+<p>ResNet</p>
+<h3 id="文本编码器">文本编码器</h3>
+<p>GloVe + bi-GRU</p>
+<h3 id="以往工作使用的损失">以往工作使用的损失</h3>
+<p>通常使用对比损失或三元组损失学习联合嵌入。</p>
+<h3 id="多义视觉-语义嵌入-polysemous-visual-semantic-embeddings-pvse">多义视觉-语义嵌入 (Polysemous Visual-Semantic Embeddings, PVSE)</h3>
+<p>用于建模跨模态检索中的一对多匹配。</p>
+<p>在特征提取后采用多头注意力块，为各模态编码 \(K\) 个可能的嵌入，使用多实例学习损失 (multiple instance learning, MIL)，只有最好的特征对被用于监督学习。</p>
+<h2 id="面向单个模态的概率嵌入">面向单个模态的概率嵌入</h2>
+<p>PCME 将各样本建模为一个分布，基于 Hedged Instance Embeddings (HIB) 构建， HIB 训练一个概率映射 \(p_{\theta}(z|x)\)，其不仅保留一对样本的语义相似性，且表征数据中的内在不确定性 (inherent uncertainty)。</p>
+<p>其关键部件如下：</p>
+<h3 id="soft-constrastive-loss">Soft Constrastive Loss</h3>
+<p>对于一对样本 \((x_{\alpha}, x_{\beta})\)，该损失定义为</p>
+<p>$$\mathcal{L}_{\alpha \beta}(\theta) = \begin{cases} -log p_{\theta}(m|x_{\alpha}, x_{\beta}) \quad if \ \alpha, \beta \ is \ a \ match \\ -log (1 - p_{\theta}(m|x_{\alpha}, x_{\beta})) \quad otherwise \end{cases},$$</p>
+<p>其中 \(p_{\theta}(m|x_{\alpha}, x_{\beta})\) 为匹配似然 (match probability)。</p>
+<h3 id="分解匹配似然">分解匹配似然</h3>
+<p>通过蒙特-卡洛方法分解匹配似然：</p>
+<p>$$p_{\theta}(m|x_{\alpha}, x_{\beta} \approx \frac{1}{J^2} \sum_{j}^{J} \sum_{j'}^{J} p(m|z_{\alpha}^{j}, z_{\beta}^{j'}),$$</p>
+<p>其中 \(z^{j}\) 是采样自嵌入分布 \(p_{\theta}(z|x)\) 的样本。为了能够训练，嵌入分布应当对再参数化方法友好 (reparametrization-trick-friendly)。</p>
+<h3 id="基于欧几里德距离的匹配似然">基于欧几里德距离的匹配似然</h3>
+<p>$$p(m|z_{\alpha}, z_{\beta}) = \sigma(-a||z_{\alpha} - z_{\beta}||_{2} + b),$$</p>
+<p>其中 \((a, b)\) 是可学习的参数。</p>
+<h2 id="概率跨模态嵌入-pcme">概率跨模态嵌入 (PCME)</h2>
+<p>$$p(v|i) \sim N(h_{\mathcal{V}}^{\mu}(z_{v}), diag(h_{\mathcal{V}}^{\sigma}(z_{v}))),$$
+$$p(t|c) \sim N(h_{\mathcal{T}}^{\mu}(z_{t}), diag(h_{\mathcal{T}}^{\sigma}(z_{t}))).$$</p>
+<p><img src="/images/2021/PRN81/3.png" alt="Fig 3"></p>
+<h3 id="局部注意力分支">局部注意力分支</h3>
+<p>受 PVSE 启发，在计算均值方差时引入局部注意力分支。</p>
+<h3 id="损失函数">损失函数</h3>
+<p>soft cross-modal contrastive loss + KL 散度 + uniformity loss</p>
+<h3 id="衡量面向实例的不确定性">衡量面向实例的不确定性</h3>
+<p>计算协方差矩阵的行列式或 \(\sigma&rsquo;s\) 的几何平均数得到。</p>
+
     </div>
 
     <div class="post-copyright">
@@ -214,7 +244,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/blwl41/>http://jonathanwayy.xyz/2021/blwl41/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn81/>http://jonathanwayy.xyz/2021/prn81/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -234,26 +264,26 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pacman/">
-                    #pacman</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #Linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
-                    #Notes</a></span>
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/tar/">
-                    #tar</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/backup/">
-                    #backup</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #Manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/archlinux/">
-                    #ArchLinux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/probability/">
+                    #probability</a></span>
             
             </section>
         
@@ -265,10 +295,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/latex_booktabs/" class="prev" rel="prev" title="Latex 表格使用 toprule、midrule 及 bottomrule 时出现 undefined control sequence 报错解决方案"><i class="iconfont icon-left"></i>&nbsp;Latex 表格使用 toprule、midrule 及 bottomrule 时出现 undefined control sequence 报错解决方案</a>
+        <a href="http://jonathanwayy.xyz/2021/blwl41/" class="prev" rel="prev" title="BLWL[41] Linux 通过 tar 进行系统备份与恢复"><i class="iconfont icon-left"></i>&nbsp;BLWL[41] Linux 通过 tar 进行系统备份与恢复</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn81/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021)">[论文阅读笔记 -- 跨模态检索] Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -277,7 +307,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -315,8 +345,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
