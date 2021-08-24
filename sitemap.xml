@@ -12,9 +12,9 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/awesome-wallpapers/</loc>
+      <loc>http://jonathanwayy.xyz/categories/</loc>
       
-      <lastmod>2021-08-24T21:41:47+08:00</lastmod>
+      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
       
       
       
@@ -22,9 +22,9 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/</loc>
+      <loc>http://jonathanwayy.xyz/2021/sharp4/</loc>
       
-      <lastmod>2021-08-24T21:41:47+08:00</lastmod>
+      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
       
       
       
@@ -33,6 +33,66 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/</loc>
+      
+      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/linux/</loc>
+      
+      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/posts/</loc>
+      
+      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/categories/sharp-tools/</loc>
+      
+      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/</loc>
+      
+      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/tools/</loc>
+      
+      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/categories/awesome-wallpapers/</loc>
       
       <lastmod>2021-08-24T21:41:47+08:00</lastmod>
       
@@ -52,37 +112,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/linux/</loc>
-      
-      <lastmod>2021-08-24T21:41:47+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/tags/manjaro/</loc>
-      
-      <lastmod>2021-08-24T21:41:47+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/posts/</loc>
-      
-      <lastmod>2021-08-24T21:41:47+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/</loc>
       
       <lastmod>2021-08-24T21:41:47+08:00</lastmod>
       
@@ -3123,26 +3153,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/2020/sharp3/</loc>
-      
-      <lastmod>2020-01-26T11:11:17+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/categories/sharp-tools/</loc>
-      
-      <lastmod>2020-01-26T11:11:17+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/tools/</loc>
       
       <lastmod>2020-01-26T11:11:17+08:00</lastmod>
       

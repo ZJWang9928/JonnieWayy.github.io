@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 24 Aug 2021 21:41:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Aug 2021 23:02:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -15,6 +15,15 @@
       
       <guid>http://jonathanwayy.xyz/2020/kliv/</guid>
       <description>   Kli Eng     HISlaH yes   ghobe&#39; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   vay&amp;rsquo; anyone, anybody   pagh no one, nobody   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&#39; success   pong name   puq child   loD man   be&#39; woman   Duj ship   qach building   Dlvl&#39; English, federation, the Federation   Suvwl&#39; fighter, warroir   jagh enemy   mang soldier   muSwl&#39; hater   qoq robot   yuch chocolate   mu&#39; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;lsquo;avwl&amp;rsquo; guard   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&#39; repair   Hub&#39; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   SaH care   ghov recognize   Qoy hear   Suj disturb   boQ assist   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong   chuS noisy    </description>
+    </item>
+    
+    <item>
+      <title>Coder 实用小工具大合集</title>
+      <link>http://jonathanwayy.xyz/2021/sharp4/</link>
+      <pubDate>Tue, 24 Aug 2021 23:02:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/sharp4/</guid>
+      <description>推荐一个使用小工具合集网站。 网站传送门</description>
     </item>
     
     <item>
@@ -1787,12 +1796,12 @@ To specify who the &amp;ldquo;he&amp;rdquo;, &amp;ldquo;she&amp;rdquo;, or &amp;
     </item>
     
     <item>
-      <title>Manjaro KDE有活动窗口时模糊桌面小插件Inactive Blur</title>
+      <title>Manjaro KDE 有活动窗口时模糊桌面小插件 Inactive Blur</title>
       <link>http://jonathanwayy.xyz/2020/sharp3/</link>
       <pubDate>Sun, 26 Jan 2020 11:11:17 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/sharp3/</guid>
-      <description>Manjaro KDE下一个挺有意思的桌面插件Inactive Blur 安装后在桌面配置中启用，可以对模糊度、渐变时间、壁纸图片等进行相关设置 无活动窗口时： 有活动</description>
+      <description>Manjaro KDE 下一个挺有意思的桌面插件 Inactive Blur 安装后在桌面配置中启用，可以对模糊度、渐变时间、壁纸图片等进行相关设置 无活动窗口时： 有活动窗口时：</description>
     </item>
     
     <item>
@@ -1828,12 +1837,12 @@ You may remember that this suffix is classified as a &amp;ldquo;rover&amp;rdquo;
     </item>
     
     <item>
-      <title>全平台Favicon在线生成器Real Favicon Generator</title>
+      <title>全平台 Favicon 在线生成器 Real Favicon Generator</title>
       <link>http://jonathanwayy.xyz/2020/sharp2/</link>
       <pubDate>Sat, 25 Jan 2020 11:06:10 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/sharp2/</guid>
-      <description>一款Favicon在线生成工具，图形化操作上传需要制作的图片即可 网站传送门</description>
+      <description>一款 Favicon 在线生成工具，图形化操作上传需要制作的图片即可 网站传送门</description>
     </item>
     
     <item>
@@ -1901,12 +1910,12 @@ Note that the English translation includes the connecting word &amp;ldquo;is&amp
     </item>
     
     <item>
-      <title>内网文件共享工具NitroShare</title>
+      <title>内网文件共享工具 NitroShare</title>
       <link>http://jonathanwayy.xyz/2020/sharp1/</link>
       <pubDate>Fri, 24 Jan 2020 15:20:08 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/sharp1/</guid>
-      <description>NitroShare是一款基于Qt5的跨平台开源应用软件，可以在本地网络（内网）中实现文件共享。 NitroShare已包含在AUR中，Man</description>
+      <description>NitroShare 是一款基于Qt5的跨平台开源应用软件，可以在本地网络（内网）中实现文件共享。 NitroShare 已包含在AUR中，Manjaro 下可直接使用 yay nitroshare 命令完成安装</description>
     </item>
     
     <item>
