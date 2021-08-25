@@ -12,9 +12,9 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/</loc>
+      <loc>http://jonathanwayy.xyz/tags/acm/</loc>
       
-      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
       
       
       
@@ -22,9 +22,29 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/sharp4/</loc>
+      <loc>http://jonathanwayy.xyz/categories/</loc>
       
-      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/cv/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/deep-learning/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
       
       
       
@@ -33,6 +53,86 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/latex/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/paperwriting/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/posts/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/categories/things-about-latex-md/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/latex_newlbel/</loc>
+      
+      <lastmod>2021-08-25T12:23:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/sharp4/</loc>
       
       <lastmod>2021-08-24T23:02:01+08:00</lastmod>
       
@@ -52,27 +152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/posts/</loc>
-      
-      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/categories/sharp-tools/</loc>
-      
-      <lastmod>2021-08-24T23:02:01+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/</loc>
       
       <lastmod>2021-08-24T23:02:01+08:00</lastmod>
       
@@ -163,26 +243,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/cross-modal/</loc>
-      
-      <lastmod>2021-08-23T14:43:44+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/cv/</loc>
-      
-      <lastmod>2021-08-23T14:43:44+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
       
       <lastmod>2021-08-23T14:43:44+08:00</lastmod>
       
@@ -302,57 +362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/acm/</loc>
-      
-      <lastmod>2021-08-17T20:24:16+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/deep-learning/</loc>
-      
-      <lastmod>2021-08-17T20:24:16+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/latex/</loc>
-      
-      <lastmod>2021-08-17T20:24:16+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/2021/latex_booktabs/</loc>
-      
-      <lastmod>2021-08-17T20:24:16+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/paperwriting/</loc>
-      
-      <lastmod>2021-08-17T20:24:16+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/categories/things-about-latex-md/</loc>
       
       <lastmod>2021-08-17T20:24:16+08:00</lastmod>
       

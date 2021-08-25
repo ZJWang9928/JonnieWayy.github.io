@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 24 Aug 2021 23:02:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 12:23:59 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>acm</title>
+      <link>http://jonathanwayy.xyz/tags/acm/</link>
+      <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/acm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>http://jonathanwayy.xyz/tags/latex/</link>
+      <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paperwriting</title>
+      <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
+      <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux</title>
       <link>http://jonathanwayy.xyz/tags/linux/</link>
@@ -72,24 +126,6 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 23 Aug 2021 14:43:44 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 23 Aug 2021 14:43:44 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
       <pubDate>Mon, 23 Aug 2021 14:43:44 +0800</pubDate>
@@ -149,42 +185,6 @@
       <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/tar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>acm</title>
-      <link>http://jonathanwayy.xyz/tags/acm/</link>
-      <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/acm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>latex</title>
-      <link>http://jonathanwayy.xyz/tags/latex/</link>
-      <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paperwriting</title>
-      <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
-      <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
       <description></description>
     </item>
     
