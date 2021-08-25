@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 25 Aug 2021 21:08:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 18:08:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -20,7 +20,7 @@
     <item>
       <title>炼丹杂记 -- 枢纽点问题 (Hubness Problem)</title>
       <link>http://jonathanwayy.xyz/2021/ldp_hubness_problem/</link>
-      <pubDate>Wed, 25 Aug 2021 21:08:27 +0800</pubDate>
+      <pubDate>Wed, 25 Aug 2021 18:08:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_hubness_problem/</guid>
       <description>当特征嵌入空间是一个高维空间时，容易出现枢纽点问题 (Hubness Problem)。 问题定义 在高维空间中，一部分测试集的类别可能会成为很多数据点的 K 近邻 (</description>
