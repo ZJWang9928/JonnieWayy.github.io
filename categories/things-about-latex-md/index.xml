@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 25 Aug 2021 12:23:59 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/things-about-latex-md/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 12:41:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/things-about-latex-md/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 使用 longtable 实现多页显示长表格</title>
+      <link>http://jonathanwayy.xyz/2021/latex_longtable/</link>
+      <pubDate>Wed, 25 Aug 2021 12:41:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_longtable/</guid>
+      <description>在使用 Latex 写论文时，有时会出现表格过长超出一页的情况，可以通过 longtable 包实现表格的多页显示。 首先引入宏包 \usepackage{longtable} 使用 longtable 首先删去 \begin{table} 和 \end{table}，</description>
+    </item>
+    
     <item>
       <title>编译 Latex 遇到 File ended while scanning use of 
 ewlbel 问题解决方案</title>

@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/sharp4/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/latex_longtable/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/latex_newlbel/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_newlbel/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/latex_longtable/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,12 +32,10 @@
   <title>
        
        
-           编译 Latex 遇到 File ended while scanning use of 
-ewlbel 问题解决方案 | Jonathan`s Blog
+           Latex 使用 longtable 实现多页显示长表格 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="编译 Latex 遇到 File ended while scanning use of 
-ewlbel 问题解决方案 | Jonathan`s Blog">
+  <meta name="title" content="Latex 使用 longtable 实现多页显示长表格 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -56,9 +54,9 @@ ewlbel 问题解决方案 | Jonathan`s Blog">
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "编译 Latex 遇到 File ended while scanning use of \newlbel 问题解决方案",
-    "headline" : "编译 Latex 遇到 File ended while scanning use of \newlbel 问题解决方案",
-    "description" : "问题描述 编译 Latex 时出现如下报错： File ended while scanning use of \\@newl@bel... 解决办法 将目录中除了 .tex 文件以及图像、参考文献等文件其外的其余文件均删除后重新编译即可。",
+    "name" : "Latex 使用 longtable 实现多页显示长表格",
+    "headline" : "Latex 使用 longtable 实现多页显示长表格",
+    "description" : "在使用 Latex 写论文时，有时会出现表格过长超出一页的情况，可以通过 longtable 包实现表格的多页显示。 首先引入宏包 \\usepackage{longtable} 使用 longtable 首先删去 \\begin{table} 和 \\end{table}，",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -66,11 +64,11 @@ ewlbel 问题解决方案 | Jonathan`s Blog">
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-25 12:23:59 \u002b0800 CST",
-    "dateModified" : "2021-08-25 12:23:59 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/latex_newlbel\/",
-    "wordCount" : "65",
-    "keywords" : [ "cv","notes","deep learning","acm","latex","paperwriting", "Jonathan`s Blog"]
+    "datePublished": "2021-08-25 12:41:56 \u002b0800 CST",
+    "dateModified" : "2021-08-25 12:41:56 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/latex_longtable\/",
+    "wordCount" : "233",
+    "keywords" : [ "cv","notes","deep learning","longtable","latex","paperwriting", "Jonathan`s Blog"]
 }
 </script>
 
@@ -157,8 +155,7 @@ ewlbel 问题解决方案 | Jonathan`s Blog">
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">编译 Latex 遇到 File ended while scanning use of 
-ewlbel 问题解决方案</h1>
+        <h1 class="post-title" itemprop="name headline">Latex 使用 longtable 实现多页显示长表格</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -171,7 +168,7 @@ ewlbel 问题解决方案</h1>
                         <a href="http://jonathanwayy.xyz/categories/things-about-latex-md/"> Things About Latex &amp; MD </a>
                         
                 </span>
-                <span class="post-word-count">, 65 words</span>
+                <span class="post-word-count">, 233 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -190,12 +187,27 @@ ewlbel 问题解决方案</h1>
           
           
 
-          <h2 id="问题描述">问题描述</h2>
-<p>编译 Latex 时出现如下报错：</p>
-<pre><code>File ended while scanning use of \@newl@bel...
-</code></pre><h2 id="解决办法">解决办法</h2>
-<p>将目录中除了 .tex 文件以及图像、参考文献等文件其外的其余文件均删除后重新编译即可。</p>
+          <p>在使用 Latex 写论文时，有时会出现表格过长超出一页的情况，可以通过 longtable 包实现表格的多页显示。</p>
+<h3 id="首先引入宏包">首先引入宏包</h3>
+<pre><code>\usepackage{longtable}
+</code></pre><h3 id="使用-longtable">使用 longtable</h3>
+<p>首先删去 <code>\begin{table}</code> 和 <code>\end{table}</code>，再将 <code>tabular</code> 替换为 <code>longtable</code> 即可，<code>longtable</code> 嵌套于 <code>table</code> 环境之内会导致 <code>longtable</code> 无法分页，需要居中的话可以在 <code>longtable</code> 外套一层 <code>center</code> 环境。</p>
+<h3 id="编译卡住问题的处理">编译卡住问题的处理</h3>
+<p>需要在 <code>caption</code> 和 <code>label</code> 的最后都加上两个反斜杠 <code>\\</code> 再进行编译。</p>
+<h3 id="每页均显示表头">每页均显示表头</h3>
+<p>为了让跨页表格的每页都有相应的表头和表尾，需要在 <code>\begin{longtable}</code> 之后插入如下内容：</p>
+<pre><code>\endfirsthead
+% 第一页表头内容
 
+\endhead
+% 跨页表头内容
+
+\endfoot
+% 跨页表尾内容
+
+\endlastfoot
+% 最后一页表尾内容
+</code></pre>
     </div>
 
     <div class="post-copyright">
@@ -209,7 +221,7 @@ ewlbel 问题解决方案</h1>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/latex_newlbel/>http://jonathanwayy.xyz/2021/latex_newlbel/</span>
+                    <a href=http://jonathanwayy.xyz/2021/latex_longtable/>http://jonathanwayy.xyz/2021/latex_longtable/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -238,8 +250,8 @@ ewlbel 问题解决方案</h1>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
                     #deep learning</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/acm/">
-                    #acm</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/longtable/">
+                    #longtable</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/latex/">
                     #latex</a></span>
@@ -257,10 +269,12 @@ ewlbel 问题解决方案</h1>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/sharp4/" class="prev" rel="prev" title="Coder 实用小工具大合集 tools.fun"><i class="iconfont icon-left"></i>&nbsp;Coder 实用小工具大合集 tools.fun</a>
+        <a href="http://jonathanwayy.xyz/2021/latex_newlbel/" class="prev" rel="prev" title="编译 Latex 遇到 File ended while scanning use of 
+ewlbel 问题解决方案"><i class="iconfont icon-left"></i>&nbsp;编译 Latex 遇到 File ended while scanning use of 
+ewlbel 问题解决方案</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/latex_longtable/" class="next" rel="next" title="Latex 使用 longtable 实现多页显示长表格">Latex 使用 longtable 实现多页显示长表格&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -269,7 +283,7 @@ ewlbel 问题解决方案</h1>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
