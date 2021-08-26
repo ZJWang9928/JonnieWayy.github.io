@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 25 Aug 2021 18:08:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/hubness/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Aug 2021 12:55:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/hubness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn83/</link>
+      <pubDate>Thu, 26 Aug 2021 12:55:43 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn83/</guid>
+      <description>HAL: Improved Text-Image Matching by Mitigating Visual Semantic Hubs (AAAI 2020) 背景 本文主要针对图文匹配任务中的枢纽点问题 (Hubness Problem) 进行研究。 由于图文匹配中的嵌入空间是由联合建模视觉和语言得到的，通常将其</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- 枢纽点问题 (Hubness Problem)</title>
       <link>http://jonathanwayy.xyz/2021/ldp_hubness_problem/</link>
