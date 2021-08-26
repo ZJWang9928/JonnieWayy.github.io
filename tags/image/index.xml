@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 16 Aug 2021 16:19:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Aug 2021 20:50:08 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn84/</link>
+      <pubDate>Thu, 26 Aug 2021 20:50:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn84/</guid>
+      <description>2012.12821 Focal Frequency Loss for Image Reconstruction and Synthesis (ICCV 2021) 开源代码传送门 项目主页传送门 背景 Image Reconstruction And Synthesis 任务。 本文提出一种 Focal Frequency Loss，直接在频域中优化生成模型。 Focal Frequency Loss 由 2D DFT 的公式表</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] FDA: Fourier Domain Adaptation (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn79/</link>

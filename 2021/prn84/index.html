@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp_hubness_problem/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn84/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn83/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn83/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn84/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020) | Jonathan`s Blog
+           [论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)",
-    "description" : "HAL: Improved Text-Image Matching by Mitigating Visual Semantic Hubs (AAAI 2020) 背景 本文主要针对图文匹配任务中的枢纽点问题 (Hubness Problem) 进行研究。 由于图文匹配中的嵌入空间是由联合建模视觉和语言得到的，通常将其",
+    "name" : "[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)",
+    "headline" : "[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)",
+    "description" : "2012.12821 Focal Frequency Loss for Image Reconstruction and Synthesis (ICCV 2021) 开源代码传送门 项目主页传送门 背景 Image Reconstruction And Synthesis 任务。 本文提出一种 Focal Frequency Loss，直接在频域中优化生成模型。 Focal Frequency Loss 由 2D DFT 的公式表",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-26 12:55:43 \u002b0800 CST",
-    "dateModified" : "2021-08-26 12:55:43 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn83\/",
-    "wordCount" : "665",
-    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","hubness", "Jonathan`s Blog"]
+    "datePublished": "2021-08-26 20:50:08 \u002b0800 CST",
+    "dateModified" : "2021-08-26 20:50:08 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn84\/",
+    "wordCount" : "625",
+    "keywords" : [ "paper reading","cv","notes","frequency","image", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 665 words</span>
+                <span class="post-word-count">, 625 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,37 +189,41 @@
           
           
 
-          <h1 id="hal-improved-text-image-matching-by-mitigating-visual-semantic-hubs-aaai-2020">HAL: Improved Text-Image Matching by Mitigating Visual Semantic Hubs (AAAI 2020)</h1>
-<p><img src="/images/2021/PRN83/1.png" alt="Fig 1"></p>
+          <h1 id="201212821-focal-frequency-loss-for-image-reconstruction-and-synthesis-iccv-2021">2012.12821 Focal Frequency Loss for Image Reconstruction and Synthesis (ICCV 2021)</h1>
+<p><a href="https://github.com/EndlessSora/focal-frequency-loss">开源代码传送门</a></p>
+<p><a href="https://www.mmlab-ntu.com/project/ffl/index.html">项目主页传送门</a></p>
+<p><img src="/images/2021/PRN84/1.png" alt="Fig 1"></p>
 <h2 id="背景">背景</h2>
-<p>本文主要针对图文匹配任务中的<a href="http://jonathanwayy.xyz/2021/ldp_hubness_problem/">枢纽点问题 (Hubness Problem)</a> 进行研究。</p>
-<p>由于图文匹配中的嵌入空间是由联合建模视觉和语言得到的，通常将其成为视觉语义嵌入 (Visual Semantic Embeddings, VSE)。</p>
-<p>本文提出一种自适应的枢纽点感知损失 (self-adjustable hubness-aware loss)，称为 HAL，其既考虑从整个训练集采样而来的全局统计量，也考察从 mini-batch 得到的局部统计量，利用枢纽的信息自动调整采样权重。其既从困难样本进行学习，也由于考虑了多个样本而对噪声健壮。</p>
-<p>为了决定权重，对一个样本考察如下两种关系：</p>
-<ul>
-<li>其与 mini-batch 内样本的关系</li>
-<li>其与一个 memory bank 中 k 近邻 query 的关系</li>
-</ul>
-<h2 id="两种基于三元组的损失函数">两种基于三元组的损失函数</h2>
-<h3 id="sum-margin-loss-sum">Sum-margin Loss (SUM)</h3>
-<p>最大的不足在于平等看待 mini-batch 中所有的三元组，为之赋予相同的权重。</p>
-<h3 id="max-margin-loss-max">Max-margin Loss (MAX)</h3>
-<p>其梯度容易收到噪声的主导，训练数据中的伪最困难负样本 (pseudo hardest negatives) 是噪声的一个主要来源。</p>
-<p>二者均同时之考察一个匹配对和一个适配对。</p>
-<h2 id="the-hubness-aware-loss-hal">The Hubness-Aware Loss (HAL)</h2>
-<h3 id="neighborhood-component-analysis-nca">Neighborhood Component Analysis (NCA)</h3>
-<p>在分类任务中 NCA 定义为</p>
-<p>$$\mathcal{L}_{NCA} = \sum_{i=1}^{N} (log \sum_{y_{i} = y_{j}} e^{S_{ij}} - log \sum_{k=1}^{N} e^{S_{ik}}),$$</p>
-<p>其中 \(N\) 是样本数，\(S\) 表示余弦相似度。</p>
-<p>对于一个样本 \(S_{ij}\)，当它与搜索空间中多个样本是近邻，即是一个 hub 时，其作为正样本的权重降低，作为负样本的权重升高，意味着该样本在训练中会受到更多注意。</p>
-<h3 id="global-weighting-through-memory-bank-mb">Global Weighting through Memory Bank (MB)</h3>
-<p>在每个 epoch 的最初，计算整个训练集样本的嵌入，构建 memory bank \(M\)，接着利用 mini-batch 和 memory bank 之间的关系为 batch 中各样本计算一个全局权重，用于强调 hub 并将权重传到接下来的 local weighting 阶段。</p>
-<p>定义一个函数 \(kNN(x, M, k)\) 返回点集 \(M\) 中 \(x\) 基于 \(l_{2}\) 距离的 \(k\) 近邻，HAL 的 global weighting 定义如下：</p>
-<p><img src="/images/2021/PRN83/Eq1.png" alt="Eq 1"></p>
-<p>其中 \(K_{1} = kNN(i, M_{T} \backslash \{t\}, k), K_{2} = kNN(t, M_{I} \backslash \{i\}, k)\)。</p>
-<h3 id="local-weighting-through-loss-function">Local Weighting through Loss Function</h3>
-<p>$$\mathcal{L}_{HAL} = \frac{1}{N} \sum_{i=1}^{N} (\frac{1}{\gamma} log(1 + \sum_{m \ne i} e^{\gamma W_{mi}(S_{mi} - \epsilon)}) + \frac{1}{\gamma} log(1 + \sum_{n \ne i} e^{\gamma W_{in}(S_{in} - \epsilon)}) - log(1 + W_{ii} S_{ii})),$$</p>
-<p>其中 \(\epsilon\) 是 margin 值。</p>
+<p>Image Reconstruction And Synthesis 任务。</p>
+<p>本文提出一种 Focal Frequency Loss，直接在频域中优化生成模型。</p>
+<p><img src="/images/2021/PRN84/2.png" alt="Fig 2"></p>
+<h2 id="focal-frequency-loss">Focal Frequency Loss</h2>
+<p>由 2D DFT 的公式表达可以看出，\(F(u, v)\) 是遍历图像空间域所有像素的求和函数，因而频谱中一个特定空间频率的值取决于所有图像像素，一些影响的可视化如图 2 所示。</p>
+<h3 id="frequency-distance">Frequency Distance</h3>
+<p>F(u, v) 可以写为实部和虚部的和：</p>
+<p>$$F(u, v) = R(u, v) + I(u, v)i.$$</p>
+<p>其幅度 (amplitude) 和相位 (phase) 分别为：</p>
+<p>$$|F(u, v)| = \sqrt{R(u, v)^2 + I(u, v)^2},$$
+$$\angle F(u, v) = arctan(\frac{I(u, v)}{R(u, v)}),$$</p>
+<p>幅度表示能量，即一张图像对特定频率的 2D 正弦波相应有多强；相位表征 2D 正弦波的偏移。</p>
+<p><img src="/images/2021/PRN84/3.png" alt="Fig 3"></p>
+<p>由图 3 可视化可以看出必须同时考察幅度和相位以实现可靠的重构。</p>
+<p>本文对此的解决方案是将各频率值映射到为一个二维空间，即一个复平面 (plane) 中的一个欧几里德向量。</p>
+<p>对一个特定频率的距离定义为</p>
+<p>$$d(\overrightarrow{r_{r}}, \overrightarrow{r_{f}}) = ||\overrightarrow{r_{r}} - \overrightarrow{r_{f}}||^{2}_{2} = |F_{r}(u, v) - F_{f}(u, v)|^{2},$$</p>
+<p>从而两张图像之间的频率距离可以定义为其均值</p>
+<p>$$d(F_{r}, F_{f}) = \frac{1}{MN} \sum_{u=0}^{M-1} \sum_{v=0}^{N-1} |F_{r}(u, v) - F_{f}(u, v)|^{2}.$$</p>
+<p><img src="/images/2021/PRN84/4.png" alt="Fig 4"></p>
+<h2 id="dynamic-spectrum-weighting">Dynamic Spectrum Weighting</h2>
+<p>仅凭借上一节介绍的损失函数并不够，模型依旧会偏向容易的频率。</p>
+<p>因而引入一个频谱权重矩阵 (spectrum weight matrix) 来降低容易频率的权重，从而使模型更专注于困难频率。</p>
+<p>频谱权重矩阵与频谱尺寸相同，定义为</p>
+<p>$$w(u, v) = |F_{r}(u, v) - F_{f}(u, v)|^{\alpha},$$</p>
+<p>\(alpha\) 在本文实验中取 \(1\)，进而对矩阵中的值做归一化，梯度锁住，不参与训练。</p>
+<p>通过在频谱权重矩和频域距离矩阵之间做哈达玛积，得到 focal frequency loss (FFL) 的完整形式：</p>
+<p>$$FFL = \frac{1}{MN} \sum_{u = 0}^{M - 1} \sum_{v = 0}^{N - 1} w(u, v) |F_{r}(u, v) - F_{f}(u, v)|^{2}.$$</p>
+<p>\(FFL\) 可以视作频域距离的加权平均值。</p>
+<p>在实际实现时，通过 2D DFT 变换厚的频域表征首先进行了正交化处理，及除以了 \(\sqrt{MN}\)，以保证梯度平滑。</p>
 
     </div>
 
@@ -234,7 +238,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn83/>http://jonathanwayy.xyz/2021/prn83/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn84/>http://jonathanwayy.xyz/2021/prn84/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -263,17 +267,11 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
-                    #attention</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/hubness/">
-                    #hubness</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/image/">
+                    #image</a></span>
             
             </section>
         
@@ -285,10 +283,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/ldp_hubness_problem/" class="prev" rel="prev" title="炼丹杂记 -- 枢纽点问题 (Hubness Problem)"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- 枢纽点问题 (Hubness Problem)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn83/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn84/" class="next" rel="next" title="[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)">[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

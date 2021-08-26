@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 26 Aug 2021 12:55:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Aug 2021 20:50:08 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Thu, 26 Aug 2021 20:50:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frequency</title>
+      <link>http://jonathanwayy.xyz/tags/frequency/</link>
+      <pubDate>Thu, 26 Aug 2021 20:50:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image</title>
+      <link>http://jonathanwayy.xyz/tags/image/</link>
+      <pubDate>Thu, 26 Aug 2021 20:50:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Thu, 26 Aug 2021 20:50:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Thu, 26 Aug 2021 20:50:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>attention</title>
       <link>http://jonathanwayy.xyz/tags/attention/</link>
@@ -27,38 +72,11 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 26 Aug 2021 12:55:43 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hubness</title>
       <link>http://jonathanwayy.xyz/tags/hubness/</link>
       <pubDate>Thu, 26 Aug 2021 12:55:43 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/hubness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Thu, 26 Aug 2021 12:55:43 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Thu, 26 Aug 2021 12:55:43 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -234,15 +252,6 @@
     </item>
     
     <item>
-      <title>frequency</title>
-      <link>http://jonathanwayy.xyz/tags/frequency/</link>
-      <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>numpy</title>
       <link>http://jonathanwayy.xyz/tags/numpy/</link>
       <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
@@ -266,15 +275,6 @@
       <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>image</title>
-      <link>http://jonathanwayy.xyz/tags/image/</link>
-      <pubDate>Mon, 16 Aug 2021 16:19:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/image/</guid>
       <description></description>
     </item>
     
