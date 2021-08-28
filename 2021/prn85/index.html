@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn83/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn85/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn84/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn84/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn85/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)",
-    "headline" : "[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)",
-    "description" : "2012.12821 Focal Frequency Loss for Image Reconstruction and Synthesis (ICCV 2021) 开源代码传送门 项目主页传送门 背景 Image Reconstruction And Synthesis 任务。 本文提出一种 Focal Frequency Loss，直接在频域中优化生成模型。 Focal Frequency Loss 由 2D DFT 的公式表",
+    "name" : "[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)",
+    "headline" : "[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)",
+    "description" : "1911.07850 Frequency Separation for Real-World Super-Resolution (ICCVW 2019) 开源代码传送门 速览 速读一篇文献，主要关注一下频域相关的处理。 下采样操作去除了高频信息而保留低频信息。 因而本文对高低频信息进行",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-26 20:50:08 \u002b0800 CST",
-    "dateModified" : "2021-08-26 20:50:08 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn84\/",
-    "wordCount" : "625",
+    "datePublished": "2021-08-27 13:40:16 \u002b0800 CST",
+    "dateModified" : "2021-08-27 13:40:16 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn85\/",
+    "wordCount" : "169",
     "keywords" : [ "paper reading","cv","notes","frequency","image", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-26 itemprop="datePublished">August 26, 2021</time>
+                on <time datetime=2021-08-27 itemprop="datePublished">August 27, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 625 words</span>
+                <span class="post-word-count">, 169 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,41 +189,20 @@
           
           
 
-          <h1 id="201212821-focal-frequency-loss-for-image-reconstruction-and-synthesis-iccv-2021">2012.12821 Focal Frequency Loss for Image Reconstruction and Synthesis (ICCV 2021)</h1>
-<p><a href="https://github.com/EndlessSora/focal-frequency-loss">开源代码传送门</a></p>
-<p><a href="https://www.mmlab-ntu.com/project/ffl/index.html">项目主页传送门</a></p>
-<p><img src="/images/2021/PRN84/1.png" alt="Fig 1"></p>
-<h2 id="背景">背景</h2>
-<p>Image Reconstruction And Synthesis 任务。</p>
-<p>本文提出一种 Focal Frequency Loss，直接在频域中优化生成模型。</p>
-<p><img src="/images/2021/PRN84/2.png" alt="Fig 2"></p>
-<h2 id="focal-frequency-loss">Focal Frequency Loss</h2>
-<p>由 2D DFT 的公式表达可以看出，\(F(u, v)\) 是遍历图像空间域所有像素的求和函数，因而频谱中一个特定空间频率的值取决于所有图像像素，一些影响的可视化如图 2 所示。</p>
-<h3 id="frequency-distance">Frequency Distance</h3>
-<p>F(u, v) 可以写为实部和虚部的和：</p>
-<p>$$F(u, v) = R(u, v) + I(u, v)i.$$</p>
-<p>其幅度 (amplitude) 和相位 (phase) 分别为：</p>
-<p>$$|F(u, v)| = \sqrt{R(u, v)^2 + I(u, v)^2},$$
-$$\angle F(u, v) = arctan(\frac{I(u, v)}{R(u, v)}),$$</p>
-<p>幅度表示能量，即一张图像对特定频率的 2D 正弦波相应有多强；相位表征 2D 正弦波的偏移。</p>
-<p><img src="/images/2021/PRN84/3.png" alt="Fig 3"></p>
-<p>由图 3 可视化可以看出必须同时考察幅度和相位以实现可靠的重构。</p>
-<p>本文对此的解决方案是将各频率值映射到为一个二维空间，即一个复平面 (plane) 中的一个欧几里德向量。</p>
-<p>对一个特定频率的距离定义为</p>
-<p>$$d(\overrightarrow{r_{r}}, \overrightarrow{r_{f}}) = ||\overrightarrow{r_{r}} - \overrightarrow{r_{f}}||^{2}_{2} = |F_{r}(u, v) - F_{f}(u, v)|^{2},$$</p>
-<p>从而两张图像之间的频率距离可以定义为其均值</p>
-<p>$$d(F_{r}, F_{f}) = \frac{1}{MN} \sum_{u=0}^{M-1} \sum_{v=0}^{N-1} |F_{r}(u, v) - F_{f}(u, v)|^{2}.$$</p>
-<p><img src="/images/2021/PRN84/4.png" alt="Fig 4"></p>
-<h2 id="dynamic-spectrum-weighting">Dynamic Spectrum Weighting</h2>
-<p>仅凭借上一节介绍的损失函数并不够，模型依旧会偏向容易的频率。</p>
-<p>因而引入一个频谱权重矩阵 (spectrum weight matrix) 来降低容易频率的权重，从而使模型更专注于困难频率。</p>
-<p>频谱权重矩阵与频谱尺寸相同，定义为</p>
-<p>$$w(u, v) = |F_{r}(u, v) - F_{f}(u, v)|^{\alpha},$$</p>
-<p>\(alpha\) 在本文实验中取 \(1\)，进而对矩阵中的值做归一化，梯度锁住，不参与训练。</p>
-<p>通过在频谱权重矩和频域距离矩阵之间做哈达玛积，得到 focal frequency loss (FFL) 的完整形式：</p>
-<p>$$FFL = \frac{1}{MN} \sum_{u = 0}^{M - 1} \sum_{v = 0}^{N - 1} w(u, v) |F_{r}(u, v) - F_{f}(u, v)|^{2}.$$</p>
-<p>\(FFL\) 可以视作频域距离的加权平均值。</p>
-<p>在实际实现时，通过 2D DFT 变换厚的频域表征首先进行了正交化处理，及除以了 \(\sqrt{MN}\)，以保证梯度平滑。</p>
+          <h1 id="191107850-frequency-separation-for-real-world-super-resolution-iccvw-2019">1911.07850 Frequency Separation for Real-World Super-Resolution (ICCVW 2019)</h1>
+<p><a href="https://github.com/ManuelFritsche/real-world-sr">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN85/1.png" alt="Fig 1"></p>
+<h2 id="速览">速览</h2>
+<p>速读一篇文献，主要关注一下频域相关的处理。</p>
+<p>下采样操作去除了高频信息而保留低频信息。</p>
+<p>因而本文对高低频信息进行了分离，进而分别处理，使用简单的线性滤波器实现，定义一个低通滤波器 \(w_{l, d}\)，通过卷积操作得到高低频信息：</p>
+<p>$$x_{L, d} = w_{L, d} * x_{d},$$
+$$x_{H, d} = x_{d} - x_{L, d} = (\delta - w_{L, d}) * x_{d}.$$</p>
+<p>故此高通滤波器定义为 \(w_{H, d} = \delta - w_{L, d}\)。</p>
+<p><img src="/images/2021/PRN85/2.png" alt="Fig 2"></p>
+<h2 id="模型架构">模型架构</h2>
+<p><img src="/images/2021/PRN85/3.png" alt="Fig 3"></p>
+<p><img src="/images/2021/PRN85/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -238,7 +217,7 @@ $$\angle F(u, v) = arctan(\frac{I(u, v)}{R(u, v)}),$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn84/>http://jonathanwayy.xyz/2021/prn84/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn85/>http://jonathanwayy.xyz/2021/prn85/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -283,10 +262,10 @@ $$\angle F(u, v) = arctan(\frac{I(u, v)}{R(u, v)}),$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn83/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn84/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn85/" class="next" rel="next" title="[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)">[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -295,7 +274,7 @@ $$\angle F(u, v) = arctan(\frac{I(u, v)}{R(u, v)}),$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
