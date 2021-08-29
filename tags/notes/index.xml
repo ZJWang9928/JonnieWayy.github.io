@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 27 Aug 2021 13:40:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Aug 2021 14:30:30 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Learn 3D Shape Feature for Texture-insensitive Person ReID (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn86/</link>
+      <pubDate>Sun, 29 Aug 2021 14:30:30 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn86/</guid>
+      <description>Learning 3D Shape Feature for Texture-insensitive Person Re-identification (CVPR 2021) 开源代码传送门 背景 Person ReID 任务。 研究表明 Person ReID 相当依赖衣着外观纹理 (clothing appearance textures)，大多数现有方法在衣着纹理较迷惑时表现</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn85/</link>

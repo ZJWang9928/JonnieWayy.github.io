@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn85/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn86/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           [论文阅读笔记 -- ReID] Learn 3D Shape Feature for Texture-insensitive Person ReID (CVPR 2021) | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="[论文阅读笔记 -- ReID] Learn 3D Shape Feature for Texture-insensitive Person ReID (CVPR 2021) | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/jonathanwayy.xyz"
+    },
+    "articleSection" : "posts",
+    "name" : "[论文阅读笔记 -- ReID] Learn 3D Shape Feature for Texture-insensitive Person ReID (CVPR 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] Learn 3D Shape Feature for Texture-insensitive Person ReID (CVPR 2021)",
+    "description" : "Learning 3D Shape Feature for Texture-insensitive Person Re-identification (CVPR 2021) 开源代码传送门 背景 Person ReID 任务。 研究表明 Person ReID 相当依赖衣着外观纹理 (clothing appearance textures)，大多数现有方法在衣着纹理较迷惑时表现",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2021",
+    "datePublished": "2021-08-29 14:30:30 \u002b0800 CST",
+    "dateModified" : "2021-08-29 14:30:30 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn86\/",
+    "wordCount" : "1581",
+    "keywords" : [ "paper reading","cv","notes","3D","reid","retrieval", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://jonathanwayy.xyz">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://jonathanwayy.xyz">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Learn 3D Shape Feature for Texture-insensitive Person ReID (CVPR 2021)</h1>
+        <div class="post-meta">
+                
+                Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
+                <span class="post-time">
+                on <time datetime=2021-08-29 itemprop="datePublished">August 29, 2021</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 1581 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="learning-3d-shape-feature-for-texture-insensitive-person-re-identification-cvpr-2021">Learning 3D Shape Feature for Texture-insensitive Person Re-identification (CVPR 2021)</h1>
+<p><a href="https://github.com/TencentYoutuResearch/PersonReID-YouReID">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN86/1.png" alt="Fig 1"></p>
+<h2 id="背景">背景</h2>
+<p>Person ReID 任务。</p>
+<p>研究表明 Person ReID 相当依赖衣着外观纹理 (clothing appearance textures)，大多数现有方法在衣着纹理较迷惑时表现大幅下降。由于人们可能会换衣服，且不同的人可能会穿相似的衣服，因而衣着纹理对 ReID 而言并不可靠。</p>
+<p>本文对更具有鉴别能力的特征进行建模，即人类形状表征 (human shape representation)。</p>
+<h3 id="现有方法学习形状相关特征的两种方法">现有方法学习形状相关特征的两种方法</h3>
+<ul>
+<li>2D 图像空间。基于 2D 的方法主要尝试基于如等高线、关键点等视觉统计量来提取形状特征，或通过 adversarial feature disentangle，这些方法只利用了 2D 空间中的结构和形状信息，而深度以及 3D 相对位置等 3D 信息被忽略。</li>
+<li>3D 源数据。基于 3D 的源数据需要通过外部设备来获取，在监控摄像环境中可能难以实现。</li>
+</ul>
+<p>本文通过将 3D 重构作为 ReID 特征学习的辅助任务与正则化，直接从原始的 2D 图像中提取对纹理不敏感的 3D 特征。采用一种多任务框架 (multi-task framework)，ReID 特征受到识别 (identification) 损失 (即 softmax loss + triplet loss)，以及 3D 重构损失的监督。</p>
+<p>训练 3D 行人重构的一大障碍在于 3D ground truth 的缺失，因而本文设计了一种纯无监督的架构，称为对抗自监督投影 (Adversarial Self-Supervised Projection, ASSP)。首先使用外部的无标签 3D 数据训练一个鉴别器，用于区分真实的 3D 参数与重构而来的结果。进而引入一个自监督学习循环，将 3D 重构结果投影回 2D 平面，最小化其间差异。</p>
+<p>3D 人类重构 (3D human reconstruction) 倾向于得到一个形状平均的表征 (mean shape representation)，因而全局的 3D 形状特征并不具备足够的鉴别力。本文提出一种多粒度形状特征学习 (Multi-Granularity Shape feature learning, MGS)，结合全局与局部形状特征来提升 ReID 的鉴别能力。</p>
+<p><img src="/images/2021/PRN86/2.png" alt="Fig 2"></p>
+<h2 id="3d-shape-learning-3dsl">3D Shape Learning (3DSL)</h2>
+<h3 id="3d-parametric-model">3D Parametric Model</h3>
+<p>本文选用 SMPL 作为基本模型进行重构，其建模为 pose 参数 \(\theta \in \mathbb{R}^{24 \times 3}\) 和 shape 参数 \(\beta \in \mathbb{R}^{10}\) 的函数，返回 \(N_{V} = 6890\) 个顶点以及 \(N_{F} = 13776\) 张脸。</p>
+<p>但是 shape 参数只有 \(10\) 维，表征容量不够，因而本文引入 vertice-wise displacement values，记为 \(\delta \in \mathbb{R}^{6890 \times 3}\)：</p>
+<p>$$\mathcal{M}(\beta, \theta, \delta) = W(T(\beta, \theta, \delta), J(\beta), \theta, \mathbb{W}),$$</p>
+<p>其中 \(W\) 是作用于 rest pose \(T(\beta, \theta, \delta)\) 以及 skeleton joints \(J(\beta)\) 的 linear blend-skinning 函数。</p>
+<p>将 3D ReID 形状特征记为 \(F_{shape}\)，由此去得到 \(\theta\) 和 \(\delta\)。</p>
+<h3 id="3d-形状特征提取">3D 形状特征提取</h3>
+<p>首先由 \(E_{3D}\) 模型提取包含所有 3D 信息的特征，其输出传入 3D 重构网络。</p>
+<p>3D 模型的参数分为两组：</p>
+<ul>
+<li>与形状无关的参数：姿态参数 \(\theta\) 和相机参数 \(\psi\)</li>
+<li>与形状相关的参数：形状参数 \(\beta\) 和 vertice-wise displacement \(\delta\)</li>
+</ul>
+<p>采用独立的子网络 \(E_{pose}\) 和 \(E_{shape}\) 为两组参数分解信息。</p>
+<h3 id="对抗自监督投影-assp">对抗自监督投影 (ASSP)</h3>
+<h4 id="3d-重构对抗学习">3D 重构对抗学习</h4>
+<p>训练一个鉴别器。</p>
+<p>通过 Rodrigues formula 将各 jonit 的 \(3\) 维旋转向量变换为 \(3 \times 3\) 的旋转矩阵，即将 \(\theta\) 从 \(24 \times 3\) 变换到 \(24 \times 3 \times 3\)。</p>
+<p>将变换后的姿态参数以及 \(\beta\) 作为鉴别器 \(D\) 的输入，一个大规模的 SMPL 参数数据集被用作真实的人类身体数据，记为 \(\theta_{real}\) 和 \(\beta_{real}\)，\(D\) 的对抗损失为</p>
+<p>$$\mathcal{L}_{adv}(D) = \mathbb{E}[(1 - D(\theta_{real}, \beta_{real}))^{2}] + \mathbb{E}[D(\theta, \beta)^{2}],$$</p>
+<p>用于训练 \(E_{3D}\)、\(E_{pose}\) 以及 \(E_{shape}\) 的对抗损失为</p>
+<p>$$\mathcal{L}_{adv}(E_{3D}, E_{pose}, E_{shape}) = \mathbb{E}[(1 - D(\theta, \beta))^{2}].$$</p>
+<h4 id="从-3d-到-2d-的自监督投影">从 3D 到 2D 的自监督投影</h4>
+<p>本文选用关键点 (keypoints) 和轮廓 (silhouettes) 作为中介来联接 2D 和 3D 空间。</p>
+<p>用 off-the-shelf 的检测器从原始图像预测关键点位置 \(K \in \mathbb{R}^{P \times 2}\)，用 GrabCut 预测轮廓 \(M\)，由于投影涉及相机的 3D 位置，同时也预测了相机位置参数 \(\psi \in \mathbb{R}^{3}\)。</p>
+<p>关键点的投影通过由 \(\psi\) 和相机模型得来的投影矩阵做稀疏映射 (sparse mapping) 得到，关键点投影损失为</p>
+<p>$$\hat{K} = \Pi_{key}(\beta, \theta, \delta, \psi).$$
+$$\mathcal{L}_{key} = ||K - \hat{K}||^{2}_{2},$$</p>
+<p>轮廓投影借助一个可微的 renderer，本文选用 neural renderer，使其能够端到端训练，轮廓投影损失为</p>
+<p>$$\hat{M} = \Pi_{sil}(\beta, \theta, \delta, \psi),$$
+$$\mathcal{L}_{sil} = ||M - \hat{M}||^{2}_{2} + ||\delta||_{2},$$</p>
+<p>限制 \(\delta\) 的值以避免覆盖衣着细节，并保持重构得到的 mesh 平滑。</p>
+<h3 id="多粒度形状特征-mgs">多粒度形状特征 (MGS)</h3>
+<p>MGS 特征被用作子网络的输入，以预测各身体部分的 vertice-wise displacement，促使该特征包含局部形状信息。</p>
+<p>具体如图 3 所示。</p>
+<p><img src="/images/2021/PRN86/3.png" alt="Fig 3"></p>
+<h2 id="对纹理不敏感的-rgb-特征">对纹理不敏感的 RGB 特征</h2>
+<p>\(E_{rgb}\) 分支用于挖掘其他重要的特征。</p>
+<p>自适应地调整了三元组损失的采样策略：</p>
+<ul>
+<li>对于衣着有变化的数据集，将衣着不同的同一行人选为正样本对</li>
+<li>对于不同行人衣着相似的情况，将其作为负样本对</li>
+<li>处理一般的 ReID 问题时，正负样本对随机选取用于训练 \(E_{rgb}\)</li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn86/>http://jonathanwayy.xyz/2021/prn86/</span>
+            </p>
+            <p>
+                <span>Ads:</span>
+                <span>欢迎参与<a href="https://www.didiyun.com" target="_blank" style="text-decoration:underline">滴滴云AI大师活动</a>购买 GPU / vGPU / 机器学习产品，使用我的滴滴AI大师码 <b style="color:red">0724</b> 可享受 <b>9 折</b>优惠！</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/3d/">
+                    #3D</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #reid</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://jonathanwayy.xyz">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://jonathanwayy.xyz/2021/prn85/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)</a>
+         
+        
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">1600 Words|Read in about 4 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2021</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://jonathanwayy.xyz">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
