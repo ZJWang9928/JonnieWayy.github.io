@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn87/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn88/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/bg30/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg30/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn88/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           壁纸分享[30] | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="壁纸分享[30] | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "壁纸分享[30]",
-    "headline" : "壁纸分享[30]",
-    "description" : "",
+    "name" : "[论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021)",
+    "description" : "Attention-Guided Semantic Hashing for Unsupervised Cross-Modal Retrieval (ICME 2021) 概述 无监督跨模态哈希问题。 本文提出注意力指导的语义哈希模型 (Attention-Guided Semantic Hashing)。 模型架构 特征提取 VGG-16 提取图像特征，unive",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-08-31 11:53:48 \u002b0800 CST",
-    "dateModified" : "2021-08-31 11:53:48 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/bg30\/",
-    "wordCount" : "0",
-    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
+    "datePublished": "2021-09-02 12:29:35 \u002b0800 CST",
+    "dateModified" : "2021-09-02 12:29:35 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn88\/",
+    "wordCount" : "375",
+    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","hashing","unsupervised", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,20 +155,20 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">壁纸分享[30]</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-08-31 itemprop="datePublished">August 31, 2021</time>
+                on <time datetime=2021-09-02 itemprop="datePublished">September 2, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 0 words</span>
+                <span class="post-word-count">, 375 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,16 +189,43 @@
           
           
 
-          <p><img src="/images/2020/01/wallpaper/291.jpg" alt="291">
-<img src="/images/2020/01/wallpaper/292.jpg" alt="292">
-<img src="/images/2020/01/wallpaper/293.jpg" alt="293">
-<img src="/images/2020/01/wallpaper/294.webp" alt="294">
-<img src="/images/2020/01/wallpaper/295.jpg" alt="295">
-<img src="/images/2020/01/wallpaper/296.jpg" alt="296">
-<img src="/images/2020/01/wallpaper/297.jpg" alt="297">
-<img src="/images/2020/01/wallpaper/298.png" alt="298">
-<img src="/images/2020/01/wallpaper/299.png" alt="299">
-<img src="/images/2020/01/wallpaper/300.jpg" alt="300"></p>
+          <h1 id="attention-guided-semantic-hashing-for-unsupervised-cross-modal-retrieval-icme-2021">Attention-Guided Semantic Hashing for Unsupervised Cross-Modal Retrieval (ICME 2021)</h1>
+<h2 id="概述">概述</h2>
+<p>无监督跨模态哈希问题。</p>
+<p>本文提出注意力指导的语义哈希模型 (Attention-Guided Semantic Hashing)。</p>
+<p><img src="/images/2021/PRN88/1.png" alt="Fig 1"></p>
+<h2 id="模型架构">模型架构</h2>
+<h3 id="特征提取">特征提取</h3>
+<p>VGG-16 提取图像特征，universal sentence encoder feature 作为文本特征。</p>
+<p>训练时固定预训练好的特征提取模块参数。</p>
+<h3 id="注意力模块">注意力模块</h3>
+<p>掩码权重计算如下：</p>
+<p>$$M_{I} = \sigma(WX + b),$$
+$$M_{T} = \sigma(WY + b),$$</p>
+<p>二者的全连接层共享。</p>
+<p>进而得到模块输出：</p>
+<p>$$G_{I} = X + M_{I} \cdot X,$$
+$$G_{T} = Y + M_{T} \cdot Y.$$</p>
+<h3 id="哈希模块">哈希模块</h3>
+<p>用全连接处理注意力模块输出后，二值化。</p>
+<h3 id="构建注意力可知的语义矩阵-attention-aware-semantic-matrix">构建注意力可知的语义矩阵 (Attention-Aware Semantic Matrix)</h3>
+<p>对 \(X\) 和 \(Y\) 归一化后可得到特征自相似度矩阵：</p>
+<p>$$S_{I} = \hat{X}^T \hat{X} \in [-1, +1]^{n \times n},$$
+$$S_{T} = \hat{Y}^Y \hat{X} \in [-1, +1]^{n \times n},$$</p>
+<p>其中 \(n\) 是 batch size。</p>
+<p>再计算自注意力矩阵：</p>
+<p>$$A_{I} = \hat{G}^{T}_{I} \hat{G}_{I} \in [-1, +1]^{n \times n},$$
+$$A_{T} = \hat{G}^{T}_{T} \hat{G}_{T} \in [-1, +1]^{n \times n}.$$</p>
+<p>整合二者：</p>
+<p>$$S_{fuse} = \gamma \frac{S_{I}A_{I}^{T}}{n} + (1 - \gamma) \frac{S_{T}A_{T}^{T}}{n}.$$</p>
+<p>进而可求得注意力可知的语义矩阵：</p>
+<p>$$S = \lambda S_{fuse} + (1 - \lambda) \frac{S_{fuse} S_{fuse}^{T}}{n}.$$</p>
+<p>构建三个损失函数：</p>
+<p>$$L_{cross} = min_{B_{I}, B_{T}} ||S - cos(B_{I}, B_{T})||_{F}^{2},$$
+$$L_{img} = min_{B_{I}} ||S - cos(B_{I}, B_{I})||_{F}^{2},$$
+$$L_{txt} = min_{B_{T}} ||S - cos(B_{T}, B_{T})||_{F}^{2}.$$</p>
+<p>为了避免梯度消失问题，引入 scaled tanh 函数：</p>
+<p>$$B = tanh(\eta H) \in [-1, +1]^{k \times N}, \eta \in \mathbb{R}^{+}.$$</p>
 
     </div>
 
@@ -213,7 +240,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/bg30/>http://jonathanwayy.xyz/2021/bg30/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn88/>http://jonathanwayy.xyz/2021/prn88/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -233,17 +260,29 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
-                    #wallpaper</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #kde</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/hashing/">
+                    #hashing</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/unsupervised/">
+                    #unsupervised</a></span>
             
             </section>
         
@@ -255,10 +294,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn87/" class="prev" rel="prev" title="[论文阅读笔记 -- 频域] Learning Omni-frequency Region-adaptive Representations (AAAI 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 频域] Learning Omni-frequency Region-adaptive Representations (AAAI 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/bg30/" class="prev" rel="prev" title="壁纸分享[30]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[30]</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn88/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021)">[论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -267,7 +306,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
