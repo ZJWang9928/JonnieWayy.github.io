@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 12 Aug 2021 16:00:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Sep 2021 21:44:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] Contextual Transformer Networks for Visual Recognition (CVPRW 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn89/</link>
+      <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn89/</guid>
+      <description>2107.12292 Contextual Transformer Networks for Visual Recognition (CVPRW 2021) 开源代码传送门 概述 现有 ViT 方法的问题 只是基于各位置上孤立的 key 和 query 求得注意力矩阵，忽略了相邻 key 之间丰富的上下文信息。 本文提出一</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn77/</link>
