@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 02 Sep 2021 21:44:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Sep 2021 15:05:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLWL[42] Manjaro pacman 更新提示 failed to synchronize all databases 解决方案</title>
+      <link>http://jonathanwayy.xyz/2021/blwl42/</link>
+      <pubDate>Fri, 03 Sep 2021 15:05:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/blwl42/</guid>
+      <description>问题描述 在运行 sudo pacman -Sy 进行更新时遇到如下报错： :: 正在同步软件包数据库... 错误：failed to synchronize all databases (无法锁定数据库) 问题分析 Pacman 数据库因之前的</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] Contextual Transformer Networks for Visual Recognition (CVPRW 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn89/</link>
