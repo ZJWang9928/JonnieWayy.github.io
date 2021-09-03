@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IEEE on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/ieee/</link>
+    <description>Recent content in IEEE on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Sat, 04 Sep 2021 00:21:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/ieee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IEEE 论文模板选择与下载工具</title>
+      <link>http://jonathanwayy.xyz/2021/sharp5/</link>
+      <pubDate>Sat, 04 Sep 2021 00:21:40 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/sharp5/</guid>
+      <description>IEEE 论文模板选择与下载工具，记录一下方便自己找。 传送门：IEEE Template Selector 按照流程依次选择自己所需选项即可，Latex 和 Word 都有。</description>
+    </item>
+    
+  </channel>
+</rss>
