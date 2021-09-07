@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 04 Sep 2021 00:21:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 14:45:21 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>attention</title>
+      <link>http://jonathanwayy.xyz/tags/attention/</link>
+      <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unsupervised</title>
+      <link>http://jonathanwayy.xyz/tags/unsupervised/</link>
+      <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/unsupervised/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>IEEE</title>
       <link>http://jonathanwayy.xyz/tags/ieee/</link>
@@ -72,15 +135,6 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 03 Sep 2021 15:05:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pacman</title>
       <link>http://jonathanwayy.xyz/tags/pacman/</link>
       <pubDate>Fri, 03 Sep 2021 15:05:14 +0800</pubDate>
@@ -90,38 +144,11 @@
     </item>
     
     <item>
-      <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CNN</title>
       <link>http://jonathanwayy.xyz/tags/cnn/</link>
       <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -144,38 +171,11 @@
     </item>
     
     <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Thu, 02 Sep 2021 12:29:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hashing</title>
       <link>http://jonathanwayy.xyz/tags/hashing/</link>
       <pubDate>Thu, 02 Sep 2021 12:29:35 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/hashing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Thu, 02 Sep 2021 12:29:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unsupervised</title>
-      <link>http://jonathanwayy.xyz/tags/unsupervised/</link>
-      <pubDate>Thu, 02 Sep 2021 12:29:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/unsupervised/</guid>
       <description></description>
     </item>
     

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 02 Sep 2021 21:44:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 14:45:21 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Unsupervised Cross-modal Retrieval through AL (ICME 2017)</title>
+      <link>http://jonathanwayy.xyz/2021/prn90/</link>
+      <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn90/</guid>
+      <description>Unsupervised Cross-modal Retrieval through Adversarial Learning (ICME 2017) 概述 本文提出基于对抗学习的无监督跨模态检索 (Unsupervised Cross-modal Retrieval with Adversarial, UCAL)。 包含四个部分： 图像特征映射 文本特征映射 模态分类器，生成二元特</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] Contextual Transformer Networks for Visual Recognition (CVPRW 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn89/</link>
