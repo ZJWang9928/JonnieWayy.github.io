@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn91/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn93/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn92/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn92/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn93/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)",
-    "headline" : "[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)",
-    "description" : "Aggregation-based Graph Convolutional Hashing for Unsupervised Cross-modal Retrieval (TMM 2021) 概述 本文提出基于聚合的图卷积哈希方法 (Aggregation-based Graph Convolutional Hashing, AGCH)。 模型架构 主要部件 图像编码器 \u002b 图像 GCN 文本编码器 \u002b 文本 GCN 融合模块 生成",
+    "name" : "[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)",
+    "description" : "Modality-Specific and Shared Generative Adversarial Network for Cross-modal Retrieval (PR 2020) 概述 本文提出 Modality-Specific and Shared Generative Adversarial Network (\\(MS^2GAN\\))。 生成模型 标签预测 将模态中特征与公共空间特征拼接后用于预测标签，采用",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-09-09 13:11:23 \u002b0800 CST",
-    "dateModified" : "2021-09-09 13:11:23 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn92\/",
-    "wordCount" : "202",
-    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","graph","hashing","unsupervised", "Jonathan`s Blog"]
+    "datePublished": "2021-09-09 21:42:02 \u002b0800 CST",
+    "dateModified" : "2021-09-09 21:42:02 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn93\/",
+    "wordCount" : "239",
+    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","adversarial", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 202 words</span>
+                <span class="post-word-count">, 239 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,35 +189,25 @@
           
           
 
-          <h1 id="aggregation-based-graph-convolutional-hashing-for-unsupervised-cross-modal-retrieval-tmm-2021">Aggregation-based Graph Convolutional Hashing for Unsupervised Cross-modal Retrieval (TMM 2021)</h1>
+          <h1 id="modality-specific-and-shared-generative-adversarial-network-for-cross-modal-retrieval-pr-2020">Modality-Specific and Shared Generative Adversarial Network for Cross-modal Retrieval (PR 2020)</h1>
+<p><img src="/images/2021/PRN93/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出基于聚合的图卷积哈希方法 (Aggregation-based Graph Convolutional Hashing, AGCH)。</p>
-<p><img src="/images/2021/PRN92/1.png" alt="Fig 1"></p>
-<h2 id="模型架构">模型架构</h2>
-<h3 id="主要部件">主要部件</h3>
-<ul>
-<li>图像编码器 + 图像 GCN</li>
-<li>文本编码器 + 文本 GCN</li>
-<li>融合模块</li>
-</ul>
-<p>生成各模态的二进制编码：<br>
-$$B^v = sign(f(o^v; \theta_{v})),$$
-$$B^t = sign(f(o^t; \theta_{t})).$$</p>
-<p>在训练阶段符号函数 \(sign(\cdot)\) 会导致梯度问题，因而用 \(tanh(\cdot)\) 代替。</p>
-<p>拼接后融合：</p>
-<p>$$o^h = f^v \oplus f^t,$$
-$$B^h = tanh(f(o^h; \theta_{h})).$$</p>
-<p>同时也用 GCN 进行处理：<br>
-$$B^gv = sign(f(f^v; \theta_{gv})),$$
-$$B^gt = sign(f(f^t; \theta_{gt})).$$</p>
-<h2 id="相似度矩阵的构建">相似度矩阵的构建</h2>
-<p>结合余弦相似度和欧几里德距离：</p>
-<p>$$S_{ij} = C_{ij} \cdot D_{ij} = ((\widetilde{Z}_{i*})^T \widetilde{Z}_{j*}) \cdot exp(-\sqrt{||\widetilde{Z}_{i*} - \widetilde{Z}_{j*}||_{2}}/\rho).$$</p>
-<p>也用作图卷积中的邻接矩阵。</p>
-<h2 id="损失函数">损失函数</h2>
-<p><img src="/images/2021/PRN92/Loss.png" alt="Loss"></p>
-<h2 id="具体算法">具体算法</h2>
-<p><img src="/images/2021/PRN92/A1.png" alt="Alg 1"></p>
+<p>本文提出 Modality-Specific and Shared Generative Adversarial Network (\(MS^2GAN\))。</p>
+<h2 id="生成模型">生成模型</h2>
+<h3 id="标签预测">标签预测</h3>
+<p>将模态中特征与公共空间特征拼接后用于预测标签，采用语义鉴别损失 (Semantic Discrimination Loss)，可视为分类任务。</p>
+<h3 id="模态内间语义相似度建模">模态内间语义相似度建模</h3>
+<p>用欧几里德距离衡量一对实例 \(o_{u}\) 与 \(o_{v}\) 特征组之间的距离：</p>
+<p>$$d_{c}(u, v) = ||i_{u}^f - i_{v}^f||_{2}^{2} + ||t_{u}^f - t_{v}^f||_{2}^{2} + ||i_{u}^s - i_{v}^s||_{2}^{2}.$$</p>
+<p>对比损失 (Contrasive Loss) 实现为三元组损失，同时处理模态内间相似度。</p>
+<h3 id="模态特殊与共享特征鉴别">模态特殊与共享特征鉴别</h3>
+<p>$$d_{lm}^{i}(u, u) = ||i_{u}^{f} - i_{u}^{s}||_{2}^{2},$$
+$$d_{lm}^{t}(u, u) = ||t_{u}^{f} - t_{u}^{s}||_{2}^{2},$$</p>
+<p>对此使用三元组损失计算所谓的大边际损失 (Largin Margin Loss)。</p>
+<h2 id="鉴别模型">鉴别模型</h2>
+<p>两层子网络，鉴别模态。</p>
+<h2 id="特征可视化">特征可视化</h2>
+<p><img src="/images/2021/PRN93/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -232,7 +222,7 @@ $$B^gt = sign(f(f^t; \theta_{gt})).$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn92/>http://jonathanwayy.xyz/2021/prn92/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn93/>http://jonathanwayy.xyz/2021/prn93/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -267,14 +257,11 @@ $$B^gt = sign(f(f^t; \theta_{gt})).$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
                     #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/graph/">
-                    #graph</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/hashing/">
-                    #hashing</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/unsupervised/">
-                    #unsupervised</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
+                    #adversarial</a></span>
             
             </section>
         
@@ -286,10 +273,10 @@ $$B^gt = sign(f(f^t; \theta_{gt})).$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn91/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn92/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn93/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)">[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

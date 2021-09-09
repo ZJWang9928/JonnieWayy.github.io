@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 09 Sep 2021 13:11:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Sep 2021 21:42:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn93/</link>
+      <pubDate>Thu, 09 Sep 2021 21:42:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn93/</guid>
+      <description>Modality-Specific and Shared Generative Adversarial Network for Cross-modal Retrieval (PR 2020) 概述 本文提出 Modality-Specific and Shared Generative Adversarial Network (\(MS^2GAN\))。 生成模型 标签预测 将模态中特征与公共空间特征拼接后用于预测标签，采用</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn92/</link>
