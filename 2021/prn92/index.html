@@ -67,7 +67,7 @@
     "datePublished": "2021-09-09 13:11:23 \u002b0800 CST",
     "dateModified" : "2021-09-09 13:11:23 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn92\/",
-    "wordCount" : "185",
+    "wordCount" : "202",
     "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","graph","hashing","unsupervised", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 185 words</span>
+                <span class="post-word-count">, 202 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -213,6 +213,9 @@ $$B^gt = sign(f(f^t; \theta_{gt})).$$</p>
 <h2 id="相似度矩阵的构建">相似度矩阵的构建</h2>
 <p>结合余弦相似度和欧几里德距离：</p>
 <p>$$S_{ij} = C_{ij} \cdot D_{ij} = ((\widetilde{Z}_{i*})^T \widetilde{Z}_{j*}) \cdot exp(-\sqrt{||\widetilde{Z}_{i*} - \widetilde{Z}_{j*}||_{2}}/\rho).$$</p>
+<p>也用作图卷积中的邻接矩阵。</p>
+<h2 id="损失函数">损失函数</h2>
+<p><img src="/images/2021/PRN92/Loss.png" alt="Loss"></p>
 <h2 id="具体算法">具体算法</h2>
 <p><img src="/images/2021/PRN92/A1.png" alt="Alg 1"></p>
 
@@ -295,7 +298,7 @@ $$B^gt = sign(f(f^t; \theta_{gt})).$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
