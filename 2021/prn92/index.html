@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn90/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn92/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn91/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn91/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn92/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021)",
-    "description" : "Learning Sufficient Scene Representation for Unsupervised Cross-modal Retrieval (Neurocomputing 2021) 背景 此前有工作从统计层面证明分析了跨模态检索的过程，借助变分推断证明了不可能同时最大化模态内与模态间相似度，二者会互相约",
+    "name" : "[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)",
+    "description" : "Aggregation-based Graph Convolutional Hashing for Unsupervised Cross-modal Retrieval (TMM 2021) 概述 本文提出基于聚合的图卷积哈希方法 (Aggregation-based Graph Convolutional Hashing, AGCH)。 模型架构 主要部件 图像编码器 \u002b 图像 GCN 文本编码器 \u002b 文本 GCN 融合模块 生成",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-09-08 19:36:34 \u002b0800 CST",
-    "dateModified" : "2021-09-08 19:36:34 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn91\/",
-    "wordCount" : "1160",
-    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","unsupervised", "Jonathan`s Blog"]
+    "datePublished": "2021-09-09 13:11:23 \u002b0800 CST",
+    "dateModified" : "2021-09-09 13:11:23 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn92\/",
+    "wordCount" : "185",
+    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","graph","hashing","unsupervised", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-09-08 itemprop="datePublished">September 8, 2021</time>
+                on <time datetime=2021-09-09 itemprop="datePublished">September 9, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 1160 words</span>
+                <span class="post-word-count">, 185 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,64 +189,32 @@
           
           
 
-          <h1 id="learning-sufficient-scene-representation-for-unsupervised-cross-modal-retrieval-neurocomputing-2021">Learning Sufficient Scene Representation for Unsupervised Cross-modal Retrieval (Neurocomputing 2021)</h1>
-<p><img src="/images/2021/PRN91/1.png" alt="Fig 1"></p>
-<h2 id="背景">背景</h2>
-<p>此前有工作从统计层面证明分析了跨模态检索的过程，借助变分推断证明了不可能同时最大化模态内与模态间相似度，二者会互相约束。</p>
-<p>对应的图文数据可以看作相同场景在不同视角下的描述，二者以互补形式对场景进行描述，因而二者之间含有共现信息 (co-existed information) 与互补信息 (complementary information)。</p>
-<p>本文提出一种基于充分场景表征的无监督跨模态检索方法 (unsupervised cross-modal retrieval method via sufficient scene representation, CMSSR)</p>
-<p>单模态流形 (manifolds) 可以被视为高维流形的子流形。</p>
-<p>CMSSR 为各多模态数据学习一个充分的场景表征，在场景级别衡量其相似度，而不是像现有方法一样只是关注公共空间中的相似度关系。</p>
-<p><img src="/images/2021/PRN91/2.png" alt="Fig 2"></p>
-<h2 id="从单模态数据学习统计表征">从单模态数据学习统计表征</h2>
-<p>由于数据特征，通常可以从文本提取高阶语义特征，而只能从图像提取低阶视觉特征。</p>
-<p>为了缩小语义鸿沟，采用统计方法进一步抽象低阶图像特征，并模糊高阶文本语义，将二者嵌入到一致的统计层级。</p>
-<p>本文在此处采用了混合高斯模型 (GMM)。</p>
-<h3 id="基于-gmm-的文本表征">基于 GMM 的文本表征</h3>
-<p>从单词层面开始着手，基于 GMM 建模单词 \(W = \{x_{i}\}_{i=1}^{N_{W}}\) 的分布：</p>
-<p>$$p(x|\pi^{T}) = \sum_{i=1}^{K_{T}} \pi_{i}^{T} g_{i}^{T},$$</p>
-<p>其中 \(g_{i}^{T} = N(x | \mu_{i}^{T}, \sigma_{i}^T)\) 是第 \(i\) 个高斯密度函数，\(\pi_{i}^{T}\) 是其权重。</p>
-<p>\(K_{T}\) 个函数构成函数集合 \(\mathbb{G}^{T}\)，用其将文本数据 \(X\) 表征为</p>
-<p>$$p(x|X, \xi) = \sum_{i=1}^{K_{T}} \xi_{i} g_{i}^{T},$$
-$$\xi_{i} = \frac{\sum_{x \in X} \pi_{i}^{T} g_{i}^{T}}{\sum_{j=1}^{K_{T}} \sum_{x \in X} \pi_{j}^{T} g_{j}^{T}}, i = 1, 2, \cdots, K_{T}.$$</p>
-<h3 id="基于-gmm-的图像表征">基于 GMM 的图像表征</h3>
-<p>提取局部特征后聚类得到一组 visual words，进而过程类似。</p>
-<p>$$p(y|\pi^{I}) = \sum_{i=1}^{K_{I}} \pi_{i}^{I} g_{i}^{I},$$
-$$p(y|Y, \eta) = \sum_{i=1}^{K_{I}} \eta_{i} g_{i}^{I},$$
-$$\eta_{i} = \frac{\sum_{y \in Y} \pi_{i}^{I} g_{i}^{I}}{\sum_{j=1}^{K_{I}} \sum_{y \in Y} \pi_{j}^{I} g_{j}^{I}}, i = 1, 2, \cdots, K_{I}.$$</p>
-<h3 id="基函数求取">基函数求取</h3>
-<p>用 EM 算法估计 GMM 的参数。</p>
-<p><img src="/images/2021/PRN91/A1.png" alt="Alg 1"></p>
-<h2 id="单模态统计流形与公共统计流形">单模态统计流形与公共统计流形</h2>
-<p>图文数据分别被嵌入到由 \(\mathbb{G}^{I}\) 和 \(\mathbb{G}^{T}\) 张成的流形 \(\mathcal{M}^{I}\) 和 \(\mathcal{M}^{T}\) 中。</p>
-<p>由于 \(\mathbb{G}^{I}\) 和 \(\mathbb{G}^{T}\) 线性无关，拼接二者构建公共统计流形 \(\mathcal{M}^{C}\)，各场景对应其中的一个点。</p>
-<h3 id="距离度量">距离度量</h3>
-<p>对于一个混合族流形 \(\mathcal{M}\) 中的两个数据点 \(p = p(w | \theta^{p})\) 与 \(q = p(w | \theta^{q})\)，通常用 \(f\) 散度计算其不相似性：</p>
-<p>$$D_{f}[p : q] = \sum \theta_{i}^{p} f(\frac{\theta_{i}^q}{\theta_{i}^p}),$$</p>
-<p>其中 \(f(\cdot)\) 是满足 \(f(1) = 0\) 的凸函数。</p>
-<p>计算散度需要大量采样，为解决这一问题，将统计流形中各数据视为一个函数，直接计算两个数据点之间的函数距离。</p>
-<p>可将 2 范数函数距离变换为测地线 (geodesic) 距离，最终写作：</p>
-<p>$$D(p, q) = \sqrt{(\theta^p - \theta^q)^T \phi (\theta^p - \theta^q)} = ||\theta^p - \theta^q||_{2}.$$</p>
-<h2 id="representation-completion-in-statistical-manifold-for-cross-modal-retrieval">Representation Completion in Statistical Manifold for Cross-modal Retrieval</h2>
-<p>数据在公共统计流形中的表征并不完整，为 \((\xi_{1}, \cdots, \xi_{K_{T}}, 0)\) 或 \((0, \eta_{1}, \cdots, \eta_{K_{I}})\)，需要补充完整。</p>
-<p>通过将数据投影到另一模态的统计流形中，并用另一组基函数进行表征实现这一目的。</p>
-<p>基于逻辑斯蒂回归学习两中投影。</p>
-<p>$$\hat{\eta} = P^{T \rightarrow I}(\xi) = Softmax(\omega^T \xi),$$
-$$\hat{\xi} = P^{I \rightarrow T}(\eta) = Softmax(\varphi^T \eta),$$
-$$loss^{T \rightarrow I} = min_{\omega} ||\eta - \hat{\eta}||_{2} + \alpha ||\omega||_{1},$$
-$$loss^{I \rightarrow T} = min_{\varphi} ||\xi - \hat{\xi}||_{2} + \beta ||\varphi||_{1},$$</p>
-<p>具体算法如下：</p>
-<p><img src="/images/2021/PRN91/A2.png" alt="Alg 2"></p>
-<h2 id="生成充分图表征的二值编码">生成充分图表征的二值编码</h2>
-<p>使用迭代量化 (ITQ) 学习能够保留相似度的二值编码，学习一个作用于数据的旋转矩阵，最小化量化损失，生成二值编码。</p>
-<p>具体算法如下：</p>
-<p><img src="/images/2021/PRN91/A3.png" alt="Alg 3"></p>
-<p>得到旋转矩阵 \(R\) 以后，对于 query 数据 \(\psi\)，首先由预训练的 PCA 求得低维表征 \(h \in \mathbb{R}^{1 \times L}\)，进而计算二值编码：</p>
-<p>$$b = sgn(hR).$$</p>
-<h2 id="流形可视化示例">流形可视化示例</h2>
-<p><img src="/images/2021/PRN91/10.png" alt="Fig 10"></p>
-<h2 id="基函数个数分析">基函数个数分析</h2>
-<p><img src="/images/2021/PRN91/11.png" alt="Fig 11"></p>
+          <h1 id="aggregation-based-graph-convolutional-hashing-for-unsupervised-cross-modal-retrieval-tmm-2021">Aggregation-based Graph Convolutional Hashing for Unsupervised Cross-modal Retrieval (TMM 2021)</h1>
+<h2 id="概述">概述</h2>
+<p>本文提出基于聚合的图卷积哈希方法 (Aggregation-based Graph Convolutional Hashing, AGCH)。</p>
+<p><img src="/images/2021/PRN92/1.png" alt="Fig 1"></p>
+<h2 id="模型架构">模型架构</h2>
+<h3 id="主要部件">主要部件</h3>
+<ul>
+<li>图像编码器 + 图像 GCN</li>
+<li>文本编码器 + 文本 GCN</li>
+<li>融合模块</li>
+</ul>
+<p>生成各模态的二进制编码：<br>
+$$B^v = sign(f(o^v; \theta_{v})),$$
+$$B^t = sign(f(o^t; \theta_{t})).$$</p>
+<p>在训练阶段符号函数 \(sign(\cdot)\) 会导致梯度问题，因而用 \(tanh(\cdot)\) 代替。</p>
+<p>拼接后融合：</p>
+<p>$$o^h = f^v \oplus f^t,$$
+$$B^h = tanh(f(o^h; \theta_{h})).$$</p>
+<p>同时也用 GCN 进行处理：<br>
+$$B^gv = sign(f(f^v; \theta_{gv})),$$
+$$B^gt = sign(f(f^t; \theta_{gt})).$$</p>
+<h2 id="相似度矩阵的构建">相似度矩阵的构建</h2>
+<p>结合余弦相似度和欧几里德距离：</p>
+<p>$$S_{ij} = C_{ij} \cdot D_{ij} = ((\widetilde{Z}_{i*})^T \widetilde{Z}_{j*}) \cdot exp(-\sqrt{||\widetilde{Z}_{i*} - \widetilde{Z}_{j*}||_{2}}/\rho).$$</p>
+<h2 id="具体算法">具体算法</h2>
+<p><img src="/images/2021/PRN92/A1.png" alt="Alg 1"></p>
 
     </div>
 
@@ -261,7 +229,7 @@ $$loss^{I \rightarrow T} = min_{\varphi} ||\xi - \hat{\xi}||_{2} + \beta ||\varp
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn91/>http://jonathanwayy.xyz/2021/prn91/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn92/>http://jonathanwayy.xyz/2021/prn92/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -296,8 +264,11 @@ $$loss^{I \rightarrow T} = min_{\varphi} ||\xi - \hat{\xi}||_{2} + \beta ||\varp
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
                     #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
-                    #attention</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/graph/">
+                    #graph</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/hashing/">
+                    #hashing</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/unsupervised/">
                     #unsupervised</a></span>
@@ -312,10 +283,10 @@ $$loss^{I \rightarrow T} = min_{\varphi} ||\xi - \hat{\xi}||_{2} + \beta ||\varp
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn90/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Unsupervised Cross-modal Retrieval through AL (ICME 2017)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Unsupervised Cross-modal Retrieval through AL (ICME 2017)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn91/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn92/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)">[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -324,7 +295,7 @@ $$loss^{I \rightarrow T} = min_{\varphi} ||\xi - \hat{\xi}||_{2} + \beta ||\varp
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">1200 Words|Read in about 3 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
