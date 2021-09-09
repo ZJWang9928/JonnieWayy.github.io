@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn92/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn94/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn93/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn93/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn94/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020) | Jonathan`s Blog
+           [论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)",
-    "description" : "Modality-Specific and Shared Generative Adversarial Network for Cross-modal Retrieval (PR 2020) 概述 本文提出 Modality-Specific and Shared Generative Adversarial Network (\\(MS^2GAN\\))。 生成模型 标签预测 将模态中特征与公共空间特征拼接后用于预测标签，采用",
+    "name" : "[论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021)",
+    "headline" : "[论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021)",
+    "description" : "Cross-Modal Center Loss for 3D Cross-Modal Retrieval (CVPR 2021) 概述 现有方法的问题 核心想法是最小化由预训练模型提取的特征之间的跨模态差异，预训练模型没有参与训练或进行微调 现有的损失函数主",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-09-09 21:42:02 \u002b0800 CST",
-    "dateModified" : "2021-09-09 21:42:02 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn93\/",
-    "wordCount" : "239",
-    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","adversarial", "Jonathan`s Blog"]
+    "datePublished": "2021-09-09 22:52:53 \u002b0800 CST",
+    "dateModified" : "2021-09-09 22:52:53 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn94\/",
+    "wordCount" : "312",
+    "keywords" : [ "paper reading","cv","notes","retrieval","cross-modal","attention","3D", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 239 words</span>
+                <span class="post-word-count">, 312 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,25 +189,30 @@
           
           
 
-          <h1 id="modality-specific-and-shared-generative-adversarial-network-for-cross-modal-retrieval-pr-2020">Modality-Specific and Shared Generative Adversarial Network for Cross-modal Retrieval (PR 2020)</h1>
-<p><img src="/images/2021/PRN93/1.png" alt="Fig 1"></p>
+          <h1 id="cross-modal-center-loss-for-3d-cross-modal-retrieval-cvpr-2021">Cross-Modal Center Loss for 3D Cross-Modal Retrieval (CVPR 2021)</h1>
+<p><img src="/images/2021/PRN94/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出 Modality-Specific and Shared Generative Adversarial Network (\(MS^2GAN\))。</p>
-<h2 id="生成模型">生成模型</h2>
-<h3 id="标签预测">标签预测</h3>
-<p>将模态中特征与公共空间特征拼接后用于预测标签，采用语义鉴别损失 (Semantic Discrimination Loss)，可视为分类任务。</p>
-<h3 id="模态内间语义相似度建模">模态内间语义相似度建模</h3>
-<p>用欧几里德距离衡量一对实例 \(o_{u}\) 与 \(o_{v}\) 特征组之间的距离：</p>
-<p>$$d_{c}(u, v) = ||i_{u}^f - i_{v}^f||_{2}^{2} + ||t_{u}^f - t_{v}^f||_{2}^{2} + ||i_{u}^s - i_{v}^s||_{2}^{2}.$$</p>
-<p>对比损失 (Contrasive Loss) 实现为三元组损失，同时处理模态内间相似度。</p>
-<h3 id="模态特殊与共享特征鉴别">模态特殊与共享特征鉴别</h3>
-<p>$$d_{lm}^{i}(u, u) = ||i_{u}^{f} - i_{u}^{s}||_{2}^{2},$$
-$$d_{lm}^{t}(u, u) = ||t_{u}^{f} - t_{u}^{s}||_{2}^{2},$$</p>
-<p>对此使用三元组损失计算所谓的大边际损失 (Largin Margin Loss)。</p>
-<h2 id="鉴别模型">鉴别模型</h2>
-<p>两层子网络，鉴别模态。</p>
-<h2 id="特征可视化">特征可视化</h2>
-<p><img src="/images/2021/PRN93/4.png" alt="Fig 4"></p>
+<h3 id="现有方法的问题">现有方法的问题</h3>
+<ul>
+<li>核心想法是最小化由预训练模型提取的特征之间的跨模态差异，预训练模型没有参与训练或进行微调</li>
+<li>现有的损失函数主要是为两种模态的情况设计的，无法很好处理超过两种模态数据的情况</li>
+</ul>
+<p>本文提出一种跨模态中心损失 (Cross-modal Center Loss)，针对多模态间类间差异的最小化而设计，在公共空间中为各个类学习一个唯一的中心 \(C\)。</p>
+<p><img src="/images/2021/PRN94/2.png" alt="Fig 2"></p>
+<h2 id="损失函数">损失函数</h2>
+<h3 id="跨模态中心损失">跨模态中心损失</h3>
+<p>对于 \(N\) 个实例 \(M\) 个模态，计算如下</p>
+<p>$$L_{c} = \frac{1}{2} \sum_{i=1}^N sum_{m=1}^M ||v_{i}^m - C_{y_{i}}||_{2}^2.$$</p>
+<p>大的 batch size 能够学习一个更加健壮的中心。</p>
+<p>中心在训练时首先定义为一个 mini-batch 中某一类别对应特征的均值，进而由优化器进行更新。</p>
+<h3 id="鉴别损失">鉴别损失</h3>
+<p>标签空间中的交叉熵损失：</p>
+<p>$$L_{d} = -\frac{1}{N} (\sum_{i=1}^N \sum_{m=1}^M y_{i}^m \cdot log(\hat{y}_{i}^m)).$$</p>
+<h3 id="减小各实例的跨模态差异">减小各实例的跨模态差异</h3>
+<p>均方误差：</p>
+<p>$$L_{m} = \sum_{\alpha, \beta \in [1, M], \alpha \ne \beta} ||v_{i}^{\alpha} - v_{i}^{\beta}||_{2}^{2}.$$</p>
+<h2 id="优化过程">优化过程</h2>
+<p><img src="/images/2021/PRN94/A1.png" alt="Alg 1"></p>
 
     </div>
 
@@ -222,7 +227,7 @@ $$d_{lm}^{t}(u, u) = ||t_{u}^{f} - t_{u}^{s}||_{2}^{2},$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn93/>http://jonathanwayy.xyz/2021/prn93/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn94/>http://jonathanwayy.xyz/2021/prn94/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -260,8 +265,8 @@ $$d_{lm}^{t}(u, u) = ||t_{u}^{f} - t_{u}^{s}||_{2}^{2},$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
                     #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
-                    #adversarial</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/3d/">
+                    #3D</a></span>
             
             </section>
         
@@ -273,10 +278,10 @@ $$d_{lm}^{t}(u, u) = ||t_{u}^{f} - t_{u}^{s}||_{2}^{2},$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn92/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn93/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn94/" class="next" rel="next" title="[论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021)">[论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -285,7 +290,7 @@ $$d_{lm}^{t}(u, u) = ||t_{u}^{f} - t_{u}^{s}||_{2}^{2},$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
