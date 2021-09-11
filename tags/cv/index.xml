@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 10 Sep 2021 13:22:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 14:44:37 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Parameter-Efficient Person Re-identification in the 3D Space (2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn96/</link>
+      <pubDate>Sat, 11 Sep 2021 14:44:37 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn96/</guid>
+      <description>2006.04569 Parameter-Efficient Person Re-identification in the 3D Space (2020) 开源代码传送门 概述 考察 2D 行人外观与 3D 几何结构之间的互补信息。 本文提出 Omni-scale Graph Network (OG-Net)，在 3D 空间中进行 ReID。 模型架</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] PCNET: Parallelly Conquer Large Variance of Person ReId (ICIP 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn95/</link>
