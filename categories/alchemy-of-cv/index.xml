@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 25 Aug 2021 18:08:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 21:46:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/alchemy-of-cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- Python 2 安装 opencv-python 包出错解决办法</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</link>
+      <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</guid>
+      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &#39;NoneType&#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- 枢纽点问题 (Hubness Problem)</title>
       <link>http://jonathanwayy.xyz/2021/ldp_hubness_problem/</link>
