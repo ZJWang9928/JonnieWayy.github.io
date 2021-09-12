@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Sep 2021 15:35:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Sep 2021 20:25:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_py2_grpcio/</link>
+      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_py2_grpcio/</guid>
+      <description>在一台 Windows 工作站上需要配置一个基于 Python 2.7 的 TF 虚拟环境，安装一个依赖包 grpcio 时遇到了问题。 分析以后应该是由于新版本的 grpcio 不支持 Python 2.7 了，直接用 pip 安装不行，</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- Windows 下使用 pip 安装 opendr</title>
       <link>http://jonathanwayy.xyz/2021/ldp_win_opendr/</link>
