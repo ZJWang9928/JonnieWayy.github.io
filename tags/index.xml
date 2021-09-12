@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Sep 2021 21:46:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Sep 2021 15:35:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
+      <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -20,9 +20,54 @@
     <item>
       <title>deep learning</title>
       <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
+      <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opendr</title>
+      <link>http://jonathanwayy.xyz/tags/opendr/</link>
+      <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/opendr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pip</title>
+      <link>http://jonathanwayy.xyz/tags/pip/</link>
+      <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>http://jonathanwayy.xyz/tags/windows/</link>
+      <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/windows/</guid>
       <description></description>
     </item>
     
@@ -36,29 +81,11 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>opencv</title>
       <link>http://jonathanwayy.xyz/tags/opencv/</link>
       <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/opencv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     
@@ -630,15 +657,6 @@
     </item>
     
     <item>
-      <title>windows</title>
-      <link>http://jonathanwayy.xyz/tags/windows/</link>
-      <pubDate>Tue, 27 Apr 2021 14:19:09 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CATTI</title>
       <link>http://jonathanwayy.xyz/tags/catti/</link>
       <pubDate>Sat, 10 Apr 2021 20:29:58 +0800</pubDate>
@@ -788,15 +806,6 @@
       <pubDate>Tue, 04 Aug 2020 16:55:15 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/kmp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pip</title>
-      <link>http://jonathanwayy.xyz/tags/pip/</link>
-      <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pip/</guid>
       <description></description>
     </item>
     

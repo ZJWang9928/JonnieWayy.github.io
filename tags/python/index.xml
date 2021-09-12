@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Sep 2021 21:46:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Sep 2021 15:35:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- Windows 下使用 pip 安装 opendr</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_win_opendr/</link>
+      <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_win_opendr/</guid>
+      <description>问题描述 直接使用 pip install opendr 会报一个 failed with exit code 1181 的错误。 解决办法 首先安装 glfw，是 opengl 的一个框架： pip install glfw 在这里下载 opendr 后构建并安装： &amp;gt; git clone https://github.com/polmorenoc/opendr.git &amp;gt; cd ./opendr/opendr &amp;gt; python</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- Python 2 安装 opencv-python 包出错解决办法</title>
       <link>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</link>
