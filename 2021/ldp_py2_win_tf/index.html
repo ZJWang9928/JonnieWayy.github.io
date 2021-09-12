@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp_win_opendr/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/ldp_py2_win_tf/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp_py2_grpcio/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp_py2_grpcio/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp_py2_win_tf/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本 | Jonathan`s Blog
+           炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本 | Jonathan`s Blog">
+  <meta name="title" content="炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本",
-    "headline" : "炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本",
-    "description" : "在一台 Windows 工作站上需要配置一个基于 Python 2.7 的 TF 虚拟环境，安装一个依赖包 grpcio 时遇到了问题。 分析以后应该是由于新版本的 grpcio 不支持 Python 2.7 了，直接用 pip 安装不行，",
+    "name" : "炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子",
+    "headline" : "炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子",
+    "description" : "Tensorflow 在 Windows 环境下不支持 Python 2，但是最近需要在一台 Windows 系统的工作站上给基于 Python 2.7 的虚拟环境配置 Tensorflow。 记录一下找到的一个可用的轮子： https:\/\/github.com\/fo40225\/tensorflow-windows-wheel 下载",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-09-12 20:25:22 \u002b0800 CST",
-    "dateModified" : "2021-09-12 20:25:22 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp_py2_grpcio\/",
-    "wordCount" : "94",
-    "keywords" : [ "cv","notes","deep learning","python2","python","grpcio","linux","windows","pip", "Jonathan`s Blog"]
+    "datePublished": "2021-09-12 20:39:13 \u002b0800 CST",
+    "dateModified" : "2021-09-12 20:39:13 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp_py2_win_tf\/",
+    "wordCount" : "92",
+    "keywords" : [ "cv","notes","deep learning","python2","python","tensorflow","linux","windows","pip", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本</h1>
+        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 94 words</span>
+                <span class="post-word-count">, 92 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -187,10 +187,12 @@
           
           
 
-          <p>在一台 Windows 工作站上需要配置一个基于 Python 2.7 的 TF 虚拟环境，安装一个依赖包 grpcio 时遇到了问题。</p>
-<p>分析以后应该是由于新版本的 grpcio 不支持 Python 2.7 了，直接用 pip 安装不行，需要指定版本，这里记录一下一个可用的版本：</p>
-<pre><code>pip2 install grpcio==1.36.1
-</code></pre>
+          <p>Tensorflow 在 Windows 环境下不支持 Python 2，但是最近需要在一台 Windows 系统的工作站上给基于 Python 2.7 的虚拟环境配置 Tensorflow。</p>
+<p>记录一下找到的一个可用的轮子：</p>
+<p><a href="https://github.com/fo40225/tensorflow-windows-wheel">https://github.com/fo40225/tensorflow-windows-wheel</a></p>
+<p>下载需要的 whl 文件后 pip install 即可。</p>
+<p>看下来支持到 1.10.0 版本。</p>
+
     </div>
 
     <div class="post-copyright">
@@ -204,7 +206,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/ldp_py2_grpcio/>http://jonathanwayy.xyz/2021/ldp_py2_grpcio/</span>
+                    <a href=http://jonathanwayy.xyz/2021/ldp_py2_win_tf/>http://jonathanwayy.xyz/2021/ldp_py2_win_tf/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -239,8 +241,8 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
                     #python</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/grpcio/">
-                    #grpcio</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/tensorflow/">
+                    #tensorflow</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
                     #linux</a></span>
@@ -261,10 +263,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/ldp_win_opendr/" class="prev" rel="prev" title="炼丹杂记 -- Windows 下使用 pip 安装 opendr"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- Windows 下使用 pip 安装 opendr</a>
+        <a href="http://jonathanwayy.xyz/2021/ldp_py2_grpcio/" class="prev" rel="prev" title="炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/ldp_py2_win_tf/" class="next" rel="next" title="炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子">炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

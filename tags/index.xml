@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Sep 2021 20:25:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Sep 2021 20:39:13 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -20,9 +20,72 @@
     <item>
       <title>deep learning</title>
       <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pip</title>
+      <link>http://jonathanwayy.xyz/tags/pip/</link>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python2</title>
+      <link>http://jonathanwayy.xyz/tags/python2/</link>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tensorflow</title>
+      <link>http://jonathanwayy.xyz/tags/tensorflow/</link>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>http://jonathanwayy.xyz/tags/windows/</link>
+      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/windows/</guid>
       <description></description>
     </item>
     
@@ -32,60 +95,6 @@
       <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/grpcio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pip</title>
-      <link>http://jonathanwayy.xyz/tags/pip/</link>
-      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python2</title>
-      <link>http://jonathanwayy.xyz/tags/python2/</link>
-      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>http://jonathanwayy.xyz/tags/windows/</link>
-      <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/windows/</guid>
       <description></description>
     </item>
     
