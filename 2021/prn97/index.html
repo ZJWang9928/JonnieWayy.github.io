@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/blwl39/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/latex_noindent/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn11/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp_py2_win_tf/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn97/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] TIPCB: A Simple but Effective Part-based Convolutional Baseline | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] Semantically Self-Aligned Network for T2I Person ReID (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] TIPCB: A Simple but Effective Part-based Convolutional Baseline | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Semantically Self-Aligned Network for T2I Person ReID (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] TIPCB: A Simple but Effective Part-based Convolutional Baseline",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] TIPCB: A Simple but Effective Part-based Convolutional Baseline",
-    "description" : "2105.11628 TIPCB: A Simple but Effective Part-based Convolutional Baseline for Text-based Person Search 视觉特征学习 在视觉 CNN 分支，ResNet-50 第 3 和第 4 个残差块的输出分别作为低级特征图和高级特征图。 用 GMP 聚合低级特",
+    "name" : "[论文阅读笔记 -- 跨模态检索] Semantically Self-Aligned Network for T2I Person ReID (2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] Semantically Self-Aligned Network for T2I Person ReID (2021)",
+    "description" : "2107.12666v2 Semantically Self-Aligned Network for Text-to-Image Part-aware Person Re-identification (2021) 开源代码传送门 概述 自然语言描述的自由形式带来的两个问题 同一张图像对应的描述可能非常不同 对于身体部件的描述可能以任意顺序呈",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-06-15 13:42:56 \u002b0800 CST",
-    "dateModified" : "2021-06-15 13:42:56 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn11\/",
-    "wordCount" : "426",
+    "datePublished": "2021-09-13 13:18:31 \u002b0800 CST",
+    "dateModified" : "2021-09-13 13:18:31 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn97\/",
+    "wordCount" : "776",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] TIPCB: A Simple but Effective Part-based Convolutional Baseline</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Semantically Self-Aligned Network for T2I Person ReID (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-06-15 itemprop="datePublished">June 15, 2021</time>
+                on <time datetime=2021-09-13 itemprop="datePublished">September 13, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 426 words</span>
+                <span class="post-word-count">, 776 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,23 +189,74 @@
           
           
 
-          <h1 id="210511628-tipcb-a-simple-but-effective-part-based-convolutional-baseline-for-text-based-person-search">2105.11628 TIPCB: A Simple but Effective Part-based Convolutional Baseline for Text-based Person Search</h1>
-<p><img src="/images/2021/PRN11/1.png" alt="Fig 1"></p>
-<p><img src="/images/2021/PRN11/2.png" alt="Fig 2"></p>
-<h2 id="视觉特征学习">视觉特征学习</h2>
-<p>在视觉 CNN 分支，ResNet-50 第 3 和第 4 个残差块的输出分别作为低级特征图和高级特征图。<br>
-用 GMP 聚合低级特征图得到视觉的低级特征。对高级特征图使用 PCB (水平分割) 策略提取局部特征，取这些局部特征向量各个元素位置上的最大值构成全局特征向量。<br>
-最终，得到 low-level、local-level 和 global-level 的三种特征。<br>
-测试阶段只有 global-level 被用于相似度衡量。</p>
-<p><img src="/images/2021/PRN11/3.png" alt="Fig 3"></p>
-<h2 id="文本特征学习">文本特征学习</h2>
-<p>在文本 CNN 分支，使用预训练并固定参数的 BERT 提取词嵌入。</p>
-<p>为了满足卷积层输入的需要，将词嵌入维度由 \(L \times D\) 变为 \(1 \times L \times D\)。</p>
-<p>设计了多分支的文本 CNN，共包含 K 个残差分支，对应行人图像的 K 个水平块。各个分支内包含 P 个文本参差瓶颈 (textual residual bottlenecks)，用于自适应地学习能够与视觉局部特征相匹配的文本特征。</p>
-<p>通过多分支文本 CNN 可以得到文本局部特征图，与视觉 CNN 分支类似，使用 GMP 提取文本局部特征并沿着通道维选取最大元素得到文本全局特征。</p>
-<h2 id="多级跨模态匹配-multi-stage-cross-modal-matching">多级跨模态匹配 (Multi-stage Cross-modal Matching)</h2>
-<p>对三级特征使用 Cross-Modal Projection Matching (CMPM) 损失。</p>
-<p><img src="/images/2021/PRN11/4.png" alt="Fig 4"></p>
+          <h1 id="210712666v2-semantically-self-aligned-network-for-text-to-image-part-aware-person-re-identification-2021">2107.12666v2 Semantically Self-Aligned Network for Text-to-Image Part-aware Person Re-identification (2021)</h1>
+<p><a href="https://github.com/zifyloo/SSAN">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN97/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<h3 id="自然语言描述的自由形式带来的两个问题">自然语言描述的自由形式带来的两个问题</h3>
+<ul>
+<li>同一张图像对应的描述可能非常不同</li>
+<li>对于身体部件的描述可能以任意顺序呈现</li>
+</ul>
+<h3 id="现有方法的两个局限">现有方法的两个局限</h3>
+<ul>
+<li>注意力模型计算复杂度高</li>
+<li>短语提取依赖外部模型</li>
+</ul>
+<p>本文提出语义自对齐网络 (Semantically Self-Aligned Network, SSAN)。</p>
+<p><img src="/images/2021/PRN97/2.png" alt="Fig 2"></p>
+<h2 id="backbone">Backbone</h2>
+<h3 id="视觉表征提取">视觉表征提取</h3>
+<p>ResNet-50</p>
+<p>得到 \(F \in \mathbb{R}^{H \times W \times C}\)。</p>
+<h3 id="文本表征提取">文本表征提取</h3>
+<p>Bi-LSTM</p>
+<p>双向均值拼接得到 \(E \in \mathbb{R}^{C \times n}\)，\(n\) 为单词数。</p>
+<h2 id="全局特征提取">全局特征提取</h2>
+<p>对 \(F\) 用 Global Max Pooling (GMP)，对 \(E\) 用 Row-wise Max Pooling (RMP)，进而将特征用共享的 \(1 \times 1\) 卷积层投影到公共特征空间：</p>
+<p>$$v_{g} = W_{g} GMP(F),$$
+$$t_{g} = W_{g} RMP(E).$$</p>
+<p>可计算两个全局特征之间的余弦相似度：</p>
+<p>$$S_{g} = \frac{v_{g}^T t_{g}}{||v_{g}|| ||t_{g}||}.$$</p>
+<h2 id="部件级别特征提取">部件级别特征提取</h2>
+<p>各部件分支包含两个模块：</p>
+<ul>
+<li>Part-specific Feature Learning (PFL) module</li>
+<li>Part Relation Learning (PRL) module</li>
+</ul>
+<p><img src="/images/2021/PRN97/3.png" alt="Fig 3"></p>
+<h3 id="part-specific-feature-learning-pfl">Part-specific Feature Learning (PFL)</h3>
+<p>试图在不借助外部工具的情况下从原始的文本描述中提取不减级别的文本特征。</p>
+<p>引入单词注意力模块 (Word Attention Module, WAM) 推断单词-部件相关性，预测第 \(i\) 个单词属于第 \(k\) 个部件的概率：</p>
+<p>$$s_{i}^{k} = \sigma(W_{p}^{k} e_{i}).$$</p>
+<p>进而调整对于第 \(k\) 个部件的 \(E\)：</p>
+<p>$$E_{k} = [s_{1}^k e_{1}, s_{2}^{k} e_{2}, \cdots, s_{n}^{k} e_{n}].$$</p>
+<p>计算得到部件对应的视觉与文本特征：</p>
+<p>$$v_{l}^{k} = W_{l}^{k} GMP(F_{k}),$$
+$$t_{l}^{k} = W_{l}^{k} RMP(E_{k}).$$</p>
+<p>拼接 K 个特征后计算余弦相似度：</p>
+<p>$$S_{l} = \frac{v_{l}^T t_{l}}{||v_{l}|| ||t_{l}||}.$$</p>
+<p><img src="/images/2021/PRN97/4.png" alt="Fig 4"></p>
+<h3 id="part-relation-learning">Part Relation Learning</h3>
+<p>对于水平均分图像的方法，一个短语可能设计多个部件，有的短语可能描述的是部件之间的关系。</p>
+<p>本文引入多视角非局部网络 (multi-view non-local network, MV-NLN)。</p>
+<p>首先在一个通过多视角投影得到的共享嵌入空间中计算 \(v_{l}^{k}\) 和 \(v_{l}^{i}i (i \ne k)\) 之间的相似度：</p>
+<p>$$S_{ki} = \frac{\theta_{k}(v_{l}^{k})^T \phi_{i}(v_{l}^{i})}{||\theta_{k}(v_{l}^{k})|| ||\phi_{i}(v_{l}^{i})||},$$</p>
+<p>进而对于第 \(k\) 个视觉局部特征，加权聚合其余 \(K - 1\) 个特征：</p>
+<p>$$\alpha_{ki} = \frac{exp(S_{ki})}{\sum_{i = 1,i \ne k}^{K} exp(S_{ki})},$$
+$$v_{l_{in}}^{k} = W_{\gamma}^{k}(\sum_{i = 1, i \ne k} \alpha_{ki}\phi_{i}(v_{l}^{i})).$$</p>
+<p>最终可以求得部件级别视觉特征：</p>
+<p>$$v_{n}^{k} = W_{n}^{k}(v_{l}^{k} + v_{l_{in}}^{k}).$$</p>
+<p>类似方式可以得到部件级别文本特征 \(t_{n}\)，其 MV-NLN 参数共享，同样计算余弦相似度：</p>
+<p>$$S_{n} = \frac{v_{n}^T t_{n}}{||v_{n}|| ||t_{n}||}.$$</p>
+<p><img src="/images/2021/PRN97/5.png" alt="Fig 5"></p>
+<h2 id="目标函数">目标函数</h2>
+<p>引入 Compound Ranking (CR) Loss，同时包含强监督项与弱监督项。</p>
+<p>$$L_{cr} = max(\alpha_{1} - S(I_{p}, D_{p}) + S(I_{p}, D_{n}), 0) \\ + max(\alpha_{1} - S(I_{p}, D_{p}) + S(I_{n}, D_{p}), 0) \\ + \beta \cdot max(\alpha_{2} - S(I_{p}, D_{p}^{'}) + S(I_{p}, D_{n}), 0) \\ + \beta \cdot max(\alpha_{2} - S(I_{p}, D_{p}^{'}) + S(I_{n}, D_{p}^{'}), 0).$$</p>
+<p>对 \(\alpha_{2}\) 的值动态调整：</p>
+<p>$$\alpha_{2} = (\lambda + 1) \frac{\alpha_{1}}{2},$$
+$$\lambda = min(\frac{S(I_{p}, D_{p}^{'})}{S(I_{p}, D_{p})}, 1).$$</p>
+<p>此外还用到 Id Loss。</p>
 
     </div>
 
@@ -220,7 +271,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn11/>http://jonathanwayy.xyz/2021/prn11/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn97/>http://jonathanwayy.xyz/2021/prn97/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -268,10 +319,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/blwl39/" class="prev" rel="prev" title="BLWL[39] yay 遇到 Error: Rate limit reached 问题解决办法"><i class="iconfont icon-left"></i>&nbsp;BLWL[39] yay 遇到 Error: Rate limit reached 问题解决办法</a>
+        <a href="http://jonathanwayy.xyz/2021/ldp_py2_win_tf/" class="prev" rel="prev" title="炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/latex_noindent/" class="next" rel="next" title="Latex 取消段首缩进">Latex 取消段首缩进&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -280,7 +331,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

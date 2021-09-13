@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Sep 2021 14:44:37 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Sep 2021 13:18:31 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Semantically Self-Aligned Network for T2I Person ReID (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn97/</link>
+      <pubDate>Mon, 13 Sep 2021 13:18:31 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn97/</guid>
+      <description>2107.12666v2 Semantically Self-Aligned Network for Text-to-Image Part-aware Person Re-identification (2021) 开源代码传送门 概述 自然语言描述的自由形式带来的两个问题 同一张图像对应的描述可能非常不同 对于身体部件的描述可能以任意顺序呈</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Parameter-Efficient Person Re-identification in the 3D Space (2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn96/</link>
