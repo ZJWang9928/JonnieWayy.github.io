@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Sep 2021 13:18:31 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Sep 2021 15:23:30 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态哈希] SDMCH: Supervised Discrete Manifold-Embeded (IJCAI 2018)</title>
+      <link>http://jonathanwayy.xyz/2021/prn98/</link>
+      <pubDate>Thu, 16 Sep 2021 15:23:30 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn98/</guid>
+      <description>SDMCH: Supervised Discrete Manifold-Embedded Cross-Modal Hashing (IJCAI 2018) 概述 本文提出离散流形嵌入跨模态哈希方法 (Discrete Manifold-Embedded Cross-Modal Hashing, SDMCH)。 既挖掘数据的非线性流形结构，也在多模态之间构建相关性。 流形结构学</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Semantically Self-Aligned Network for T2I Person ReID (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn97/</link>
