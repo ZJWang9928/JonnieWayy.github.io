@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Sep 2021 15:23:30 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Sep 2021 23:36:45 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- PyTorch 出现 NotImplementedError 报错的一种可能情况</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</link>
+      <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</guid>
+      <description>问题描述 PyTorch 一使用网络进行计算即出现如下报错： raise NotImplementedErrorh 问题原因 经过反复的调试和检查后，发现是 forward 函数的问题，网络模型类中的 def forward 一行多缩进了一个 Tab 位，</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] SDMCH: Supervised Discrete Manifold-Embeded (IJCAI 2018)</title>
       <link>http://jonathanwayy.xyz/2021/prn98/</link>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Sep 2021 20:39:13 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Sep 2021 23:36:45 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- PyTorch 出现 NotImplementedError 报错的一种可能情况</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</link>
+      <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</guid>
+      <description>问题描述 PyTorch 一使用网络进行计算即出现如下报错： raise NotImplementedErrorh 问题原因 经过反复的调试和检查后，发现是 forward 函数的问题，网络模型类中的 def forward 一行多缩进了一个 Tab 位，</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子</title>
       <link>http://jonathanwayy.xyz/2021/ldp_py2_win_tf/</link>

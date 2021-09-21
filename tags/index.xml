@@ -7,22 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Sep 2021 15:23:30 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Sep 2021 23:36:45 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Thu, 16 Sep 2021 15:23:30 +0800</pubDate>
+      <title>coding</title>
+      <link>http://jonathanwayy.xyz/tags/coding/</link>
+      <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <guid>http://jonathanwayy.xyz/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 16 Sep 2021 15:23:30 +0800</pubDate>
+      <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Thu, 16 Sep 2021 15:23:30 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
@@ -41,15 +86,6 @@
       <pubDate>Thu, 16 Sep 2021 15:23:30 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/manifold/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Thu, 16 Sep 2021 15:23:30 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -117,29 +153,11 @@
     </item>
     
     <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pip</title>
       <link>http://jonathanwayy.xyz/tags/pip/</link>
       <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
     </item>
     
@@ -419,15 +437,6 @@
       <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/numpy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
