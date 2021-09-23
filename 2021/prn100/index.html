@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn100/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn99/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn99/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn100/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 图像标注] Unsupervised Image Captioning (CVPR 2019) | Jonathan`s Blog
+           [论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 图像标注] Unsupervised Image Captioning (CVPR 2019) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 图像标注] Unsupervised Image Captioning (CVPR 2019)",
-    "headline" : "[论文阅读笔记 -- 图像标注] Unsupervised Image Captioning (CVPR 2019)",
-    "description" : "Unsupervised Image Captioning (CVPR 2019) 开源代码传送门 概述 无监督图像标注任务，即不使用任何标记好的图文对来训练图像标注模型。 三个目标 用文本对抗生成方法，在句子语料上训练一",
+    "name" : "[论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017)",
+    "headline" : "[论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017)",
+    "description" : "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization (ICCV 2017) 概述 本文基于 instance normalization (IN) 提出 adaptive instance normalization (AdaIN)，解决风格迁移任务中的灵活性-速度困境。 Adaptive Instance Normalization (AdaIN) $$AdaIN(x, y) = \\sigma (y) (\\frac{x - \\mu (x)}{\\sigma (x)}) \u002b \\mu (y).$$",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-09-22 13:14:16 \u002b0800 CST",
-    "dateModified" : "2021-09-22 13:14:16 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn99\/",
-    "wordCount" : "473",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","image captioning","unsupervised", "Jonathan`s Blog"]
+    "datePublished": "2021-09-23 16:48:51 \u002b0800 CST",
+    "dateModified" : "2021-09-23 16:48:51 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn100\/",
+    "wordCount" : "69",
+    "keywords" : [ "paper reading","cv","notes","style transfer","normalization", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 图像标注] Unsupervised Image Captioning (CVPR 2019)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-09-22 itemprop="datePublished">September 22, 2021</time>
+                on <time datetime=2021-09-23 itemprop="datePublished">September 23, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 473 words</span>
+                <span class="post-word-count">, 69 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,47 +189,13 @@
           
           
 
-          <h1 id="unsupervised-image-captioning-cvpr-2019">Unsupervised Image Captioning (CVPR 2019)</h1>
-<p><a href="https://github.com/fengyang0317/unsupervised_captioning">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN99/1.png" alt="Fig 1"></p>
+          <h1 id="arbitrary-style-transfer-in-real-time-with-adaptive-instance-normalization-iccv-2017">Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization (ICCV 2017)</h1>
+<p><img src="/images/2021/PRN100/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>无监督图像标注任务，即不使用任何标记好的图文对来训练图像标注模型。</p>
-<h3 id="三个目标">三个目标</h3>
-<ul>
-<li>用文本对抗生成方法，在句子语料上训练一个语言模型，其能够基于所给的图像特征生成句子。由于没有标签，使用对抗方法使生成的句子无法与语料句子相区别。</li>
-<li>将视觉概念检测器的知识蒸馏到图像标注模型中。当生成的句子中出现与图像的视觉概念相应的单词时，予以激励。</li>
-<li>将图像与句子投影到一个公共潜在空间中。</li>
-</ul>
-<p><img src="/images/2021/PRN99/2.png" alt="Fig 2"></p>
-<h2 id="主要部件">主要部件</h2>
-<h3 id="图像编码器">图像编码器</h3>
-<p>Inception-V4</p>
-<h3 id="句子生成器">句子生成器</h3>
-<p>LSTM</p>
-<h3 id="句子鉴别器">句子鉴别器</h3>
-<p>$$[q_{t}, h_{t}^{d}] = LSTM^{d}(x_{t}, h_{t-1}^{d}), \ t \in \{1, \cdots, n\}.$$</p>
-<h2 id="训练">训练</h2>
-<h3 id="对抗标注生成">对抗标注生成</h3>
-<p>生成器以图像特征作为数据，以此为根据生成一个句子。</p>
-<p>鉴别器区分生成的句子与语料中的句子。</p>
-<p>在每个时间步计算一个对抗激励：</p>
-<p>$$r_{t}^{adv} = log(q_{t}),$$
-$$\mathcal{L}_{adv} = -[\frac{1}{l} \sum_{t = 1}^{l} log(\hat{q}_{t}) + \frac{1}{n} \sum_{t = 1}^{n} log(1 - q_{t})],$$</p>
-<p>\(l\) 是预料句子长度，\(n\) 为生成的句子长度。</p>
-<h3 id="视觉概念蒸馏">视觉概念蒸馏</h3>
-<p>各时间步计算概念激励：</p>
-<p>$$r_{t}^{c} = \sum_{i = 1}^{N_{c}} I(s_{t} = c_{i}) * v_{i}.$$</p>
-<h3 id="双向图文重构">双向图文重构</h3>
-<p>将图文特征投影到一个公共潜在空间中，进而互相重构，使二者在语义上一致。</p>
-<p><img src="/images/2021/PRN99/3.png" alt="Fig 3"></p>
-<h4 id="图像重构">图像重构</h4>
-<p>重构图像特征而非完整图像。</p>
-<p>用于训练鉴别器的图像重构损失为：</p>
-<p>$$\mathcal{L}_{im} = ||x_{-1} - x'||_{2}^{2}.$$</p>
-<p>取负为生成器的图像重构激励：</p>
-<p>$$r_{t}^{im} = \mathcal{L}_{im}.$$</p>
-<h4 id="文本重构">文本重构</h4>
-<p>$$\mathcal{L}_{sen} = -\sum_{t = 1}^{l} log(p(s_{t} = \hat{s}_{t} | \hat{s}_{1}, \cdots, \hat{s}_{t - 1})).$$</p>
+<p>本文基于 instance normalization (IN) 提出 adaptive instance normalization (AdaIN)，解决风格迁移任务中的灵活性-速度困境。</p>
+<p><img src="/images/2021/PRN100/2.png" alt="Fig 2"></p>
+<h2 id="adaptive-instance-normalization-adain">Adaptive Instance Normalization (AdaIN)</h2>
+<p>$$AdaIN(x, y) = \sigma (y) (\frac{x - \mu (x)}{\sigma (x)}) + \mu (y).$$</p>
 
     </div>
 
@@ -244,7 +210,7 @@ $$\mathcal{L}_{adv} = -[\frac{1}{l} \sum_{t = 1}^{l} log(\hat{q}_{t}) + \frac{1}
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn99/>http://jonathanwayy.xyz/2021/prn99/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn100/>http://jonathanwayy.xyz/2021/prn100/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -273,14 +239,11 @@ $$\mathcal{L}_{adv} = -[\frac{1}{l} \sum_{t = 1}^{l} log(\hat{q}_{t}) + \frac{1}
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/style-transfer/">
+                    #style transfer</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/image-captioning/">
-                    #image captioning</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/unsupervised/">
-                    #unsupervised</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/normalization/">
+                    #normalization</a></span>
             
             </section>
         
@@ -292,10 +255,10 @@ $$\mathcal{L}_{adv} = -[\frac{1}{l} \sum_{t = 1}^{l} log(\hat{q}_{t}) + \frac{1}
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/" class="prev" rel="prev" title="炼丹杂记 -- PyTorch 出现 NotImplementedError 报错的一种可能情况"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- PyTorch 出现 NotImplementedError 报错的一种可能情况</a>
+        <a href="http://jonathanwayy.xyz/2021/prn99/" class="prev" rel="prev" title="[论文阅读笔记 -- 图像标注] Unsupervised Image Captioning (CVPR 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 图像标注] Unsupervised Image Captioning (CVPR 2019)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn100/" class="next" rel="next" title="[论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017)">[论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -304,7 +267,7 @@ $$\mathcal{L}_{adv} = -[\frac{1}{l} \sum_{t = 1}^{l} log(\hat{q}_{t}) + \frac{1}
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>normalization on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/normalization/</link>
+    <description>Recent content in normalization on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Thu, 23 Sep 2021 16:48:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/normalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017)</title>
+      <link>http://jonathanwayy.xyz/2021/prn100/</link>
+      <pubDate>Thu, 23 Sep 2021 16:48:51 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn100/</guid>
+      <description>Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization (ICCV 2017) 概述 本文基于 instance normalization (IN) 提出 adaptive instance normalization (AdaIN)，解决风格迁移任务中的灵活性-速度困境。 Adaptive Instance Normalization (AdaIN) $$AdaIN(x, y) = \sigma (y) (\frac{x - \mu (x)}{\sigma (x)}) + \mu (y).$$</description>
+    </item>
+    
+  </channel>
+</rss>
