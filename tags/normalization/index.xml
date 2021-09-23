@@ -14,7 +14,7 @@
       <pubDate>Thu, 23 Sep 2021 16:48:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn100/</guid>
-      <description>Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization (ICCV 2017) 概述 本文基于 instance normalization (IN) 提出 adaptive instance normalization (AdaIN)，解决风格迁移任务中的灵活性-速度困境。 Adaptive Instance Normalization (AdaIN) $$AdaIN(x, y) = \sigma (y) (\frac{x - \mu (x)}{\sigma (x)}) + \mu (y).$$</description>
+      <description>Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization (ICCV 2017) 概述 本文基于 instance normalization (IN) 提出 adaptive instance normalization (AdaIN)，解决风格迁移任务中的灵活性-速度困境。 Adaptive Instance Normalization (AdaIN) $$AdaIN(x, y) = \sigma (y) (\frac{x - \mu (x)}{\sigma (x)}) + \mu (y).$$ 风</description>
     </item>
     
   </channel>
