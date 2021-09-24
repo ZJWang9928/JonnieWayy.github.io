@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Sep 2021 19:53:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 22:10:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Person Search Challenges and Solutions: A Survey (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn102/</link>
+      <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn102/</guid>
+      <description>2105.01605v1 Person Search Challenges and Solutions: A Survey (2021) 概述 关于 Image-based Person Search 与 Text-based Person Search 的综述。 本文与现有综述的差异 Detection-identification Inconsistency Problem Person Search 研究进展时间线 三个主要挑战 从场景图像学习具有足够鉴别能力的行人</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 人机交互 / 跨模态检索] Interactive Natural Language Person Search (2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn101/</link>

@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Sep 2021 19:53:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 22:10:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Fri, 24 Sep 2021 19:53:50 +0800</pubDate>
+      <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 24 Sep 2021 19:53:50 +0800</pubDate>
+      <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 24 Sep 2021 19:53:50 +0800</pubDate>
+      <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -38,7 +38,7 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Fri, 24 Sep 2021 19:53:50 +0800</pubDate>
+      <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
@@ -47,7 +47,7 @@
     <item>
       <title>ReID</title>
       <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Fri, 24 Sep 2021 19:53:50 +0800</pubDate>
+      <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
@@ -56,9 +56,18 @@
     <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Fri, 24 Sep 2021 19:53:50 +0800</pubDate>
+      <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survey</title>
+      <link>http://jonathanwayy.xyz/tags/survey/</link>
+      <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/survey/</guid>
       <description></description>
     </item>
     
