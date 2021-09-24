@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 23 Sep 2021 16:48:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 19:53:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 人机交互 / 跨模态检索] Interactive Natural Language Person Search (2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn101/</link>
+      <pubDate>Fri, 24 Sep 2021 19:53:50 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn101/</guid>
+      <description>2002.08434v1 Interactive Natural Language-based Person Search (2020) CUHK-QA 数据集传送门 概述 可以认为本文是换了一种说法，把 Text-based Person Search 称为 Zero-shot re-ID。 将 language-based re-ID 视为一种 VQA 任务，输入为图文对，输出为二值化答案。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 风格迁移] Style Transfer with Adaptive Instance Normalization (ICCV 2017)</title>
       <link>http://jonathanwayy.xyz/2021/prn100/</link>
