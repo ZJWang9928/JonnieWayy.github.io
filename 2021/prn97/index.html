@@ -238,7 +238,7 @@ $$t_{l}^{k} = W_{l}^{k} RMP(E_{k}).$$</p>
 <p>$$S_{l} = \frac{v_{l}^T t_{l}}{||v_{l}|| ||t_{l}||}.$$</p>
 <p><img src="/images/2021/PRN97/4.png" alt="Fig 4"></p>
 <h3 id="part-relation-learning">Part Relation Learning</h3>
-<p>对于水平均分图像的方法，一个短语可能设计多个部件，有的短语可能描述的是部件之间的关系。</p>
+<p>对于水平均分图像的方法，一个短语可能涉及多个部件，有的短语可能描述的是部件之间的关系。</p>
 <p>本文引入多视角非局部网络 (multi-view non-local network, MV-NLN)。</p>
 <p>首先在一个通过多视角投影得到的共享嵌入空间中计算 \(v_{l}^{k}\) 和 \(v_{l}^{i}i (i \ne k)\) 之间的相似度：</p>
 <p>$$S_{ki} = \frac{\theta_{k}(v_{l}^{k})^T \phi_{i}(v_{l}^{i})}{||\theta_{k}(v_{l}^{k})|| ||\phi_{i}(v_{l}^{i})||},$$</p>
