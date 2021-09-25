@@ -189,14 +189,14 @@
 
           <h2 id="问题描述">问题描述</h2>
 <p>在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时</p>
-<pre><code>pip2 install opencv-python
+<pre tabindex="0"><code>pip2 install opencv-python
 </code></pre><p>出现了如下报错：</p>
-<pre><code>TypeError: 'NoneType' object is not iterable
+<pre tabindex="0"><code>TypeError: 'NoneType' object is not iterable
 </code></pre><h2 id="原因分析">原因分析</h2>
 <p>出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而直接使用 pip 命令会下载最新版的 OpenCV。</p>
 <h2 id="解决办法">解决办法</h2>
 <p>安装时指定老版本，最后一个支持 Python 2.7 的 OpenCV 版本为 <code>4.2.0.32</code>：</p>
-<pre><code>pip2 install opencv-python==4.2.0.32
+<pre tabindex="0"><code>pip2 install opencv-python==4.2.0.32
 </code></pre>
     </div>
 

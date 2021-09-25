@@ -190,19 +190,19 @@
           <p>在 GitHub 下，当 A 开发者 fork 了 B 开发者的库后，若 B 开发者更新了内容， A 开发者可以通过如下方法实现库同步。</p>
 <h2 id="给-fork-配置远程库">给 fork 配置远程库</h2>
 <h3 id="查看远程状态">查看远程状态</h3>
-<pre><code>$&gt; git remote -v
+<pre tabindex="0"><code>$&gt; git remote -v
 </code></pre><h3 id="添加将被同步给-fork-远程的上游仓库">添加将被同步给 fork 远程的上游仓库</h3>
-<pre><code>$&gt; git remote add upstream (upstream_url)
+<pre tabindex="0"><code>$&gt; git remote add upstream (upstream_url)
 </code></pre><h3 id="再次查看状态确认是否配置成功">再次查看状态确认是否配置成功</h3>
 <h2 id="同步-fork">同步 fork</h2>
 <h3 id="从上游仓库-fetch-分支和提交点提交给本地-master并被存储在一个本地分支-upstreammaster">从上游仓库 fetch 分支和提交点，提交给本地 master，并被存储在一个本地分支 upstream/master</h3>
-<pre><code>$&gt; git fetch upstream
+<pre tabindex="0"><code>$&gt; git fetch upstream
 </code></pre><h3 id="切换到本地主分支如果不在的话">切换到本地主分支(如果不在的话)</h3>
-<pre><code>$&gt; git checkout master
+<pre tabindex="0"><code>$&gt; git checkout master
 </code></pre><h3 id="把-upstreammaster-分支合并到本地-master-上这样就完成了同步并且不会丢掉本地修改的内容">把 upstream/master 分支合并到本地 master 上，这样就完成了同步，并且不会丢掉本地修改的内容</h3>
-<pre><code>$&gt; git merge upstream/master
+<pre tabindex="0"><code>$&gt; git merge upstream/master
 </code></pre><h3 id="如果想更新到-github-的-fork-上则">如果想更新到 GitHub 的 fork 上，则</h3>
-<pre><code>$&gt; git push origin master
+<pre tabindex="0"><code>$&gt; git push origin master
 </code></pre>
     </div>
 

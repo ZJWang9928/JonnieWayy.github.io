@@ -204,7 +204,7 @@ $$x_{H, d} = x_{d} - x_{L, d} = (\delta - w_{L, d}) * x_{d}.$$</p>
 <p><img src="/images/2021/PRN85/3.png" alt="Fig 3"></p>
 <p><img src="/images/2021/PRN85/4.png" alt="Fig 4"></p>
 <h2 id="滤波器代码">滤波器代码</h2>
-<pre><code>class GaussianFilter(nn.Module):
+<pre tabindex="0"><code>class GaussianFilter(nn.Module):
     def __init__(self, kernel_size=5, stride=1, padding=4):
         super(GaussianFilter, self).__init__()
         # initialize guassian kernel

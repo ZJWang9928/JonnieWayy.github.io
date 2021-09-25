@@ -189,7 +189,7 @@
 
           <h2 id="问题描述">问题描述</h2>
 <p>PyTorch 一使用网络进行计算即出现如下报错：</p>
-<pre><code>raise NotImplementedErrorh
+<pre tabindex="0"><code>raise NotImplementedErrorh
 </code></pre><h2 id="问题原因">问题原因</h2>
 <p>经过反复的调试和检查后，发现是 forward 函数的问题，网络模型类中的 <code>def forward</code> 一行多缩进了一个 Tab 位，导致 forward 函数无法被检测到&hellip;&hellip;</p>
 <p>修改后问题解决。</p>

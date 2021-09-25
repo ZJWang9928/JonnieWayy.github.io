@@ -189,14 +189,14 @@
 
           <p>在使用 Latex 写论文时，有时会出现表格过长超出一页的情况，可以通过 longtable 包实现表格的多页显示。</p>
 <h3 id="首先引入宏包">首先引入宏包</h3>
-<pre><code>\usepackage{longtable}
+<pre tabindex="0"><code>\usepackage{longtable}
 </code></pre><h3 id="使用-longtable">使用 longtable</h3>
 <p>首先删去 <code>\begin{table}</code> 和 <code>\end{table}</code>，再将 <code>tabular</code> 替换为 <code>longtable</code> 即可，<code>longtable</code> 嵌套于 <code>table</code> 环境之内会导致 <code>longtable</code> 无法分页，需要居中的话可以在 <code>longtable</code> 外套一层 <code>center</code> 环境。</p>
 <h3 id="编译卡住问题的处理">编译卡住问题的处理</h3>
 <p>需要在 <code>caption</code> 和 <code>label</code> 的最后都加上两个反斜杠 <code>\\</code> 再进行编译。</p>
 <h3 id="每页均显示表头">每页均显示表头</h3>
 <p>为了让跨页表格的每页都有相应的表头和表尾，需要在 <code>\begin{longtable}</code> 之后插入如下内容：</p>
-<pre><code>\endfirsthead
+<pre tabindex="0"><code>\endfirsthead
 % 第一页表头内容
 
 \endhead

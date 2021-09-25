@@ -195,12 +195,12 @@
 <h2 id="高版本-pytorch-实现">高版本 PyTorch 实现</h2>
 <p><code>sentence_embedding</code> 为句子嵌入，<code>sentence_length</code> 为表示 batch 中各句子长度的标量数组，<code>self.gru</code> 为实例化好的 bi-GRU。</p>
 <p>有 <code>enforce_sorted</code> 参数时，如下即可实现所需的运算。</p>
-<pre><code>sentence_pack = torch.nn.utils.rnn.pack_padded_sequence(sentence_embedding, sentence_length, batch_first=True, enforce_sorted=False)
+<pre tabindex="0"><code>sentence_pack = torch.nn.utils.rnn.pack_padded_sequence(sentence_embedding, sentence_length, batch_first=True, enforce_sorted=False)
 sentence_gru,_ = self.gru(sentence_pack)
 sentence_unpacked = torch.nn.utils.rnn.pad_packed_sequence(sentence_gru, batch_first=True)[0]
 </code></pre><h2 id="低版本-pytorch-实现">低版本 PyTorch 实现</h2>
 <p>没有 <code>enforce_sorted</code> 参数的情况下，需要先对输入的特征进行人为排序，并在运算过后进行解排序。</p>
-<pre><code># 排序
+<pre tabindex="0"><code># 排序
 _, idx_sort_sen = torch.sort(torch.Tensor(sentence_length.type(torch.FloatTensor)), dim=0, descending=True)
 _, idx_unsort_sen = torch.sort(idx_sort_sen, dim=0)
 idx_sort_sen = idx_sort_sen.cuda()

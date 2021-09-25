@@ -189,7 +189,7 @@
 
           <h2 id="问题描述">问题描述</h2>
 <p>Manjaro/ArchLinux 使用 pacman 更新时遇到如下形式的问题：</p>
-<pre><code>&gt; sudo pacman -Syu
+<pre tabindex="0"><code>&gt; sudo pacman -Syu
 ...
 ...
 (748/748) 正在检查密钥环里的密钥                   [######################] 100%
@@ -204,16 +204,16 @@
 <h2 id="解决办法">解决办法</h2>
 <h3 id="1-更新一下-archlinux-密钥">1. 更新一下 archlinux 密钥</h3>
 <h4 id="若尚未安装-archlinux-keyring">若尚未安装 archlinux-keyring</h4>
-<pre><code>sudo pacman -S archlinux-keyring
+<pre tabindex="0"><code>sudo pacman -S archlinux-keyring
 </code></pre><h4 id="更新密钥">更新密钥</h4>
-<pre><code>sudo pacman-key --refresh-keys
+<pre tabindex="0"><code>sudo pacman-key --refresh-keys
 </code></pre><h3 id="2-重新加载签名密钥">2. 重新加载签名密钥</h3>
-<pre><code>sudo pacman-key --init
+<pre tabindex="0"><code>sudo pacman-key --init
 sudo pacman-key --populate
 </code></pre><h3 id="3-清除pacman-的缓冲文件">3. 清除pacman 的缓冲文件</h3>
-<pre><code>sudo pacman -Scc
+<pre tabindex="0"><code>sudo pacman -Scc
 </code></pre><h3 id="4-再次更新">4. 再次更新</h3>
-<pre><code>sudo pacman -Syu
+<pre tabindex="0"><code>sudo pacman -Syu
 </code></pre><p>不出意外的话问题已经解决了。</p>
 
     </div>

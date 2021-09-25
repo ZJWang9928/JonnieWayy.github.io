@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Sep 2021 22:10:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Sep 2021 15:30:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Learning Posterior and Prior for Uncertainty Modeling in ReID(2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn103/</link>
+      <pubDate>Sat, 25 Sep 2021 15:30:28 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn103/</guid>
+      <description>2007.08785 Learning Posterior and Prior for Uncertainty Modeling in Person Re-Identification (2020) 概述 本文在 ReID 任务中同时学习样本后验与类别先验，以量化输入图像及其相应类别的不确定性。 整体架构 上分支用 GAP 处理特征图得到</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Person Search Challenges and Solutions: A Survey (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn102/</link>

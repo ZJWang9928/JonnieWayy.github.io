@@ -191,13 +191,13 @@
 <p>问题的根本原因在于 OpenCV 默认是以 <code>BGR</code> 的通道顺序打开和显示图像的，而 PIL.Image 采用的通道顺序是 <code>RGB</code>，故此若将两个库的打开与显示混用就有可能导致上述问题的出现。</p>
 <p>为了解决这一问题，可以考虑转换通道，具体方法如下。</p>
 <h2 id="opencv-转-pilimage">OpenCV 转 PIL.Image</h2>
-<pre><code>cv2_img = cv2.imread(&quot;test.jpg&quot;)
+<pre tabindex="0"><code>cv2_img = cv2.imread(&quot;test.jpg&quot;)
 cv2.imshow(&quot;cv2_img&quot;, cv2_img)
 cv2.waitKey(0)
 pil_img = Image.fromarray(cv2.cvtColor(cv2_img, cv2.COLOR_BGR2RGB))
 pil_img.show()
 </code></pre><h2 id="pilimage-转-opencv">PIL.Image 转 OpenCV</h2>
-<pre><code>pil_img = Image.open(&quot;test.jpg&quot;)
+<pre tabindex="0"><code>pil_img = Image.open(&quot;test.jpg&quot;)
 pil_img.show()
 cv2_img = cv2.cvtColor(np.asarray(pil_img), cv2.COLOR_RGB2BGR)
 cv2.imshow(&quot;cv2_img&quot;, cv2_img)

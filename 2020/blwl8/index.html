@@ -191,17 +191,17 @@
 <li>配置好镜像源（开箱后的常规三步走即可）</li>
 <li>安装 QQ 或 TIM， pacman 一下即可</li>
 </ol>
-<pre><code>    sudo pacman -S deepin.com.qq.office
+<pre tabindex="0"><code>    sudo pacman -S deepin.com.qq.office
     sudo pacman -S deepin.com.qq.im
 </code></pre><ol start="3">
 <li>尝试一下是否可以打开（如果启动菜单没有，可以在 <code>/opt/deepinwine/apps/</code> 目录下找到），如果打不开，请参考后续步骤</li>
 <li>安装 gnome-settings-daemon</li>
 </ol>
-<pre><code>    sudo pacman -S gnome-settings-daemon
+<pre tabindex="0"><code>    sudo pacman -S gnome-settings-daemon
 </code></pre><ol start="5">
 <li>设置 <code>/usr/lib/gsd-xsettings</code> 为自启动</li>
 </ol>
-<pre><code>    系统设置 -&gt; 开机或关机 -&gt; 自动启动 -&gt;添加脚本 -&gt; 输入/usr/lib/gsd-xsettings
+<pre tabindex="0"><code>    系统设置 -&gt; 开机或关机 -&gt; 自动启动 -&gt;添加脚本 -&gt; 输入/usr/lib/gsd-xsettings
 </code></pre><ol start="6">
 <li>重启一下即可，不出意外就能顺利打开 QQ/TIM 了</li>
 </ol>

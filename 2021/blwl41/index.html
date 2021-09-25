@@ -189,17 +189,17 @@
 
           <p>记录一下如何使用 tar 工具进行 Linux 系统的备份与恢复。</p>
 <h3 id="1-安装-tar-工具">1. 安装 tar 工具</h3>
-<pre><code>&gt; sudo pacman -S tar
+<pre tabindex="0"><code>&gt; sudo pacman -S tar
 </code></pre><h3 id="2-新建一个存放备份文件的目录">2. 新建一个存放备份文件的目录</h3>
-<pre><code>&gt; mkdir -p backup_dir
+<pre tabindex="0"><code>&gt; mkdir -p backup_dir
 </code></pre><p><code>backup_dir</code> 目录可根据自己的设备情况选择。</p>
 <h3 id="3-执行下列命令进行备份">3. 执行下列命令进行备份</h3>
-<pre><code>&gt; tar -czvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc --exclude=./backup_dir /
+<pre tabindex="0"><code>&gt; tar -czvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc --exclude=./backup_dir /
 </code></pre><p><code>--exclude=...</code> 指定打包时需要排除在外的文件或目录。</p>
 <h3 id="4-初次备份成功后可以定期通过如下命令进行增量备份">4. 初次备份成功后可以定期通过如下命令进行增量备份</h3>
-<pre><code>&gt; tar -uzvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc --exclude=./backup_dir /
+<pre tabindex="0"><code>&gt; tar -uzvpf ./backup_dir/manjaro_bk.tar.gz --exclude=/sys --exclude=/lost+found --exclude=/dev --exclude=/media --exclude=/mnt --exclude=/proc --exclude=./backup_dir /
 </code></pre><h3 id="5-通过如下命令还原备份">5. 通过如下命令还原备份</h3>
-<pre><code>&gt; tar -zxvf ./backup_dir/manjaro_bk.tar.gz -C /
+<pre tabindex="0"><code>&gt; tar -zxvf ./backup_dir/manjaro_bk.tar.gz -C /
 </code></pre>
     </div>
 

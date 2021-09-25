@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Sep 2021 22:10:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Sep 2021 15:30:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -15,6 +15,15 @@
       
       <guid>http://jonathanwayy.xyz/2020/kliv/</guid>
       <description>   Kli Eng     HISlaH yes   ghobe&#39; no   je and   &amp;lsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   vay&amp;rsquo; anyone, anybody   pagh no one, nobody   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&#39; success   pong name   puq child   loD man   be&#39; woman   Duj ship   qach building   Dlvl&#39; English, federation, the Federation   Suvwl&#39; fighter, warroir   jagh enemy   mang soldier   muSwl&#39; hater   qoq robot   yuch chocolate   mu&#39; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;lsquo;avwl&amp;rsquo; guard   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&#39; repair   Hub&#39; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   SaH care   ghov recognize   Qoy hear   Suj disturb   boQ assist   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong   chuS noisy    </description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- ReID] Learning Posterior and Prior for Uncertainty Modeling in ReID(2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn103/</link>
+      <pubDate>Sat, 25 Sep 2021 15:30:28 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn103/</guid>
+      <description>2007.08785 Learning Posterior and Prior for Uncertainty Modeling in Person Re-Identification (2020) 概述 本文在 ReID 任务中同时学习样本后验与类别先验，以量化输入图像及其相应类别的不确定性。 整体架构 上分支用 GAP 处理特征图得到</description>
     </item>
     
     <item>

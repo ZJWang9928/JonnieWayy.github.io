@@ -189,14 +189,14 @@
 
           <h2 id="问题描述">问题描述</h2>
 <p>在程序中使用形如</p>
-<pre><code>A = X.view(32, -1)
+<pre tabindex="0"><code>A = X.view(32, -1)
 </code></pre><p>的语句调用 view 时出现如下报错：</p>
-<pre><code>RuntimeError: view size is not compatible with input tensor's size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead.
+<pre tabindex="0"><code>RuntimeError: view size is not compatible with input tensor's size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead.
 </code></pre><h2 id="原因分析">原因分析</h2>
 <p>view() 需要 Tensor 中元素地址连续，当其不连续时会出现上述问题。</p>
 <h2 id="解决办法">解决办法</h2>
 <p>出现元素地址不连续情况时，可以先用<code>.contiguous()</code>将 Tensor 转化为在内存中连续分布：</p>
-<pre><code>A = X.contiguous().view(32, -1)
+<pre tabindex="0"><code>A = X.contiguous().view(32, -1)
 </code></pre><p>问题解决了。</p>
 
     </div>

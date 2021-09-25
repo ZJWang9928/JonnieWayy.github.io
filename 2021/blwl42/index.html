@@ -189,13 +189,13 @@
 
           <h2 id="问题描述">问题描述</h2>
 <p>在运行 sudo pacman -Sy 进行更新时遇到如下报错：</p>
-<pre><code>:: 正在同步软件包数据库...
+<pre tabindex="0"><code>:: 正在同步软件包数据库...
 错误：failed to synchronize all databases (无法锁定数据库)
 </code></pre><h2 id="问题分析">问题分析</h2>
 <p>Pacman 数据库因之前的操作异常而被锁定，需要手动解锁。</p>
 <h2 id="解决办法">解决办法</h2>
 <p>执行如下命令：</p>
-<pre><code>sudo rm -f /var/lib/pacman/db.lck
+<pre tabindex="0"><code>sudo rm -f /var/lib/pacman/db.lck
 </code></pre><p>进而重新执行更新命令即可。</p>
 
     </div>

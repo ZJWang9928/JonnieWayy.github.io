@@ -188,7 +188,7 @@
           
 
           <h2 id="报错示例">报错示例</h2>
-<pre><code>Traceback (most recent call last):
+<pre tabindex="0"><code>Traceback (most recent call last):
   File &quot;/home/godlovesjonny/.local/bin/pyinstaller&quot;, line 8, in &lt;module&gt;
     sys.exit(run())
   File &quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&quot;, line 111, in run
@@ -219,7 +219,7 @@ TypeError: an integer is required (got type bytes)
 </code></pre><h2 id="解决方案">解决方案</h2>
 <p>报错的原因在于所使用的 Pyinstaller 是用 <code>pip install pyinstall</code> 安装的。</p>
 <p>改成</p>
-<pre><code>pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz
+<pre tabindex="0"><code>pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz
 </code></pre><p>重新安装一次即可。</p>
 
     </div>

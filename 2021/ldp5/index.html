@@ -189,18 +189,18 @@
 
           <h2 id="问题描述">问题描述</h2>
 <p>形如以下操作：</p>
-<pre><code>lst = []
+<pre tabindex="0"><code>lst = []
 a, b = torch.tensor([1, 2, 3]), torch.tensor([4, 5, 6])
 lst.append(a)
 lst.append(b)
 converted_lst = torch.tensor(lst)
 </code></pre><p>得到如下报错信息：</p>
-<pre><code>ValueError: only one element tensors can be converted to Python scalars
+<pre tabindex="0"><code>ValueError: only one element tensors can be converted to Python scalars
 </code></pre><h2 id="原因分析">原因分析</h2>
 <p>元素为 tensor 的 list 无法转化为 tensor。</p>
 <h2 id="解决办法">解决办法</h2>
 <p>将 list 中的 tensor 转化为 list：</p>
-<pre><code>lst = []
+<pre tabindex="0"><code>lst = []
 a, b = torch.tensor([1, 2, 3]), torch.tensor([4, 5, 6])
 lst.append(a.tolist())
 lst.append(b.tolist())
