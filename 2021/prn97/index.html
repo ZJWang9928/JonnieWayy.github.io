@@ -226,7 +226,7 @@ $$t_{g} = W_{g} RMP(E).$$</p>
 </ul>
 <p><img src="/images/2021/PRN97/3.png" alt="Fig 3"></p>
 <h3 id="part-specific-feature-learning-pfl">Part-specific Feature Learning (PFL)</h3>
-<p>试图在不借助外部工具的情况下从原始的文本描述中提取不减级别的文本特征。</p>
+<p>试图在不借助外部工具的情况下从原始的文本描述中提取部件级别的文本特征。</p>
 <p>引入单词注意力模块 (Word Attention Module, WAM) 推断单词-部件相关性，预测第 \(i\) 个单词属于第 \(k\) 个部件的概率：</p>
 <p>$$s_{i}^{k} = \sigma(W_{p}^{k} e_{i}).$$</p>
 <p>进而调整对于第 \(k\) 个部件的 \(E\)：</p>
