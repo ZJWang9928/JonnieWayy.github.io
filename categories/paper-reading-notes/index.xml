@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 25 Sep 2021 15:30:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 17:07:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn104/</link>
+      <pubDate>Sun, 26 Sep 2021 17:07:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn104/</guid>
+      <description>2108.11364 Blind Image Decomposition (2021) 开源代码传送门 概述 本文提出提出盲图像分解 (Blind Image Decomposition, BID) 任务，并设计了 Blind Image Decomposition Network (BIDeN)。 BID 的特点 不固定源部件数目，只设定一个潜在源部</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Learning Posterior and Prior for Uncertainty Modeling in ReID(2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn103/</link>
