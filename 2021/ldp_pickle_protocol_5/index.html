@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn103/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn104/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn104/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021) | Jonathan`s Blog
+           炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021) | Jonathan`s Blog">
+  <meta name="title" content="炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021)",
-    "headline" : "[论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021)",
-    "description" : "2108.11364 Blind Image Decomposition (2021) 开源代码传送门 概述 本文提出提出盲图像分解 (Blind Image Decomposition, BID) 任务，并设计了 Blind Image Decomposition Network (BIDeN)。 BID 的特点 不固定源部件数目，只设定一个潜在源部",
+    "name" : "炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法",
+    "headline" : "炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法",
+    "description" : "问题描述 使用 Python 读取 .pkl 文件时报错如下： ValueError: unsupported pickle protocol: 5 原因分析 Python 3.8 以上版本在保存 .pkl 文件时使用的协议号为 5，即 protocol 关键字为 5，若在读取时使用低于 3.8 版本的",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-09-26 17:07:17 \u002b0800 CST",
-    "dateModified" : "2021-09-26 17:07:17 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn104\/",
-    "wordCount" : "399",
-    "keywords" : [ "paper reading","cv","notes","style transfer","normalization", "Jonathan`s Blog"]
+    "datePublished": "2021-09-26 21:00:54 \u002b0800 CST",
+    "dateModified" : "2021-09-26 21:00:54 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp_pickle_protocol_5\/",
+    "wordCount" : "128",
+    "keywords" : [ "cv","notes","deep learning","python","protocol","linux","windows","pickle", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -165,17 +165,15 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 399 words</span>
+                <span class="post-word-count">, 128 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -189,67 +187,13 @@
           
           
 
-          <h1 id="210811364-blind-image-decomposition-2021">2108.11364 Blind Image Decomposition (2021)</h1>
-<p><a href="https://github.com/JunlinHan/BID">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN104/1.png" alt="Fig 1"></p>
-<h2 id="概述">概述</h2>
-<p>本文提出提出盲图像分解 (Blind Image Decomposition, BID) 任务，并设计了 Blind Image Decomposition Network (BIDeN)。</p>
-<h3 id="bid-的特点">BID 的特点</h3>
-<ul>
-<li>不固定源部件数目，只设定一个潜在源部件的最大数目</li>
-<li>考虑每个源部件的存在及其不同的强度</li>
-<li>将每个源部件合并为潜在的组合</li>
-</ul>
-<h3 id="任务要求">任务要求</h3>
-<ul>
-<li>预测混合过程中涉及的源部件</li>
-<li>重构/生成用来混合的相应图像</li>
-</ul>
-<p><img src="/images/2021/PRN104/2.png" alt="Fig 2"></p>
-<h2 id="biden">BIDeN</h2>
-<p>生成器 \(G\) 包含两部分：</p>
-<ul>
-<li>多尺度编码器 \(E\)</li>
-<li>多头 \(H\)，各个头用于重构一种特定的源部件</li>
-</ul>
-<p>鉴别器 \(D\) 包含两个分支：</p>
-<ul>
-<li>\(D_{S}\) 区分重构图像和真实源部件图像</li>
-<li>\(D_{P}\) 预测混合图像 \(z\) 所涉及的源部件，输出相应序号</li>
-</ul>
-<h2 id="目标函数">目标函数</h2>
-<h3 id="对抗损失">对抗损失</h3>
-<p>$$\mathcal{L}_{GAN}(G, D_{S}) = \mathbb{E}_{x} [log D_{S}(x)] + \mathbb{E}_{z} [log(1 - D_{S}(G(z)))].$$</p>
-<p>本文采用 LSGAN 损失和 Markovian 鉴别器。</p>
-<h3 id="perceptual-损失">Perceptual 损失</h3>
-<p>$$\mathcal{L}_{VGG}(G) = \mathbb{E}_{x, z} [\sum_{l} \lambda_{l} [||\Phi_{l}(x) - \Phi(G(z))||_{1}]],$$</p>
-<p>其中 \(\Phi\) 表示预训练的 VGG-19，\(\Phi_{l}\) 表示其中的第 \(l\) 层，各层及其对应权重 \(\lambda_{l}\) 的选择与 pix2pixHD 相同。</p>
-<h3 id="l1l2-损失">L1/L2 损失</h3>
-<p>$$\mathcal{L}_{L1}(G) = \mathbb{E}_{x, z}[||x - G(z)||_{1}],$$
-$$\mathcal{L}_{L2}(G) = \mathbb{E}_{x, z}[||x - G(z)||_{2}],$$</p>
-<p>L2 损失用于掩码，L1 损失用于其他源部件。</p>
-<h3 id="二元交叉熵损失">二元交叉熵损失</h3>
-<p>$$\mathcal{L}_{BCE} (D_{P}) = \mathbb{E}_{z} [-\sum_{m=1}^{N} [GT(z)_{m} log(D_{P}(z)_{m}) + (1 - GT(z)_{m}) log(1 - D_{P}(z)_{m})]].$$</p>
-<h2 id="bid-任务">BID 任务</h2>
-<h3 id="mixed-image-decomposition-across-multiple-domains">Mixed Image Decomposition across Multiple Domains</h3>
-<p><img src="/images/2021/PRN104/3.png" alt="Fig 3"></p>
-<h3 id="real-scenario-deraining">Real-scenario Deraining</h3>
-<p><img src="/images/2021/PRN104/4.png" alt="Fig 4"></p>
-<p><img src="/images/2021/PRN104/5.png" alt="Fig 5"></p>
-<h3 id="joint-shadowreflectionwatermark-removal">Joint Shadow/Reflection/Watermark Removal</h3>
-<p><img src="/images/2021/PRN104/6.png" alt="Fig 6"></p>
-<p><img src="/images/2021/PRN104/7.png" alt="Fig 7"></p>
-<h2 id="结果示例">结果示例</h2>
-<p><img src="/images/2021/PRN104/8.png" alt="Fig 8"></p>
-<p><img src="/images/2021/PRN104/9.png" alt="Fig 9"></p>
-<p><img src="/images/2021/PRN104/10.png" alt="Fig 10"></p>
-<p><img src="/images/2021/PRN104/11.png" alt="Fig 11"></p>
-<p><img src="/images/2021/PRN104/12.png" alt="Fig 12"></p>
-<p><img src="/images/2021/PRN104/13.png" alt="Fig 13"></p>
-<p><img src="/images/2021/PRN104/14.png" alt="Fig 14"></p>
-<p><img src="/images/2021/PRN104/15.png" alt="Fig 15"></p>
-<p><img src="/images/2021/PRN104/16.png" alt="Fig 16"></p>
-<p><img src="/images/2021/PRN104/17.png" alt="Fig 17"></p>
+          <h2 id="问题描述">问题描述</h2>
+<p>使用 Python 读取 .pkl 文件时报错如下：</p>
+<pre tabindex="0"><code>ValueError: unsupported pickle protocol: 5
+</code></pre><h2 id="原因分析">原因分析</h2>
+<p>Python 3.8 以上版本在保存 .pkl 文件时使用的协议号为 5，即 protocol 关键字为 5，若在读取时使用低于 3.8 版本的 Python，由于这个协议号不向下兼容，导致报错。</p>
+<h2 id="解决办法">解决办法</h2>
+<p>使用均高于或均低于 3.8 版本的 Python进行保存和读取即可。</p>
 
     </div>
 
@@ -264,7 +208,7 @@ $$\mathcal{L}_{L2}(G) = \mathbb{E}_{x, z}[||x - G(z)||_{2}],$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn104/>http://jonathanwayy.xyz/2021/prn104/</span>
+                    <a href=http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/>http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -284,20 +228,29 @@ $$\mathcal{L}_{L2}(G) = \mathbb{E}_{x, z}[||x - G(z)||_{2}],$$</p>
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
-                    #paper reading</a></span>
-            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/style-transfer/">
-                    #style transfer</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
+                    #deep learning</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/normalization/">
-                    #normalization</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
+                    #python</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/protocol/">
+                    #protocol</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
+                    #linux</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/windows/">
+                    #windows</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pickle/">
+                    #pickle</a></span>
             
             </section>
         
@@ -309,10 +262,10 @@ $$\mathcal{L}_{L2}(G) = \mathbb{E}_{x, z}[||x - G(z)||_{2}],$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn103/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Learning Posterior and Prior for Uncertainty Modeling in ReID(2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Learning Posterior and Prior for Uncertainty Modeling in ReID(2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn104/" class="prev" rel="prev" title="[论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/" class="next" rel="next" title="炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法">炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -321,7 +274,7 @@ $$\mathcal{L}_{L2}(G) = \mathbb{E}_{x, z}[||x - G(z)||_{2}],$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -359,9 +312,8 @@ $$\mathcal{L}_{L2}(G) = \mathbb{E}_{x, z}[||x - G(z)||_{2}],$$</p>
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 

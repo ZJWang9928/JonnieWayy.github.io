@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Sep 2021 17:07:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 21:00:54 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/</link>
+      <pubDate>Sun, 26 Sep 2021 21:00:54 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/</guid>
+      <description>问题描述 使用 Python 读取 .pkl 文件时报错如下： ValueError: unsupported pickle protocol: 5 原因分析 Python 3.8 以上版本在保存 .pkl 文件时使用的协议号为 5，即 protocol 关键字为 5，若在读取时使用低于 3.8 版本的</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 图像分解] Blind Image Decomposition (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn104/</link>
