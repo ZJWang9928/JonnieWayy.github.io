@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Sep 2021 21:00:54 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Oct 2021 19:13:06 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- Pytorch 取矩阵对角线元素</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</link>
+      <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</guid>
+      <description>在 Pytorch 中，可以用 torch.diag 取矩阵的对角线元素，返回的是一个向量；使用 torch.diag_embed 可将向量变换为以该向量为对角线的方阵。 In [1]: import torch In [2]: A = torch.randn(3, 3) In [3]: A Out[3]: tensor([[ 0.1808, 0.2905, -2.2199], [-0.8913, 1.1296, 0.6261],</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法</title>
       <link>http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/</link>
