@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 12 Oct 2021 19:13:06 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Oct 2021 23:06:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- Python 报错 RuntimeError: CUDA error: invalid device ordinal 解决办法</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</link>
+      <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</guid>
+      <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&#39;CUDA_VISIBLE_DEVICES&#39;] = &amp;quot;0,1,2,3,4,5,6,7&amp;quot;</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- Pytorch 取矩阵对角线元素</title>
       <link>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</link>
@@ -15,6 +24,15 @@
       
       <guid>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</guid>
       <description>在 Pytorch 中，可以用 torch.diag 取矩阵的对角线元素，返回的是一个向量；使用 torch.diag_embed 可将向量变换为以该向量为对角线的方阵。 In [1]: import torch In [2]: A = torch.randn(3, 3) In [3]: A Out[3]: tensor([[ 0.1808, 0.2905, -2.2199], [-0.8913, 1.1296, 0.6261],</description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- ReID] TBPS in Full Images via Semantic-Driven Proposal Generation (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn105/</link>
+      <pubDate>Tue, 28 Sep 2021 16:42:40 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn105/</guid>
+      <description>2109.12965 Text-based Person Search in Full Images via Semantic-Driven Proposal Generation 概述 提出在完整图像中进行行人检索的任务，可视为 Person Detection 和 Text-based Person Retrieval 的结合。 本文提出 Semantic-Driven Region Proposal Net (SDPRN)。 构建了两个新数据集 CUHK-SYSU-TBPS</description>
     </item>
     
     <item>

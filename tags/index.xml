@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 12 Oct 2021 19:13:06 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Oct 2021 23:06:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cuda</title>
+      <link>http://jonathanwayy.xyz/tags/cuda/</link>
+      <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cuda/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
+      <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -20,7 +29,7 @@
     <item>
       <title>deep learning</title>
       <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
+      <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
       <description></description>
@@ -29,9 +38,36 @@
     <item>
       <title>linux</title>
       <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
+      <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
@@ -45,29 +81,38 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Tue, 28 Sep 2021 16:42:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Tue, 28 Sep 2021 16:42:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Tue, 28 Sep 2021 16:42:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Tue, 28 Sep 2021 16:42:40 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -108,47 +153,11 @@
     </item>
     
     <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sun, 26 Sep 2021 17:07:17 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>style transfer</title>
       <link>http://jonathanwayy.xyz/tags/style-transfer/</link>
       <pubDate>Sun, 26 Sep 2021 17:07:17 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/style-transfer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Sat, 25 Sep 2021 15:30:28 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Sat, 25 Sep 2021 15:30:28 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Sat, 25 Sep 2021 15:30:28 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -779,15 +788,6 @@
       <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/nvidia-smi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cuda</title>
-      <link>http://jonathanwayy.xyz/tags/cuda/</link>
-      <pubDate>Sat, 19 Dec 2020 21:00:26 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cuda/</guid>
       <description></description>
     </item>
     

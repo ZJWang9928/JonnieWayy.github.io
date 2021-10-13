@@ -14,7 +14,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/categories/alchemy-of-cv/</loc>
       
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
       
       
       
@@ -24,7 +24,17 @@
     <url>
       <loc>http://jonathanwayy.xyz/categories/</loc>
       
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/cuda/</loc>
+      
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
       
       
       
@@ -34,7 +44,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/cv/</loc>
       
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
       
       
       
@@ -44,7 +54,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/deep-learning/</loc>
       
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
       
       
       
@@ -54,7 +64,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/</loc>
       
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
       
       
       
@@ -64,7 +74,67 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/linux/</loc>
       
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
+      
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/posts/</loc>
+      
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/python/</loc>
+      
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/pytorch/</loc>
+      
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/</loc>
+      
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</loc>
+      
+      <lastmod>2021-10-13T23:06:19+08:00</lastmod>
       
       
       
@@ -82,59 +152,69 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
-      
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/posts/</loc>
-      
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/python/</loc>
-      
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/pytorch/</loc>
-      
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/</loc>
-      
-      <lastmod>2021-10-12T19:13:06+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</loc>
       
       <lastmod>2021-10-12T19:13:06+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/prn105/</loc>
+      
+      <lastmod>2021-09-28T16:42:40+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/cross-modal/</loc>
+      
+      <lastmod>2021-09-28T16:42:40+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/paper-reading/</loc>
+      
+      <lastmod>2021-09-28T16:42:40+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/categories/paper-reading-notes/</loc>
+      
+      <lastmod>2021-09-28T16:42:40+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/reid/</loc>
+      
+      <lastmod>2021-09-28T16:42:40+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/retrieval/</loc>
+      
+      <lastmod>2021-09-28T16:42:40+08:00</lastmod>
       
       
       
@@ -202,26 +282,6 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/paper-reading/</loc>
-      
-      <lastmod>2021-09-26T17:07:17+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/categories/paper-reading-notes/</loc>
-      
-      <lastmod>2021-09-26T17:07:17+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/tags/style-transfer/</loc>
       
       <lastmod>2021-09-26T17:07:17+08:00</lastmod>
@@ -233,36 +293,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/2021/prn103/</loc>
-      
-      <lastmod>2021-09-25T15:30:28+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/cross-modal/</loc>
-      
-      <lastmod>2021-09-25T15:30:28+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/reid/</loc>
-      
-      <lastmod>2021-09-25T15:30:28+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/retrieval/</loc>
       
       <lastmod>2021-09-25T15:30:28+08:00</lastmod>
       
@@ -2663,16 +2693,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/2020/blwl37/</loc>
-      
-      <lastmod>2020-12-19T21:00:26+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/cuda/</loc>
       
       <lastmod>2020-12-19T21:00:26+08:00</lastmod>
       
