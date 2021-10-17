@@ -67,7 +67,7 @@
     "datePublished": "2021-09-28 16:42:40 \u002b0800 CST",
     "dateModified" : "2021-09-28 16:42:40 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn105\/",
-    "wordCount" : "112",
+    "wordCount" : "534",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 112 words</span>
+                <span class="post-word-count">, 534 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -205,6 +205,37 @@
 <li>识别</li>
 <li>图文跨模态特征嵌入与匹配</li>
 </ul>
+<h3 id="语义驱动的-rpn-sdrpn">语义驱动的 RPN (SDRPN)</h3>
+<p>基于 SENet，用语义特征调整 Base-Net 输出特征图的权重，采用通道注意力机制。</p>
+<h3 id="proposal-text-嵌入">Proposal-Text 嵌入</h3>
+<p>旨在为图文模态学习一个公共空间，在嵌入过程中引入了跨尺度对齐策略 (cross-scale alignment scheme)。</p>
+<h4 id="多尺度视觉特征提取">多尺度视觉特征提取</h4>
+<p>三种尺度：</p>
+<ul>
+<li>global-scale</li>
+<li>region-scale</li>
+<li>local-scale</li>
+</ul>
+<p>其中提取细粒度时用到了 Split &amp; Shuffle 操作。</p>
+<h4 id="多尺度语义特征提取">多尺度语义特征提取</h4>
+<p>用 BERT 提取三种尺度的特征：</p>
+<ul>
+<li>sentence-level</li>
+<li>sub-sentence-level</li>
+<li>word-level</li>
+</ul>
+<h4 id="proposal-text-跨尺度对齐">Proposal-Text 跨尺度对齐</h4>
+<p>拼接各模态特征得到两组混合特征 (mixed visual/textual features)，记为 \(I\) 和 \(T\)，通过全连接层将 \(I\) 映射为 \(Q, K, V\)，将 \(T\) 映射为 \(\mathcal{Q}, \mathcal{K}, \mathcal{V}\)。</p>
+<p>由 T2V 注意力计算得到 attended semantic feature \(A\)：</p>
+<p>$$A = norm(Q\mathcal{K}^{T}) \odot \mathcal{V}.$$</p>
+<p>进而计算 \(V\) 和 \(A\) 之间的余弦相似度得到 \(R\)。图文对之间的相似度 \(S\) 通过对 \(R\) 中各部分求均值得到。</p>
+<p>类似方法可以求得 V2T 对之间的相似度 \(S'\)。</p>
+<p>归一化后的相似度 \(\overline{S}\) 可视为预测的匹配几率，而归一化的 0/1 匹配标签 \(\overline{y}\) 可视为分布标签，从而借助 KL 散度计算跨尺度对齐损失 (CSAL)：</p>
+<p>$$L_{CSAL} = L_{I} + L_{T} = D_{KL}(\overline{S}, \overline{y}) + D_{KL}(\overline{S'}, \overline{y'}).$$</p>
+<h4 id="全局匹配">全局匹配</h4>
+<p>使用 CMPM 损失和 CMPC 损失监督全局特征的跨模态匹配。</p>
+<h2 id="结果示例">结果示例</h2>
+<p><img src="/images/2021/PRN105/6.png" alt="Fig 6"></p>
 
     </div>
 
@@ -279,7 +310,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
