@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg33/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn106/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           [论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 21) | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 21) | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/jonathanwayy.xyz"
+    },
+    "articleSection" : "posts",
+    "name" : "[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 21)",
+    "headline" : "[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 21)",
+    "description" : "概述 本文提出一种通过知识蒸馏进行基于姿态指导的特征学习架构 (Pose-Guided Feature Learning with Knowledge Distillation network, PGFL-KD) 架构，姿态信息用于约束全局特征的学习而在测试中被丢弃。 PGFL-KD 主要包含三",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2021",
+    "datePublished": "2021-10-26 22:45:19 \u002b0800 CST",
+    "dateModified" : "2021-10-26 22:45:19 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn106\/",
+    "wordCount" : "466",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occluded","knowledge distillation", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://jonathanwayy.xyz">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://jonathanwayy.xyz">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 21)</h1>
+        <div class="post-meta">
+                
+                Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
+                <span class="post-time">
+                on <time datetime=2021-10-26 itemprop="datePublished">October 26, 2021</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 466 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p><img src="/images/2021/PRN106/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<p>本文提出一种通过知识蒸馏进行基于姿态指导的特征学习架构 (Pose-Guided Feature Learning with Knowledge Distillation network, PGFL-KD) 架构，姿态信息用于约束全局特征的学习而在测试中被丢弃。</p>
+<p>PGFL-KD 主要包含三个部分：</p>
+<ul>
+<li>主分支 (main branch, MB)</li>
+<li>前景增强分支 (foreground-enhanced branch, FEB)</li>
+<li>躯体部件语义对齐分支 (body part semantics aligned branch, SAB)</li>
+</ul>
+<p><img src="/images/2021/PRN106/2.png" alt="Fig 2"></p>
+<h2 id="特征提取">特征提取</h2>
+<h3 id="全局特征提取">全局特征提取</h3>
+<p>ResNet-50 + GAP</p>
+<h3 id="局部特征提取">局部特征提取</h3>
+<p>HR-Net 用于提取姿态热图，得到 17 组关键点，其中 1 组通道表示背景，根据语义将热图合并为 \(K = 8\) 个通道。</p>
+<p>$$f_{l, k} = gap(F \odot (H_{k} \otimes \mathbb{1}_{K})), \ k = 1, \cdots, K.$$</p>
+<h2 id="前景增强分支-feb">前景增强分支 (FEB)</h2>
+<h3 id="姿态指导的特征增强">姿态指导的特征增强</h3>
+<p>$$f_{L} = \frac{\sum_{k=1}^{K} f_{l, k}}{K} \ \in \mathbb{R}^{c}.$$</p>
+<p>计算其与特征图 \(F\) 各像素位置之间的注意力：</p>
+<p>$$a_{i, j} = softmax(F_{i, j} \cdot f_{L}),$$</p>
+<p>进而可以得到前景特征向量：</p>
+<p>$$f_{F} = \sum_{i, j} a_{i, j} \times F_{i, j},$$</p>
+<p>最终得到前景增强后的全局特征：</p>
+<p>$$f_{E} = f_{F} + f_{G}.$$</p>
+<h3 id="知识蒸馏">知识蒸馏</h3>
+<p>借助一致性损失</p>
+<p>$$\mathcal{L}_{CL} = ||f_{G} - f_{E}||_{2}^{2},$$</p>
+<p>其中 \(f_{E}\) 被 detach。</p>
+<h2 id="躯体部件语义对齐分支-sab">躯体部件语义对齐分支 (SAB)</h2>
+<p>将各 \(f_{l, k}\) 降维后拼接得到 \(f_{P}\)，并将全局特征 \(f_{G}\) 分成 \(K\) 组与之对齐。</p>
+<p>采用多部分对比损失 (multi-part contrastive loss)：</p>
+<p>$$\mathcal{L}_{MCL} = -\sum_{i= 1}^{K} log \frac{\sum_{j \in \mathcal{P}(i)} exp(g_{g, j} \cdot f_{p. i})}{\sum_{j \in \mathcal{P}(i)} exp(g_{g, j} \cdot f_{p. i}) + \sum_{j \in \mathcal{N}(i)} exp(g_{g, j} \cdot f_{p. i})}.$$</p>
+<p>此外，允许局部特征与全局特征之间的交互，二者加和：</p>
+<p>$$f_{V} = f_{G} + f_{P},$$</p>
+<p>使用 ReID loss 得到 \(\mathcal{L}_{ReID}^{V}\)。</p>
+<h2 id="特征可视化">特征可视化</h2>
+<p><img src="/images/2021/PRN106/4.png" alt="Fig 4"></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn106/>http://jonathanwayy.xyz/2021/prn106/</span>
+            </p>
+            <p>
+                <span>Ads:</span>
+                <span>欢迎参与<a href="https://www.didiyun.com" target="_blank" style="text-decoration:underline">滴滴云AI大师活动</a>购买 GPU / vGPU / 机器学习产品，使用我的滴滴AI大师码 <b style="color:red">0724</b> 可享受 <b>9 折</b>优惠！</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #ReID</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/occluded/">
+                    #occluded</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/knowledge-distillation/">
+                    #knowledge distillation</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://jonathanwayy.xyz">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://jonathanwayy.xyz/2021/bg33/" class="prev" rel="prev" title="壁纸分享[33]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[33]</a>
+         
+        
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2021</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://jonathanwayy.xyz">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

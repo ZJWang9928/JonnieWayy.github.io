@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>occluded on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/occluded/</link>
+    <description>Recent content in occluded on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Tue, 26 Oct 2021 22:45:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/occluded/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 21)</title>
+      <link>http://jonathanwayy.xyz/2021/prn106/</link>
+      <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn106/</guid>
+      <description>概述 本文提出一种通过知识蒸馏进行基于姿态指导的特征学习架构 (Pose-Guided Feature Learning with Knowledge Distillation network, PGFL-KD) 架构，姿态信息用于约束全局特征的学习而在测试中被丢弃。 PGFL-KD 主要包含三</description>
+    </item>
+    
+  </channel>
+</rss>
