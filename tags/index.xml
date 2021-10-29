@@ -7,22 +7,85 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 29 Oct 2021 12:34:42 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Oct 2021 14:34:34 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>acm</title>
-      <link>http://jonathanwayy.xyz/tags/acm/</link>
-      <pubDate>Fri, 29 Oct 2021 12:34:42 +0800</pubDate>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/acm/</guid>
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 29 Oct 2021 12:34:42 +0800</pubDate>
+      <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>knowledge distillation</title>
+      <link>http://jonathanwayy.xyz/tags/knowledge-distillation/</link>
+      <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/knowledge-distillation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>occluded</title>
+      <link>http://jonathanwayy.xyz/tags/occluded/</link>
+      <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/occluded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acm</title>
+      <link>http://jonathanwayy.xyz/tags/acm/</link>
+      <pubDate>Fri, 29 Oct 2021 12:34:42 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/acm/</guid>
       <description></description>
     </item>
     
@@ -45,74 +108,11 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 29 Oct 2021 12:34:42 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>paperwriting</title>
       <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
       <pubDate>Fri, 29 Oct 2021 12:34:42 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>knowledge distillation</title>
-      <link>http://jonathanwayy.xyz/tags/knowledge-distillation/</link>
-      <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/knowledge-distillation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>occluded</title>
-      <link>http://jonathanwayy.xyz/tags/occluded/</link>
-      <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/occluded/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     

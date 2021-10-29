@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg33/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/latex_rotatebox/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn106/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_rotatebox/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn107/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 2021)",
-    "description" : "Pose-Guided Feature Learning with Knowledge Distillation for Occluded Person Re-Identification (MM 2021) 概述 本文提出一种通过知识蒸馏进行基于姿态指导的特征学习架构 (Pose-Guided Feature Learning with Knowledge Distillation network, PGFL-KD) 架构，姿态信息用于约束全局特征的学习而在测",
+    "name" : "[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)",
+    "headline" : "[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)",
+    "description" : "Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network (MM 2021) 概述 现有的数据增强方法通过改变空间或色彩信息、增加噪音或混合来自不同图像的信息，来提高网络的泛化能力和鲁棒性。 本文将缩",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-10-26 22:45:19 \u002b0800 CST",
-    "dateModified" : "2021-10-26 22:45:19 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn106\/",
-    "wordCount" : "478",
+    "datePublished": "2021-10-29 14:34:34 \u002b0800 CST",
+    "dateModified" : "2021-10-29 14:34:34 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn107\/",
+    "wordCount" : "294",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occluded","knowledge distillation", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-10-26 itemprop="datePublished">October 26, 2021</time>
+                on <time datetime=2021-10-29 itemprop="datePublished">October 29, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 478 words</span>
+                <span class="post-word-count">, 294 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,45 +189,19 @@
           
           
 
-          <h1 id="pose-guided-feature-learning-with-knowledge-distillation-for-occluded-person-re-identification-mm-2021">Pose-Guided Feature Learning with Knowledge Distillation for Occluded Person Re-Identification (MM 2021)</h1>
-<p><img src="/images/2021/PRN106/1.png" alt="Fig 1"></p>
+          <h1 id="cut-thumbnail-a-novel-data-augmentation-for-convolutional-neural-network-mm-2021">Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network (MM 2021)</h1>
+<p><img src="/images/2021/PRN107/1.png" alt="Fig 1"></p>
+<p><img src="/images/2021/PRN107/2.png" alt="Fig 2"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种通过知识蒸馏进行基于姿态指导的特征学习架构 (Pose-Guided Feature Learning with Knowledge Distillation network, PGFL-KD) 架构，姿态信息用于约束全局特征的学习而在测试中被丢弃。</p>
-<p>PGFL-KD 主要包含三个部分：</p>
-<ul>
-<li>主分支 (main branch, MB)</li>
-<li>前景增强分支 (foreground-enhanced branch, FEB)</li>
-<li>躯体部件语义对齐分支 (body part semantics aligned branch, SAB)</li>
-</ul>
-<p><img src="/images/2021/PRN106/2.png" alt="Fig 2"></p>
-<h2 id="特征提取">特征提取</h2>
-<h3 id="全局特征提取">全局特征提取</h3>
-<p>ResNet-50 + GAP</p>
-<h3 id="局部特征提取">局部特征提取</h3>
-<p>HR-Net 用于提取姿态热图，得到 17 组关键点，其中 1 组通道表示背景，根据语义将热图合并为 \(K = 8\) 个通道。</p>
-<p>$$f_{l, k} = gap(F \odot (H_{k} \otimes \mathbb{1}_{K})), \ k = 1, \cdots, K.$$</p>
-<h2 id="前景增强分支-feb">前景增强分支 (FEB)</h2>
-<h3 id="姿态指导的特征增强">姿态指导的特征增强</h3>
-<p>$$f_{L} = \frac{\sum_{k=1}^{K} f_{l, k}}{K} \ \in \mathbb{R}^{c}.$$</p>
-<p>计算其与特征图 \(F\) 各像素位置之间的注意力：</p>
-<p>$$a_{i, j} = softmax(F_{i, j} \cdot f_{L}),$$</p>
-<p>进而可以得到前景特征向量：</p>
-<p>$$f_{F} = \sum_{i, j} a_{i, j} \times F_{i, j},$$</p>
-<p>最终得到前景增强后的全局特征：</p>
-<p>$$f_{E} = f_{F} + f_{G}.$$</p>
-<h3 id="知识蒸馏">知识蒸馏</h3>
-<p>借助一致性损失</p>
-<p>$$\mathcal{L}_{CL} = ||f_{G} - f_{E}||_{2}^{2},$$</p>
-<p>其中 \(f_{E}\) 被 detach。</p>
-<h2 id="躯体部件语义对齐分支-sab">躯体部件语义对齐分支 (SAB)</h2>
-<p>将各 \(f_{l, k}\) 降维后拼接得到 \(f_{P}\)，并将全局特征 \(f_{G}\) 分成 \(K\) 组与之对齐。</p>
-<p>采用多部分对比损失 (multi-part contrastive loss)：</p>
-<p>$$\mathcal{L}_{MCL} = -\sum_{i= 1}^{K} log \frac{\sum_{j \in \mathcal{P}(i)} exp(g_{g, j} \cdot f_{p. i})}{\sum_{j \in \mathcal{P}(i)} exp(g_{g, j} \cdot f_{p. i}) + \sum_{j \in \mathcal{N}(i)} exp(g_{g, j} \cdot f_{p. i})}.$$</p>
-<p>此外，允许局部特征与全局特征之间的交互，二者加和：</p>
-<p>$$f_{V} = f_{G} + f_{P},$$</p>
-<p>使用 ReID loss 得到 \(\mathcal{L}_{ReID}^{V}\)。</p>
-<h2 id="特征可视化">特征可视化</h2>
-<p><img src="/images/2021/PRN106/4.png" alt="Fig 4"></p>
+<p>现有的数据增强方法通过改变空间或色彩信息、增加噪音或混合来自不同图像的信息，来提高网络的泛化能力和鲁棒性。</p>
+<p>本文将缩略图 (thumbnail) 的思想引入到数据增强中，并提出一种新的数据增强策略，称为 Cut-Thumbnail。</p>
+<p>研究表明，比起全局形状，CNN 在做决定时更依赖局部纹理。提升 CNN 的形状偏好 (shape bias) 能够提升表现，但是图像中的形状信息稀少而模糊。</p>
+<p>本文尝试通过缩略图来剔除纹理信息，保留形状信息。将缩略图放入原图中后，可以使网络同时学习到形状和纹理信息。</p>
+<p>比起 CutMix 使用来自其他图像的一个 patch，Cut-Thumbnail 使用缩略图，能够保留另一张图的大部分语义。</p>
+<h2 id="cut-thumbnail-的几种变体">Cut-Thumbnail 的几种变体</h2>
+<p><img src="/images/2021/PRN107/3.png" alt="Fig 3"></p>
+<h2 id="可视化示例">可视化示例</h2>
+<p><img src="/images/2021/PRN107/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -242,7 +216,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn106/>http://jonathanwayy.xyz/2021/prn106/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn107/>http://jonathanwayy.xyz/2021/prn107/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -296,10 +270,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/bg33/" class="prev" rel="prev" title="壁纸分享[33]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[33]</a>
+        <a href="http://jonathanwayy.xyz/2021/latex_rotatebox/" class="prev" rel="prev" title="Latex 旋转文字方向"><i class="iconfont icon-left"></i>&nbsp;Latex 旋转文字方向</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/latex_rotatebox/" class="next" rel="next" title="Latex 旋转文字方向">Latex 旋转文字方向&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -308,7 +282,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
