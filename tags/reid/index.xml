@@ -14,7 +14,7 @@
       <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn107/</guid>
-      <description>Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network (MM 2021) 概述 现有的数据增强方法通过改变空间或色彩信息、增加噪音或混合来自不同图像的信息，来提高网络的泛化能力和鲁棒性。 本文将缩</description>
+      <description>Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network (MM 2021) 开源代码传送门 概述 现有的数据增强方法通过改变空间或色彩信息、增加噪音或混合来自不同图像的信息，来提高网络的泛化能力和鲁</description>
     </item>
     
     <item>
