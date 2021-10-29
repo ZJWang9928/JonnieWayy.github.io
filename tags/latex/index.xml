@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 04 Sep 2021 00:21:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Oct 2021 12:34:42 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 旋转文字方向</title>
+      <link>http://jonathanwayy.xyz/2021/latex_rotatebox/</link>
+      <pubDate>Fri, 29 Oct 2021 12:34:42 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_rotatebox/</guid>
+      <description>有时在 Latex 表格中需要改变文字方向，可以用如下语句实现： \rotatebox{角度}{文本}</description>
+    </item>
+    
     <item>
       <title>IEEE 论文模板选择与下载工具</title>
       <link>http://jonathanwayy.xyz/2021/sharp5/</link>
