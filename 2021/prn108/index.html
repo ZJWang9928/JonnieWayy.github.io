@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_rotatebox/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn108/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn107/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn107/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn108/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)",
-    "headline" : "[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)",
-    "description" : "Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network (MM 2021) 开源代码传送门 概述 现有的数据增强方法通过改变空间或色彩信息、增加噪音或混合来自不同图像的信息，来提高网络的泛化能力和鲁",
+    "name" : "[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)",
+    "description" : "Pose-guided Inter- and Intra-part Relational Transformer for Occluded Person Re-Identification (MM 2021) 开源代码传送门 概述 本文提出一种姿态指导的部件内间关系 Transformer。 姿态指导的特征提取 $$M = GMP(\\hat{M}),$$ $$c_{g} = max(M_{g}),$$ $$F_{pose} = GAP((M \u0026gt; \\tau)",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-10-29 14:34:34 \u002b0800 CST",
-    "dateModified" : "2021-10-29 14:34:34 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn107\/",
-    "wordCount" : "301",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occluded","knowledge distillation", "Jonathan`s Blog"]
+    "datePublished": "2021-10-31 17:14:50 \u002b0800 CST",
+    "dateModified" : "2021-10-31 17:14:50 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn108\/",
+    "wordCount" : "86",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occluded","transformer", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-10-29 itemprop="datePublished">October 29, 2021</time>
+                on <time datetime=2021-10-31 itemprop="datePublished">October 31, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 301 words</span>
+                <span class="post-word-count">, 86 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,20 +189,23 @@
           
           
 
-          <h1 id="cut-thumbnail-a-novel-data-augmentation-for-convolutional-neural-network-mm-2021">Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network (MM 2021)</h1>
-<p><a href="https://github.com/TianshuXie/Cut-Thumbnail">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN107/1.png" alt="Fig 1"></p>
-<p><img src="/images/2021/PRN107/2.png" alt="Fig 2"></p>
+          <h1 id="pose-guided-inter--and-intra-part-relational-transformer-for-occluded-person-re-identification-mm-2021">Pose-guided Inter- and Intra-part Relational Transformer for Occluded Person Re-Identification (MM 2021)</h1>
+<p><a href="https://github.com/iCVTEAM/Pirt">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN108/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>现有的数据增强方法通过改变空间或色彩信息、增加噪音或混合来自不同图像的信息，来提高网络的泛化能力和鲁棒性。</p>
-<p>本文将缩略图 (thumbnail) 的思想引入到数据增强中，并提出一种新的数据增强策略，称为 Cut-Thumbnail。</p>
-<p>研究表明，比起全局形状，CNN 在做决定时更依赖局部纹理。提升 CNN 的形状偏好 (shape bias) 能够提升表现，但是图像中的形状信息稀少而模糊。</p>
-<p>本文尝试通过缩略图来剔除纹理信息，保留形状信息。将缩略图放入原图中后，可以使网络同时学习到形状和纹理信息。</p>
-<p>比起 CutMix 使用来自其他图像的一个 patch，Cut-Thumbnail 使用缩略图，能够保留另一张图的大部分语义。</p>
-<h2 id="cut-thumbnail-的几种变体">Cut-Thumbnail 的几种变体</h2>
-<p><img src="/images/2021/PRN107/3.png" alt="Fig 3"></p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2021/PRN107/4.png" alt="Fig 4"></p>
+<p>本文提出一种姿态指导的部件内间关系 Transformer。</p>
+<p><img src="/images/2021/PRN108/2.png" alt="Fig 2"></p>
+<h2 id="姿态指导的特征提取">姿态指导的特征提取</h2>
+<p>$$M = GMP(\hat{M}),$$
+$$c_{g} = max(M_{g}),$$
+$$F_{pose} = GAP((M &gt; \tau) \cdot F_{irm}).$$</p>
+<h2 id="irm-与-irt">IRM 与 IRT</h2>
+<p><img src="/images/2021/PRN108/3.png" alt="Fig 3"></p>
+<p><img src="/images/2021/PRN108/4.png" alt="Fig 4"></p>
+<h2 id="检索结果示例">检索结果示例</h2>
+<p><img src="/images/2021/PRN108/5.png" alt="Fig 5"></p>
+<h2 id="特征可视化">特征可视化</h2>
+<p><img src="/images/2021/PRN108/6.png" alt="Fig 6"></p>
 
     </div>
 
@@ -217,7 +220,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn107/>http://jonathanwayy.xyz/2021/prn107/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn108/>http://jonathanwayy.xyz/2021/prn108/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -258,8 +261,8 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/occluded/">
                     #occluded</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/knowledge-distillation/">
-                    #knowledge distillation</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
+                    #transformer</a></span>
             
             </section>
         
@@ -271,10 +274,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/latex_rotatebox/" class="prev" rel="prev" title="Latex 旋转文字方向"><i class="iconfont icon-left"></i>&nbsp;Latex 旋转文字方向</a>
+        <a href="http://jonathanwayy.xyz/2021/prn107/" class="prev" rel="prev" title="[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn108/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)">[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -283,7 +286,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
