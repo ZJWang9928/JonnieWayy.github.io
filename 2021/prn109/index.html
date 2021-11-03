@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn108/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn109/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/bg34/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg34/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn109/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           壁纸分享[34] | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="壁纸分享[34] | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "壁纸分享[34]",
-    "headline" : "壁纸分享[34]",
-    "description" : "",
+    "name" : "[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)",
+    "description" : "MCCN: Multimodal Coordinated Clustering Network for Large-Scale Cross-modal Retrieval (MM 2021) 概述 本文关注大规模多个模态应用场景下的模态不平衡的跨模态检索问题，提出一种多模态协同的聚类网络 (Multimodal Coordinated Clustering Network, MCCN)。 MCCN 包",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-01 20:53:26 \u002b0800 CST",
-    "dateModified" : "2021-11-01 20:53:26 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/bg34\/",
-    "wordCount" : "0",
-    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
+    "datePublished": "2021-11-02 19:54:04 \u002b0800 CST",
+    "dateModified" : "2021-11-02 19:54:04 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn109\/",
+    "wordCount" : "436",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,20 +155,20 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">壁纸分享[34]</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-01 itemprop="datePublished">November 1, 2021</time>
+                on <time datetime=2021-11-02 itemprop="datePublished">November 2, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 0 words</span>
+                <span class="post-word-count">, 436 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,16 +189,27 @@
           
           
 
-          <p><img src="/images/2020/01/wallpaper/331.jpg" alt="331">
-<img src="/images/2020/01/wallpaper/332.webp" alt="332">
-<img src="/images/2020/01/wallpaper/333.png" alt="333">
-<img src="/images/2020/01/wallpaper/334.jpg" alt="334">
-<img src="/images/2020/01/wallpaper/335.png" alt="335">
-<img src="/images/2020/01/wallpaper/336.jpg" alt="336">
-<img src="/images/2020/01/wallpaper/337.png" alt="337">
-<img src="/images/2020/01/wallpaper/338.png" alt="338">
-<img src="/images/2020/01/wallpaper/339.png" alt="339">
-<img src="/images/2020/01/wallpaper/340.webp" alt="340"></p>
+          <h1 id="mccn-multimodal-coordinated-clustering-network-for-large-scale-cross-modal-retrieval-mm-2021">MCCN: Multimodal Coordinated Clustering Network for Large-Scale Cross-modal Retrieval (MM 2021)</h1>
+<h2 id="概述">概述</h2>
+<p>本文关注大规模多个模态应用场景下的模态不平衡的跨模态检索问题，提出一种多模态协同的聚类网络 (Multimodal Coordinated Clustering Network, MCCN)。</p>
+<p>MCCN 包含两个模块：</p>
+<ul>
+<li>多模态协同嵌入模块 (Multimodal Coordinated Embedding Module, MCE)</li>
+<li>多模态对比聚类模块 (Multimodal Contrastive Clustering Module, MCC)</li>
+</ul>
+<p><img src="/images/2021/PRN109/1.png" alt="Fig 1"></p>
+<h2 id="mce">MCE</h2>
+<p>用于生成模态平衡的嵌入，利用一个预先定义的多模态语义图，在不同模态的嵌入之间做随机变换。</p>
+<p>对于某个模态的特征，通过补零操作使所有语义标签都有对应的特征，从而平衡多模态样本。</p>
+<p>用完整的语义标签构建多模态语义图，用于生成随机的多模态训练样本。当且仅当两个嵌入属于同一类别且来自不同模态时，在其二者之间构建一条边。</p>
+<p>这里并没有在同模态样本之间构建边，这是基于一个设想，即属于同一类别及同一模态的样本遵循相同的分布。</p>
+<p>补零的嵌入之间也不构建边。</p>
+<p>用随机重启与自环的 random walk 生成转换几率 (transition probability)。</p>
+<h2 id="mcc">MCC</h2>
+<p>受到原型学习 (prototype learning) 的启发。</p>
+<p>为各类别 \(c\) 维护一个原型向量 \(o_{c}\)，通过计算来自全部模态的第 \(c\) 类相应的嵌入的均值得到。</p>
+<p>定义多模态对比聚类损失：</p>
+<p>$$\mathcal{L} = \sum_{z=1}^{M} (log[1 + \sum_{\beta=1}^{L} \sum_{\alpha=1}^{K} exp(\lambda (d_{\alpha}^{z} - \hat{d}_{\beta}^{z} + \Delta))]).$$</p>
 
     </div>
 
@@ -213,7 +224,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/bg34/>http://jonathanwayy.xyz/2021/bg34/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn109/>http://jonathanwayy.xyz/2021/prn109/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -233,17 +244,20 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
-                    #wallpaper</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #kde</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
             </section>
         
@@ -255,10 +269,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn108/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/bg34/" class="prev" rel="prev" title="壁纸分享[34]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[34]</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn109/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)">[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -267,7 +281,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
