@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg34/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn110/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn109/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn109/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn110/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)",
-    "description" : "MCCN: Multimodal Coordinated Clustering Network for Large-Scale Cross-modal Retrieval (MM 2021) 概述 本文关注大规模多个模态应用场景下的模态不平衡的跨模态检索问题，提出一种多模态协同的聚类网络 (Multimodal Coordinated Clustering Network, MCCN)。 MCCN 包",
+    "name" : "[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)",
+    "description" : "Knowledge-Supervised Learning: Knowledge Consensus Constraints for Person Re-Identification (MM 2021) 概述 本文旨在利用知识在不引入额外推断成本的基础上，约束同一数据上的多视角共识以提升精度。 行人 ReID 相较于图像分类的特殊性 检索",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-02 19:54:04 \u002b0800 CST",
-    "dateModified" : "2021-11-02 19:54:04 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn109\/",
-    "wordCount" : "436",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval", "Jonathan`s Blog"]
+    "datePublished": "2021-11-04 11:07:28 \u002b0800 CST",
+    "dateModified" : "2021-11-04 11:07:28 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn110\/",
+    "wordCount" : "573",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-02 itemprop="datePublished">November 2, 2021</time>
+                on <time datetime=2021-11-04 itemprop="datePublished">November 4, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 436 words</span>
+                <span class="post-word-count">, 573 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,27 +189,36 @@
           
           
 
-          <h1 id="mccn-multimodal-coordinated-clustering-network-for-large-scale-cross-modal-retrieval-mm-2021">MCCN: Multimodal Coordinated Clustering Network for Large-Scale Cross-modal Retrieval (MM 2021)</h1>
+          <h1 id="knowledge-supervised-learning-knowledge-consensus-constraints-for-person-re-identification-mm-2021">Knowledge-Supervised Learning: Knowledge Consensus Constraints for Person Re-Identification (MM 2021)</h1>
+<p><img src="/images/2021/PRN110/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文关注大规模多个模态应用场景下的模态不平衡的跨模态检索问题，提出一种多模态协同的聚类网络 (Multimodal Coordinated Clustering Network, MCCN)。</p>
-<p>MCCN 包含两个模块：</p>
+<p>本文旨在利用知识在不引入额外推断成本的基础上，约束同一数据上的多视角共识以提升精度。</p>
+<h3 id="行人-reid-相较于图像分类的特殊性">行人 ReID 相较于图像分类的特殊性</h3>
 <ul>
-<li>多模态协同嵌入模块 (Multimodal Coordinated Embedding Module, MCE)</li>
-<li>多模态对比聚类模块 (Multimodal Contrastive Clustering Module, MCC)</li>
+<li>检索任务，测试集 ID 与训练集不重叠，对模型泛化能力要求更高</li>
+<li>特征嵌入至关重要</li>
+<li>属于度量学习 (metric learning) 的一种</li>
 </ul>
-<p><img src="/images/2021/PRN109/1.png" alt="Fig 1"></p>
-<h2 id="mce">MCE</h2>
-<p>用于生成模态平衡的嵌入，利用一个预先定义的多模态语义图，在不同模态的嵌入之间做随机变换。</p>
-<p>对于某个模态的特征，通过补零操作使所有语义标签都有对应的特征，从而平衡多模态样本。</p>
-<p>用完整的语义标签构建多模态语义图，用于生成随机的多模态训练样本。当且仅当两个嵌入属于同一类别且来自不同模态时，在其二者之间构建一条边。</p>
-<p>这里并没有在同模态样本之间构建边，这是基于一个设想，即属于同一类别及同一模态的样本遵循相同的分布。</p>
-<p>补零的嵌入之间也不构建边。</p>
-<p>用随机重启与自环的 random walk 生成转换几率 (transition probability)。</p>
-<h2 id="mcc">MCC</h2>
-<p>受到原型学习 (prototype learning) 的启发。</p>
-<p>为各类别 \(c\) 维护一个原型向量 \(o_{c}\)，通过计算来自全部模态的第 \(c\) 类相应的嵌入的均值得到。</p>
-<p>定义多模态对比聚类损失：</p>
-<p>$$\mathcal{L} = \sum_{z=1}^{M} (log[1 + \sum_{\beta=1}^{L} \sum_{\alpha=1}^{K} exp(\lambda (d_{\alpha}^{z} - \hat{d}_{\beta}^{z} + \Delta))]).$$</p>
+<p>本文提出一种知识监督的学习方法 (Knowledge-Supervised Learning method, KSL)，在不引入额外推断成本的基础上提升表现。</p>
+<p><img src="/images/2021/PRN110/2.png" alt="Fig 2"></p>
+<h2 id="isomorphic-auxiliary-training-aux">Isomorphic Auxiliary Training (AUX)</h2>
+<p>增加与主分支结构相同的辅助分支来提升精度，各分支采用交叉熵损失和三元组损失。</p>
+<p>值得注意的是在训练开始时直接加上辅助三元组损失会导致不收敛，文中通过在训练中期加入该损失解决这一问题。</p>
+<p><img src="/images/2021/PRN110/3.png" alt="Fig 3"></p>
+<h2 id="knowledge-constraints-by-dynamic-probability">Knowledge Constraints by Dynamic Probability</h2>
+<h3 id="基本想法">基本想法</h3>
+<p>当模型能够最大化正确答案的平均对数几率，其也能够赋予所有错误答案几率，而错误答案的几率能够体现模型的泛化倾向，即借助动态分类几率的监督，能蒸馏出更多泛化信息。</p>
+<p>将预测到分类几率的相似度 (similarity of predicted classification probability, KSL-P) 作为 cosine 空间中的知识共识约束。采用两种形式：</p>
+<ul>
+<li>密集的成对知识蒸馏 (densely pairwise knowledge distillation, KSL-PP) 用于保持多样性</li>
+<li>从有其他分支计算得到的虚拟平均分支蒸馏 (KSL-PA) 以过滤噪声</li>
+</ul>
+<h2 id="knowledge-constraints-by-embedding-distance">Knowledge Constraints by Embedding Distance</h2>
+<p>将不同分支之间特征嵌入的距离 (KSL-E) 作为欧几里德空间中的知识共识约束，也采用与 KSL-P 中类似的 KSL-EP 和 KSL-EA 两种形式，但是没有方向。</p>
+<h2 id="knowledge-constraints-of-hard-sample">Knowledge Constraints of Hard Sample</h2>
+<p>前两种约束只考虑成对分支同一 ID 特征之间的知识传递，没有考虑不同分支不同 ID 之间的交互，因而引入困难样本互挖掘 (hard sample mutual mining, KSL-H) 作为困难样本空间中的知识共识约束。</p>
+<h2 id="特征表征可视化示例">特征表征可视化示例</h2>
+<p><img src="/images/2021/PRN110/7.png" alt="Fig 7"></p>
 
     </div>
 
@@ -224,7 +233,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn109/>http://jonathanwayy.xyz/2021/prn109/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn110/>http://jonathanwayy.xyz/2021/prn110/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -259,6 +268,9 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
                     #retrieval</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #ReID</a></span>
+            
             </section>
         
         <section>
@@ -269,10 +281,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/bg34/" class="prev" rel="prev" title="壁纸分享[34]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[34]</a>
+        <a href="http://jonathanwayy.xyz/2021/prn109/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn110/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)">[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -281,7 +293,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
