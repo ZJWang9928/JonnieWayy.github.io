@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn109/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn111/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn110/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn110/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn111/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)",
-    "description" : "Knowledge-Supervised Learning: Knowledge Consensus Constraints for Person Re-Identification (MM 2021) 概述 本文旨在利用知识在不引入额外推断成本的基础上，约束同一数据上的多视角共识以提升精度。 行人 ReID 相较于图像分类的特殊性 检索",
+    "name" : "[论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020)",
+    "headline" : "[论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020)",
+    "description" : "Interpretable and Generalizable Person Re-Identification with Query-Adaptive Convolution and Temporal Lifting (ECCV 2020) 开源代码传送门 概述 现有的许多 ReID 方法只是在两个表征向量之间简单计算距离，而无视了两张图像真实内容之间的直接关系。 本文",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-04 11:07:28 \u002b0800 CST",
-    "dateModified" : "2021-11-04 11:07:28 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn110\/",
-    "wordCount" : "573",
+    "datePublished": "2021-11-08 12:14:22 \u002b0800 CST",
+    "dateModified" : "2021-11-08 12:14:22 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn111\/",
+    "wordCount" : "745",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-04 itemprop="datePublished">November 4, 2021</time>
+                on <time datetime=2021-11-08 itemprop="datePublished">November 8, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 573 words</span>
+                <span class="post-word-count">, 745 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,36 +189,35 @@
           
           
 
-          <h1 id="knowledge-supervised-learning-knowledge-consensus-constraints-for-person-re-identification-mm-2021">Knowledge-Supervised Learning: Knowledge Consensus Constraints for Person Re-Identification (MM 2021)</h1>
-<p><img src="/images/2021/PRN110/1.png" alt="Fig 1"></p>
+          <h1 id="interpretable-and-generalizable-person-re-identification-with-query-adaptive-convolution-and-temporal-lifting-eccv-2020">Interpretable and Generalizable Person Re-Identification with Query-Adaptive Convolution and Temporal Lifting (ECCV 2020)</h1>
+<p><a href="https://github.com/ShengcaiLiao/QAConv">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN111/1-2.png" alt="Fig 1-2"></p>
 <h2 id="概述">概述</h2>
-<p>本文旨在利用知识在不引入额外推断成本的基础上，约束同一数据上的多视角共识以提升精度。</p>
-<h3 id="行人-reid-相较于图像分类的特殊性">行人 ReID 相较于图像分类的特殊性</h3>
-<ul>
-<li>检索任务，测试集 ID 与训练集不重叠，对模型泛化能力要求更高</li>
-<li>特征嵌入至关重要</li>
-<li>属于度量学习 (metric learning) 的一种</li>
-</ul>
-<p>本文提出一种知识监督的学习方法 (Knowledge-Supervised Learning method, KSL)，在不引入额外推断成本的基础上提升表现。</p>
-<p><img src="/images/2021/PRN110/2.png" alt="Fig 2"></p>
-<h2 id="isomorphic-auxiliary-training-aux">Isomorphic Auxiliary Training (AUX)</h2>
-<p>增加与主分支结构相同的辅助分支来提升精度，各分支采用交叉熵损失和三元组损失。</p>
-<p>值得注意的是在训练开始时直接加上辅助三元组损失会导致不收敛，文中通过在训练中期加入该损失解决这一问题。</p>
-<p><img src="/images/2021/PRN110/3.png" alt="Fig 3"></p>
-<h2 id="knowledge-constraints-by-dynamic-probability">Knowledge Constraints by Dynamic Probability</h2>
-<h3 id="基本想法">基本想法</h3>
-<p>当模型能够最大化正确答案的平均对数几率，其也能够赋予所有错误答案几率，而错误答案的几率能够体现模型的泛化倾向，即借助动态分类几率的监督，能蒸馏出更多泛化信息。</p>
-<p>将预测到分类几率的相似度 (similarity of predicted classification probability, KSL-P) 作为 cosine 空间中的知识共识约束。采用两种形式：</p>
-<ul>
-<li>密集的成对知识蒸馏 (densely pairwise knowledge distillation, KSL-PP) 用于保持多样性</li>
-<li>从有其他分支计算得到的虚拟平均分支蒸馏 (KSL-PA) 以过滤噪声</li>
-</ul>
-<h2 id="knowledge-constraints-by-embedding-distance">Knowledge Constraints by Embedding Distance</h2>
-<p>将不同分支之间特征嵌入的距离 (KSL-E) 作为欧几里德空间中的知识共识约束，也采用与 KSL-P 中类似的 KSL-EP 和 KSL-EA 两种形式，但是没有方向。</p>
-<h2 id="knowledge-constraints-of-hard-sample">Knowledge Constraints of Hard Sample</h2>
-<p>前两种约束只考虑成对分支同一 ID 特征之间的知识传递，没有考虑不同分支不同 ID 之间的交互，因而引入困难样本互挖掘 (hard sample mutual mining, KSL-H) 作为困难样本空间中的知识共识约束。</p>
-<h2 id="特征表征可视化示例">特征表征可视化示例</h2>
-<p><img src="/images/2021/PRN110/7.png" alt="Fig 7"></p>
+<p>现有的许多 ReID 方法只是在两个表征向量之间简单计算距离，而无视了两张图像真实内容之间的直接关系。</p>
+<p>本文考虑在深度特征映射过程中直接构建自适应于 query 的图像匹配，提出一种自适应于 query 的卷积方法 (Query-Adaptive Convolution, QAConv)，将图像匹配视为在特征图中找寻局部相关性，并构建自适应于 query 的卷积核以实现局部匹配。</p>
+<p>使得学习到的模型能够获益于最后一层的自适应卷积核，其特定于各张图像，此外匹配的过程与结果变得具有可解释性。</p>
+<p>构建一个类别记忆模块 (class memory module) 缓存各类别最近样本的特征图，以计算图像匹配损失，实现端到端训练。</p>
+<p>提出一种与模型无关的基于时序共现的分数权衡方法 (temporal cooccurrence based score weighting method)， 称为 Temporal Lifting (TLift)。</p>
+<p><img src="/images/2021/PRN111/3-4.png" alt="Fig 3-4"></p>
+<h2 id="qaconv">QAConv</h2>
+<h3 id="qaconv-匹配">QAConv 匹配</h3>
+<p>对 backbone 输出的 \([1, d, h, w]\) 的特征图的通道维用 l2 范数作正则化，进而提取各局部位置上尺度为 \([s, s]\) 的 local patch 重新组织为 \([hw, d ,s, s]\) 作为卷积核，输入通道数为 \(d\)，输出通道数为 \(hw\)。</p>
+<p>该卷积核的参数取决于输入，而非固定。可将自适应核作用于另一个特征图，得到 \([1, hw, h, w]\) 的相似度。</p>
+<p>由于通道维做了 l2 范数，当 \(s = 1\) 时相当于计算各局部之间的余弦相似度。又因为卷积核自适应地构建于图像内容，这些相似度的值恰好反映了两张输入图像之间的局部匹配结果。</p>
+<p>因而可以用全局最大值池化 (GMP) 选取出局部相关性最强的位置。</p>
+<h3 id="网络架构">网络架构</h3>
+<p>backbone CNN + QAConv layer + class memory layer + global max pooling layer + (d = 1) BN-FC-BN block + sigmoid function</p>
+<h3 id="类别记忆与更新">类别记忆与更新</h3>
+<p>维护一个 \([c, d, h, w]\) 的 tensor，\(c\) 表示类别数，在每个 batch 的训练过程中，采用直接赋值的更新策略 (direct assignment update strategy)。</p>
+<p>也可以采用 exponential moving average update 策略，但是这里表现不如直接赋值。</p>
+<h3 id="损失函数">损失函数</h3>
+<p>二元交叉熵损失。</p>
+<h2 id="temporal-lifting">Temporal Lifting</h2>
+<p>探究一个摄像头网络的先验时空结构 (prior spatial-temporal structure of a camera network)。</p>
+<h3 id="基本假设">基本假设</h3>
+<p>在一个摄像头下临近的行人在另一个摄像头下依然临近。</p>
+<h2 id="结果示例">结果示例</h2>
+<p><img src="/images/2021/PRN111/5.png" alt="Fig 1"></p>
 
     </div>
 
@@ -233,7 +232,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn110/>http://jonathanwayy.xyz/2021/prn110/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn111/>http://jonathanwayy.xyz/2021/prn111/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -281,10 +280,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn109/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] MCCN: Multimodal Coordinated Clustering Network (MM 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn110/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Knowledge-SV Learning: Knowledge Consensus Constraints (MM 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn111/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020)">[论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -293,7 +292,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
