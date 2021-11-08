@@ -67,7 +67,7 @@
     "datePublished": "2021-08-30 11:13:40 \u002b0800 CST",
     "dateModified" : "2021-08-30 11:13:40 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn87\/",
-    "wordCount" : "235",
+    "wordCount" : "314",
     "keywords" : [ "paper reading","cv","notes","frequency","image", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 235 words</span>
+                <span class="post-word-count">, 314 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -201,20 +201,22 @@
 <li>频率分解阶段</li>
 <li>频率增强阶段</li>
 </ul>
-<p>频率分解阶段将 LR 输入分解为高/中/低频成分，频率强化阶段强化各表征。</p>
+<p>频率分解阶段将低分辨率输入分解为高/中/低频成分，频率强化阶段强化各表征。</p>
 <h3 id="频率分解阶段">频率分解阶段</h3>
+<p>在模仿小波变换机制的同时避免关键信息的损失，操作类似于 octave convolution (OctConv)。</p>
 <p>$$f_{l} = Conv\downarrow_{2}(Conv\downarrow_{2}(I)),$$
 $$f_{m} = Conv\downarrow_{2}(I) - Conv\downarrow_{2}(Conv\downarrow_{2}(I))\uparrow_{2},$$
 $$f_{h} = Conv(I) - Conv\downarrow_{2}(I)\uparrow_{2},$$</p>
 <p>其中 \(Conv\downarrow_{2}\) 表示步长为 \(2\) 的卷积层，\(Conv\) 表示不带下采样的卷积层，\(\uparrow\) 表示双线性上采样操作。</p>
 <h3 id="频率增强阶段">频率增强阶段</h3>
-<p>用到 Frequency Enhancement Unit (FEU)。</p>
+<p>用到 Frequency Enhancement Unit (FEU)，基于 GRDB 模块构建。</p>
 <p>$$\widetilde{f}_{l} = Enhance(f_{l}),$$
 $$\widetilde{f}_{m} = Enhance(f_{m}, \widetilde{f}_{l}),$$
 $$\widetilde{f}_{h} = Enhance(f_{h}, \widetilde{f}_{m}, \widetilde{f}_{l}),$$</p>
 <p>其中 \(Enhance(\cdot)\) 表示若干个 FEU。</p>
 <p><img src="/images/2021/PRN87/3.png" alt="Fig 3"></p>
 <h2 id="区域自适应频率聚合模块-region-adaptive-frequency-aggregation-module-rfa">区域自适应频率聚合模块 (Region-adaptive Frequency Aggregation Module, RFA)</h2>
+<p>为不同区域自适应地聚合全频率成分，结合动态卷积和空间卷积。</p>
 <p><img src="/images/2021/PRN87/4.png" alt="Fig 4"></p>
 
     </div>
@@ -287,7 +289,7 @@ $$\widetilde{f}_{h} = Enhance(f_{h}, \widetilde{f}_{m}, \widetilde{f}_{l}),$$</p
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
