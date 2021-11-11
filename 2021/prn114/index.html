@@ -67,7 +67,7 @@
     "datePublished": "2021-11-10 20:39:25 \u002b0800 CST",
     "dateModified" : "2021-11-10 20:39:25 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn114\/",
-    "wordCount" : "232",
+    "wordCount" : "301",
     "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","CNN", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 232 words</span>
+                <span class="post-word-count">, 301 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -198,9 +198,13 @@
 <h2 id="卷积块">卷积块</h2>
 <p>用于取代 ViT 中的 image patching 层和嵌入层：</p>
 <p>$$x_{0} = MaxPool(ReLU(Conv2d(x))).$$</p>
-<p>使得 CCT 不要求一张图像能被均分为 patch。</p>
+<p>CCT 不要求一张图像能被均分为 patch，且卷及和池化操作可以有重叠地进行。</p>
 <h2 id="seqpool">SeqPool</h2>
 <p>旨在将序列化输出映射为单类别索引，而非需要使用类别令牌。</p>
+<p>可视为一个映射变换 \(T: \mathbb{R}^{b \times n \times d} \rightarrow \mathbb{R}^{b \times d}\)：</p>
+<p>$$x_{L} = f(x_{0} \in \mathbb{R}^{b \times n \times d}),$$
+$$x'_{L} = softmax(g(x_{L})^{T}) \in \mathbb{R}^{b \times 1 \times n},$$
+$$z = x'_{L}x_{L} = softmax(g(x_{L})^{T}) \times x_{L} \in \mathbb{R}^{b \times 1 \times d}.$$</p>
 <h2 id="cct-vs-cvt">CCT vs. CVT</h2>
 <p><img src="/images/2021/PRN114/3.png" alt="Fig 3"></p>
 
@@ -280,7 +284,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
