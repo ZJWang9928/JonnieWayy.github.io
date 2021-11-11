@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn111/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn113/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn112/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn112/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn113/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)",
-    "description" : "Joint Generative and Contrastive Learning for Unsupervised Person Re-identification (CVPR 2021) 开源代码传送门 概述 自监督对比学习方法 对于一张图像，最大化其两个增广视角之间的共识 (agreement between two augmented views)，视角指的是对于某",
+    "name" : "[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)",
+    "description" : "Structured Multi-modal Feature Embedding and Alignment for Image-Sentence Retrieval (MM 2021) 概述 现有细粒度方法的问题 忽略了模态内的上下文语义以及部件之间的结构化关系，导致无法有效捕获语义 以多对多匹配范式隐式建模",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-09 09:03:20 \u002b0800 CST",
-    "dateModified" : "2021-11-09 09:03:20 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn112\/",
-    "wordCount" : "802",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
+    "datePublished": "2021-11-11 19:27:01 \u002b0800 CST",
+    "dateModified" : "2021-11-11 19:27:01 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn113\/",
+    "wordCount" : "477",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-09 itemprop="datePublished">November 9, 2021</time>
+                on <time datetime=2021-11-11 itemprop="datePublished">November 11, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 802 words</span>
+                <span class="post-word-count">, 477 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,46 +189,46 @@
           
           
 
-          <h1 id="joint-generative-and-contrastive-learning-for-unsupervised-person-re-identification-cvpr-2021">Joint Generative and Contrastive Learning for Unsupervised Person Re-identification (CVPR 2021)</h1>
-<p><a href="https://github.com/chenhao2345/GCL">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN112/1.png" alt="Fig 1"></p>
+          <h1 id="structured-multi-modal-feature-embedding-and-alignment-for-image-sentence-retrieval-mm-2021">Structured Multi-modal Feature Embedding and Alignment for Image-Sentence Retrieval (MM 2021)</h1>
+<p><img src="/images/2021/PRN113/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<h3 id="自监督对比学习方法">自监督对比学习方法</h3>
-<p>对于一张图像，最大化其两个增广视角之间的共识 (agreement between two augmented views)，视角指的是对于某一输入的变换版本。</p>
-<h3 id="现有基于-gan-的工作">现有基于 GAN 的工作</h3>
-<p>用 GAN 修改与 ID 无关的特征，同时保留与 ID 相关的特征，实现数据增广。</p>
-<p>现有方法将无监督 ReID 视为无监督域自适应 (Unsupervised Domain Adaptation, UDA) 问题，用到一个有标签的源域数据集和一个无标签的目标域数据集，GAN 被用于跨域风格迁移。</p>
-<p>但是 UDA 设定需要一个大规模的有标签源域数据集。近期的研究开始考虑完全无监督的 ReID。</p>
-<p>本文引入了一个基于 mesh 的视角生成器，探究在完全无监督 ReID 设定下将行人图像分解为身份特征 (color distribution + body shape) 和结构特征 (pose + view-point)。</p>
-<p>利用 3D mesh 在转变姿态的同时保留身体形状，将身份特征与新的结构特征相结合。</p>
-<p>得到新视角后，设计了一个基于伪标签的对比学习模块 (pseudo label based contrastive learning module)，借助视角不变损失 (view-invariant loss)，最大化同一行人原始视角和生成视角之间的特征相似度，并最小化不同行人之间里的相似度。</p>
-<p>本文方法称为联合生成对比学习 (joint Generative and Contrastive Learning, GCL)，包含一个视角生成器和一个视角对比模块。</p>
-<p><img src="/images/2021/PRN112/2.png" alt="Fig 2"></p>
-<h2 id="视角生成器">视角生成器</h2>
-<h3 id="包含的四个子网络">包含的四个子网络</h3>
+<h3 id="现有细粒度方法的问题">现有细粒度方法的问题</h3>
 <ul>
-<li>身份编码器 \(E_{id}\)</li>
-<li>结构编码器 \(E_{str}\)</li>
-<li>解码器 \(G\)</li>
-<li>图像鉴别器 \(D\)</li>
+<li>忽略了模态内的上下文语义以及部件之间的结构化关系，导致无法有效捕获语义</li>
+<li>以多对多匹配范式隐式建模模态间的对齐关系</li>
 </ul>
-<p><img src="/images/2021/PRN112/3.png" alt="Fig 3"></p>
-<p>利用 HMR 生成 3D mesh，进行多角度旋转并随机选取一个生成新结构 \(s_{new}\)，用于模拟不同摄像头带来的视角变化，原结构为 \(s_{ori}\)，结构编码器得到二者特征，解码器用二者特征分别结合图像身份特征，重构生成两张图像。</p>
-<p>由于缺失新结构对应的真实图像，采用循环一致性 (cycle consistency) 训练重构过程，通过将 \(x'_{new}\) 再一次往回重构实现。</p>
-<p>$$\mathcal{L}_{img} = \mathbb{E}[||x - x'_{ori}||_{1}] + \mathbb{E}[||x - x''_{ori}||_1],$$
-$$\mathcal{L}_{feat} = \mathbb{E}[||f_{id} - E_{id}(x'_{new})||_{1}] + \mathbb{E}[||f_{id} - E_{id}(x''_{ori})||_1],$$
-$$\mathcal{L}_{adv} = \mathbb{E}[log D(x) + log(1 - D(x'_{ori}))] + \mathbb{E}[log D(x) + log(1 - D(x'_{new}))] + \mathbb{E}[log D(x) + log(1 - D(x''_{ori}))],$$
-$$\mathcal{L}_{gan} = \lambda_{img} \mathcal{L}_{img} + \lambda_{feat} \mathcal{L}_{feat} + \mathcal{L}_{adv}.$$</p>
-<h2 id="视角对比">视角对比</h2>
-<p>维护一个 memory bank，是伪标签稳定并扩大训练中的负样本数：</p>
-<p>$$\mathcal{M}[i]^{t} = \alpha \cdot \mathcal{M}[i]^{t - 1} + (1 - \alpha) \cdot f^{t}.$$</p>
-<p>在 memory bank 所有特征上使用聚类算法 DBSCAN 生成伪身份标签，其在每个 epoch 开始时更新。</p>
-<p>基于 softmax log 损失定义了 view-invariant 损失。</p>
+<h3 id="本文的解决思路">本文的解决思路</h3>
+<ul>
+<li>通过结构化嵌入模块，构建视觉/文本 部件的模态内上下文关系</li>
+<li>使用一个共享的语义结构，显式对其模态间部件及其关系</li>
+</ul>
+<p>本文提出一种结构化的多莫太特征嵌入与对齐模型 (Structured Multi-modal Feature Embedding and Alignment model, SMFEA)，利用视觉与文本上下文可知树编码器 (visual and textual context-aware tree encoders, VCS-Tree and TCS-Tree)，进行图文检索。</p>
+<p><img src="/images/2021/PRN113/2.png" alt="Fig 2"></p>
+<h2 id="多模态特征提取">多模态特征提取</h2>
+<h3 id="视觉表征">视觉表征</h3>
+<p>Faster-RCNN + Self Attention</p>
+<h3 id="文本表征">文本表征</h3>
+<p>Bi-GRU + Self Attention</p>
+<h2 id="context-aware-representation">Context-Aware Representation</h2>
+<p>旨在构建图文部件之间的潜在关联。</p>
+<h3 id="shared-referral-tree-encoder">Shared Referral Tree Encoder</h3>
+<p>为各模态构建一个三层树结构的上下文结构化树，由共享的标签监督，称为 shared referral tree，由 Standford Parser 从句子中得到。</p>
+<p>结构固定，将名词作为叶节点与部件。</p>
+<h3 id="context-aware-structured-tree-encoders">Context-aware Structured Tree Encoders</h3>
+<p>构建 VCS-Tree 和 TCS-Tree，解析模态内的部件关联。</p>
+<p>此外二者也用于对其模态间节点。</p>
+<p><img src="/images/2021/PRN113/3.png" alt="Fig 3"></p>
+<h3 id="cac-representation-learning-module">CAC Representation Learning Module</h3>
+<p>利用常识知识捕捉语义概念之间的潜在关系，得到 Consensus-aware Concept (CAC) Representations。</p>
+<h3 id="multiple-representations-fusing-module">Multiple Representations Fusing Module</h3>
+<p>将各模态三种层级的特征融合。</p>
+<h2 id="目标函数">目标函数</h2>
+<p>三元组损失 + 节点分类损失 (tree) + KL 散度 (两种模态相应树节点的概率分布之间)</p>
 <h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2021/PRN112/4.png" alt="Fig 4"></p>
-<p><img src="/images/2021/PRN112/5.png" alt="Fig 5"></p>
-<p><img src="/images/2021/PRN112/6.png" alt="Fig 6"></p>
-<p><img src="/images/2021/PRN112/7.png" alt="Fig 7"></p>
+<p><img src="/images/2021/PRN113/4.png" alt="Fig 4"></p>
+<p><img src="/images/2021/PRN113/5.png" alt="Fig 5"></p>
+<p><img src="/images/2021/PRN113/6.png" alt="Fig 6"></p>
+<p><img src="/images/2021/PRN113/7.png" alt="Fig 7"></p>
 
     </div>
 
@@ -243,7 +243,7 @@ $$\mathcal{L}_{gan} = \lambda_{img} \mathcal{L}_{img} + \lambda_{feat} \mathcal{
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn112/>http://jonathanwayy.xyz/2021/prn112/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn113/>http://jonathanwayy.xyz/2021/prn113/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -278,9 +278,6 @@ $$\mathcal{L}_{gan} = \lambda_{img} \mathcal{L}_{img} + \lambda_{feat} \mathcal{
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
                     #retrieval</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
-                    #ReID</a></span>
-            
             </section>
         
         <section>
@@ -291,10 +288,10 @@ $$\mathcal{L}_{gan} = \lambda_{img} \mathcal{L}_{img} + \lambda_{feat} \mathcal{
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn111/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Query-Adaptive Convolution and Temporal Lifting (ECCV 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn112/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn113/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)">[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -303,7 +300,7 @@ $$\mathcal{L}_{gan} = \lambda_{img} \mathcal{L}_{img} + \lambda_{feat} \mathcal{
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">900 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 09 Nov 2021 09:03:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Nov 2021 19:27:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn113/</link>
+      <pubDate>Thu, 11 Nov 2021 19:27:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn113/</guid>
+      <description>Structured Multi-modal Feature Embedding and Alignment for Image-Sentence Retrieval (MM 2021) 概述 现有细粒度方法的问题 忽略了模态内的上下文语义以及部件之间的结构化关系，导致无法有效捕获语义 以多对多匹配范式隐式建模</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn112/</link>
