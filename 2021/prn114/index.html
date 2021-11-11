@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn114/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn113/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn112/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2021/prn113/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn114/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)",
-    "headline" : "[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)",
-    "description" : "Structured Multi-modal Feature Embedding and Alignment for Image-Sentence Retrieval (MM 2021) 概述 现有细粒度方法的问题 忽略了模态内的上下文语义以及部件之间的结构化关系，导致无法有效捕获语义 以多对多匹配范式隐式建模",
+    "name" : "[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021)",
+    "headline" : "[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021)",
+    "description" : "2104.05704 Escaping the Big Data Paradigm with Compact Transformers (2021) 概述 针对 Transformer 模型的数据饥饿 (data hungry) 传统观点，尝试弥合 Transformer 和 CNN 两种架构之间的鸿沟，结合二者优势，使得基于 Transformer 的模型能够在小型数据集上",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-11 19:27:01 \u002b0800 CST",
-    "dateModified" : "2021-11-11 19:27:01 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn113\/",
-    "wordCount" : "477",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval", "Jonathan`s Blog"]
+    "datePublished": "2021-11-10 20:39:25 \u002b0800 CST",
+    "dateModified" : "2021-11-10 20:39:25 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn114\/",
+    "wordCount" : "232",
+    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","CNN", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-11 itemprop="datePublished">November 11, 2021</time>
+                on <time datetime=2021-11-10 itemprop="datePublished">November 10, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 477 words</span>
+                <span class="post-word-count">, 232 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,46 +189,20 @@
           
           
 
-          <h1 id="structured-multi-modal-feature-embedding-and-alignment-for-image-sentence-retrieval-mm-2021">Structured Multi-modal Feature Embedding and Alignment for Image-Sentence Retrieval (MM 2021)</h1>
-<p><img src="/images/2021/PRN113/1.png" alt="Fig 1"></p>
+          <h1 id="210405704-escaping-the-big-data-paradigm-with-compact-transformers-2021">2104.05704 Escaping the Big Data Paradigm with Compact Transformers (2021)</h1>
+<p><img src="/images/2021/PRN114/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<h3 id="现有细粒度方法的问题">现有细粒度方法的问题</h3>
-<ul>
-<li>忽略了模态内的上下文语义以及部件之间的结构化关系，导致无法有效捕获语义</li>
-<li>以多对多匹配范式隐式建模模态间的对齐关系</li>
-</ul>
-<h3 id="本文的解决思路">本文的解决思路</h3>
-<ul>
-<li>通过结构化嵌入模块，构建视觉/文本 部件的模态内上下文关系</li>
-<li>使用一个共享的语义结构，显式对其模态间部件及其关系</li>
-</ul>
-<p>本文提出一种结构化的多莫太特征嵌入与对齐模型 (Structured Multi-modal Feature Embedding and Alignment model, SMFEA)，利用视觉与文本上下文可知树编码器 (visual and textual context-aware tree encoders, VCS-Tree and TCS-Tree)，进行图文检索。</p>
-<p><img src="/images/2021/PRN113/2.png" alt="Fig 2"></p>
-<h2 id="多模态特征提取">多模态特征提取</h2>
-<h3 id="视觉表征">视觉表征</h3>
-<p>Faster-RCNN + Self Attention</p>
-<h3 id="文本表征">文本表征</h3>
-<p>Bi-GRU + Self Attention</p>
-<h2 id="context-aware-representation">Context-Aware Representation</h2>
-<p>旨在构建图文部件之间的潜在关联。</p>
-<h3 id="shared-referral-tree-encoder">Shared Referral Tree Encoder</h3>
-<p>为各模态构建一个三层树结构的上下文结构化树，由共享的标签监督，称为 shared referral tree，由 Standford Parser 从句子中得到。</p>
-<p>结构固定，将名词作为叶节点与部件。</p>
-<h3 id="context-aware-structured-tree-encoders">Context-aware Structured Tree Encoders</h3>
-<p>构建 VCS-Tree 和 TCS-Tree，解析模态内的部件关联。</p>
-<p>此外二者也用于对其模态间节点。</p>
-<p><img src="/images/2021/PRN113/3.png" alt="Fig 3"></p>
-<h3 id="cac-representation-learning-module">CAC Representation Learning Module</h3>
-<p>利用常识知识捕捉语义概念之间的潜在关系，得到 Consensus-aware Concept (CAC) Representations。</p>
-<h3 id="multiple-representations-fusing-module">Multiple Representations Fusing Module</h3>
-<p>将各模态三种层级的特征融合。</p>
-<h2 id="目标函数">目标函数</h2>
-<p>三元组损失 + 节点分类损失 (tree) + KL 散度 (两种模态相应树节点的概率分布之间)</p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2021/PRN113/4.png" alt="Fig 4"></p>
-<p><img src="/images/2021/PRN113/5.png" alt="Fig 5"></p>
-<p><img src="/images/2021/PRN113/6.png" alt="Fig 6"></p>
-<p><img src="/images/2021/PRN113/7.png" alt="Fig 7"></p>
+<p>针对 Transformer 模型的数据饥饿 (data hungry) 传统观点，尝试弥合 Transformer 和 CNN 两种架构之间的鸿沟，结合二者优势，使得基于 Transformer 的模型能够在小型数据集上从头训练。</p>
+<p>本文首先提出 Vit-Lite，通过进一步增加序列池化，构建了 Compact Vision Transformer (CVT)，又通过在令牌化步骤中增加卷积块，构建了 Compact Convolutional Transformer (CCT)，后二者无需 [class] 令牌，增加了灵活性。</p>
+<p><img src="/images/2021/PRN114/2.png" alt="Fig 2"></p>
+<h2 id="卷积块">卷积块</h2>
+<p>用于取代 ViT 中的 image patching 层和嵌入层：</p>
+<p>$$x_{0} = MaxPool(ReLU(Conv2d(x))).$$</p>
+<p>使得 CCT 不要求一张图像能被均分为 patch。</p>
+<h2 id="seqpool">SeqPool</h2>
+<p>旨在将序列化输出映射为单类别索引，而非需要使用类别令牌。</p>
+<h2 id="cct-vs-cvt">CCT vs. CVT</h2>
+<p><img src="/images/2021/PRN114/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -243,7 +217,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn113/>http://jonathanwayy.xyz/2021/prn113/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn114/>http://jonathanwayy.xyz/2021/prn114/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -272,11 +246,17 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
+                    #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
+                    #transformer</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
+                    #ViT</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cnn/">
+                    #CNN</a></span>
             
             </section>
         
@@ -288,10 +268,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn114/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn112/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2021/prn113/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)">[论文阅读笔记 -- 跨模态检索] Structured MM Feature Embedding and Alignment (MM 2021)&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -300,7 +280,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

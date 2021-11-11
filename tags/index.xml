@@ -54,6 +54,42 @@
     </item>
     
     <item>
+      <title>attention</title>
+      <link>http://jonathanwayy.xyz/tags/attention/</link>
+      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CNN</title>
+      <link>http://jonathanwayy.xyz/tags/cnn/</link>
+      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transformer</title>
+      <link>http://jonathanwayy.xyz/tags/transformer/</link>
+      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ViT</title>
+      <link>http://jonathanwayy.xyz/tags/vit/</link>
+      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ReID</title>
       <link>http://jonathanwayy.xyz/tags/reid/</link>
       <pubDate>Tue, 09 Nov 2021 09:03:20 +0800</pubDate>
@@ -104,15 +140,6 @@
       <pubDate>Sun, 31 Oct 2021 17:14:50 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/occluded/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>transformer</title>
-      <link>http://jonathanwayy.xyz/tags/transformer/</link>
-      <pubDate>Sun, 31 Oct 2021 17:14:50 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
       <description></description>
     </item>
     
@@ -360,15 +387,6 @@
     </item>
     
     <item>
-      <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Fri, 10 Sep 2021 13:22:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>adversarial</title>
       <link>http://jonathanwayy.xyz/tags/adversarial/</link>
       <pubDate>Thu, 09 Sep 2021 21:42:02 +0800</pubDate>
@@ -419,24 +437,6 @@
       <pubDate>Fri, 03 Sep 2021 15:05:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pacman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CNN</title>
-      <link>http://jonathanwayy.xyz/tags/cnn/</link>
-      <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ViT</title>
-      <link>http://jonathanwayy.xyz/tags/vit/</link>
-      <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     

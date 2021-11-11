@@ -27,6 +27,15 @@
     </item>
     
     <item>
+      <title>[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn114/</link>
+      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn114/</guid>
+      <description>2104.05704 Escaping the Big Data Paradigm with Compact Transformers (2021) 概述 针对 Transformer 模型的数据饥饿 (data hungry) 传统观点，尝试弥合 Transformer 和 CNN 两种架构之间的鸿沟，结合二者优势，使得基于 Transformer 的模型能够在小型数据集上</description>
+    </item>
+    
+    <item>
       <title>[论文阅读笔记 -- ReID] Joint Generative and Contrastive Learning for UnS. ReID (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn112/</link>
       <pubDate>Tue, 09 Nov 2021 09:03:20 +0800</pubDate>
