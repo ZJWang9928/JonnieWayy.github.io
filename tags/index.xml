@@ -7,56 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 11 Nov 2021 19:27:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Thu, 11 Nov 2021 19:27:01 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 11 Nov 2021 19:27:01 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Thu, 11 Nov 2021 19:27:01 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Thu, 11 Nov 2021 19:27:01 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Thu, 11 Nov 2021 19:27:01 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 11 Nov 2021 20:39:25 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>attention</title>
       <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
@@ -65,16 +20,43 @@
     <item>
       <title>CNN</title>
       <link>http://jonathanwayy.xyz/tags/cnn/</link>
-      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cnn/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>transformer</title>
       <link>http://jonathanwayy.xyz/tags/transformer/</link>
-      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
       <description></description>
@@ -83,9 +65,27 @@
     <item>
       <title>ViT</title>
       <link>http://jonathanwayy.xyz/tags/vit/</link>
-      <pubDate>Wed, 10 Nov 2021 20:39:25 +0800</pubDate>
+      <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/vit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Wed, 10 Nov 2021 19:27:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Wed, 10 Nov 2021 19:27:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     
