@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 28 Oct 2021 12:34:42 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paperwriting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Nov 2021 14:47:13 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paperwriting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 表格中绘制经过指定列的水平线</title>
+      <link>http://jonathanwayy.xyz/2021/latex_cline/</link>
+      <pubDate>Sat, 13 Nov 2021 14:47:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_cline/</guid>
+      <description>在用 Latex 绘制表格的过程中，有时需要绘制不完全贯穿整行的水平线，可用如下命令指定需要贯穿的列： \cline{起始列-终止列} 此命令中列从 1 开始排</description>
+    </item>
+    
     <item>
       <title>Latex 旋转文字方向</title>
       <link>http://jonathanwayy.xyz/2021/latex_rotatebox/</link>
