@@ -67,7 +67,7 @@
     "datePublished": "2021-11-15 11:06:37 \u002b0800 CST",
     "dateModified" : "2021-11-15 11:06:37 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn115\/",
-    "wordCount" : "113",
+    "wordCount" : "269",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 113 words</span>
+                <span class="post-word-count">, 269 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -200,6 +200,27 @@
 <li>text-guided image colorization (IC)</li>
 <li>image-guided text completion (TC)</li>
 </ul>
+<p><img src="/images/2021/PRN115/2.png" alt="Fig 2"></p>
+<h2 id="text-guided-image-colorization">Text-guided Image Colorization</h2>
+<p>IC 任务旨在挖掘文本描述信息来色彩化灰度图，可视为面向像素的回归问题。</p>
+<p>$$\mathcal{L}_{id} = ||f_{ic}(I_{gray}, T_{color} - I_{color})||_{2}^{2}.$$</p>
+<p>采用 U-Net 架构。</p>
+<h2 id="image-guided-text-completion">Image-guided Text Completion</h2>
+<p>利用彩色图像补全文本中色彩词的空缺，可视为 VQA 任务。</p>
+<p>$$\mathcal{L}_{tc} = CrossEntropy(f_{tc}(I_{color}, T_{q}), T_{a}).$$</p>
+<p>采用双线性注意力网络 (Bilinear Attention Network, BAN)。</p>
+<h2 id="generalized-ic-feature-channel-completion">Generalized IC: Feature Channel Completion</h2>
+<p>彩色图像由 YCbCr 三通道构成，而灰度图通过除去 Cb 与 Cr 得到。</p>
+<p>因而 IC 任务可理解为恢复被去除的两个通道。</p>
+<p><img src="/images/2021/PRN115/3.png" alt="Fig 3"></p>
+<h2 id="可视化示例">可视化示例</h2>
+<p><img src="/images/2021/PRN115/4.png" alt="Fig 4"></p>
+<p><img src="/images/2021/PRN115/5.png" alt="Fig 5"></p>
+<p><img src="/images/2021/PRN115/6.png" alt="Fig 6"></p>
+<p><img src="/images/2021/PRN115/7.png" alt="Fig 7"></p>
+<p><img src="/images/2021/PRN115/8.png" alt="Fig 8"></p>
+<p><img src="/images/2021/PRN115/9.png" alt="Fig 9"></p>
+<p><img src="/images/2021/PRN115/10.png" alt="Fig 10"></p>
 
     </div>
 
@@ -274,7 +295,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
