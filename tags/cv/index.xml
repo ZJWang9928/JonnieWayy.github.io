@@ -9,12 +9,12 @@
     <copyright>All rights reserved - 2020</copyright>
     <lastBuildDate>Wed, 17 Nov 2021 20:40:52 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[论文阅读笔记 -- ReID] ASMR: Learning Attribute-Based Person Search (ICCV 2021)</title>
+      <title>[论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn116/</link>
       <pubDate>Wed, 17 Nov 2021 20:40:52 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn116/</guid>
-      <description>ASMR: Learning Attribute-Based Person Search With Adaptive Semantic Margin Regularizer (ICCV 2021) 数据集与开源代码传送门 概述 本文提出一种新的 ReID 任务，即鸟瞰视角下的 ReID，并制作了一个大规模数据集，称为 BV-Per</description>
+      <description>BV-Person: A Large-Scale Dataset for Bird-View Person Re-Identification (ICCV 2021) 数据集与开源代码传送门 概述 本文提出一种新的 ReID 任务，即鸟瞰视角下的 ReID，并制作了一个大规模数据集，称为 BV-Perso</description>
     </item>
     
     <item>
