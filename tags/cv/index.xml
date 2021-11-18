@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 17 Nov 2021 20:40:52 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Nov 2021 09:42:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] CM-NAS for Visible-Infrared Person Re-Identification (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn117/</link>
+      <pubDate>Thu, 18 Nov 2021 09:42:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn117/</guid>
+      <description>CM-NAS: Cross-Modality Neural Architecture Search for Visible-Infrared Person Re-Identification (ICCV 2021) 开源代码传送门 概述 Visible-Infrared ReID 任务。 现有工作多是设计一个 two-stream 架构，因而就产生了一个问题：哪些层应当被分为两个分支，哪些层应该共享</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn116/</link>

@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg35/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn117/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn116/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn116/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn117/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] CM-NAS for Visible-Infrared Person Re-Identification (ICCV 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] CM-NAS for Visible-Infrared Person Re-Identification (ICCV 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021)",
-    "description" : "BV-Person: A Large-Scale Dataset for Bird-View Person Re-Identification (ICCV 2021) 数据集与开源代码传送门 概述 本文提出一种新的 ReID 任务，即鸟瞰视角下的 ReID，并制作了一个大规模数据集，称为 BV-Perso",
+    "name" : "[论文阅读笔记 -- ReID] CM-NAS for Visible-Infrared Person Re-Identification (ICCV 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] CM-NAS for Visible-Infrared Person Re-Identification (ICCV 2021)",
+    "description" : "CM-NAS: Cross-Modality Neural Architecture Search for Visible-Infrared Person Re-Identification (ICCV 2021) 开源代码传送门 概述 Visible-Infrared ReID 任务。 现有工作多是设计一个 two-stream 架构，因而就产生了一个问题：哪些层应当被分为两个分支，哪些层应该共享",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-17 20:40:52 \u002b0800 CST",
-    "dateModified" : "2021-11-17 20:40:52 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn116\/",
-    "wordCount" : "399",
+    "datePublished": "2021-11-18 09:42:55 \u002b0800 CST",
+    "dateModified" : "2021-11-18 09:42:55 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn117\/",
+    "wordCount" : "498",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] CM-NAS for Visible-Infrared Person Re-Identification (ICCV 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-17 itemprop="datePublished">November 17, 2021</time>
+                on <time datetime=2021-11-18 itemprop="datePublished">November 18, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 399 words</span>
+                <span class="post-word-count">, 498 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,46 +189,39 @@
           
           
 
-          <h1 id="bv-person-a-large-scale-dataset-for-bird-view-person-re-identification-iccv-2021">BV-Person: A Large-Scale Dataset for Bird-View Person Re-Identification (ICCV 2021)</h1>
-<p><a href="https://github.com/daidaidouer/BVPerson">数据集与开源代码传送门</a></p>
-<p><img src="/images/2021/PRN116/1.png" alt="Fig 1"></p>
+          <h1 id="cm-nas-cross-modality-neural-architecture-search-for-visible-infrared-person-re-identification-iccv-2021">CM-NAS: Cross-Modality Neural Architecture Search for Visible-Infrared Person Re-Identification (ICCV 2021)</h1>
+<p><a href="https://github.com/JDAI-CV/CM-NAS">开源代码传送门</a></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种新的 ReID 任务，即鸟瞰视角下的 ReID，并制作了一个大规模数据集，称为 BV-Person。</p>
-<h3 id="主要困难">主要困难</h3>
+<p>Visible-Infrared ReID 任务。</p>
+<p>现有工作多是设计一个 two-stream 架构，因而就产生了一个问题：哪些层应当被分为两个分支，哪些层应该共享？</p>
+<p>本文总共设计了 195 中双分支架构来研究不同分离策略的影响，得到了两大发现：</p>
 <ul>
-<li>鸟瞰视角提供的行人外观信息有限</li>
-<li>与平行视角下的行人差异较大</li>
+<li>分离一个块中的 BN 层比分离整个块表现好</li>
+<li>分离两块 BN 层总体上比分离单个的表现好</li>
 </ul>
-<p><img src="/images/2021/PRN116/2.png" alt="Fig 2"></p>
-<h2 id="bv-person-数据集">BV-Person 数据集</h2>
-<h3 id="数据集特征">数据集特征</h3>
-<p><img src="/images/2021/PRN116/T1.png" alt="Tab 1"></p>
-<h3 id="数据集划分">数据集划分</h3>
-<p><img src="/images/2021/PRN116/3.png" alt="Fig 3"></p>
-<p><img src="/images/2021/PRN116/T2.png" alt="Tab 2"></p>
-<p><img src="/images/2021/PRN116/4.png" alt="Fig 4"></p>
-<h2 id="本文方法">本文方法</h2>
-<h3 id="主要挑战">主要挑战</h3>
-<ul>
-<li>难以构建两种视角图像之间的联系</li>
-<li>鸟瞰视角下，头和肩占据了较大区域，但在平行视角下较小，需要在最终的特征里保留这些细小却重要的区域的局部信息</li>
-<li>身体的靠下部分被靠上的部分所遮挡，要学习头和肩的表征以匹配整张图像</li>
-</ul>
-<h3 id="cross-attention-ca-layer">Cross Attention (CA) Layer</h3>
-<p>$$CA(f_{i}^{l}) = softmax(\frac{\alpha Q_{i}^{l} \cdot (K_{i}^{l})^{T} + \sum_{j}^{J} \frac{1-\alpha}{J} Q_{i}^{l} \cdot (K_{j}^{l})^{T}}{\sqrt{d_{k}}}) \cdot V_{i}^{l},$$</p>
-<p>其中 \(J\) 是一个 mini-batch 中与 \(x_{i}\) 属于同一 ID 的图像数量，\(\alpha\) 在文中默认为 0.5。</p>
-<p>CA 层只在训练阶段使用，推断与测试阶段将其用作正常的自注意力层。</p>
-<h3 id="multi-scale-attention-ma-layer">Multi-scale Attention (MA) Layer</h3>
-<p>旨在将低层级的特征信息结合进最终表征。将最后几个卷积层输出的特征图作为输入。</p>
-<p>$$MA(f_{i}^{l}, f_{i}^{l-t}) = softmax(\frac{Q_{i}^{l} \cdot (K_{i}^{l-t})^{T}}{\sqrt{d_{k}}} \cdot V_{i}^{l-t}).$$</p>
-<h3 id="feature-reconstruction-fr-layer">Feature Reconstruction (FR) Layer</h3>
-<p>$$f_{i}^{out} = \sum_{t=0}^{T} \beta_{t} MA(f_{i}^{l}, f_{i}^{l-t}) \cdot W.$$</p>
+<p>因而，本文认为合理分离所有 BN 层对提升跨模态匹配的表现很关键。</p>
+<p>由于 backbone 中 BN 层数目众多，有大量可能的划分策略，本文采用跨模态 NAS (CM-NAS) 自动决定每个 BN 层的分离与否。</p>
+<p><img src="/images/2021/PRN117/2.png" alt="Fig 2"></p>
+<h2 id="对人工设计架构的分析">对人工设计架构的分析</h2>
+<p><img src="/images/2021/PRN117/1.png" alt="Fig 1"></p>
+<h2 id="cross-modality-nas">Cross-Modality NAS</h2>
+<p><img src="/images/2021/PRN117/3.png" alt="Fig 3"></p>
+<h3 id="搜索空间">搜索空间</h3>
+<p>设计了一个面向 BN 的搜索空间，分离与否取决于两个架构参数 \(\alpha_{o^1}^l\) 和 \(\alpha_{o^2}^l\)，将其设置为连续参数以保证能通过梯度下降进行优化，从而可以计算选路几率：</p>
+<p>$$p_{o^i}^l = \frac{exp(\alpha_{o^i}^l)}{exp(\alpha_{o^1}^l) + exp(\alpha_{o^2}^l)}.$$</p>
+<p>故而 BN 层 \(l\) 的输出为所有可能输出的加权和：</p>
+<p>$$x_{l + 1} = p_{o^1}^l \cdot o_{1}(x_{l}) + p_{o^2}^l \cdot o_{2}(x_{l}).$$</p>
+<p>这样一来，搜索过程就转化为了架构参数集合 \(\alpha\) 的学习过程。</p>
+<p>此外，由于网络权重 \(w\) 也需要学习，因而需要解决如下的两级优化问题：</p>
+<p>$$min_{\alpha} \mathcal{L}_{val}(w^{*}, \alpha),$$
+$$s.t. \quad w^{*} = arg \ min_{w} \ \mathcal{L}_{train}(w, \alpha).$$</p>
+<p>训练完成后，对于各 BN 层选取几率大的一路得到最终模型。</p>
 <h3 id="目标函数">目标函数</h3>
-<p>triplet loss + identity loss</p>
-<h2 id="特征可视化">特征可视化</h2>
-<p><img src="/images/2021/PRN116/5.png" alt="Fig 5"></p>
-<h2 id="图像数据对比">图像数据对比</h2>
-<p><img src="/images/2021/PRN116/6.png" alt="Fig 6"></p>
+<p>Class-specific Maximum Mean Discrepancy (CMMD)：</p>
+<p>$$\mathcal{L}_{CMMD} = \frac{1}{C} \sum_{c = 1}^C ||\frac{1}{m^c} \sum_{i=1}^{m^c} \psi(f_{i}^{c, vis}) - \frac{1}{n^c} \sum_{j=1}^{n^c} \psi(f_{j}^{c, ir})||_{\mathcal{H}},$$
+$$k(x, y) = \psi(x)\cdot\psi(y) = (x \cdot y)^2.$$</p>
+<p>Correlation Consistency Loss (CC):</p>
+<p>$$\mathcal{L}_{CC} = \frac{1}{n^2} ||G_{vis} - G_{ir}||_{F}^{2}.$$</p>
 
     </div>
 
@@ -243,7 +236,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn116/>http://jonathanwayy.xyz/2021/prn116/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn117/>http://jonathanwayy.xyz/2021/prn117/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -291,10 +284,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/bg35/" class="prev" rel="prev" title="壁纸分享[35]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[35]</a>
+        <a href="http://jonathanwayy.xyz/2021/prn116/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] BV-Person: A Large-Scale Dataset for Bird-View ReID (ICCV 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn117/" class="next" rel="next" title="[论文阅读笔记 -- ReID] CM-NAS for Visible-Infrared Person Re-Identification (ICCV 2021)">[论文阅读笔记 -- ReID] CM-NAS for Visible-Infrared Person Re-Identification (ICCV 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -303,7 +296,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
