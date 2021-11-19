@@ -67,7 +67,7 @@
     "datePublished": "2021-11-18 16:42:59 \u002b0800 CST",
     "dateModified" : "2021-11-18 16:42:59 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn118\/",
-    "wordCount" : "138",
+    "wordCount" : "410",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 138 words</span>
+                <span class="post-word-count">, 410 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -202,6 +202,21 @@
 <p>本文提出跨模态互训练架构 (Cross-Modal Mutual Training framework, CMMT)。</p>
 <p><img src="/images/2021/PRN118/2.png" alt="Fig 2"></p>
 <h2 id="intra-modal-self-training-by-pseudo-labels">Intra-Modal Self-Training by Pseudo Labels</h2>
+<h3 id="出发点">出发点</h3>
+<p>由于训练集由图文对构成，在理想状况下，两个模态中的聚类结果应当一致，但类内差异会导致不一致。</p>
+<p>因而利用两模态之间的配对关系进一步优化聚类结果。</p>
+<p><img src="/images/2021/PRN118/3.png" alt="Fig 3"></p>
+<h3 id="mutual-pseudo-label-refinement-mplr">Mutual Pseudo Label Refinement (MPLR)</h3>
+<p>进一步挖掘有价值的未聚类实例，而非直接丢弃，以进一步降低各模态内的类内差异。</p>
+<p>对于一个未聚类文本特征 \(t_{i}^{o}\)，可以通过配对实例搜索 (paired instance searching) 找到其配对的视觉实例 \(v_{i}\)：</p>
+<p>$$v_{i} = PIS(t_{i}^{o}).$$</p>
+<p>如果得到的 \(v_{i}\) 也未聚类，则保持 \(t_{i}^{o}\) 未聚类，否则得到其近邻实例：</p>
+<p>$$v_{i}^c = arg max_{v_{i}^{c} \in C_{k}^{v}, v_{i}^{c} \notin U_{k}^{v}} &lt;v_i, v_{i}^{c}&gt;,$$</p>
+<p>进而得到配对的文本实例：</p>
+<p>$$t_{i} = PIS(v_{i}^{c}),$$</p>
+<p>如果 \(t_{i} \in t^c\)，则将未聚类特征加入到配对实例所在的聚类中：</p>
+<p>$$C_{k}^{t} \leftarrow [C_{k}^{t}, t_{i}^{o}].$$</p>
+<h2 id="text-iou-guided-cross-modal-projection-matching">Text-IoU Guided Cross-Modal Projection Matching</h2>
 
     </div>
 
@@ -276,7 +291,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
