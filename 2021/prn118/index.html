@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-18 16:42:59 \u002b0800 CST",
-    "dateModified" : "2021-11-18 16:42:59 \u002b0800 CST",
+    "datePublished": "2021-11-19 16:42:59 \u002b0800 CST",
+    "dateModified" : "2021-11-19 16:42:59 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn118\/",
-    "wordCount" : "410",
+    "wordCount" : "623",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -160,7 +160,7 @@
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-18 itemprop="datePublished">November 18, 2021</time>
+                on <time datetime=2021-11-19 itemprop="datePublished">November 19, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 410 words</span>
+                <span class="post-word-count">, 623 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -217,6 +217,22 @@
 <p>如果 \(t_{i} \in t^c\)，则将未聚类特征加入到配对实例所在的聚类中：</p>
 <p>$$C_{k}^{t} \leftarrow [C_{k}^{t}, t_{i}^{o}].$$</p>
 <h2 id="text-iou-guided-cross-modal-projection-matching">Text-IoU Guided Cross-Modal Projection Matching</h2>
+<h3 id="cross-modal-projection-matching">Cross-Modal Projection Matching</h3>
+<p>$$p_{i, j} = \frac{exp(&lt;t_{i}, \overline{v}_{j}&gt;)}{\sum_{k=1}^{B} exp(&lt;t_{i}, \overline{v}_{k}&gt;)}.$$</p>
+<h3 id="text-iou">Text-IoU</h3>
+<p>若两条文本描述来自同一个行人，则句中的名词短语总是相同或近义的。</p>
+<p><img src="/images/2021/PRN118/4.png" alt="Fig 4"></p>
+<h3 id="text-iou-guided-cross-modal-cross-modal-projection-matching-loss">Text-IoU Guided Cross-Modal Cross-Modal Projection Matching Loss</h3>
+<p>$$q_{i, j} = \frac{IoU_{i, j}^{t}}{\sum_{k=1}^{B} (IoU_{i, k}^{t})},$$
+$$L_{M} = -\frac{1}{B} \sum_{i=1}^B \sum_{j=1}^B p_{i, j} log(\frac{p_{i, j}}{q_{i, j} + \epsilon}).$$</p>
+<h2 id="text-iou-guided-hard-sample-mining">Text-IoU Guided Hard Sample Mining</h2>
+<h3 id="text-iou-guided-cross-modal-hard-sample-mining">Text-IoU Guided Cross-Modal Hard Sample Mining</h3>
+<p>若一对图文特征有较高的跨模态特征相似度，则称之为一个跨模态相似对 (cross-modal similar pair)，本文假设若相似对相应的两个文本描述有较高的 Text-IoU 分数，则其可能是一个 positive pair，否则可能是一个 hard negative pair。</p>
+<p>从而得到正负集合 \(\mathcal{P}\) 与 \(\mathcal{Q}\)。</p>
+<h3 id="text-iou-guided-intra-modal-hard-sample-mining">Text-IoU Guided Intra-Modal Hard Sample Mining</h3>
+<p>方法类似。</p>
+<h2 id="结果示例">结果示例</h2>
+<p><img src="/images/2021/PRN118/5.png" alt="Fig 5"></p>
 
     </div>
 
@@ -291,7 +307,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
