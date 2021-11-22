@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>occuluded on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/occuluded/</link>
+    <description>Recent content in occuluded on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Mon, 22 Nov 2021 15:13:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/occuluded/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn120/</link>
+      <pubDate>Mon, 22 Nov 2021 15:13:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn120/</guid>
+      <description>Occlude Them All: Occlusion-Aware Attention Network for Occluded Person Re-ID (ICCV 2021) 概述 将遮挡按如下分类 4 locations: top, bottom, left, right 2 areas: half, quarter 本文提出一种遮挡可知的掩码网络 (Occlusion-Aware Mask Network, OAMN)，包含三个主要部件： attention-guided mask module occlusion augmentation</description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- ReID] Occluded ReID With Single-Scale Global Representation (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn119/</link>
+      <pubDate>Sat, 20 Nov 2021 17:40:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn119/</guid>
+      <description>Occluded Person Re-Identification With Single-Scale Global Representations (ICCV 2021) 数据集传送门（尚未更新） 概述 本文提出一种新的 ReID 模型，学习单尺度全局级别的行人表征 (single-scale global-level pedestrian representations)。 构</description>
+    </item>
+    
+  </channel>
+</rss>
