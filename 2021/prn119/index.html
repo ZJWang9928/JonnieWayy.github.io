@@ -67,7 +67,7 @@
     "datePublished": "2021-11-20 17:40:34 \u002b0800 CST",
     "dateModified" : "2021-11-20 17:40:34 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn119\/",
-    "wordCount" : "221",
+    "wordCount" : "775",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 221 words</span>
+                <span class="post-word-count">, 775 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,7 +194,7 @@
 <p><img src="/images/2021/PRN119/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
 <p>本文提出一种新的 ReID 模型，学习单尺度全局级别的行人表征 (single-scale global-level pedestrian representations)。</p>
-<p>构建了一个新的遮挡 ReID 数据集。</p>
+<p>构建了一个新的遮挡 ReID 数据集，称为 OPReID。</p>
 <p><img src="/images/2021/PRN119/2.png" alt="Fig 2"></p>
 <h2 id="non-occuluded-feature-learning">Non-occuluded Feature Learning</h2>
 <h3 id="occlusion-based-data-augmentation">Occlusion-based Data Augmentation</h3>
@@ -205,7 +205,30 @@
 </ul>
 <p>得到两个增广后的 batch，拼成一个大的 batch 后作为模型的输入。</p>
 <h3 id="dnl-enabled-backbone-and-reconstructive-pooling">DNL-enabled Backbone and Reconstructive Pooling</h3>
-<p>采用 Disentangled Non-Local (DNL) 操作更好地提取非遮挡特征。</p>
+<p>采用 Disentangled Non-Local (DNL) 操作更好地提取非遮挡特征，通过计算所有位置上特征的加权和得到一个位置上的 neuron activation。</p>
+<p>在 ResNet-50 的第 2、第 3 阶段分别加上 2、3 个 DNL 层，DNL 的 pair-wise activation 计算如下：</p>
+<p>$$w(f_{i}, f_{j}) = softmax((W^q f_{i} - \mu_{q})^T (W^k f_{i} - \mu_{k})) + softmax(W^m f_{j}),$$</p>
+<p>其中 \(f_{i}\) 是特征图在位置 \(i\) 上的 \(c\) 维特征，\(W^q, W^k \in \mathbb{R}^{c \times c}\)，\(W^m \in \mathbb{R}^{1 \times c}\)，两个 \(\mu\) 是相应 key 或 query 的均值。</p>
+<p>位置 \(i\) 的输出为 \(\sum_{j} w(f_{i}, f_{j}) \cdot W^{v} f_{i}\)，其中 \(W^v \in \mathbb{R}^{c \times c}\)。</p>
+<p>定义了一个新的重构池化操作 (reconstructive pooling) 并合入 backbone：</p>
+<p>$$f_{r} = (W^v F) softmax(W^m F)^T,$$</p>
+<p>其中 \(F \in \mathbb{R}^{c \times wh}\) 是最终的特征图，前一项类似与金字塔匹配架构中的重构项，将完整图像特征重构为遮挡图像特征，后一项相当于通道上的特征选择层。该操作作用于 backbone 最后一个特征图以汇聚未遮挡特征，只在训练中使用，推断时直接用全局池化后的特征。</p>
+<h3 id="bounded-exponential-distance-bed-loss">Bounded Exponential Distance (BED) Loss</h3>
+<p>$$L_{bed}(x_{i}, x_{j}) = y_{ij}(1 - e^{-\alpha d(z_{i}, z_{j})}) + (1 - y_{ij}) e^{\alpha d(z_{i}, z_{j})},$$</p>
+<p>其中 \(z_{i} = \phi(x_{i})\)，\(d(\cdot, \cdot)\) 是 \(l_{2}\) 距离。</p>
+<p><img src="/images/2021/PRN119/3.png" alt="Fig 3"></p>
+<h3 id="完整的损失函数">完整的损失函数</h3>
+<p>$$L = L_{bed}^{rpf} + L_{bed}^{gf} + L_{c},$$
+$$L_{c} = \sum_{i}^{H} \mathbb{E}(\overline{Y}_{i}, Y_{i}),$$</p>
+<p>\(L_{c}\) 为基于交叉熵的多头分类损失，本文中取 \(H = 2\)。</p>
+<p>在真实场景 ReID 中通常存在长尾分布问题，本文采用 bad Momentum-effect Elimination (ME) 策略缓解该问题。</p>
+<p>SGD 优化过程中的动量会受到样本较多类别的主导，因而这里维护一个持续更新的均值特征向量，以捕捉动量转变：</p>
+<p>$$\mu_{t} = \beta \mu_{t - 1} + (1 - \beta) \cdot \widetilde{f}_{g},$$</p>
+<p>其中 \(\widetilde{f}_{g} = \frac{1}{B} \sum_{z \in \mathcal{B}} z\)，在推断时减去最终的 \(\mu\) 从而消除偏差。</p>
+<h2 id="数据集对比">数据集对比</h2>
+<p><img src="/images/2021/PRN119/T2.png" alt="Tab 2"></p>
+<p><img src="/images/2021/PRN119/4.png" alt="Fig 4"></p>
+<p><img src="/images/2021/PRN119/5.png" alt="Fig 5"></p>
 
     </div>
 
@@ -280,7 +303,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
