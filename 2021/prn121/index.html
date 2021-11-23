@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg37/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn121/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn120/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn120/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn121/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021)",
-    "description" : "Occlude Them All: Occlusion-Aware Attention Network for Occluded Person Re-ID (ICCV 2021) 概述 将遮挡按如下分类 4 locations: top, bottom, left, right 2 areas: half, quarter 本文提出一种遮挡可知的掩码网络 (Occlusion-Aware Mask Network, OAMN)，包含三个主要部件： attention-guided mask module occlusion augmentation",
+    "name" : "[论文阅读笔记 -- ReID \/ 频域] HLFNet: High-low Frequency Network for Person ReID (2021)",
+    "headline" : "[论文阅读笔记 -- ReID \/ 频域] HLFNet: High-low Frequency Network for Person ReID (2021)",
+    "description" : "HLFNet: High-low Frequency Network for Person Re-Identification (IEEE Signal Processing Letters 2021) 概述 本文提出一种高低频网络 (high-low frequency network, HLFNet)。 Frequency Splitting Module (FSM) 利用 guide filter 将原始图像分为高低频图像： $$I_{l} = \\mathcal{G}(I_{o}),$$ $$I_{h} = I_{o} \/ (I_{l} \u002b eps).$$ 将得到",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-22 15:13:24 \u002b0800 CST",
-    "dateModified" : "2021-11-22 15:13:24 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn120\/",
-    "wordCount" : "775",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occuluded", "Jonathan`s Blog"]
+    "datePublished": "2021-11-23 14:29:09 \u002b0800 CST",
+    "dateModified" : "2021-11-23 14:29:09 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn121\/",
+    "wordCount" : "119",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","frequency", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-22 itemprop="datePublished">November 22, 2021</time>
+                on <time datetime=2021-11-23 itemprop="datePublished">November 23, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 775 words</span>
+                <span class="post-word-count">, 119 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,56 +189,17 @@
           
           
 
-          <h1 id="occlude-them-all-occlusion-aware-attention-network-for-occluded-person-re-id-iccv-2021">Occlude Them All: Occlusion-Aware Attention Network for Occluded Person Re-ID (ICCV 2021)</h1>
-<p><img src="/images/2021/PRN120/1.png" alt="Fig 1"></p>
+          <h1 id="hlfnet-high-low-frequency-network-for-person-re-identification-ieee-signal-processing-letters-2021">HLFNet: High-low Frequency Network for Person Re-Identification (IEEE Signal Processing Letters 2021)</h1>
 <h2 id="概述">概述</h2>
-<h3 id="将遮挡按如下分类">将遮挡按如下分类</h3>
-<ul>
-<li>4 locations: top, bottom, left, right</li>
-<li>2 areas: half, quarter</li>
-</ul>
-<p><img src="/images/2021/PRN120/2.png" alt="Fig 2"></p>
-<p>本文提出一种遮挡可知的掩码网络 (Occlusion-Aware Mask Network, OAMN)，包含三个主要部件：</p>
-<ul>
-<li>attention-guided mask module</li>
-<li>occlusion augmentation</li>
-<li>occlusion unification</li>
-</ul>
-<p>这些部件使得现有的注意力机制能够精准捕捉身体部分，不受遮挡的干扰。</p>
-<p><img src="/images/2021/PRN120/3.png" alt="Fig 3"></p>
-<h2 id="occlusion-augmentation">Occlusion Augmentation</h2>
-<p>旨在生成多样化并带标签的遮挡数据。</p>
-<h3 id="三步过程">三步过程</h3>
-<ul>
-<li>随机选取一张训练图像 \(x\)，从中切下一个长方形 patch \(p\)</li>
-<li>将 p 变为输入图像的一半或四分之一</li>
-<li>将其放入输入图像四个区域中的某一个</li>
-</ul>
-<p>为了避免切下带有行人的部分，从图像角落开始，具体方法参看原文，从而可以得到四种遮挡后的图像。</p>
-<h2 id="attention-guided-mask-module">Attention-Guided Mask Module</h2>
-<p>利用 RGA-S 生成空间权重图 (spatial weight map)，由于纹理特征会误导网络的注意力，这里使用中间层特征来捕捉轮廓信息。</p>
-<p>$$m^p = M(f^p),$$
-$$g^p = m^p \odot f^p.$$</p>
-<p>文中引入两种约束来指导掩码特征的学习。</p>
-<p>首先，即使输入的是遮挡数据，网络应尽可能捕捉完整的行人特征。本文所用到的增广方式使得遮挡图像与完整图像中的行人部分是相同的，因而其注意力掩码应关注相同的区域，故最小化遮挡与完整特征注意力部分之间的 \(l_{2}\) 距离：</p>
-<p>$$\mathcal{L}_{mask1} = \frac{1}{n} \sum_{p \in \mathcal{P} = \{t, b, l, r\}} \sum_{i=1}^{B} ||(f_{i} - f_{i}^p) \odot m^p||_{2}^2.$$</p>
-<p>再者，对称遮挡的两张图，理想情况下在结合后应当能够捕捉到完整的信息：</p>
-<p>$$\mathcal{L}_{mask2} = \frac{1}{|\mathcal{I}|} \sum_{i \in \mathcal{I}} (||g_{i}^t + g_{i}^b - g_{i}||_{2}^2 + ||g_{i}^l + g_{i}^r - g_{i}||_{2}^2).$$</p>
-<p>使用遮挡一半的图像。</p>
-<h2 id="grouped-triplet-loss">Grouped Triplet Loss</h2>
-<p>旨在分别处理不同类型的遮挡，定义为</p>
-<p>$$\mathcal{L}_{tri-g} = \frac{1}{|\mathcal{P}'|} \sum_{p \in \mathcal{P}'} \sum_{i=1}^{B} = \mathcal{L}_{tri} (h_{i}^p, h_{i-p}^p, h_{i=n}^p),$$</p>
-<p>其中 \(\mathcal{P}'\) 表示所有遮挡区域加上无遮挡情况。</p>
-<h2 id="occlusion-unification">Occlusion Unification</h2>
-<p>测试阶段与训练阶段不同，需要避免遮挡的多样性，因此采用 occlude them all 策略。</p>
-<p>利用增广后的遮挡数据学习一个 supervised grader，在测试阶段识别输入图像的遮挡类别。</p>
-<p>采用一个基于阈值的遮挡打分器 \(T\)，全连接层加 softmax，输出一个四维分数向量 \(s = \{s^t, s^b, s^l, s^r\}\)。</p>
-<p>训练阶段将增广数据 \(x^p\) 的分数 \(s\) 定义为 \(s^p = 2 \cdot a_{aug}\)，用如下损失训练打分器：</p>
-<p>$$\mathcal{L}_{score} = \frac{1}{n \cdot |\mathcal{P}'|} \sum_{p \in \mathcal{\mathcal{P}'}} \sum_{i=1}^{B} ||T(g_{i}^p) - s_{i}||_{2}^2.$$</p>
-<p>测试阶段，基于阈值决定遮挡类型。</p>
-<p>将所有的候选图像用目标行人同样的遮挡区域进行遮挡。</p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2021/PRN120/4.png" alt="Fig 4"></p>
+<p>本文提出一种高低频网络 (high-low frequency network, HLFNet)。</p>
+<p><img src="/images/2021/PRN121/1.png" alt="Fig 1"></p>
+<h2 id="frequency-splitting-module-fsm">Frequency Splitting Module (FSM)</h2>
+<p>利用 guide filter 将原始图像分为高低频图像：</p>
+<p>$$I_{l} = \mathcal{G}(I_{o}),$$
+$$I_{h} = I_{o} / (I_{l} + eps).$$</p>
+<p>将得到的高低频图像分别与原始图像拼接作为输入，backbone 的输入通道从 3 改为 6。</p>
+<h3 id="fsm-生成高低频图像示例">FSM 生成高低频图像示例</h3>
+<p><img src="/images/2021/PRN121/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -253,7 +214,7 @@ $$g^p = m^p \odot f^p.$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn120/>http://jonathanwayy.xyz/2021/prn120/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn121/>http://jonathanwayy.xyz/2021/prn121/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -291,8 +252,8 @@ $$g^p = m^p \odot f^p.$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
                     #ReID</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/occuluded/">
-                    #occuluded</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
+                    #frequency</a></span>
             
             </section>
         
@@ -304,10 +265,10 @@ $$g^p = m^p \odot f^p.$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/bg37/" class="prev" rel="prev" title="壁纸分享[37]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[37]</a>
+        <a href="http://jonathanwayy.xyz/2021/prn120/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn121/" class="next" rel="next" title="[论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021)">[论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -316,7 +277,7 @@ $$g^p = m^p \odot f^p.$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

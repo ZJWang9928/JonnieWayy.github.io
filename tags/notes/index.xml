@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 22 Nov 2021 15:13:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Nov 2021 14:29:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn121/</link>
+      <pubDate>Tue, 23 Nov 2021 14:29:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn121/</guid>
+      <description>HLFNet: High-low Frequency Network for Person Re-Identification (IEEE Signal Processing Letters 2021) 概述 本文提出一种高低频网络 (high-low frequency network, HLFNet)。 Frequency Splitting Module (FSM) 利用 guide filter 将原始图像分为高低频图像： $$I_{l} = \mathcal{G}(I_{o}),$$ $$I_{h} = I_{o} / (I_{l} + eps).$$ 将得到</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Occlude Them All: Occlusion-Aware Attention Network (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn120/</link>
