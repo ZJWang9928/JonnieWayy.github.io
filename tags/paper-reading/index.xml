@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 23 Nov 2021 14:29:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Nov 2021 12:41:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] GreyReID: Two-stream Framework with RGB-grey Information (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn122/</link>
+      <pubDate>Wed, 24 Nov 2021 12:41:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn122/</guid>
+      <description>GreyReID: A Novel Two-stream Deep Framework with RGB-grey Information for Person Re-identification (TOMM 2021) 概述 着重关注不同行人之间色彩信息相似的问题，本文称之为 ReID 的色彩过拟合 (color over-fitting)。 RGB 图像与灰度图</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn121/</link>
