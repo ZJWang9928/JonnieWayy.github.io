@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 24 Nov 2021 12:41:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2021 10:10:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] SphereReID: Deep Hypersphere Manifold Embedding for ReID (2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn123/</link>
+      <pubDate>Thu, 25 Nov 2021 10:10:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn123/</guid>
+      <description>SphereReID: Deep Hypersphere Manifold Embedding for Person Re-identification (2019) 概述 本文提出一种 metric-based 的架构，称为 SphereReID，引入一个新的损失函数 Sphere Loss。 Softmax Loss $$L_{softmax} = -\frac{1}{N} \sum_{i= 1}^{N} log \frac{e^{z_{y_{i}}}}{\sum_{j=1}^C e^{e^{z_{j}}}},$$ $$z_{j} = W_{j}^T x = ||W_{j}||||x|| cos \theta_{j}.$$ 其</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] GreyReID: Two-stream Framework with RGB-grey Information (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn122/</link>
