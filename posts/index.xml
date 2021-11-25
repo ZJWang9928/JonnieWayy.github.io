@@ -23,7 +23,7 @@
       <pubDate>Thu, 25 Nov 2021 10:10:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn123/</guid>
-      <description>SphereReID: Deep Hypersphere Manifold Embedding for Person Re-identification (2019) 概述 本文提出一种 metric-based 的架构，称为 SphereReID，引入一个新的损失函数 Sphere Loss。 Softmax Loss $$L_{softmax} = -\frac{1}{N} \sum_{i= 1}^{N} log \frac{e^{z_{y_{i}}}}{\sum_{j=1}^C e^{e^{z_{j}}}},$$ $$z_{j} = W_{j}^T x = ||W_{j}||||x|| cos \theta_{j}.$$ 其</description>
+      <description>SphereReID: Deep Hypersphere Manifold Embedding for Person Re-identification (2019) 开源代码传送门 概述 本文提出一种 metric-based 的架构，称为 SphereReID，引入一个新的损失函数 Sphere Loss。 Softmax Loss $$L_{softmax} = -\frac{1}{N} \sum_{i= 1}^{N} log \frac{e^{z_{y_{i}}}}{\sum_{j=1}^C e^{e^{z_{j}}}},$$ $$z_{j} =</description>
     </item>
     
     <item>
