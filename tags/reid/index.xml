@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 26 Nov 2021 13:08:31 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 15:23:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn125/</link>
+      <pubDate>Fri, 26 Nov 2021 15:23:07 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn125/</guid>
+      <description>View Confusion Feature Learning for Person Re-identification (ICCV 2019) 概述 本文提出一种视角混淆特征学习模型 (View Confusion Feature Learning, VCFL)，通过结合 view-generic 与 view-specific 模型学习 view-invariant 的特征。 从三个层面实现视角混淆： 基于分类器</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] CMReID via Modality Confusion and Center Aggregation(ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn124/</link>

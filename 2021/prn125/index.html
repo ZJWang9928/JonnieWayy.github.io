@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn123/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn125/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn124/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn124/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn125/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] CMReID via Modality Confusion and Center Aggregation(ICCV 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] CMReID via Modality Confusion and Center Aggregation(ICCV 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] CMReID via Modality Confusion and Center Aggregation(ICCV 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] CMReID via Modality Confusion and Center Aggregation(ICCV 2021)",
-    "description" : "Cross-Modality Person Re-Identification via Modality Confusion and Center Aggregation (ICCV 2021) 概述 本文提出一种端到端的模态混淆学习网络 (Modality Confusion Learning network, MCLNet)，其核心想法在于混淆特征学习过程中的模态鉴别，使得优化显",
+    "name" : "[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)",
+    "headline" : "[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)",
+    "description" : "View Confusion Feature Learning for Person Re-identification (ICCV 2019) 概述 本文提出一种视角混淆特征学习模型 (View Confusion Feature Learning, VCFL)，通过结合 view-generic 与 view-specific 模型学习 view-invariant 的特征。 从三个层面实现视角混淆： 基于分类器",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-26 13:08:31 \u002b0800 CST",
-    "dateModified" : "2021-11-26 13:08:31 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn124\/",
-    "wordCount" : "437",
+    "datePublished": "2021-11-26 15:23:07 \u002b0800 CST",
+    "dateModified" : "2021-11-26 15:23:07 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn125\/",
+    "wordCount" : "384",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] CMReID via Modality Confusion and Center Aggregation(ICCV 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 437 words</span>
+                <span class="post-word-count">, 384 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,34 +189,39 @@
           
           
 
-          <h1 id="cross-modality-person-re-identification-via-modality-confusion-and-center-aggregation-iccv-2021">Cross-Modality Person Re-Identification via Modality Confusion and Center Aggregation (ICCV 2021)</h1>
-<p><img src="/images/2021/PRN124/1.png" alt="Fig 1"></p>
+          <h1 id="view-confusion-feature-learning-for-person-re-identification-iccv-2019">View Confusion Feature Learning for Person Re-identification (ICCV 2019)</h1>
+<p><img src="/images/2021/PRN125/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种端到端的模态混淆学习网络 (Modality Confusion Learning network, MCLNet)，其核心想法在于混淆特征学习过程中的模态鉴别，使得优化显式关注与模态无关的方面。</p>
-<p><img src="/images/2021/PRN124/2.png" alt="Fig 2"></p>
-<h2 id="特征提取器">特征提取器</h2>
-<p>用 AGW 作为 baseline，双分支网络第一个块独立，后四个块参数共享。</p>
-<h2 id="模态混淆学习">模态混淆学习</h2>
-<p>构建一个模块混淆模块 (Modality Confusion Module, MCM)，实现为一个两层的分类器。对于每张图像 \(x_{i}\)，有一个身份标签 \(y_{i}\)、一个真实模态标签 \(t_{i}\) 以及一个混淆模态标签 \(o_{i}\)，M 输出一个模态预测几率 \(p_{m}(f_{x_{i}})\)，其损失函数为：</p>
-<p>$$\mathcal{L}_{m}(\theta_{m}) = -\frac{1}{N} \sum_{i=1}^{N} t_{i} \cdot log p_{m}(f_{x_{i}}, \theta_{m}; \theta_{e}).$$</p>
-<p>特征提取器的损失函数为：</p>
-<p>$$\mathcal{L}_{e}(\theta_{e}) = -\frac{1}{N} \sum_{i=1}^{N} o_{i} \cdot log p_{m}(f_{x_{i}}, \theta_{e}; \theta_{m}).$$</p>
-<p>交替优化二者：</p>
-<p>$$\mathcal{L}(\theta_{m}, \theta_{e}) = \mathcal{L}_{m}(\theta_{m}) + \mathcal{L}_{e}(\theta_{e}),$$
-$$\hat{\theta}_{m} = arg \ min_{\theta_{m}} \mathcal{L}(\theta_{m}, \hat{\theta}_{e}),$$
-$$\hat{\theta}_{e} = arg \ min_{\theta_{e}} \mathcal{L}(\hat{\theta}_{m}, \theta_{e}).$$</p>
-<p><img src="/images/2021/PRN124/3.png" alt="Fig 3"></p>
-<h2 id="identity-aware-marginal-center-aggregation-ica">Identity-aware Marginal Center Aggregation (ICA)</h2>
-<p>Center Loss:</p>
-<p>$$\mathcal{L}_{c} = \frac{1}{N} \sum_{i=1}^{N} ||f_{x_{i}} - c_{y_{i}}||_{2}^2.$$</p>
-<p>但是直接聚集来自两个模态相同 id 的图像会牺牲不同行人图像的多样性，从而影响泛化能力。</p>
-<p>ICA 策略的损失：</p>
-<p>$$\mathcal{L}_{ica} = \frac{1}{N} \sum_{i=1}^N [||f_{x_{i}} - c_{y_{i}}||_{2}^{2} - ||f_{y_{i}}^{o} - c_{y_{i}}||_{2}^2 - \sigma]_{+} + \frac{1}{N} \sum_{i=1}^N [\rho - min_{y_{j} \ne y_{i}} ||c_{y_{i}} - c_{y_{j}}||_{2}^{2}]_{+}.$$</p>
-<p><img src="/images/2021/PRN124/4.png" alt="Fig 4"></p>
-<h2 id="camera-aware-marginal-center-aggregation-cca">Camera-aware Marginal Center Aggregation (CCA)</h2>
-<p>$$\mathcal{L}_{cca} = \frac{1}{N} \sum_{i=1}^N [||f_{x_{i}} - c_{r_{i}}||_{2}^{2} - ||f_{r_{i}}^{o} - c_{r_{i}}||_{2}^2 - \sigma]_{+} + \frac{1}{N} \sum_{i=1}^N [\rho - min_{r_{j} \ne r_{i}} ||c_{r_{i}} - c_{r_{j}}||_{2}^{2}]_{+}.$$</p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2021/PRN124/5.png" alt="Fig 5"></p>
+<p>本文提出一种视角混淆特征学习模型 (View Confusion Feature Learning, VCFL)，通过结合 view-generic 与 view-specific 模型学习 view-invariant 的特征。</p>
+<p>从三个层面实现视角混淆：</p>
+<ul>
+<li>基于分类器的混淆</li>
+<li>基于特征的混淆</li>
+<li>基于 sift 的混淆</li>
+</ul>
+<p><img src="/images/2021/PRN125/2.png" alt="Fig 2"></p>
+<h2 id="本文方法">本文方法</h2>
+<h3 id="特征学习">特征学习</h3>
+<p>基本架构选用 googlenet 或 resnet，损失函数用三元组损失。</p>
+<h3 id="视角信息-vi">视角信息 (VI)</h3>
+<p>视角信息分为前、后、左、右四种，采用一个视角分支 (view branch) 进行预测。</p>
+<h3 id="基于分类器的混淆">基于分类器的混淆</h3>
+<p>特征提取器 + 视角分类器，采用对抗学习策略。</p>
+<p>后者旨在将特征分类为特定视角，前者旨在学习能被分类器分类为 common 视角的特征。</p>
+<p>损失函数为：</p>
+<p>$$L(\theta_{f}, \theta_{d}) = L_{f}(\theta_{f}) + L_{d}(\theta_{f}, \theta_{d}),$$
+$$\hat{\theta}_{f} = arg \ min_{\theta_{f}} \mathcal{L}(\theta_{f}, \hat{\theta}_{d}),$$
+$$\hat{\theta}_{d} = arg \ min_{\theta_{d}} \mathcal{L}(\hat{\theta}_{f}, \theta_{d}).$$</p>
+<h3 id="基于特征的混淆">基于特征的混淆</h3>
+<p>基于 center loss，目的在于使得各个样本同时与视角中心以及整体中心接近：</p>
+<p>$$L_{cen} = \frac{1}{2} \sum_{i=1}^{N} ||h(I_{i}) - h(C_{y_{i}})||_{2}.$$</p>
+<h3 id="基于-sift-的混淆">基于 sift 的混淆</h3>
+<p>将 sift 特征与深度特征结合。使用 BOW 模型提取 sift-bow 向量，由于 sift 特征是独立于视角的，深度特征与之越接近则说明其越独立于视角。因而损失定义为：</p>
+<p>$$L_{sg} = \sum_{i=1}^{N} ||f(x_{i}) - g(x_{o})||_{2}.$$</p>
+<h2 id="特征可视化">特征可视化</h2>
+<p><img src="/images/2021/PRN125/3.png" alt="Fig 3"></p>
+<h2 id="检索结果可视化">检索结果可视化</h2>
+<p><img src="/images/2021/PRN125/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -231,7 +236,7 @@ $$\hat{\theta}_{e} = arg \ min_{\theta_{e}} \mathcal{L}(\hat{\theta}_{m}, \theta
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn124/>http://jonathanwayy.xyz/2021/prn124/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn125/>http://jonathanwayy.xyz/2021/prn125/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -279,10 +284,10 @@ $$\hat{\theta}_{e} = arg \ min_{\theta_{e}} \mathcal{L}(\hat{\theta}_{m}, \theta
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn123/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] SphereReID: Deep Hypersphere Manifold Embedding for ReID (2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] SphereReID: Deep Hypersphere Manifold Embedding for ReID (2019)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn124/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] CMReID via Modality Confusion and Center Aggregation(ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] CMReID via Modality Confusion and Center Aggregation(ICCV 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn125/" class="next" rel="next" title="[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)">[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -291,7 +296,7 @@ $$\hat{\theta}_{e} = arg \ min_{\theta_{e}} \mathcal{L}(\hat{\theta}_{m}, \theta
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
