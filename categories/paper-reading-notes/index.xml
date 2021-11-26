@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 26 Nov 2021 15:23:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 16:19:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Matching on Sets: Conquer OcReID Without Alignment (AAAI 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn126/</link>
+      <pubDate>Fri, 26 Nov 2021 16:19:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn126/</guid>
+      <description>Matching on Sets: Conquer Occluded Person Re-Identification Without Alignment (AAAI 2021) 概述 本文提出一种在集合上匹配 (Matching on Sets, MoS) 的方法，从而避免复杂而又容易出错的空间对齐过程。 考虑到卷积特征通道通常会编码视觉模</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn125/</link>
