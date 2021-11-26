@@ -223,14 +223,14 @@
 <p>模型的整体损失函数为：</p>
 <p>$$L = L_{adv}^{C} + \lambda L_{GAN} + \gamma L_{hinge},$$</p>
 <p>其中，\(L_{adv}^{C}\) 是用于欺骗目标分类器 \(C\) 的损失，表示为：</p>
-<p>$$L_{adv}^{C} = \mathbb{E}_{x} l_{C}(x + G(x), t),$$</p>
+<p>$$L_{adv}^{C} = \mathbb{E}<em>{x} l</em>{C}(x + G(x), t),$$</p>
 <p>\(l_{C}\) 表示用于训练目标分类器 \(C\) 的损失函数。</p>
 <p>\(L_{GAN}\) 是对抗损失，用于 GAN 的训练。第一阶段为：</p>
-<p>$$L_{GAN}^{1} = \mathbb{E}_{x} log D(A(x, t)) + \mathbb{E}_{x} log(1 - D(x + G(x, t))),$$</p>
+<p>$$L_{GAN}^{1} = \mathbb{E}<em>{x} log D(A(x, t)) + \mathbb{E}</em>{x} log(1 - D(x + G(x, t))),$$</p>
 <p>第二阶段为：</p>
-<p>$$L_{GAN}^{2} = \mathbb{E}_{x} log D(x) + \mathbb{E}_{x} log(1 - D(x + G(x, t))),$$</p>
+<p>$$L_{GAN}^{2} = \mathbb{E}<em>{x} log D(x) + \mathbb{E}</em>{x} log(1 - D(x + G(x, t))),$$</p>
 <p>\(L_{hinge}\) 是合页损失 (hinge loss)，用于对扰动的大小进行限制：</p>
-<p>$$L_{hinge} = \mathbb{E}_{x} max(0, ||G(x)||_{2} - c),$$</p>
+<p>$$L_{hinge} = \mathbb{E}<em>{x} max(0, ||G(x)||</em>{2} - c),$$</p>
 <p>其中 \(c\) 表示一个人为定义的常量。</p>
 <h2 id="攻击成功率对比">攻击成功率对比</h2>
 <p><img src="/images/2021/PRN22/3.png" alt="Fig 3"></p>

@@ -244,7 +244,7 @@ $$\mathcal{F}_{H} *_{G} s = U[(\epsilon - 1)I - \Lambda]U^Tx = \mathcal{F}_{H} \
 <h2 id="信号聚合">信号聚合</h2>
 <p><img src="/images/2021/PRN26/3.png" alt="Fig 3"></p>
 <p>模型输入为节点特征 \(H = \{h_{1}, \cdots, \h_{N}\} \in \mathbb^{N \times F}\)。引入注意力机制学习高低频的比重：</p>
-<p>$$\widetilde{h}_{i} = \alpha_{ij}^{L}(\mathcal{F}_{L} \cdot H)_{i} + \alpha_{ij}^{H}(\mathcal{F}_{H} \cdot H)_{i} = \epsilon h_{i} + \sum_{j \in \mathcal{N}_{i}} \frac{\alpha_{ij}^L - \alpha_{ij}^H}{\sqrt{d_{i}d_{j}}} h_{j},$$</p>
+<p>$$\widetilde{h}_{i} = \alpha_{ij}^{L}(\mathcal{F}_{L} \cdot H)<em>{i} + \alpha</em>{ij}^{H}(\mathcal{F}_{H} \cdot H)_{i} = \epsilon h_{i} + \sum_{j \in \mathcal{N}_{i}} \frac{\alpha_{ij}^L - \alpha_{ij}^H}{\sqrt{d_{i}d_{j}}} h_{j},$$</p>
 <p>其中 \(\widetilde{h}_{i}\) 为聚合后的节点 \(i\)，\(\mathcal{N}_{i}\) 和 \(d_{i}\) 分别表示邻居节点集合与节点 \(i\) 的度。令 \(\alpha_{ij}^L + \alpha_{ij}^H = 1\) 且 \(\alpha_{ij}^G = \alpha_{ij}^L - \alpha_{ij}^H\)。</p>
 <p>可以从两个角度解释 \(\alpha_{ij}^G\)：</p>
 <ul>

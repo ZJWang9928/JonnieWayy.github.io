@@ -227,7 +227,7 @@
 <p>\[c_{k} = \lambda \cdot \sum_{i=1}^{t}\alpha_{k, i}v_{ap}^{k, i},\]</p>
 <p>其中 \(\lambda\) 是二值掩码向量，用于排除标记为空值的缺失目标。</p>
 <h3 id="基于查询条件的目标图-query-conditioned-object-graph">基于查询条件的目标图 (Query-conditioned Object Graph)</h3>
-<p>处于同一时段的时域目标部件具有高度关联性，这取决与目标和 query 语义之间的空间距离。用一张图 \(G_{k} = (C_{k}, A_{k})\) 表征时域部件 k 中的目标及其相互之间的关系。其中 \(C_{k} =\{c_{k, o}\}_{o=1}^N\) 表示节点，而邻接矩阵 \(A_{k} \in \mathbb{R}^{N \times N}\) 与 query 有关：</p>
+<p>处于同一时段的时域目标部件具有高度关联性，这取决与目标和 query 语义之间的空间距离。用一张图 \(G_{k} = (C_{k}, A_{k})\) 表征时域部件 k 中的目标及其相互之间的关系。其中 \(C_{k} =\{c_{k, o}\}<em>{o=1}^N\) 表示节点，而邻接矩阵 \(A</em>{k} \in \mathbb{R}^{N \times N}\) 与 query 有关：</p>
 <p>\[a_{k,o} = softmax_{o}(w_{a}^T([c_{k,o}, c_{k,o} \odot q])),\]</p>
 <p>\[A_{k} = a_{k}^T a_{k},\]</p>
 <p>其中 \(c_{k,o}\) 是目标 o 中部件 k 的特征。</p>
@@ -235,7 +235,7 @@
 <h3 id="video-as-evolving-object-graphs">Video as Evolving Object Graphs</h3>
 <p>用 Bi-LSTM 处理 \(c_{k}\)，最终得到各个目标的 resume \(r = [\overleftarrow{h_{1}}, \overrightarrow{h_{K}}]\)，共 N 个。</p>
 <h2 id="关联性推理">关联性推理</h2>
-<p>至此，得到了两个集合，上下文视觉简历 \(R = \{r_{o}\}_{o=1}^N\) 和查询特征 \(Q = \{q_{g}, e_{1}, e_{2}, &hellip;, e_{S}\}\)。</p>
+<p>至此，得到了两个集合，上下文视觉简历 \(R = \{r_{o}\}<em>{o=1}^N\) 和查询特征 \(Q = \{q</em>{g}, e_{1}, e_{2}, &hellip;, e_{S}\}\)。</p>
 <p>将上述集合作为知识库，动态构建语言指导下对目标关系的预测，并将这一系列预测按正确顺序串起来以得到答案。可以使用 MACNet、LOGNet等生成式推理引擎。</p>
 <h2 id="答案解码器">答案解码器</h2>
 <p>与前文类似。</p>

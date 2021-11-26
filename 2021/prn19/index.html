@@ -197,15 +197,15 @@
 <p>编码器定义如下：</p>
 <p>$$g^l = G^l(l, \theta^l).$$</p>
 <p>其损失函数为：</p>
-<p>$$ min_{\theta^l} L^l = - \alpha \sum_{i,j=1}^{n}(S_{ij}\Gamma_{ij}^l - log(1 + e^{\Gamma_{ij}^l})) + \beta ||\hat{L}^l - L||_{F}^l,$$
-$$\Gamma_{ij}^l = \frac{1}{2}(H_{i}^l)(H_{j}^l)^T,$$</p>
+<p>$$ min_{\theta^l} L^l = - \alpha \sum_{i,j=1}^{n}(S_{ij}\Gamma_{ij}^l - log(1 + e^{\Gamma_{ij}^l})) + \beta ||\hat{L}^l - L||<em>{F}^l,$$
+$$\Gamma</em>{ij}^l = \frac{1}{2}(H_{i}^l)(H_{j}^l)^T,$$</p>
 <p>其中 \(||\cdot||_{F}\) 是 Frobenius 范数，\(H^l\) 是由 \(g^l\) 变换得到的哈希编码， \(\hat{L}^l\) 是预测的标签，也可以由特征得到。</p>
 <p>损失函数中前一项用于保持特征相似性，后一项是原始标签与目标标签之间的分类损失。</p>
 <h2 id="特征编码网络">特征编码网络</h2>
 <p>在语义编码器指导下，将跨模态数据编码到公共空间。</p>
 <p>图像特征编码函数为 CNN，文本特征编码网络为四层 FC。</p>
 <p>通过语义编码器的指导，语义关联信息同教师模型传到学生模型。损失函数为：</p>
-<p>$$ min_{\theta^*} L^{*} = - \alpha \sum_{i,j=1}^{n}(S_{ij}\Gamma_{ij}^{l*} - log(1 + e^{\Gamma_{ij}^{l*}})) + \beta ||H^b - H^{*}||_{F}^2 + \gamma ||\hat{L}^{*} - L||_{F}^l,$$
+<p>$$ min_{\theta^*} L^{*} = - \alpha \sum_{i,j=1}^{n}(S_{ij}\Gamma_{ij}^{l*} - log(1 + e^{\Gamma_{ij}^{l*}})) + \beta ||H^b - H^{*}||<em>{F}^2 + \gamma ||\hat{L}^{*} - L||</em>{F}^l,$$
 $$\Gamma_{ij}^{l*} = \frac{1}{2}(H_{i}^l)(H_{j}^{*})^T,$$</p>
 <p>\(H^{*}\) 是从各模态预测得到的哈希编码。\(H^b\) 是由 GCN 生成的灯塔哈希编码 (beacon hash code)，有助于编码更有鉴别力的特征。</p>
 <h3 id="保留语义的融合方法-semantic-preserving-fusing-method">保留语义的融合方法 (semantic-preserving fusing method)</h3>
@@ -221,8 +221,8 @@ $$f_{s-a}^y = f^y \times \widetilde{W},$$</p>
 <p>$$H^{(l+1)} = \sigma(\widetilde{D}^{-\frac{1}{2}}\widetilde{A}\widetilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}),$$</p>
 <p>\(\widetilde{A} = A + I_{N}\) 是无向图 \(G\) 规范化后的邻接矩阵，\(A(i, j) = l_{i} \times l_{j}\), \(\widetilde{D}\) 是 \(\widetilde{A}\) 的度矩阵。</p>
 <p>这部分损失函数定义为：</p>
-<p>$$ min_{\theta^G} L^{GCN} = - \alpha \sum_{i,j=1}^{n}(S_{ij}\Gamma_{ij}^{G} - log(1 + e^{\Gamma_{ij}^{G}})) + \beta ||\hat{L}^{G} - L||_{F}^l,$$
-$$\Gamma_{ij}^{G*} = \frac{1}{2}(H_{i}^b)(H_{j}^b)^T,$$</p>
+<p>$$ min_{\theta^G} L^{GCN} = - \alpha \sum_{i,j=1}^{n}(S_{ij}\Gamma_{ij}^{G} - log(1 + e^{\Gamma_{ij}^{G}})) + \beta ||\hat{L}^{G} - L||<em>{F}^l,$$
+$$\Gamma</em>{ij}^{G*} = \frac{1}{2}(H_{i}^b)(H_{j}^b)^T,$$</p>
 <p>GCN 的输出成为灯塔特征 (beacon feature)，用于在公共空间中起到灯塔的作用。</p>
 <h2 id="应用处理">应用处理</h2>
 <p>对于实际的未在训练集出现的数据点，其哈希编码通过特征提取 + 符号函数得到。</p>

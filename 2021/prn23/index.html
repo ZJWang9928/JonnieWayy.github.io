@@ -199,11 +199,11 @@
 <p>对于一个图像数据点 \(o^{v}\)，意在通过学习一个小的扰动 \(\delta^{v}\)，生成一个对抗样本 \(\hat{o}^{v} = o^{v} + \delta^{v}\)。将该对抗样本传入跨模态哈希网络，希望能够得到失配的文本模态数据。</p>
 <p>为实现这一目标，首先由原始的配对的文本数据得到一个常规哈希编码 (regular hash codes) \(H^t = \mathcal{H}^t(o^t, \theta^t)\)。对抗样本学习问题可以转化为最大化两个跨模态哈希编码之间汉明距离的问题。</p>
 <p>为此引入一个模态间相似度正则化 (inter-modal similarity regularization)，对应的模态间相似度损失函数定义如下：</p>
-<p>$$min_{\delta^v} \mathcal{J}_{inter}^v = \sum_{i,j=1}^N(log(1 + e^{-\Gamma_{ij}}) + S_{ij}\Gamma_{ij}) + \sum_{i=1}^N ||\hat{o}_{i}^v - o_{i}^v||_{p},$$
-$$\Gamma_{ij} = \frac{1}{2}(\hat{H}_{i}^v)(H_{j}^t)^T.$$</p>
+<p>$$min_{\delta^v} \mathcal{J}<em>{inter}^v = \sum</em>{i,j=1}^N(log(1 + e^{-\Gamma_{ij}}) + S_{ij}\Gamma_{ij}) + \sum_{i=1}^N ||\hat{o}<em>{i}^v - o</em>{i}^v||<em>{p},$$
+$$\Gamma</em>{ij} = \frac{1}{2}(\hat{H}<em>{i}^v)(H</em>{j}^t)^T.$$</p>
 <p>在为跨模态数据学习对抗样本的过程中，各模态的内部相关性应当被保留。为此又引入了一个模态内相似度正则化：</p>
-<p>$$min_{\delta^v} \mathcal{J}_{intra}^v = \sum_{i,j=1}^N(log(1 + e^{-\Theta_{ij}}) + S_{ij}\Theta_{ij}),$$
-$$\Theta_{ij} = \frac{1}{2}(\hat{H}_{i}^v)(H_{j}^v)^T.$$</p>
+<p>$$min_{\delta^v} \mathcal{J}<em>{intra}^v = \sum</em>{i,j=1}^N(log(1 + e^{-\Theta_{ij}}) + S_{ij}\Theta_{ij}),$$
+$$\Theta_{ij} = \frac{1}{2}(\hat{H}<em>{i}^v)(H</em>{j}^v)^T.$$</p>
 <p>文本模态对抗样本的学习与之相似。</p>
 <p>为了学习对抗样本，网络参数固定后优化 \(\delta^v\) 和 \(\delta^t\)，具体的 CMLA 学习过程如下。</p>
 <p><img src="/images/2021/PRN23/A1.png" alt="Fig A1"></p>

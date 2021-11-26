@@ -149,7 +149,7 @@
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl27/</guid>
-      <description>cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下** Alt-#* *在行首添加 # 以注释该命令并回车执行（相当于依次按下 **Ctrl-A, #, Enter**）。</description>
+      <description>cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下** Alt-#* *在行首添加 # 以注释该命令并回车执行（相当于依次按下 Ctrl-A, #, Enter）。这样</description>
     </item>
     
     <item>
