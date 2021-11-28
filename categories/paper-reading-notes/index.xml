@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 28 Nov 2021 13:37:53 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 13:37:53 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn127/</link>
-      <pubDate>Sun, 28 Nov 2021 13:37:53 +0800</pubDate>
+      <pubDate>Sat, 27 Nov 2021 13:37:53 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn127/</guid>
       <description>2111.05476 Learning to Disentangle Scenes for Person Re-identification (Neurocomputing 2021) 概述 为了有效分解复杂场景，本文提出一种分治策略 (divide-and-conquer strategy)，主要分析了两种情况： 遮挡 (occlusion) 尺度变化 (scale variation) 对输入的图像采</description>
