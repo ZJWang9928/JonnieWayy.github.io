@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 27 Nov 2021 13:37:53 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Nov 2021 19:56:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn128/</link>
+      <pubDate>Sun, 28 Nov 2021 19:56:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn128/</guid>
+      <description>Pose-Guided Feature Alignment for Occluded Person Re-Identification (ICCV 2019) 概述 本文最早提出了 Occluded ReID 任务，并构建了 Occluded-DukeMTMC 数据集，query 图像全部带遮挡，而 gallery 图像有完整与遮挡两种情况。 Partial ReID 与 Occluded ReID 问题的对比</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn127/</link>

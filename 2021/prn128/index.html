@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn127/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn128/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/bg38/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg38/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn128/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           壁纸分享[38] | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="壁纸分享[38] | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "壁纸分享[38]",
-    "headline" : "壁纸分享[38]",
-    "description" : "",
+    "name" : "[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)",
+    "headline" : "[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)",
+    "description" : "Pose-Guided Feature Alignment for Occluded Person Re-Identification (ICCV 2019) 概述 本文最早提出了 Occluded ReID 任务，并构建了 Occluded-DukeMTMC 数据集，query 图像全部带遮挡，而 gallery 图像有完整与遮挡两种情况。 Partial ReID 与 Occluded ReID 问题的对比",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-28 16:54:18 \u002b0800 CST",
-    "dateModified" : "2021-11-28 16:54:18 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/bg38\/",
-    "wordCount" : "0",
-    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
+    "datePublished": "2021-11-28 19:56:39 \u002b0800 CST",
+    "dateModified" : "2021-11-28 19:56:39 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn128\/",
+    "wordCount" : "371",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occuluded", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">壁纸分享[38]</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -165,10 +165,10 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 0 words</span>
+                <span class="post-word-count">, 371 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,16 +189,36 @@
           
           
 
-          <p><img src="/images/2020/01/wallpaper/371.png" alt="371">
-<img src="/images/2020/01/wallpaper/372.webp" alt="372">
-<img src="/images/2020/01/wallpaper/373.webp" alt="373">
-<img src="/images/2020/01/wallpaper/374.jpg" alt="374">
-<img src="/images/2020/01/wallpaper/375.png" alt="375">
-<img src="/images/2020/01/wallpaper/376.jpg" alt="376">
-<img src="/images/2020/01/wallpaper/377.jpg" alt="377">
-<img src="/images/2020/01/wallpaper/378.png" alt="378">
-<img src="/images/2020/01/wallpaper/379.png" alt="379">
-<img src="/images/2020/01/wallpaper/380.jpg" alt="380"></p>
+          <h1 id="pose-guided-feature-alignment-for-occluded-person-re-identification-iccv-2019">Pose-Guided Feature Alignment for Occluded Person Re-Identification (ICCV 2019)</h1>
+<p><img src="/images/2021/PRN128/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<p>本文最早提出了 Occluded ReID 任务，并构建了 Occluded-DukeMTMC 数据集，query 图像全部带遮挡，而 gallery 图像有完整与遮挡两种情况。</p>
+<h3 id="partial-reid-与-occluded-reid-问题的对比">Partial ReID 与 Occluded ReID 问题的对比</h3>
+<p><img src="/images/2021/PRN128/2.png" alt="Fig 2"></p>
+<h3 id="两个分离遮挡区域与可见区域信息的策略">两个分离遮挡区域与可见区域信息的策略</h3>
+<ul>
+<li>在特征构建阶段，让模型更多注意未遮挡的部分</li>
+<li>在匹配阶段，显式将全局特征分成多个部分，只考虑 probe 图像与 gallery 图像共有的可视区域</li>
+</ul>
+<p>本文提出一种姿态指导的特征对齐方法 (Pose-Guided Feature Alignment, PGFA)，利用姿态信息指导特征的对齐。</p>
+<h2 id="数据集特性">数据集特性</h2>
+<p><img src="/images/2021/PRN128/T1.png" alt="Tab 1"></p>
+<p><img src="/images/2021/PRN128/3.png" alt="Fig 3"></p>
+<h2 id="特征构建">特征构建</h2>
+<p>ResNet-50 提取特征图 \(F\) 后输入到两个分支中。</p>
+<h3 id="partial-feature-branch">Partial Feature Branch</h3>
+<p>将 \(F\) 分成 \(p\) 个水平条，分别得到特征向量后估计 ID：</p>
+<p>$$L_{part} = \sum_{i=1}^{p} CE(\hat{y}_{i}, y).$$</p>
+<p>特征取 256 维。</p>
+<h3 id="pose-guided-global-feature-branch">Pose-Guided Global Feature Branch</h3>
+<p>得到 18 个姿态标记，根据阈值保留置信度足够高的姿态标记信息，否则置零，计算热图。</p>
+<p>各热图分别与 \(F\) 对位相乘，得到一组姿态指导的特征图，进而得到一组 2048 维向量，做最大池化后与全局特征拼接。</p>
+<p>最终转化为 256 维特征，损失函数为：</p>
+<p>$$L_{pose} = CE(\hat{y}, y).$$</p>
+<h2 id="特征匹配">特征匹配</h2>
+<p><img src="/images/2021/PRN128/4.png" alt="Fig 4"></p>
+<h2 id="结果对比">结果对比</h2>
+<p><img src="/images/2021/PRN128/7.png" alt="Fig 7"></p>
 
     </div>
 
@@ -213,7 +233,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/bg38/>http://jonathanwayy.xyz/2021/bg38/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn128/>http://jonathanwayy.xyz/2021/prn128/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -233,17 +253,26 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
-                    #wallpaper</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #kde</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #ReID</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/occuluded/">
+                    #occuluded</a></span>
             
             </section>
         
@@ -255,10 +284,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn127/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/bg38/" class="prev" rel="prev" title="壁纸分享[38]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[38]</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn128/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)">[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -267,7 +296,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
