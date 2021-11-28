@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn125/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn127/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn126/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn126/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn127/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Matching on Sets: Conquer OcReID Without Alignment (AAAI 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Matching on Sets: Conquer OcReID Without Alignment (AAAI 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Matching on Sets: Conquer OcReID Without Alignment (AAAI 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Matching on Sets: Conquer OcReID Without Alignment (AAAI 2021)",
-    "description" : "Matching on Sets: Conquer Occluded Person Re-Identification Without Alignment (AAAI 2021) 概述 本文提出一种在集合上匹配 (Matching on Sets, MoS) 的方法，从而避免复杂而又容易出错的空间对齐过程。 考虑到卷积特征通道通常会编码视觉模",
+    "name" : "[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)",
+    "description" : "2111.05476 Learning to Disentangle Scenes for Person Re-identification (Neurocomputing 2021) 概述 为了有效分解复杂场景，本文提出一种分治策略 (divide-and-conquer strategy)，主要分析了两种情况： 遮挡 (occlusion) 尺度变化 (scale variation) 对输入的图像采",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-26 16:19:18 \u002b0800 CST",
-    "dateModified" : "2021-11-26 16:19:18 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn126\/",
-    "wordCount" : "634",
+    "datePublished": "2021-11-28 13:37:53 \u002b0800 CST",
+    "dateModified" : "2021-11-28 13:37:53 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn127\/",
+    "wordCount" : "331",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occuluded", "Jonathan`s Blog"]
 }
 </script>
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Matching on Sets: Conquer OcReID Without Alignment (AAAI 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-26 itemprop="datePublished">November 26, 2021</time>
+                on <time datetime=2021-11-28 itemprop="datePublished">November 28, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 634 words</span>
+                <span class="post-word-count">, 331 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,58 +189,37 @@
           
           
 
-          <h1 id="matching-on-sets-conquer-occluded-person-re-identification-without-alignment-aaai-2021">Matching on Sets: Conquer Occluded Person Re-Identification Without Alignment (AAAI 2021)</h1>
-<p><img src="/images/2021/PRN126/1.png" alt="Fig 1"></p>
+          <h1 id="211105476-learning-to-disentangle-scenes-for-person-re-identification-neurocomputing-2021">2111.05476 Learning to Disentangle Scenes for Person Re-identification (Neurocomputing 2021)</h1>
+<p><img src="/images/2021/PRN127/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种在集合上匹配 (Matching on Sets, MoS) 的方法，从而避免复杂而又容易出错的空间对齐过程。</p>
-<p>考虑到卷积特征通道通常会编码视觉模式 (visual pattern)，MoS 将一张行人图像的卷积特征向量视为一个模式集合 (pattern set)，通过衡量两个模式集合的相似度来衡量行人图像的相似度。</p>
-<p><img src="/images/2021/PRN126/2.png" alt="Fig 2"></p>
-<h2 id="mos">MoS</h2>
-<h3 id="模式集合匹配">模式集合匹配</h3>
-<p>如下得到模式集合：</p>
-<p>$$f_{i} = CNN(x_{i}) \in \mathbb{R}^C,$$
-$$g_{i} = \sigma(f_{i}) \in \mathbb{R}^{C}.$$</p>
-<p>通过计算集合相似度得到图像相似度：</p>
-<p>$$\mathcal{S}(x_{1}, x_{2}) = \mathcal{S}_{set}(g_{1}, g_{2}).$$</p>
-<h3 id="jaccard-相似度">Jaccard 相似度</h3>
-<p>用于计算两个集合之间的相似度，用 \(C\) 维二元向量 \(\{0, 1\}^C\) 表示集合 A 和 B：</p>
-<p>$$\mathcal{J}(A, B) = \frac{|A \cap B|}{|A \cup B|} = \frac{\sum_{c=1}^{C} A[c] \land B[c]}{\sum_{c=1}^{C} A[c] \lor B[c]}.$$</p>
-<p>为了适用于连续值，采用最大化与最小化操作：</p>
-<p>$$\mathcal{J}(g_{1}, g_{2}) = \frac{\sum_{c=1}^{C} min(g_{1}[c], g_{2}[c])}{\sum_{c=1}^{C} max(g_{1}[c], g_{2}[c])}.$$</p>
-<h3 id="损失函数">损失函数</h3>
-<p>为了平滑化 min/max 算子，进一步引入 Softmax-Jaccard 相似度：</p>
-<p>$$\mathcal{J}_{s}(g_{1}, g_{2}) = \frac{\sum_{c=1}^{C} (w_{1}^{min}[c] \cdot g_{1}[c], w_{2}^{min}[c] \cdot g_{2}[c])}{\sum_{c=1}^{C} (w_{1}^{max}[c] \cdot g_{1}[c], w_{2}^{max}[c] \cdot g_{2}[c])},$$
-$$w_{k}^{min}[c] = \frac{e^{-\tau \cdot g_{k}[c]}}{\sum_{n} e^{-\tau \cdot g_{n}[c]}}, \ w_{k}^{max}[c] = \frac{e^{\tau \cdot g_{k}[c]}}{\sum_{n} e^{\tau \cdot g_{n}[c]}}.$$</p>
-<p>从而 Jaccard 距离定义为：</p>
-<p>$$\mathcal{D}_{\mathcal{J}}(g_{1}, g_{2}) = 1 - \mathcal{J}_{s}(g_{1}, g_{2}).$$</p>
-<p>Jaccard 三元组损失定义为：</p>
-<p>$$\mathcal{L}_{\mathcal{J}} = \sum_{n=1}^{N} [\delta + \mathcal{D}_{\mathcal{J}}(g_{n}, g_{n+}) - \mathcal{D}_{\mathcal{J}}(g_{n}, g_{n-})]_{+}.$$</p>
-<p>在训练阶段用 Leaky ReLU 替代了得到 \(f\) 以后的 sigmoid 函数，避免梯度消失。</p>
-<p>此外，还用到了带标签平滑化的交叉熵损失。</p>
-<p><img src="/images/2021/PRN126/3.png" alt="Fig 3"></p>
-<h3 id="pattern-conflict-penalty">Pattern Conflict Penalty</h3>
-<h4 id="一个假设">一个假设</h4>
-<p>若两个集合之间存在不兼容的模式，相应的图像可能属于不同的行人。</p>
-<p>在推断阶段进行，分为两步：</p>
+<p>为了有效分解复杂场景，本文提出一种分治策略 (divide-and-conquer strategy)，主要分析了两种情况：</p>
 <ul>
-<li>conflict mining</li>
-<li>similarity penalty</li>
+<li>遮挡 (occlusion)</li>
+<li>尺度变化 (scale variation)</li>
 </ul>
-<p>定义模式一致矩阵 (pattern concurrence matrix) 如下：</p>
-<p>$$\mathcal{M}(g_{1}, g_{2}) = (g_{1} \cup g_{2})(g_{1} \cup g_{2})^T \in \mathbb{R}^{C \times C},$$
-$$g_{1} \cup g_{2} = max(g_{1}, g_{2}) \in \mathbb{R}^{C \times 1}.$$</p>
-<p>进而根据训练集中所有正样本对，得到 priori max concurrence (PAC) 矩阵：</p>
-<p>$$\mathcal{M}_{[i, j]}^{p} = max_{t, n} \mathcal{M}_{[i, j]} (g_{t}, g_{n}),$$
-$$s.t. \quad y_{t} = y_{n}, \ t,n = 1, \cdots, N.$$</p>
-<p>在推断过程中，比对 \(\mathcal{M}\) 与 \(\mathcal{M}^{p}\)，若前者值高于后者，惩罚其相似度：</p>
-<p>$$\mathcal{CP}(g_{1}, g_{2}) = \sum_{i, j} max(0, e^{(\mathcal{M}_{[i, j]} (g_{1}, g_{2}) - \mathcal{M}_{[i, j]}^{p} - \epsilon)} - 1).$$</p>
-<p>最终的相似度为：</p>
-<p>$$\mathcal{S}(x_{1}, x_{2}) = \mathcal{J}(g_{1}, g_{2}) - \lambda \mathcal{CP}(g_{1}, g_{2}).$$</p>
-<h3 id="算法过程">算法过程</h3>
-<p><img src="/images/2021/PRN126/A1.png" alt="Alg 1"></p>
-<h2 id="特征可视化示例">特征可视化示例</h2>
-<p><img src="/images/2021/PRN126/5.png" alt="Fig 5"></p>
-<p><img src="/images/2021/PRN126/6.png" alt="Fig 6"></p>
+<p>对输入的图像采用两种自监督操作，得到相应场景所需的新图像，分别为 random erasing 和 random scaling。</p>
+<p>采用多分支结构，一个主分支以及两个辅助分支，在不同分支之间进行互学习。</p>
+<p><img src="/images/2021/PRN127/2.png" alt="Fig 2"></p>
+<h2 id="divide-the-complex-scenes">Divide the Complex Scenes</h2>
+<h3 id="occlusion-scenes">Occlusion Scenes</h3>
+<p>采用 random erasing 得到。</p>
+<h3 id="scale-variation-scenes">Scale Variation Scenes</h3>
+<p>采用 random scaling 得到。</p>
+<p><img src="/images/2021/PRN127/3.png" alt="Fig 3"></p>
+<h3 id="general-scenes">General Scenes</h3>
+<p>原始图像不加任何人工改动，以为前两种变化后的场景提供其所缺失的信息。</p>
+<h3 id="image-alignment-for-different-scenes">Image Alignment for Different Scenes</h3>
+<p>本文操作保证了输入给多个分支的图像本身不存在不对齐的问题。</p>
+<p><img src="/images/2021/PRN127/4.png" alt="Fig 4"></p>
+<h2 id="conquer-the-specific-scene">Conquer the Specific Scene</h2>
+<p>首先用到三元组损失，具体为带有 batch hard mining 的软边界三元组损失。</p>
+<p>此外用到了分类损失，具体为 additive margin softmax (AM-softmax)。</p>
+<h2 id="互学习">互学习</h2>
+<p>采用 KL 散度计算衡量不同分支 logit 之间的相似度。</p>
+<h2 id="检索结果示例">检索结果示例</h2>
+<p><img src="/images/2021/PRN127/5.png" alt="Fig 5"></p>
+<h2 id="特征可视化">特征可视化</h2>
+<p><img src="/images/2021/PRN127/6.png" alt="Fig 6"></p>
 
     </div>
 
@@ -255,7 +234,7 @@ $$s.t. \quad y_{t} = y_{n}, \ t,n = 1, \cdots, N.$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn126/>http://jonathanwayy.xyz/2021/prn126/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn127/>http://jonathanwayy.xyz/2021/prn127/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -306,10 +285,10 @@ $$s.t. \quad y_{t} = y_{n}, \ t,n = 1, \cdots, N.$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn125/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] View Confusion Feature Learning for Person ReID  (ICCV 2019)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn126/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Matching on Sets: Conquer OcReID Without Alignment (AAAI 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Matching on Sets: Conquer OcReID Without Alignment (AAAI 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn127/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)">[论文阅读笔记 -- ReID] Learning to Disentangle Scenes for ReID (Neurocomputing 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -318,7 +297,7 @@ $$s.t. \quad y_{t} = y_{n}, \ t,n = 1, \cdots, N.$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
