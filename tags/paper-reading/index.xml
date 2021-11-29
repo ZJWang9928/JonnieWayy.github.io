@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 28 Nov 2021 19:56:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Nov 2021 11:06:53 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn129/</link>
+      <pubDate>Mon, 29 Nov 2021 11:06:53 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn129/</guid>
+      <description>Syncretic Modality Collaborative Learning for Visible Infrared Person Re-Identification (ICCV 2021) 概述 现有借助第三模态方法的缺陷 由可视图像生成，导致新模态和可视模态高度相关，但和红外模态不相关 可视图像与红外图像的特征</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn128/</link>

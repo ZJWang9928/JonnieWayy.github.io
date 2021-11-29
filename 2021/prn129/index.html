@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg38/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn129/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn128/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn128/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn129/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)",
-    "headline" : "[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)",
-    "description" : "Pose-Guided Feature Alignment for Occluded Person Re-Identification (ICCV 2019) 概述 本文最早提出了 Occluded ReID 任务，并构建了 Occluded-DukeMTMC 数据集，query 图像全部带遮挡，而 gallery 图像有完整与遮挡两种情况。 Partial ReID 与 Occluded ReID 问题的对比",
+    "name" : "[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)",
+    "description" : "Syncretic Modality Collaborative Learning for Visible Infrared Person Re-Identification (ICCV 2021) 概述 现有借助第三模态方法的缺陷 由可视图像生成，导致新模态和可视模态高度相关，但和红外模态不相关 可视图像与红外图像的特征",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-28 19:56:39 \u002b0800 CST",
-    "dateModified" : "2021-11-28 19:56:39 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn128\/",
-    "wordCount" : "371",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occuluded", "Jonathan`s Blog"]
+    "datePublished": "2021-11-29 11:06:53 \u002b0800 CST",
+    "dateModified" : "2021-11-29 11:06:53 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn129\/",
+    "wordCount" : "284",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-28 itemprop="datePublished">November 28, 2021</time>
+                on <time datetime=2021-11-29 itemprop="datePublished">November 29, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 371 words</span>
+                <span class="post-word-count">, 284 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,36 +189,31 @@
           
           
 
-          <h1 id="pose-guided-feature-alignment-for-occluded-person-re-identification-iccv-2019">Pose-Guided Feature Alignment for Occluded Person Re-Identification (ICCV 2019)</h1>
-<p><img src="/images/2021/PRN128/1.png" alt="Fig 1"></p>
+          <h1 id="syncretic-modality-collaborative-learning-for-visible-infrared-person-re-identification-iccv-2021">Syncretic Modality Collaborative Learning for Visible Infrared Person Re-Identification (ICCV 2021)</h1>
+<p><img src="/images/2021/PRN129/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文最早提出了 Occluded ReID 任务，并构建了 Occluded-DukeMTMC 数据集，query 图像全部带遮挡，而 gallery 图像有完整与遮挡两种情况。</p>
-<h3 id="partial-reid-与-occluded-reid-问题的对比">Partial ReID 与 Occluded ReID 问题的对比</h3>
-<p><img src="/images/2021/PRN128/2.png" alt="Fig 2"></p>
-<h3 id="两个分离遮挡区域与可见区域信息的策略">两个分离遮挡区域与可见区域信息的策略</h3>
+<h3 id="现有借助第三模态方法的缺陷">现有借助第三模态方法的缺陷</h3>
 <ul>
-<li>在特征构建阶段，让模型更多注意未遮挡的部分</li>
-<li>在匹配阶段，显式将全局特征分成多个部分，只考虑 probe 图像与 gallery 图像共有的可视区域</li>
+<li>由可视图像生成，导致新模态和可视模态高度相关，但和红外模态不相关</li>
+<li>可视图像与红外图像的特征在学习到的嵌入空间中仍有很大的鸿沟</li>
 </ul>
-<p>本文提出一种姿态指导的特征对齐方法 (Pose-Guided Feature Alignment, PGFA)，利用姿态信息指导特征的对齐。</p>
-<h2 id="数据集特性">数据集特性</h2>
-<p><img src="/images/2021/PRN128/T1.png" alt="Tab 1"></p>
-<p><img src="/images/2021/PRN128/3.png" alt="Fig 3"></p>
-<h2 id="特征构建">特征构建</h2>
-<p>ResNet-50 提取特征图 \(F\) 后输入到两个分支中。</p>
-<h3 id="partial-feature-branch">Partial Feature Branch</h3>
-<p>将 \(F\) 分成 \(p\) 个水平条，分别得到特征向量后估计 ID：</p>
-<p>$$L_{part} = \sum_{i=1}^{p} CE(\hat{y}_{i}, y).$$</p>
-<p>特征取 256 维。</p>
-<h3 id="pose-guided-global-feature-branch">Pose-Guided Global Feature Branch</h3>
-<p>得到 18 个姿态标记，根据阈值保留置信度足够高的姿态标记信息，否则置零，计算热图。</p>
-<p>各热图分别与 \(F\) 对位相乘，得到一组姿态指导的特征图，进而得到一组 2048 维向量，做最大池化后与全局特征拼接。</p>
-<p>最终转化为 256 维特征，损失函数为：</p>
-<p>$$L_{pose} = CE(\hat{y}, y).$$</p>
-<h2 id="特征匹配">特征匹配</h2>
-<p><img src="/images/2021/PRN128/4.png" alt="Fig 4"></p>
-<h2 id="结果对比">结果对比</h2>
-<p><img src="/images/2021/PRN128/5.png" alt="Fig 5"></p>
+<p>本文提出一种 syncretic modality collaborative learning (SMCL) 模型。</p>
+<p><img src="/images/2021/PRN129/2.png" alt="Fig 2"></p>
+<h2 id="syncretic-modality-generative-module-smgm">Syncretic Modality Generative Module (SMGM)</h2>
+<p>首先是两个 \(1 \times 1\) 卷积层，接着进行像素对像素的特征融合：</p>
+<p>$$S_{n} = V_{n} \odot I_{n}, \ n \in [1, N].$$</p>
+<p>接着经过 ReLU 层与 \(1 \times 1\) 卷积层得到第三模态图像。</p>
+<h2 id="challenge-enhanced-homogeneity-learning-cehl">Challenge Enhanced Homogeneity Learning (CEHL)</h2>
+<p>用于将跨模态特征投影到一个一致空间中。</p>
+<p>对可视模态和第三模态正常计算 softmax 损失：</p>
+<p>$$\mathcal{L}_{id}^{V} = -\frac{1}{N} \sum_{n=1}^{N} log \frac{e^{W_{yn}^{T} f_{n}^{V}}}{\sum_{u=1}^{U} e^{W_{u}^{T}f_{n}^{V}}}.$$</p>
+<p>\(\mathcal{L}_{id}^{S}\) 计算方式相同。而对于红外模态，提升对于分类器的难度：</p>
+<p>$$\mathcal{L}_{id}^{I} = -\frac{1}{N} \sum_{n=1}^{N} log \frac{e^{W_{yn}^{T} f_{n}^{I} - m}}{\sum_{u=1}^{U} e^{W_{u}^{T}f_{n}^{I}}}.$$</p>
+<h2 id="auxiliary-distributional-similarity-learning-adsl">Auxiliary Distributional Similarity Learning (ADSL)</h2>
+<p>旨在增强跨模态类内相似度，并增大模态内类间差异。</p>
+<p><img src="/images/2021/PRN129/3.png" alt="Fig 3"></p>
+<h2 id="incremental-training-strategy">Incremental Training Strategy</h2>
+<p><img src="/images/2021/PRN129/A1.png" alt="Alg 1"></p>
 
     </div>
 
@@ -233,7 +228,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn128/>http://jonathanwayy.xyz/2021/prn128/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn129/>http://jonathanwayy.xyz/2021/prn129/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -271,9 +266,6 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
                     #ReID</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/occuluded/">
-                    #occuluded</a></span>
-            
             </section>
         
         <section>
@@ -284,10 +276,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/bg38/" class="prev" rel="prev" title="壁纸分享[38]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[38]</a>
+        <a href="http://jonathanwayy.xyz/2021/prn128/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn129/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)">[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -296,7 +288,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
