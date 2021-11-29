@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn128/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn130/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn129/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn129/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn130/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)",
-    "description" : "Syncretic Modality Collaborative Learning for Visible Infrared Person Re-Identification (ICCV 2021) 概述 现有借助第三模态方法的缺陷 由可视图像生成，导致新模态和可视模态高度相关，但和红外模态不相关 可视图像与红外图像的特征",
+    "name" : "[论文阅读笔记 -- ReID \/ 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)",
+    "headline" : "[论文阅读笔记 -- ReID \/ 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)",
+    "description" : "Multi-Expert Adversarial Attack Detection in Person Re-Identification Using Context Inconsistency (ICCV 2021) 概述 ReID 属于排序问题而非分类问题，因而现有针对分类问题的防御方法并不适合 ReID 任务。 本文提出多专家对抗攻击检测方法 (Multi-Expert Adversarial Attack Detection,",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-29 11:06:53 \u002b0800 CST",
-    "dateModified" : "2021-11-29 11:06:53 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn129\/",
-    "wordCount" : "284",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
+    "datePublished": "2021-11-29 13:39:17 \u002b0800 CST",
+    "dateModified" : "2021-11-29 13:39:17 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn130\/",
+    "wordCount" : "680",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","adversarial","adversarial samples", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 284 words</span>
+                <span class="post-word-count">, 680 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,31 +189,43 @@
           
           
 
-          <h1 id="syncretic-modality-collaborative-learning-for-visible-infrared-person-re-identification-iccv-2021">Syncretic Modality Collaborative Learning for Visible Infrared Person Re-Identification (ICCV 2021)</h1>
-<p><img src="/images/2021/PRN129/1.png" alt="Fig 1"></p>
+          <h1 id="multi-expert-adversarial-attack-detection-in-person-re-identification-using-context-inconsistency-iccv-2021">Multi-Expert Adversarial Attack Detection in Person Re-Identification Using Context Inconsistency (ICCV 2021)</h1>
+<p><img src="/images/2021/PRN130/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<h3 id="现有借助第三模态方法的缺陷">现有借助第三模态方法的缺陷</h3>
+<p>ReID 属于排序问题而非分类问题，因而现有针对分类问题的防御方法并不适合 ReID 任务。</p>
+<p>本文提出多专家对抗攻击检测方法 (Multi-Expert Adversarial Attack Detection, MEAAD)，通过检测上下文不一致性检测对抗攻击。</p>
+<p>扰动只加在 query 图像上，不加在 gallery 图像。这里假设攻击目标模型对于攻击者是白盒，而其他专家模型对攻击者不可知。</p>
+<p>用多个不同架构的 ReID 网络作为 MEAAD 中的专家模型，通过单个专家模型的 top-K 检索输出作为支持集 (support set)，MEAAD 所使用的上下文考虑如下三种关系：</p>
 <ul>
-<li>由可视图像生成，导致新模态和可视模态高度相关，但和红外模态不相关</li>
-<li>可视图像与红外图像的特征在学习到的嵌入空间中仍有很大的鸿沟</li>
+<li>Query-Support Affinity: 一个专家模型返回的 query 与其支持样本之间的关系</li>
+<li>Support-Support Affinity: 一个专家模型返回的支持样本之间的关系</li>
+<li>Cross-Expert Affinity: 一个专家模型与另一个专家模型返回的支持样本之间的关系</li>
 </ul>
-<p>本文提出一种 syncretic modality collaborative learning (SMCL) 模型。</p>
-<p><img src="/images/2021/PRN129/2.png" alt="Fig 2"></p>
-<h2 id="syncretic-modality-generative-module-smgm">Syncretic Modality Generative Module (SMGM)</h2>
-<p>首先是两个 \(1 \times 1\) 卷积层，接着进行像素对像素的特征融合：</p>
-<p>$$S_{n} = V_{n} \odot I_{n}, \ n \in [1, N].$$</p>
-<p>接着经过 ReLU 层与 \(1 \times 1\) 卷积层得到第三模态图像。</p>
-<h2 id="challenge-enhanced-homogeneity-learning-cehl">Challenge Enhanced Homogeneity Learning (CEHL)</h2>
-<p>用于将跨模态特征投影到一个一致空间中。</p>
-<p>对可视模态和第三模态正常计算 softmax 损失：</p>
-<p>$$\mathcal{L}_{id}^{V} = -\frac{1}{N} \sum_{n=1}^{N} log \frac{e^{W_{yn}^{T} f_{n}^{V}}}{\sum_{u=1}^{U} e^{W_{u}^{T}f_{n}^{V}}}.$$</p>
-<p>\(\mathcal{L}_{id}^{S}\) 计算方式相同。而对于红外模态，提升对于分类器的难度：</p>
-<p>$$\mathcal{L}_{id}^{I} = -\frac{1}{N} \sum_{n=1}^{N} log \frac{e^{W_{yn}^{T} f_{n}^{I} - m}}{\sum_{u=1}^{U} e^{W_{u}^{T}f_{n}^{I}}}.$$</p>
-<h2 id="auxiliary-distributional-similarity-learning-adsl">Auxiliary Distributional Similarity Learning (ADSL)</h2>
-<p>旨在增强跨模态类内相似度，并增大模态内类间差异。</p>
-<p><img src="/images/2021/PRN129/3.png" alt="Fig 3"></p>
-<h2 id="incremental-training-strategy">Incremental Training Strategy</h2>
-<p><img src="/images/2021/PRN129/A1.png" alt="Alg 1"></p>
+<p><img src="/images/2021/PRN130/2.png" alt="Fig 2"></p>
+<h2 id="关于上下文不一致性的经验分析">关于上下文不一致性的经验分析</h2>
+<p>对抗样本使得 ReID 系统检索出错误的图像，但同时也带来副作用，即导致检索结果混乱 (messy)，由此定义三种关系来判断是否存在攻击。</p>
+<h3 id="query-support-relation">Query-Support Relation</h3>
+<p>定义为 query 样本与支持样本嵌入特征之间余弦相似度的均值。</p>
+<h3 id="support-support-relation">Support-Support Relation</h3>
+<p>定义为各 query 图像所对应支持样本嵌入特征之间余弦相似度的均值。</p>
+<h3 id="cross-expert-relation">Cross-Expert Relation</h3>
+<p>定义为所有专家模型返回公共支持样本的数量。</p>
+<p><img src="/images/2021/PRN130/3.png" alt="Fig 3"></p>
+<h2 id="meaad">MEAAD</h2>
+<h3 id="上下文特征">上下文特征</h3>
+<h4 id="query-support-affinity">Query-Support Affinity</h4>
+<p>由各专家模型 (共 \(N\) 个)，分别计算一个 \(K\) 维向量并拼接得到一个 \(N * K\) 维的特征，\(K\) 是支持集规模：</p>
+<p>$$A_{q-s}[j] = Cosine(F(I), F_(S_{j})).$$</p>
+<h4 id="support-support-affinity">Support-Support Affinity</h4>
+<p>由各专家模型，分别计算一个 \(K * K\) 矩阵：</p>
+<p>$$A_{s-s}[i, j] = Cosine(F(S_{i}), F(S_{j})).$$</p>
+<p>由于其对称，且对角线为 \(1\)，所以保留右上矩阵，将其转化为一个 \(K' = K * (K - 1) / 2\) 维的向量，堆叠后得到 \(N * K'\) 维向量。</p>
+<h4 id="cross-expert-affinity">Cross-Expert Affinity</h4>
+<p>$$A_{c-e}[i, j] = \frac{\sum_{l \in \{1, \cdots, N\} - \{i\}} \mathbb{1}(S_{i, j} \in S_{l})}{N - 1}.$$</p>
+<p>拉平后得到 \(N * K\) 的向量。</p>
+<p>最终，拉平拼接三个向量，得到上下文特征 \(x \in \mathbb{R}^d, d = N *K + N * K' + N * K\)。</p>
+<h3 id="对抗攻击检测器">对抗攻击检测器</h3>
+<p>实现为基于多层感知机的二元分类器。</p>
 
     </div>
 
@@ -228,7 +240,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn129/>http://jonathanwayy.xyz/2021/prn129/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn130/>http://jonathanwayy.xyz/2021/prn130/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -266,6 +278,12 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
                     #ReID</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
+                    #adversarial</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial-samples/">
+                    #adversarial samples</a></span>
+            
             </section>
         
         <section>
@@ -276,10 +294,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn128/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Pose-Guided Feature Alignment for Occluded ReID (ICCV 2019)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn129/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn130/" class="next" rel="next" title="[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)">[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -288,7 +306,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

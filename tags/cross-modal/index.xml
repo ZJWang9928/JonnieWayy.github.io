@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 29 Nov 2021 11:06:53 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Nov 2021 13:39:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn130/</link>
+      <pubDate>Mon, 29 Nov 2021 13:39:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn130/</guid>
+      <description>Multi-Expert Adversarial Attack Detection in Person Re-Identification Using Context Inconsistency (ICCV 2021) 概述 ReID 属于排序问题而非分类问题，因而现有针对分类问题的防御方法并不适合 ReID 任务。 本文提出多专家对抗攻击检测方法 (Multi-Expert Adversarial Attack Detection,</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn129/</link>
