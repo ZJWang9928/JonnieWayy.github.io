@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 29 Nov 2021 13:39:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Nov 2021 11:50:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn131/</link>
+      <pubDate>Tue, 30 Nov 2021 11:50:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn131/</guid>
+      <description>Learning To Know Where To See: A Visibility-Aware Approach for Occluded Person Re-Identification (ICCV 2021) 概述 随着姿态估计粒度的细化，其预测误差随之上升。 本文试图找到一种策略，能在不过分依赖姿态信息的情况下处理遮挡问</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn130/</link>

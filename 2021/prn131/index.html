@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn129/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn131/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn130/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn130/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn131/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID \/ 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)",
-    "headline" : "[论文阅读笔记 -- ReID \/ 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)",
-    "description" : "Multi-Expert Adversarial Attack Detection in Person Re-Identification Using Context Inconsistency (ICCV 2021) 概述 ReID 属于排序问题而非分类问题，因而现有针对分类问题的防御方法并不适合 ReID 任务。 本文提出多专家对抗攻击检测方法 (Multi-Expert Adversarial Attack Detection,",
+    "name" : "[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021)",
+    "description" : "Learning To Know Where To See: A Visibility-Aware Approach for Occluded Person Re-Identification (ICCV 2021) 概述 随着姿态估计粒度的细化，其预测误差随之上升。 本文试图找到一种策略，能在不过分依赖姿态信息的情况下处理遮挡问",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-29 13:39:17 \u002b0800 CST",
-    "dateModified" : "2021-11-29 13:39:17 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn130\/",
-    "wordCount" : "680",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","adversarial","adversarial samples", "Jonathan`s Blog"]
+    "datePublished": "2021-11-30 11:50:29 \u002b0800 CST",
+    "dateModified" : "2021-11-30 11:50:29 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn131\/",
+    "wordCount" : "771",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-11-29 itemprop="datePublished">November 29, 2021</time>
+                on <time datetime=2021-11-30 itemprop="datePublished">November 30, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 680 words</span>
+                <span class="post-word-count">, 771 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,43 +189,33 @@
           
           
 
-          <h1 id="multi-expert-adversarial-attack-detection-in-person-re-identification-using-context-inconsistency-iccv-2021">Multi-Expert Adversarial Attack Detection in Person Re-Identification Using Context Inconsistency (ICCV 2021)</h1>
-<p><img src="/images/2021/PRN130/1.png" alt="Fig 1"></p>
+          <h1 id="learning-to-know-where-to-see-a-visibility-aware-approach-for-occluded-person-re-identification-iccv-2021">Learning To Know Where To See: A Visibility-Aware Approach for Occluded Person Re-Identification (ICCV 2021)</h1>
+<p><img src="/images/2021/PRN131/1.png" alt="Fig 1">
+<img src="/images/2021/PRN131/2.png" alt="Fig 2"></p>
 <h2 id="概述">概述</h2>
-<p>ReID 属于排序问题而非分类问题，因而现有针对分类问题的防御方法并不适合 ReID 任务。</p>
-<p>本文提出多专家对抗攻击检测方法 (Multi-Expert Adversarial Attack Detection, MEAAD)，通过检测上下文不一致性检测对抗攻击。</p>
-<p>扰动只加在 query 图像上，不加在 gallery 图像。这里假设攻击目标模型对于攻击者是白盒，而其他专家模型对攻击者不可知。</p>
-<p>用多个不同架构的 ReID 网络作为 MEAAD 中的专家模型，通过单个专家模型的 top-K 检索输出作为支持集 (support set)，MEAAD 所使用的上下文考虑如下三种关系：</p>
-<ul>
-<li>Query-Support Affinity: 一个专家模型返回的 query 与其支持样本之间的关系</li>
-<li>Support-Support Affinity: 一个专家模型返回的支持样本之间的关系</li>
-<li>Cross-Expert Affinity: 一个专家模型与另一个专家模型返回的支持样本之间的关系</li>
-</ul>
-<p><img src="/images/2021/PRN130/2.png" alt="Fig 2"></p>
-<h2 id="关于上下文不一致性的经验分析">关于上下文不一致性的经验分析</h2>
-<p>对抗样本使得 ReID 系统检索出错误的图像，但同时也带来副作用，即导致检索结果混乱 (messy)，由此定义三种关系来判断是否存在攻击。</p>
-<h3 id="query-support-relation">Query-Support Relation</h3>
-<p>定义为 query 样本与支持样本嵌入特征之间余弦相似度的均值。</p>
-<h3 id="support-support-relation">Support-Support Relation</h3>
-<p>定义为各 query 图像所对应支持样本嵌入特征之间余弦相似度的均值。</p>
-<h3 id="cross-expert-relation">Cross-Expert Relation</h3>
-<p>定义为所有专家模型返回公共支持样本的数量。</p>
-<p><img src="/images/2021/PRN130/3.png" alt="Fig 3"></p>
-<h2 id="meaad">MEAAD</h2>
-<h3 id="上下文特征">上下文特征</h3>
-<h4 id="query-support-affinity">Query-Support Affinity</h4>
-<p>由各专家模型 (共 \(N\) 个)，分别计算一个 \(K\) 维向量并拼接得到一个 \(N * K\) 维的特征，\(K\) 是支持集规模：</p>
-<p>$$A_{q-s}[j] = Cosine(F(I), F_(S_{j})).$$</p>
-<h4 id="support-support-affinity">Support-Support Affinity</h4>
-<p>由各专家模型，分别计算一个 \(K * K\) 矩阵：</p>
-<p>$$A_{s-s}[i, j] = Cosine(F(S_{i}), F(S_{j})).$$</p>
-<p>由于其对称，且对角线为 \(1\)，所以保留右上矩阵，将其转化为一个 \(K' = K * (K - 1) / 2\) 维的向量，堆叠后得到 \(N * K'\) 维向量。</p>
-<h4 id="cross-expert-affinity">Cross-Expert Affinity</h4>
-<p>$$A_{c-e}[i, j] = \frac{\sum_{l \in \{1, \cdots, N\} - \{i\}} \mathbb{1}(S_{i, j} \in S_{l})}{N - 1}.$$</p>
-<p>拉平后得到 \(N * K\) 的向量。</p>
-<p>最终，拉平拼接三个向量，得到上下文特征 \(x \in \mathbb{R}^d, d = N *K + N * K' + N * K\)。</p>
-<h3 id="对抗攻击检测器">对抗攻击检测器</h3>
-<p>实现为基于多层感知机的二元分类器。</p>
+<p>随着姿态估计粒度的细化，其预测误差随之上升。</p>
+<p>本文试图找到一种策略，能在不过分依赖姿态信息的情况下处理遮挡问题，即使用粗粒度的姿态信息得到好的表现。</p>
+<p>首先学习一个局部标签生成器 (part label generator)，为各身体部件生成局部标签。基于生成的标签，学习一个区域可见性鉴别器 (region visibility discriminator)。</p>
+<p>再者，利用预训练好的姿态估计模型，得到姿态信息，包括其坐标与置信度。通过冗余投票 (redundant voting) 利用这些信息，决定一个部分是可见的还是被遮挡的。</p>
+<p>在测试阶段，可以直接使用学习好的区域可视性鉴别器，而无需姿态估计来得到可见性评分。</p>
+<p><img src="/images/2021/PRN131/3.png" alt="Fig 3"></p>
+<h2 id="part-label-generaotr-with-a-redundant-voting">Part Label Generaotr with a Redundant Voting</h2>
+<p>用 AlphaPose 作为 pose estimator，得到一组坐标及置信度 \((cx_{j}, cy_{j}, s_{j}), \ j = 1, 2, \cdots, 18\)。</p>
+<p>置信度表示一个关键点属于某个行人部件的几率，粗略而言，可用于表示一个部件是否可见。</p>
+<p>一个水平分割块可能包含多个关键点，本文设计了一种冗余投票方法 (redundant voting method)，将多个关键点的置信度转化为部件标签 (part label)。</p>
+<p>设定一个阈值 \(\lambda\)，若置信度大于阈值则相应关键点的投票权重为 1，否则为 0。最终对一个水平块中所有关键点的投票权重求和得到 \(T\)，若 \(T\) 高于某个阈值 \(W\) 则认为该水平块可见，其部件标签设为 1，否则被遮挡，部件标签设为 0。</p>
+<p><img src="/images/2021/PRN131/4.png" alt="Fig 4"></p>
+<h2 id="region-visibility-discriminator">Region Visibility Discriminator</h2>
+<p>直接计算完整行人和遮挡行人之间的特征距离显然是不精准的，但是使用原始的姿态信息来得到可视化信息时，姿态信息又难以直接量化。</p>
+<p>旨在学习一个从粗糙的姿态信息到行人部件可视化评分的可靠映射。</p>
+<p>将各水平块的特征作为输入，估计其可视化评分，用 part label generator 生成的标签对其进行端到端优化。</p>
+<p>实现为 \(1 \times 1\) 卷积 + BN + FC + Sigmoid。</p>
+<h2 id="visibility-guided-constraint-loss">Visibility-Guided Constraint Loss</h2>
+<p>基于 batch hard triplet loss，其特征距离度量方式为：</p>
+<p>$$dist = \frac{\sum_{i=1}^{N}(l_{i}^q \cdot l_{i}^g) \cdot D(x_{i}^q, x_{i}^g) + D(F^q, F^g)}{\sum_{i=1}^{N} l_{i}^q \cdot l_{i}^g + 1},$$</p>
+<p>其中 \(l_{i}^q\) 和 \(l_{i}^g\) 表示相应 query 或 gallery 图像第 \(i\) 个水瓶块的可视化评分。</p>
+<h2 id="可视化评分示例">可视化评分示例</h2>
+<p><img src="/images/2021/PRN131/5.png" alt="Fig 5"></p>
 
     </div>
 
@@ -240,7 +230,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn130/>http://jonathanwayy.xyz/2021/prn130/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn131/>http://jonathanwayy.xyz/2021/prn131/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -278,12 +268,6 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
                     #ReID</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial/">
-                    #adversarial</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/adversarial-samples/">
-                    #adversarial samples</a></span>
-            
             </section>
         
         <section>
@@ -294,10 +278,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn129/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Syncretic Modality Collaborative Learning for VI-ReID (ICCV 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn130/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn131/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021)">[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -306,7 +290,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
