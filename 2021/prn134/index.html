@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn132/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn134/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn133/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn133/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn134/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)",
-    "headline" : "[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)",
-    "description" : "2111.11418 MetaFormer is Actually What You Need for Vision (2021) 开源代码传送门 概述 Transformer 中的编码器包含两部分，其一是注意力模块，用于混合 token 之间的信息，本文称之为 token mixer；其二是其余的模",
+    "name" : "[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)",
+    "headline" : "[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)",
+    "description" : "2106.05822 GroupBERT: Enhanced Transformer Architecture with Efficient Grouped Structures (2021) 概述 本文对 Transformer 曾的结构进行了一些改进： 增加一个卷积模块作为自注意力模块的补充，分解局部与全局关系的学习 引入 grouped transformeation 以降低前馈层",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-12-02 20:43:49 \u002b0800 CST",
-    "dateModified" : "2021-12-02 20:43:49 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn133\/",
-    "wordCount" : "228",
-    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","CNN", "Jonathan`s Blog"]
+    "datePublished": "2021-12-02 21:15:17 \u002b0800 CST",
+    "dateModified" : "2021-12-02 21:15:17 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn134\/",
+    "wordCount" : "299",
+    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","CNN","nlp", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,7 +155,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 228 words</span>
+                <span class="post-word-count">, 299 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,18 +189,27 @@
           
           
 
-          <h1 id="211111418-metaformer-is-actually-what-you-need-for-vision-2021">2111.11418 MetaFormer is Actually What You Need for Vision (2021)</h1>
-<p><a href="https://github.com/sail-sg/poolformer">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN133/1.png" alt="Fig 1"></p>
+          <h1 id="210605822-groupbert-enhanced-transformer-architecture-with-efficient-grouped-structures-2021">2106.05822 GroupBERT: Enhanced Transformer Architecture with Efficient Grouped Structures (2021)</h1>
+<p><img src="/images/2021/PRN134/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>Transformer 中的编码器包含两部分，其一是注意力模块，用于混合 token 之间的信息，本文称之为 token mixer；其二是其余的模块。</p>
-<p>本文将注意力模块视为一种特定的 token mixer，将整个 transformer 架构抽象为 MetaFormer。基于 MLP 甚至傅利叶变换的架构都可以视为 MetaFormer 的一种特殊实现，本文因而假设 transformer/MLP-like 系列模型的成功主要是由于 MetaFormer 架构。</p>
-<p>为了验证这一点，本文将 token mixer 实现为相对而言令牌混合能力较弱的池化操作，构建了 PoolFormer 架构，发现仍然能够得到较好的表现。</p>
-<h2 id="poolformer">PoolFormer</h2>
-<p><img src="/images/2021/PRN133/2.png" alt="Fig 2"></p>
-<h2 id="核心模块代码实现">核心模块代码实现</h2>
-<p><img src="/images/2021/PRN133/A1.png" alt="Alg 1"></p>
-<p><img src="/images/2021/PRN133/A2.png" alt="Alg 2"></p>
+<p>本文对 Transformer 曾的结构进行了一些改进：</p>
+<ul>
+<li>增加一个卷积模块作为自注意力模块的补充，分解局部与全局关系的学习</li>
+<li>引入 grouped transformeation 以降低前馈层与卷积层的计算复杂度</li>
+</ul>
+<p>提出 GroupBERT 模型，主要包含四个模块：</p>
+<ul>
+<li>一个多头注意力模块 (MHA)</li>
+<li>一个分组卷积模块</li>
+<li>两个分组前馈模块 (GFFN)</li>
+</ul>
+<p>各模块均都包含 dropout、跳连以及 layer normalization， GroupBERT 每一层均包含上述四个模块。</p>
+<h2 id="特征图可视化">特征图可视化</h2>
+<p><img src="/images/2021/PRN134/2.png" alt="Fig 2"></p>
+<h2 id="efficient-parameter-utilization">Efficient Parameter Utilization</h2>
+<p>将 layer normalization 从残差连接之后移动到残差块的开始处虽然不能直接提升表现，但是能够使训练更加稳定，能容许使用更大的学习率。</p>
+<p>此外，本文发现 dropout 的使用对预训练阶段不利，但这种现象并不发生于使用更小规模数据集的下游任务。因此本文只在微调阶段使用 dropout。</p>
+<p><img src="/images/2021/PRN134/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -215,7 +224,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn133/>http://jonathanwayy.xyz/2021/prn133/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn134/>http://jonathanwayy.xyz/2021/prn134/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -256,6 +265,9 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cnn/">
                     #CNN</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nlp/">
+                    #nlp</a></span>
+            
             </section>
         
         <section>
@@ -266,10 +278,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn132/" class="prev" rel="prev" title="[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn133/" class="prev" rel="prev" title="[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn134/" class="next" rel="next" title="[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)">[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

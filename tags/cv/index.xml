@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 02 Dec 2021 20:43:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 21:15:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn134/</link>
+      <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn134/</guid>
+      <description>2106.05822 GroupBERT: Enhanced Transformer Architecture with Efficient Grouped Structures (2021) 概述 本文对 Transformer 曾的结构进行了一些改进： 增加一个卷积模块作为自注意力模块的补充，分解局部与全局关系的学习 引入 grouped transformeation 以降低前馈层</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn133/</link>
