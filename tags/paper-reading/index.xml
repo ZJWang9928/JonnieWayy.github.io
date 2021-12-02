@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 01 Dec 2021 10:57:35 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 20:43:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn133/</link>
+      <pubDate>Thu, 02 Dec 2021 20:43:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn133/</guid>
+      <description>2111.11418 MetaFormer is Actually What You Need for Vision (2021) 开源代码传送门 概述 Transformer 中的编码器包含两部分，其一是注意力模块，用于混合 token 之间的信息，本文称之为 token mixer；其二是其余的模</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn132/</link>

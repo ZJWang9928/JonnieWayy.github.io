@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn131/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn133/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn132/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn132/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn133/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)",
-    "headline" : "[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)",
-    "description" : "Learning Deep Local Features With Multiple Dynamic Attentions for Large-Scale Image Retrieval (ICCV 2021) 开源代码传送门 概述 由于图像内容的多样性，只提取一张注意力图难以有效捕捉所有潜在的语义模式。 本文提出一个新架构，使",
+    "name" : "[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)",
+    "headline" : "[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)",
+    "description" : "2111.11418 MetaFormer is Actually What You Need for Vision (2021) 开源代码传送门 概述 Transformer 中的编码器包含两部分，其一是注意力模块，用于混合 token 之间的信息，本文称之为 token mixer；其二是其余的模",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-12-01 10:57:35 \u002b0800 CST",
-    "dateModified" : "2021-12-01 10:57:35 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn132\/",
-    "wordCount" : "528",
-    "keywords" : [ "paper reading","cv","notes","attention","retrieval", "Jonathan`s Blog"]
+    "datePublished": "2021-12-02 20:43:49 \u002b0800 CST",
+    "dateModified" : "2021-12-02 20:43:49 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn133\/",
+    "wordCount" : "228",
+    "keywords" : [ "paper reading","cv","notes","attention","transformer","ViT","CNN", "Jonathan`s Blog"]
 }
 </script>
 
@@ -155,12 +155,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-12-01 itemprop="datePublished">December 1, 2021</time>
+                on <time datetime=2021-12-02 itemprop="datePublished">December 2, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -168,7 +168,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 528 words</span>
+                <span class="post-word-count">, 228 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -189,42 +189,18 @@
           
           
 
-          <h1 id="learning-deep-local-features-with-multiple-dynamic-attentions-for-large-scale-image-retrieval-iccv-2021">Learning Deep Local Features With Multiple Dynamic Attentions for Large-Scale Image Retrieval (ICCV 2021)</h1>
-<p><a href="https://github.com/CHANWH/MDA">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN132/1.png" alt="Fig 1"></p>
+          <h1 id="211111418-metaformer-is-actually-what-you-need-for-vision-2021">2111.11418 MetaFormer is Actually What You Need for Vision (2021)</h1>
+<p><a href="https://github.com/sail-sg/poolformer">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN133/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>由于图像内容的多样性，只提取一张注意力图难以有效捕捉所有潜在的语义模式。</p>
-<p>本文提出一个新架构，使用多个动态注意力来检测多样化的局部特征。</p>
-<p><img src="/images/2021/PRN132/2.png" alt="Fig 2"></p>
-<h2 id="multiple-dynamic-attention-module">Multiple Dynamic Attention Module</h2>
-<p>旨在得到能够捕捉不同模式的注意力图。</p>
-<p>CNN 的特征图可以视为模式检测器 (pattern detector) 的 2D 响应图的集合，但某一视觉模式 (visual pattern) 相应的特征通道通常并不按顺序排列。</p>
-<p>对于一个特征图 \(S\)，首先用 \(1 \times 1\) 卷积对通道进行重排得到 \(\hat{S}\)，进而将其分为 \(N\) 组以表征多个独立的模式。</p>
-<p>将各组传入注意力生成模块 (attention generation module)，得到 \(N\) 个注意力图：</p>
-<p>$$F_{g}^i = \sigma(Conv_{1 \times 1}(AvgPool(F^i))),$$
-$$A^i = Softplus(F_{g}^i \otimes F^i).$$</p>
-<p><img src="/images/2021/PRN132/3.png" alt="Fig 3"></p>
-<h2 id="训练阶段">训练阶段</h2>
-<h3 id="contrasive-loss">Contrasive Loss</h3>
-<p>利用注意力图池化各组局部特征得到一组全局特征，计算对比损失。</p>
-<h3 id="diversity-regularization">Diversity Regularization</h3>
-<p>旨在使得不同的注意力头学习到不同的注意力。</p>
-<p>首先将各注意力图 \(A_{i}\) 拉平为向量 \(a_{i} \in \mathbb{R}^{H_{s}W_{s}}\)，</p>
-<p>$$\hat{a}_{i} = softmax(a_{i}).$$</p>
-<p>两个向量之间的 Hellinger 距离定义为：</p>
-<p>$$H(\hat{a}_{i}, \hat{a}_{j}) = \frac{1}{\sqrt{2}} ||\sqrt{\hat{a}_{i}} - \sqrt{\hat{a}_{j}}||_{2}.$$</p>
-<p>又因为 \(\sum_{l=1}^{H_{s}W_{s}}\hat{a}_{i, l} = 1\)，有</p>
-<p>$$H(\hat{a}_{i}, \hat{a}_{j})^2 = 1 - &lt;\sqrt{\hat{a}_{i}}, \sqrt{\hat{a}_{j}}&gt;.$$</p>
-<p>为了提高注意力图的多样性，应当最大化各向量之间的距离，因而将正则化项定义为：</p>
-<p>$$L_{reg} = \frac{1}{N(N - 1)} \sum_{i=1}^N \sum_{j \ne i}^N (&lt;\sqrt{\hat{a}_{i}}, \sqrt{\hat{a}_{j}}&gt; - 1).$$</p>
-<h2 id="测试阶段">测试阶段</h2>
-<p>测试阶段，根据注意力来选取 top-n 个局部特征。</p>
-<p>采用了二值化的聚合匹配核架构 ASMK* 来整合多尺度的局部特征。</p>
-<p><img src="/images/2021/PRN132/4.png" alt="Fig 4"></p>
-<h2 id="不同注意力模块对比">不同注意力模块对比</h2>
-<p><img src="/images/2021/PRN132/6.png" alt="Fig 6"></p>
-<h2 id="注意力图可视化示例">注意力图可视化示例</h2>
-<p><img src="/images/2021/PRN132/8.png" alt="Fig 8"></p>
+<p>Transformer 中的编码器包含两部分，其一是注意力模块，用于混合 token 之间的信息，本文称之为 token mixer；其二是其余的模块。</p>
+<p>本文将注意力模块视为一种特定的 token mixer，将整个 transformer 架构抽象为 MetaFormer。基于 MLP 甚至傅利叶变换的架构都可以视为 MetaFormer 的一种特殊实现，本文因而假设 transformer/MLP-like 系列模型的成功主要是由于 MetaFormer 架构。</p>
+<p>为了验证这一点，本文将 token mixer 实现为相对而言令牌混合能力较弱的池化操作，构建了 PoolFormer 架构，发现仍然能够得到较好的表现。</p>
+<h2 id="poolformer">PoolFormer</h2>
+<p><img src="/images/2021/PRN133/2.png" alt="Fig 2"></p>
+<h2 id="核心模块代码实现">核心模块代码实现</h2>
+<p><img src="/images/2021/PRN133/A1.png" alt="Alg 1"></p>
+<p><img src="/images/2021/PRN133/A2.png" alt="Alg 2"></p>
 
     </div>
 
@@ -239,7 +215,7 @@ $$A^i = Softplus(F_{g}^i \otimes F^i).$$</p>
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn132/>http://jonathanwayy.xyz/2021/prn132/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn133/>http://jonathanwayy.xyz/2021/prn133/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -271,8 +247,14 @@ $$A^i = Softplus(F_{g}^i \otimes F^i).$$</p>
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/attention/">
                     #attention</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/transformer/">
+                    #transformer</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
+                    #ViT</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cnn/">
+                    #CNN</a></span>
             
             </section>
         
@@ -284,10 +266,10 @@ $$A^i = Softplus(F_{g}^i \otimes F^i).$$</p>
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn131/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Learning To Know Where To See for Occluded ReID (ICCV 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn132/" class="prev" rel="prev" title="[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn133/" class="next" rel="next" title="[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)">[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -296,7 +278,7 @@ $$A^i = Softplus(F_{g}^i \otimes F^i).$$</p>
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
