@@ -53,6 +53,11 @@
         display: none;
     }
 
+    .navbar-search {
+        width: 10000px%,
+        line-height: 100%,
+    }
+
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
         .about-info {
             flex-direction: column-reverse;
@@ -114,6 +119,7 @@
     }
 &lt;/style&gt;
 
+
 &lt;!-- &lt;p&gt;&lt;img src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/2.gif&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt; --&gt;
 &lt;p&gt;&lt;img src=&#34;http://jonathanwayy.xyz/images/about/2.gif&#34; alt=&#34;banner&#34; style=&#34;height: 60px; width: 100%;&#34; /&gt;&lt;/p&gt;
 
@@ -147,6 +153,13 @@
 &lt;p&gt;My Github chart:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://ghchart.rshah.org/JonnieWayy&#34; alt=&#34;Jonathan&#39;s Github chart&#34; style=&#34;width: 100%;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Search in the Blog:&lt;/p&gt;
+
+&lt;div class=&#34;navbar-search&#34;&gt;
+    &lt;script async src=&#34;https://cse.google.com/cse.js?cx=40875a2625d134f6c&#34;&gt;&lt;/script&gt;
+    &lt;div class=&#34;gcse-search&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;!-- &lt;div&gt; --&gt;
     &lt;!-- [![Jonathan Wang&#39;s GitHub Stats](https://github-readme-stats.vercel.app/api?username=JonnieWayy&amp;count_private=true&amp;show_icons=true&amp;theme=radical)](https://github.com/JonnieWayy) --&gt;
