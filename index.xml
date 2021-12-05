@@ -53,11 +53,6 @@
         display: none;
     }
 
-    .navbar-search {
-        width: 10000px%,
-        line-height: 100%,
-    }
-
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
         .about-info {
             flex-direction: column-reverse;
@@ -117,6 +112,17 @@
             -o-transform: rotate(45deg) translate(-13px, 15px);
         }
     }
+
+&lt;!--     .navbar-search .gcse-search { --&gt;
+        &lt;!-- padding: 0 8px; --&gt;
+        &lt;!-- max-width: 1000px; --&gt;
+        &lt;!-- width: auto; --&gt;
+        &lt;!-- [&gt; margin: 0 auto; &lt;] --&gt;
+        &lt;!-- [&gt; display: flex; &lt;] --&gt;
+        &lt;!-- [&gt; justify-content: space-between; &lt;] --&gt;
+        &lt;!-- font-size: 1.125em; --&gt;
+        &lt;!-- background-color: red; --&gt;
+&lt;!--     } --&gt;
 &lt;/style&gt;
 
 
@@ -156,10 +162,10 @@
 
 &lt;p&gt;Search in the Blog:&lt;/p&gt;
 
-&lt;div class=&#34;navbar-search&#34;&gt;
-    &lt;script async src=&#34;https://cse.google.com/cse.js?cx=40875a2625d134f6c&#34;&gt;&lt;/script&gt;
-    &lt;div class=&#34;gcse-search&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;!-- &lt;div class=&#34;navbar-search&#34;&gt; --&gt;
+&lt;script async src=&#34;https://cse.google.com/cse.js?cx=40875a2625d134f6c&#34;&gt;&lt;/script&gt;
+&lt;div class=&#34;gcse-search&#34;&gt;&lt;/div&gt;
+&lt;!-- &lt;/div&gt; --&gt;
 
 &lt;!-- &lt;div&gt; --&gt;
     &lt;!-- [![Jonathan Wang&#39;s GitHub Stats](https://github-readme-stats.vercel.app/api?username=JonnieWayy&amp;count_private=true&amp;show_icons=true&amp;theme=radical)](https://github.com/JonnieWayy) --&gt;
