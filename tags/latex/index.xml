@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 13 Nov 2021 14:47:13 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Dec 2021 12:01:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex 调整表格宽度与高度</title>
+      <link>http://jonathanwayy.xyz/2021/latex_resizebox/</link>
+      <pubDate>Mon, 13 Dec 2021 12:01:57 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/latex_resizebox/</guid>
+      <description>有时会遇到表格超出页面正常宽度的情况，可使用 \resizebox 命令进行调整。 \begin{table} \centering \resizebox{\columnwidth}{20mm}{ \begin{tabular}{l|ccc} \toprule Method &amp;amp; Top-1 &amp;amp; Top-5 &amp;amp; Top-10 \\ \midrule DSSL \small{$_{MM21}$} \tiny{\cite{dssl}} &amp;amp; 59.98 &amp;amp; 80.41 &amp;amp; \textbf{87.56} \\ \bottomrule \end{tabular}} \caption{xxxxxxxx.} \label{tab:example} \end{table} 注：命令加在 tabular 外一层，</description>
+    </item>
+    
     <item>
       <title>Latex 表格中绘制经过指定列的水平线</title>
       <link>http://jonathanwayy.xyz/2021/latex_cline/</link>
