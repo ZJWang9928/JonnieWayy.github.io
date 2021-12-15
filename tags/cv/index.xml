@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Dec 2021 12:01:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 17:35:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_loss_grad/</link>
+      <pubDate>Wed, 15 Dec 2021 17:35:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_loss_grad/</guid>
+      <description>问题描述 模型训练时遇到如下报错： RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.FloatTensor [50, 76, 512]] is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True). 一种解决办法 将原先的</description>
+    </item>
+    
     <item>
       <title>Latex 调整表格宽度与高度</title>
       <link>http://jonathanwayy.xyz/2021/latex_resizebox/</link>
