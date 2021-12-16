@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 21 Sep 2021 23:36:45 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Dec 2021 17:34:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_got3and1/</link>
+      <pubDate>Thu, 16 Dec 2021 17:34:51 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_got3and1/</guid>
+      <description>问题描述 在 dataloader 相关部分出现如下报错： RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 0. Got 3 and 1 in dimension 1 at /pytorch/aten/src/TH/generic/THTensorMath.c:3586 原因分析 RGB 图像中混有单通道的灰度图，导致堆叠时无法对齐。 解决办</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- PyTorch 出现 NotImplementedError 报错的一种可能情况</title>
       <link>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</link>

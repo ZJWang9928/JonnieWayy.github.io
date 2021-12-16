@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/latex_resizebox/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/ldp_got3and1/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp_loss_grad/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp_loss_grad/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp_got3and1/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法 | Jonathan`s Blog
+           炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法 | Jonathan`s Blog">
+  <meta name="title" content="炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法",
-    "headline" : "炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法",
-    "description" : "问题描述 模型训练时遇到如下报错： RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.FloatTensor [50, 76, 512]] is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True). 一种解决办法 将原先的",
+    "name" : "炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法",
+    "headline" : "炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法",
+    "description" : "问题描述 在 dataloader 相关部分出现如下报错： RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 0. Got 3 and 1 in dimension 1 at \/pytorch\/aten\/src\/TH\/generic\/THTensorMath.c:3586 原因分析 RGB 图像中混有单通道的灰度图，导致堆叠时无法对齐。 解决办",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-12-15 17:35:03 \u002b0800 CST",
-    "dateModified" : "2021-12-15 17:35:03 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp_loss_grad\/",
-    "wordCount" : "83",
-    "keywords" : [ "cv","notes","deep learning","python","pytorch","linux","cuda", "Jonathan`s Blog"]
+    "datePublished": "2021-12-16 17:34:51 \u002b0800 CST",
+    "dateModified" : "2021-12-16 17:34:51 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp_got3and1\/",
+    "wordCount" : "100",
+    "keywords" : [ "cv","notes","deep learning","pytorch","coding","python", "Jonathan`s Blog"]
 }
 </script>
 
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法</h1>
+        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-12-15 itemprop="datePublished">December 15, 2021</time>
+                on <time datetime=2021-12-16 itemprop="datePublished">December 16, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
                         
                 </span>
-                <span class="post-word-count">, 83 words</span>
+                <span class="post-word-count">, 100 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -191,13 +191,17 @@
           
           
 
-          <h2 id="问题描述">问题描述</h2>
-<p>模型训练时遇到如下报错：</p>
-<p>RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.FloatTensor [50, 76, 512]] is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True).</p>
-<h2 id="一种解决办法">一种解决办法</h2>
-<p>将原先的 <code>loss.backward()</code> 改为</p>
-<pre tabindex="0"><code>loss1 = loss.detach_().requires_grad_(True)
-loss1.backward()
+          <h1 id="问题描述">问题描述</h1>
+<p>在 dataloader 相关部分出现如下报错：</p>
+<pre tabindex="0"><code>RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 0. 
+Got 3 and 1 in dimension 1 at /pytorch/aten/src/TH/generic/THTensorMath.c:3586
+</code></pre><h1 id="原因分析">原因分析</h1>
+<p>RGB 图像中混有单通道的灰度图，导致堆叠时无法对齐。</p>
+<h1 id="解决办法">解决办法</h1>
+<p>读取图像后进行检查与转化：</p>
+<pre tabindex="0"><code>image = Image.open(image_path)
+if image.getbands()[0] == 'L':
+     image = image.convert('RGB')
 </code></pre><p>问题解决了。</p>
 
     </div>
@@ -213,7 +217,7 @@ loss1.backward()
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/ldp_loss_grad/>http://jonathanwayy.xyz/2021/ldp_loss_grad/</span>
+                    <a href=http://jonathanwayy.xyz/2021/ldp_got3and1/>http://jonathanwayy.xyz/2021/ldp_got3and1/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -242,17 +246,14 @@ loss1.backward()
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
                     #deep learning</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
-                    #python</a></span>
-            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/pytorch/">
                     #pytorch</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/coding/">
+                    #coding</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cuda/">
-                    #cuda</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
+                    #python</a></span>
             
             </section>
         
@@ -264,10 +265,10 @@ loss1.backward()
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/latex_resizebox/" class="prev" rel="prev" title="Latex 调整表格宽度与高度"><i class="iconfont icon-left"></i>&nbsp;Latex 调整表格宽度与高度</a>
+        <a href="http://jonathanwayy.xyz/2021/ldp_loss_grad/" class="prev" rel="prev" title="炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/ldp_got3and1/" class="next" rel="next" title="炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法">炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -276,7 +277,7 @@ loss1.backward()
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
