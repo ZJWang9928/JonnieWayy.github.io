@@ -7,11 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Dec 2021 17:34:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 12:43:08 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kde</title>
+      <link>http://jonathanwayy.xyz/tags/kde/</link>
+      <pubDate>Wed, 15 Dec 2021 12:43:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <pubDate>Wed, 15 Dec 2021 12:43:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
+      <pubDate>Wed, 15 Dec 2021 12:43:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wallpaper</title>
+      <link>http://jonathanwayy.xyz/tags/wallpaper/</link>
+      <pubDate>Wed, 15 Dec 2021 12:43:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>coding</title>
       <link>http://jonathanwayy.xyz/tags/coding/</link>
-      <pubDate>Thu, 16 Dec 2021 17:34:51 +0800</pubDate>
+      <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/coding/</guid>
       <description></description>
@@ -20,7 +56,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 16 Dec 2021 17:34:51 +0800</pubDate>
+      <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +65,7 @@
     <item>
       <title>deep learning</title>
       <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Thu, 16 Dec 2021 17:34:51 +0800</pubDate>
+      <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
       <description></description>
@@ -38,7 +74,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Thu, 16 Dec 2021 17:34:51 +0800</pubDate>
+      <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,7 +83,7 @@
     <item>
       <title>Python</title>
       <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Thu, 16 Dec 2021 17:34:51 +0800</pubDate>
+      <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/python/</guid>
       <description></description>
@@ -56,7 +92,7 @@
     <item>
       <title>pytorch</title>
       <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Thu, 16 Dec 2021 17:34:51 +0800</pubDate>
+      <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
@@ -65,25 +101,16 @@
     <item>
       <title>cuda</title>
       <link>http://jonathanwayy.xyz/tags/cuda/</link>
-      <pubDate>Wed, 15 Dec 2021 17:35:03 +0800</pubDate>
+      <pubDate>Sun, 12 Dec 2021 17:35:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cuda/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Wed, 15 Dec 2021 17:35:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>latex</title>
       <link>http://jonathanwayy.xyz/tags/latex/</link>
-      <pubDate>Mon, 13 Dec 2021 12:01:57 +0800</pubDate>
+      <pubDate>Thu, 09 Dec 2021 12:01:57 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/latex/</guid>
       <description></description>
@@ -92,7 +119,7 @@
     <item>
       <title>paperwriting</title>
       <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
-      <pubDate>Mon, 13 Dec 2021 12:01:57 +0800</pubDate>
+      <pubDate>Thu, 09 Dec 2021 12:01:57 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
       <description></description>
@@ -122,33 +149,6 @@
       <pubDate>Tue, 07 Dec 2021 12:32:26 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kde</title>
-      <link>http://jonathanwayy.xyz/tags/kde/</link>
-      <pubDate>Sun, 05 Dec 2021 20:33:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>manjaro</title>
-      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
-      <pubDate>Sun, 05 Dec 2021 20:33:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wallpaper</title>
-      <link>http://jonathanwayy.xyz/tags/wallpaper/</link>
-      <pubDate>Sun, 05 Dec 2021 20:33:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
       <description></description>
     </item>
     
