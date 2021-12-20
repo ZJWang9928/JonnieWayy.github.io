@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Dec 2021 16:40:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Dec 2021 17:26:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] PGGANet: Pose Guided Graph Attention Network for ReID (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn138/</link>
+      <pubDate>Mon, 20 Dec 2021 17:26:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn138/</guid>
+      <description>2111.14411 PGGANet: Pose Guided Graph Attention Network for Person Re-identification (2021) 概述 现有方法多只是将姿态热图与特征图相乘得到局部关键点特征，但这种做法并非最佳选择： backbone 输出的全局特征高度抽象，各个像素</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Stronger Baseline for Person Re-Identification (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn137/</link>
