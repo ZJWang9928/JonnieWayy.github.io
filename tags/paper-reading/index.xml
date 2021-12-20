@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Dec 2021 15:56:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Dec 2021 16:40:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Stronger Baseline for Person Re-Identification (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn137/</link>
+      <pubDate>Mon, 20 Dec 2021 16:40:23 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn137/</guid>
+      <description>2112.01059 Stronger Baseline for Person Re-Identification (2021) 概述 由于训练数据较之于分类任务更加有限，ReID 有过高的过拟合风险，为了缓解这一问题主要有两种思路： 设计更加轻量级的网络结构，</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Learning Semantic-aligned Feature Representation for TBPS (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn136/</link>
