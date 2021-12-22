@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Dec 2021 17:26:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Dec 2021 17:01:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边</title>
+      <link>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</link>
+      <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</guid>
+      <description>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(&#39;xxx.png&#39;, dpi=500, bbox_inches=&#39;tight&#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] PGGANet: Pose Guided Graph Attention Network for ReID (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn138/</link>
