@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/bg41/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn139/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn139/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边 | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边 | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边",
-    "headline" : "炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边",
-    "description" : "在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(\u0027xxx.png\u0027, dpi=500, bbox_inches=\u0027tight\u0027, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将",
+    "name" : "[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)",
+    "headline" : "[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)",
+    "description" : "Pose-guided Feature Disentangling for Occluded Person Re-identification Based on Transformer (AAAI 2022) 开源代码传送门 概述 本文试图在不涉及空间对齐的情况下结合额外的姿态信息与 Transformer，提出一种姿态指导的特征",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-12-22 17:01:28 \u002b0800 CST",
-    "dateModified" : "2021-12-22 17:01:28 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/ldp_plt_savefig_nowhite\/",
-    "wordCount" : "114",
-    "keywords" : [ "cv","notes","deep learning","python","plt","linux", "Jonathan`s Blog"]
+    "datePublished": "2021-12-24 18:43:24 \u002b0800 CST",
+    "dateModified" : "2021-12-24 18:43:24 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn139\/",
+    "wordCount" : "219",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
 
@@ -159,25 +159,27 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-12-22 itemprop="datePublished">December 22, 2021</time>
+                on <time datetime=2021-12-24 itemprop="datePublished">December 24, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/alchemy-of-cv/"> Alchemy Of CV </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 114 words</span>
+                <span class="post-word-count">, 219 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -191,10 +193,28 @@
           
           
 
-          <p>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。</p>
-<p>将语句写成如下形式即可：</p>
-<pre tabindex="0"><code>plt.savefig('xxx.png', dpi=500, bbox_inches='tight', pad_inches=0.0)
-</code></pre><p>其中将 <code>pad_inches</code> 参数置零即可去除白边，而将 <code>bbox_inches</code> 设为 tight 则能够去除坐标轴占用的空间（仅设置将坐标轴可视化关闭仍会占据空间，只是不显示）。</p>
+          <h1 id="pose-guided-feature-disentangling-for-occluded-person-re-identification-based-on-transformer-aaai-2022">Pose-guided Feature Disentangling for Occluded Person Re-identification Based on Transformer (AAAI 2022)</h1>
+<p><a href="https://github.com/WangTaoAs/PFD_Net">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN139/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<p>本文试图在不涉及空间对齐的情况下结合额外的姿态信息与 Transformer，提出一种姿态指导的特征解构 Transformer (Pose-guided Feature Disentangling Transformer, PFD)，其主要包含如下几个模块：</p>
+<ul>
+<li>visual context transformer encoder</li>
+<li>pose estimator</li>
+<li>Pose-guided Feature Aggregation (PFA) module</li>
+<li>part view based transformer decoder</li>
+<li>Pose-View Matching (PVM) module</li>
+</ul>
+<p><img src="/images/2021/PRN139/2.png" alt="Fig 2"></p>
+<h2 id="pfd">PFD</h2>
+<h3 id="visual-context-transformer-encoder">Visual Context Transformer Encoder</h3>
+<p>基于 ViT 构建，采用 id loss 和 triplet loss。</p>
+<h3 id="pose-guided-feature-aggregation">Pose-guided Feature Aggregation</h3>
+<p>通过一个匹配与分配的机制 (matching and distributing mechanism) 找到 \(f_{gp}\) 中对某个身体部件贡献最高的一部分信息。</p>
+<h3 id="part-view-based-transformer-decoder">Part View Based Transformer Decoder</h3>
+<p>定义了一组可学习的语义部件视角 (semantic part view) 以学习具有鉴别力的身体部件。</p>
+<h2 id="特征可视化">特征可视化</h2>
+<p><img src="/images/2021/PRN139/5.png" alt="Fig 5"></p>
 
     </div>
 
@@ -209,7 +229,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn139/>http://jonathanwayy.xyz/2021/prn139/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -229,23 +249,23 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
-                    #deep learning</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/python/">
-                    #python</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/plt/">
-                    #plt</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #ReID</a></span>
             
             </section>
         
@@ -257,10 +277,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/bg41/" class="prev" rel="prev" title="壁纸分享[41]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[41]</a>
+        <a href="http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/" class="prev" rel="prev" title="炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn139/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)">[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -269,7 +289,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -307,8 +327,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

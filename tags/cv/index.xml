@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 22 Dec 2021 17:01:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Dec 2021 18:43:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)</title>
+      <link>http://jonathanwayy.xyz/2021/prn139/</link>
+      <pubDate>Fri, 24 Dec 2021 18:43:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn139/</guid>
+      <description>Pose-guided Feature Disentangling for Occluded Person Re-identification Based on Transformer (AAAI 2022) 开源代码传送门 概述 本文试图在不涉及空间对齐的情况下结合额外的姿态信息与 Transformer，提出一种姿态指导的特征</description>
+    </item>
+    
     <item>
       <title>炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边</title>
       <link>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</link>
