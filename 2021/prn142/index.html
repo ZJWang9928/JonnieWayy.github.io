@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn140/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn142/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn141/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn141/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn142/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Cross-Modal Knowledge Adaptation for LB Person Search (TIP 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] DBPS with Multi-Grained Matching Networks (Displays 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Cross-Modal Knowledge Adaptation for LB Person Search (TIP 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] DBPS with Multi-Grained Matching Networks (Displays 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Cross-Modal Knowledge Adaptation for LB Person Search (TIP 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Cross-Modal Knowledge Adaptation for LB Person Search (TIP 2021)",
-    "description" : "Cross-Modal Knowledge Adaptation for Language-Based Person Search (TIP 2021) 概述 本文着眼于公共空间学习时不同模态间表征的不一致性。 文本可用于指导图像特征丰富其重要的新人细节通知避免图像独有信息的干扰",
+    "name" : "[论文阅读笔记 -- ReID] DBPS with Multi-Grained Matching Networks (Displays 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] DBPS with Multi-Grained Matching Networks (Displays 2021)",
+    "description" : "Description-Based Person Search with Multi-Grained Matching Networks (Displays 2021) 概述 本文提出一种多粒度匹配架构 (multi-grained matching framework)。 全局粒度表征 ResNet-50 \/ BERT 细粒度表征 对行人图像使用 Graphonomy 方法进行 human parsin",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-12-25 14:59:38 \u002b0800 CST",
-    "dateModified" : "2021-12-25 14:59:38 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn141\/",
-    "wordCount" : "341",
+    "datePublished": "2021-12-25 16:05:09 \u002b0800 CST",
+    "dateModified" : "2021-12-25 16:05:09 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn142\/",
+    "wordCount" : "179",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,7 +159,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Cross-Modal Knowledge Adaptation for LB Person Search (TIP 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] DBPS with Multi-Grained Matching Networks (Displays 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 341 words</span>
+                <span class="post-word-count">, 179 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,34 +193,27 @@
           
           
 
-          <h1 id="cross-modal-knowledge-adaptation-for-language-based-person-search-tip-2021">Cross-Modal Knowledge Adaptation for Language-Based Person Search (TIP 2021)</h1>
-<p><img src="/images/2021/PRN141/1.png" alt="Fig 1">
-<img src="/images/2021/PRN141/2.png" alt="Fig 2"></p>
+          <h1 id="description-based-person-search-with-multi-grained-matching-networks-displays-2021">Description-Based Person Search with Multi-Grained Matching Networks (Displays 2021)</h1>
+<p><img src="/images/2021/PRN142/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文着眼于公共空间学习时不同模态间表征的不一致性。</p>
-<p>文本可用于指导图像特征丰富其重要的新人细节通知避免图像独有信息的干扰。</p>
-<p>本文提出一种跨模态知识自适应 (Cross-Modal Knowledge Adaptation, CMKA) 方法，从个体、列表及类别三个层面实现模态之间的知识自适应。</p>
-<p><img src="/images/2021/PRN141/3.png" alt="Fig 3"></p>
-<h2 id="cmka">CMKA</h2>
-<h3 id="图文表征网络">图文表征网络</h3>
-<p>图像模态用 ResNet-50，文本模态用 bi-LSTM。</p>
-<h3 id="跨模态特征自适应">跨模态特征自适应</h3>
-<p>迫使图像表征适应于文本表征，最小化二者之间的距离：</p>
-<p>$$\mathcal{L}_{FKA} = ||f_{i}^{Img} - f_{i}^{Txt}||^{2}.$$</p>
-<p>由于只要求图像特征适应于文本特征，该损失在模型训练时的反向传播不经过文本表征网络。</p>
-<h3 id="跨模态排序列表自适应">跨模态排序列表自适应</h3>
-<p>在个体数据点的知识之外，利用排序列表的高阶知识。</p>
-<p>受 learning-to-rank 技术的启发，本文在不同模态之间进行扰动几率自适应 (permutation probability adaptation)。</p>
-<h3 id="跨模态类几率自适应">跨模态类几率自适应</h3>
-<p>基于知识蒸馏。</p>
-<h3 id="模型测试">模型测试</h3>
-<p><img src="/images/2021/PRN141/4.png" alt="Fig 4"></p>
-<h2 id="检索结果对比示例">检索结果对比示例</h2>
-<p><img src="/images/2021/PRN141/6.png" alt="Fig 6"></p>
-<h2 id="特征可视化示例">特征可视化示例</h2>
-<p><img src="/images/2021/PRN141/7.png" alt="Fig 7"></p>
-<p><img src="/images/2021/PRN141/8.png" alt="Fig 8"></p>
-<p><img src="/images/2021/PRN141/9.png" alt="Fig 9"></p>
+<p>本文提出一种多粒度匹配架构 (multi-grained matching framework)。</p>
+<p><img src="/images/2021/PRN142/2.png" alt="Fig 2"></p>
+<h2 id="全局粒度表征">全局粒度表征</h2>
+<p>ResNet-50 / BERT</p>
+<h2 id="细粒度表征">细粒度表征</h2>
+<p>对行人图像使用 Graphonomy 方法进行 human parsing，置信度图，并二值化为分割掩码。</p>
+<p>对文本进行名词短语提取。</p>
+<p><img src="/images/2021/PRN142/3.png" alt="Fig 3"></p>
+<h3 id="基于分割的注意力">基于分割的注意力</h3>
+<p>面向身体部件与完整名词短语。</p>
+<h3 id="基于语言的注意力">基于语言的注意力</h3>
+<p>面向部件类别与名词短语。</p>
+<h2 id="粗粒度表征">粗粒度表征</h2>
+<p>将细粒度表征作为节点，利用 GCN 进行特征聚合。</p>
+<h2 id="损失函数">损失函数</h2>
+<p>CMPM + CMPC</p>
+<h2 id="可视化示例">可视化示例</h2>
+<p><img src="/images/2021/PRN142/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -235,7 +228,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn141/>http://jonathanwayy.xyz/2021/prn141/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn142/>http://jonathanwayy.xyz/2021/prn142/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -283,10 +276,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn140/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn141/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Cross-Modal Knowledge Adaptation for LB Person Search (TIP 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Cross-Modal Knowledge Adaptation for LB Person Search (TIP 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn142/" class="next" rel="next" title="[论文阅读笔记 -- ReID] DBPS with Multi-Grained Matching Networks (Displays 2021)">[论文阅读笔记 -- ReID] DBPS with Multi-Grained Matching Networks (Displays 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -295,7 +288,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
