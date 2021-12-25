@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn140/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn139/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn139/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn140/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)",
-    "description" : "Pose-guided Feature Disentangling for Occluded Person Re-identification Based on Transformer (AAAI 2022) 开源代码传送门 概述 本文试图在不涉及空间对齐的情况下结合额外的姿态信息与 Transformer，提出一种姿态指导的特征",
+    "name" : "[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021)",
+    "description" : "Text-based Person Search via Multi-Granularity Embedding Learning (IJCAI 2021) 概述 现有方法多存在嵌入模糊问题 (ambiguity embedding problem)。 本文提出一种多粒度嵌入学习模型 (multi-granularity embedding learning model, MGEL)，从粗到细表征行人，并",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-12-24 18:43:24 \u002b0800 CST",
-    "dateModified" : "2021-12-24 18:43:24 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn139\/",
-    "wordCount" : "219",
+    "datePublished": "2021-12-25 14:15:45 \u002b0800 CST",
+    "dateModified" : "2021-12-25 14:15:45 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn140\/",
+    "wordCount" : "474",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2021-12-24 itemprop="datePublished">December 24, 2021</time>
+                on <time datetime=2021-12-25 itemprop="datePublished">December 25, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 219 words</span>
+                <span class="post-word-count">, 474 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,28 +193,38 @@
           
           
 
-          <h1 id="pose-guided-feature-disentangling-for-occluded-person-re-identification-based-on-transformer-aaai-2022">Pose-guided Feature Disentangling for Occluded Person Re-identification Based on Transformer (AAAI 2022)</h1>
-<p><a href="https://github.com/WangTaoAs/PFD_Net">开源代码传送门</a></p>
-<p><img src="/images/2021/PRN139/1.png" alt="Fig 1"></p>
+          <h1 id="text-based-person-search-via-multi-granularity-embedding-learning-ijcai-2021">Text-based Person Search via Multi-Granularity Embedding Learning (IJCAI 2021)</h1>
+<p><img src="/images/2021/PRN140/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文试图在不涉及空间对齐的情况下结合额外的姿态信息与 Transformer，提出一种姿态指导的特征解构 Transformer (Pose-guided Feature Disentangling Transformer, PFD)，其主要包含如下几个模块：</p>
+<p>现有方法多存在嵌入模糊问题 (ambiguity embedding problem)。</p>
+<p>本文提出一种多粒度嵌入学习模型 (multi-granularity embedding learning model, MGEL)，从粗到细表征行人，并进行多粒度的知识蒸馏。</p>
+<p><img src="/images/2021/PRN140/2.png" alt="Fig 2"></p>
+<h2 id="多粒度部分嵌入学习">多粒度部分嵌入学习</h2>
+<h3 id="modality-aware-partial-embedding">Modality-Aware Partial Embedding</h3>
+<p>提取 4 中不同粒度的特征，设计了一个粒度注意力块 (GAB) 来减小无关特征的影响。</p>
+<p>文本模态利用多头自注意力模块得到特定数目的部分嵌入。</p>
+<h3 id="部分嵌入学习">部分嵌入学习</h3>
+<p>旨在联系视觉与文本的多粒度部分嵌入以学习具有鉴别能力的部分嵌入。为了实现这一点需要考虑两方面：</p>
 <ul>
-<li>visual context transformer encoder</li>
-<li>pose estimator</li>
-<li>Pose-guided Feature Aggregation (PFA) module</li>
-<li>part view based transformer decoder</li>
-<li>Pose-View Matching (PVM) module</li>
+<li>同一身体部分的视觉与文本特征应该具有相同的统计分布</li>
+<li>两个嵌入应当是 modality-invariant 的</li>
 </ul>
-<p><img src="/images/2021/PRN139/2.png" alt="Fig 2"></p>
-<h2 id="pfd">PFD</h2>
-<h3 id="visual-context-transformer-encoder">Visual Context Transformer Encoder</h3>
-<p>基于 ViT 构建，采用 id loss 和 triplet loss。</p>
-<h3 id="pose-guided-feature-aggregation">Pose-guided Feature Aggregation</h3>
-<p>通过一个匹配与分配的机制 (matching and distributing mechanism) 找到 \(f_{gp}\) 中对某个身体部件贡献最高的一部分信息。</p>
-<h3 id="part-view-based-transformer-decoder">Part View Based Transformer Decoder</h3>
-<p>定义了一组可学习的语义部件视角 (semantic part view) 以学习具有鉴别力的身体部件。</p>
-<h2 id="特征可视化">特征可视化</h2>
-<p><img src="/images/2021/PRN139/5.png" alt="Fig 5"></p>
+<p>对于第一点，首先利用一个激活映射函数 (activation mapping function) 沿着通道维得到各部分嵌入的激活值：</p>
+<p>$$\hat{A}_{i}^{k} = \frac{1}{c} \sum |v_{i}^{k}| \in \mathbb{R},$$
+$$\widetilde{A}_{i}^{k} = \frac{1}{c} \sum |z_{i}^{k}| \in \mathbb{R},$$</p>
+<p>其中 \(|\cdot|\) 表示绝对值，进而最小化以下损失</p>
+<p>$$\mathcal{L}_{pull}^{k} = \sum_{i=1}^{2^{k-1}} ||\hat{A}_{i}^{k} - \widetilde{A}_{i}^{k}||^{2}.$$</p>
+<p>而对于第二点，因为两个嵌入对应同一部分，则其混合特征也表征该部分，因此二者求均值得到融合后的特征，后续具体如图 3 所示。</p>
+<p><img src="/images/2021/PRN140/3.png" alt="Fig 3"></p>
+<p>通过全局对比池化 (GCP) 聚合部分嵌入：</p>
+<p>$$\hat{v}^k = fc_{1}(\hat{v}_{m}^k) + fc_{3}([fc_{1}(\hat{v}_{m}^k), fc_{2}(\hat{v}_{m}^k - \hat{v}_{a}^k)]).$$</p>
+<p>各粒度共享 GCP 的参数。</p>
+<p>用到三元组损失。</p>
+<h2 id="多粒度图文匹配">多粒度图文匹配</h2>
+<h3 id="多粒度全局嵌入">多粒度全局嵌入</h3>
+<p>用全局对比池化聚合局部表征得到多粒度的全局行人嵌入。</p>
+<h3 id="图文匹配">图文匹配</h3>
+<p>三元组损失 + 交叉熵损失。</p>
 
     </div>
 
@@ -229,7 +239,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn139/>http://jonathanwayy.xyz/2021/prn139/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn140/>http://jonathanwayy.xyz/2021/prn140/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -277,10 +287,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/" class="prev" rel="prev" title="炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边"><i class="iconfont icon-left"></i>&nbsp;炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边</a>
+        <a href="http://jonathanwayy.xyz/2021/prn139/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Pose-guided Feature Disentangling for Occluded ReID (AAAI 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn140/" class="next" rel="next" title="[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021)">[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -289,7 +299,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
