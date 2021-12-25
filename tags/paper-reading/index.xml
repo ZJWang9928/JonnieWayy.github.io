@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 25 Dec 2021 14:15:45 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Dec 2021 14:59:38 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Cross-Modal Knowledge Adaptation for LB Person Search (TIP 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn141/</link>
+      <pubDate>Sat, 25 Dec 2021 14:59:38 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn141/</guid>
+      <description>Cross-Modal Knowledge Adaptation for Language-Based Person Search (TIP 2021) 概述 本文着眼于公共空间学习时不同模态间表征的不一致性。 文本可用于指导图像特征丰富其重要的新人细节通知避免图像独有信息的干扰</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] TBPS via Multi-Granularity Embedding Learning (IJCAI 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn140/</link>
