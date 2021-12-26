@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 25 Dec 2021 16:05:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Dec 2021 15:06:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] FGITR via Discriminative Latent Space Learning (SPL 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn143/</link>
+      <pubDate>Sun, 26 Dec 2021 15:06:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn143/</guid>
+      <description>Fine-Grained Image-Text Retrieval via Discriminative Latent Space Learning (SPL 2021) 概述 本文关注细粒度图文检索，提出一种有鉴别力的潜在空间学习方法 (Discriminative Latent Space Learning, DLSL)。 图文编码 分别用 ResNet-50 和词袋模型编码图文数据</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] DBPS with Multi-Grained Matching Networks (Displays 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn142/</link>
