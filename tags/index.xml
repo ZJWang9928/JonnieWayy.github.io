@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 26 Dec 2021 15:06:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Dec 2021 17:59:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Sun, 26 Dec 2021 15:06:04 +0800</pubDate>
+      <pubDate>Mon, 27 Dec 2021 17:59:41 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sun, 26 Dec 2021 15:06:04 +0800</pubDate>
+      <pubDate>Mon, 27 Dec 2021 17:59:41 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sun, 26 Dec 2021 15:06:04 +0800</pubDate>
+      <pubDate>Mon, 27 Dec 2021 17:59:41 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -38,9 +38,18 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sun, 26 Dec 2021 15:06:04 +0800</pubDate>
+      <pubDate>Mon, 27 Dec 2021 17:59:41 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visual dialog</title>
+      <link>http://jonathanwayy.xyz/tags/visual-dialog/</link>
+      <pubDate>Mon, 27 Dec 2021 17:59:41 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/visual-dialog/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visual dialog on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/visual-dialog/</link>
+    <description>Recent content in visual dialog on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Mon, 27 Dec 2021 17:59:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/visual-dialog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 视觉对话] RAN with Reinforced Generator for Visual Dialog (TOMM 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn144/</link>
+      <pubDate>Mon, 27 Dec 2021 17:59:41 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn144/</guid>
+      <description>Recurrent Attention Network with Reinforced Generator for Visual Dialog (TOMM 2020) 概述 视觉对话 (Visual Dialog) 任务，代理 (agent) 根据所提供的图像与对话历史，回答关于图像中视觉内容的一系列具有时序关系的自然语言问题。 两个</description>
+    </item>
+    
+  </channel>
+</rss>
