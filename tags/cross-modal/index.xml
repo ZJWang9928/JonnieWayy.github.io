@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 27 Dec 2021 17:59:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Dec 2021 10:56:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn145/</link>
+      <pubDate>Tue, 28 Dec 2021 10:56:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn145/</guid>
+      <description>2112.08740 Feature Erasing and Diffusion Network for Occluded Person Re-Identification (2021) 概述 现实场景下主要存在两种干扰： Non-Pedestrian Occlusion (NPO) Non-Target Pedestrian (NTP) 现有方法更多关注前者而忽略了后者，预训练的姿态估计与行人解析模型在含有多个</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 视觉对话] RAN with Reinforced Generator for Visual Dialog (TOMM 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn144/</link>
