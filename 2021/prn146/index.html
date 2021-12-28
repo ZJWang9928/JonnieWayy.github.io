@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn144/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn146/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn145/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn145/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn146/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021)",
-    "description" : "2112.08740 Feature Erasing and Diffusion Network for Occluded Person Re-Identification (2021) 概述 现实场景下主要存在两种干扰： Non-Pedestrian Occlusion (NPO) Non-Target Pedestrian (NTP) 现有方法更多关注前者而忽略了后者，预训练的姿态估计与行人解析模型在含有多个",
+    "name" : "[论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021)",
+    "headline" : "[论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021)",
+    "description" : "Barlow Twins: Self-Supervised Learning via Redundancy Reduction (ICML 2021) 开源代码传送门 概述 自监督学习任务 (SSL)。 现有工作的一个共同目标是要学习在不同扰动之下依旧稳定的表征，一种典型做法是最大",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-12-28 10:56:11 \u002b0800 CST",
-    "dateModified" : "2021-12-28 10:56:11 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn145\/",
-    "wordCount" : "723",
+    "datePublished": "2021-12-28 13:14:24 \u002b0800 CST",
+    "dateModified" : "2021-12-28 13:14:24 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn146\/",
+    "wordCount" : "447",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","occuluded", "Jonathan`s Blog"]
 }
 </script>
@@ -159,7 +159,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 723 words</span>
+                <span class="post-word-count">, 447 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,45 +193,24 @@
           
           
 
-          <h1 id="211208740-feature-erasing-and-diffusion-network-for-occluded-person-re-identification-2021">2112.08740 Feature Erasing and Diffusion Network for Occluded Person Re-Identification (2021)</h1>
-<p><img src="/images/2021/PRN145/1.png" alt="Fig 1"></p>
+          <h1 id="barlow-twins-self-supervised-learning-via-redundancy-reduction-icml-2021">Barlow Twins: Self-Supervised Learning via Redundancy Reduction (ICML 2021)</h1>
+<p><a href="https://github.com/facebookresearch/barlowtwins">开源代码传送门</a></p>
+<p><img src="/images/2021/PRN146/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>现实场景下主要存在两种干扰：</p>
-<ul>
-<li>Non-Pedestrian Occlusion (NPO)</li>
-<li>Non-Target Pedestrian (NTP)</li>
-</ul>
-<p>现有方法更多关注前者而忽略了后者，预训练的姿态估计与行人解析模型在含有多个行人的图像上通常表现较差。</p>
-<p>此外，行人解析模型通常无法识别背包、雨伞等配件。</p>
-<p>本文提出一种特征删除与扩散网络 (Feature Erasing and Diffusion network, FED)，主要包含一个遮挡删除模块 (Occlusion Erasing Module, OEM) 和一个特征扩散模块 (Feature Diffusion Module, FDM)。</p>
-<p><img src="/images/2021/PRN145/2.png" alt="Fig 2"></p>
-<h2 id="npo-特征删除">NPO 特征删除</h2>
-<h3 id="npo-增广策略">NPO 增广策略</h3>
-<p>由遮挡增广与掩码生成构成。</p>
-<p>首先选取图像并人工切割出背景与遮挡目标，构建一个遮挡集合 (occulusion set)。</p>
-<p>在做遮挡增广时，对输入图像做了一般增广后，从遮挡集合中选一个 patch，计算其纵横比，若大于 3 则更可能是一个垂直遮挡，否则是水平遮挡。对该 patch 做常规增广后，根据其类型变形为 \((H/4 \sim H/2, W)\) 或 \((H, W/4 \sim W/2)\)。进而在输入的图像上随机选一个角作为 patch 的起始点。</p>
-<p>掩码生成则是一个由细到粗的过程。首先由差值的绝对值得到像素差异。将图像水平 4 等分并进行标记，由于垂直遮挡只破坏对称特征较易分辨，因而在掩码生成时忽略垂直遮挡，对于水平块采用软二值化操作 (soft binarization operation)。</p>
-<h3 id="遮挡删除模块-oem">遮挡删除模块 (OEM)</h3>
-<p>由 4 个对应各身体部分的子模块构成，各子模块由两个 FC 层，一个归一化层和一个 Sigmoid 函数构成：</p>
-<p>$$f_{i}^{'} = Sigmoid(W_{rg} LN(W_{cp} f_{i})) \cdot f_{i},$$</p>
-<p>其中 \(W_{cp} \in \mathbb{R}^{c / 4 \times c}, W_{rg} \in \mathbb{R}^{1 \times c / 4}\)。</p>
-<p>NPO 增广策略用于监督 OEM 的训练：</p>
-<p>$$\mathcal{L}_{MSE} = \frac{1}{N} \sum_{i=1}^{4} (s_{i}, mask_{i}).$$</p>
-<p><img src="/images/2021/PRN145/3.png" alt="Fig 3"></p>
-<h2 id="特征扩散模块-fdm">特征扩散模块 (FDM)</h2>
-<p>用于在特征空间中模拟多行人图像的状况。</p>
-<h3 id="memory-bank">Memory Bank</h3>
-<p>\(\mathcal{M}\) 的生成包含记忆初始化与记忆更新，将记忆初始化为训练集上的 ID 中心，第 \(k\) 个中心 \(c_{k}\) 通过一个 mini-batch 中属于 id \(k\) 的编码特征的均值进行更新：</p>
-<p>$$c_{k} = mc_{k} + (1 - m) \frac{1}{|B_{k}|}\sum_{f_{i}^{'} \in B_{k}} f_{i}^{'},$$</p>
-<p>\(m\) 在实验中设置为 0.2。</p>
-<h3 id="fdm">FDM</h3>
-<p>基于标准 transformer 架构的交叉注意力模块，从 \(f^{'}\) 得到 Q，从 \(\mathcal{M}\) 得到 K 和 V。</p>
-<h2 id="损失函数">损失函数</h2>
-<p>MSE + 交叉熵 + 对比损失。</p>
-<h2 id="遮挡分数可视化示例">遮挡分数可视化示例</h2>
-<p><img src="/images/2021/PRN145/4.png" alt="Fig 4"></p>
-<h2 id="检索结果可视化示例">检索结果可视化示例</h2>
-<p><img src="/images/2021/PRN145/5.png" alt="Fig 5"></p>
+<p>自监督学习任务 (SSL)。</p>
+<p>现有工作的一个共同目标是要学习在不同扰动之下依旧稳定的表征，一种典型做法是最大化不同扰动下孪生网络得到的各表征之间的相似度，但这类方法面临着一个所谓无效解 (trivial solutions) 的问题，如得到一个常数表征等。</p>
+<p>此外还有对比方法、聚类方法等策略。</p>
+<p>本文提出一种新方法，称为 Barlow Twins，将 redundancy-reduction 理论应用于自监督学习。该理论假设感觉加工的目的在于将高度冗余的感觉输入重新编码为一个因子编码 (factorial code)，该编码有独立的统计成分。</p>
+<p>基于该理论，本文提出一种目标函数，旨在使得由一对孪生嵌入计算得到的互相关矩阵 (cross-correlation matrix) 尽可能接近于单位矩阵，其极其得利于超高维的嵌入。</p>
+<h2 id="barlow-twins">Barlow Twins</h2>
+<p>对于所有图像，生成两个扰动后的视角，由一个数据增广分布 \(\mathcal{T}\) 得到，两笔数据由网络编码得到嵌入，并沿着 batch 维进行中心平均使得 batch 中各单元均值为 0。</p>
+<p>损失函数为：</p>
+<p>$$\mathcal{L}_{\mathcal{BT}} = \sum_{i} (1 - \mathcal{C}_{ii})^2 + \lambda \sum_{i}\sum_{j \ne i} \mathcal{C}_{ij}^2,$$</p>
+<p>其中前一项为 invariance 项，后一项为 redundancy reduction 项， \(\mathcal{C}\) 是沿着 batch 计算得到的两个相同网络输出之间的互相关矩阵：</p>
+<p>$$\mathcal{C}_{ij} = \frac{\sum_{b} z_{b,i}^{A} z_{b,j}^{B}}{\sqrt{\sum_{b} (z_{b,i}^A)^2} \sqrt{\sum_{b} (z_{b,j}^B)^2}},$$</p>
+<p>其中 \(b\) 是 batch 索引。</p>
+<h2 id="pytorch-风格的伪代码">PyTorch 风格的伪代码</h2>
+<p><img src="/images/2021/PRN146/A1.png" alt="Alg 1"></p>
 
     </div>
 
@@ -246,7 +225,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn145/>http://jonathanwayy.xyz/2021/prn145/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn146/>http://jonathanwayy.xyz/2021/prn146/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -297,10 +276,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn144/" class="prev" rel="prev" title="[论文阅读笔记 -- 视觉对话] RAN with Reinforced Generator for Visual Dialog (TOMM 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 视觉对话] RAN with Reinforced Generator for Visual Dialog (TOMM 2020)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn145/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn146/" class="next" rel="next" title="[论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021)">[论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -309,7 +288,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">800 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

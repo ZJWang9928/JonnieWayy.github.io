@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Dec 2021 10:56:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Dec 2021 13:14:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn146/</link>
+      <pubDate>Tue, 28 Dec 2021 13:14:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn146/</guid>
+      <description>Barlow Twins: Self-Supervised Learning via Redundancy Reduction (ICML 2021) 开源代码传送门 概述 自监督学习任务 (SSL)。 现有工作的一个共同目标是要学习在不同扰动之下依旧稳定的表征，一种典型做法是最大</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Feature Erasing and Diffusion Network for Occluded ReID (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn145/</link>
