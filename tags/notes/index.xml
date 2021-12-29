@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 29 Dec 2021 12:06:15 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 12:48:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Self-Supervised Visual Representations for CMR (ICMR 2019)</title>
+      <link>http://jonathanwayy.xyz/2021/prn148/</link>
+      <pubDate>Wed, 29 Dec 2021 12:48:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn148/</guid>
+      <description>Self-Supervised Visual Representations for Cross-Modal Retrieval (ICMR 2019) 概述 本文提出一种自监督的跨模态检索架构，利用图文之间的相关性作为监督信号，以学习能够有效迁移到其他 CV 任务上的视觉特征。 监督学</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 自监督学习] Cross and Learn: Cross-Modal Self-Supervision (GCPR 2018)</title>
       <link>http://jonathanwayy.xyz/2021/prn147/</link>
