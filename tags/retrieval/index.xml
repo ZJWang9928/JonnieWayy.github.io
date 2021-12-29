@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 29 Dec 2021 15:05:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 15:30:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2021/prn150/</link>
+      <pubDate>Wed, 29 Dec 2021 15:30:46 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn150/</guid>
+      <description>Self-supervised Geometric Features Discovery via Interpretable Attention for Vehicle Re-Identification and Beyond (ICCV 2021) 概述 本文提出一种新的架构来学习具有鉴别能力的几何特征 (geometric features)，其借助自监督学习和一个简单但是可解释的</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020)</title>
       <link>http://jonathanwayy.xyz/2021/prn149/</link>

@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn148/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2021/prn150/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn149/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2021/prn149/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2021/prn150/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020) | Jonathan`s Blog
+           [论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020)",
-    "headline" : "[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020)",
-    "description" : "The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification (ECCV 2020) 概述 本文提出一种针对车辆 ReID 的自监督注意力 (SAVER)，自动关注车辆图像中的显著区域而无需额外的人工标注。 自监督残",
+    "name" : "[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021)",
+    "headline" : "[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021)",
+    "description" : "Self-supervised Geometric Features Discovery via Interpretable Attention for Vehicle Re-Identification and Beyond (ICCV 2021) 概述 本文提出一种新的架构来学习具有鉴别能力的几何特征 (geometric features)，其借助自监督学习和一个简单但是可解释的",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2021",
-    "datePublished": "2021-12-29 15:05:23 \u002b0800 CST",
-    "dateModified" : "2021-12-29 15:05:23 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn149\/",
-    "wordCount" : "259",
+    "datePublished": "2021-12-29 15:30:46 \u002b0800 CST",
+    "dateModified" : "2021-12-29 15:30:46 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn150\/",
+    "wordCount" : "222",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","self-supervised","reid","vehicle", "Jonathan`s Blog"]
 }
 </script>
@@ -159,7 +159,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 259 words</span>
+                <span class="post-word-count">, 222 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,24 +193,28 @@
           
           
 
-          <h1 id="the-devil-is-in-the-details-self-supervised-attention-for-vehicle-re-identification-eccv-2020">The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification (ECCV 2020)</h1>
-<p><img src="/images/2021/PRN149/1.png" alt="Fig 1"></p>
+          <h1 id="self-supervised-geometric-features-discovery-via-interpretable-attention-for-vehicle-re-identification-and-beyond-iccv-2021">Self-supervised Geometric Features Discovery via Interpretable Attention for Vehicle Re-Identification and Beyond (ICCV 2021)</h1>
+<p><img src="/images/2021/PRN150/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种针对车辆 ReID 的自监督注意力 (SAVER)，自动关注车辆图像中的显著区域而无需额外的人工标注。</p>
-<p><img src="/images/2021/PRN149/2.png" alt="Fig 2"></p>
-<h2 id="自监督残差生成-self-supervised-residual-generation">自监督残差生成 (Self-Supervised Residual Generation)</h2>
-<p>旨在生成车辆的形状与结构而去除小尺度的信息，利用 VAE 架构实现，实验表明 AE 与 GAN 都倾向于引入额外扰动和细节，而 VAE 能得到更加平滑的纹理。</p>
-<p>利用 MSE 与 KL 散度对这一部分在大规模的 Vehicle Universe 数据集上进行预训练。</p>
-<p>不同于传统 VAE 的一点在于这里使用三维的潜在特征图，而非一维向量。</p>
-<p>得到粗略图像模板后与原图做差，得到残差图像。</p>
-<p><img src="/images/2021/PRN149/3.png" alt="Fig 3"></p>
-<h2 id="深度特征提取">深度特征提取</h2>
-<p>利用 ResNet-50 编码图像，损失函数用到三元组损失和交叉熵损失。</p>
+<p>本文提出一种新的架构来学习具有鉴别能力的几何特征 (geometric features)，其借助自监督学习和一个简单但是可解释的注意力。</p>
+<p><img src="/images/2021/PRN150/2.png" alt="Fig 2"></p>
+<h2 id="方法">方法</h2>
+<p>本文架构由三个分支构成：</p>
+<ul>
+<li>Global Branch (GB)</li>
+<li>Self-supervised Learning Branch (SLB)</li>
+<li>Geometric Features Branch (GFB)</li>
+</ul>
+<h3 id="self-supervised-learning-for-highlighting-geometric-features">Self-supervised Learning for Highlighting Geometric Features</h3>
+<p>训练一个网络来预测随机旋转过的车辆图像所旋转的角度，有利于使得网络关注可靠的几何属性。</p>
+<p>进行四种角度的图像旋转，构建一个新数据集。基于交叉熵进行分类训练。</p>
+<p>其特征提取器与 GFB 共享。</p>
+<h3 id="discriminative-features-discorvery-via-interpretable-attention">Discriminative Features Discorvery via Interpretable Attention</h3>
+<p>引入一个可解释的注意力模块 (IAM)。</p>
+<p><img src="/images/2021/PRN150/3.png" alt="Fig 3"></p>
 <h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2021/PRN149/4.png" alt="Fig 4"></p>
-<p><img src="/images/2021/PRN149/5.png" alt="Fig 5"></p>
-<p><img src="/images/2021/PRN149/6.png" alt="Fig 6"></p>
-<p><img src="/images/2021/PRN149/7.png" alt="Fig 7"></p>
+<p><img src="/images/2021/PRN150/4.png" alt="Fig 4"></p>
+<p><img src="/images/2021/PRN150/5.png" alt="Fig 5"></p>
 
     </div>
 
@@ -225,7 +229,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2021/prn149/>http://jonathanwayy.xyz/2021/prn149/</span>
+                    <a href=http://jonathanwayy.xyz/2021/prn150/>http://jonathanwayy.xyz/2021/prn150/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -279,10 +283,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2021/prn148/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Self-Supervised Visual Representations for CMR (ICMR 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Self-Supervised Visual Representations for CMR (ICMR 2019)</a>
+        <a href="http://jonathanwayy.xyz/2021/prn149/" class="prev" rel="prev" title="[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2021/prn150/" class="next" rel="next" title="[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021)">[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
