@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 29 Dec 2021 12:48:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 15:05:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020)</title>
+      <link>http://jonathanwayy.xyz/2021/prn149/</link>
+      <pubDate>Wed, 29 Dec 2021 15:05:23 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn149/</guid>
+      <description>The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification (ECCV 2020) 概述 本文提出一种针对车辆 ReID 的自监督注意力 (SAVER)，自动关注车辆图像中的显著区域而无需额外的人工标注。 自监督残</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Self-Supervised Visual Representations for CMR (ICMR 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn148/</link>
