@@ -12,9 +12,9 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn146/</loc>
+      <loc>http://jonathanwayy.xyz/2021/prn147/</loc>
       
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
       
       
       
@@ -24,7 +24,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/categories/</loc>
       
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
       
       
       
@@ -34,7 +34,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/cross-modal/</loc>
       
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
       
       
       
@@ -44,7 +44,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/tags/cv/</loc>
       
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
       
       
       
@@ -54,7 +54,7 @@
     <url>
       <loc>http://jonathanwayy.xyz/</loc>
       
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
       
       
       
@@ -63,6 +63,76 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/notes/</loc>
+      
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/paper-reading/</loc>
+      
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/categories/paper-reading-notes/</loc>
+      
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/posts/</loc>
+      
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/retrieval/</loc>
+      
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/self-supervised/</loc>
+      
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/</loc>
+      
+      <lastmod>2021-12-29T12:06:15+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/prn146/</loc>
       
       <lastmod>2021-12-28T13:14:24+08:00</lastmod>
       
@@ -82,57 +152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/paper-reading/</loc>
-      
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/categories/paper-reading-notes/</loc>
-      
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/posts/</loc>
-      
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>http://jonathanwayy.xyz/tags/reid/</loc>
-      
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/retrieval/</loc>
-      
-      <lastmod>2021-12-28T13:14:24+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/</loc>
       
       <lastmod>2021-12-28T13:14:24+08:00</lastmod>
       
@@ -222,6 +242,66 @@
     </url>
   
     <url>
+      <loc>http://jonathanwayy.xyz/categories/awesome-wallpapers/</loc>
+      
+      <lastmod>2021-12-23T20:27:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/kde/</loc>
+      
+      <lastmod>2021-12-23T20:27:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/linux/</loc>
+      
+      <lastmod>2021-12-23T20:27:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/manjaro/</loc>
+      
+      <lastmod>2021-12-23T20:27:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/tags/wallpaper/</loc>
+      
+      <lastmod>2021-12-23T20:27:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://jonathanwayy.xyz/2021/bg41/</loc>
+      
+      <lastmod>2021-12-23T20:27:10+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://jonathanwayy.xyz/categories/alchemy-of-cv/</loc>
       
       <lastmod>2021-12-22T17:01:28+08:00</lastmod>
@@ -233,16 +313,6 @@
   
     <url>
       <loc>http://jonathanwayy.xyz/tags/deep-learning/</loc>
-      
-      <lastmod>2021-12-22T17:01:28+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/linux/</loc>
       
       <lastmod>2021-12-22T17:01:28+08:00</lastmod>
       
@@ -275,56 +345,6 @@
       <loc>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</loc>
       
       <lastmod>2021-12-22T17:01:28+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/categories/awesome-wallpapers/</loc>
-      
-      <lastmod>2021-12-21T20:27:10+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/kde/</loc>
-      
-      <lastmod>2021-12-21T20:27:10+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/manjaro/</loc>
-      
-      <lastmod>2021-12-21T20:27:10+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/wallpaper/</loc>
-      
-      <lastmod>2021-12-21T20:27:10+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/2021/bg41/</loc>
-      
-      <lastmod>2021-12-21T20:27:10+08:00</lastmod>
       
       
       

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Dec 2021 13:14:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 12:06:15 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 自监督学习] Cross and Learn: Cross-Modal Self-Supervision (GCPR 2018)</title>
+      <link>http://jonathanwayy.xyz/2021/prn147/</link>
+      <pubDate>Wed, 29 Dec 2021 12:06:15 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2021/prn147/</guid>
+      <description>Cross and Learn: Cross-Modal Self-Supervision (GCPR 2018) 开源代码传送门 概述 本文关注自监督学习任务，常用的流程是在一个需要语义理解的代理任务上预训练一个网络，本文利用跨模态信息作为监督</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 自监督学习] Barlow Twins: SSL via Redundancy Reduction (ICML 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn146/</link>
