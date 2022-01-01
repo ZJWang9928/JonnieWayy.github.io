@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 29 Dec 2021 15:30:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 14:25:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn151/</link>
+      <pubDate>Sat, 01 Jan 2022 14:25:05 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn151/</guid>
+      <description>A Feature Disentangling Approach for Person Re-identification via Self-supervised Data Augmentation (Applied Soft Computing 2021) 开源代码传送门 概述 本文方法主要的两点改进： 通过打乱图像通道而非常用的 GAN，设计了一个自监督的数据增广方法，并</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn150/</link>
