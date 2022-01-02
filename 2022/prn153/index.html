@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn151/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn153/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn152/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn152/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn153/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] DRSL: Deep Relational Similarity Learning for CMR (INS 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] DRSL: Deep Relational Similarity Learning for CMR (INS 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)",
-    "description" : "Learning Hybrid Ranking Representation for Person Re-identification (PR 2022) 概述 本文提出一种双分支的 RANkinG Ensemble (RANGEv2) 方法，联合优化外观特征与排序上下文信息以生成外部排序表征 (external ranking representation)。",
+    "name" : "[论文阅读笔记 -- 跨模态检索] DRSL: Deep Relational Similarity Learning for CMR (INS 2021)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] DRSL: Deep Relational Similarity Learning for CMR (INS 2021)",
+    "description" : "DRSL: Deep Relational Similarity Learning for Cross-modal Retrieval (Information Sciences 2021) 概述 学习公共空间的方法大多假设跨模态学习过程中的信息量是对等的，但通常各模态的信息量是不平衡的。 本文提出一种深度关系相",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-02 14:10:05 \u002b0800 CST",
-    "dateModified" : "2022-01-02 14:10:05 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn152\/",
-    "wordCount" : "227",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
+    "datePublished": "2022-01-02 15:11:12 \u002b0800 CST",
+    "dateModified" : "2022-01-02 15:11:12 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn153\/",
+    "wordCount" : "283",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval", "Jonathan`s Blog"]
 }
 </script>
 
@@ -159,7 +159,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] DRSL: Deep Relational Similarity Learning for CMR (INS 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 227 words</span>
+                <span class="post-word-count">, 283 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,21 +193,25 @@
           
           
 
-          <h1 id="learning-hybrid-ranking-representation-for-person-re-identification-pr-2022">Learning Hybrid Ranking Representation for Person Re-identification (PR 2022)</h1>
-<p><img src="/images/2022/PRN152/1.png" alt="Fig 1"></p>
+          <h1 id="drsl-deep-relational-similarity-learning-for-cross-modal-retrieval-information-sciences-2021">DRSL: Deep Relational Similarity Learning for Cross-modal Retrieval (Information Sciences 2021)</h1>
+<p><img src="/images/2022/PRN153/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种双分支的 RANkinG Ensemble (RANGEv2) 方法，联合优化外观特征与排序上下文信息以生成外部排序表征 (external ranking representation)。</p>
-<p>各 mini-batch 通过随机选取 \(T\) 个行人 ID 并分别选取 \(S\) 张图像得到。</p>
-<h3 id="external-ranking-representation">External Ranking Representation</h3>
-<p>旨在更有效编码排序上下文信息。</p>
-<p>提取特征后为 probe 图像选出一个 top-k 候选集合，用一个基于 Bi-LSTM 的 external ranking information learner 编码排序上下文信息，最后用一个实现为加权池化的聚合模块得到外部排序表征。</p>
-<h3 id="internal-ranking-representation">Internal Ranking Representation</h3>
-<p>学习多粒度特征后拼接。</p>
-<p>两个分支分别计算相似度后加权求和。</p>
-<h2 id="无监督跨域-reid-架构">无监督跨域 ReID 架构</h2>
-<p><img src="/images/2022/PRN152/3.png" alt="Fig 3"></p>
-<h2 id="检索结果可视化示例">检索结果可视化示例</h2>
-<p><img src="/images/2022/PRN152/4.png" alt="Fig 4"></p>
+<p>学习公共空间的方法大多假设跨模态学习过程中的信息量是对等的，但通常各模态的信息量是不平衡的。</p>
+<p>本文提出一种深度关系相似度学习方法 (Deep Relational Similarity Learning, DRSL) 直接学习一对样本的关系相似度而无需学习公共空间，主要包含四个步骤：</p>
+<ul>
+<li>两个 CNN 分别将图文数据投影到各自的模态空间中</li>
+<li>融合跨模态特征构建成对样本</li>
+<li>将成对样本传入关系网络模块 (RNs modules) 计算相似度矩阵</li>
+<li>对相似度排序进行跨模态检索</li>
+</ul>
+<p><img src="/images/2022/PRN153/2.png" alt="Fig 2"></p>
+<h3 id="cross-modal-networks-module">Cross-modal Networks Module</h3>
+<p>两个独立的 CNN + FNN。</p>
+<h3 id="relation-network-module">Relation Network Module</h3>
+<p>包含一个融合机制和一个关系网络。</p>
+<p>融合机制可以实现为拼接、相乘、相加、相减等，得到一个向量，输入关系网络计算相似度。</p>
+<h3 id="目标函数">目标函数</h3>
+<p>计算相似度矩阵和先验相似度矩阵之间的 F 范数。</p>
 
     </div>
 
@@ -222,7 +226,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn152/>http://jonathanwayy.xyz/2022/prn152/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn153/>http://jonathanwayy.xyz/2022/prn153/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -257,9 +261,6 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
                     #retrieval</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
-                    #ReID</a></span>
-            
             </section>
         
         <section>
@@ -270,10 +271,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn151/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn152/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn153/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] DRSL: Deep Relational Similarity Learning for CMR (INS 2021)">[论文阅读笔记 -- 跨模态检索] DRSL: Deep Relational Similarity Learning for CMR (INS 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
