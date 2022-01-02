@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/bg42/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn152/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn151/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn151/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn152/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)",
-    "headline" : "[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)",
-    "description" : "A Feature Disentangling Approach for Person Re-identification via Self-supervised Data Augmentation (Applied Soft Computing 2021) 开源代码传送门 概述 本文方法主要的两点改进： 通过打乱图像通道而非常用的 GAN，设计了一个自监督的数据增广方法，并",
+    "name" : "[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)",
+    "headline" : "[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)",
+    "description" : "Learning Hybrid Ranking Representation for Person Re-identification (PR 2022) 概述 本文提出一种双分支的 RANkinG Ensemble (RANGEv2) 方法，联合优化外观特征与排序上下文信息以生成外部排序表征 (external ranking representation)。",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-01 14:25:05 \u002b0800 CST",
-    "dateModified" : "2022-01-01 14:25:05 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn151\/",
-    "wordCount" : "421",
+    "datePublished": "2022-01-02 14:10:05 \u002b0800 CST",
+    "dateModified" : "2022-01-02 14:10:05 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn152\/",
+    "wordCount" : "227",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-01-01 itemprop="datePublished">January 1, 2022</time>
+                on <time datetime=2022-01-02 itemprop="datePublished">January 2, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 421 words</span>
+                <span class="post-word-count">, 227 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,32 +193,21 @@
           
           
 
-          <h1 id="a-feature-disentangling-approach-for-person-re-identification-via-self-supervised-data-augmentation-applied-soft-computing-2021">A Feature Disentangling Approach for Person Re-identification via Self-supervised Data Augmentation (Applied Soft Computing 2021)</h1>
-<p><a href="https://github.com/flychen321/feature_disentangle_reid">开源代码传送门</a></p>
-<p><img src="/images/2022/PRN151/1.png" alt="Fig 1"></p>
+          <h1 id="learning-hybrid-ranking-representation-for-person-re-identification-pr-2022">Learning Hybrid Ranking Representation for Person Re-identification (PR 2022)</h1>
+<p><img src="/images/2022/PRN152/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文方法主要的两点改进：</p>
-<ul>
-<li>通过打乱图像通道而非常用的 GAN，设计了一个自监督的数据增广方法，并提出一种软标签赋予策略 (soft label assignment strategy)，为样本及其增广间关系提供合理的描述</li>
-<li>设计了一个多分支的编码器-解码器架构，编码器将图像分解到两个潜在空间，包括一个边相关空间 (edge-related space) 和一个内容相关空间 (content-related space)，解码器则以编码器分解得到的语义特征作为输入，组合重构行人图</li>
-</ul>
-<p><img src="/images/2022/PRN151/2.png" alt="Fig 2"></p>
-<h2 id="数据增广与软标签赋予">数据增广与软标签赋予</h2>
-<h3 id="数据增广">数据增广</h3>
-<p>身体部件的相对位置以及几何结构等结构化信息 (structural information) 主要包含在图像的边 (edges) 中，而色彩和纹理等外观信息则与边无关。</p>
-<p>通过打乱通道，可以得到边几乎相似而外观发生较大改变的新图像。原图及其增广共 6 张图像视为一个组，其也可视为在边确定的图像中填入不同的内容。</p>
-<p><img src="/images/2022/PRN151/3.png" alt="Fig 3"></p>
-<h3 id="软标签赋予">软标签赋予</h3>
-<p><img src="/images/2022/PRN151/4.png" alt="Fig 4"></p>
-<h2 id="网络架构">网络架构</h2>
-<p>双分支结构，两个编码器分别提取内容相关与边相关特征，解码器共享。</p>
-<h2 id="损失函数">损失函数</h2>
-<p>重构损失实现为基于像素的 \(L_{2}\) 损失，此外用到对比损失和鉴别损失。</p>
-<h2 id="特征尺度">特征尺度</h2>
-<p><img src="/images/2022/PRN151/5.png" alt="Fig 5"></p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2022/PRN151/6.png" alt="Fig 6"></p>
-<p><img src="/images/2022/PRN151/7.png" alt="Fig 7"></p>
+<p>本文提出一种双分支的 RANkinG Ensemble (RANGEv2) 方法，联合优化外观特征与排序上下文信息以生成外部排序表征 (external ranking representation)。</p>
+<p>各 mini-batch 通过随机选取 \(T\) 个行人 ID 并分别选取 \(S\) 张图像得到。</p>
+<h3 id="external-ranking-representation">External Ranking Representation</h3>
+<p>旨在更有效编码排序上下文信息。</p>
+<p>提取特征后为 probe 图像选出一个 top-k 候选集合，用一个基于 Bi-LSTM 的 external ranking information learner 编码排序上下文信息，最后用一个实现为加权池化的聚合模块得到外部排序表征。</p>
+<h3 id="internal-ranking-representation">Internal Ranking Representation</h3>
+<p>学习多粒度特征后拼接。</p>
+<p>两个分支分别计算相似度后加权求和。</p>
+<h2 id="无监督跨域-reid-架构">无监督跨域 ReID 架构</h2>
+<p><img src="/images/2022/PRN152/3.png" alt="Fig 3"></p>
+<h2 id="检索结果可视化示例">检索结果可视化示例</h2>
+<p><img src="/images/2022/PRN152/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -233,7 +222,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn151/>http://jonathanwayy.xyz/2022/prn151/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn152/>http://jonathanwayy.xyz/2022/prn152/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -281,10 +270,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/bg42/" class="prev" rel="prev" title="壁纸分享[42]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[42]</a>
+        <a href="http://jonathanwayy.xyz/2022/prn151/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn152/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)">[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -293,7 +282,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

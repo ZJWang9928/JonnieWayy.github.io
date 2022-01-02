@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 01 Jan 2022 14:25:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jan 2022 14:10:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn152/</link>
+      <pubDate>Sun, 02 Jan 2022 14:10:05 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn152/</guid>
+      <description>Learning Hybrid Ranking Representation for Person Re-identification (PR 2022) 概述 本文提出一种双分支的 RANkinG Ensemble (RANGEv2) 方法，联合优化外观特征与排序上下文信息以生成外部排序表征 (external ranking representation)。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] A Feature Disentangling Approach via SS Data Augmentation (2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn151/</link>
