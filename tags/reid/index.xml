@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 02 Jan 2022 14:10:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 10:58:10 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020)</title>
+      <link>http://jonathanwayy.xyz/2022/prn155/</link>
+      <pubDate>Tue, 04 Jan 2022 10:58:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn155/</guid>
+      <description>Adversarial Attribute-Text Embedding for Person Search with Natural Language Query (TMM 2020) 概述 本文提出一种对抗的属性-文本嵌入网络 (adversarial attribute-text embedding network, AATE)。 视觉属性图卷积网络 包含一个视觉注意力模块和一个图卷积网络</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Learning Hybrid Ranking Representation for Person ReID (PR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn152/</link>
