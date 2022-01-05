@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn154/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn156/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn155/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn155/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn156/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020)",
-    "headline" : "[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020)",
-    "description" : "Adversarial Attribute-Text Embedding for Person Search with Natural Language Query (TMM 2020) 概述 本文提出一种对抗的属性-文本嵌入网络 (adversarial attribute-text embedding network, AATE)。 视觉属性图卷积网络 包含一个视觉注意力模块和一个图卷积网络",
+    "name" : "[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)",
+    "headline" : "[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)",
+    "description" : "On the Importance of Appearance and Interaction Feature Representations for Person Re-Identification (WACVW 2022) 概述 本文认为不止是表征能力强的特征本身，特征之间的交互也在匹配时起到关键作用，交互信息与基于外观的特征互补。 本文",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-04 10:58:10 \u002b0800 CST",
-    "dateModified" : "2022-01-04 10:58:10 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn155\/",
-    "wordCount" : "98",
+    "datePublished": "2022-01-05 14:24:59 \u002b0800 CST",
+    "dateModified" : "2022-01-05 14:24:59 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn156\/",
+    "wordCount" : "367",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-01-04 itemprop="datePublished">January 4, 2022</time>
+                on <time datetime=2022-01-05 itemprop="datePublished">January 5, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 98 words</span>
+                <span class="post-word-count">, 367 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,22 +193,27 @@
           
           
 
-          <h1 id="adversarial-attribute-text-embedding-for-person-search-with-natural-language-query-tmm-2020">Adversarial Attribute-Text Embedding for Person Search with Natural Language Query (TMM 2020)</h1>
-<p><img src="/images/2022/PRN155/1.png" alt="Fig 1"></p>
+          <h1 id="on-the-importance-of-appearance-and-interaction-feature-representations-for-person-re-identification-wacvw-2022">On the Importance of Appearance and Interaction Feature Representations for Person Re-Identification (WACVW 2022)</h1>
+<p><img src="/images/2022/PRN156/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种对抗的属性-文本嵌入网络 (adversarial attribute-text embedding network, AATE)。</p>
-<p><img src="/images/2022/PRN155/2.png" alt="Fig 2"></p>
-<h2 id="视觉属性图卷积网络">视觉属性图卷积网络</h2>
-<p>包含一个视觉注意力模块和一个图卷积网络。</p>
-<p><img src="/images/2022/PRN155/3.png" alt="Fig 3"></p>
-<h2 id="层级化文本嵌入网络">层级化文本嵌入网络</h2>
-<p><img src="/images/2022/PRN155/4.png" alt="Fig 4"></p>
-<h2 id="跨模态对抗学习">跨模态对抗学习</h2>
-<p><img src="/images/2022/PRN155/5.png" alt="Fig 5"></p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2022/PRN155/6.png" alt="Fig 6"></p>
-<h2 id="检索结果示例">检索结果示例</h2>
-<p><img src="/images/2022/PRN155/7.png" alt="Fig 7"></p>
+<p>本文认为不止是表征能力强的特征本身，特征之间的交互也在匹配时起到关键作用，交互信息与基于外观的特征互补。</p>
+<p>本文提出一种 AIR-Net 架构，使用平行分支独立提取外观特征和交互信息。</p>
+<p><img src="/images/2022/PRN156/2.png" alt="Fig 2"></p>
+<h2 id="本文方法">本文方法</h2>
+<h3 id="特征提取">特征提取</h3>
+<p>基于 ResNet，不对第四阶段的特征图做下采样，复制第五阶段权重构成两个分支，分别作为外观特征提取器 \(F_{a}\) 和交互特征提取器 \(F_{i}\)。</p>
+<p><img src="/images/2022/PRN156/3.png" alt="Fig 3"></p>
+<h3 id="特征池化">特征池化</h3>
+<p>大部分工作使用最大值或均值等一阶池化以将全局上下文信息捕捉到一个特征向量中。</p>
+<p>在 GMP 之外，提出一种基于注意力的池化操作。将 \(X_{i}\) 变形为 \(\overline{X}_{i} \in \mathbb{R}^{C \times HW}\)，进而传入基于注意力的池化模块：</p>
+<p>$$I = (\overline{X}_{i} W_{v})^T (\overline{X}_{i} W_{u}),$$</p>
+<p>其中 \(W_{u} \in \mathbb{R}^{C \times 1}, W_{v} \in \mathbb{R}^{C \times C}\)。</p>
+<p>通常的注意力模块会将交互信息与基于外观的特征融合，本文认为分别保留更加有利。</p>
+<h3 id="特征匹配">特征匹配</h3>
+<p>交叉熵损失 + 三元组损失</p>
+<p>特征匹配在三种各自独立的特征上分别进行。</p>
+<h2 id="特征可视化">特征可视化</h2>
+<p><img src="/images/2022/PRN156/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -223,7 +228,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn155/>http://jonathanwayy.xyz/2022/prn155/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn156/>http://jonathanwayy.xyz/2022/prn156/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -271,10 +276,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn154/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] Person Tube Retrieval via Language Description (AAAI 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] Person Tube Retrieval via Language Description (AAAI 2020)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn155/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn156/" class="next" rel="next" title="[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)">[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -283,7 +288,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
