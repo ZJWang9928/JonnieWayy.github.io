@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn155/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn157/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn156/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn156/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn157/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)",
-    "description" : "On the Importance of Appearance and Interaction Feature Representations for Person Re-Identification (WACVW 2022) 概述 本文认为不止是表征能力强的特征本身，特征之间的交互也在匹配时起到关键作用，交互信息与基于外观的特征互补。 本文",
+    "name" : "[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)",
+    "headline" : "[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)",
+    "description" : "Event-Driven Re-Id: A New Benchmark and Method Towards Privacy-Preserving Person Re-Identification (WACVW 2022) 概述 关注 ReID 系统的隐私保护问题。事件相机 (event cameras) 记录场景的异步亮度变化，称之为事件 (event)。视觉信息被丢弃，只剩下",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-05 14:24:59 \u002b0800 CST",
-    "dateModified" : "2022-01-05 14:24:59 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn156\/",
-    "wordCount" : "367",
+    "datePublished": "2022-01-06 14:04:53 \u002b0800 CST",
+    "dateModified" : "2022-01-06 14:04:53 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn157\/",
+    "wordCount" : "330",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-01-05 itemprop="datePublished">January 5, 2022</time>
+                on <time datetime=2022-01-06 itemprop="datePublished">January 6, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 367 words</span>
+                <span class="post-word-count">, 330 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,27 +193,25 @@
           
           
 
-          <h1 id="on-the-importance-of-appearance-and-interaction-feature-representations-for-person-re-identification-wacvw-2022">On the Importance of Appearance and Interaction Feature Representations for Person Re-Identification (WACVW 2022)</h1>
-<p><img src="/images/2022/PRN156/1.png" alt="Fig 1"></p>
+          <h1 id="event-driven-re-id-a-new-benchmark-and-method-towards-privacy-preserving-person-re-identification-wacvw-2022">Event-Driven Re-Id: A New Benchmark and Method Towards Privacy-Preserving Person Re-Identification (WACVW 2022)</h1>
+<p><img src="/images/2022/PRN157/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文认为不止是表征能力强的特征本身，特征之间的交互也在匹配时起到关键作用，交互信息与基于外观的特征互补。</p>
-<p>本文提出一种 AIR-Net 架构，使用平行分支独立提取外观特征和交互信息。</p>
-<p><img src="/images/2022/PRN156/2.png" alt="Fig 2"></p>
-<h2 id="本文方法">本文方法</h2>
-<h3 id="特征提取">特征提取</h3>
-<p>基于 ResNet，不对第四阶段的特征图做下采样，复制第五阶段权重构成两个分支，分别作为外观特征提取器 \(F_{a}\) 和交互特征提取器 \(F_{i}\)。</p>
-<p><img src="/images/2022/PRN156/3.png" alt="Fig 3"></p>
-<h3 id="特征池化">特征池化</h3>
-<p>大部分工作使用最大值或均值等一阶池化以将全局上下文信息捕捉到一个特征向量中。</p>
-<p>在 GMP 之外，提出一种基于注意力的池化操作。将 \(X_{i}\) 变形为 \(\overline{X}_{i} \in \mathbb{R}^{C \times HW}\)，进而传入基于注意力的池化模块：</p>
-<p>$$I = (\overline{X}_{i} W_{v})^T (\overline{X}_{i} W_{u}),$$</p>
-<p>其中 \(W_{u} \in \mathbb{R}^{C \times 1}, W_{v} \in \mathbb{R}^{C \times C}\)。</p>
-<p>通常的注意力模块会将交互信息与基于外观的特征融合，本文认为分别保留更加有利。</p>
-<h3 id="特征匹配">特征匹配</h3>
-<p>交叉熵损失 + 三元组损失</p>
-<p>特征匹配在三种各自独立的特征上分别进行。</p>
-<h2 id="特征可视化">特征可视化</h2>
-<p><img src="/images/2022/PRN156/4.png" alt="Fig 4"></p>
+<p>关注 ReID 系统的隐私保护问题。事件相机 (event cameras) 记录场景的异步亮度变化，称之为事件 (event)。视觉信息被丢弃，只剩下事件。</p>
+<p><img src="/images/2022/PRN157/2.png" alt="Fig 2"></p>
+<h2 id="synthetic-event-generation">Synthetic Event Generation</h2>
+<h3 id="event-generation-model">Event Generation Model</h3>
+<p>当像素 \(v_{k} = (x_{k}, y_{k})^T\) 在 \(t_{k}\) 时刻的对数光强变化超过预定的阈值时，事件相机会触发一个时间 \(e_{k} = (x_{k}, y_{k}, t_{k}, p_{k})\)，其中 \(p_{k}\) 是表示事件极性的布尔值。</p>
+<h3 id="event-generation">Event Generation</h3>
+<p>对于图像数据集用开源的事件模拟器 ESIM 转化，对视频数据集则用 Vid2e。正负事件阈值均设为 0.1。</p>
+<h2 id="事件表征与学习">事件表征与学习</h2>
+<h3 id="event-to-frame-conversion">Event-to-Frame Conversion</h3>
+<p>事件被表征为一组处于四维流形中的点，为了能用 CNN 处理，需要将其进行转化为所谓的事件帧 (Event-frame)，并进一步聚合。</p>
+<h3 id="spatial-polar-representation">Spatial Polar Representation</h3>
+<p>本文假设事件帧中行人的边信息和行人的轮廓草图相关，因而将事件帧转化为极坐标。</p>
+<p><img src="/images/2022/PRN157/3.png" alt="Fig 3"></p>
+<h2 id="person-reid">Person ReID</h2>
+<p>以事件和极坐标图像作为输入。</p>
+<p>用到分类损失。</p>
 
     </div>
 
@@ -228,7 +226,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn156/>http://jonathanwayy.xyz/2022/prn156/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn157/>http://jonathanwayy.xyz/2022/prn157/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -276,10 +274,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn155/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Adversarial Attribute-Text Embedding for Person Search (TMM 2020)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn156/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn157/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)">[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
