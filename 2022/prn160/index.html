@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn158/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn160/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn159/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn159/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn160/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Improving Person ReID with Temporal Constraints (WACVW 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Specific Person Retrieval via Incomplete Text Description (ICMR 2015) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Improving Person ReID with Temporal Constraints (WACVW 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Specific Person Retrieval via Incomplete Text Description (ICMR 2015) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Improving Person ReID with Temporal Constraints (WACVW 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Improving Person ReID with Temporal Constraints (WACVW 2022)",
-    "description" : "Improving Person Re-Identification with Temporal Constraints (WACVW 2022) DAA 数据集传送门 概述 本文构建了一个新的数据集，称为 DAA，旨在关注视觉信息的同时关注时空信息，数据集中含有时间戳信息、帧序号、",
+    "name" : "[论文阅读笔记 -- ReID] Specific Person Retrieval via Incomplete Text Description (ICMR 2015)",
+    "headline" : "[论文阅读笔记 -- ReID] Specific Person Retrieval via Incomplete Text Description (ICMR 2015)",
+    "description" : "Specific Person Retrieval via Incomplete Text Description (ICMR 2015) 概述 Specific Person Retrieval vis Incomplete Text Description 任务。 用户所提供的属性通常是不完整的，本文采用一种线性稀疏重构 (linear sparse reconstruction) 来不全不完整的属性。 本文方法 包含线下",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-07 16:16:34 \u002b0800 CST",
-    "dateModified" : "2022-01-07 16:16:34 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn159\/",
-    "wordCount" : "79",
+    "datePublished": "2022-01-07 20:57:18 \u002b0800 CST",
+    "dateModified" : "2022-01-07 20:57:18 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn160\/",
+    "wordCount" : "142",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,7 +159,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Improving Person ReID with Temporal Constraints (WACVW 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Specific Person Retrieval via Incomplete Text Description (ICMR 2015)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 79 words</span>
+                <span class="post-word-count">, 142 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,14 +193,18 @@
           
           
 
-          <h1 id="improving-person-re-identification-with-temporal-constraints-wacvw-2022">Improving Person Re-Identification with Temporal Constraints (WACVW 2022)</h1>
-<p><a href="https://bit.ly/3AtXTd6">DAA 数据集传送门</a></p>
-<p><img src="/images/2022/PRN159/1.png" alt="Fig 1"></p>
+          <h1 id="specific-person-retrieval-via-incomplete-text-description-icmr-2015">Specific Person Retrieval via Incomplete Text Description (ICMR 2015)</h1>
+<p><img src="/images/2022/PRN160/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文构建了一个新的数据集，称为 DAA，旨在关注视觉信息的同时关注时空信息，数据集中含有时间戳信息、帧序号、行人 ID 和相机 ID。</p>
-<p><img src="/images/2022/PRN159/T1.png" alt="Tab 1"></p>
-<p><img src="/images/2022/PRN159/2.png" alt="Fig 2"></p>
-<p><img src="/images/2022/PRN159/3.png" alt="Fig 3"></p>
+<p>Specific Person Retrieval vis Incomplete Text Description 任务。</p>
+<p>用户所提供的属性通常是不完整的，本文采用一种线性稀疏重构 (linear sparse reconstruction) 来不全不完整的属性。</p>
+<p><img src="/images/2022/PRN160/2.png" alt="Fig 2"></p>
+<h2 id="本文方法">本文方法</h2>
+<p>包含线下处理 (Off-line Processing) 和在线处理 (On-line Processing) 两部分。</p>
+<h3 id="线下处理">线下处理</h3>
+<p>预先计算好非 query 图像的视觉特征向量和属性向量，并引入一个成对度量学习架构。</p>
+<h3 id="在线处理">在线处理</h3>
+<p>旨在重构不完整的属性特征。</p>
 
     </div>
 
@@ -215,7 +219,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn159/>http://jonathanwayy.xyz/2022/prn159/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn160/>http://jonathanwayy.xyz/2022/prn160/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -263,10 +267,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn158/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] FTN: Foreground-Guided Texture-Focused Person Re-Identification (2020)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] FTN: Foreground-Guided Texture-Focused Person Re-Identification (2020)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn159/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Improving Person ReID with Temporal Constraints (WACVW 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Improving Person ReID with Temporal Constraints (WACVW 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn160/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Specific Person Retrieval via Incomplete Text Description (ICMR 2015)">[论文阅读笔记 -- ReID] Specific Person Retrieval via Incomplete Text Description (ICMR 2015)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -275,7 +279,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

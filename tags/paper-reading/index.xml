@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 07 Jan 2022 16:16:34 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jan 2022 20:57:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Specific Person Retrieval via Incomplete Text Description (ICMR 2015)</title>
+      <link>http://jonathanwayy.xyz/2022/prn160/</link>
+      <pubDate>Fri, 07 Jan 2022 20:57:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn160/</guid>
+      <description>Specific Person Retrieval via Incomplete Text Description (ICMR 2015) 概述 Specific Person Retrieval vis Incomplete Text Description 任务。 用户所提供的属性通常是不完整的，本文采用一种线性稀疏重构 (linear sparse reconstruction) 来不全不完整的属性。 本文方法 包含线下</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Improving Person ReID with Temporal Constraints (WACVW 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn159/</link>
