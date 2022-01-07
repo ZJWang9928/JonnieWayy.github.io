@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn156/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/bg43/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn157/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn157/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2022/prn158/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/bg43/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022) | Jonathan`s Blog
+           壁纸分享[43] | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022) | Jonathan`s Blog">
+  <meta name="title" content="壁纸分享[43] | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)",
-    "description" : "Event-Driven Re-Id: A New Benchmark and Method Towards Privacy-Preserving Person Re-Identification (WACVW 2022) 概述 关注 ReID 系统的隐私保护问题。事件相机 (event cameras) 记录场景的异步亮度变化，称之为事件 (event)。视觉信息被丢弃，只剩下",
+    "name" : "壁纸分享[43]",
+    "headline" : "壁纸分享[43]",
+    "description" : "",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-06 14:04:53 \u002b0800 CST",
-    "dateModified" : "2022-01-06 14:04:53 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn157\/",
-    "wordCount" : "330",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
+    "datePublished": "2022-01-07 11:03:01 \u002b0800 CST",
+    "dateModified" : "2022-01-07 11:03:01 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/bg43\/",
+    "wordCount" : "0",
+    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
 }
 </script>
 
@@ -159,20 +159,20 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">壁纸分享[43]</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-01-06 itemprop="datePublished">January 6, 2022</time>
+                on <time datetime=2022-01-07 itemprop="datePublished">January 7, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
                         
                 </span>
-                <span class="post-word-count">, 330 words</span>
+                <span class="post-word-count">, 0 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,25 +193,16 @@
           
           
 
-          <h1 id="event-driven-re-id-a-new-benchmark-and-method-towards-privacy-preserving-person-re-identification-wacvw-2022">Event-Driven Re-Id: A New Benchmark and Method Towards Privacy-Preserving Person Re-Identification (WACVW 2022)</h1>
-<p><img src="/images/2022/PRN157/1.png" alt="Fig 1"></p>
-<h2 id="概述">概述</h2>
-<p>关注 ReID 系统的隐私保护问题。事件相机 (event cameras) 记录场景的异步亮度变化，称之为事件 (event)。视觉信息被丢弃，只剩下事件。</p>
-<p><img src="/images/2022/PRN157/2.png" alt="Fig 2"></p>
-<h2 id="synthetic-event-generation">Synthetic Event Generation</h2>
-<h3 id="event-generation-model">Event Generation Model</h3>
-<p>当像素 \(v_{k} = (x_{k}, y_{k})^T\) 在 \(t_{k}\) 时刻的对数光强变化超过预定的阈值时，事件相机会触发一个时间 \(e_{k} = (x_{k}, y_{k}, t_{k}, p_{k})\)，其中 \(p_{k}\) 是表示事件极性的布尔值。</p>
-<h3 id="event-generation">Event Generation</h3>
-<p>对于图像数据集用开源的事件模拟器 ESIM 转化，对视频数据集则用 Vid2e。正负事件阈值均设为 0.1。</p>
-<h2 id="事件表征与学习">事件表征与学习</h2>
-<h3 id="event-to-frame-conversion">Event-to-Frame Conversion</h3>
-<p>事件被表征为一组处于四维流形中的点，为了能用 CNN 处理，需要将其进行转化为所谓的事件帧 (Event-frame)，并进一步聚合。</p>
-<h3 id="spatial-polar-representation">Spatial Polar Representation</h3>
-<p>本文假设事件帧中行人的边信息和行人的轮廓草图相关，因而将事件帧转化为极坐标。</p>
-<p><img src="/images/2022/PRN157/3.png" alt="Fig 3"></p>
-<h2 id="person-reid">Person ReID</h2>
-<p>以事件和极坐标图像作为输入。</p>
-<p>用到分类损失。</p>
+          <p><img src="/images/2020/01/wallpaper/421.png" alt="421">
+<img src="/images/2020/01/wallpaper/422.jpg" alt="422">
+<img src="/images/2020/01/wallpaper/423.jpg" alt="423">
+<img src="/images/2020/01/wallpaper/424.webp" alt="424">
+<img src="/images/2020/01/wallpaper/425.jpg" alt="425">
+<img src="/images/2020/01/wallpaper/426.jpg" alt="426">
+<img src="/images/2020/01/wallpaper/427.jpg" alt="427">
+<img src="/images/2020/01/wallpaper/428.png" alt="428">
+<img src="/images/2020/01/wallpaper/429.jpg" alt="429">
+<img src="/images/2020/01/wallpaper/430.png" alt="430"></p>
 
     </div>
 
@@ -226,7 +217,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn157/>http://jonathanwayy.xyz/2022/prn157/</span>
+                    <a href=http://jonathanwayy.xyz/2022/bg43/>http://jonathanwayy.xyz/2022/bg43/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -246,23 +237,17 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
-                    #paper reading</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
+                    #linux</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
-                    #cv</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
+                    #wallpaper</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
-                    #notes</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
+                    #manjaro</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
-                    #ReID</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
+                    #kde</a></span>
             
             </section>
         
@@ -274,10 +259,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn156/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] On the Importance of Appearance and Interaction (WACVW 2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn157/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Event-Driven Re-Id: Privacy-Preserving Person ReId (WACVW 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/bg43/" class="next" rel="next" title="壁纸分享[43]">壁纸分享[43]&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2022/prn158/" class="next" rel="next" title="[论文阅读笔记 -- ReID] FTN: Foreground-Guided Texture-Focused Person Re-Identification (2020)">[论文阅读笔记 -- ReID] FTN: Foreground-Guided Texture-Focused Person Re-Identification (2020)&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -286,7 +271,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
