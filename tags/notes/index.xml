@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 08 Jan 2022 14:00:13 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jan 2022 12:09:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn163/</link>
+      <pubDate>Mon, 10 Jan 2022 12:09:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn163/</guid>
+      <description>Unsupervised Attention Based Instance Discriminative Learning for Person Re-Identification (WACV 2022) 开源代码传送门 概述 本文提出一种组注意力模块 (grouped attention module, GAM) 以处理无监督 ReID 问题。 本文方法 Grouped Attention Module (GAM) 分为通道注意力和空间注意力两部分</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn162/</link>

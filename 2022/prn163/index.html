@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn161/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn163/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn162/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn162/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn163/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021)",
-    "description" : "2110.10807 Text-Based Person Search with Limited Data (BMVC 2021) 开源代码传送门 概述 关注 TBPS 任务中训练数据缺乏的问题。 本文提出一种跨模态动量对比学习架构 (cross-modal momentum contrasive learning framework, CM-MoCo) 来丰富给定 mini-batch 中的训练数据，",
+    "name" : "[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)",
+    "headline" : "[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)",
+    "description" : "Unsupervised Attention Based Instance Discriminative Learning for Person Re-Identification (WACV 2022) 开源代码传送门 概述 本文提出一种组注意力模块 (grouped attention module, GAM) 以处理无监督 ReID 问题。 本文方法 Grouped Attention Module (GAM) 分为通道注意力和空间注意力两部分",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-08 14:00:13 \u002b0800 CST",
-    "dateModified" : "2022-01-08 14:00:13 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn162\/",
-    "wordCount" : "324",
+    "datePublished": "2022-01-10 12:09:02 \u002b0800 CST",
+    "dateModified" : "2022-01-10 12:09:02 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn163\/",
+    "wordCount" : "220",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-01-08 itemprop="datePublished">January 8, 2022</time>
+                on <time datetime=2022-01-10 itemprop="datePublished">January 10, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 324 words</span>
+                <span class="post-word-count">, 220 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,30 +193,29 @@
           
           
 
-          <h1 id="211010807-text-based-person-search-with-limited-data-bmvc-2021">2110.10807 Text-Based Person Search with Limited Data (BMVC 2021)</h1>
-<p><a href="https://github.com/BrandonHanx/TextReID">开源代码传送门</a></p>
+          <h1 id="unsupervised-attention-based-instance-discriminative-learning-for-person-re-identification-wacv-2022">Unsupervised Attention Based Instance Discriminative Learning for Person Re-Identification (WACV 2022)</h1>
+<p><a href="https://git.unl.edu/ece-unl-images-lab/group-attention-module-person-re-id">开源代码传送门</a></p>
+<p><img src="/images/2022/PRN163/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>关注 TBPS 任务中训练数据缺乏的问题。</p>
-<p>本文提出一种跨模态动量对比学习架构 (cross-modal momentum contrasive learning framework, CM-MoCo) 来丰富给定 mini-batch 中的训练数据，以充分利用小规模的数据集。其包含两个梯度更新的编码器 (query encoders) 和两个动量更新的编码器 (key encoders)。</p>
-<p>此外设计了一种跨模态迁移学习方法。</p>
-<p><img src="/images/2022/PRN162/1.png" alt="Fig 1"></p>
-<h2 id="learning-from-limited-tbps-data">Learning from Limited TBPS Data</h2>
-<h3 id="跨模态动量对比学习">跨模态动量对比学习</h3>
-<p>训练阶段负样本对的有限是特征学习的一大制约，CM-MoCo 旨在解决这一问题。</p>
-<p>首先得到 2 个 key 和 3 个 query，用于构建负样本对，进而计算跨模态对比损失，分别用梯度和动量训练相应的编码器。</p>
-<h3 id="联合学习">联合学习</h3>
-<p>此外还用到对其损失和 Id 损失。</p>
-<h3 id="post-processing">Post-processing</h3>
-<p>在推断阶段，采用 cross-modal k-reciprocal rerank 算法进一步提升表现。</p>
-<p><img src="/images/2022/PRN162/2.png" alt="Fig 2"></p>
-<h2 id="transferring-knowledge-from-generic-image-text-pairs">Transferring Knowledge from Generic Image-Text Pairs</h2>
-<p>用在 WIT 上预训练的 CLIP-TE 得到词嵌入特征，在整个训练过程中冻结参数。</p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2022/PRN162/3.png" alt="Fig 3"></p>
-<p><img src="/images/2022/PRN162/4.png" alt="Fig 4"></p>
-<p><img src="/images/2022/PRN162/5.png" alt="Fig 5"></p>
-<p><img src="/images/2022/PRN162/6.png" alt="Fig 6"></p>
-<p><img src="/images/2022/PRN162/7.png" alt="Fig 7"></p>
+<p>本文提出一种组注意力模块 (grouped attention module, GAM) 以处理无监督 ReID 问题。</p>
+<p><img src="/images/2022/PRN163/2.png" alt="Fig 2"></p>
+<h2 id="本文方法">本文方法</h2>
+<h3 id="grouped-attention-module-gam">Grouped Attention Module (GAM)</h3>
+<p>分为通道注意力和空间注意力两部分。</p>
+<h4 id="通道注意力">通道注意力</h4>
+<p>用分组卷积减少参数，得到一组 \(F_{G}\)后：</p>
+<p>$$A_{c}(F_{G}) = \sigma(FC(Pool(F_{G}))).$$</p>
+<h4 id="空间注意力">空间注意力</h4>
+<p>$$A_{s}(A_{c}(F_{G})) = \sigma(Conv(Pool(A_{c}(F_{G} \times F_{G})))) \in \mathbb{R}^{1 \times H \times W}.$$</p>
+<p><img src="/images/2022/PRN163/3.png" alt="Fig 3"></p>
+<h3 id="instance-discriminative-loss-idl">Instance Discriminative Loss (IDL)</h3>
+<p>旨在使得同一目标的特征接近，不同目标的特征远离。</p>
+<p>利用数据增广后的样本成对进行伪监督 (pseudo-supervision)，可以视为一个二分类问题。</p>
+<h3 id="agglomerative-clustering-loss-acl">Agglomerative Clustering Loss (ACL)</h3>
+<p>一种自底向上的层级化聚类方法。</p>
+<h2 id="可视化">可视化</h2>
+<p><img src="/images/2022/PRN163/4.png" alt="Fig 4"></p>
+<p><img src="/images/2022/PRN163/5.png" alt="Fig 5"></p>
 
     </div>
 
@@ -231,7 +230,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn162/>http://jonathanwayy.xyz/2022/prn162/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn163/>http://jonathanwayy.xyz/2022/prn163/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -279,10 +278,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn161/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] TAGPerson: A Target-Aware Generation Pipeline for Person ReID (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] TAGPerson: A Target-Aware Generation Pipeline for Person ReID (2021)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn162/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn163/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)">[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -291,7 +290,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
