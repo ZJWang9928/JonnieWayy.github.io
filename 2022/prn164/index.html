@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn162/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn164/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn163/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn163/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn164/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)",
-    "description" : "Unsupervised Attention Based Instance Discriminative Learning for Person Re-Identification (WACV 2022) 开源代码传送门 概述 本文提出一种组注意力模块 (grouped attention module, GAM) 以处理无监督 ReID 问题。 本文方法 Grouped Attention Module (GAM) 分为通道注意力和空间注意力两部分",
+    "name" : "[论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022)",
+    "headline" : "[论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022)",
+    "description" : "2201.00107 Quality-aware Part Models for Occluded Person Re-identification (2022) 概述 本文提出一种称为 Quality-aware Part Models (QPM) 的方法以解决遮挡 ReID 问题，其包含一个部分特征学习分支和一个全局特征学习分支。 Joint Learning Part Feature and Quality Scores Part Feature Extractor",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-10 12:09:02 \u002b0800 CST",
-    "dateModified" : "2022-01-10 12:09:02 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn163\/",
-    "wordCount" : "220",
+    "datePublished": "2022-01-11 13:17:12 \u002b0800 CST",
+    "dateModified" : "2022-01-11 13:17:12 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn164\/",
+    "wordCount" : "334",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-01-10 itemprop="datePublished">January 10, 2022</time>
+                on <time datetime=2022-01-11 itemprop="datePublished">January 11, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 220 words</span>
+                <span class="post-word-count">, 334 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,29 +193,30 @@
           
           
 
-          <h1 id="unsupervised-attention-based-instance-discriminative-learning-for-person-re-identification-wacv-2022">Unsupervised Attention Based Instance Discriminative Learning for Person Re-Identification (WACV 2022)</h1>
-<p><a href="https://git.unl.edu/ece-unl-images-lab/group-attention-module-person-re-id">开源代码传送门</a></p>
-<p><img src="/images/2022/PRN163/1.png" alt="Fig 1"></p>
+          <h1 id="220100107-quality-aware-part-models-for-occluded-person-re-identification-2022">2201.00107 Quality-aware Part Models for Occluded Person Re-identification (2022)</h1>
+<p><img src="/images/2022/PRN164/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种组注意力模块 (grouped attention module, GAM) 以处理无监督 ReID 问题。</p>
-<p><img src="/images/2022/PRN163/2.png" alt="Fig 2"></p>
-<h2 id="本文方法">本文方法</h2>
-<h3 id="grouped-attention-module-gam">Grouped Attention Module (GAM)</h3>
-<p>分为通道注意力和空间注意力两部分。</p>
-<h4 id="通道注意力">通道注意力</h4>
-<p>用分组卷积减少参数，得到一组 \(F_{G}\)后：</p>
-<p>$$A_{c}(F_{G}) = \sigma(FC(Pool(F_{G}))).$$</p>
-<h4 id="空间注意力">空间注意力</h4>
-<p>$$A_{s}(A_{c}(F_{G})) = \sigma(Conv(Pool(A_{c}(F_{G} \times F_{G})))) \in \mathbb{R}^{1 \times H \times W}.$$</p>
-<p><img src="/images/2022/PRN163/3.png" alt="Fig 3"></p>
-<h3 id="instance-discriminative-loss-idl">Instance Discriminative Loss (IDL)</h3>
-<p>旨在使得同一目标的特征接近，不同目标的特征远离。</p>
-<p>利用数据增广后的样本成对进行伪监督 (pseudo-supervision)，可以视为一个二分类问题。</p>
-<h3 id="agglomerative-clustering-loss-acl">Agglomerative Clustering Loss (ACL)</h3>
-<p>一种自底向上的层级化聚类方法。</p>
-<h2 id="可视化">可视化</h2>
-<p><img src="/images/2022/PRN163/4.png" alt="Fig 4"></p>
-<p><img src="/images/2022/PRN163/5.png" alt="Fig 5"></p>
+<p>本文提出一种称为 Quality-aware Part Models (QPM) 的方法以解决遮挡 ReID 问题，其包含一个部分特征学习分支和一个全局特征学习分支。</p>
+<p><img src="/images/2022/PRN164/2.png" alt="Fig 2"></p>
+<h2 id="joint-learning-part-feature-and-quality-scores">Joint Learning Part Feature and Quality Scores</h2>
+<h3 id="part-feature-extractor">Part Feature Extractor</h3>
+<p>ResNet-50 + RAP + \(1 \times 1\) 卷积</p>
+<p>用交叉熵优化。</p>
+<h3 id="part-quality-predictor">Part Quality Predictor</h3>
+<p>遮挡 ReID 的一个困难在于要识别可见的身体部分，本文提出可见并不等同于具有较强鉴别能力，因此提出一种方法来预测部件特征的质量而非可见性。</p>
+<p>\(1 \times 1\) 卷积 + BN + Sigmoid</p>
+<h3 id="联合优化">联合优化</h3>
+<p>对于部件质量分数没有直接提供的标注信息，因此本文用三元组损失联合优化成对部件距离和部件质量分数。</p>
+<p>该分支无法有效区分其他行人造成的遮挡，因而本文试图从全局特征学习分支来弥补。</p>
+<h2 id="identity-aware-spatial-attention-isa">Identity-aware Spatial Attention (ISA)</h2>
+<p>ISA 利用一个 coarse identity-aware feature 来生成空间注意力。</p>
+<p><img src="/images/2022/PRN164/3.png" alt="Fig 3"></p>
+<h2 id="adaptive-global-feature-extraction-agfe">Adaptive Global Feature Extraction (AGFE)</h2>
+<p>旨在借助部件质量分数从各对图像公共的非遮挡区域提取全局特征，从而保证语义一致性。</p>
+<p>分类损失 + 三元组损失</p>
+<h2 id="可视化示例">可视化示例</h2>
+<p><img src="/images/2022/PRN164/4.png" alt="Fig 4"></p>
+<p><img src="/images/2022/PRN164/5.png" alt="Fig 5"></p>
 
     </div>
 
@@ -230,7 +231,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn163/>http://jonathanwayy.xyz/2022/prn163/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn164/>http://jonathanwayy.xyz/2022/prn164/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -278,10 +279,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn162/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Text-Based Person Search with Limited Data (BMVC 2021)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn163/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn164/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022)">[论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -290,7 +291,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

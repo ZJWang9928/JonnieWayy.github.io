@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 10 Jan 2022 12:09:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 13:17:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn164/</link>
+      <pubDate>Tue, 11 Jan 2022 13:17:12 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn164/</guid>
+      <description>2201.00107 Quality-aware Part Models for Occluded Person Re-identification (2022) 概述 本文提出一种称为 Quality-aware Part Models (QPM) 的方法以解决遮挡 ReID 问题，其包含一个部分特征学习分支和一个全局特征学习分支。 Joint Learning Part Feature and Quality Scores Part Feature Extractor</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Unsupervised Attention Based Instance Discri. Learning (WACV 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn163/</link>
