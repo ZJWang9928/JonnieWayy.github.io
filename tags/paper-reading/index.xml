@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 11 Jan 2022 13:17:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 14:20:52 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Multi-Domain Joint Training for Person Re-Identification (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn165/</link>
+      <pubDate>Wed, 12 Jan 2022 14:20:52 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn165/</guid>
+      <description>2201.01983 Multi-Domain Joint Training for Person Re-Identification (2022) 概述 本文发现多个域联合训练得到的 ReID 表现比独立训练各个域要差，称为域冲突问题 (domain conflict problem)，域冲突可能来自于三种因素： 数</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Quality-aware Part Models for Occluded Person Re-identification (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn164/</link>
