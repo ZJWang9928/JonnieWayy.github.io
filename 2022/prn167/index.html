@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn165/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn167/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn166/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn166/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn167/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Transformer based LP Search with Multiple Region Slicing (TCSVT 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Unsupervised Clustering Active Learning for Person ReID (BMVC 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Transformer based LP Search with Multiple Region Slicing (TCSVT 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Unsupervised Clustering Active Learning for Person ReID (BMVC 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Transformer based LP Search with Multiple Region Slicing (TCSVT 2021)",
-    "headline" : "[论文阅读笔记 -- ReID] Transformer based LP Search with Multiple Region Slicing (TCSVT 2021)",
-    "description" : "Transformer based Language-Person Search with Multiple Region Slicing (TCSVT 2021) 概述 本文提出一种基于 Transformer 的语言-行人搜索架构，提出两种新的分割方式，分为重叠分割 (Overlapped Slicing, OS) 与基于关键点的分割 (Key-point-based Slicing)",
+    "name" : "[论文阅读笔记 -- ReID] Unsupervised Clustering Active Learning for Person ReID (BMVC 2021)",
+    "headline" : "[论文阅读笔记 -- ReID] Unsupervised Clustering Active Learning for Person ReID (BMVC 2021)",
+    "description" : "2112.13308 Unsupervised Clustering Active Learning for Person Re-identification (BMVC 2021) 概述 本文提出一种无监督聚类主动学习模型 (Unsupervised Clustering Active Learning model, UCAL)，结合无监督学习与主动学习的优势。 基本无监督聚类模型 选择基于 DBSCAN",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-12 15:12:41 \u002b0800 CST",
-    "dateModified" : "2022-01-12 15:12:41 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn166\/",
-    "wordCount" : "85",
+    "datePublished": "2022-01-12 15:46:39 \u002b0800 CST",
+    "dateModified" : "2022-01-12 15:46:39 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn167\/",
+    "wordCount" : "257",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,7 +159,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Transformer based LP Search with Multiple Region Slicing (TCSVT 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Unsupervised Clustering Active Learning for Person ReID (BMVC 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 85 words</span>
+                <span class="post-word-count">, 257 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,15 +193,20 @@
           
           
 
-          <h1 id="transformer-based-language-person-search-with-multiple-region-slicing-tcsvt-2021">Transformer based Language-Person Search with Multiple Region Slicing (TCSVT 2021)</h1>
-<p><img src="/images/2022/PRN166/1.png" alt="Fig 1"></p>
+          <h1 id="211213308-unsupervised-clustering-active-learning-for-person-re-identification-bmvc-2021">2112.13308 Unsupervised Clustering Active Learning for Person Re-identification (BMVC 2021)</h1>
 <h2 id="概述">概述</h2>
-<p>本文提出一种基于 Transformer 的语言-行人搜索架构，提出两种新的分割方式，分为重叠分割 (Overlapped Slicing, OS) 与基于关键点的分割 (Key-point-based Slicing)，二者互补。</p>
-<h2 id="本文方法">本文方法</h2>
-<p><img src="/images/2022/PRN166/2.png" alt="Fig 2"></p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2022/PRN166/3.png" alt="Fig 3"></p>
-<p><img src="/images/2022/PRN166/4.png" alt="Fig 4"></p>
+<p>本文提出一种无监督聚类主动学习模型 (Unsupervised Clustering Active Learning model, UCAL)，结合无监督学习与主动学习的优势。</p>
+<p><img src="/images/2022/PRN167/1.png" alt="Fig 1"></p>
+<h2 id="基本无监督聚类模型">基本无监督聚类模型</h2>
+<p>选择基于 DBSCAN 的无监督聚类方法作为基本的聚类架构，用 CNN 编码器表征行人图像特征。对于无标签的训练数据，采用 self-paced clustering 策略将其聚类，根据聚类结果更新特征编码器的参数。</p>
+<p>该方法难免会产生错误的伪标签。</p>
+<h2 id="无监督主动学习架构">无监督主动学习架构</h2>
+<p>为了提高聚类结果，利用两种样本对：</p>
+<ul>
+<li>hard negative centroid-pair: 两组 centroid 之间 ID 不同但聚类到一起的对</li>
+<li>hard positive centroid-pair: 两组 centroid 之间 ID 相同但没有聚类到一起的对</li>
+</ul>
+<p>得到两种样本对后，进行 split 和 merge 操作以优化当前的聚类结构，进而优化 CNN 模型。</p>
 
     </div>
 
@@ -216,7 +221,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn166/>http://jonathanwayy.xyz/2022/prn166/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn167/>http://jonathanwayy.xyz/2022/prn167/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -264,10 +269,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn165/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Multi-Domain Joint Training for Person Re-Identification (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Multi-Domain Joint Training for Person Re-Identification (2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn166/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Transformer based LP Search with Multiple Region Slicing (TCSVT 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Transformer based LP Search with Multiple Region Slicing (TCSVT 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn167/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Unsupervised Clustering Active Learning for Person ReID (BMVC 2021)">[论文阅读笔记 -- ReID] Unsupervised Clustering Active Learning for Person ReID (BMVC 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -276,7 +281,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

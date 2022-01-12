@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 12 Jan 2022 15:12:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 15:46:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Unsupervised Clustering Active Learning for Person ReID (BMVC 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn167/</link>
+      <pubDate>Wed, 12 Jan 2022 15:46:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn167/</guid>
+      <description>2112.13308 Unsupervised Clustering Active Learning for Person Re-identification (BMVC 2021) 概述 本文提出一种无监督聚类主动学习模型 (Unsupervised Clustering Active Learning model, UCAL)，结合无监督学习与主动学习的优势。 基本无监督聚类模型 选择基于 DBSCAN</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Transformer based LP Search with Multiple Region Slicing (TCSVT 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn166/</link>
