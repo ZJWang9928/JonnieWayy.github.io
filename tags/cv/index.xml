@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 12 Jan 2022 21:10:36 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jan 2022 13:21:37 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Integrating Information Theory and Advers. Learning (PR 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn169/</link>
+      <pubDate>Thu, 13 Jan 2022 13:21:37 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn169/</guid>
+      <description>Integrating Information Theory and Adversarial Learning for Cross-modal Retrieval (PR 2021) 概述 本文将香农信息论与对抗学习相结合，以对抗的方式结合信息熵预测器与模态分类器。 本文方法 信息熵与模态不确定性 用信息熵衡</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Fusion-Attention Network for Person Search with Language (PRL 2018)</title>
       <link>http://jonathanwayy.xyz/2022/prn168/</link>
