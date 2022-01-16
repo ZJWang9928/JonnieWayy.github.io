@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 14 Jan 2022 16:38:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jan 2022 20:46:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] On Exploring Pose Estimation as an Auxiliary Learning Task (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn172/</link>
+      <pubDate>Sun, 16 Jan 2022 20:46:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn172/</guid>
+      <description>2201.03859 On Exploring Pose Estimation as an Auxiliary Learning Task for Visible-Infrared Person Re-identification (2022) 开源代码传送门 概述 本文提出一种双分支的 VI-ReID 架构，通过联合学习一个姿态估计的辅助任务和一个行人 ReID 的主任务，提取模态</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 人脸识别] End2End OFR by Masking Corrupted Features (TPAMI 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn171/</link>
