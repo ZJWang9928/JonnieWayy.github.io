@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/bg44/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn173/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn172/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn172/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn173/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] On Exploring Pose Estimation as an Auxiliary Learning Task (2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Parsing-based View-aware Embedding Network for VReID (CVPR 2020) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] On Exploring Pose Estimation as an Auxiliary Learning Task (2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Parsing-based View-aware Embedding Network for VReID (CVPR 2020) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] On Exploring Pose Estimation as an Auxiliary Learning Task (2022)",
-    "headline" : "[论文阅读笔记 -- ReID] On Exploring Pose Estimation as an Auxiliary Learning Task (2022)",
-    "description" : "2201.03859 On Exploring Pose Estimation as an Auxiliary Learning Task for Visible-Infrared Person Re-identification (2022) 开源代码传送门 概述 本文提出一种双分支的 VI-ReID 架构，通过联合学习一个姿态估计的辅助任务和一个行人 ReID 的主任务，提取模态",
+    "name" : "[论文阅读笔记 -- ReID] Parsing-based View-aware Embedding Network for VReID (CVPR 2020)",
+    "headline" : "[论文阅读笔记 -- ReID] Parsing-based View-aware Embedding Network for VReID (CVPR 2020)",
+    "description" : "Parsing-based View-aware Embedding Network for Vehicle Re-Identification (CVPR 2020) 概述 车辆 ReID 任务。 本文提出一种基于解析的视角可知的嵌入网络 (Parsing-based View-aware Embedding Network, PVEN)，包含三个部分： vehicle part parser view-aware feature alignent common-visible feature enhancement 本文方法 Vehicle Part Parser",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-01-16 20:46:29 \u002b0800 CST",
-    "dateModified" : "2022-01-16 20:46:29 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn172\/",
-    "wordCount" : "276",
+    "datePublished": "2022-01-18 14:44:53 \u002b0800 CST",
+    "dateModified" : "2022-01-18 14:44:53 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn173\/",
+    "wordCount" : "287",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] On Exploring Pose Estimation as an Auxiliary Learning Task (2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Parsing-based View-aware Embedding Network for VReID (CVPR 2020)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-01-16 itemprop="datePublished">January 16, 2022</time>
+                on <time datetime=2022-01-18 itemprop="datePublished">January 18, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 276 words</span>
+                <span class="post-word-count">, 287 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,32 +193,33 @@
           
           
 
-          <h1 id="220103859-on-exploring-pose-estimation-as-an-auxiliary-learning-task-for-visible-infrared-person-re-identification-2022">2201.03859 On Exploring Pose Estimation as an Auxiliary Learning Task for Visible-Infrared Person Re-identification (2022)</h1>
-<p><a href="https://github.com/yoqim/Pose_VIReID">开源代码传送门</a></p>
-<p><img src="/images/2022/PRN172/1.png" alt="Fig 1"></p>
-<p><img src="/images/2022/PRN172/2.png" alt="Fig 2"></p>
+          <h1 id="parsing-based-view-aware-embedding-network-for-vehicle-re-identification-cvpr-2020">Parsing-based View-aware Embedding Network for Vehicle Re-Identification (CVPR 2020)</h1>
+<p><img src="/images/2022/PRN173/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种双分支的 VI-ReID 架构，通过联合学习一个姿态估计的辅助任务和一个行人 ReID 的主任务，提取模态共享且 ID 相关的特征。</p>
-<p>架构主要包含四个部分：</p>
+<p>车辆 ReID 任务。</p>
+<p>本文提出一种基于解析的视角可知的嵌入网络 (Parsing-based View-aware Embedding Network, PVEN)，包含三个部分：</p>
 <ul>
-<li>Modality-specific module</li>
-<li>Modality-shared module</li>
-<li>Pose Estimation branch</li>
-<li>ReID branch</li>
+<li>vehicle part parser</li>
+<li>view-aware feature alignent</li>
+<li>common-visible feature enhancement</li>
 </ul>
-<p><img src="/images/2022/PRN172/3.png" alt="Fig 3"></p>
-<h3 id="modality-specific-module-and-modality-shared-module">Modality-specific Module And Modality-shared Module</h3>
-<p>前者为 ResNet-50 的浅层卷积块和第一个残差卷积块，两个模态的模块参数独立。</p>
-<p>后者实现为 ResNet-50 的第二个残差卷积块。</p>
-<h3 id="pose-estimation-branch">Pose Estimation Branch</h3>
-<p>先用卷积 + 反卷积提取高阶特征并恢复分辨率，再用一个 Refinement 模块提取关键点特征并预测关键点热图。</p>
-<h3 id="reid-branch">ReID Branch</h3>
-<p>用于提取 ID 相关特征，包括全局和局部两种粒度。</p>
-<h3 id="hierarchical-feature-constraint-hfc">Hierarchical Feature Constraint (HFC)</h3>
-<p>旨在保证全局与局部两种粒度特征学习的一致性，基于知识蒸馏实现，用全局特征指导局部特征。</p>
-<p><img src="/images/2022/PRN172/4.png" alt="Fig 4"></p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2022/PRN172/5.png" alt="Fig 5"></p>
+<p><img src="/images/2022/PRN173/2.png" alt="Fig 2"></p>
+<h2 id="本文方法">本文方法</h2>
+<h3 id="vehicle-part-parser">Vehicle Part Parser</h3>
+<p>视角变换是车辆 ReID 所面临的一大难题，大多数车辆具有两大特性：</p>
+<ul>
+<li>可以被视为一个立方体，能被分为不同的部分</li>
+<li>是刚性体，没有物理形变</li>
+</ul>
+<p>解析模型用 SeResNext50 作为 backbone，基于交叉熵损失训练。</p>
+<p><img src="/images/2022/PRN173/3.png" alt="Fig 3"></p>
+<h3 id="view-aware-feature-alignment">View-aware Feature Alignment</h3>
+<p>引入视角可知的局部特征，在完整覆盖的情况下得到细粒度表征。</p>
+<p>用 ResNet-50 作为特征提取器，有一个全局分支和一个局部分支。</p>
+<p>局部分支学习视角可知的特征以避免全局分支带来的不同视角失配的问题。</p>
+<h3 id="common-visible-feature-enhancement">Common-visible Feature Enhancement</h3>
+<p>旨在增强不同视角的特征，以得到不同视角下同一车辆的稳定而具有鉴别力的信息。</p>
+<p><img src="/images/2022/PRN173/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -233,7 +234,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn172/>http://jonathanwayy.xyz/2022/prn172/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn173/>http://jonathanwayy.xyz/2022/prn173/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -281,10 +282,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/bg44/" class="prev" rel="prev" title="壁纸分享[44]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[44]</a>
+        <a href="http://jonathanwayy.xyz/2022/prn172/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] On Exploring Pose Estimation as an Auxiliary Learning Task (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] On Exploring Pose Estimation as an Auxiliary Learning Task (2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn173/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Parsing-based View-aware Embedding Network for VReID (CVPR 2020)">[论文阅读笔记 -- ReID] Parsing-based View-aware Embedding Network for VReID (CVPR 2020)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
