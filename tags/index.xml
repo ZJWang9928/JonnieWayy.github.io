@@ -7,31 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 21 Jan 2022 14:49:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jan 2022 23:21:35 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Fri, 21 Jan 2022 14:49:33 +0800</pubDate>
+      <title>coding</title>
+      <link>http://jonathanwayy.xyz/tags/coding/</link>
+      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <guid>http://jonathanwayy.xyz/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 21 Jan 2022 14:49:33 +0800</pubDate>
+      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 21 Jan 2022 14:49:33 +0800</pubDate>
+      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pooling</title>
+      <link>http://jonathanwayy.xyz/tags/pooling/</link>
+      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pooling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Fri, 21 Jan 2022 14:49:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
@@ -144,47 +189,11 @@
     </item>
     
     <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>plt</title>
       <link>http://jonathanwayy.xyz/tags/plt/</link>
       <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/plt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coding</title>
-      <link>http://jonathanwayy.xyz/tags/coding/</link>
-      <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
