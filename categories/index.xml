@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 21 Jan 2022 23:21:35 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 20:16:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome Wallpapers</title>
+      <link>http://jonathanwayy.xyz/categories/awesome-wallpapers/</link>
+      <pubDate>Sun, 23 Jan 2022 20:16:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/categories/awesome-wallpapers/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Alchemy Of CV</title>
       <link>http://jonathanwayy.xyz/categories/alchemy-of-cv/</link>
@@ -23,15 +32,6 @@
       <pubDate>Fri, 21 Jan 2022 14:49:33 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/categories/paper-reading-notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Awesome Wallpapers</title>
-      <link>http://jonathanwayy.xyz/categories/awesome-wallpapers/</link>
-      <pubDate>Sat, 15 Jan 2022 20:40:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/categories/awesome-wallpapers/</guid>
       <description></description>
     </item>
     
