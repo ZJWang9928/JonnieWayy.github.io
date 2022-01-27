@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 24 Jan 2022 14:16:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 18:06:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 注意力机制] Tiled SE: Channel Att. With Local Spatial Context (ICCVW 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn178/</link>
+      <pubDate>Thu, 27 Jan 2022 18:06:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn178/</guid>
+      <description>Tiled Squeeze-and-Excite: Channel Attention With Local Spatial Context (ICCVW 2021) 概述 旨在分析有效的通道注意力所需的最小空间上下文。 本文基于 SENet 提出一种 Tiled Squeeze-and-Excite (TSE) 注意力。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Short Range Correlation Transformer for Occluded Person ReID (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn177/</link>
