@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 27 Jan 2022 18:06:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jan 2022 14:55:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Divide-and-Merge the Embedding Space (Neurocomputing 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn179/</link>
+      <pubDate>Sat, 29 Jan 2022 14:55:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn179/</guid>
+      <description>Divide-and-Merge the Embedding Space for Cross-modality Person Search (Neurocomputing 2021) 概述 本文提出一种分治嵌入学习架构 (Divide-and-Merge Embedding Learning Framework, DME)，关注两方面： 如何提取健壮的局部表征，而避免产生无意义信息 如何有效合并多</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Tiled SE: Channel Att. With Local Spatial Context (ICCVW 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn178/</link>
