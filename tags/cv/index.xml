@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 30 Jan 2022 14:47:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jan 2022 22:02:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Hashing Person Re-ID with Self-distilling Smooth Relaxation (NC 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn181/</link>
+      <pubDate>Sun, 30 Jan 2022 22:02:51 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn181/</guid>
+      <description>Hashing Person Re-ID with Self-distilling Smooth Relaxation (Neurocomputing 2021) 概述 影响哈希 ReID 表现的两大因素： 特征表征：与非哈希方法的浮点特征相比，哈希编码在表征能力上具有内在的劣势 哈希松弛度：为了能够</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 图像检索] Self-Supervised Product Quantization for Uns. IR (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn180/</link>
