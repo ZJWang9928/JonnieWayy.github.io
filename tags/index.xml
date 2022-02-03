@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 01 Feb 2022 14:42:59 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Feb 2022 15:48:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coding</title>
+      <link>http://jonathanwayy.xyz/tags/coding/</link>
+      <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytorch</title>
+      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resnet</title>
+      <link>http://jonathanwayy.xyz/tags/resnet/</link>
+      <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/resnet/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>kde</title>
       <link>http://jonathanwayy.xyz/tags/kde/</link>
@@ -54,29 +117,11 @@
     </item>
     
     <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sun, 30 Jan 2022 22:02:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hashing</title>
       <link>http://jonathanwayy.xyz/tags/hashing/</link>
       <pubDate>Sun, 30 Jan 2022 22:02:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/hashing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sun, 30 Jan 2022 22:02:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -144,47 +189,11 @@
     </item>
     
     <item>
-      <title>coding</title>
-      <link>http://jonathanwayy.xyz/tags/coding/</link>
-      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pooling</title>
       <link>http://jonathanwayy.xyz/tags/pooling/</link>
       <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pooling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
-      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-      <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
       <description></description>
     </item>
     
