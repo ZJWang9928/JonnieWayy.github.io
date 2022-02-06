@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 30 Jan 2022 22:02:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 16:55:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID / 哈希] Faster Person Re-Identification (ECCV 2020)</title>
+      <link>http://jonathanwayy.xyz/2022/prn182/</link>
+      <pubDate>Fri, 04 Feb 2022 16:55:12 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn182/</guid>
+      <description>Faster Person Re-Identification (ECCV 2020) 开源代码传送门 概述 ReID 任务与一般的图像任务相比具有其特殊性，属于开放集合中实例级别的匹配，训练集与测试集的类别 (ID) 不同，这导致了需要很</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Hashing Person Re-ID with Self-distilling Smooth Relaxation (NC 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn181/</link>
