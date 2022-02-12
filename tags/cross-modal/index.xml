@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 11 Feb 2022 15:51:42 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 18:05:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Multi-level Alignment Network for DA CMR (NC 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn186/</link>
+      <pubDate>Sat, 12 Feb 2022 18:05:22 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn186/</guid>
+      <description>Multi-level Alignment Network for Domain Adaptive Cross-modal Retrieval (Neurocomputing 2021) 概述 本文关注域自适应跨模态检索问题，提出一种多级对齐网络 (Multi-level Alignment Network, MAN)，其包含一个视觉编码器、一个文本编码器和一个公共空</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Cross-Modal Cross-Domain Moment Alignment Network (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2022/prn185/</link>
