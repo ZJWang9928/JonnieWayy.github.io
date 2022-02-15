@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 15 Feb 2022 13:35:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 15:53:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Generalising without Forgetting for Lifelong Person ReID (AAAI 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn190/</link>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn190/</guid>
+      <description>Generalising without Forgetting for Lifelong Person Re-Identification (AAAI 2021) 概述 本文关注 Lifelong ReID 任务，与传统终身学习任务相比有三个主要的不同及困难： 训练与测试类别不重叠，属于 ZSL 问题 数据序列来自不同的域 各</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Object ReID Using Teacher-Like and Light Students (BMVC 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn189/</link>

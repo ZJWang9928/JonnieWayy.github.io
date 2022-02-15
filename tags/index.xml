@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 15 Feb 2022 13:35:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 15:53:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>lifelong</title>
       <link>http://jonathanwayy.xyz/tags/lifelong/</link>
-      <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
       <description></description>
@@ -38,7 +38,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,7 +47,7 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
@@ -56,7 +56,7 @@
     <item>
       <title>ReID</title>
       <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
@@ -65,9 +65,18 @@
     <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>knowledge distillation</title>
+      <link>http://jonathanwayy.xyz/tags/knowledge-distillation/</link>
+      <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/knowledge-distillation/</guid>
       <description></description>
     </item>
     
@@ -194,15 +203,6 @@
       <pubDate>Sun, 30 Jan 2022 14:47:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>knowledge distillation</title>
-      <link>http://jonathanwayy.xyz/tags/knowledge-distillation/</link>
-      <pubDate>Sun, 23 Jan 2022 14:22:49 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/knowledge-distillation/</guid>
       <description></description>
     </item>
     
