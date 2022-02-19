@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>incremental learning on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/incremental-learning/</link>
+    <description>Recent content in incremental learning on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Sat, 19 Feb 2022 16:12:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/incremental-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 增量学习] Striking a Balance between Stability-Plasticity for CIL (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn192/</link>
+      <pubDate>Sat, 19 Feb 2022 16:12:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn192/</guid>
+      <description>Striking a Balance between Stability and Plasticity for Class-Incremental Learning (ICCV 2021) 概述 类增量学习任务 (Class-Incremental Learning, CIL)。 适应新类要求模型具有可塑性 (plasticity)，而不忘记学到的旧类别要求稳定性 (</description>
+    </item>
+    
+  </channel>
+</rss>

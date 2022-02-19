@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 16 Feb 2022 22:09:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Feb 2022 16:12:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 增量学习] Striking a Balance between Stability-Plasticity for CIL (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn192/</link>
+      <pubDate>Sat, 19 Feb 2022 16:12:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn192/</guid>
+      <description>Striking a Balance between Stability and Plasticity for Class-Incremental Learning (ICCV 2021) 概述 类增量学习任务 (Class-Incremental Learning, CIL)。 适应新类要求模型具有可塑性 (plasticity)，而不忘记学到的旧类别要求稳定性 (</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Adaptive CM Prototypes for Cross-Domain VLR (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn191/</link>
