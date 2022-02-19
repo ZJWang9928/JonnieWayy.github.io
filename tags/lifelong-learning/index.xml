@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 19 Feb 2022 16:12:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/lifelong-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Feb 2022 21:06:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/lifelong-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ASR / 终身学习] Towards Lifelong Learning of End-to-end ASR (2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn193/</link>
+      <pubDate>Sat, 19 Feb 2022 21:06:23 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn193/</guid>
+      <description>2104.01616 Towards Lifelong Learning of End-to-end ASR (2021) 概述 终身学习 (LLL) 可分为三类： Regularization-based Methods: 通过在损失函数中加入正则化项来加固模型中的关键参数 Architecture-based Methods: 为各任务分配一定的模型容量，或扩展模型以</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 增量学习] Striking a Balance between Stability-Plasticity for CIL (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn192/</link>

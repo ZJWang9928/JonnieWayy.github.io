@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn192/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn193/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           [论文阅读笔记 -- ASR / 终身学习] Towards Lifelong Learning of End-to-end ASR (2021) | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="[论文阅读笔记 -- ASR / 终身学习] Towards Lifelong Learning of End-to-end ASR (2021) | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/jonathanwayy.xyz"
+    },
+    "articleSection" : "posts",
+    "name" : "[论文阅读笔记 -- ASR \/ 终身学习] Towards Lifelong Learning of End-to-end ASR (2021)",
+    "headline" : "[论文阅读笔记 -- ASR \/ 终身学习] Towards Lifelong Learning of End-to-end ASR (2021)",
+    "description" : "2104.01616 Towards Lifelong Learning of End-to-end ASR (2021) 概述 终身学习 (LLL) 可分为三类： Regularization-based Methods: 通过在损失函数中加入正则化项来加固模型中的关键参数 Architecture-based Methods: 为各任务分配一定的模型容量，或扩展模型以",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2022",
+    "datePublished": "2022-02-19 21:06:23 \u002b0800 CST",
+    "dateModified" : "2022-02-19 21:06:23 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn193\/",
+    "wordCount" : "442",
+    "keywords" : [ "paper reading","cv","notes","lifelong learning","asr", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://jonathanwayy.xyz">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        
+            
+            
+        
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://jonathanwayy.xyz">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ASR / 终身学习] Towards Lifelong Learning of End-to-end ASR (2021)</h1>
+        <div class="post-meta">
+                
+                Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
+                <span class="post-time">
+                on <time datetime=2022-02-19 itemprop="datePublished">February 19, 2022</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 442 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="210401616-towards-lifelong-learning-of-end-to-end-asr-2021">2104.01616 Towards Lifelong Learning of End-to-end ASR (2021)</h1>
+<p><img src="/images/2022/PRN193/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<p>终身学习 (LLL) 可分为三类：</p>
+<ul>
+<li>Regularization-based Methods: 通过在损失函数中加入正则化项来加固模型中的关键参数</li>
+<li>Architecture-based Methods: 为各任务分配一定的模型容量，或扩展模型以处理额外任务</li>
+<li>Data-based Methods: 保留或生成一些来自过去任务的样本</li>
+</ul>
+<p>本文将 LLL 应用于自动语音识别 (ASR) 任务上。</p>
+<h2 id="regularization-based-methods">Regularization-based Methods</h2>
+<p>需要存储先前模型的权重，占据较大空间。</p>
+<h3 id="elastic-weight-consilidation-ewc">Elastic Weight Consilidation (EWC)</h3>
+<p>采用 EWC 和 online EWC 算法，用一个正则化项约束模型参数和先前任务保持接近：</p>
+<p>$$\mathcal{L}(\theta^k) = \mathcal{L}_{CTC}(\theta^k) + \frac{\lambda}{2} \sum_{i} \Omega_{i}^{k} (\theta_{i}^k - \theta_{i}^{k-1^{*}})^2.$$</p>
+<h3 id="synaptic-intelligence-si">Synaptic Intelligence (SI)</h3>
+<p>和 EWC 相似，但是权重由对应项对于损失下降的作用递归更新得到：</p>
+<p>$$\Omega_{i}^k = \Omega_{i}^{k-1} + \frac{\omega_{i}^{k-1}}{(\theta_{i}^{k-1^{*}} - \theta_{i}^{k-2^{*}})^2 + \xi},$$</p>
+<p>其中 \(\omega\) 由 CTC 损失的梯度得到。</p>
+<h3 id="knowledge-distillation-kd">Knowledge Distillation (KD)</h3>
+<p>约束新旧模型的输出分布，而非直接约束模型参数。</p>
+<h2 id="data-based-methods">Data-based Methods</h2>
+<h3 id="gradient-episodic-memory-gem">Gradient Episodic Memory (GEM)</h3>
+<p>保留过往样本以计算梯度，若当前梯度 \(g\) 导致在任何先前域上的损失上升，则对其进行投影：</p>
+<p>$$minimize_{\widetilde{g}} \quad ||g - \widetilde{g}||_{2}^2,$$
+$$s.t. \quad &lt;\widetilde{g}, g_{k-1}&gt; \ge 0.$$</p>
+<p>本文为每个域保留相同数量的样本，并固定存储总量，所以有新任务时需要丢弃一部分旧样本，文章提出两种数据选取方法。</p>
+<h3 id="minimum-perplexity-pp">Minimum Perplexity (PP)</h3>
+<p>为每个数据集训练一个 LM，保留最能表征该数据集的复杂度最小的发言。</p>
+<h3 id="median-length-len">Median Length (Len)</h3>
+<p>由于各数据集的平均发言长度不一样，保留长度最接近中位数的发言。</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn193/>http://jonathanwayy.xyz/2022/prn193/</span>
+            </p>
+            <p>
+                <span>Ads:</span>
+                <span>欢迎参与<a href="https://www.didiyun.com" target="_blank" style="text-decoration:underline">滴滴云AI大师活动</a>购买 GPU / vGPU / 机器学习产品，使用我的滴滴AI大师码 <b style="color:red">0724</b> 可享受 <b>9 折</b>优惠！</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/lifelong-learning/">
+                    #lifelong learning</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/asr/">
+                    #asr</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://jonathanwayy.xyz">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://jonathanwayy.xyz/2022/prn192/" class="prev" rel="prev" title="[论文阅读笔记 -- 增量学习] Striking a Balance between Stability-Plasticity for CIL (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 增量学习] Striking a Balance between Stability-Plasticity for CIL (ICCV 2021)</a>
+         
+        
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2022</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://jonathanwayy.xyz">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
