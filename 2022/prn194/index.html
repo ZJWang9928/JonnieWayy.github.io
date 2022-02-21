@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn193/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn194/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/bg49/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/bg49/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn194/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           壁纸分享[49] | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Robust Person ReID by Modelling Feature Uncertainty (ICCV 2019) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="壁纸分享[49] | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Robust Person ReID by Modelling Feature Uncertainty (ICCV 2019) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "壁纸分享[49]",
-    "headline" : "壁纸分享[49]",
-    "description" : "",
+    "name" : "[论文阅读笔记 -- ReID] Robust Person ReID by Modelling Feature Uncertainty (ICCV 2019)",
+    "headline" : "[论文阅读笔记 -- ReID] Robust Person ReID by Modelling Feature Uncertainty (ICCV 2019)",
+    "description" : "Robust Person Re-identification by Modelling Feature Uncertainty (ICCV 2019) 开源代码传送门 概述 本文关注如何用带噪训练数据学习一个健壮的 ReID 模型，数据噪声可以分为两类： Label Noise Data Outliers 本文提出 DistributionNet 以应对这两种噪声",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,11 +64,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-02-21 12:50:07 \u002b0800 CST",
-    "dateModified" : "2022-02-21 12:50:07 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/bg49\/",
-    "wordCount" : "0",
-    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
+    "datePublished": "2022-02-21 12:55:36 \u002b0800 CST",
+    "dateModified" : "2022-02-21 12:55:36 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn194\/",
+    "wordCount" : "309",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","lifelong", "Jonathan`s Blog"]
 }
 </script>
 
@@ -159,7 +159,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">壁纸分享[49]</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Robust Person ReID by Modelling Feature Uncertainty (ICCV 2019)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -169,10 +169,10 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 0 words</span>
+                <span class="post-word-count">, 309 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,16 +193,27 @@
           
           
 
-          <p><img src="/images/2020/01/wallpaper/481.png" alt="481">
-<img src="/images/2020/01/wallpaper/482.png" alt="482">
-<img src="/images/2020/01/wallpaper/483.jpg" alt="483">
-<img src="/images/2020/01/wallpaper/484.png" alt="484">
-<img src="/images/2020/01/wallpaper/485.png" alt="485">
-<img src="/images/2020/01/wallpaper/486.png" alt="486">
-<img src="/images/2020/01/wallpaper/487.png" alt="487">
-<img src="/images/2020/01/wallpaper/488.jpg" alt="488">
-<img src="/images/2020/01/wallpaper/489.png" alt="489">
-<img src="/images/2020/01/wallpaper/490.png" alt="490"></p>
+          <h1 id="robust-person-re-identification-by-modelling-feature-uncertainty-iccv-2019">Robust Person Re-identification by Modelling Feature Uncertainty (ICCV 2019)</h1>
+<p><a href="https://github.com/TianyuanYu/DistributionNet">开源代码传送门</a></p>
+<p><img src="/images/2022/PRN194/1.png" alt="Fig 1"></p>
+<p><img src="/images/2022/PRN194/2.png" alt="Fig 2"></p>
+<h2 id="概述">概述</h2>
+<p>本文关注如何用带噪训练数据学习一个健壮的 ReID 模型，数据噪声可以分为两类：</p>
+<ul>
+<li>Label Noise</li>
+<li>Data Outliers</li>
+</ul>
+<p>本文提出 DistributionNet 以应对这两种噪声样本，各张图像被表征为一个特征分布 (高斯分布) 而非特征向量，其均值的作用类似于特征向量，而方差则衡量特征的不确定性，不确定性高的样本对特征嵌入空间的学习影响较小。</p>
+<p><img src="/images/2022/PRN194/3.png" alt="Fig 3"></p>
+<h2 id="模型架构">模型架构</h2>
+<h3 id="分类损失">分类损失</h3>
+<p>ID Loss 的输入为均值向量 \(\mu\) 和 \(N\) 个从相应高斯分布随机采样得到的样本，后者的损失求均值后权重设为 \(0.1\)。</p>
+<p>随着该损失的训练，方差会持续下降，导致模型逐渐趋近于传统模型，因而需要另一个损失来维持方差。</p>
+<h3 id="特征不确定性损失">特征不确定性损失</h3>
+<p>首先用熵衡量训练样本的不确定性：</p>
+<p>$$q = \frac{1}{2}log(det(2\pi e\Sigma)) = \frac{m}{2}(log 2\pi + 1) + \frac{1}{2} \sum_{k}^{m} log(diag(\Sigma^{(i)})_{k}).$$</p>
+<p>$$L_{fu} = max(0, \gamma - \sum_{i=1}^n q^{(i)}),$$</p>
+<p>其中 \(\gamma\) 是边界值。</p>
 
     </div>
 
@@ -217,7 +228,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/bg49/>http://jonathanwayy.xyz/2022/bg49/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn194/>http://jonathanwayy.xyz/2022/prn194/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -237,17 +248,26 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
-                    #wallpaper</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #kde</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
+                    #ReID</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/lifelong/">
+                    #lifelong</a></span>
             
             </section>
         
@@ -259,10 +279,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn193/" class="prev" rel="prev" title="[论文阅读笔记 -- ASR / 终身学习] Towards Lifelong Learning of End-to-end ASR (2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ASR / 终身学习] Towards Lifelong Learning of End-to-end ASR (2021)</a>
+        <a href="http://jonathanwayy.xyz/2022/bg49/" class="prev" rel="prev" title="壁纸分享[49]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[49]</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn194/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Robust Person ReID by Modelling Feature Uncertainty (ICCV 2019)">[论文阅读笔记 -- ReID] Robust Person ReID by Modelling Feature Uncertainty (ICCV 2019)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -271,7 +291,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 19 Feb 2022 21:06:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Feb 2022 12:55:36 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Robust Person ReID by Modelling Feature Uncertainty (ICCV 2019)</title>
+      <link>http://jonathanwayy.xyz/2022/prn194/</link>
+      <pubDate>Mon, 21 Feb 2022 12:55:36 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn194/</guid>
+      <description>Robust Person Re-identification by Modelling Feature Uncertainty (ICCV 2019) 开源代码传送门 概述 本文关注如何用带噪训练数据学习一个健壮的 ReID 模型，数据噪声可以分为两类： Label Noise Data Outliers 本文提出 DistributionNet 以应对这两种噪声</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ASR / 终身学习] Towards Lifelong Learning of End-to-end ASR (2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn193/</link>
