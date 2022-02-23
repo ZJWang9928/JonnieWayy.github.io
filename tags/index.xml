@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 21 Feb 2022 12:55:36 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 10:05:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Mon, 21 Feb 2022 12:55:36 +0800</pubDate>
+      <pubDate>Wed, 23 Feb 2022 10:05:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,25 +20,16 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 21 Feb 2022 12:55:36 +0800</pubDate>
+      <pubDate>Wed, 23 Feb 2022 10:05:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>lifelong</title>
-      <link>http://jonathanwayy.xyz/tags/lifelong/</link>
-      <pubDate>Mon, 21 Feb 2022 12:55:36 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 21 Feb 2022 12:55:36 +0800</pubDate>
+      <pubDate>Wed, 23 Feb 2022 10:05:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,7 +38,7 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Mon, 21 Feb 2022 12:55:36 +0800</pubDate>
+      <pubDate>Wed, 23 Feb 2022 10:05:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
@@ -56,7 +47,7 @@
     <item>
       <title>ReID</title>
       <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Mon, 21 Feb 2022 12:55:36 +0800</pubDate>
+      <pubDate>Wed, 23 Feb 2022 10:05:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
@@ -65,9 +56,18 @@
     <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Mon, 21 Feb 2022 12:55:36 +0800</pubDate>
+      <pubDate>Wed, 23 Feb 2022 10:05:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uncertainty</title>
+      <link>http://jonathanwayy.xyz/tags/uncertainty/</link>
+      <pubDate>Wed, 23 Feb 2022 10:05:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/uncertainty/</guid>
       <description></description>
     </item>
     
@@ -140,6 +140,15 @@
       <pubDate>Wed, 16 Feb 2022 22:09:12 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifelong</title>
+      <link>http://jonathanwayy.xyz/tags/lifelong/</link>
+      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
       <description></description>
     </item>
     
