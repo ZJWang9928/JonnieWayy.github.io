@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 22 Feb 2022 10:05:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Feb 2022 23:10:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态哈希] Efficient Online Label Consistent Hashing (ICME 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn196/</link>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn196/</guid>
+      <description>Efficient Online Label Consistent Hashing for Large-Scale Cross-Modal Retrieval (ICME 2021) 概述 本文关注在线跨模态哈希问题，提出一种在线标签一致哈希方法 (Online Label Consistent Hashing approach, OLCH)。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] HAVANA: Hierarchical and Variation-Normalized Autoencoder (2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn195/</link>

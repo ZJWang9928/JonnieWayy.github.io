@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 22 Feb 2022 10:05:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Feb 2022 23:10:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,27 +20,63 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>hashing</title>
+      <link>http://jonathanwayy.xyz/tags/hashing/</link>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/hashing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifelong</title>
+      <link>http://jonathanwayy.xyz/tags/lifelong/</link>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>online learning</title>
+      <link>http://jonathanwayy.xyz/tags/online-learning/</link>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/online-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -50,15 +86,6 @@
       <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -144,15 +171,6 @@
     </item>
     
     <item>
-      <title>lifelong</title>
-      <link>http://jonathanwayy.xyz/tags/lifelong/</link>
-      <pubDate>Tue, 15 Feb 2022 15:53:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>knowledge distillation</title>
       <link>http://jonathanwayy.xyz/tags/knowledge-distillation/</link>
       <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
@@ -185,15 +203,6 @@
       <pubDate>Sun, 06 Feb 2022 18:08:02 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/baggage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hashing</title>
-      <link>http://jonathanwayy.xyz/tags/hashing/</link>
-      <pubDate>Fri, 04 Feb 2022 16:55:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/hashing/</guid>
       <description></description>
     </item>
     
