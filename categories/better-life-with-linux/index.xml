@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 03 Sep 2021 15:05:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/better-life-with-linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Feb 2022 15:47:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/better-life-with-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLWL[43] Linux 命令出现 Argument List Too Long 问题的两种解决办法</title>
+      <link>http://jonathanwayy.xyz/2022/blwl43/</link>
+      <pubDate>Sun, 27 Feb 2022 15:47:04 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/blwl43/</guid>
+      <description>问题描述 Linux 下在使用 cp、mv、rm 等命令时出现 Argument list too long 错误，命令执行失败。 问题原因 命令涉及的文件数目过多，导致命令参数列表过长，无法执行。 解</description>
+    </item>
+    
     <item>
       <title>BLWL[42] Manjaro pacman 更新提示 failed to synchronize all databases 解决方案</title>
       <link>http://jonathanwayy.xyz/2021/blwl42/</link>
