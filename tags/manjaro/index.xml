@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 27 Feb 2022 15:47:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 19:46:58 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>壁纸分享[50]</title>
+      <link>http://jonathanwayy.xyz/2022/bg50/</link>
+      <pubDate>Tue, 01 Mar 2022 19:46:58 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/bg50/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>BLWL[43] Linux 命令出现 Argument List Too Long 问题的两种解决办法</title>
       <link>http://jonathanwayy.xyz/2022/blwl43/</link>
