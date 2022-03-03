@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 22 Feb 2022 10:05:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Mar 2022 17:36:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Pose-guided Visible Part Matching for Occluded ReID (CVPR 2020)</title>
+      <link>http://jonathanwayy.xyz/2022/prn197/</link>
+      <pubDate>Thu, 03 Mar 2022 17:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn197/</guid>
+      <description>Pose-guided Visible Part Matching for Occluded Person ReID (CVPR 2020) 开源代码传送门 概述 本文提出一种姿态指导的可见部分匹配网络 (Pose-guided Visible Part Matching network, PVPM)，以自学习形式挖掘可见分数，包含两个主要部件</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] HAVANA: Hierarchical and Variation-Normalized Autoencoder (2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn195/</link>

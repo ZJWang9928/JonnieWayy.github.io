@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 01 Mar 2022 19:46:58 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Mar 2022 17:36:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Thu, 03 Mar 2022 17:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Thu, 03 Mar 2022 17:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Thu, 03 Mar 2022 17:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Thu, 03 Mar 2022 17:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Thu, 03 Mar 2022 17:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Thu, 03 Mar 2022 17:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uncertainty</title>
+      <link>http://jonathanwayy.xyz/tags/uncertainty/</link>
+      <pubDate>Thu, 03 Mar 2022 17:36:09 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/uncertainty/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>kde</title>
       <link>http://jonathanwayy.xyz/tags/kde/</link>
@@ -54,38 +117,11 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sun, 27 Feb 2022 15:47:04 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pacman</title>
       <link>http://jonathanwayy.xyz/tags/pacman/</link>
       <pubDate>Sun, 27 Feb 2022 15:47:04 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/pacman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
@@ -113,42 +149,6 @@
       <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/online-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>uncertainty</title>
-      <link>http://jonathanwayy.xyz/tags/uncertainty/</link>
-      <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/uncertainty/</guid>
       <description></description>
     </item>
     
