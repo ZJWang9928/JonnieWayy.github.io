@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 04 Mar 2022 14:56:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 17:06:38 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Fri, 04 Mar 2022 14:56:51 +0800</pubDate>
+      <pubDate>Fri, 04 Mar 2022 17:06:38 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 04 Mar 2022 14:56:51 +0800</pubDate>
+      <pubDate>Fri, 04 Mar 2022 17:06:38 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 04 Mar 2022 14:56:51 +0800</pubDate>
+      <pubDate>Fri, 04 Mar 2022 17:06:38 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -38,16 +38,25 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Fri, 04 Mar 2022 14:56:51 +0800</pubDate>
+      <pubDate>Fri, 04 Mar 2022 17:06:38 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>pose</title>
+      <link>http://jonathanwayy.xyz/tags/pose/</link>
+      <pubDate>Fri, 04 Mar 2022 17:06:38 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/pose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ReID</title>
       <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Fri, 04 Mar 2022 14:56:51 +0800</pubDate>
+      <pubDate>Fri, 04 Mar 2022 17:06:38 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
@@ -56,18 +65,9 @@
     <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Fri, 04 Mar 2022 14:56:51 +0800</pubDate>
+      <pubDate>Fri, 04 Mar 2022 17:06:38 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>uncertainty</title>
-      <link>http://jonathanwayy.xyz/tags/uncertainty/</link>
-      <pubDate>Fri, 04 Mar 2022 14:56:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/uncertainty/</guid>
       <description></description>
     </item>
     
@@ -149,6 +149,15 @@
       <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/online-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uncertainty</title>
+      <link>http://jonathanwayy.xyz/tags/uncertainty/</link>
+      <pubDate>Tue, 22 Feb 2022 10:05:27 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/uncertainty/</guid>
       <description></description>
     </item>
     
