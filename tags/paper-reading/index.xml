@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 03 Mar 2022 17:36:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 14:56:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Copy And Paste Method Based on Pose for Re-identification (2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn198/</link>
+      <pubDate>Fri, 04 Mar 2022 14:56:51 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn198/</guid>
+      <description>2107.10479 Copy And Paste Method Based on Pose for Re-identification (2021) 概述 本文提出 Multiple Scenarios ReID 任务，有更复杂的背景、遮挡和姿态。 本文设计了一种基于姿态的复制粘帖方法 (Copy and Paste method based on Pose, CPP)，用于构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Pose-guided Visible Part Matching for Occluded ReID (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2022/prn197/</link>
