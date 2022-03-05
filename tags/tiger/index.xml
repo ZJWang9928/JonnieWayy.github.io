@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 05 Mar 2022 18:20:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/tiger/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Mar 2022 22:07:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/tiger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019)</title>
+      <link>http://jonathanwayy.xyz/2022/prn203/</link>
+      <pubDate>Sat, 05 Mar 2022 22:07:29 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn203/</guid>
+      <description>Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019) 开源代码传送门 概述 老虎重识别，2019 Computer Vision for Wild life Conservation Challenge (CVWC2019) Plain ReID 和 Wild ReID 赛道第一名。 Tiger ReID 相比 Person ReID 的差异 姿态变化更多 遮挡更多，复杂的自然</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] A Strong Baseline for Tiger Re-ID and its Bag of Tricks (ICCVW 2019)</title>
       <link>http://jonathanwayy.xyz/2022/prn202/</link>
