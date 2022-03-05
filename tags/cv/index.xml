@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 05 Mar 2022 15:49:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Mar 2022 18:20:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] A Strong Baseline for Tiger Re-ID and its Bag of Tricks (ICCVW 2019)</title>
+      <link>http://jonathanwayy.xyz/2022/prn202/</link>
+      <pubDate>Sat, 05 Mar 2022 18:20:12 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn202/</guid>
+      <description>A Strong Baseline for Tiger Re-ID and its Bag of Tricks (ICCVW 2019) 开源代码传送门 概述 老虎重识别任务，CVWC 2019 挑战赛 Plain ReID 赛道第三名。 本文方法 图像变换到 \(256 \times 256\)，分别对特征图做</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] ATRW: A Benchmark for Amur Tiger ReID in the Wild (MM 2020)</title>
       <link>http://jonathanwayy.xyz/2022/prn201/</link>
