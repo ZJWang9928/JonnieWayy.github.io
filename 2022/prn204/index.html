@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn202/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn204/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn203/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn203/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn204/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Pose-Guided Complementary Features Learning for ATReID (ICCVW 2019) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Pose-Guided Complementary Features Learning for ATReID (ICCVW 2019) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -54,9 +54,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019)",
-    "headline" : "[论文阅读笔记 -- ReID] Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019)",
-    "description" : "Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019) 开源代码传送门 概述 老虎重识别，2019 Computer Vision for Wild life Conservation Challenge (CVWC2019) Plain ReID 和 Wild ReID 赛道第一名。 Tiger ReID 相比 Person ReID 的差异 姿态变化更多 遮挡更多，复杂的自然",
+    "name" : "[论文阅读笔记 -- ReID] Pose-Guided Complementary Features Learning for ATReID (ICCVW 2019)",
+    "headline" : "[论文阅读笔记 -- ReID] Pose-Guided Complementary Features Learning for ATReID (ICCVW 2019)",
+    "description" : "Pose-Guided Complementary Features Learning for Amur Tiger Re-Identification (ICCVW 2019) 开源代码传送门 概述 本文将老虎的姿态简化为头部朝右和头部朝左两种，将姿态分类作为子任务引入 ReID 特征学习架构。 提出一种多分支结",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -64,10 +64,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-03-05 22:07:29 \u002b0800 CST",
-    "dateModified" : "2022-03-05 22:07:29 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn203\/",
-    "wordCount" : "169",
+    "datePublished": "2022-03-06 12:56:17 \u002b0800 CST",
+    "dateModified" : "2022-03-06 12:56:17 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn204\/",
+    "wordCount" : "276",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","tiger", "Jonathan`s Blog"]
 }
 </script>
@@ -159,12 +159,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Pose-Guided Complementary Features Learning for ATReID (ICCVW 2019)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-03-05 itemprop="datePublished">March 5, 2022</time>
+                on <time datetime=2022-03-06 itemprop="datePublished">March 6, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -172,7 +172,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 169 words</span>
+                <span class="post-word-count">, 276 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -193,25 +193,33 @@
           
           
 
-          <h1 id="part-pose-guided-amur-tiger-re-identification-iccvw-2019">Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019)</h1>
-<p><a href="https://github.com/LcenArthas/CVWC2019-Amur-Tiger-Re-ID">开源代码传送门</a></p>
-<p><img src="/images/2022/PRN203/1.png" alt="Fig 1"></p>
+          <h1 id="pose-guided-complementary-features-learning-for-amur-tiger-re-identification-iccvw-2019">Pose-Guided Complementary Features Learning for Amur Tiger Re-Identification (ICCVW 2019)</h1>
+<p><a href="https://github.com/liuning-scu-cn/AmurTigerReID">开源代码传送门</a></p>
+<p><img src="/images/2022/PRN204/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>老虎重识别，2019 Computer Vision for Wild life Conservation Challenge (CVWC2019) Plain ReID 和 Wild ReID 赛道第一名。</p>
-<h3 id="tiger-reid-相比-person-reid-的差异">Tiger ReID 相比 Person ReID 的差异</h3>
+<p>本文将老虎的姿态简化为头部朝右和头部朝左两种，将姿态分类作为子任务引入 ReID 特征学习架构。</p>
+<p>提出一种多分支结构，称为 Pose-Guided Complementary Features Learning Method (PGCFL)，其中一个分支的输入图像根据先前分支的特征图删除掉一部分区域，使得不同分支学习互补特征。</p>
+<p>PGCFL 主要包含四种模块：</p>
 <ul>
-<li>姿态变化更多</li>
-<li>遮挡更多，复杂的自然背景更多，光照条件更复杂</li>
-<li>主要基于身体条纹，使得识别更加困难</li>
+<li>Base Module</li>
+<li>Image-erasure Module</li>
+<li>Complementary Module</li>
+<li>Fusion Module</li>
 </ul>
-<p>本文提出一种 Part-Pose Guided Network (PPGNet) 架构，基于姿态数据利用局部特征，包含一个全局分支和两个局部分支分别处理主体和四肢。</p>
-<h3 id="全局图像与两种部分图像">全局图像与两种部分图像</h3>
-<p><img src="/images/2022/PRN203/3.png" alt="Fig 3"></p>
-<h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2022/PRN203/2.png" alt="Fig 2"></p>
-<p><img src="/images/2022/PRN203/T1.png" alt="Tab 1"></p>
-<h3 id="结果示例">结果示例</h3>
-<p><img src="/images/2022/PRN203/4.png" alt="Fig 4"></p>
+<p><img src="/images/2022/PRN204/2.png" alt="Fig 2"></p>
+<h2 id="pgcfl">PGCFL</h2>
+<h3 id="base-module">Base Module</h3>
+<p>SE-ResNet50 + GAP + FC + BN + Dropout + Softmax</p>
+<h3 id="image-erasure-and-complementary-modules">Image-Erasure and Complementary Modules</h3>
+<p>首先沿通道维聚集特征图：</p>
+<p>$$M = \sum_{k=1}^{K - 1} F^k,$$</p>
+<p>将其变换到输入图像一样尺寸后基于阈值 0.6 二值化，进而作用于原图，作为另一分支的输入。</p>
+<p>推断时两分支都输入原图。</p>
+<p><img src="/images/2022/PRN204/3.png" alt="Fig 3"></p>
+<h3 id="fusion-module">Fusion Module</h3>
+<p>用于融合基本特征和互补特征，首先拼接二者，进而由 FC + BN + Dropout 处理。</p>
+<h2 id="可视化示例">可视化示例</h2>
+<p><img src="/images/2022/PRN204/4.png" alt="Fig 4"></p>
 
     </div>
 
@@ -226,7 +234,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn203/>http://jonathanwayy.xyz/2022/prn203/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn204/>http://jonathanwayy.xyz/2022/prn204/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -277,10 +285,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn202/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] A Strong Baseline for Tiger Re-ID and its Bag of Tricks (ICCVW 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] A Strong Baseline for Tiger Re-ID and its Bag of Tricks (ICCVW 2019)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn203/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Part-Pose Guided Amur Tiger Re-Identification (ICCVW 2019)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn204/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Pose-Guided Complementary Features Learning for ATReID (ICCVW 2019)">[论文阅读笔记 -- ReID] Pose-Guided Complementary Features Learning for ATReID (ICCVW 2019)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -289,7 +297,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
