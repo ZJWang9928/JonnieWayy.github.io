@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 04 Mar 2022 18:14:15 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/pose/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Mar 2022 17:40:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/pose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Multi-Scale Body-Part Mask Guided Attention for ReID (CVPRW 2019)</title>
+      <link>http://jonathanwayy.xyz/2022/prn205/</link>
+      <pubDate>Mon, 07 Mar 2022 17:40:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn205/</guid>
+      <description>Multi-Scale Body-Part Mask Guided Attention for Person Re-identification (CVPRW 2019) 概述 本文提出一种 Multi-scale Body-part Mask Guided Attention Network (MMGA) 架构。 整体架构 注意力模块 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Pose Guided Gated Fusion for Person Re-identification (WACV 2020)</title>
       <link>http://jonathanwayy.xyz/2022/prn200/</link>
