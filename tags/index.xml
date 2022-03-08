@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 07 Mar 2022 23:17:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2022 16:14:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Mon, 07 Mar 2022 23:17:29 +0800</pubDate>
+      <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,16 +20,25 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 07 Mar 2022 23:17:29 +0800</pubDate>
+      <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>long-term</title>
+      <link>http://jonathanwayy.xyz/tags/long-term/</link>
+      <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/long-term/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 07 Mar 2022 23:17:29 +0800</pubDate>
+      <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -38,7 +47,7 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Mon, 07 Mar 2022 23:17:29 +0800</pubDate>
+      <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
@@ -47,7 +56,7 @@
     <item>
       <title>ReID</title>
       <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Mon, 07 Mar 2022 23:17:29 +0800</pubDate>
+      <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
@@ -56,7 +65,7 @@
     <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Mon, 07 Mar 2022 23:17:29 +0800</pubDate>
+      <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>

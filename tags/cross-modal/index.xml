@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 07 Mar 2022 23:17:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2022 16:14:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Clothing Status Awareness for Long-Term Person ReID (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn207/</link>
+      <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn207/</guid>
+      <description>Clothing Status Awareness for Long-Term Person Re-Identification (ICCV 2021) 概述 本文关注 Long-Term Person Re-identification (LT-reID) 问题，现有方法可主要分为两类： Biometrics-based Approach Dada Adaptation based Approach 这些方法并没有显式地考虑真实的衣着状况，即各行人到底是否换了</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Learning by Aligning: VI ReID Using CM Correspondences (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn206/</link>
