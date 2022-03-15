@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 09 Mar 2022 14:44:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 12:38:10 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] A Reproducibility Concern about Image-Text Retrieval (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn210/</link>
+      <pubDate>Tue, 15 Mar 2022 12:38:10 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn210/</guid>
+      <description>2203.03853 Where Does the Performance Improvement Come From? - A Reproducibility Concern about Image-Text Retrieval (2022) 开源代码传送门 概述 本文从可复现性层面对图文检索模型进行分析。 本文将图文检索架构分为三个模块： 模态嵌入 模态交互</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Fine-grained Cross-modal Alignment Network for TVR (MM 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn209/</link>
