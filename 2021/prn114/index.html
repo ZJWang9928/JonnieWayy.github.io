@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -208,8 +209,8 @@
 <p>旨在将序列化输出映射为单类别索引，而非需要使用类别令牌。</p>
 <p>可视为一个映射变换 \(T: \mathbb{R}^{b \times n \times d} \rightarrow \mathbb{R}^{b \times d}\)：</p>
 <p>$$x_{L} = f(x_{0} \in \mathbb{R}^{b \times n \times d}),$$
-$$x'_{L} = softmax(g(x_{L})^{T}) \in \mathbb{R}^{b \times 1 \times n},$$
-$$z = x'_{L}x_{L} = softmax(g(x_{L})^{T}) \times x_{L} \in \mathbb{R}^{b \times 1 \times d}.$$</p>
+$$x&rsquo;_{L} = softmax(g(x_{L})^{T}) \in \mathbb{R}^{b \times 1 \times n},$$
+$$z = x&rsquo;_{L}x_{L} = softmax(g(x_{L})^{T}) \times x_{L} \in \mathbb{R}^{b \times 1 \times d}.$$</p>
 <h2 id="cct-vs-cvt">CCT vs. CVT</h2>
 <p><img src="/images/2021/PRN114/3.png" alt="Fig 3"></p>
 

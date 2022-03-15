@@ -23,7 +23,7 @@
       <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</guid>
-      <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&#39;CUDA_VISIBLE_DEVICES&#39;] = &amp;quot;0,1,2,3,4,5,6,7&amp;quot;</description>
+      <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&amp;#39;CUDA_VISIBLE_DEVICES&amp;#39;] = &amp;#34;0,1,2,3,4,5,6,7&amp;#34;</description>
     </item>
     
     <item>

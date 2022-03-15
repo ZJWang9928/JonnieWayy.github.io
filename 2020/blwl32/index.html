@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -56,7 +57,7 @@
     "articleSection" : "posts",
     "name" : "BLWL[32] Pyinstaller 打包时报错 TypeError: an integer is required (got type bytes)",
     "headline" : "BLWL[32] Pyinstaller 打包时报错 TypeError: an integer is required (got type bytes)",
-    "description" : "报错示例 Traceback (most recent call last): File \u0026quot;\/home\/godlovesjonny\/.local\/bin\/pyinstaller\u0026quot;, line 8, in \u0026lt;module\u0026gt; sys.exit(run()) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/__main__.py\u0026quot;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/__main__.py\u0026quot;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/build_main.py\u0026quot;, line 844, in main build(specfile, kw.get(\u0027distpath\u0027), kw.get(\u0027workpath\u0027), kw.get(\u0027clean_build\u0027)) File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/build_main.py\u0026quot;, line 791, in build exec(code, spec_namespace) File \u0026quot;\/home\/godlovesjonny\/Jonny\/Installs\/v2rayL-master\/v2rayL-GUI\/v2rayLui.spec\u0026quot;, line 18, in \u0026lt;module\u0026gt; pyz = PYZ(a.pure, a.zipped_data, File \u0026quot;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/api.py\u0026quot;, line 98, in __init__ self.__postinit__() File",
+    "description" : "报错示例 Traceback (most recent call last): File \u0026#34;\/home\/godlovesjonny\/.local\/bin\/pyinstaller\u0026#34;, line 8, in \u0026lt;module\u0026gt; sys.exit(run()) File \u0026#34;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/__main__.py\u0026#34;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File \u0026#34;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/__main__.py\u0026#34;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File \u0026#34;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/build_main.py\u0026#34;, line 844, in main build(specfile, kw.get(\u0026#39;distpath\u0026#39;), kw.get(\u0026#39;workpath\u0026#39;), kw.get(\u0026#39;clean_build\u0026#39;)) File \u0026#34;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/build_main.py\u0026#34;, line 791, in build exec(code, spec_namespace) File \u0026#34;\/home\/godlovesjonny\/Jonny\/Installs\/v2rayL-master\/v2rayL-GUI\/v2rayLui.spec\u0026#34;, line 18, in \u0026lt;module\u0026gt; pyz = PYZ(a.pure, a.zipped_data, File \u0026#34;\/usr\/lib\/python3.8\/site-packages\/PyInstaller\/building\/api.py\u0026#34;, line 98, in __init__ self.__postinit__() File",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -193,31 +194,31 @@
 
           <h2 id="报错示例">报错示例</h2>
 <pre tabindex="0"><code>Traceback (most recent call last):
-  File &quot;/home/godlovesjonny/.local/bin/pyinstaller&quot;, line 8, in &lt;module&gt;
+  File &#34;/home/godlovesjonny/.local/bin/pyinstaller&#34;, line 8, in &lt;module&gt;
     sys.exit(run())
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&quot;, line 111, in run
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&#34;, line 111, in run
     run_build(pyi_config, spec_file, **vars(args))
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&quot;, line 63, in run_build
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&#34;, line 63, in run_build
     PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&quot;, line 844, in main
-    build(specfile, kw.get('distpath'), kw.get('workpath'), kw.get('clean_build'))
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&quot;, line 791, in build
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&#34;, line 844, in main
+    build(specfile, kw.get(&#39;distpath&#39;), kw.get(&#39;workpath&#39;), kw.get(&#39;clean_build&#39;))
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&#34;, line 791, in build
     exec(code, spec_namespace)
-  File &quot;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&quot;, line 18, in &lt;module&gt;
+  File &#34;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&#34;, line 18, in &lt;module&gt;
     pyz = PYZ(a.pure, a.zipped_data,
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 98, in __init__
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&#34;, line 98, in __init__
     self.__postinit__()
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/datastruct.py&quot;, line 158, in __postinit__
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/datastruct.py&#34;, line 158, in __postinit__
     self.assemble()
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 128, in assemble
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&#34;, line 128, in assemble
     self.code_dict = {
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&quot;, line 129, in &lt;dictcomp&gt;
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&#34;, line 129, in &lt;dictcomp&gt;
     key: strip_paths_in_code(code)
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 652, in strip_paths_in_code
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&#34;, line 652, in strip_paths_in_code
     consts = tuple(
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 653, in &lt;genexpr&gt;
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&#34;, line 653, in &lt;genexpr&gt;
     strip_paths_in_code(const_co, new_filename)
-  File &quot;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&quot;, line 660, in strip_paths_in_code
+  File &#34;/usr/lib/python3.8/site-packages/PyInstaller/building/utils.py&#34;, line 660, in strip_paths_in_code
     return code_func(co.co_argcount, co.co_kwonlyargcount, co.co_nlocals, co.co_stacksize,
 TypeError: an integer is required (got type bytes)
 </code></pre><h2 id="解决方案">解决方案</h2>

@@ -14,7 +14,7 @@
       <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp4/</guid>
-      <description>问题描述 在程序中使用形如 A = X.view(32, -1) 的语句调用 view 时出现如下报错： RuntimeError: view size is not compatible with input tensor&#39;s size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead. 原因分析 view() 需要 Tensor 中元素地址连续，</description>
+      <description>问题描述 在程序中使用形如 A = X.view(32, -1) 的语句调用 view 时出现如下报错： RuntimeError: view size is not compatible with input tensor&amp;#39;s size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead. 原因分析 view() 需要 Tensor 中元素地址连续，</description>
     </item>
     
   </channel>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn212/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/blog6/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Hugo 升级后编译时 can&#39;t evaluate field RSSLink in type *hugolib.pageState 问题解决方案 | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="Hugo 升级后编译时 can&#39;t evaluate field RSSLink in type *hugolib.pageState 问题解决方案 | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/jonathanwayy.xyz"
+    },
+    "articleSection" : "posts",
+    "name" : "Hugo 升级后编译时 can\u0027t evaluate field RSSLink in type *hugolib.pageState 问题解决方案",
+    "headline" : "Hugo 升级后编译时 can\u0027t evaluate field RSSLink in type *hugolib.pageState 问题解决方案",
+    "description" : "问题描述 升级了 Hugo 框架之后，编译博客时遇到如下报错： Error: Error building site: failed to render pages: render of \u0026#34;page\u0026#34; failed: execute of template failed: template: page\/single.html:3:5: executing \u0026#34;page\/single.html\u0026#34; at \u0026lt;partial \u0026#34;head.html\u0026#34; .\u0026gt;: error calling partial: \u0026#34;\/home\/xxxx\/themes\/LeaveIt\/layouts\/partials\/head.html:42:8\u0026#34;: execute of template failed: template: partials\/head.html:42:8: executing \u0026#34;partials\/head.html\u0026#34; at \u0026lt;.RSSLink\u0026gt;: can\u0026#39;t evaluate field RSSLink in type *hugolib.pageState",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2022",
+    "datePublished": "2022-03-16 01:08:48 \u002b0800 CST",
+    "dateModified" : "2022-03-16 01:08:48 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/blog6\/",
+    "wordCount" : "584",
+    "keywords" : [ "blog", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://jonathanwayy.xyz">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        
+            
+            
+        
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://jonathanwayy.xyz">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Hugo 升级后编译时 can&#39;t evaluate field RSSLink in type *hugolib.pageState 问题解决方案</h1>
+        <div class="post-meta">
+                
+                Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
+                <span class="post-time">
+                on <time datetime=2022-03-16 itemprop="datePublished">March 16, 2022</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://jonathanwayy.xyz/categories/toss-about-blog/"> Toss About Blog </a>
+                        
+                </span>
+                <span class="post-word-count">, 584 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="问题描述">问题描述</h2>
+<p>升级了 Hugo 框架之后，编译博客时遇到如下报错：</p>
+<pre tabindex="0"><code>Error: Error building site: failed to render pages: render of &#34;page&#34; failed: execute of template failed: template: page/single.html:3:5: executing &#34;page/single.html&#34; at &lt;partial &#34;head.html&#34; .&gt;: error calling partial: &#34;/home/xxxx/themes/LeaveIt/layouts/partials/head.html:42:8&#34;: execute of template failed: template: partials/head.html:42:8: executing &#34;partials/head.html&#34; at &lt;.RSSLink&gt;: can&#39;t evaluate field RSSLink in type *hugolib.pageState
+</code></pre><h2 id="原因分析">原因分析</h2>
+<p>其实翻看更新前的 log 可以发现存在这样一个 warning：</p>
+<pre tabindex="0"><code>WARN 2021/09/28 11:38:44 Page.RSSLink is deprecated and will be removed in a future release. Use the Output Format&#39;s link, e.g. something like:
+    {{ with .OutputFormats.Get &#34;RSS&#34; }}{{ .RelPermalink }}{{ end }}
+</code></pre><p>因此，主要原因在于 <code>Page.RSSLink</code> 在新版本中被弃用，需要进行替换。</p>
+<h2 id="解决办法">解决办法</h2>
+<p>首先找到报错中所指的 <code>head.html</code> 文件，找到如下这几行：</p>
+<pre tabindex="0"><code>{{ if .RSSLink }}
+  &lt;link href=&#34;{{ .RSSLink }}&#34; rel=&#34;alternate&#34; type=&#34;application/rss+xml&#34; title=&#34;{{ .Site.Title }}&#34; /&gt;
+  &lt;link href=&#34;{{ .RSSLink }}&#34; rel=&#34;feed&#34; type=&#34;application/rss+xml&#34; title=&#34;{{ .Site.Title }}&#34; /&gt;
+{{ end }}
+</code></pre><p>需要将其替换为如下几行代码：</p>
+<pre tabindex="0"><code>{{ $foo := .Site.Title }}
+{{ with .OutputFormats.Get &#34;RSS&#34; }}
+  &lt;link href=&#34;{{ .RelPermalink }}&#34; rel=&#34;alternate&#34; type=&#34;application/rss+xml&#34; title=&#34;{{ $foo }}&#34; /&gt;
+  &lt;link href=&#34;{{ .RelPermalink }}&#34; rel=&#34;feed&#34; type=&#34;application/rss+xml&#34; title=&#34;{{ $foo }}&#34; /&gt;
+{{ end }}
+</code></pre><p>这里为 <code>.Site.Title</code> 声明一个变量是必要的，否则编译时会报错。</p>
+<p>编译后发现又出现了如下错误：</p>
+<pre tabindex="0"><code>Error: Error building site: failed to render pages: render of &#34;taxonomy&#34; failed: &#34;/home/xxxx/themes/LeaveIt/layouts/_default/terms.html:19:25&#34;: execute of template failed: template: _default/terms.html:19:25: executing &#34;content&#34; at &lt;.URL&gt;: can&#39;t evaluate field URL in type page.Page
+</code></pre><p>根据报错信息可以定位到出错文件 <code>term.html</code>，同样查看更新前 log 可以发现如下 warning：</p>
+<pre tabindex="0"><code>WARN 2021/09/28 11:38:44 Page.URL is deprecated and will be removed in a future release. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+</code></pre><p>由此可知也是版本更新后的弃用问题，只需要将文件中所有的 <code>.URL</code> 替换为 <code>.RelPermalink</code> 即可。</p>
+<p>再次编译，发现出现了新的报错如下：</p>
+<pre tabindex="0"><code>Error: Error building site: failed to render pages: render of &#34;home&#34; failed: &#34;/home/xxxx/themes/LeaveIt/layouts/rss.xml:12:23&#34;: execute of template failed: template: rss.xml:12:23: executing &#34;rss.xml&#34; at &lt;.URL&gt;: can&#39;t evaluate field URL in type *hugolib.pageState
+</code></pre><p>可以看出是由于修改了 <code>.URL</code> 后没有在 <code>rss.xml</code> 中对应修改导致的，找到该文件，修改对应内容后再次编译：</p>
+<pre tabindex="0"><code>Start building sites …
+hugo v0.93.2+extended linux/amd64 BuildDate=unknown
+
+|  EN
+-------------------+-------
+Pages            |  744
+Paginator pages  |  152
+Non-page files   |    0
+Static files     | 1893
+Processed images |    0
+Aliases          |  158
+Sitemaps         |    1
+Cleaned          |    0
+
+Total in 5539 ms
+</code></pre><p>编译成功通过，问题解决了。</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://jonathanwayy.xyz/2022/blog6/>http://jonathanwayy.xyz/2022/blog6/</span>
+            </p>
+            <p>
+                <span>Ads:</span>
+                <span>欢迎参与<a href="https://www.didiyun.com" target="_blank" style="text-decoration:underline">滴滴云AI大师活动</a>购买 GPU / vGPU / 机器学习产品，使用我的滴滴AI大师码 <b style="color:red">0724</b> 可享受 <b>9 折</b>优惠！</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/blog/">
+                    #blog</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://jonathanwayy.xyz">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://jonathanwayy.xyz/2022/prn212/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)</a>
+         
+        
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2022</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://jonathanwayy.xyz">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

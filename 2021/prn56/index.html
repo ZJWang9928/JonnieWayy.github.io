@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -205,14 +206,14 @@
 <p>DWConv 表示 depth-wise 卷积。</p>
 <h3 id="轻量多头自注意力-lmhsa">轻量多头自注意力 (LMHSA)</h3>
 <p>用 \(k \times k\) depth-wise 卷积降低 \(K\) 和 \(V\) 的空间尺度，并加上一个随机初始化的可学习的相对位置偏置 \(B\)。</p>
-<p>$$LigntweightAttention(Q, K, V) = Softmax(\frac{QK'^T}{\sqrt{d_{k}}} + B)V'.$$</p>
+<p>$$LigntweightAttention(Q, K, V) = Softmax(\frac{QK&rsquo;^T}{\sqrt{d_{k}}} + B)V&rsquo;.$$</p>
 <h3 id="inverted-residual-feed-forward-network">Inverted Residual Feed-forward Network</h3>
 <p>$$IRFFN(X) = Conv(\mathcal{F}(Conv(X))),$$
 $$\mathcal{F}(X) = DWConv(X) + X.$$</p>
 <p>最终，CMT 块可以表示为：</p>
-<p>$$X'_{i} = LPU(X_{i-1}),$$
-$$X''_{i} = LMHSA(LN(X'_{i})) + X'_{i},$$
-$$X_{i} = IRFFN(LN(X''_{i})) + X''_{i}.$$</p>
+<p>$$X&rsquo;_{i} = LPU(X_{i-1}),$$
+$$X&rsquo;&rsquo;_{i} = LMHSA(LN(X&rsquo;_{i})) + X&rsquo;_{i},$$
+$$X_{i} = IRFFN(LN(X&rsquo;&rsquo;_{i})) + X&rsquo;&rsquo;_{i}.$$</p>
 
     </div>
 

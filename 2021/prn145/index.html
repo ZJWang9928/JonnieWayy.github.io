@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -213,7 +214,7 @@
 <p>掩码生成则是一个由细到粗的过程。首先由差值的绝对值得到像素差异。将图像水平 4 等分并进行标记，由于垂直遮挡只破坏对称特征较易分辨，因而在掩码生成时忽略垂直遮挡，对于水平块采用软二值化操作 (soft binarization operation)。</p>
 <h3 id="遮挡删除模块-oem">遮挡删除模块 (OEM)</h3>
 <p>由 4 个对应各身体部分的子模块构成，各子模块由两个 FC 层，一个归一化层和一个 Sigmoid 函数构成：</p>
-<p>$$f_{i}^{'} = Sigmoid(W_{rg} LN(W_{cp} f_{i})) \cdot f_{i},$$</p>
+<p>$$f_{i}^{&rsquo;} = Sigmoid(W_{rg} LN(W_{cp} f_{i})) \cdot f_{i},$$</p>
 <p>其中 \(W_{cp} \in \mathbb{R}^{c / 4 \times c}, W_{rg} \in \mathbb{R}^{1 \times c / 4}\)。</p>
 <p>NPO 增广策略用于监督 OEM 的训练：</p>
 <p>$$\mathcal{L}_{MSE} = \frac{1}{N} \sum_{i=1}^{4} (s_{i}, mask_{i}).$$</p>
@@ -222,10 +223,10 @@
 <p>用于在特征空间中模拟多行人图像的状况。</p>
 <h3 id="memory-bank">Memory Bank</h3>
 <p>\(\mathcal{M}\) 的生成包含记忆初始化与记忆更新，将记忆初始化为训练集上的 ID 中心，第 \(k\) 个中心 \(c_{k}\) 通过一个 mini-batch 中属于 id \(k\) 的编码特征的均值进行更新：</p>
-<p>$$c_{k} = mc_{k} + (1 - m) \frac{1}{|B_{k}|}\sum_{f_{i}^{'} \in B_{k}} f_{i}^{'},$$</p>
+<p>$$c_{k} = mc_{k} + (1 - m) \frac{1}{|B_{k}|}\sum_{f_{i}^{&rsquo;} \in B_{k}} f_{i}^{&rsquo;},$$</p>
 <p>\(m\) 在实验中设置为 0.2。</p>
 <h3 id="fdm">FDM</h3>
-<p>基于标准 transformer 架构的交叉注意力模块，从 \(f^{'}\) 得到 Q，从 \(\mathcal{M}\) 得到 K 和 V。</p>
+<p>基于标准 transformer 架构的交叉注意力模块，从 \(f^{&rsquo;}\) 得到 Q，从 \(\mathcal{M}\) 得到 K 和 V。</p>
 <h2 id="损失函数">损失函数</h2>
 <p>MSE + 交叉熵 + 对比损失。</p>
 <h2 id="遮挡分数可视化示例">遮挡分数可视化示例</h2>

@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -209,7 +210,7 @@
 <p>用 point-wise 卷积 (PWConv) 作为局部通道上下文聚合器，为了减少参数量，局部通道上下文 \(L(X) \in \mathbb{R}^{C \times H \times W}\) 实现为 bottleneck 结构：</p>
 <p>$$L(X) = BN(PWConv_{2}(ReLU(BN(PWConv_{1}(X))))),$$</p>
 <p>与输入特征形状相同。</p>
-<p>$$X' = X \otimes M(X) = X \otimes \sigma(L(X) \oplus g(X)).$$</p>
+<p>$$X&rsquo; = X \otimes M(X) = X \otimes \sigma(L(X) \oplus g(X)).$$</p>
 <p><img src="/images/2021/PRN72/2.png" alt="Fig 2"></p>
 <h2 id="注意力特征融合-aff">注意力特征融合 (AFF)</h2>
 <p>$$Z = M(X \uplus Y) \otimes X + (1 - M(X \uplus Y)) \otimes Y,$$</p>

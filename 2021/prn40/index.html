@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -67,7 +68,7 @@
     "datePublished": "2021-07-11 10:53:48 \u002b0800 CST",
     "dateModified" : "2021-07-11 10:53:48 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn40\/",
-    "wordCount" : "249",
+    "wordCount" : "255",
     "keywords" : [ "paper reading","cv","notes","attention", "Jonathan`s Blog"]
 }
 </script>
@@ -172,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 249 words</span>
+                <span class="post-word-count">, 255 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -204,10 +205,10 @@
 <p>沿着通道维将特征图分为 \(G\) 组，各子特征输入到注意力单元时又首先被一分为二，分别用于生成通道注意力图与空间注意力图。</p>
 <h3 id="通道注意力">通道注意力</h3>
 <p>$$s = \mathcal{F}_{gap}(X_{k1}) = \frac{1}{H \times W}\sum_{i=1}^H \sum_{j=1}^W X_{k1}(i, j),$$
-$$X_{k1}^{'} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) \cdot X_{k1}.$$</p>
+$$X_{k1}^{&rsquo;} = \sigma(\mathcal{F}_{c}(s)) \cdot X_{k1} = \sigma(W_{1}s + b_{1}) \cdot X_{k1}.$$</p>
 <h3 id="空间注意力">空间注意力</h3>
-<p>$$X_{k2}^{'} = \sigma(W_{2} \cdot GN(X_{k2}) + b_{2}) \cdot X_{k2}.$$</p>
-<p>两个分支的结果拼接得到 \(X_{k}^{'} = [X_{k1}^{'}, X_{k2}^{'}]\)。</p>
+<p>$$X_{k2}^{&rsquo;} = \sigma(W_{2} \cdot GN(X_{k2}) + b_{2}) \cdot X_{k2}.$$</p>
+<p>两个分支的结果拼接得到 \(X_{k}^{&rsquo;} = [X_{k1}^{&rsquo;}, X_{k2}^{&rsquo;}]\)。</p>
 <h3 id="聚合-aggregation">聚合 (Aggregation)</h3>
 <p>最后聚合所有子特征，采用 channel shuffle 操作，沿着通道维形成跨组的信息交流。</p>
 <h3 id="sa-模块的-pytorch-代码实现">SA 模块的 PyTorch 代码实现</h3>

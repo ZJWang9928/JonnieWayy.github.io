@@ -131,7 +131,7 @@
       <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</guid>
-      <description>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(&#39;xxx.png&#39;, dpi=500, bbox_inches=&#39;tight&#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将</description>
+      <description>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(&amp;#39;xxx.png&amp;#39;, dpi=500, bbox_inches=&amp;#39;tight&amp;#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将</description>
     </item>
     
     <item>
@@ -221,7 +221,7 @@
       <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</guid>
-      <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&#39;CUDA_VISIBLE_DEVICES&#39;] = &amp;quot;0,1,2,3,4,5,6,7&amp;quot;</description>
+      <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&amp;#39;CUDA_VISIBLE_DEVICES&amp;#39;] = &amp;#34;0,1,2,3,4,5,6,7&amp;#34;</description>
     </item>
     
     <item>
@@ -284,7 +284,7 @@
       <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</guid>
-      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &#39;NoneType&#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
+      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &amp;#39;NoneType&amp;#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
     </item>
     
     <item>
@@ -392,7 +392,7 @@
       <pubDate>Mon, 21 Jun 2021 19:47:15 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/blwl40/</guid>
-      <description>问题描述 Manjaro/ArchLinux 使用 pacman 更新时遇到如下形式的问题： &amp;gt; sudo pacman -Syu ... ... (748/748) 正在检查密钥环里的密钥 [######################] 100% (748/748) 正在检查软件包完整性 [######################] 100% 错误：xxxxx: 来自 &amp;quot;xxxxxxxxxx&amp;quot; 的签名是</description>
+      <description>问题描述 Manjaro/ArchLinux 使用 pacman 更新时遇到如下形式的问题： &amp;gt; sudo pacman -Syu ... ... (748/748) 正在检查密钥环里的密钥 [######################] 100% (748/748) 正在检查软件包完整性 [######################] 100% 错误：xxxxx: 来自 &amp;#34;xxxxxxxxxx&amp;#34; 的签名是</description>
     </item>
     
     <item>
@@ -599,7 +599,7 @@
       <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl32/</guid>
-      <description>报错示例 Traceback (most recent call last): File &amp;quot;/home/godlovesjonny/.local/bin/pyinstaller&amp;quot;, line 8, in &amp;lt;module&amp;gt; sys.exit(run()) File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;quot;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;quot;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;quot;, line 844, in main build(specfile, kw.get(&#39;distpath&#39;), kw.get(&#39;workpath&#39;), kw.get(&#39;clean_build&#39;)) File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;quot;, line 791, in build exec(code, spec_namespace) File &amp;quot;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&amp;quot;, line 18, in &amp;lt;module&amp;gt; pyz = PYZ(a.pure, a.zipped_data, File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&amp;quot;, line 98, in __init__ self.__postinit__() File</description>
+      <description>报错示例 Traceback (most recent call last): File &amp;#34;/home/godlovesjonny/.local/bin/pyinstaller&amp;#34;, line 8, in &amp;lt;module&amp;gt; sys.exit(run()) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;#34;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;#34;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;#34;, line 844, in main build(specfile, kw.get(&amp;#39;distpath&amp;#39;), kw.get(&amp;#39;workpath&amp;#39;), kw.get(&amp;#39;clean_build&amp;#39;)) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;#34;, line 791, in build exec(code, spec_namespace) File &amp;#34;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&amp;#34;, line 18, in &amp;lt;module&amp;gt; pyz = PYZ(a.pure, a.zipped_data, File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&amp;#34;, line 98, in __init__ self.__postinit__() File</description>
     </item>
     
     <item>

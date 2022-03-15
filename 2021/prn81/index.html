@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -219,7 +220,7 @@
 <p>其中 \(p_{\theta}(m|x_{\alpha}, x_{\beta})\) 为匹配似然 (match probability)。</p>
 <h3 id="分解匹配似然">分解匹配似然</h3>
 <p>通过蒙特-卡洛方法分解匹配似然：</p>
-<p>$$p_{\theta}(m|x_{\alpha}, x_{\beta} \approx \frac{1}{J^2} \sum_{j}^{J} \sum_{j'}^{J} p(m|z_{\alpha}^{j}, z_{\beta}^{j'}),$$</p>
+<p>$$p_{\theta}(m|x_{\alpha}, x_{\beta} \approx \frac{1}{J^2} \sum_{j}^{J} \sum_{j&rsquo;}^{J} p(m|z_{\alpha}^{j}, z_{\beta}^{j&rsquo;}),$$</p>
 <p>其中 \(z^{j}\) 是采样自嵌入分布 \(p_{\theta}(z|x)\) 的样本。为了能够训练，嵌入分布应当对再参数化方法友好 (reparametrization-trick-friendly)。</p>
 <h3 id="基于欧几里德距离的匹配似然">基于欧几里德距离的匹配似然</h3>
 <p>$$p(m|z_{\alpha}, z_{\beta}) = \sigma(-a||z_{\alpha} - z_{\beta}||_{2} + b),$$</p>

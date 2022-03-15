@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -231,14 +232,14 @@ $$g^p = m^p \odot f^p.$$</p>
 <p>使用遮挡一半的图像。</p>
 <h2 id="grouped-triplet-loss">Grouped Triplet Loss</h2>
 <p>旨在分别处理不同类型的遮挡，定义为</p>
-<p>$$\mathcal{L}_{tri-g} = \frac{1}{|\mathcal{P}'|} \sum_{p \in \mathcal{P}'} \sum_{i=1}^{B} = \mathcal{L}_{tri} (h_{i}^p, h_{i-p}^p, h_{i=n}^p),$$</p>
-<p>其中 \(\mathcal{P}'\) 表示所有遮挡区域加上无遮挡情况。</p>
+<p>$$\mathcal{L}_{tri-g} = \frac{1}{|\mathcal{P}&rsquo;|} \sum_{p \in \mathcal{P}&rsquo;} \sum_{i=1}^{B} = \mathcal{L}_{tri} (h_{i}^p, h_{i-p}^p, h_{i=n}^p),$$</p>
+<p>其中 \(\mathcal{P}&rsquo;\) 表示所有遮挡区域加上无遮挡情况。</p>
 <h2 id="occlusion-unification">Occlusion Unification</h2>
 <p>测试阶段与训练阶段不同，需要避免遮挡的多样性，因此采用 occlude them all 策略。</p>
 <p>利用增广后的遮挡数据学习一个 supervised grader，在测试阶段识别输入图像的遮挡类别。</p>
 <p>采用一个基于阈值的遮挡打分器 \(T\)，全连接层加 softmax，输出一个四维分数向量 \(s = \{s^t, s^b, s^l, s^r\}\)。</p>
 <p>训练阶段将增广数据 \(x^p\) 的分数 \(s\) 定义为 \(s^p = 2 \cdot a_{aug}\)，用如下损失训练打分器：</p>
-<p>$$\mathcal{L}_{score} = \frac{1}{n \cdot |\mathcal{P}'|} \sum_{p \in \mathcal{\mathcal{P}'}} \sum_{i=1}^{B} ||T(g_{i}^p) - s_{i}||_{2}^2.$$</p>
+<p>$$\mathcal{L}_{score} = \frac{1}{n \cdot |\mathcal{P}&rsquo;|} \sum_{p \in \mathcal{\mathcal{P}&rsquo;}} \sum_{i=1}^{B} ||T(g_{i}^p) - s_{i}||_{2}^2.$$</p>
 <p>测试阶段，基于阈值决定遮挡类型。</p>
 <p>将所有的候选图像用目标行人同样的遮挡区域进行遮挡。</p>
 <h2 id="可视化示例">可视化示例</h2>

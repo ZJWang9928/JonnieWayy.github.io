@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -210,7 +211,7 @@
         return F.avg_pool2d(x.clamp(min=eps).pow(p), (x.size(-2), x.size(-1))).pow(1./p)
         
     def __repr__(self):
-        return self.__class__.__name__ + '(' + 'p=' + '{:.4f}'.format(self.p.data.tolist()[0]) + ', ' + 'eps=' + str(self.eps) + ')'
+        return self.__class__.__name__ + &#39;(&#39; + &#39;p=&#39; + &#39;{:.4f}&#39;.format(self.p.data.tolist()[0]) + &#39;, &#39; + &#39;eps=&#39; + str(self.eps) + &#39;)&#39;
 </code></pre><p><a href="https://amaarora.github.io/2020/08/30/gempool.html#pytorch-implementation">参考链接传送门</a></p>
 
     </div>

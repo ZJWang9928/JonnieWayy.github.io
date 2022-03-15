@@ -14,7 +14,7 @@
       <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</guid>
-      <description>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(&#39;xxx.png&#39;, dpi=500, bbox_inches=&#39;tight&#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将</description>
+      <description>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(&amp;#39;xxx.png&amp;#39;, dpi=500, bbox_inches=&amp;#39;tight&amp;#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将</description>
     </item>
     
   </channel>

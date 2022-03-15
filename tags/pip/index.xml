@@ -41,7 +41,7 @@
       <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</guid>
-      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &#39;NoneType&#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
+      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &amp;#39;NoneType&amp;#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
     </item>
     
     <item>
@@ -50,7 +50,7 @@
       <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl32/</guid>
-      <description>报错示例 Traceback (most recent call last): File &amp;quot;/home/godlovesjonny/.local/bin/pyinstaller&amp;quot;, line 8, in &amp;lt;module&amp;gt; sys.exit(run()) File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;quot;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;quot;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;quot;, line 844, in main build(specfile, kw.get(&#39;distpath&#39;), kw.get(&#39;workpath&#39;), kw.get(&#39;clean_build&#39;)) File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;quot;, line 791, in build exec(code, spec_namespace) File &amp;quot;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&amp;quot;, line 18, in &amp;lt;module&amp;gt; pyz = PYZ(a.pure, a.zipped_data, File &amp;quot;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&amp;quot;, line 98, in __init__ self.__postinit__() File</description>
+      <description>报错示例 Traceback (most recent call last): File &amp;#34;/home/godlovesjonny/.local/bin/pyinstaller&amp;#34;, line 8, in &amp;lt;module&amp;gt; sys.exit(run()) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;#34;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;#34;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;#34;, line 844, in main build(specfile, kw.get(&amp;#39;distpath&amp;#39;), kw.get(&amp;#39;workpath&amp;#39;), kw.get(&amp;#39;clean_build&amp;#39;)) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;#34;, line 791, in build exec(code, spec_namespace) File &amp;#34;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&amp;#34;, line 18, in &amp;lt;module&amp;gt; pyz = PYZ(a.pure, a.zipped_data, File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&amp;#34;, line 98, in __init__ self.__postinit__() File</description>
     </item>
     
   </channel>

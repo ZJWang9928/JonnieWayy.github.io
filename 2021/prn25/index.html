@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -211,15 +212,15 @@
 <p>基于上式，GCN 可以视为基于在一阶切比雪夫多项式逼近图上的傅利叶变换的谱图卷积 (spectral graph convolution based on the Fourier transform on graphs with first-order Chebyshev polynomial approximations)。</p>
 <p>谱图卷积进一步分为两个阶段：</p>
 <p>$$feature \ transformation: \ X = H\Theta^T,$$
-$$graph \ convolution: \ H' = \sigma(BFB^TX),$$</p>
+$$graph \ convolution: \ H&rsquo; = \sigma(BFB^TX),$$</p>
 <p>其中 \(F\) 是作为图卷积核的对角矩阵。在这个例子中 \(F = diag(\lambda_{1}, \cdots, \lambda_{n})\)，\(\{\lambda_{i}\}_{i=1}^n\) 是规范化图拉普拉斯矩阵 \(L = I - \hat{A}\) 的升序特征值，频谱基 \(B\) 为相应的特征向量。</p>
 <h2 id="spgat-层的构建">SpGAT 层的构建</h2>
 <p>从 GSP 视角，\(F\) 中的对角化值 \((f_{1}, \cdots, f_{n})\) 可以被看作图上的频率，将这些值根据其索引的小/大标记为低/高频。同时，\(B\) 中相应的频谱基即为低/高频成分。</p>
 <p>首先将频谱基分成两组并改写上述两阶段公式：</p>
 <p>$$feature \ transformation: \ X_{L} = H\Theta_{L}^T, \ X_{H} = H\Theta_{H}^T,$$
-$$graph \ convolution: \ H' = \sigma(AGG(B_{L}F_{L}B_{L}^TX_{L}, B_{H}F_{H}B_{H}^TX_{H})),$$</p>
+$$graph \ convolution: \ H&rsquo; = \sigma(AGG(B_{L}F_{L}B_{L}^TX_{L}, B_{H}F_{H}B_{H}^TX_{H})),$$</p>
 <p>其中 \(B_{L} = \{b_{1}, \cdots, b_{d}\}, B_{H} = \{b_{d+1}, \cdots, b_{n}\}\) 分别为低/高频成分。式中的 \(F_{L}\) 和 \(F_{H}\) 可以被视为低/高频的重要性，因而本文通过采用再参数化技巧 (re-parameterization trick) 进一步引入可学习的注意力权重：</p>
-<p>$$H' = \sigma(AGG(B_{L}\alpha_{L}B_{L}^TX_{L}, B_{H}\alpha_{H}B_{H}^TX_{H})),$$</p>
+<p>$$H&rsquo; = \sigma(AGG(B_{L}\alpha_{L}B_{L}^TX_{L}, B_{H}\alpha_{H}B_{H}^TX_{H})),$$</p>
 <p>式中 \(\alpha_{*} = diag(\alpha_{*}, \cdots, \alpha_{*})\) 是两个由可学习注意力 \(\alpha_{L}\) 和 \(\alpha_{H}\) 参数化的对角矩阵 (等号左侧是矩阵，右侧是标量，写到这里发现有必要涉及符号加粗但是懒得改了所以标注一下)。为确保 \(\alpha_{*}\) 为正且可以比较，用 softmax 对齐进行归一化。</p>
 <p>理论上有很多再参数化的方式，如关于频谱基的自注意力等。但是这类方法无法反应高低频成分的本质，而且会引入过多额外需要学习的参数。</p>
 <h2 id="频谱基的选取">频谱基的选取</h2>
@@ -236,7 +237,7 @@ $$graph \ convolution: \ H' = \sigma(AGG(B_{L}F_{L}B_{L}^TX_{L}, B_{H}F_{H}B_{H}
 </ul>
 <p>因而，使用图小波基 \(\Psi_{s}\) 的 SpGAT 层架构可以写作：</p>
 <p>$$X = H\Theta^T,$$
-$$H' = \sigma(AGG(\Psi_{sL}\alpha_{L}\Psi_{sL}^{-1}X, \Psi_{sL}\alpha_{L}\Psi_{sL}^{-1}X)).$$</p>
+$$H&rsquo; = \sigma(AGG(\Psi_{sL}\alpha_{L}\Psi_{sL}^{-1}X, \Psi_{sL}\alpha_{L}\Psi_{sL}^{-1}X)).$$</p>
 <p>在上式中为了进一步降低参数复杂度，特征变换阶段的参数进行了共享，即令 \(\Theta_{L} = \Theta_{H} = \Theta\)。</p>
 <p>通过显式地结合高低频特征，SpGAT 可以更好地处理全局信息。</p>
 <h2 id="利用切比雪夫多项式对谱小波快速逼近">利用切比雪夫多项式对谱小波快速逼近</h2>

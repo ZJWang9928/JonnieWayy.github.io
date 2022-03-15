@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -259,12 +260,12 @@ $$\mathcal{F}_{H} *_{G} s = U[(\epsilon - 1)I - \Lambda]U^Tx = \mathcal{F}_{H} \
 <p>$$\alpha_{ij}^G = tanh(g^T[h_{i} || h_{j}]),$$</p>
 <p>其中 \(||\) 表示拼接操作，\(g \in \mathbb{R}^{2F}\) 是共享的卷积核。为了利用结构信息，只在节点及其一阶邻居节点 \(\mathcal{N}_{i}\) 之间计算系数。</p>
 <p>得到系数后，可以如下聚合邻居节点：</p>
-<p>$$h_{i}^{'} = \epsilon h_{i} + \sum_{j \in \mathcal{N}_{i}} \frac{\alpha_{ij}^G}{\sqrt{d_{i}d_{j}}} h_{j}.$$</p>
+<p>$$h_{i}^{&rsquo;} = \epsilon h_{i} + \sum_{j \in \mathcal{N}_{i}} \frac{\alpha_{ij}^G}{\sqrt{d_{i}d_{j}}} h_{j}.$$</p>
 <p>度数用于对系数进行归一化，避免聚合后的特征过大。</p>
 <h2 id="fagcn-的整体架构">FAGCN 的整体架构</h2>
 <p>先由 MLP 对原始特征进行非线性变换，\(\phi\) 表示激活函数。</p>
-<p>$$h_{i}^{(0)} = \phi(W_{1}h_{i}) \qquad \in \mathbb{R}^{F' \times 1}$$
-$$h_{i}^{(l)} = \epsilon h_{i}^{(0)} + \sum_{j \in \mathcal{N}_{i}} \frac{\alpha_{ij}^G}{\sqrt{d_{i}d_{j}}} h_{j}^{(l-1)} \qquad \in \mathbb{R}^{F' \times 1}$$
+<p>$$h_{i}^{(0)} = \phi(W_{1}h_{i}) \qquad \in \mathbb{R}^{F&rsquo; \times 1}$$
+$$h_{i}^{(l)} = \epsilon h_{i}^{(0)} + \sum_{j \in \mathcal{N}_{i}} \frac{\alpha_{ij}^G}{\sqrt{d_{i}d_{j}}} h_{j}^{(l-1)} \qquad \in \mathbb{R}^{F&rsquo; \times 1}$$
 $$h_{out} = W_{2}h_{i}^{(L)} \qquad \in \mathbb{R}^{K \times 1}$$</p>
 <h2 id="fagcn-与现有-gnn-的联系">FAGCN 与现有 GNN 的联系</h2>
 <ul>

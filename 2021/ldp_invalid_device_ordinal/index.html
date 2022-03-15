@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -56,7 +57,7 @@
     "articleSection" : "posts",
     "name" : "炼丹杂记 -- Python 报错 RuntimeError: CUDA error: invalid device ordinal 解决办法",
     "headline" : "炼丹杂记 -- Python 报错 RuntimeError: CUDA error: invalid device ordinal 解决办法",
-    "description" : "问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[\u0027CUDA_VISIBLE_DEVICES\u0027] = \u0026quot;0,1,2,3,4,5,6,7\u0026quot;",
+    "description" : "问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[\u0026#39;CUDA_VISIBLE_DEVICES\u0026#39;] = \u0026#34;0,1,2,3,4,5,6,7\u0026#34;",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -197,7 +198,7 @@
 </code></pre><h2 id="解决办法">解决办法</h2>
 <p>在该操作前指定可选的 GPU 卡：</p>
 <pre tabindex="0"><code>import os
-os.environ['CUDA_VISIBLE_DEVICES'] = &quot;0,1,2,3,4,5,6,7&quot;
+os.environ[&#39;CUDA_VISIBLE_DEVICES&#39;] = &#34;0,1,2,3,4,5,6,7&#34;
 </code></pre>
     </div>
 

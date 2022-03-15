@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -67,7 +68,7 @@
     "datePublished": "2021-08-09 12:11:40 \u002b0800 CST",
     "dateModified" : "2021-08-09 12:11:40 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn74\/",
-    "wordCount" : "377",
+    "wordCount" : "389",
     "keywords" : [ "paper reading","cv","notes","attention", "Jonathan`s Blog"]
 }
 </script>
@@ -172,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 377 words</span>
+                <span class="post-word-count">, 389 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -203,12 +204,12 @@
 <p><img src="/images/2021/PRN74/2.png" alt="Fig 2"></p>
 <h2 id="十字注意力">十字注意力</h2>
 <h3 id="affinity-操作">Affinity 操作</h3>
-<p>用于生成注意力图 \(A \in \mathbb{R}^{(H + W - 1) \times W \times H}\)，位置 \(u\) 上的 \(Q\) 为 \(Q_{u} \in \mathbb{R}^{C'}\)，通过从 \(K\) 提取与位置 \(u\) 同一行及同一列的特征向量得到集合 \(\Omega_{u} \in \mathbb{R}^{(H + W - 1) \times C'}\)。Affinity 操作定义为</p>
+<p>用于生成注意力图 \(A \in \mathbb{R}^{(H + W - 1) \times W \times H}\)，位置 \(u\) 上的 \(Q\) 为 \(Q_{u} \in \mathbb{R}^{C&rsquo;}\)，通过从 \(K\) 提取与位置 \(u\) 同一行及同一列的特征向量得到集合 \(\Omega_{u} \in \mathbb{R}^{(H + W - 1) \times C&rsquo;}\)。Affinity 操作定义为</p>
 <p>$$d_{i, u} = Q_{u}\Omega_{i, u}^T,$$</p>
 <p>其中 \(d_{i, u} \in D\) 是两个特征之间的相关程度，\(D \in \mathbb{R}^{(H + W -1) \times W \times H}\)。进而沿着 \(D\) 的通道维度做 softmax 得到注意力图 \(A\)。</p>
 <h3 id="aggregation-操作">Aggregation 操作</h3>
 <p>\(V\) 中与位置 \(u\) 同一行及同一列的特征向量集合为 \(\Phi_{u} \in \mathbb{R}^{(H + W - 1) \times C}\)，通过 Aggregation 操作收集上下文信息：</p>
-<p>$$H_{u}' = \sum_{i \in |\Phi_{u}|} A_{i, u}\Phi_{i, u} + H_{u}.$$</p>
+<p>$$H_{u}&rsquo; = \sum_{i \in |\Phi_{u}|} A_{i, u}\Phi_{i, u} + H_{u}.$$</p>
 <p><img src="/images/2021/PRN74/3.png" alt="Fig 3"></p>
 <h2 id="信息传递示例">信息传递示例</h2>
 <p><img src="/images/2021/PRN74/4.png" alt="Fig 4"></p>

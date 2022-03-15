@@ -41,7 +41,7 @@
       <pubDate>Mon, 21 Jun 2021 19:47:15 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/blwl40/</guid>
-      <description>问题描述 Manjaro/ArchLinux 使用 pacman 更新时遇到如下形式的问题： &amp;gt; sudo pacman -Syu ... ... (748/748) 正在检查密钥环里的密钥 [######################] 100% (748/748) 正在检查软件包完整性 [######################] 100% 错误：xxxxx: 来自 &amp;quot;xxxxxxxxxx&amp;quot; 的签名是</description>
+      <description>问题描述 Manjaro/ArchLinux 使用 pacman 更新时遇到如下形式的问题： &amp;gt; sudo pacman -Syu ... ... (748/748) 正在检查密钥环里的密钥 [######################] 100% (748/748) 正在检查软件包完整性 [######################] 100% 错误：xxxxx: 来自 &amp;#34;xxxxxxxxxx&amp;#34; 的签名是</description>
     </item>
     
   </channel>

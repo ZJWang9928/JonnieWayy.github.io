@@ -347,7 +347,7 @@
       <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn55/</guid>
-      <description>2103.11816 Incorporating Convolution Designs into Visual Transformers (2021) 核心 设计一种通过卷积增强的图像 Transformer (Convolution-enhanced image Transformer, CeiT)，将 CNN 提取低级特征、强化局部性与 Transformer 提取长程依赖的优势相结合。 Image-to-Tokens 模块 $$x&#39; = I2T(x) = MaxPool(BN(Conv(x))).$$</description>
+      <description>2103.11816 Incorporating Convolution Designs into Visual Transformers (2021) 核心 设计一种通过卷积增强的图像 Transformer (Convolution-enhanced image Transformer, CeiT)，将 CNN 提取低级特征、强化局部性与 Transformer 提取长程依赖的优势相结合。 Image-to-Tokens 模块 $$x&amp;rsquo; = I2T(x) = MaxPool(BN(Conv(x))).$$</description>
     </item>
     
     <item>

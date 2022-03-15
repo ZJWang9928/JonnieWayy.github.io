@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 15 Mar 2022 12:38:10 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Mar 2022 01:08:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>http://jonathanwayy.xyz/tags/blog/</link>
+      <pubDate>Wed, 16 Mar 2022 01:08:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/blog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Tue, 15 Mar 2022 12:38:10 +0800</pubDate>
+      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +29,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 15 Mar 2022 12:38:10 +0800</pubDate>
+      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +38,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 15 Mar 2022 12:38:10 +0800</pubDate>
+      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -38,18 +47,36 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Tue, 15 Mar 2022 12:38:10 +0800</pubDate>
+      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Tue, 15 Mar 2022 12:38:10 +0800</pubDate>
+      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ViT</title>
+      <link>http://jonathanwayy.xyz/tags/vit/</link>
+      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
@@ -95,15 +122,6 @@
       <pubDate>Wed, 09 Mar 2022 14:44:48 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Tue, 08 Mar 2022 21:27:52 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
     </item>
     
@@ -437,15 +455,6 @@
       <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ViT</title>
-      <link>http://jonathanwayy.xyz/tags/vit/</link>
-      <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
@@ -1247,15 +1256,6 @@
       <pubDate>Sun, 26 Apr 2020 16:43:44 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>http://jonathanwayy.xyz/tags/blog/</link>
-      <pubDate>Wed, 15 Apr 2020 21:47:18 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/blog/</guid>
       <description></description>
     </item>
     

@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -256,10 +257,10 @@ $$v_{l_{in}}^{k} = W_{\gamma}^{k}(\sum_{i = 1, i \ne k} \alpha_{ki}\phi_{i}(v_{l
 <p><img src="/images/2021/PRN97/5.png" alt="Fig 5"></p>
 <h2 id="目标函数">目标函数</h2>
 <p>引入 Compound Ranking (CR) Loss，同时包含强监督项与弱监督项。</p>
-<p>$$L_{cr} = max(\alpha_{1} - S(I_{p}, D_{p}) + S(I_{p}, D_{n}), 0) \\ + max(\alpha_{1} - S(I_{p}, D_{p}) + S(I_{n}, D_{p}), 0) \\ + \beta \cdot max(\alpha_{2} - S(I_{p}, D_{p}^{'}) + S(I_{p}, D_{n}), 0) \\ + \beta \cdot max(\alpha_{2} - S(I_{p}, D_{p}^{'}) + S(I_{n}, D_{p}^{'}), 0).$$</p>
+<p>$$L_{cr} = max(\alpha_{1} - S(I_{p}, D_{p}) + S(I_{p}, D_{n}), 0) \\ + max(\alpha_{1} - S(I_{p}, D_{p}) + S(I_{n}, D_{p}), 0) \\ + \beta \cdot max(\alpha_{2} - S(I_{p}, D_{p}^{&rsquo;}) + S(I_{p}, D_{n}), 0) \\ + \beta \cdot max(\alpha_{2} - S(I_{p}, D_{p}^{&rsquo;}) + S(I_{n}, D_{p}^{&rsquo;}), 0).$$</p>
 <p>对 \(\alpha_{2}\) 的值动态调整：</p>
 <p>$$\alpha_{2} = (\lambda + 1) \frac{\alpha_{1}}{2},$$
-$$\lambda = min(\frac{S(I_{p}, D_{p}^{'})}{S(I_{p}, D_{p})}, 1).$$</p>
+$$\lambda = min(\frac{S(I_{p}, D_{p}^{&rsquo;})}{S(I_{p}, D_{p})}, 1).$$</p>
 <p>此外还用到 Id Loss。</p>
 
     </div>

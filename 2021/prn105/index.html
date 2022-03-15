@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -67,7 +68,7 @@
     "datePublished": "2021-10-15 16:42:40 \u002b0800 CST",
     "dateModified" : "2021-10-15 16:42:40 \u002b0800 CST",
     "url" : "http:\/\/jonathanwayy.xyz\/2021\/prn105\/",
-    "wordCount" : "534",
+    "wordCount" : "540",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -172,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 534 words</span>
+                <span class="post-word-count">, 540 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -233,9 +234,9 @@
 <p>由 T2V 注意力计算得到 attended semantic feature \(A\)：</p>
 <p>$$A = norm(Q\mathcal{K}^{T}) \odot \mathcal{V}.$$</p>
 <p>进而计算 \(V\) 和 \(A\) 之间的余弦相似度得到 \(R\)。图文对之间的相似度 \(S\) 通过对 \(R\) 中各部分求均值得到。</p>
-<p>类似方法可以求得 V2T 对之间的相似度 \(S'\)。</p>
+<p>类似方法可以求得 V2T 对之间的相似度 \(S&rsquo;\)。</p>
 <p>归一化后的相似度 \(\overline{S}\) 可视为预测的匹配几率，而归一化的 0/1 匹配标签 \(\overline{y}\) 可视为分布标签，从而借助 KL 散度计算跨尺度对齐损失 (CSAL)：</p>
-<p>$$L_{CSAL} = L_{I} + L_{T} = D_{KL}(\overline{S}, \overline{y}) + D_{KL}(\overline{S'}, \overline{y'}).$$</p>
+<p>$$L_{CSAL} = L_{I} + L_{T} = D_{KL}(\overline{S}, \overline{y}) + D_{KL}(\overline{S&rsquo;}, \overline{y&rsquo;}).$$</p>
 <h4 id="全局匹配">全局匹配</h4>
 <p>使用 CMPM 损失和 CMPC 损失监督全局特征的跨模态匹配。</p>
 <h2 id="结果示例">结果示例</h2>

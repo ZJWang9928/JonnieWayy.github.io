@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -218,10 +219,10 @@
 </ul>
 <p><img src="/images/2021/PRN112/3.png" alt="Fig 3"></p>
 <p>利用 HMR 生成 3D mesh，进行多角度旋转并随机选取一个生成新结构 \(s_{new}\)，用于模拟不同摄像头带来的视角变化，原结构为 \(s_{ori}\)，结构编码器得到二者特征，解码器用二者特征分别结合图像身份特征，重构生成两张图像。</p>
-<p>由于缺失新结构对应的真实图像，采用循环一致性 (cycle consistency) 训练重构过程，通过将 \(x'_{new}\) 再一次往回重构实现。</p>
-<p>$$\mathcal{L}_{img} = \mathbb{E}[||x - x'_{ori}||_{1}] + \mathbb{E}[||x - x''_{ori}||_1],$$
-$$\mathcal{L}_{feat} = \mathbb{E}[||f_{id} - E_{id}(x'_{new})||_{1}] + \mathbb{E}[||f_{id} - E_{id}(x''_{ori})||_1],$$
-$$\mathcal{L}_{adv} = \mathbb{E}[log D(x) + log(1 - D(x'_{ori}))] + \mathbb{E}[log D(x) + log(1 - D(x'_{new}))] + \mathbb{E}[log D(x) + log(1 - D(x''_{ori}))],$$
+<p>由于缺失新结构对应的真实图像，采用循环一致性 (cycle consistency) 训练重构过程，通过将 \(x&rsquo;_{new}\) 再一次往回重构实现。</p>
+<p>$$\mathcal{L}_{img} = \mathbb{E}[||x - x&rsquo;_{ori}||_{1}] + \mathbb{E}[||x - x&rsquo;&rsquo;_{ori}||_1],$$
+$$\mathcal{L}_{feat} = \mathbb{E}[||f_{id} - E_{id}(x&rsquo;_{new})||_{1}] + \mathbb{E}[||f_{id} - E_{id}(x&rsquo;&rsquo;_{ori})||_1],$$
+$$\mathcal{L}_{adv} = \mathbb{E}[log D(x) + log(1 - D(x&rsquo;_{ori}))] + \mathbb{E}[log D(x) + log(1 - D(x&rsquo;_{new}))] + \mathbb{E}[log D(x) + log(1 - D(x&rsquo;&rsquo;_{ori}))],$$
 $$\mathcal{L}_{gan} = \lambda_{img} \mathcal{L}_{img} + \lambda_{feat} \mathcal{L}_{feat} + \mathcal{L}_{adv}.$$</p>
 <h2 id="视角对比">视角对比</h2>
 <p>维护一个 memory bank，是伪标签稳定并扩大训练中的负样本数：</p>

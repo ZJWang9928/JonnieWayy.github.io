@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -198,10 +199,10 @@
 <h2 id="解决办法">解决办法</h2>
 <p>这里记录两种可行的解决办法，以文件复制为例，将 dir1 目录下文件名后缀为 jpg 的文件复制到 dir2 目录。</p>
 <h3 id="方法-1">方法 1</h3>
-<pre tabindex="0"><code>find dir1/ -name &quot;.jpg&quot; | xargs -i cp {} dir2/
+<pre tabindex="0"><code>find dir1/ -name &#34;.jpg&#34; | xargs -i cp {} dir2/
 </code></pre><p><strong>注</strong>：用 <code>find</code> 命令查找相应文件。<code>xargs</code> 命令可以将参数传递给其他命令，通过 <code>-i</code> 将 <code>xargs</code> 的内容赋值给 <code>{}</code>。</p>
 <h3 id="方法-2">方法 2</h3>
-<pre tabindex="0"><code>find dir1/ -name &quot;.jpg&quot; -exec cp {} dir2/ \;
+<pre tabindex="0"><code>find dir1/ -name &#34;.jpg&#34; -exec cp {} dir2/ \;
 </code></pre><p><strong>注</strong>：同样先用 <code>find</code> 命令查找相应文件，<code>-exec</code> 用于指明后续执行的命令，而 <code>-exec</code> 以分号结尾，由于不同环境下分号的意义可能不同，故对其进行转义。</p>
 
     </div>

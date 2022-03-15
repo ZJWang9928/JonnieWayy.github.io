@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -200,8 +201,8 @@ Got 3 and 1 in dimension 1 at /pytorch/aten/src/TH/generic/THTensorMath.c:3586
 <h1 id="解决办法">解决办法</h1>
 <p>读取图像后进行检查与转化：</p>
 <pre tabindex="0"><code>image = Image.open(image_path)
-if image.getbands()[0] == 'L':
-     image = image.convert('RGB')
+if image.getbands()[0] == &#39;L&#39;:
+     image = image.convert(&#39;RGB&#39;)
 </code></pre><p>问题解决了。</p>
 
     </div>

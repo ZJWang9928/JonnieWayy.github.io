@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -234,8 +235,8 @@ $$t^{*} = \hat{T}a_{t} \in \mathbb{R}^d.$$</p>
 <p>将图文匹配变成分类问题，即匹配与失配两类，用两层 MLP 与 sigmoid 激活函数计算最终的匹配度分数：</p>
 <p>$$m(\mathcal{I}, \mathcal{T}) = \sigma(MLP(v^{*} + t^{*})).$$</p>
 <p>用  hardest negative cross-entropy loss 训练模型：</p>
-<p>$$\mathcal{L}_{BCE-h}(\mathcal{I}, \mathcal{T}) = log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{T}'}[log(1 - m(\mathcal{I}, \mathcal{T}'))]$$
-$$+ log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{I}'}[log(1 - m(\mathcal{I}', \mathcal{T}))].$$</p>
+<p>$$\mathcal{L}_{BCE-h}(\mathcal{I}, \mathcal{T}) = log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{T}&rsquo;}[log(1 - m(\mathcal{I}, \mathcal{T}&rsquo;))]$$
+$$+ log(m(\mathcal{I}, \mathcal{T})) + max_{\mathcal{I}&rsquo;}[log(1 - m(\mathcal{I}&rsquo;, \mathcal{T}))].$$</p>
 <h2 id="检索结果示例">检索结果示例</h2>
 <p><img src="/images/2021/PRN42/4.png" alt="Fig 4"></p>
 

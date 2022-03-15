@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 02 Dec 2021 21:15:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Mar 2022 00:16:08 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn212/</link>
+      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn212/</guid>
+      <description>2203.03931 Part-Aware Self-Supervised Pre-Training for Person Re-identification (2022) 开源代码传送门 概述</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn134/</link>
@@ -113,7 +122,7 @@
       <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/prn55/</guid>
-      <description>2103.11816 Incorporating Convolution Designs into Visual Transformers (2021) 核心 设计一种通过卷积增强的图像 Transformer (Convolution-enhanced image Transformer, CeiT)，将 CNN 提取低级特征、强化局部性与 Transformer 提取长程依赖的优势相结合。 Image-to-Tokens 模块 $$x&#39; = I2T(x) = MaxPool(BN(Conv(x))).$$</description>
+      <description>2103.11816 Incorporating Convolution Designs into Visual Transformers (2021) 核心 设计一种通过卷积增强的图像 Transformer (Convolution-enhanced image Transformer, CeiT)，将 CNN 提取低级特征、强化局部性与 Transformer 提取长程依赖的优势相结合。 Image-to-Tokens 模块 $$x&amp;rsquo; = I2T(x) = MaxPool(BN(Conv(x))).$$</description>
     </item>
     
     <item>

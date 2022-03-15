@@ -7,14 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 15 Apr 2020 21:47:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/toss-about-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Mar 2022 01:08:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/toss-about-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo LeaveIt主题修改代码块底色</title>
+      <title>Hugo 升级后编译时 can&#39;t evaluate field RSSLink in type *hugolib.pageState 问题解决方案</title>
+      <link>http://jonathanwayy.xyz/2022/blog6/</link>
+      <pubDate>Wed, 16 Mar 2022 01:08:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/blog6/</guid>
+      <description>问题描述 升级了 Hugo 框架之后，编译博客时遇到如下报错： Error: Error building site: failed to render pages: render of &amp;#34;page&amp;#34; failed: execute of template failed: template: page/single.html:3:5: executing &amp;#34;page/single.html&amp;#34; at &amp;lt;partial &amp;#34;head.html&amp;#34; .&amp;gt;: error calling partial: &amp;#34;/home/xxxx/themes/LeaveIt/layouts/partials/head.html:42:8&amp;#34;: execute of template failed: template: partials/head.html:42:8: executing &amp;#34;partials/head.html&amp;#34; at &amp;lt;.RSSLink&amp;gt;: can&amp;#39;t evaluate field RSSLink in type *hugolib.pageState</description>
+    </item>
+    
+    <item>
+      <title>Hugo LeaveIt 主题修改代码块底色</title>
       <link>http://jonathanwayy.xyz/2020/blog5/</link>
       <pubDate>Wed, 15 Apr 2020 21:47:18 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blog5/</guid>
-      <description>如上图，LeaveIt主题在浅色模式下默认的代码块背景色是纯白色，和文字撞色导致观感较差。 可对文件themes/LeaveIt/assets</description>
+      <description>如上图，LeaveIt 主题在浅色模式下默认的代码块背景色是纯白色，和文字撞色导致观感较差。 可对文件themes/LeaveIt/assets</description>
     </item>
     
     <item>

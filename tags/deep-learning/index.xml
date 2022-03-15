@@ -32,7 +32,7 @@
       <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</guid>
-      <description>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(&#39;xxx.png&#39;, dpi=500, bbox_inches=&#39;tight&#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将</description>
+      <description>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(&amp;#39;xxx.png&amp;#39;, dpi=500, bbox_inches=&amp;#39;tight&amp;#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将</description>
     </item>
     
     <item>
@@ -86,7 +86,7 @@
       <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</guid>
-      <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&#39;CUDA_VISIBLE_DEVICES&#39;] = &amp;quot;0,1,2,3,4,5,6,7&amp;quot;</description>
+      <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&amp;#39;CUDA_VISIBLE_DEVICES&amp;#39;] = &amp;#34;0,1,2,3,4,5,6,7&amp;#34;</description>
     </item>
     
     <item>
@@ -149,7 +149,7 @@
       <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</guid>
-      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &#39;NoneType&#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
+      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &amp;#39;NoneType&amp;#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
     </item>
     
     <item>
@@ -357,7 +357,7 @@ ewlbel 问题解决方案</title>
       <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp4/</guid>
-      <description>问题描述 在程序中使用形如 A = X.view(32, -1) 的语句调用 view 时出现如下报错： RuntimeError: view size is not compatible with input tensor&#39;s size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead. 原因分析 view() 需要 Tensor 中元素地址连续，</description>
+      <description>问题描述 在程序中使用形如 A = X.view(32, -1) 的语句调用 view 时出现如下报错： RuntimeError: view size is not compatible with input tensor&amp;#39;s size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead. 原因分析 view() 需要 Tensor 中元素地址连续，</description>
     </item>
     
     <item>

@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -223,11 +224,11 @@
 <h4 id="support-support-affinity">Support-Support Affinity</h4>
 <p>由各专家模型，分别计算一个 \(K * K\) 矩阵：</p>
 <p>$$A_{s-s}[i, j] = Cosine(F(S_{i}), F(S_{j})).$$</p>
-<p>由于其对称，且对角线为 \(1\)，所以保留右上矩阵，将其转化为一个 \(K' = K * (K - 1) / 2\) 维的向量，堆叠后得到 \(N * K'\) 维向量。</p>
+<p>由于其对称，且对角线为 \(1\)，所以保留右上矩阵，将其转化为一个 \(K&rsquo; = K * (K - 1) / 2\) 维的向量，堆叠后得到 \(N * K&rsquo;\) 维向量。</p>
 <h4 id="cross-expert-affinity">Cross-Expert Affinity</h4>
 <p>$$A_{c-e}[i, j] = \frac{\sum_{l \in \{1, \cdots, N\} - \{i\}} \mathbb{1}(S_{i, j} \in S_{l})}{N - 1}.$$</p>
 <p>拉平后得到 \(N * K\) 的向量。</p>
-<p>最终，拉平拼接三个向量，得到上下文特征 \(x \in \mathbb{R}^d, d = N *K + N * K' + N * K\)。</p>
+<p>最终，拉平拼接三个向量，得到上下文特征 \(x \in \mathbb{R}^d, d = N *K + N * K&rsquo; + N * K\)。</p>
 <h3 id="对抗攻击检测器">对抗攻击检测器</h3>
 <p>实现为基于多层感知机的二元分类器。</p>
 

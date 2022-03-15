@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -207,7 +208,7 @@
 <h3 id="动态图卷积">动态图卷积</h3>
 <p>采用 KNN 图建模邻居点之间的关系，有向并有自环。K 近邻的选择取决于顶点的值，而非初始的输入顺序。</p>
 <p>采用动态图 (dynamic graph)，每个下采样层后重构图。为了学习图的拓扑结构，采用基于有边相连的邻居点的局部卷积层：</p>
-<p>$$x_{i}^{'} = \sum_{j: (i, j) \in \mathcal{E}, j \ne i} (\theta_{i} x_{i} + \theta_{j} x_{j}).$$</p>
+<p>$$x_{i}^{&rsquo;} = \sum_{j: (i, j) \in \mathcal{E}, j \ne i} (\theta_{i} x_{i} + \theta_{j} x_{j}).$$</p>
 <p>与传统卷积的主要差异在于邻居集合的定义，本文结合了两种选取邻居的方式：</p>
 <ul>
 <li>position similarity</li>

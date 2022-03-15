@@ -50,7 +50,7 @@
       <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</guid>
-      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &#39;NoneType&#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
+      <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &amp;#39;NoneType&amp;#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
     </item>
     
     <item>

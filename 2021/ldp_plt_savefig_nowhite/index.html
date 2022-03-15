@@ -44,6 +44,7 @@
 
   
   
+  
  
 
 <script type="application/ld+json">
@@ -56,7 +57,7 @@
     "articleSection" : "posts",
     "name" : "炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边",
     "headline" : "炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边",
-    "description" : "在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(\u0027xxx.png\u0027, dpi=500, bbox_inches=\u0027tight\u0027, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将",
+    "description" : "在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(\u0026#39;xxx.png\u0026#39;, dpi=500, bbox_inches=\u0026#39;tight\u0026#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -193,7 +194,7 @@
 
           <p>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。</p>
 <p>将语句写成如下形式即可：</p>
-<pre tabindex="0"><code>plt.savefig('xxx.png', dpi=500, bbox_inches='tight', pad_inches=0.0)
+<pre tabindex="0"><code>plt.savefig(&#39;xxx.png&#39;, dpi=500, bbox_inches=&#39;tight&#39;, pad_inches=0.0)
 </code></pre><p>其中将 <code>pad_inches</code> 参数置零即可去除白边，而将 <code>bbox_inches</code> 设为 tight 则能够去除坐标轴占用的空间（仅设置将坐标轴可视化关闭仍会占据空间，只是不显示）。</p>
 
     </div>
