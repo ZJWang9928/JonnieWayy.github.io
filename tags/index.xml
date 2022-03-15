@@ -20,7 +20,7 @@
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
+      <pubDate>Tue, 15 Mar 2022 22:43:39 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
+      <pubDate>Tue, 15 Mar 2022 22:43:39 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -38,7 +38,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
+      <pubDate>Tue, 15 Mar 2022 22:43:39 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,36 +47,18 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
+      <pubDate>Tue, 15 Mar 2022 22:43:39 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
+      <pubDate>Tue, 15 Mar 2022 22:43:39 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ViT</title>
-      <link>http://jonathanwayy.xyz/tags/vit/</link>
-      <pubDate>Wed, 16 Mar 2022 00:16:08 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
@@ -122,6 +104,15 @@
       <pubDate>Wed, 09 Mar 2022 14:44:48 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Tue, 08 Mar 2022 21:27:52 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
     </item>
     
@@ -455,6 +446,15 @@
       <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ViT</title>
+      <link>http://jonathanwayy.xyz/tags/vit/</link>
+      <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
