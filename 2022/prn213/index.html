@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/blog6/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn213/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn212/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn212/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn213/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Unsupervised Lifelong Person ReID via Contrastive Rehearsal (2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Unsupervised Lifelong Person ReID via Contrastive Rehearsal (2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)",
-    "description" : "2203.03931 Part-Aware Self-Supervised Pre-Training for Person Re-identification (2022) 开源代码传送门 概述 研究表明在 LUPerson 上无监督预训练的表现比 ImageNet 上监督预训练更好。先前的工作直接采用现有的分类任务上的 SSL 方法，并不能完",
+    "name" : "[论文阅读笔记 -- ReID] Unsupervised Lifelong Person ReID via Contrastive Rehearsal (2022)",
+    "headline" : "[论文阅读笔记 -- ReID] Unsupervised Lifelong Person ReID via Contrastive Rehearsal (2022)",
+    "description" : "2203.06468 Unsupervised Lifelong Person Re-identification via Contrastive Rehearsal (2022) 开源代码传送门 概述 Lifelong Person ReID 任务，本文用无监督域自适应替代监督的跨域微调，提出无监督终身行人重识别任务。 本文将基于伪标签的对比",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-03-16 08:16:08 \u002b0800 CST",
-    "dateModified" : "2022-03-16 08:16:08 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn212\/",
-    "wordCount" : "290",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","ViT", "Jonathan`s Blog"]
+    "datePublished": "2022-03-19 17:31:41 \u002b0800 CST",
+    "dateModified" : "2022-03-19 17:31:41 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn213\/",
+    "wordCount" : "640",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","lifelong", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Unsupervised Lifelong Person ReID via Contrastive Rehearsal (2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-03-16 itemprop="datePublished">March 16, 2022</time>
+                on <time datetime=2022-03-19 itemprop="datePublished">March 19, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 290 words</span>
+                <span class="post-word-count">, 640 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,22 +194,41 @@
           
           
 
-          <h1 id="220303931-part-aware-self-supervised-pre-training-for-person-re-identification-2022">2203.03931 Part-Aware Self-Supervised Pre-Training for Person Re-identification (2022)</h1>
-<p><a href="https://github.com/CASIA-IVA-Lab/PASS-reID">开源代码传送门</a></p>
-<p><img src="/images/2022/PRN212/1.png" alt="Fig 1"></p>
+          <h1 id="220306468-unsupervised-lifelong-person-re-identification-via-contrastive-rehearsal-2022">2203.06468 Unsupervised Lifelong Person Re-identification via Contrastive Rehearsal (2022)</h1>
+<p><a href="https://github.com/chenhao2345/UCR">开源代码传送门</a></p>
+<p><img src="/images/2022/PRN213/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>研究表明在 LUPerson 上无监督预训练的表现比 ImageNet 上监督预训练更好。先前的工作直接采用现有的分类任务上的 SSL 方法，并不能完美适应 ReID 任务。</p>
-<p>本文提出一种专门针对 ReID 的预训练方法，称为 Part-Aware Self-Supervised Pre-training (PASS)，自动提取局部特征。</p>
-<h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2022/PRN212/2.png" alt="Fig 2"></p>
-<p>基于自监督方法 DINO，教师模型由过往迭代的学生模型构建得到，更新规则为：<br>
-$$\theta_{t} \leftarrow \lambda \theta_{t} + (1 - \lambda) \theta_{s},$$
-其中 \(\lambda\) 遵循 cosine schedule 从 0.996 到 1 变化。</p>
-<p>构建 global view 和 local view，教师模型仅以前者为输入，学生模型以二者为输入。对于前者，[CLS] 和所有 [PART] 拼接到相应的 patch 嵌入；而对于后者，只有 [CLS] 和对应 [PART] 拼接。</p>
-<p>微调时用教师模型，直接将 [CLS] 和所有 [PART] 和输入图像的 patch 序列拼接即可。</p>
-<h3 id="可视化示例">可视化示例</h3>
-<p><img src="/images/2022/PRN212/3.png" alt="Fig 3"></p>
-<p><img src="/images/2022/PRN212/4.png" alt="Fig 4"></p>
+<p>Lifelong Person ReID 任务，本文用无监督域自适应替代监督的跨域微调，提出无监督终身行人重识别任务。</p>
+<p>本文将基于伪标签的对比学习和基于 rehearsal 的增量学习相结合，提出 Unsupervised Contrastive Rehearsal (UCR) 方法。</p>
+<p><img src="/images/2022/PRN213/2.png" alt="Fig 2"></p>
+<h2 id="本文方法">本文方法</h2>
+<p>无监督终身行人重识别架构可以定义为第一个域上的完全无监督 ReID 步骤加上后续域上的若干无监督域自适应步骤，模型相应在各可见与不可见域的测试集上测试。</p>
+<h3 id="current-domain-contrastive-baseline">Current Domain Contrastive Baseline</h3>
+<p>第一步用基于伪标签的对比学习作为基线模型，包含一个在线编码器 (online encoder) 和一个动量编码器 (momentum encoder)，后者用于逐渐汇聚各可见域上的知识，其更新策略为</p>
+<p>$$\theta_{m}^t = \alpha \theta_{m}^{t - 1} + (1 - \alpha) \theta^t.$$</p>
+<p>对于当前域上的一张图像，可以得到两个表征 \(f(x_{i}^c | \theta)\) 和 \(f(x_{i}^c | \theta_{m})\)，一个簇 \(a\) 的原型定义为</p>
+<p>$$p_{a}^c = \frac{1}{N_{a}} \sum_{x_{i}^c \in y_{a}} f(x_{i}^c | \theta_{m}).$$</p>
+<p>由此可以定义簇原型对比损失：</p>
+<p>$$\mathcal{L}_{cluster} = \mathbb{E} [-log \frac{exp(f(x_{i}^c | \theta) \cdot p_{a}^c / \tau_{p})}{\sum_{j=1}^{|P^c|}exp(f(x_{i}^c | \theta) \cdot p_{j} / \tau_{p})}].$$</p>
+<p>此外，簇内相机原型定义为</p>
+<p>$$p_{ab}^c = \frac{1}{N_{ab}} \sum_{x_{i}^c \in y_{a} \cap x_{i}^c \in c_{b}} f(x_{i}^c | \theta_{m}).$$</p>
+<p>由此定义相机原型对比损失定义为</p>
+<p>$$\mathcal{L}_{cam} = \mathbb{E} [-\frac{1}{N_{C}} \sum_{j \in \mathcal{C}} log\frac{exp(f(x_{i}^c | \theta) \cdot p_{aj}^c / \tau_{c})}{\sum_{k=1}^{N_{neg} + 1} exp(f(x_{i}^c | \theta) \cdot p_{k}^c / \tau_{c})}].$$</p>
+<h3 id="old-domain-contrastive-rehearsal">Old Domain Contrastive Rehearsal</h3>
+<p>构建并维护  prototype memory 和 image memory。</p>
+<p>定义旧域对比复述损失：</p>
+<p>$$\mathcal{L}_{old} = \mathbb{E} [-log \frac{exp(f(x_{i}^o | \theta) \cdot p_{a}^o / \tau_{p})}{\sum_{j=1}^{|P|}exp(f(x_{i}^o | \theta) \cdot p_{j} / \tau_{p})}].$$</p>
+<h3 id="image-to-image-similarity-constraint">Image-to-image Similarity Constraint</h3>
+<p>相同图像的相似度关系在域自适应步骤前后应当一致。</p>
+<p>将来自上一个域的模型固定参数视为旧域上的专家模型，由之计算得到的相似度关系作为正则化当前模型更新的参照。</p>
+<p>两张旧图像之间的图到图相似度分布计算为</p>
+<p>$$P_{i, j} = \frac{exp(&lt;f(x_{i}^o | \theta) \cdot f(x_{j}^o | \theta_{m})&gt; / \tau_{s})}{\sum_{k=1}^{N_{bs}} exp(&lt;f(x_{i}^o | \theta) \cdot f(x_{k}^o | \theta_{m})&gt; / \tau_{s})}.$$</p>
+<p>两张旧图像之间的参照相似度分布计算为</p>
+<p>$$Q_{i, j} = \frac{exp(&lt;f(x_{i}^o | \theta_{f}) \cdot f(x_{j}^o | \theta_{f})&gt; / \tau_{s})}{\sum_{k=1}^{N_{bs}} exp(&lt;f(x_{i}^o | \theta_{f}) \cdot f(x_{k}^o | \theta_{f})&gt; / \tau_{s})}.$$</p>
+<p>由此构建图到图相似度约束损失：</p>
+<p>$$\mathcal{L}_{sim} \mathcal{D}_{KL}(P || Q).$$</p>
+<h2 id="数据集情况">数据集情况</h2>
+<p><img src="/images/2022/PRN213/T1.png" alt="Tab 1"></p>
 
     </div>
 
@@ -224,7 +243,7 @@ $$\theta_{t} \leftarrow \lambda \theta_{t} + (1 - \lambda) \theta_{s},$$
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn212/>http://jonathanwayy.xyz/2022/prn212/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn213/>http://jonathanwayy.xyz/2022/prn213/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -262,8 +281,8 @@ $$\theta_{t} \leftarrow \lambda \theta_{t} + (1 - \lambda) \theta_{s},$$
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
                     #ReID</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/vit/">
-                    #ViT</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/lifelong/">
+                    #lifelong</a></span>
             
             </section>
         
@@ -275,10 +294,10 @@ $$\theta_{t} \leftarrow \lambda \theta_{t} + (1 - \lambda) \theta_{s},$$
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/blog6/" class="prev" rel="prev" title="Hugo 升级后编译时 can&#39;t evaluate field RSSLink in type *hugolib.pageState 问题解决方案"><i class="iconfont icon-left"></i>&nbsp;Hugo 升级后编译时 can&#39;t evaluate field RSSLink in type *hugolib.pageState 问题解决方案</a>
+        <a href="http://jonathanwayy.xyz/2022/prn212/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn213/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Unsupervised Lifelong Person ReID via Contrastive Rehearsal (2022)">[论文阅读笔记 -- ReID] Unsupervised Lifelong Person ReID via Contrastive Rehearsal (2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -287,7 +306,7 @@ $$\theta_{t} \leftarrow \lambda \theta_{t} + (1 - \lambda) \theta_{s},$$
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">700 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

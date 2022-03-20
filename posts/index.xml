@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 16 Mar 2022 01:08:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Mar 2022 17:31:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://jonathanwayy.xyz/2020/kliv/</link>
@@ -15,6 +15,24 @@
       
       <guid>http://jonathanwayy.xyz/2020/kliv/</guid>
       <description>   Kli Eng     HISlaH yes   ghobe&#39; no   je and   &amp;rsquo;ej and   &amp;lsquo;ach but   DaH now   wa&amp;rsquo;leS tomorrow   DaHjaj today   wa&amp;rsquo;Hu&amp;rsquo; yesterday   vay&#39; anyone, anybody   pagh no one, nobody   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   tlhIngan Klingon   tera&amp;rsquo;ngan Terran   Hol language   batlh honor   Qapla&#39; success   pong name   puq child   loD man   be&#39; woman   Duj ship   qach building   Dlvl&#39; English, federation, the Federation   Suvwl&#39; fighter, warroir   jagh enemy   mang soldier   muSwl&#39; hater   qoq robot   yuch chocolate   mu&#39; word   paq book   ram night   nagh stone   Ha&amp;rsquo;DIbaH meat, animal   Sargh sark   &amp;lsquo;avwl&amp;rsquo; guard   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   &amp;lsquo;oH is   jatlh speak   Qong sleep   qet run   yIt walk   Sup jump   yIn live, be alive   Hegh die   vum work   yaj understand   Suv fight   Ho&amp;rsquo; admire   vuv respect   HoH kill   legh see   voq trust   muS hate   plch blame   tl&#39; repair   Hub&#39; defend   Qal swim   ghaj have   laD read   &amp;lsquo;ol verify   SaH care   ghov recognize   Qoy hear   Suj disturb   boQ assist   &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-   mach little, small   tIn big   woch tall   val smart   Qlp stupid   Qup young   maw&amp;rsquo; crazy   Daj interesting   &amp;lsquo;IH beautiful, handsome   Dun wonderful, great   HoS strong   chuS noisy    </description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- ReID] Unsupervised Lifelong Person ReID via Contrastive Rehearsal (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn213/</link>
+      <pubDate>Sat, 19 Mar 2022 17:31:41 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn213/</guid>
+      <description>2203.06468 Unsupervised Lifelong Person Re-identification via Contrastive Rehearsal (2022) 开源代码传送门 概述 Lifelong Person ReID 任务，本文用无监督域自适应替代监督的跨域微调，提出无监督终身行人重识别任务。 本文将基于伪标签的对比</description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- ReID] Part-Aware Self-Supervised Pre-Training for Person ReID (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn212/</link>
+      <pubDate>Wed, 16 Mar 2022 08:16:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn212/</guid>
+      <description>2203.03931 Part-Aware Self-Supervised Pre-Training for Person Re-identification (2022) 开源代码传送门 概述 研究表明在 LUPerson 上无监督预训练的表现比 ImageNet 上监督预训练更好。先前的工作直接采用现有的分类任务上的 SSL 方法，并不能完</description>
     </item>
     
     <item>
