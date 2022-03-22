@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 20 Mar 2022 20:59:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 11:02:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome Wallpapers</title>
+      <link>http://jonathanwayy.xyz/categories/awesome-wallpapers/</link>
+      <pubDate>Tue, 22 Mar 2022 11:02:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/categories/awesome-wallpapers/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Paper Reading Notes</title>
       <link>http://jonathanwayy.xyz/categories/paper-reading-notes/</link>
@@ -23,15 +32,6 @@
       <pubDate>Wed, 16 Mar 2022 01:08:48 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/categories/toss-about-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Awesome Wallpapers</title>
-      <link>http://jonathanwayy.xyz/categories/awesome-wallpapers/</link>
-      <pubDate>Mon, 14 Mar 2022 22:17:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/categories/awesome-wallpapers/</guid>
       <description></description>
     </item>
     
