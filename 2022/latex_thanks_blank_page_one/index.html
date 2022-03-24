@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/bg53/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn217/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn217/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] A Novel Mix-normalization Method for Generalizable MS ReID (2022) | Jonathan`s Blog
+           Latex 使用 thanks 脚注后多出一个空白页问题解决办法 | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] A Novel Mix-normalization Method for Generalizable MS ReID (2022) | Jonathan`s Blog">
+  <meta name="title" content="Latex 使用 thanks 脚注后多出一个空白页问题解决办法 | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] A Novel Mix-normalization Method for Generalizable MS ReID (2022)",
-    "headline" : "[论文阅读笔记 -- ReID] A Novel Mix-normalization Method for Generalizable MS ReID (2022)",
-    "description" : "2201.09846 A Novel Mix-normalization Method for Generalizable Multi-source Person Re-identification (2022) 概述 本文旨在从数据增广角度出发，解决 generalizable multi-source person ReID 任务。 传统的 batch normalization 用相同的统计量来归一化一个 batch 中的所有样本，这可能会导致在训",
+    "name" : "Latex 使用 thanks 脚注后多出一个空白页问题解决办法",
+    "headline" : "Latex 使用 thanks 脚注后多出一个空白页问题解决办法",
+    "description" : "问题描述 在 LaTex 中使用如下命令添加作者及其单位： \\author{A, B, C} \\thanks{A is xxxxxx, B is xxxxxx, C is xxxxxx} 编译后发现在文档最开头多出了一个空白页。 原因分析 \\thanks 放在 \\author 命令外面，导致其",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-03-23 21:28:42 \u002b0800 CST",
-    "dateModified" : "2022-03-23 21:28:42 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn217\/",
-    "wordCount" : "381",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
+    "datePublished": "2022-03-24 14:50:13 \u002b0800 CST",
+    "dateModified" : "2022-03-24 14:50:13 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/latex_thanks_blank_page_one\/",
+    "wordCount" : "111",
+    "keywords" : [ "cv","notes","deep learning","acm","latex","paperwriting", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,27 +160,25 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] A Novel Mix-normalization Method for Generalizable MS ReID (2022)</h1>
+        <h1 class="post-title" itemprop="name headline">Latex 使用 thanks 脚注后多出一个空白页问题解决办法</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-03-23 itemprop="datePublished">March 23, 2022</time>
+                on <time datetime=2022-03-24 itemprop="datePublished">March 24, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        <a href="http://jonathanwayy.xyz/categories/things-about-latex-md/"> Things About Latex &amp; MD </a>
                         
                 </span>
-                <span class="post-word-count">, 381 words</span>
+                <span class="post-word-count">, 111 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -194,25 +192,22 @@
           
           
 
-          <h1 id="220109846-a-novel-mix-normalization-method-for-generalizable-multi-source-person-re-identification-2022">2201.09846 A Novel Mix-normalization Method for Generalizable Multi-source Person Re-identification (2022)</h1>
-<h2 id="概述">概述</h2>
-<p>本文旨在从数据增广角度出发，解决 generalizable multi-source person ReID 任务。</p>
-<p>传统的 batch normalization 用相同的统计量来归一化一个 batch 中的所有样本，这可能会导致在训练过程中学习到固定的模式，进而使得模型在可见源域上过拟合。</p>
-<p>为了解决这一问题，本文提出一种 domain-aware mix-normalization (DMN) 以实现特征增广，其随机选择不同的域来生成一个 batch 中混合的统计量，用于对所选域中样本做归一化。</p>
-<p>此外，本文采用一种 domain-aware center regularization (DCR) 来用多样化的特征更好地训练模型，其能够将所有特征有效映射到同一空间里。</p>
-<p>两种方法结合使用，构成了本文所提出的 MixNorm 方法。</p>
-<p><img src="/images/2022/PRN217/1.png" alt="Fig 1"></p>
-<h2 id="本文方法">本文方法</h2>
-<h3 id="domain-aware-mix-normalization">Domain-aware Mix-normalization</h3>
-<p>从 \(D\) 个源域中分别随机选取 \(P\) 个样本构成一个 batch。</p>
-<p>随机组合不同的域，以得到多样化的统计量。首先生成一个小于 \(D - 1\) 的随机数 \(C\)，进而选择 \(C\) 个域，作为整体进行归一化，如此往复，剩下不足时全部用上。</p>
-<p>测试时和 BN 类似。</p>
-<p><img src="/images/2022/PRN217/A1.png" alt="Alg 1"></p>
-<h3 id="domain-aware-center-regularization">Domain-aware Center Regularization</h3>
-<p>旨在减小不同域之间的鸿沟，定义为：</p>
-<p>$$L_{dcr} = \sum_{d=1}^D \sum_{p=1}^P ||r[d \times p, :] - \overline{r}||_{2}^2.$$</p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2022/PRN217/5.png" alt="Fig 5"></p>
+          <h2 id="问题描述">问题描述</h2>
+<p>在 LaTex 中使用如下命令添加作者及其单位：</p>
+<pre tabindex="0"><code>\author{A, B, C}
+\thanks{A is xxxxxx,
+B is xxxxxx,
+C is xxxxxx}
+</code></pre><p>编译后发现在文档最开头多出了一个空白页。</p>
+<h2 id="原因分析">原因分析</h2>
+<p><code>\thanks</code> 放在 <code>\author</code> 命令外面，导致其单独成页。</p>
+<h2 id="解决办法">解决办法</h2>
+<p>改成如下形式即可：</p>
+<pre tabindex="0"><code>\author{A, B, C
+\thanks{A is xxxxxx,
+B is xxxxxx,
+C is xxxxxx}}
+</code></pre><p>再编译就没有空白页了。</p>
 
     </div>
 
@@ -227,7 +222,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn217/>http://jonathanwayy.xyz/2022/prn217/</span>
+                    <a href=http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/>http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -247,23 +242,23 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
-                    #paper reading</a></span>
-            
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
                     #cv</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/deep-learning/">
+                    #deep learning</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
-                    #retrieval</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/acm/">
+                    #acm</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
-                    #ReID</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/latex/">
+                    #latex</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paperwriting/">
+                    #paperwriting</a></span>
             
             </section>
         
@@ -275,10 +270,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/bg53/" class="prev" rel="prev" title="壁纸分享[53]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[53]</a>
+        <a href="http://jonathanwayy.xyz/2022/prn217/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] A Novel Mix-normalization Method for Generalizable MS ReID (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] A Novel Mix-normalization Method for Generalizable MS ReID (2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/" class="next" rel="next" title="Latex 使用 thanks 脚注后多出一个空白页问题解决办法">Latex 使用 thanks 脚注后多出一个空白页问题解决办法&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -287,7 +282,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
@@ -325,9 +320,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 
