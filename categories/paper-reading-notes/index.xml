@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Mar 2022 15:01:42 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Apr 2022 17:39:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Uncertainty-Aware Multi-Shot Knowledge Distillation for ReID (AAAI 2020)</title>
+      <link>http://jonathanwayy.xyz/2022/prn219/</link>
+      <pubDate>Thu, 07 Apr 2022 17:39:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn219/</guid>
+      <description>Uncertainty-Aware Multi-Shot Knowledge Distillation for Image-Based Object Re-Identification (AAAI 2020) 概述 本文提出一种不确定性可知的多设教师-学生网络 (Uncertainty-aware Multi-shot Teacher-Student Network, UMTS)，包含一个教师网络和一个学生网络，利用多张图像来增强表</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Cross-Modality Earth Mover’s Distance for Visible Thermal ReID (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn218/</link>
