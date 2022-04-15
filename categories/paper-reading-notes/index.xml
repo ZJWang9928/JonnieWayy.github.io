@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 07 Apr 2022 17:39:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 21:46:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Cloning Outfits from Real-World Images to 3D Characters (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn220/</link>
+      <pubDate>Thu, 14 Apr 2022 21:46:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn220/</guid>
+      <description>2204.02611 Cloning Outfits from Real-World Images to 3D Characters for Generalizable Person Re-Identification (2022) 概述 本文直接自动从真实行人图像克隆得到虚拟 3D 人物。 数据集对比</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Uncertainty-Aware Multi-Shot Knowledge Distillation for ReID (AAAI 2020)</title>
       <link>http://jonathanwayy.xyz/2022/prn219/</link>
