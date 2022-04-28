@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 27 Apr 2022 10:29:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Apr 2022 20:01:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Uncertainty-based CMR with Probabilistic Representations (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn224/</link>
+      <pubDate>Thu, 28 Apr 2022 20:01:57 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn224/</guid>
+      <description>2204.09268 Uncertainty-based Cross-Modal Retrieval with Probabilistic Representations (2022) 概述 不确定性的来源 文本方面主要来自单词和短语的一词多义 图像方面主要来自图像形成阶段，如遮挡等情况 同一张图像可以从许多不同角度</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Probabilistic Compositional Embeddings for MM IR (CVPRW 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn223/</link>
