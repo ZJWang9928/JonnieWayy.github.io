@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn221/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn223/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn222/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn222/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn223/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 跨模态预训练] LiT: Zero-Shot Transfer with Locked-image text Tuning (2022) | Jonathan`s Blog
+           [论文阅读笔记 -- 跨模态检索] Probabilistic Compositional Embeddings for MM IR (CVPRW 2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 跨模态预训练] LiT: Zero-Shot Transfer with Locked-image text Tuning (2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 跨模态检索] Probabilistic Compositional Embeddings for MM IR (CVPRW 2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 跨模态预训练] LiT: Zero-Shot Transfer with Locked-image text Tuning (2022)",
-    "headline" : "[论文阅读笔记 -- 跨模态预训练] LiT: Zero-Shot Transfer with Locked-image text Tuning (2022)",
-    "description" : "2111.07991 LiT: Zero-Shot Transfer with Locked-image text Tuning (2022) 概述 零射迁移 (zero-shot transfer)，不同于传统零射学习，其预训练过程中看不到迁移相关的监督信息。 本文提出采用对比学习架构，提",
+    "name" : "[论文阅读笔记 -- 跨模态检索] Probabilistic Compositional Embeddings for MM IR (CVPRW 2022)",
+    "headline" : "[论文阅读笔记 -- 跨模态检索] Probabilistic Compositional Embeddings for MM IR (CVPRW 2022)",
+    "description" : "2204.05845 Probabilistic Compositional Embeddings for Multimodal Image Retrieval (CVPRW 2022) 开源代码传送门 概述 本文关注多模态图像检索 (multimodal image retrieval) 任务，其 query 包含任意数量的图文数据，并提出了一种 Multimodal Probabilistic Composer (MPC)。 本文方法 Modality-Specific",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-04-24 16:44:47 \u002b0800 CST",
-    "dateModified" : "2022-04-24 16:44:47 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn222\/",
-    "wordCount" : "400",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","CLIP","pretraining", "Jonathan`s Blog"]
+    "datePublished": "2022-04-27 10:29:18 \u002b0800 CST",
+    "dateModified" : "2022-04-27 10:29:18 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn223\/",
+    "wordCount" : "377",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","uncertainty", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态预训练] LiT: Zero-Shot Transfer with Locked-image text Tuning (2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 跨模态检索] Probabilistic Compositional Embeddings for MM IR (CVPRW 2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-04-24 itemprop="datePublished">April 24, 2022</time>
+                on <time datetime=2022-04-27 itemprop="datePublished">April 27, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 400 words</span>
+                <span class="post-word-count">, 377 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,24 +194,36 @@
           
           
 
-          <h1 id="211107991-lit-zero-shot-transfer-with-locked-image-text-tuning-2022">2111.07991 LiT: Zero-Shot Transfer with Locked-image text Tuning (2022)</h1>
-<p><img src="/images/2022/PRN222/1.png" alt="Fig 1"></p>
+          <h1 id="220405845-probabilistic-compositional-embeddings-for-multimodal-image-retrieval-cvprw-2022">2204.05845 Probabilistic Compositional Embeddings for Multimodal Image Retrieval (CVPRW 2022)</h1>
+<p><a href="https://github.com/andreineculai/MPC">开源代码传送门</a></p>
+<p><img src="/images/2022/PRN223/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>零射迁移 (zero-shot transfer)，不同于传统零射学习，其预训练过程中看不到迁移相关的监督信息。</p>
-<p>本文提出采用对比学习架构，提出一种对比微调 (contrastive-tuning) 策略，称为 Locked-image Tuning (LiT)，用预训练的视觉模型结合图文数据来微调文本模型，视觉模型锁定得到的表现最好。</p>
-<p>本文认为 LiT 表现好的原因在于学习图像描述器与图文对齐时数据与技术的分离。图文数据能有助于学习自然语言与视觉世界之间的相关性，但可能不够精确。</p>
-<p><img src="/images/2022/PRN222/2.png" alt="Fig 2"></p>
+<p>本文关注多模态图像检索 (multimodal image retrieval) 任务，其 query 包含任意数量的图文数据，并提出了一种 Multimodal Probabilistic Composer (MPC)。</p>
+<p><img src="/images/2022/PRN223/2.png" alt="Fig 2"></p>
 <h2 id="本文方法">本文方法</h2>
-<h3 id="对比预训练">对比预训练</h3>
-<p>对比损失的一个重要细节在于其是在各加速设备上独立计算后聚合还是在所有设备上联合计算，实验表明后者表现更好。</p>
-<h3 id="对比微调">对比微调</h3>
-<p>对比预训练可以视为同时学习两个任务：</p>
-<ul>
-<li>学习图像嵌入</li>
-<li>学习与图像嵌入空间对齐的文本嵌入</li>
-</ul>
-<p>除了成对预训练之外学习图像嵌入的一种方法是利用大规模标注的图像数据集，但这种方法受限于有限的类别。图文数据就没有这样的限制，但是可能数据质量更差。</p>
-<p>本文采用的对比微调就是旨在结合两种源数据的优点。</p>
+<h3 id="modality-specific-probabilistic-embeddings">Modality-Specific Probabilistic Embeddings</h3>
+<h4 id="图像编码器">图像编码器</h4>
+<p>ResNet-50</p>
+<h4 id="文本编码器">文本编码器</h4>
+<p>GloVe + Bi-GRU</p>
+<h4 id="probabilistic-embeddings">Probabilistic Embeddings</h4>
+<p>将各嵌入建模为多元高斯概率密度函数，这样一来不同嵌入的整合可以通过整合不同的高斯 PDF 得到。</p>
+<p>建模方式如下：</p>
+<p>$$\mu_{m} = LN(z_{m} + s(fc(attn(\phi_{m})))),$$
+$$log(\sigma_{m}^{2}) = z_{m} + fc(attn(\phi_{m})).$$</p>
+<h3 id="probabilistic-composer">Probabilistic Composer</h3>
+<p>旨在找到一个概率分布，能够整合所有独立的概率分布。</p>
+<h3 id="模型优化">模型优化</h3>
+<h4 id="probabilistic-similarity">Probabilistic Similarity</h4>
+<p>用于量化两个概率分布之间的相似度，一种方法是采用蒙特-卡洛估计，从两个分布个采样 \(J\) 个数据点：</p>
+<p>$$sim(p(z|x), p(z|y)) = \frac{1}{J^2} \sum_{i=1}^J \sum_{j=1}^J \kappa(z_{i}^{x}, z_{j}^{y}),$$</p>
+<p>其中 \(\kappa\) 表示余弦相似度。</p>
+<p>但是本文整合后的高斯分布由常值 \(Z\) 变换过，无法直接如上计算。本文先从目标分布采样 \(J\) 个数据点，进而将其赋予整合得到的分布以计算概率相似度分数，相似度函数定义为这些概率分数的对数：</p>
+<p>$$sim(p(z|S), p(z|t)) = \frac{1}{J} \sum_{i=1}^{J} log(\mathcal{N} (z_{i}^t; \mu_{c}, \Sigma_{c})Z).$$</p>
+<h4 id="损失函数">损失函数</h4>
+<p>模型的优化用到对比损失和对于方差对数的 \(\mathcal{l}_{2}\) 正则化项。</p>
+<h2 id="可视化示例">可视化示例</h2>
+<p><img src="/images/2022/PRN223/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -226,7 +238,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn222/>http://jonathanwayy.xyz/2022/prn222/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn223/>http://jonathanwayy.xyz/2022/prn223/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -258,11 +270,11 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
                     #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/clip/">
-                    #CLIP</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/retrieval/">
+                    #retrieval</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/pretraining/">
-                    #pretraining</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/uncertainty/">
+                    #uncertainty</a></span>
             
             </section>
         
@@ -274,10 +286,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn221/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态预训练] Democratizing Contrastive Language-Image Pre-training (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态预训练] Democratizing Contrastive Language-Image Pre-training (2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn222/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态预训练] LiT: Zero-Shot Transfer with Locked-image text Tuning (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态预训练] LiT: Zero-Shot Transfer with Locked-image text Tuning (2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn223/" class="next" rel="next" title="[论文阅读笔记 -- 跨模态检索] Probabilistic Compositional Embeddings for MM IR (CVPRW 2022)">[论文阅读笔记 -- 跨模态检索] Probabilistic Compositional Embeddings for MM IR (CVPRW 2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -286,7 +298,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">500 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
