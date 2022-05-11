@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 08 May 2022 16:30:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2022 10:12:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Clothes-Changing Person ReID with RGB Modality Only (CVPR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn226/</link>
+      <pubDate>Wed, 11 May 2022 10:12:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn226/</guid>
+      <description>Clothes-Changing Person Re-identification with RGB Modality Only (CVPR 2022) 开源代码传送门 概述 CCReID 任务。 本文旨在更好地从 RGB 模态挖掘与衣着无关的信息，而不借助额外模态，提出一种基于衣着的对抗损失 (Clothes-based Adversarial Loss, C</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Lifelong Person ReID by Pseudo Task Knowledge Preservation (AAAI 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn225/</link>
