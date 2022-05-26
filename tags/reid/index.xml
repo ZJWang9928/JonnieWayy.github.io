@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 10 May 2022 10:12:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 May 2022 12:13:58 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Scalable Vehicle Re-Identification via Self-Supervision (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn228/</link>
+      <pubDate>Thu, 26 May 2022 12:13:58 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn228/</guid>
+      <description>2205.07613 Scalable Vehicle Re-Identification via Self-Supervision (2022) 概述 本文提出一种 Self-Supervised and Boosted VEhicle Re-Identification (SSBVER) 方法，包含一个学生网络和一个教师网络，二者结构相同。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Clothes-Changing Person ReID with RGB Modality Only (CVPR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn226/</link>
