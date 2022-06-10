@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 26 May 2022 12:13:58 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jun 2022 20:50:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Identity-Guided Human Semantic Parsing for Person ReID (ECCV 2020)</title>
+      <link>http://jonathanwayy.xyz/2022/prn230/</link>
+      <pubDate>Thu, 09 Jun 2022 20:50:18 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn230/</guid>
+      <description>Identity-Guided Human Semantic Parsing for Person Re-Identification (ECCV 2020) 开源代码传送门 概述 本文提出一种身份指导的语义解析方法 (Identity-guided Semantic Parsing, ISP)，通过行人身份标签定位躯干部分和物件。</description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- ReID] Super‐resolution‐based Part Collaboration Network for VReID (WWW 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn229/</link>
+      <pubDate>Tue, 07 Jun 2022 14:52:12 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn229/</guid>
+      <description>Super‐resolution‐based Part Collaboration Network for Vehicle Re‐identification (WWW 2022) 概述 Vehicle ReID 的两个主要困难 Intra-instance Difference Inter-instance Similarity 本文提出一种双分支</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Scalable Vehicle Re-Identification via Self-Supervision (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn228/</link>
