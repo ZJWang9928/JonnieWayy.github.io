@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 22 Sep 2021 13:14:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/unsupervised/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 14:13:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/unsupervised/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Online Unsupervised Domain Adaptation for Person Re-identification (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn231/</link>
+      <pubDate>Sat, 11 Jun 2022 14:13:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn231/</guid>
+      <description>2205.04383 Online Unsupervised Domain Adaptation for Person Re-identification (2022) 概述 两类用于 ReID 的 UDA 方法 Domain Translation-based Methods Pseudo-label based Methods 这些方法都假设能够在训练过程中获取到一大批来自目标域的样本，从而进行离线 (offline) 的自适应。而本</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 图像标注] Unsupervised Image Captioning (CVPR 2019)</title>
       <link>http://jonathanwayy.xyz/2021/prn99/</link>
