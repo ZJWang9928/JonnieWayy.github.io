@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 15:57:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 19:04:06 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] CM ReID via Modality-aware Collaborative Ensemble Learning (TIP 2020)</title>
+      <link>http://jonathanwayy.xyz/2022/prn235/</link>
+      <pubDate>Mon, 13 Jun 2022 19:04:06 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn235/</guid>
+      <description>Cross-Modality Person Re-Identification via Modality-aware Collaborative Ensemble Learning (TIP 2020) 概述 本文提出一种借助中间级别可共享双分支网络 (middle-level sharable two-stream network, MSTN) 的模态可知协作集成学习方法 (modality-aware collaborative ensemble learning, MACE)，其基本想法是在特征级</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Learning Memory-Augmented Unidirectional Metrics for ReID (CVPR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn234/</link>
