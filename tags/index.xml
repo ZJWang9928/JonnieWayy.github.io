@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 15:23:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 15:57:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Mon, 13 Jun 2022 15:57:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Mon, 13 Jun 2022 15:57:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Mon, 13 Jun 2022 15:57:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Mon, 13 Jun 2022 15:57:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Mon, 13 Jun 2022 15:57:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Mon, 13 Jun 2022 15:57:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>3D</title>
       <link>http://jonathanwayy.xyz/tags/3d/</link>
@@ -18,65 +72,11 @@
     </item>
     
     <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Group ReID</title>
       <link>http://jonathanwayy.xyz/tags/group-reid/</link>
       <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/group-reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     

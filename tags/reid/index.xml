@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 15:23:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 15:57:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Learning Memory-Augmented Unidirectional Metrics for ReID (CVPR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn234/</link>
+      <pubDate>Mon, 13 Jun 2022 15:57:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn234/</guid>
+      <description>Learning Memory-Augmented Unidirectional Metrics for Cross-modality Person Re-identification (CVPR 2022) 概述 本文提出一种 Memory-Augmented Unidirectional Metric (MAUM) 学习方法。 其学习两个单向的尺度，即 IR to RGB 和 RGB to IR，而非通常的一个公共中转，得到两个模态特定的代</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- GReID] Modeling 3D Layout For Group Re-Identification (CVPR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn233/</link>
