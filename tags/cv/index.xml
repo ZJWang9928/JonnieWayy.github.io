@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 19:04:06 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jun 2022 10:17:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Salient-to-Broad Transition for Video Person Re-identification (CVPR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn236/</link>
+      <pubDate>Tue, 14 Jun 2022 10:17:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn236/</guid>
+      <description>Salient-to-Broad Transition for Video Person Re-identification (CVPR 2022) 开源代码传送门 概述 现有方法的两大不足： 注意力中心集中于显著但是局部的区域，扩大注意力区域能够进一步增强鲁棒性 帧之间时序关联即</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] CM ReID via Modality-aware Collaborative Ensemble Learning (TIP 2020)</title>
       <link>http://jonathanwayy.xyz/2022/prn235/</link>
