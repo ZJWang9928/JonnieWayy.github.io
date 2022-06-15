@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 15 Jun 2022 10:44:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jun 2022 15:34:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] TeachText: CrossModal Generalized Distillation for TVR (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn239/</link>
+      <pubDate>Wed, 15 Jun 2022 15:34:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn239/</guid>
+      <description>TeachText: CrossModal Generalized Distillation for Text-Video Retrieval (ICCV 2021) 开源代码传送门 概述 本文提出 TEACHTEXT，充分利用来自多个文本编码器的额外信息。 不同文本嵌入的影响 本文发现很多 query 都对所</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Disentangled Representation Learning for Text-Video Retrieval (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn238/</link>
