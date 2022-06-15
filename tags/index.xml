@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 15 Jun 2022 10:44:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jun 2022 14:56:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kde</title>
+      <link>http://jonathanwayy.xyz/tags/kde/</link>
+      <pubDate>Wed, 15 Jun 2022 14:56:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <pubDate>Wed, 15 Jun 2022 14:56:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
+      <pubDate>Wed, 15 Jun 2022 14:56:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wallpaper</title>
+      <link>http://jonathanwayy.xyz/tags/wallpaper/</link>
+      <pubDate>Wed, 15 Jun 2022 14:56:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
@@ -131,42 +167,6 @@
       <pubDate>Tue, 07 Jun 2022 14:52:12 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/super-resolution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kde</title>
-      <link>http://jonathanwayy.xyz/tags/kde/</link>
-      <pubDate>Wed, 01 Jun 2022 16:26:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
-      <pubDate>Wed, 01 Jun 2022 16:26:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>manjaro</title>
-      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
-      <pubDate>Wed, 01 Jun 2022 16:26:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wallpaper</title>
-      <link>http://jonathanwayy.xyz/tags/wallpaper/</link>
-      <pubDate>Wed, 01 Jun 2022 16:26:48 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
       <description></description>
     </item>
     
