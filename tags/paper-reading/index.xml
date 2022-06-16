@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Jun 2022 13:50:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jun 2022 16:20:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Id-Free Person Similarity Learning (CVPR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn241/</link>
+      <pubDate>Thu, 16 Jun 2022 16:20:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn241/</guid>
+      <description>Id-Free Person Similarity Learning (CVPR 2022) 概述 本文旨在仅利用 bounding box 作为监督信息学习行人搜索模型，称为 PointID。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Cross-modal Local Shortest Path and Global Enhancement (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn240/</link>
