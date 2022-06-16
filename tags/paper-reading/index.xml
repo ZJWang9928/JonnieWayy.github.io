@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 15 Jun 2022 15:34:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jun 2022 13:50:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Cross-modal Local Shortest Path and Global Enhancement (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn240/</link>
+      <pubDate>Thu, 16 Jun 2022 13:50:07 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn240/</guid>
+      <description>2206.04401 Cross-modal Local Shortest Path and Global Enhancement for Visible-Thermal Person Re-Identification (2022) 概述 本文构建了跨模态的局部最短路模块和全局增强模块，核心思想在于利用局部特征对齐解决遮挡问题，通过增强全局特征解决</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] TeachText: CrossModal Generalized Distillation for TVR (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn239/</link>
