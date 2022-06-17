@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Jun 2022 16:20:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jun 2022 13:27:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Doppelganger Saliency: Towards More Ethical Person ReID (CVPRW 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn242/</link>
+      <pubDate>Fri, 17 Jun 2022 13:27:43 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn242/</guid>
+      <description>Doppelganger Saliency: Towards More Ethical Person Re-Identification (CVPRW 2022) 概述 本文关注 ReID 模型的可解释性及其对于相似行人图像的区分。 本文方法</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Id-Free Person Similarity Learning (CVPR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn241/</link>
