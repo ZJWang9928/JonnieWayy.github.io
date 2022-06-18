@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 17 Jun 2022 13:27:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jun 2022 17:05:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] FMCNet: Feature-Level Modality Compensation for VI ReID (CVPR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn243/</link>
+      <pubDate>Sat, 18 Jun 2022 17:05:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn243/</guid>
+      <description>FMCNet: Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification (CVPR 2022) 概述 本文提出一种特征级别的模态弥补网络 (Feature-level Modality Compensation Network, FMCNet)。 模型架构 MD Loss FMC Module</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Doppelganger Saliency: Towards More Ethical Person ReID (CVPRW 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn242/</link>
