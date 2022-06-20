@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn242/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn244/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn243/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn243/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn244/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] FMCNet: Feature-Level Modality Compensation for VI ReID (CVPR 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] LUDA ReID with Coordinated Anti-forgetting and Adaptation (CVPR 2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] FMCNet: Feature-Level Modality Compensation for VI ReID (CVPR 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] LUDA ReID with Coordinated Anti-forgetting and Adaptation (CVPR 2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] FMCNet: Feature-Level Modality Compensation for VI ReID (CVPR 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] FMCNet: Feature-Level Modality Compensation for VI ReID (CVPR 2022)",
-    "description" : "FMCNet: Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification (CVPR 2022) 概述 本文提出一种特征级别的模态弥补网络 (Feature-level Modality Compensation Network, FMCNet)。 模型架构 MD Loss FMC Module",
+    "name" : "[论文阅读笔记 -- ReID] LUDA ReID with Coordinated Anti-forgetting and Adaptation (CVPR 2022)",
+    "headline" : "[论文阅读笔记 -- ReID] LUDA ReID with Coordinated Anti-forgetting and Adaptation (CVPR 2022)",
+    "description" : "Lifelong Unsupervised Domain Adaptive Person Re-identification with Coordinated Anti-forgetting and Adaptation (CVPR 2022) 数据集传送门 概述 LL ReID 连续的监督域自适应任务 需要大量目标域中的标注，费时费力不适合快速自适应及隐私保护 旨在平衡抑制遗",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-06-18 17:05:55 \u002b0800 CST",
-    "dateModified" : "2022-06-18 17:05:55 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn243\/",
-    "wordCount" : "49",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
+    "datePublished": "2022-06-19 14:40:14 \u002b0800 CST",
+    "dateModified" : "2022-06-19 14:40:14 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn244\/",
+    "wordCount" : "362",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","lifelong", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] FMCNet: Feature-Level Modality Compensation for VI ReID (CVPR 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] LUDA ReID with Coordinated Anti-forgetting and Adaptation (CVPR 2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-06-18 itemprop="datePublished">June 18, 2022</time>
+                on <time datetime=2022-06-19 itemprop="datePublished">June 19, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 49 words</span>
+                <span class="post-word-count">, 362 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,17 +194,33 @@
           
           
 
-          <h1 id="fmcnet-feature-level-modality-compensation-for-visible-infrared-person-re-identification-cvpr-2022">FMCNet: Feature-Level Modality Compensation for Visible-Infrared Person Re-Identification (CVPR 2022)</h1>
-<p><img src="/images/2022/PRN243/1.png" alt="Fig 1"></p>
+          <h1 id="lifelong-unsupervised-domain-adaptive-person-re-identification-with-coordinated-anti-forgetting-and-adaptation-cvpr-2022">Lifelong Unsupervised Domain Adaptive Person Re-identification with Coordinated Anti-forgetting and Adaptation (CVPR 2022)</h1>
+<p><a href="https://iccv2021-mmp.github.io/subpage/dataset.html">数据集传送门</a></p>
+<p><img src="/images/2022/PRN244/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种特征级别的模态弥补网络 (Feature-level Modality Compensation Network, FMCNet)。</p>
-<h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2022/PRN243/2.png" alt="Fig 2"></p>
-<h3 id="md-loss">MD Loss</h3>
-<p><img src="/images/2022/PRN243/3.png" alt="Fig 3"></p>
-<p><img src="/images/2022/PRN243/4.png" alt="Fig 4"></p>
-<h3 id="fmc-module">FMC Module</h3>
-<p><img src="/images/2022/PRN243/5.png" alt="Fig 5"></p>
+<h3 id="ll-reid">LL ReID</h3>
+<ul>
+<li>连续的监督域自适应任务</li>
+<li>需要大量目标域中的标注，费时费力不适合快速自适应及隐私保护</li>
+<li>旨在平衡抑制遗忘与自适应，但对二者的协调缺乏考量</li>
+</ul>
+<p>本文提出 Lifelong Unsupervised Domain Adaptive (LUDA) Person ReID 任务，其无需目标域中的标注。</p>
+<p>本文设计了 CLUDA-ReID 策略，期望对遗忘的抑制能够促进自适应，通过避免对新数据的过拟合并学习泛化性能更强的特征，在目标域改变或重现时实现快速的自适应。</p>
+<h3 id="两种场景">两种场景</h3>
+<ul>
+<li>静态目标流：只有新的 ID 增加，域的特征相对稳定，可以认为不存在分布偏移</li>
+<li>动态目标流：域的特征同样在变化</li>
+</ul>
+<p><img src="/images/2022/PRN244/2.png" alt="Fig 2"></p>
+<h2 id="本文方法">本文方法</h2>
+<h3 id="coordinated-data-replay-cdr">Coordinated Data Replay (CDR)</h3>
+<p>回忆旧知识与捕获新知识可以视为两个任务，CDR 旨在让二者互相协调促进。</p>
+<h3 id="relational-consistency-learning-rcl">Relational Consistency Learning (RCL)</h3>
+<h4 id="现有知识蒸馏防止灾难性遗忘问题在-luda-reid-上的不足">现有知识蒸馏防止灾难性遗忘问题在 LUDA ReID 上的不足</h4>
+<ul>
+<li>ReID 任务学习排序这一特性在设计知识蒸馏损失函数时未被充分考虑</li>
+<li>保存于过去一个时刻的旧模型对于潜训练过程中潜在的扰动不够健壮</li>
+</ul>
 
     </div>
 
@@ -219,7 +235,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn243/>http://jonathanwayy.xyz/2022/prn243/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn244/>http://jonathanwayy.xyz/2022/prn244/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -257,6 +273,9 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
                     #ReID</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/lifelong/">
+                    #lifelong</a></span>
+            
             </section>
         
         <section>
@@ -267,10 +286,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn242/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Doppelganger Saliency: Towards More Ethical Person ReID (CVPRW 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Doppelganger Saliency: Towards More Ethical Person ReID (CVPRW 2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn243/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] FMCNet: Feature-Level Modality Compensation for VI ReID (CVPR 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] FMCNet: Feature-Level Modality Compensation for VI ReID (CVPR 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn244/" class="next" rel="next" title="[论文阅读笔记 -- ReID] LUDA ReID with Coordinated Anti-forgetting and Adaptation (CVPR 2022)">[论文阅读笔记 -- ReID] LUDA ReID with Coordinated Anti-forgetting and Adaptation (CVPR 2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -279,7 +298,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
