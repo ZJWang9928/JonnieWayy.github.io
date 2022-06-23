@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Jun 2022 14:40:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jun 2022 15:31:35 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Hierarchical VT KD for Life-Long Correlation Learning (IJCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn245/</link>
+      <pubDate>Wed, 22 Jun 2022 15:31:35 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn245/</guid>
+      <description>Hierarchical Visual-Textual Knowledge Distillation for Life-Long Correlation Learning (IJCV 2021) 概述 本文提出一种视觉-文本终身知识蒸馏方法 (Visual-textual Life-long Knowledge Distillation approach, VLKD)，在语义与注意力级别利用从现有数据中学习到的知识。 核心思路</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] LUDA ReID with Coordinated Anti-forgetting and Adaptation (CVPR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn244/</link>
