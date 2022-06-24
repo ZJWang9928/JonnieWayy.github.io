@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 22 Jun 2022 15:31:35 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jun 2022 14:06:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Emphasizing Comple. Samples for Non-literal CMR (CVPRW 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn246/</link>
+      <pubDate>Fri, 24 Jun 2022 14:06:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn246/</guid>
+      <description>Emphasizing Complementary Samples for Non-literal Cross-modal Retrieval (CVPRW 2022) 概述 本文提出图像与文本之间关系存在远近，设计了两种度量： DISCREPANCY: 一阶，样本与其邻居的邻居之间的关系 DIVERSITY: 二阶，样本的邻居与其他邻居之</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Hierarchical VT KD for Life-Long Correlation Learning (IJCV 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn245/</link>
