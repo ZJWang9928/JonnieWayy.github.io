@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 24 Jun 2022 14:06:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jun 2022 16:16:30 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cross-domain</title>
+      <link>http://jonathanwayy.xyz/tags/cross-domain/</link>
+      <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-domain/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Fri, 24 Jun 2022 14:06:24 +0800</pubDate>
+      <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +29,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 24 Jun 2022 14:06:24 +0800</pubDate>
+      <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +38,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 24 Jun 2022 14:06:24 +0800</pubDate>
+      <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -38,16 +47,25 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Fri, 24 Jun 2022 14:06:24 +0800</pubDate>
+      <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Fri, 24 Jun 2022 14:06:24 +0800</pubDate>
+      <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
@@ -59,15 +77,6 @@
       <pubDate>Wed, 22 Jun 2022 15:31:35 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Mon, 20 Jun 2022 14:40:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
     </item>
     
@@ -356,15 +365,6 @@
       <pubDate>Sat, 19 Feb 2022 21:06:23 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/lifelong-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-domain</title>
-      <link>http://jonathanwayy.xyz/tags/cross-domain/</link>
-      <pubDate>Wed, 16 Feb 2022 22:09:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-domain/</guid>
       <description></description>
     </item>
     
