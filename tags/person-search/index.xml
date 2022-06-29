@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>person search on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/person-search/</link>
+    <description>Recent content in person search on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Mon, 27 Jun 2022 13:41:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/person-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- Person Search] Weakly Supervised Sketch Based Person Search (ICMR 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn248/</link>
+      <pubDate>Mon, 27 Jun 2022 13:41:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn248/</guid>
+      <description>Weakly Supervised Sketch Based Person Search (ICMR 2021) 概述 弱监督 Sketch Based Person Search 任务，没有选框标注。 本文提出一种基于聚类与特征注意力的弱监督学习架构 (clustering and feature attention based weakly supervised learning framework, CFA)，并构建了 Sketch</description>
+    </item>
+    
+  </channel>
+</rss>
