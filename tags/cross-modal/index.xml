@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 27 Jun 2022 13:41:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jun 2022 18:06:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] TriReID: Towards MM ReID via Descriptive Fusion Model (ICMR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn249/</link>
+      <pubDate>Thu, 30 Jun 2022 18:06:40 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn249/</guid>
+      <description>TriReID: Towards Multi-Modal Person Re-Identification via Descriptive Fusion Model (ICMR 2022) 概述 本文提出以文本与草图相结合作为 query 的 ReID 任务，构建了 TriReID 数据集，提出一种描述性的融合模型 (Descriptive Fusion Model, DFM)。 TriReID 数据集 数据集对</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- Person Search] Weakly Supervised Sketch Based Person Search (ICMR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn248/</link>
