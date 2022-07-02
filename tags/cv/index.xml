@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 30 Jun 2022 18:06:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jul 2022 13:47:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn250/</link>
+      <pubDate>Sat, 02 Jul 2022 13:47:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn250/</guid>
+      <description>CADG: A Model Based on Cross Attention for Domain Generalization (2022) 概述 相比于集成学习，训练单个端到端模型来解决分布迁移问题更加可行。 本文设计了一种针对域泛化的交叉注意力 (Cross Attention for Domain Generalization, CAD</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] TriReID: Towards MM ReID via Descriptive Fusion Model (ICMR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn249/</link>

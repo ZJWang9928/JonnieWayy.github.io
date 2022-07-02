@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn249/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn250/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/bg58/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/bg58/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn250/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           壁纸分享[58] | Jonathan`s Blog
+           [论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="壁纸分享[58] | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "壁纸分享[58]",
-    "headline" : "壁纸分享[58]",
-    "description" : "",
+    "name" : "[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022)",
+    "headline" : "[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022)",
+    "description" : "CADG: A Model Based on Cross Attention for Domain Generalization (2022) 概述 相比于集成学习，训练单个端到端模型来解决分布迁移问题更加可行。 本文设计了一种针对域泛化的交叉注意力 (Cross Attention for Domain Generalization, CAD",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-07-01 13:24:40 \u002b0800 CST",
-    "dateModified" : "2022-07-01 13:24:40 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/bg58\/",
-    "wordCount" : "0",
-    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
+    "datePublished": "2022-07-02 13:47:20 \u002b0800 CST",
+    "dateModified" : "2022-07-02 13:47:20 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn250\/",
+    "wordCount" : "134",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","domain generalization", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,20 +160,20 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">壁纸分享[58]</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-07-01 itemprop="datePublished">July 1, 2022</time>
+                on <time datetime=2022-07-02 itemprop="datePublished">July 2, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 0 words</span>
+                <span class="post-word-count">, 134 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,16 +194,13 @@
           
           
 
-          <p><img src="/images/2020/01/wallpaper/571.jpg" alt="571">
-<img src="/images/2020/01/wallpaper/572.jpg" alt="572">
-<img src="/images/2020/01/wallpaper/573.jpg" alt="573">
-<img src="/images/2020/01/wallpaper/574.webp" alt="574">
-<img src="/images/2020/01/wallpaper/575.jpg" alt="575">
-<img src="/images/2020/01/wallpaper/576.png" alt="576">
-<img src="/images/2020/01/wallpaper/577.webp" alt="577">
-<img src="/images/2020/01/wallpaper/578.jpg" alt="578">
-<img src="/images/2020/01/wallpaper/579.jpg" alt="579">
-<img src="/images/2020/01/wallpaper/580.jpg" alt="580"></p>
+          <h1 id="cadg-a-model-based-on-cross-attention-for-domain-generalization-2022">CADG: A Model Based on Cross Attention for Domain Generalization (2022)</h1>
+<p><img src="/images/2022/PRN250/1.png" alt="Fig 1"></p>
+<h2 id="概述">概述</h2>
+<p>相比于集成学习，训练单个端到端模型来解决分布迁移问题更加可行。</p>
+<p>本文设计了一种针对域泛化的交叉注意力 (Cross Attention for Domain Generalization, CADG)。</p>
+<p>交叉注意力与自注意力的区别在于前者的输入是来自不同域带有同样标签的一对图像，Query 来自一张图，Key 和 Value 来自另一张图。</p>
+<p><img src="/images/2022/PRN250/A1.png" alt="Alg 1"></p>
 
     </div>
 
@@ -218,7 +215,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/bg58/>http://jonathanwayy.xyz/2022/bg58/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn250/>http://jonathanwayy.xyz/2022/prn250/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -238,17 +235,20 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
-                    #wallpaper</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
-                    #manjaro</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
-                    #kde</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
+                    #cross-modal</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/domain-generalization/">
+                    #domain generalization</a></span>
             
             </section>
         
@@ -260,10 +260,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn249/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] TriReID: Towards MM ReID via Descriptive Fusion Model (ICMR 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] TriReID: Towards MM ReID via Descriptive Fusion Model (ICMR 2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/bg58/" class="prev" rel="prev" title="壁纸分享[58]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[58]</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn250/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022)">[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -272,7 +272,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
