@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 02 Jul 2022 13:47:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jul 2022 15:23:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Dual Distribution Alignment Network for Generalizable ReID (AAAI 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn251/</link>
+      <pubDate>Sat, 02 Jul 2022 15:23:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn251/</guid>
+      <description>Dual Distribution Alignment Network for Generalizable Person Re-Identification (AAAI 2021) 概述 DG for Person ReID 的两大困难 Domain-wise Variations Identity-wise Similarities 本文提出一种端到端的 双分布对齐网络 (Dual Distribution Alignment Network, DDAN)。 本文方法 Domain-wise Adversarial Feature Learning 旨在应对 Domain-wise Variations 问题。 将</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn250/</link>
