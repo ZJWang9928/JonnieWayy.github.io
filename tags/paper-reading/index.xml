@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 02 Jul 2022 15:23:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jul 2022 15:43:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Meta Batch-Instance Normalization for Generalizable ReID (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn252/</link>
+      <pubDate>Sun, 03 Jul 2022 15:43:02 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn252/</guid>
+      <description>Meta Batch-Instance Normalization for Generalizable Person Re-Identification (CVPR 2021) 开源代码传送门 概述 本文发现 BN 模型主要基于各个 mini-batch 中的风格变化来学习有鉴别力的信息，但是难以处理风格没见过的样本，因此称之为 u</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Dual Distribution Alignment Network for Generalizable ReID (AAAI 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn251/</link>

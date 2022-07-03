@@ -860,7 +860,7 @@
       <pubDate>Thu, 23 Jan 2020 22:40:58 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2020/blwl18/</guid>
-      <description>:echo 命令输出的信息在脚本运行完毕后就会消失， :echom 打印的信息会保存下来，可以执行 :messages 命令再次查看 :set /:set no或直接 :set ! 可切换布尔选项的值 :set ? 命令可获取一</description>
+      <description>:echo 命令输出的信息在脚本运行完毕后就会消失， :echom 打印的信息会保存下来，可以执行 :messages 命令再次查看 :set /:set no 或直接 :set ! 可切换布尔选项的值 :set ? 命令可获取一个</description>
     </item>
     
     <item>
