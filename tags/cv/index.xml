@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 03 Jul 2022 15:43:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 13:47:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Domain Generalization: A Survey (2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn253/</link>
+      <pubDate>Thu, 07 Jul 2022 13:47:03 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn253/</guid>
+      <description>2103.02503 Domain Generalization: A Survey (2021) 概述 域泛化综述。 两类 DG Multi-Source DG Single-Source DG 常用的 DG 数据集 表现衡量 通常遵循 leave-one-domain-out 原则，即留出一个域作为目标域。 用在留出的域上平均或最坏的表现来评估</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Meta Batch-Instance Normalization for Generalizable ReID (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn252/</link>
