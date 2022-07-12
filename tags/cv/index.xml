@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 11 Jul 2022 15:25:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2022 15:07:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Multiple Biological Granularities Network for Person ReID (ICMR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn255/</link>
+      <pubDate>Tue, 12 Jul 2022 15:07:49 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn255/</guid>
+      <description>Multiple Biological Granularities Network for Person Re-Identification (ICMR 2022) 概述 本文提出一种 Multiple Biological Granularities Network (MBGN) 架构。 本文方法 Adaptive Body Segmentation Algorithm Global Spatial Relation Pixel Attention 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Learning to Diversify for Single Domain Generalization (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn254/</link>
