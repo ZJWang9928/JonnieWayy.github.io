@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn254/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn256/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn255/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn255/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn256/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Multiple Biological Granularities Network for Person ReID (ICMR 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Multiple Biological Granularities Network for Person ReID (ICMR 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Multiple Biological Granularities Network for Person ReID (ICMR 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Multiple Biological Granularities Network for Person ReID (ICMR 2022)",
-    "description" : "Multiple Biological Granularities Network for Person Re-Identification (ICMR 2022) 概述 本文提出一种 Multiple Biological Granularities Network (MBGN) 架构。 本文方法 Adaptive Body Segmentation Algorithm Global Spatial Relation Pixel Attention 可视化示例",
+    "name" : "[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022)",
+    "headline" : "[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022)",
+    "description" : "2207.03132 Style Interleaved Learning for Generalizable Person Re-identification (2022) 开源代码传送门 概述 本文提出一种风格交叉学习框架 (Style Interleaved Learning Framework)，每次迭代包含两次前向传播和一次反向传播，用合成的",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-07-12 15:07:49 \u002b0800 CST",
-    "dateModified" : "2022-07-12 15:07:49 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn255\/",
-    "wordCount" : "43",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
+    "datePublished": "2022-07-16 13:34:15 \u002b0800 CST",
+    "dateModified" : "2022-07-16 13:34:15 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn256\/",
+    "wordCount" : "307",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","Domain Generalization", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Multiple Biological Granularities Network for Person ReID (ICMR 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-07-12 itemprop="datePublished">July 12, 2022</time>
+                on <time datetime=2022-07-16 itemprop="datePublished">July 16, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 43 words</span>
+                <span class="post-word-count">, 307 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,19 +194,39 @@
           
           
 
-          <h1 id="multiple-biological-granularities-network-for-person-re-identification-icmr-2022">Multiple Biological Granularities Network for Person Re-Identification (ICMR 2022)</h1>
+          <h1 id="220703132-style-interleaved-learning-for-generalizable-person-re-identification-2022">2207.03132 Style Interleaved Learning for Generalizable Person Re-identification (2022)</h1>
+<p><a href="https://github.com/WentaoTan/Interleaved-Learning">开源代码传送门</a></p>
+<p><img src="/images/2022/PRN256/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种 Multiple Biological Granularities Network (MBGN) 架构。</p>
-<p><img src="/images/2022/PRN255/1.png" alt="Fig 1"></p>
-<h2 id="本文方法">本文方法</h2>
-<h3 id="adaptive-body-segmentation-algorithm">Adaptive Body Segmentation Algorithm</h3>
-<p><img src="/images/2022/PRN255/A1.png" alt="Alg 1"></p>
-<h3 id="global-spatial-relation-pixel-attention">Global Spatial Relation Pixel Attention</h3>
-<p><img src="/images/2022/PRN255/2.png" alt="Fig 2"></p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2022/PRN255/3.png" alt="Fig 3">
-<img src="/images/2022/PRN255/4.png" alt="Fig 4">
-<img src="/images/2022/PRN255/5.png" alt="Fig 5"></p>
+<p>本文提出一种风格交叉学习框架 (Style Interleaved Learning Framework)，每次迭代包含两次前向传播和一次反向传播，用合成的风格更新基于内存的分类器，用原始风格的特征计算损失，从而模拟风格迁移。</p>
+<p><img src="/images/2022/PRN256/2.png" alt="Fig 2"></p>
+<h2 id="style-interleaved-learning-framework">Style Interleaved Learning Framework</h2>
+<h3 id="第一次前向传播">第一次前向传播</h3>
+<p>$$\mathcal{L}_{s} = - \sum_{i=1}^{N^{s}} log \frac{exp(&lt;f_{i}^{s}, c_{+}^s&gt;/\tau)}{\sum_{k=1}^{K^{s}} exp(&lt;f_{i}^s, c_{k}^s&gt;/\tau)}.$$</p>
+<h3 id="反向传播">反向传播</h3>
+<p>$$\mathcal{L}_{M}(\theta) = \frac{1}{S} \sum_{s=1}^S \mathcal{L}_{s},$$
+$$\theta&rsquo; \leftarrow \theta - \alpha \bigtriangledown_{\theta} \mathcal{L}_{M}(\theta).$$</p>
+<h3 id="第二次前向传播">第二次前向传播</h3>
+<p>加入风格变换后得到新特征，并用于更新相应的类原型。</p>
+<p><img src="/images/2022/PRN256/3.png" alt="Fig 3"></p>
+<h2 id="dirichlet-batch-feature-stylization">Dirichlet-Batch Feature Stylization</h2>
+<h3 id="dir-mixstyle">Dir-MixStyle</h3>
+<p>在同一个 batch 中随机采样 T 个样本，计算混合特征风格如下：</p>
+<p>$$\gamma_{dir} = \sum_{t=0}^T \lambda^T \sigma(\widetilde{F}^t),$$
+$$\beta_{dir} = \sum_{t=0}^T \lambda^T \mu(\widetilde{F}^t),$$
+$$\lambda = \{\lambda^t\}_{t=0}^T \sim Dirichlet(\epsilon).$$</p>
+<h3 id="batch-style-sampler">Batch-Style Sampler</h3>
+<p>用非线性的方式弥补线性的 Dir-MixStyle。</p>
+<p>$$\hat{\mu}_{B}^{\mu} = \frac{1}{B} \sum_{b=1}^B \mu_{b},$$
+$$\hat{\Sigma}_{B}^{\mu} = \frac{1}{B} \sum_{b=1}^B (\mu_{b} - \hat{\mu}_{B}^{\mu})(\mu_{b} - \hat{\mu}_{B}^{\mu})^T,$$
+$$\hat{\mu}_{B}^{\sigma} = \frac{1}{B} \sum_{b=1}^B \sigma_{b},$$
+$$\hat{\Sigma}_{B}^{\sigma} = \frac{1}{B} \sum_{b=1}^B (\sigma_{b} - \hat{\mu}_{B}^{\sigma})(\sigma_{b} - \hat{\mu}_{B}^{\sigma})^T,$$
+$$\mu_{bat} \sim \mathcal{N}_{\mu} (\hat{\mu}_{B}^{\mu}, \hat{\Sigma}_{B}^{\mu}),$$
+$$\sigma_{bat} \sim \mathcal{N}_{\sigma} (\hat{\mu}_{B}^{\sigma}, \hat{\Sigma}_{B}^{\sigma}),$$</p>
+<h3 id="dbs">DBS</h3>
+<p>$$\gamma_{DBS} = z\gamma_{dir} + (1 - z)\sigma_{bat},$$
+$$\beta_{DBS} = z\beta_{dir} + (1 - z)\mu_{bat},$$
+$$DBS(F)  = \gamma_{DBS} \odot \frac{F - \mu(F)}{\sigma(F)} + \beta_{DBS}.$$</p>
 
     </div>
 
@@ -221,7 +241,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn255/>http://jonathanwayy.xyz/2022/prn255/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn256/>http://jonathanwayy.xyz/2022/prn256/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -259,6 +279,9 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/reid/">
                     #ReID</a></span>
             
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/domain-generalization/">
+                    #Domain Generalization</a></span>
+            
             </section>
         
         <section>
@@ -269,10 +292,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn254/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] Learning to Diversify for Single Domain Generalization (ICCV 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] Learning to Diversify for Single Domain Generalization (ICCV 2021)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn255/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Multiple Biological Granularities Network for Person ReID (ICMR 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Multiple Biological Granularities Network for Person ReID (ICMR 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn256/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022)">[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -281,7 +304,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

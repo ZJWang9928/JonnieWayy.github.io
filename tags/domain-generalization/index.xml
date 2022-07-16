@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 11 Jul 2022 15:25:27 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jul 2022 13:34:15 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn256/</link>
+      <pubDate>Sat, 16 Jul 2022 13:34:15 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn256/</guid>
+      <description>2207.03132 Style Interleaved Learning for Generalizable Person Re-identification (2022) 开源代码传送门 概述 本文提出一种风格交叉学习框架 (Style Interleaved Learning Framework)，每次迭代包含两次前向传播和一次反向传播，用合成的</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Learning to Diversify for Single Domain Generalization (ICCV 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn254/</link>
