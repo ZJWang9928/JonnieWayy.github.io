@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 16 Jul 2022 13:34:15 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 18:11:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Feature-Distribution Perturbation and Calibration for GReID (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn257/</link>
+      <pubDate>Tue, 19 Jul 2022 18:11:43 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn257/</guid>
+      <description>2205.11197 Feature-Distribution Perturbation and Calibration for Generalized ReID (2022) 概述 本文提出一种特征分布扰动与校准模型 (Feature-Distribution Perturbation and Calibration model, PECA)，其包含局部分布扰动和全局分布校准。 本文方法</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn256/</link>
