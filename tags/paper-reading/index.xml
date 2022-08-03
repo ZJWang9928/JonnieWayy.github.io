@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 19 Jul 2022 18:11:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Aug 2022 17:11:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 隐私保护] Learnable Privacy-Preserving Anonymization for PImages (MM 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn259/</link>
+      <pubDate>Wed, 03 Aug 2022 17:11:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn259/</guid>
+      <description>Learnable Privacy-Preserving Anonymization for Pedestrian Images (MM 2022) 开源代码传送门 概述 本文关注 ReID 数据的隐私保护问题。 针对不同对象的应用效果 方法架构 训练策略 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Feature-Distribution Perturbation and Calibration for GReID (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn257/</link>
