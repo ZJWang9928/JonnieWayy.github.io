@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 03 Aug 2022 17:11:11 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Aug 2022 16:31:48 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Posts</title>
       <link>http://jonathanwayy.xyz/posts/</link>
-      <pubDate>Wed, 03 Aug 2022 17:11:11 +0800</pubDate>
+      <pubDate>Fri, 19 Aug 2022 16:31:48 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/posts/</guid>
       <description></description>
@@ -131,8 +131,9 @@
 
 &lt;div class=&#34;about-info&#34;&gt;
     &lt;div class=&#34;about-info-left&#34;&gt;
+        &lt;p&gt; 🔭 Postgraduate at Njtech University.&lt;/p&gt;
         &lt;p&gt; 💻 Coder, Vimer, CVer, Zealous ArchLinux Lover.&lt;/p&gt;
-        &lt;p&gt; 😏 Having a cute girlfriend.&lt;/p&gt;
+        &lt;!-- &lt;p&gt; 😏 Having a cute girlfriend.&lt;/p&gt; --&gt;
         &lt;p&gt; 🏀 Dallas Mavericks Fan.&lt;/p&gt;
         &lt;!-- &lt;p&gt;Coder, Vimer, CVer.&lt;/p&gt; --&gt;
         &lt;p&gt;Contact me:&lt;/p&gt;
