@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 30 Aug 2022 14:01:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Aug 2022 17:34:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Learning Domain Invariant Representations for Gen. ReID (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn262/</link>
+      <pubDate>Tue, 30 Aug 2022 17:34:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn262/</guid>
+      <description>2103.15890 Learning Domain Invariant Representations for Generalizable Person Re-identification (2022) 概述 本文认为行人图像受以下两组潜在随机变量的影响： Identity-specific Factors \(S\) Domain-specific Factors \(V\) \(V\) 可能会混淆模型，两者间的伪相关也会使得模型难以基于 \(S\) 对 ID</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn261/</link>
