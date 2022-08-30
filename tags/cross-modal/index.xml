@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 30 Aug 2022 20:06:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Aug 2022 21:15:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn264/</link>
+      <pubDate>Tue, 30 Aug 2022 21:15:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn264/</guid>
+      <description>2207.05024 Intra-Modal Constraint Loss For Image-Text Retrieval (2022) 开源代码传送门 概述 本文提出一种模态内约束损失 (Intra-Modal Constraint loss, IMC)，以减小同一模态内负样本对的影响。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] VAC-Net: Visual Attention Consistency Network for ReID (ICMR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn263/</link>
