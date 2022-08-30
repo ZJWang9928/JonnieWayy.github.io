@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 30 Aug 2022 17:34:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Aug 2022 20:06:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] VAC-Net: Visual Attention Consistency Network for ReID (ICMR 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn263/</link>
+      <pubDate>Tue, 30 Aug 2022 20:06:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn263/</guid>
+      <description>VAC-Net: Visual Attention Consistency Network for Person Re-identification (ICMR 2022) 概述 本文提出一种视觉注意力一致性网络 (Visual Attention Consistency Network, VAC-Net)，用于同时解决视角变换和尺度变换问题。 模型架构 Input-wise Visual Consistent Loss Layer-wise Visual Consistent</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Learning Domain Invariant Representations for Gen. ReID (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn262/</link>
