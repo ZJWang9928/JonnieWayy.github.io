@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn259/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn261/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn260/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn260/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn261/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Learning Granularity-Unified Representations for T2I ReID (MM 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Learning Granularity-Unified Representations for T2I ReID (MM 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Learning Granularity-Unified Representations for T2I ReID (MM 2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Learning Granularity-Unified Representations for T2I ReID (MM 2022)",
-    "description" : "Learning Granularity-Unified Representations for Text-to-Image Person Re-identification (MM 2022) 开源代码传送门 概述 视觉特征包含细粒度信息，而文本特征描述粗粒度属性，这导致了同一句文本描述适用于相似而不相同的多张图像。 本",
+    "name" : "[论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022)",
+    "headline" : "[论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022)",
+    "description" : "2208.08608 See Finer, See More: Implicit Modality Alignment for Text-based Person Retrieval (2022) 开源代码传送门 概述 现有方法的主要问题 分开的子模型缺乏模态间的交互 图文部件标注很费时，而且一些配对可能丢失 本文提出一",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,10 +65,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-08-19 16:31:48 \u002b0800 CST",
-    "dateModified" : "2022-08-19 16:31:48 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn260\/",
-    "wordCount" : "297",
+    "datePublished": "2022-08-30 14:01:55 \u002b0800 CST",
+    "dateModified" : "2022-08-30 14:01:55 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn261\/",
+    "wordCount" : "113",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Learning Granularity-Unified Representations for T2I ReID (MM 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-08-19 itemprop="datePublished">August 19, 2022</time>
+                on <time datetime=2022-08-30 itemprop="datePublished">August 30, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 297 words</span>
+                <span class="post-word-count">, 113 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,26 +194,18 @@
           
           
 
-          <h1 id="learning-granularity-unified-representations-for-text-to-image-person-re-identification-mm-2022">Learning Granularity-Unified Representations for Text-to-Image Person Re-identification (MM 2022)</h1>
-<p><a href="https://github.com/ZhiyinShao-H/LGUR">开源代码传送门</a></p>
-<p><img src="/images/2022/PRN260/1.png" alt="Fig 1"></p>
+          <h1 id="220808608-see-finer-see-more-implicit-modality-alignment-for-text-based-person-retrieval-2022">2208.08608 See Finer, See More: Implicit Modality Alignment for Text-based Person Retrieval (2022)</h1>
+<p><a href="https://github.com/TencentYoutuResearch/PersonRetrieval-IVT">开源代码传送门</a></p>
+<p><img src="/images/2022/PRN261/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>视觉特征包含细粒度信息，而文本特征描述粗粒度属性，这导致了同一句文本描述适用于相似而不相同的多张图像。</p>
-<p>本文提出一种学习粒度统一表征的架构 (Learning Granularity-Unified Representations, LGUR@sl)，将图文特征映射到一个粒度统一的特征空间中，其包含一个基于字典的粒度对齐模块 (Dictionary-based Granularity Alignment module, DGA) 和一个基于原型的粒度统一模块 (Prototype-based Granularity Unification module, PGU)。</p>
-<p><img src="/images/2022/PRN260/2.png" alt="Fig 2"></p>
-<h2 id="dictionary-based-granularity-alignment">Dictionary-based Granularity Alignment</h2>
-<p>本文认为将图像特征进一步抽象化能使得图文特征匹配得更为紧密。</p>
-<p>用 transformer 中的交叉注意力操作进行重构过程：</p>
-<p>$$T_{re} = MHA_{1}(T, D, D).$$</p>
-<p>视觉特征的重构引入了一个前景掩码：</p>
-<p>$$V_{re} = MHA_{1}(V, D, D) \odot M.$$</p>
-<p>此外利用文本特征得到更抽象的视觉特征：</p>
-<p>$$V_{g} = MHA_{1}(V, T, T) \odot M.$$</p>
-<h2 id="prototype-based-granularity-unification">Prototype-based Granularity Unification</h2>
-<p>旨在将图文特征有映射到同一个特征空间中。</p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2022/PRN260/3.png" alt="Fig 3"></p>
-<p><img src="/images/2022/PRN260/4.png" alt="Fig 4"></p>
+<h3 id="现有方法的主要问题">现有方法的主要问题</h3>
+<ul>
+<li>分开的子模型缺乏模态间的交互</li>
+<li>图文部件标注很费时，而且一些配对可能丢失</li>
+</ul>
+<p>本文提出一种隐式的视觉-文本架构 (Implicit Visual-Textual framework, IVT)，旨在用一个统一的网络处理多模态对齐问题。</p>
+<h3 id="模型架构">模型架构</h3>
+<p><img src="/images/2022/PRN261/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -228,7 +220,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn260/>http://jonathanwayy.xyz/2022/prn260/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn261/>http://jonathanwayy.xyz/2022/prn261/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -276,10 +268,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn259/" class="prev" rel="prev" title="[论文阅读笔记 -- 隐私保护] Learnable Privacy-Preserving Anonymization for PImages (MM 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 隐私保护] Learnable Privacy-Preserving Anonymization for PImages (MM 2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn260/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Learning Granularity-Unified Representations for T2I ReID (MM 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Learning Granularity-Unified Representations for T2I ReID (MM 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn261/" class="next" rel="next" title="[论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022)">[论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -288,7 +280,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">300 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

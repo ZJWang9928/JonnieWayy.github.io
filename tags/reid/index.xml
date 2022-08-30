@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Aug 2022 16:31:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Aug 2022 14:01:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] See Finer, See More: Implicit Modality Alignment for TBPR (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn261/</link>
+      <pubDate>Tue, 30 Aug 2022 14:01:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn261/</guid>
+      <description>2208.08608 See Finer, See More: Implicit Modality Alignment for Text-based Person Retrieval (2022) 开源代码传送门 概述 现有方法的主要问题 分开的子模型缺乏模态间的交互 图文部件标注很费时，而且一些配对可能丢失 本文提出一</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Learning Granularity-Unified Representations for T2I ReID (MM 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn260/</link>
