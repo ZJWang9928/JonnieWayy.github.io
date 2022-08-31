@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 31 Aug 2022 14:46:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 20:55:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Identity-Sensitive Knowledge Propagation for CCReID (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn266/</link>
+      <pubDate>Wed, 31 Aug 2022 20:55:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn266/</guid>
+      <description>2208.12023 Identity-Sensitive Knowledge Propagation for Cloth-Changing Person Re-identification (2022) 概述 本文提出一种对身份敏感的知识传播框架 (Identity-Sensitive Knowledge Propagation framework, DeSK-Pro)。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn265/</link>
