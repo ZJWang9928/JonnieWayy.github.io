@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn263/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn265/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn264/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn264/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn265/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022) | Jonathan`s Blog
+           [论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022)",
-    "headline" : "[论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022)",
-    "description" : "2207.05024 Intra-Modal Constraint Loss For Image-Text Retrieval (2022) 开源代码传送门 概述 本文提出一种模态内约束损失 (Intra-Modal Constraint loss, IMC)，以减小同一模态内负样本对的影响。",
+    "name" : "[论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022)",
+    "headline" : "[论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022)",
+    "description" : "2208.11440 Dynamic Template Initialization for Part-Aware Person Re-ID (2022) 概述 现有的局部特征学习策略可分为三类： 基于手工划分的方法 基于额外语义的方法，如行人解析或姿态估计 基于注意力的方法 这些方法各",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,10 +65,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-08-30 21:15:39 \u002b0800 CST",
-    "dateModified" : "2022-08-30 21:15:39 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn264\/",
-    "wordCount" : "54",
+    "datePublished": "2022-08-31 14:46:43 \u002b0800 CST",
+    "dateModified" : "2022-08-31 14:46:43 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn265\/",
+    "wordCount" : "141",
     "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Jonathan`s Blog"]
 }
 </script>
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-08-30 itemprop="datePublished">August 30, 2022</time>
+                on <time datetime=2022-08-31 itemprop="datePublished">August 31, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 54 words</span>
+                <span class="post-word-count">, 141 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,11 +194,20 @@
           
           
 
-          <h1 id="220705024-intra-modal-constraint-loss-for-image-text-retrieval-2022">2207.05024 Intra-Modal Constraint Loss For Image-Text Retrieval (2022)</h1>
-<p><a href="https://github.com/CanonChen/IMC">开源代码传送门</a></p>
-<p><img src="/images/2022/PRN264/1.png" alt="Fig 1"></p>
+          <h1 id="220811440-dynamic-template-initialization-for-part-aware-person-re-id-2022">2208.11440 Dynamic Template Initialization for Part-Aware Person Re-ID (2022)</h1>
 <h2 id="概述">概述</h2>
-<p>本文提出一种模态内约束损失 (Intra-Modal Constraint loss, IMC)，以减小同一模态内负样本对的影响。</p>
+<p>现有的局部特征学习策略可分为三类：</p>
+<ul>
+<li>基于手工划分的方法</li>
+<li>基于额外语义的方法，如行人解析或姿态估计</li>
+<li>基于注意力的方法</li>
+</ul>
+<p>这些方法各有不足，且都假设每张图都包含所有躯体部分，忽略了遮挡和局部图像的情况。</p>
+<p>本文提出一种动态的部分模板初始化模块 (Dynamic Part Template Initialization module, DPTI)。</p>
+<h3 id="模型架构">模型架构</h3>
+<p><img src="/images/2022/PRN265/1.png" alt="Fig 1"></p>
+<h3 id="dpti-模块">DPTI 模块</h3>
+<p><img src="/images/2022/PRN265/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -213,7 +222,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn264/>http://jonathanwayy.xyz/2022/prn264/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn265/>http://jonathanwayy.xyz/2022/prn265/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -261,10 +270,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn263/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] VAC-Net: Visual Attention Consistency Network for ReID (ICMR 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] VAC-Net: Visual Attention Consistency Network for ReID (ICMR 2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn264/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn265/" class="next" rel="next" title="[论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022)">[论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -273,7 +282,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>

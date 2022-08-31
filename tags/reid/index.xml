@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 30 Aug 2022 21:15:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 14:46:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Dynamic Template Initialization for Part-Aware Person Re-ID (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn265/</link>
+      <pubDate>Wed, 31 Aug 2022 14:46:43 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn265/</guid>
+      <description>2208.11440 Dynamic Template Initialization for Part-Aware Person Re-ID (2022) 概述 现有的局部特征学习策略可分为三类： 基于手工划分的方法 基于额外语义的方法，如行人解析或姿态估计 基于注意力的方法 这些方法各</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Intra-Modal Constraint Loss For Image-Text Retrieval (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn264/</link>
