@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 31 Aug 2022 20:55:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Sep 2022 16:01:54 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Image-Specific Info. Suppression and Implicit Local Alignment (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn267/</link>
+      <pubDate>Sat, 03 Sep 2022 16:01:54 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn267/</guid>
+      <description>2208.14365 Image-Specific Information Suppression and Implicit Local Alignment for Text-based Person Search (2022) 概述 两类会影响表现的图像特有信息： Image Background Environmental Factors 本文提出一种联合信息语义对齐网络 (joint Information and Semantic Alignment Network, ISANet)。 模型架构 Relation-Guide Localization</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Identity-Sensitive Knowledge Propagation for CCReID (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn266/</link>
