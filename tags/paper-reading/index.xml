@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 03 Sep 2022 16:01:54 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 17:30:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Attention Consistency on Visual Corruptions for SSDG (CVPRW 22)</title>
+      <link>http://jonathanwayy.xyz/2022/prn268/</link>
+      <pubDate>Fri, 16 Sep 2022 17:30:00 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn268/</guid>
+      <description>Attention Consistency on Visual Corruptions for Single-Source Domain Generalization (CVPRW 22) 开源代码传送门 概述 单源域泛化问题。 本文认为一个健壮的 single DG 模型应当对同一训练样本的多个增广给出一致的诠释；此外，所采用的</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Image-Specific Info. Suppression and Implicit Local Alignment (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn267/</link>

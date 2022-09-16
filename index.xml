@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 03 Sep 2022 16:01:54 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Sep 2022 17:30:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Posts</title>
       <link>http://jonathanwayy.xyz/posts/</link>
-      <pubDate>Sat, 03 Sep 2022 16:01:54 +0800</pubDate>
+      <pubDate>Fri, 16 Sep 2022 17:30:00 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/posts/</guid>
       <description></description>
@@ -173,6 +173,11 @@
         &lt;p&gt;
         🖋 &lt;b&gt;Zijie Wang&lt;/b&gt;, et al. 2022. SUM: Serialized Updating and Matching for Text-based Person Retrieval. Knowledge-Based Systems 248 (2022), 108891. (&lt;b&gt;IF=8.139, First Author&lt;/b&gt;)
         &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;p&gt;
+        🖋 &lt;b&gt;Zijie Wang&lt;/b&gt;, et al. 2022. ASPD-Net: Self-aligned Part Mask for Improving Text-based Person Re-identification with Adversarial Representation Learning. Engineering Applications of Artificial Intelligence, Volume 116, 2022, 105419. (&lt;b&gt;IF=7.802, First Author&lt;/b&gt;)
+        &lt;/P&gt;
     &lt;/li&gt;
     &lt;li&gt;
         &lt;p&gt;
