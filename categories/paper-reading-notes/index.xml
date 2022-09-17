@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 16 Sep 2022 17:30:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 15:07:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Feature-based Style Randomization for DG (2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn269/</link>
+      <pubDate>Sat, 17 Sep 2022 15:07:41 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn269/</guid>
+      <description>2106.03171 Feature-based Style Randomization for Domain Generalization (2021) 概述 现有大部分 DG 方法只在源域做图像级别的数据增广，本文旨在提高增广的多样性，提出一种基于特征的风格随机化模块 (Feature-based Style Randomization, FSR)。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Attention Consistency on Visual Corruptions for SSDG (CVPRW 22)</title>
       <link>http://jonathanwayy.xyz/2022/prn268/</link>
