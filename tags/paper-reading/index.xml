@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 17 Sep 2022 15:07:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Sep 2022 13:28:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] CrossNorm and SelfNorm for Generalization under DS (ICCV 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn270/</link>
+      <pubDate>Sun, 18 Sep 2022 13:28:41 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn270/</guid>
+      <description>CrossNorm and SelfNorm for Generalization under Distribution Shifts (ICCV 2021) 开源代码传送门 概述 本文从两个方面处理分布迁移问题： 增大训练分布 减小测试分布 本文提出互补的 CrossNorm 和 SelfNorm。 本文方法 可</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Feature-based Style Randomization for DG (2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn269/</link>
