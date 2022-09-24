@@ -7,7 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 19 Sep 2022 15:44:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2022 13:45:24 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>continual learning</title>
+      <link>http://jonathanwayy.xyz/tags/continual-learning/</link>
+      <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/continual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://jonathanwayy.xyz/tags/cv/</link>
+      <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifelong</title>
+      <link>http://jonathanwayy.xyz/tags/lifelong/</link>
+      <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>composed retrieval</title>
       <link>http://jonathanwayy.xyz/tags/composed-retrieval/</link>
@@ -18,65 +90,11 @@
     </item>
     
     <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Mon, 19 Sep 2022 15:44:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 19 Sep 2022 15:44:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 19 Sep 2022 15:44:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Mon, 19 Sep 2022 15:44:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Mon, 19 Sep 2022 15:44:12 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>domain generalization</title>
       <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
       <pubDate>Sun, 18 Sep 2022 13:28:41 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Sat, 03 Sep 2022 16:01:54 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
     </item>
     
@@ -176,15 +194,6 @@
       <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-domain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lifelong</title>
-      <link>http://jonathanwayy.xyz/tags/lifelong/</link>
-      <pubDate>Wed, 22 Jun 2022 15:31:35 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
       <description></description>
     </item>
     
@@ -437,15 +446,6 @@
       <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/knowledge-distillation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>continual learning</title>
-      <link>http://jonathanwayy.xyz/tags/continual-learning/</link>
-      <pubDate>Sun, 13 Feb 2022 15:51:47 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/continual-learning/</guid>
       <description></description>
     </item>
     
