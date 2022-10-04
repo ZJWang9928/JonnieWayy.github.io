@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 27 Sep 2022 14:32:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Oct 2022 10:11:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Parallel Data Augmentation for Text-based Person ReID (IJCNN 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn275/</link>
+      <pubDate>Tue, 04 Oct 2022 10:11:22 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn275/</guid>
+      <description>Parallel Data Augmentation for Text-based Person Re-identification (IJCNN 2022) 概述 本文提出一种 Parallel Data Augmentation (PDA) 方法。 本文方法</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域自适应] Feat. Align. by Uncertainty and Self-Training for SFUDA (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn274/</link>
