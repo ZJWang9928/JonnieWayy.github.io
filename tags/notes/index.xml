@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 06 Oct 2022 10:33:35 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Oct 2022 14:28:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] GReID with Relevance-aware Mixture of Experts (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn277/</link>
+      <pubDate>Thu, 06 Oct 2022 14:28:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn277/</guid>
+      <description>Generalizable Person Re-identification with Relevance-aware Mixture of Experts (CVPR 2021) 概述 现有工作通常将多个源域数据整合到一起训练一个模型，这类方法存在如下问题： 为不同的域学习一个公共的特征空间，可能会忽略</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Farewell to MI: Variational Distillation for CM ReID (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn276/</link>
