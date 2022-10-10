@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 06 Oct 2022 14:28:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Oct 2022 10:21:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] FRIDA: Fisheye Re-Identification Dataset with Annotations (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn278/</link>
+      <pubDate>Mon, 10 Oct 2022 10:21:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn278/</guid>
+      <description>2210.01582 FRIDA: Fisheye Re-Identification Dataset with Annotations (2022) 数据集获取传送门 概述 本文提出鱼眼图像 ReID 任务，并构建了一个新数据集 FRIDA。 旨在找出被两个摄像头同时捕捉到的两种图像中相同的</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] GReID with Relevance-aware Mixture of Experts (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn277/</link>

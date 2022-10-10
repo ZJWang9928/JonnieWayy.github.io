@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataset on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/dataset/</link>
+    <description>Recent content in dataset on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Mon, 10 Oct 2022 10:21:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/dataset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] FRIDA: Fisheye Re-Identification Dataset with Annotations (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn278/</link>
+      <pubDate>Mon, 10 Oct 2022 10:21:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn278/</guid>
+      <description>2210.01582 FRIDA: Fisheye Re-Identification Dataset with Annotations (2022) 数据集获取传送门 概述 本文提出鱼眼图像 ReID 任务，并构建了一个新数据集 FRIDA。 旨在找出被两个摄像头同时捕捉到的两种图像中相同的</description>
+    </item>
+    
+  </channel>
+</rss>
