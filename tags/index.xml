@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 11 Oct 2022 11:07:57 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 11:31:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Tue, 11 Oct 2022 11:07:57 +0800</pubDate>
+      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 11 Oct 2022 11:07:57 +0800</pubDate>
+      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>domain generalization</title>
       <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-      <pubDate>Tue, 11 Oct 2022 11:07:57 +0800</pubDate>
+      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
       <description></description>
@@ -38,7 +38,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 11 Oct 2022 11:07:57 +0800</pubDate>
+      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,9 +47,27 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Tue, 11 Oct 2022 11:07:57 +0800</pubDate>
+      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teacher-student</title>
+      <link>http://jonathanwayy.xyz/tags/teacher-student/</link>
+      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/teacher-student/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer Learning</title>
+      <link>http://jonathanwayy.xyz/tags/transfer-learning/</link>
+      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/transfer-learning/</guid>
       <description></description>
     </item>
     

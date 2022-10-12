@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teacher-student on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/teacher-student/</link>
+    <description>Recent content in teacher-student on Jonathan`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Wed, 12 Oct 2022 11:31:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/teacher-student/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 迁移学习] Knowledge as Priors: CMKG for Datasets without SK (CVPR 2020)</title>
+      <link>http://jonathanwayy.xyz/2022/prn280/</link>
+      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn280/</guid>
+      <description>Knowledge as Priors: Cross-Modal Knowledge Generalization for Datasets without Superior Knowledge (CVPR 2020) 概述 本文基于跨模态知识蒸馏 (Cross-Modal Knowledge Distillation, CMKD) 任务，研究将从成对数据的源数据集上学习到的跨模态知识迁移到监督模态缺失的目标数据</description>
+    </item>
+    
+  </channel>
+</rss>
