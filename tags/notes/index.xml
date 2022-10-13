@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 12 Oct 2022 11:31:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 11:44:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Generalizing to Unseen Domains: A Survey on DG (TKDE 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn281/</link>
+      <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn281/</guid>
+      <description>Generalizing to Unseen Domains: A Survey on Domain Generalization (TKDE 2022) DeepDG 传送门 概述 域泛化综述。 域泛化定义 相关任务差异对比 现有 DG 方法分类 DG 的应用 常用 DG 数据集</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 迁移学习] Knowledge as Priors: CMKG for Datasets without SK (CVPR 2020)</title>
       <link>http://jonathanwayy.xyz/2022/prn280/</link>

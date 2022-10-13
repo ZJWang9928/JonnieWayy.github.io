@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 12 Oct 2022 11:31:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 11:44:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
+      <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
+      <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>domain generalization</title>
       <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
+      <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
       <description></description>
@@ -38,7 +38,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
+      <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,9 +47,18 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
+      <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survey</title>
+      <link>http://jonathanwayy.xyz/tags/survey/</link>
+      <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/survey/</guid>
       <description></description>
     </item>
     
@@ -194,15 +203,6 @@
       <pubDate>Wed, 03 Aug 2022 17:11:11 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/anonymization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Survey</title>
-      <link>http://jonathanwayy.xyz/tags/survey/</link>
-      <pubDate>Thu, 07 Jul 2022 13:47:03 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/survey/</guid>
       <description></description>
     </item>
     
