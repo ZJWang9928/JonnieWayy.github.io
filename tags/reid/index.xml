@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 14 Oct 2022 12:08:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2022 16:45:45 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] CM Co-occurrence Attributes Alignments for PS by Language (MM 22)</title>
+      <link>http://jonathanwayy.xyz/2022/prn283/</link>
+      <pubDate>Sun, 16 Oct 2022 16:45:45 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn283/</guid>
+      <description>Cross-modal Co-occurrence Attributes Alignments for Person Search by Language (MM 22) 概述 许多现有工作将 TBPR 任务视为集合对集合的属性对齐问题，但是会从在报告偏差 (reporting bias) 的困难，其导致的噪声主要在于两个方面： Noise from</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Weakly Supervised Pedestrian Segmentation for ReID (TCSVT 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn282/</link>
