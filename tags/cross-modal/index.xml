@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 17 Oct 2022 16:46:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Oct 2022 10:04:08 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] C3CMR: CM Cross-Instance Contrastive Learn. for CMR (MM 22)</title>
+      <link>http://jonathanwayy.xyz/2022/prn285/</link>
+      <pubDate>Tue, 18 Oct 2022 10:04:08 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn285/</guid>
+      <description>C3CMR: Cross-Modality Cross-Instance Contrastive Learning for Cross-Media Retrieval (MM 22) 概述 本文提出一种跨模态跨实例对比学习方法 (Cross-Modality Cross-Instance Contrastive Learning for Cross-Media Retrieval, C\(^{3}\)CMR)。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Paired CM Data Augmentation for FG I2T Retrieval (MM 22)</title>
       <link>http://jonathanwayy.xyz/2022/prn284/</link>
