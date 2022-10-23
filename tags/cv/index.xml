@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 23 Oct 2022 16:27:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2022 20:08:54 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Visual Consensus Modeling for Video-Text Retrieval (AAAI 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn290/</link>
+      <pubDate>Sun, 23 Oct 2022 20:08:54 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn290/</guid>
+      <description>Visual Consensus Modeling for Video-Text Retrieval (AAAI 2022) 开源代码传送门 概述 本文提出对视觉共识进行建模 (Visual Consensus Modeling)。 模型架构 Consensus Knowledge Extracting Knowledge Integration Module 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 特征分解] Visual Concepts Tokenization (NeurIPS 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn289/</link>
