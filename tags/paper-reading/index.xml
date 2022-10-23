@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 21 Oct 2022 13:43:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2022 15:47:00 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Attention-Calibration Based Double-Branch CD ReID (KBS 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn288/</link>
+      <pubDate>Sun, 23 Oct 2022 15:47:00 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn288/</guid>
+      <description>Attention-Calibration Based Double-Branch Cross-Domain Person Re-Identification (KBS 2022) 概述 本文提出一种 Attention-Calibration Based Double-Branch Cross-Domain Person Re-Identification Network (ACDBNet)，其核心观点为：通道特征和空间特征用于提取可区别的特征，域无关特征和域特定特</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Augmented Dual-Contrastive Aggregation Learn. for USVIReID(MM 22)</title>
       <link>http://jonathanwayy.xyz/2022/prn287/</link>
