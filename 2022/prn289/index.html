@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  
+  <link rel="stylesheet" href="/js/katex/katex.min.css" >
+  <script src="/js/katex/katex.min.js" > </script>
+  <script src="/js/katex/contrib/auto-render.min.js" ></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body);
+      });
+  </script>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jonathan Wang">
+  
+  
+  
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn288/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn289/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           [论文阅读笔记 -- 特征分解] Visual Concepts Tokenization (NeurIPS 2022) | Jonathan`s Blog
+       
+  </title>
+  <meta name="title" content="[论文阅读笔记 -- 特征分解] Visual Concepts Tokenization (NeurIPS 2022) | Jonathan`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/jonathanwayy.xyz"
+    },
+    "articleSection" : "posts",
+    "name" : "[论文阅读笔记 -- 特征分解] Visual Concepts Tokenization (NeurIPS 2022)",
+    "headline" : "[论文阅读笔记 -- 特征分解] Visual Concepts Tokenization (NeurIPS 2022)",
+    "description" : "Visual Concepts Tokenization (NeurIPS 2022) 开源代码传送门 概述 本文针对视觉概念学习 (visual concept learning)，提出一种基于 transformer 的无监督方法，称为视觉概念令牌化 (Visual Concept Tokenization, VCT)，其包含",
+    "inLanguage" : "zh-cn",
+    "author" : "Jonathan Wang",
+    "creator" : "Jonathan Wang",
+    "publisher": "Jonathan Wang",
+    "accountablePerson" : "Jonathan Wang",
+    "copyrightHolder" : "Jonathan Wang",
+    "copyrightYear" : "2022",
+    "datePublished": "2022-10-23 16:27:03 \u002b0800 CST",
+    "dateModified" : "2022-10-23 16:27:03 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn289\/",
+    "wordCount" : "522",
+    "keywords" : [ "paper reading","cv","notes","tokenization", "Jonathan`s Blog"]
+}
+</script>
+
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://jonathanwayy.xyz">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        
+            
+            
+        
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://jonathanwayy.xyz">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 特征分解] Visual Concepts Tokenization (NeurIPS 2022)</h1>
+        <div class="post-meta">
+                
+                Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
+                <span class="post-time">
+                on <time datetime=2022-10-23 itemprop="datePublished">October 23, 2022</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        
+                </span>
+                <span class="post-word-count">, 522 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="visual-concepts-tokenization-neurips-2022">Visual Concepts Tokenization (NeurIPS 2022)</h1>
+<p><a href="https://github.com/thomasmry/VCT">开源代码传送门</a></p>
+<h2 id="概述">概述</h2>
+<p>本文针对视觉概念学习 (visual concept learning)，提出一种基于 transformer 的无监督方法，称为视觉概念令牌化 (Visual Concept Tokenization, VCT)，其包含一个 Concept Tokenizer 和一个 Concept Detokenizer。</p>
+<p>分解得到的令牌应该符合以下条件：</p>
+<ul>
+<li>完备性 (completeness)，可以通过这些令牌重构图像</li>
+<li>解构性 (disentanglement)，不同令牌应当表征独立的视觉概念，且各令牌应只反映一种视觉概念变量</li>
+<li>无序性 (disorder)，令牌的排列顺序应当不传递任何信息</li>
+</ul>
+<p>本文将符合上述条件的令牌称为概念令牌 (concept tokens)。</p>
+<h3 id="vct-模型架构">VCT 模型架构</h3>
+<p><img src="/images/2022/PRN289/1.png" alt="Fig 1"></p>
+<p>Tokenizer 中，对图像令牌采用带自注意力的标准 transformer 层处理，对概念部分采用不带后续自注意力交叉注意力 \((Q, K, V)\) 处理。其中，自注意力中的 Q 来自概念部分，K 和 V 来自图像部分，各交叉注意力块后跟随一个 FFN。概念令牌相互之间没有交互，保证各自信息独立。</p>
+<p>Detokenizer 中，设计了一个图像 query 阵列 Y，用于查询概念令牌中包含的视觉信息。将 Y 用作 Q，概念令牌用作 K 和 V。为了混合孤立的视觉信息，在交叉注意力后加上自注意力运算。</p>
+<h3 id="concept-disentangling-loss">Concept Disentangling Loss</h3>
+<p><img src="/images/2022/PRN289/2.png" alt="Fig 2"></p>
+<p>旨在确保概念令牌之间的互斥性。其包含两个步骤：</p>
+<ul>
+<li>通过替换一个概念令牌，产生图像差异</li>
+<li>识别该图像差异</li>
+</ul>
+<p>差异计算如下：</p>
+<p>$$\Delta C = \mathcal{V}_{T}(\mathcal{I}_{T}(x&rsquo;_{i})) - \mathcal{V}_{T}(\mathcal{I}_{T}(\hat{x}&rsquo;_{i})).$$</p>
+<p>概念解构损失为：</p>
+<p>$$\mathcal{L}_{dis} = CrossEntropy(norm(\Delta C), l).$$</p>
+<h3 id="可视化示例">可视化示例</h3>
+<p><img src="/images/2022/PRN289/3.png" alt="Fig 3"></p>
+<p><img src="/images/2022/PRN289/4.png" alt="Fig 4"></p>
+<p><img src="/images/2022/PRN289/5.png" alt="Fig 5"></p>
+<p><img src="/images/2022/PRN289/6.png" alt="Fig 6"></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Jonathan Wang </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn289/>http://jonathanwayy.xyz/2022/prn289/</span>
+            </p>
+            <p>
+                <span>Ads:</span>
+                <span>欢迎参与<a href="https://www.didiyun.com" target="_blank" style="text-decoration:underline">滴滴云AI大师活动</a>购买 GPU / vGPU / 机器学习产品，使用我的滴滴AI大师码 <b style="color:red">0724</b> 可享受 <b>9 折</b>优惠！</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
+                    #paper reading</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
+                    #cv</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
+                    #notes</a></span>
+            
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/tokenization/">
+                    #tokenization</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://jonathanwayy.xyz">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://jonathanwayy.xyz/2022/prn288/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Attention-Calibration Based Double-Branch CD ReID (KBS 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Attention-Calibration Based Double-Branch CD ReID (KBS 2022)</a>
+         
+        
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">600 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2022</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://jonathanwayy.xyz">Jonathan Wang</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+          <span id="busuanzi_container_site_pv">
+              本站访问量：<span id="busuanzi_value_site_pv"></span>次
+          </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+     </div>
+  </body>
+</html>
