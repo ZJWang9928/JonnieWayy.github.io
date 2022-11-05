@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 04 Nov 2022 18:12:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 15:05:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 图像编辑] Towards Counterfactual Image Manipulation via CLIP (MM 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn293/</link>
+      <pubDate>Sat, 05 Nov 2022 15:05:46 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn293/</guid>
+      <description>Towards Counterfactual Image Manipulation via CLIP (MM 2022) 概述 本文设计了一种基于 CLIP 的文本指导的图像编辑网络，称为 CF-CLIP，在无需额外训练数据且无需优化整个生成器的情况下实现精准</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] A Simple &amp; Robust Correlation Filtering Method for TPS (ECCV 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn292/</link>
