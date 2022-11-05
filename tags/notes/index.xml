@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 24 Oct 2022 10:49:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2022 18:12:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] A Simple &amp; Robust Correlation Filtering Method for TPS (ECCV 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn292/</link>
+      <pubDate>Fri, 04 Nov 2022 18:12:19 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn292/</guid>
+      <description>A Simple and Robust Correlation Filtering Method for Text-based Person Search (ECCV 2022) 开源代码传送门 概述 本文提出一种简单又可靠的关联性过滤架构 (Simple and Robust Correlation Filtering framework, SRCF)，其核心观点在于无论语言或图像如何改</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] CLIP-Driven Fine-grained Text-Image Person Re-Identification (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn291/</link>

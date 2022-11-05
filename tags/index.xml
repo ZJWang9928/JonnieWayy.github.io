@@ -7,20 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 24 Oct 2022 10:49:20 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CLIP</title>
-      <link>http://jonathanwayy.xyz/tags/clip/</link>
-      <pubDate>Mon, 24 Oct 2022 10:49:20 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/clip/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 04 Nov 2022 18:12:19 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Mon, 24 Oct 2022 10:49:20 +0800</pubDate>
+      <pubDate>Fri, 04 Nov 2022 18:12:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -29,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 24 Oct 2022 10:49:20 +0800</pubDate>
+      <pubDate>Fri, 04 Nov 2022 18:12:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -38,7 +29,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 24 Oct 2022 10:49:20 +0800</pubDate>
+      <pubDate>Fri, 04 Nov 2022 18:12:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -47,7 +38,7 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Mon, 24 Oct 2022 10:49:20 +0800</pubDate>
+      <pubDate>Fri, 04 Nov 2022 18:12:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
@@ -56,7 +47,7 @@
     <item>
       <title>ReID</title>
       <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Mon, 24 Oct 2022 10:49:20 +0800</pubDate>
+      <pubDate>Fri, 04 Nov 2022 18:12:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/reid/</guid>
       <description></description>
@@ -65,9 +56,18 @@
     <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Mon, 24 Oct 2022 10:49:20 +0800</pubDate>
+      <pubDate>Fri, 04 Nov 2022 18:12:19 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLIP</title>
+      <link>http://jonathanwayy.xyz/tags/clip/</link>
+      <pubDate>Mon, 24 Oct 2022 10:49:20 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/clip/</guid>
       <description></description>
     </item>
     
