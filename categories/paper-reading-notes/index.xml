@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 07 Nov 2022 11:48:07 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 12:00:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 特征分解] A Framework for the Quantitative Evaluation of DR (ICLR 2018)</title>
+      <link>http://jonathanwayy.xyz/2022/prn296/</link>
+      <pubDate>Mon, 07 Nov 2022 12:00:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn296/</guid>
+      <description>A Framework for the Quantitative Evaluation of Disentangled Representations (ICLR 2018) 开源代码传送门 概述 三个标准 (DCI) Disentanglement Completeness Informativeness</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 特征分解] Beta-VAE: Learning Basic Visual Concepts (ICLR 2017)</title>
       <link>http://jonathanwayy.xyz/2022/prn295/</link>
