@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 07 Nov 2022 12:00:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 12:44:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 特征解耦] Isolating Sources of Disentanglement in VAEs (NeurIPS 2018)</title>
+      <link>http://jonathanwayy.xyz/2022/prn297/</link>
+      <pubDate>Mon, 07 Nov 2022 12:44:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn297/</guid>
+      <description>Isolating Sources of Disentanglement in VAEs (NeurIPS 2018) 概述 本文提出一种互信息鸿沟 (Mutual Information Gap, IMP) 评价机制。 $$\frac{1}{K} \sum_{k=1}^{K} \frac{1}{H(v_{k})} (I_{n}(z_{j^{(k)}}; v_{k}) - max_{j \ne j^{(k)}} I_{n}(z_{j}; v_{k})).$$</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 特征解耦] A Framework for the Quantitative Evaluation of DR (ICLR 2018)</title>
       <link>http://jonathanwayy.xyz/2022/prn296/</link>
