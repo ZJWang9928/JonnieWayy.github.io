@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tokenization on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/tokenization/</link>
-    <description>Recent content in tokenization on Jonathan`s Blog</description>
+    <title>disentanglement on Jonathan`s Blog</title>
+    <link>http://jonathanwayy.xyz/tags/disentanglement/</link>
+    <description>Recent content in disentanglement on Jonathan`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 23 Oct 2022 16:27:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/tokenization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2022 16:27:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/disentanglement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 特征解耦] Visual Concepts Tokenization (NeurIPS 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn289/</link>
