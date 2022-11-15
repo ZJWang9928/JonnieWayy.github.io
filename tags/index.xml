@@ -7,13 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 07 Nov 2022 12:44:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Nov 2022 14:09:44 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>attention</title>
+      <link>http://jonathanwayy.xyz/tags/attention/</link>
+      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 07 Nov 2022 12:44:14 +0800</pubDate>
+      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>domain generalization</title>
+      <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
+      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -23,24 +68,6 @@
       <pubDate>Mon, 07 Nov 2022 12:44:14 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/disentangling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 07 Nov 2022 12:44:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Mon, 07 Nov 2022 12:44:14 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -68,15 +95,6 @@
       <pubDate>Sat, 05 Nov 2022 15:05:46 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/image-manipulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Fri, 04 Nov 2022 18:12:19 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
@@ -122,15 +140,6 @@
       <pubDate>Sun, 23 Oct 2022 16:27:03 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/tokenization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>domain generalization</title>
-      <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-      <pubDate>Sun, 23 Oct 2022 15:47:00 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
       <description></description>
     </item>
     
@@ -599,15 +608,6 @@
       <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/resnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Sun, 30 Jan 2022 14:47:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
     </item>
     
