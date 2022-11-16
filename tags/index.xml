@@ -7,20 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 15 Nov 2022 14:09:44 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 16 Nov 2022 17:07:13 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      <pubDate>Wed, 16 Nov 2022 17:07:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -29,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      <pubDate>Wed, 16 Nov 2022 17:07:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
       <description></description>
@@ -38,7 +29,7 @@
     <item>
       <title>domain generalization</title>
       <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      <pubDate>Wed, 16 Nov 2022 17:07:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
       <description></description>
@@ -47,7 +38,7 @@
     <item>
       <title>notes</title>
       <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      <pubDate>Wed, 16 Nov 2022 17:07:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/notes/</guid>
       <description></description>
@@ -56,9 +47,18 @@
     <item>
       <title>paper reading</title>
       <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      <pubDate>Wed, 16 Nov 2022 17:07:13 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attention</title>
+      <link>http://jonathanwayy.xyz/tags/attention/</link>
+      <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
     </item>
     

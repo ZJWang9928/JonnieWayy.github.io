@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 15 Nov 2022 14:09:44 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Nov 2022 17:07:13 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] FIXED: Frustratingly Easy Domain Generalization with Mixup (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn299/</link>
+      <pubDate>Wed, 16 Nov 2022 17:07:13 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn299/</guid>
+      <description>2211.05228 FIXED: Frustratingly Easy Domain Generalization with Mixup (2022) 概述 本文将现有 DG 工作分为三类： Learning domain invariant representations Meta-learning Data augmentation-based DG 本文关注数据增广，尤其是 Mixup，其通过任意一对数据之间的线性插值生成新数</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Attention Diversification for Domain Generalization (ECCV 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn298/</link>
