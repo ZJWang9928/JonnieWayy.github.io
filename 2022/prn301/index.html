@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn299/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn301/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn300/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn300/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn301/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022)",
-    "headline" : "[论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022)",
-    "description" : "Meta Convolutional Neural Networks for Single Domain Generalization (CVPR 2022) 概述 本文关注单源域泛化问题，提出一种新的卷积神经网络，称为 Meta CNN。 BoMF 操作 Meta CNN 架构",
+    "name" : "[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021)",
+    "headline" : "[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021)",
+    "description" : "Uncertainty-guided Model Generalization to Unseen Domains (CVPR 2021) 开源代码传送门 概述 本文关注关注单源域 OOD 泛化问题，提出 Uncertain Out-of-domain Generalization，旨在通过不确定性估计的指导在输入空间和",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,10 +65,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-11-17 14:32:31 \u002b0800 CST",
-    "dateModified" : "2022-11-17 14:32:31 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn300\/",
-    "wordCount" : "51",
+    "datePublished": "2022-11-22 14:57:16 \u002b0800 CST",
+    "dateModified" : "2022-11-22 14:57:16 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn301\/",
+    "wordCount" : "91",
     "keywords" : [ "paper reading","cv","notes","cross-modal","domain generalization", "Jonathan`s Blog"]
 }
 </script>
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-11-17 itemprop="datePublished">November 17, 2022</time>
+                on <time datetime=2022-11-22 itemprop="datePublished">November 22, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 51 words</span>
+                <span class="post-word-count">, 91 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,14 +194,15 @@
           
           
 
-          <h1 id="meta-convolutional-neural-networks-for-single-domain-generalization-cvpr-2022">Meta Convolutional Neural Networks for Single Domain Generalization (CVPR 2022)</h1>
-<p><img src="/images/2022/PRN300/1.png" alt="Fig 1"></p>
+          <h1 id="uncertainty-guided-model-generalization-to-unseen-domains-cvpr-2021">Uncertainty-guided Model Generalization to Unseen Domains (CVPR 2021)</h1>
+<p><a href="https://github.com/joffery/UMGUD">开源代码传送门</a></p>
 <h2 id="概述">概述</h2>
-<p>本文关注单源域泛化问题，提出一种新的卷积神经网络，称为 Meta CNN。</p>
-<h3 id="bomf-操作">BoMF 操作</h3>
-<p><img src="/images/2022/PRN300/2.png" alt="Fig 2"></p>
-<h3 id="meta-cnn-架构">Meta CNN 架构</h3>
-<p><img src="/images/2022/PRN300/3.png" alt="Fig 3"></p>
+<p>本文关注关注单源域 OOD 泛化问题，提出 Uncertain Out-of-domain Generalization，旨在通过不确定性估计的指导在输入空间和标签空间中提高源域容量。</p>
+<h3 id="模型架构">模型架构</h3>
+<p><img src="/images/2022/PRN301/1.png" alt="Fig 1"></p>
+<p><img src="/images/2022/PRN301/A1.png" alt="Alg 1"></p>
+<h3 id="可视化示例">可视化示例</h3>
+<p><img src="/images/2022/PRN301/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -216,7 +217,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn300/>http://jonathanwayy.xyz/2022/prn300/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn301/>http://jonathanwayy.xyz/2022/prn301/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -261,10 +262,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn299/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] FIXED: Frustratingly Easy Domain Generalization with Mixup (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] FIXED: Frustratingly Easy Domain Generalization with Mixup (2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn300/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn301/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021)">[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

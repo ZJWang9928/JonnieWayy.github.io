@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 17 Nov 2022 14:32:31 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Nov 2022 14:57:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn301/</link>
+      <pubDate>Tue, 22 Nov 2022 14:57:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn301/</guid>
+      <description>Uncertainty-guided Model Generalization to Unseen Domains (CVPR 2021) 开源代码传送门 概述 本文关注关注单源域 OOD 泛化问题，提出 Uncertain Out-of-domain Generalization，旨在通过不确定性估计的指导在输入空间和</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn300/</link>
