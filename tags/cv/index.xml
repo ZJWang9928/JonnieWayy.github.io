@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 22 Nov 2022 14:57:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Nov 2022 14:06:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] PTIM via TF Interp. Emb. and External Attack Node Implant. (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn302/</link>
+      <pubDate>Wed, 23 Nov 2022 14:06:11 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn302/</guid>
+      <description>2211.08657 Person Text-Image Matching via Text-Feature Interpretability Embedding and External Attack Node Implantation (2022) 开源代码传送门 概述 本文提出一种 text-feature interpretability embedding and external attack node implantation 方法。 模型架构 SCFC Module EANIL 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn301/</link>
