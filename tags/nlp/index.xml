@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Nov 2022 17:11:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 19:55:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] DG of NMT: Fusing Adapters with LODO Training (ACL 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn308/</link>
+      <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn308/</guid>
+      <description>Domain Generalisation of NMT: Fusing Adapters with Leave-One-Domain-Out Training (ACL 2022) 开源代码传送门 概述 本文关注机器翻译任务中的域泛化问题。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] HiddenCut: Simple Data Augmentation for NLU (ACL 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn306/</link>
