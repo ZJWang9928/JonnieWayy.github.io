@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Nov 2022 09:40:38 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 16:02:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Adversarial TS Representation Learning for DG (NeurIPS 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn305/</link>
+      <pubDate>Thu, 24 Nov 2022 16:02:32 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn305/</guid>
+      <description>Adversarial Teacher-Student Representation Learning for Domain Generalization (NeurIPS 2021) 概述 现有工作只保证了对可见源域不变，而不能保证学习到的表征对不可见域数据的泛化能力。 本文提出一种对抗师生表征学习框架 (Adversarial Teacher-Student Representation</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] DG via FDB Feature Disentanglement and Interaction (MM 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn304/</link>
