@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 23 Nov 2021 14:29:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 09:40:38 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] DG via FDB Feature Disentanglement and Interaction (MM 2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn304/</link>
+      <pubDate>Thu, 24 Nov 2022 09:40:38 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn304/</guid>
+      <description>Domain Generalization via Frequency-domain-based Feature Disentanglement and Interaction (MM 2022) 概述 一个发现 图像的高频信息在不同域中较为一致 低频信息与域更为相关 本文提出一种基于频域的特征结构与交互框架 (Frequency-domain-based Feature Disentanglement and Interaction framework, FF</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021)</title>
       <link>http://jonathanwayy.xyz/2021/prn121/</link>
