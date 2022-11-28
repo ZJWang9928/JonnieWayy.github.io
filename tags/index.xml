@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Nov 2022 19:55:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 16:21:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>domain generalization</title>
       <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-      <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
+      <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>http://jonathanwayy.xyz/tags/nlp/</link>
+      <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>symptom extraction</title>
+      <link>http://jonathanwayy.xyz/tags/symptom-extraction/</link>
+      <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/symptom-extraction/</guid>
       <description></description>
     </item>
     
@@ -23,33 +59,6 @@
       <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/machine-translation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nlp</title>
-      <link>http://jonathanwayy.xyz/tags/nlp/</link>
-      <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     

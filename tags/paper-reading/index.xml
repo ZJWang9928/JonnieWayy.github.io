@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Nov 2022 19:55:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 16:21:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Generalizing through Forgetting - DG for SEE in CN (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn309/</link>
+      <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn309/</guid>
+      <description>2209.09485 Generalizing through Forgetting - Domain Generalization for Symptom Event Extraction in Clinical Notes (2022) 概述 Cross-domain Symptom Event Extraction 问题。 数据集情况 本文方法</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] DG of NMT: Fusing Adapters with LODO Training (ACL 2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn308/</link>
