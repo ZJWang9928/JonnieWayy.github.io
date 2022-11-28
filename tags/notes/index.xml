@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 25 Nov 2022 16:21:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 15:23:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Explainable Deep Classification Models for DG (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn310/</link>
+      <pubDate>Mon, 28 Nov 2022 15:23:22 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn310/</guid>
+      <description>Explainable Deep Classification Models for Domain Generalization (CVPR 2021) 概述 本文认为提高分类器的可解释性能够提升其泛化能力，并主要关注单源域泛化问题。 基于数据增广的方法通常只改变了色彩特征，但无</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Generalizing through Forgetting - DG for SEE in CN (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn309/</link>
