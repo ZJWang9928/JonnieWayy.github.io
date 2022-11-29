@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 28 Nov 2022 15:23:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 16:29:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] FSDR: Frequency Space Domain Randomization for DG (CVPR 2021)</title>
+      <link>http://jonathanwayy.xyz/2022/prn311/</link>
+      <pubDate>Tue, 29 Nov 2022 16:29:40 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn311/</guid>
+      <description>FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021) 概述 语义分割任务。 本文提出一种频率空间域随机化 (Frequency Space Domain Randomization, FSDR) 方法。 谱分解可视化 模型架构 DIFs 与 DVFs 分析 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Explainable Deep Classification Models for DG (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn310/</link>
