@@ -7,9 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 29 Nov 2022 16:29:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2022 17:21:56 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[论文阅读笔记 -- 域泛化] FSDR: Frequency Space Domain Randomization for DG (CVPR 2021)</title>
+      <title>[论文阅读笔记 -- 域泛化] Deep Frequency Filtering for Domain Generalization (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn312/</link>
+      <pubDate>Wed, 30 Nov 2022 17:21:56 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn312/</guid>
+      <description>2203.12198 Deep Frequency Filtering for Domain Generalization (2022) 概述 本文针对域泛化问题，提出深度频率滤波 (Deep Frequency Filtering, DFF)。 模型架构 可视化示例</description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] FSDR: Freq. Space Domain Randomization for DG(CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn311/</link>
       <pubDate>Tue, 29 Nov 2022 16:29:40 +0800</pubDate>
       
