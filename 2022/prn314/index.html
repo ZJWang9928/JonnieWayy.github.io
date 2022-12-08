@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/bg63/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn314/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn313/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn313/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn314/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)",
-    "headline" : "[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)",
-    "description" : "Refined Semantic Enhancement towards Frequency Diffusion for Video Captioning (AAAI 2022) 开源代码传送门 概述 Video Captioning 任务。 本文提出一种 Refined Semantic enhancement method towards Frequency Diffusion (RSFD) 方法。 模型架构",
+    "name" : "[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)",
+    "headline" : "[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)",
+    "description" : "Adversarially Adaptive Normalization for Single Domain Generalization (CVPR 2021) 概述 本文提出一种 Adaptive Standardization and Rescaling Normalization (ASR-Norm) 方法用于单源域泛化。 ASR-Norm 层结构",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-12-02 16:45:58 \u002b0800 CST",
-    "dateModified" : "2022-12-02 16:45:58 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn313\/",
-    "wordCount" : "46",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","video","frequency","captioning", "Jonathan`s Blog"]
+    "datePublished": "2022-12-07 17:25:28 \u002b0800 CST",
+    "dateModified" : "2022-12-07 17:25:28 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn314\/",
+    "wordCount" : "37",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","domain generalization", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-12-02 itemprop="datePublished">December 2, 2022</time>
+                on <time datetime=2022-12-07 itemprop="datePublished">December 7, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 46 words</span>
+                <span class="post-word-count">, 37 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,14 +194,12 @@
           
           
 
-          <h1 id="refined-semantic-enhancement-towards-frequency-diffusion-for-video-captioning-aaai-2022">Refined Semantic Enhancement towards Frequency Diffusion for Video Captioning (AAAI 2022)</h1>
-<p><a href="https://github.com/lzp870/RSFD">开源代码传送门</a></p>
-<p><img src="/images/2022/PRN313/1.png" alt="Fig 1"></p>
+          <h1 id="adversarially-adaptive-normalization-for-single-domain-generalization-cvpr-2021">Adversarially Adaptive Normalization for Single Domain Generalization (CVPR 2021)</h1>
+<p><img src="/images/2022/PRN314/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>Video Captioning 任务。</p>
-<p>本文提出一种 Refined Semantic enhancement method towards Frequency Diffusion (RSFD) 方法。</p>
-<h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2022/PRN313/2.png" alt="Fig 2"></p>
+<p>本文提出一种 Adaptive Standardization and Rescaling Normalization (ASR-Norm) 方法用于单源域泛化。</p>
+<h3 id="asr-norm-层结构">ASR-Norm 层结构</h3>
+<p><img src="/images/2022/PRN314/3.png" alt="Fig 3"></p>
 
     </div>
 
@@ -216,7 +214,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn313/>http://jonathanwayy.xyz/2022/prn313/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn314/>http://jonathanwayy.xyz/2022/prn314/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -248,14 +246,8 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
                     #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/video/">
-                    #video</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/frequency/">
-                    #frequency</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/captioning/">
-                    #captioning</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/domain-generalization/">
+                    #domain generalization</a></span>
             
             </section>
         
@@ -267,10 +259,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/bg63/" class="prev" rel="prev" title="壁纸分享[63]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[63]</a>
+        <a href="http://jonathanwayy.xyz/2022/prn313/" class="prev" rel="prev" title="[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn314/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)">[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
