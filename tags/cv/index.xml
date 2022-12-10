@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 07 Dec 2022 17:25:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2022 10:15:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022)</title>
+      <link>http://jonathanwayy.xyz/2022/prn315/</link>
+      <pubDate>Sat, 10 Dec 2022 10:15:43 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2022/prn315/</guid>
+      <description>2211.08253 HMOE: Hypernetwork-based Mixture of Experts for Domain Generalization (2022) 概述 本文旨在提出一种无需域标签且具有良好可解释性的 DG 算法，设计了一种 Hypernetwork-based Mixture of Experts (MoE) 方法。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)</title>
       <link>http://jonathanwayy.xyz/2022/prn314/</link>

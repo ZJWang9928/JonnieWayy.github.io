@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn313/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2022/prn315/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn314/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn314/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2022/prn315/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021) | Jonathan`s Blog
+           [论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)",
-    "headline" : "[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)",
-    "description" : "Adversarially Adaptive Normalization for Single Domain Generalization (CVPR 2021) 概述 本文提出一种 Adaptive Standardization and Rescaling Normalization (ASR-Norm) 方法用于单源域泛化。 ASR-Norm 层结构",
+    "name" : "[论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022)",
+    "headline" : "[论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022)",
+    "description" : "2211.08253 HMOE: Hypernetwork-based Mixture of Experts for Domain Generalization (2022) 概述 本文旨在提出一种无需域标签且具有良好可解释性的 DG 算法，设计了一种 Hypernetwork-based Mixture of Experts (MoE) 方法。 模型架构",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,10 +65,10 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2022",
-    "datePublished": "2022-12-07 17:25:28 \u002b0800 CST",
-    "dateModified" : "2022-12-07 17:25:28 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn314\/",
-    "wordCount" : "37",
+    "datePublished": "2022-12-10 10:15:43 \u002b0800 CST",
+    "dateModified" : "2022-12-10 10:15:43 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2022\/prn315\/",
+    "wordCount" : "56",
     "keywords" : [ "paper reading","cv","notes","cross-modal","domain generalization", "Jonathan`s Blog"]
 }
 </script>
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2022-12-07 itemprop="datePublished">December 7, 2022</time>
+                on <time datetime=2022-12-10 itemprop="datePublished">December 10, 2022</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 37 words</span>
+                <span class="post-word-count">, 56 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,12 +194,12 @@
           
           
 
-          <h1 id="adversarially-adaptive-normalization-for-single-domain-generalization-cvpr-2021">Adversarially Adaptive Normalization for Single Domain Generalization (CVPR 2021)</h1>
-<p><img src="/images/2022/PRN314/1.png" alt="Fig 1"></p>
+          <h1 id="221108253-hmoe-hypernetwork-based-mixture-of-experts-for-domain-generalization-2022">2211.08253 HMOE: Hypernetwork-based Mixture of Experts for Domain Generalization (2022)</h1>
+<p><img src="/images/2022/PRN315/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种 Adaptive Standardization and Rescaling Normalization (ASR-Norm) 方法用于单源域泛化。</p>
-<h3 id="asr-norm-层结构">ASR-Norm 层结构</h3>
-<p><img src="/images/2022/PRN314/3.png" alt="Fig 3"></p>
+<p>本文旨在提出一种无需域标签且具有良好可解释性的 DG 算法，设计了一种 Hypernetwork-based Mixture of Experts (MoE) 方法。</p>
+<h3 id="模型架构">模型架构</h3>
+<p><img src="/images/2022/PRN315/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -214,7 +214,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2022/prn314/>http://jonathanwayy.xyz/2022/prn314/</span>
+                    <a href=http://jonathanwayy.xyz/2022/prn315/>http://jonathanwayy.xyz/2022/prn315/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -259,10 +259,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2022/prn313/" class="prev" rel="prev" title="[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)</a>
+        <a href="http://jonathanwayy.xyz/2022/prn314/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2022/prn315/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022)">[论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
