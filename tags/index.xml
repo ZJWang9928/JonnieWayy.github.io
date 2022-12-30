@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 10 Dec 2022 10:15:43 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2022 16:22:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Sat, 10 Dec 2022 10:15:43 +0800</pubDate>
+      <pubDate>Fri, 30 Dec 2022 16:22:55 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
@@ -20,9 +20,54 @@
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Sat, 10 Dec 2022 10:15:43 +0800</pubDate>
+      <pubDate>Fri, 30 Dec 2022 16:22:55 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Fri, 30 Dec 2022 16:22:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Fri, 30 Dec 2022 16:22:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://jonathanwayy.xyz/tags/reid/</link>
+      <pubDate>Fri, 30 Dec 2022 16:22:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
+      <pubDate>Fri, 30 Dec 2022 16:22:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ViT</title>
+      <link>http://jonathanwayy.xyz/tags/vit/</link>
+      <pubDate>Fri, 30 Dec 2022 16:22:55 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
@@ -32,24 +77,6 @@
       <pubDate>Sat, 10 Dec 2022 10:15:43 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sat, 10 Dec 2022 10:15:43 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sat, 10 Dec 2022 10:15:43 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -167,24 +194,6 @@
       <pubDate>Thu, 24 Nov 2022 16:02:32 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/teacher-student/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Wed, 23 Nov 2022 14:06:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Wed, 23 Nov 2022 14:06:11 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -509,15 +518,6 @@
       <pubDate>Sun, 20 Mar 2022 20:59:17 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/sequential/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ViT</title>
-      <link>http://jonathanwayy.xyz/tags/vit/</link>
-      <pubDate>Wed, 16 Mar 2022 08:16:08 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
       <description></description>
     </item>
     
