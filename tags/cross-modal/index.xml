@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 30 Dec 2022 18:22:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 17:23:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Domain Generalization using Ensemble Learning (IntelliSys 2021)</title>
+      <link>http://jonathanwayy.xyz/2023/prn318/</link>
+      <pubDate>Fri, 06 Jan 2023 17:23:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn318/</guid>
+      <description>2103.10257 Domain Generalization using Ensemble Learning (IntelliSys 2021) 概述 本文关注利用集成学习解决单源域泛化问题。 用于集成的 CNN 结构 集成方式 分别计算，标签预测求均值 单层感知机作 Meta-learner 计算权重 多层感知机</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization with Correlated Style Uncertainty (2022)</title>
       <link>http://jonathanwayy.xyz/2022/prn317/</link>
