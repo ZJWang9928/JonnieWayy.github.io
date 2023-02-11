@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 10 Feb 2023 23:26:52 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 14:36:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Modeling Uncertain Feature Representation for DG (2023)</title>
+      <link>http://jonathanwayy.xyz/2023/prn320/</link>
+      <pubDate>Sat, 11 Feb 2023 14:36:41 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn320/</guid>
+      <description>2301.06442 Modeling Uncertain Feature Representation for Domain Generalization (2023) 开源代码传送门 概述 论文 Uncertainty Modeling for Out-of-Distribution Generalization (ICLR 2022) 的拓展工作。 模型架构 重构样本示例 Inference-time Adapatation</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Uncertainty Modeling for OOD Generalization (ICLR 2022)</title>
       <link>http://jonathanwayy.xyz/2023/prn319/</link>
