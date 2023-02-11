@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Feb 2023 16:29:21 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 17:02:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>domain generalization</title>
+      <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
+      <pubDate>Sat, 11 Feb 2023 17:02:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>http://jonathanwayy.xyz/tags/nlp/</link>
+      <pubDate>Sat, 11 Feb 2023 17:02:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Sat, 11 Feb 2023 17:02:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Sat, 11 Feb 2023 17:02:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
@@ -23,33 +59,6 @@
       <pubDate>Sat, 11 Feb 2023 16:29:21 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>domain generalization</title>
-      <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-      <pubDate>Sat, 11 Feb 2023 16:29:21 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sat, 11 Feb 2023 16:29:21 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sat, 11 Feb 2023 16:29:21 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -158,15 +167,6 @@
       <pubDate>Tue, 29 Nov 2022 16:29:40 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/semantic-segmentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nlp</title>
-      <link>http://jonathanwayy.xyz/tags/nlp/</link>
-      <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/nlp/</guid>
       <description></description>
     </item>
     

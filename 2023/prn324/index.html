@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2023/prn322/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2023/prn324/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2023/prn323/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2023/prn323/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2023/prn324/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023) | Jonathan`s Blog
+           [论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023)",
-    "headline" : "[论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023)",
-    "description" : "2302.00980 Domain Generalization Emerges from Dreaming (2023) 概述 域泛化问题。 本文提出一种称为 Stylized Dream 的数据增广方法，以减轻模型的 texture bias。 模型架构 可视化示例",
+    "name" : "[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022)",
+    "headline" : "[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022)",
+    "description" : "Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion (ACL 2022) 开源代码传送门 概述 Text-to-SQL 解析任务中的域泛化问题。 模型架构",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2023",
-    "datePublished": "2023-02-11 16:29:21 \u002b0800 CST",
-    "dateModified" : "2023-02-11 16:29:21 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2023\/prn323\/",
-    "wordCount" : "54",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","domain generalization", "Jonathan`s Blog"]
+    "datePublished": "2023-02-11 17:02:48 \u002b0800 CST",
+    "dateModified" : "2023-02-11 17:02:48 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2023\/prn324\/",
+    "wordCount" : "38",
+    "keywords" : [ "paper reading","nlp","notes","domain generalization", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,7 +160,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 54 words</span>
+                <span class="post-word-count">, 38 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,17 +194,13 @@
           
           
 
-          <h1 id="230200980-domain-generalization-emerges-from-dreaming-2023">2302.00980 Domain Generalization Emerges from Dreaming (2023)</h1>
+          <h1 id="bridging-the-generalization-gap-in-text-to-sql-parsing-with-schema-expansion-acl-2022">Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion (ACL 2022)</h1>
+<p><a href="https://github.com/microsoft/text-to-sql-schema-expansion-generalization">开源代码传送门</a></p>
+<p><img src="/images/2023/PRN324/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>域泛化问题。</p>
-<p>本文提出一种称为 Stylized Dream 的数据增广方法，以减轻模型的 texture bias。</p>
+<p>Text-to-SQL 解析任务中的域泛化问题。</p>
 <h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2023/PRN323/1.png" alt="Fig 1"></p>
-<p><img src="/images/2023/PRN323/A1.png" alt="Alg 1"></p>
-<p><img src="/images/2023/PRN323/A2.png" alt="Alg 2"></p>
-<h3 id="可视化示例">可视化示例</h3>
-<p><img src="/images/2023/PRN323/2.png" alt="Fig 2"></p>
-<p><img src="/images/2023/PRN323/3.png" alt="Fig 3"></p>
+<p><img src="/images/2023/PRN324/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -219,7 +215,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2023/prn323/>http://jonathanwayy.xyz/2023/prn323/</span>
+                    <a href=http://jonathanwayy.xyz/2023/prn324/>http://jonathanwayy.xyz/2023/prn324/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -242,14 +238,11 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
                     #paper reading</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
-                    #cv</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/nlp/">
+                    #nlp</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
                     #notes</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
             
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/domain-generalization/">
                     #domain generalization</a></span>
@@ -264,10 +257,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2023/prn322/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] CLIP the Gap: A Single DG Approach for Object Detection (2023)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] CLIP the Gap: A Single DG Approach for Object Detection (2023)</a>
+        <a href="http://jonathanwayy.xyz/2023/prn323/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2023/prn324/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022)">[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

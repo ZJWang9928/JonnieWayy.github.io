@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Feb 2023 16:29:21 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 17:02:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022)</title>
+      <link>http://jonathanwayy.xyz/2023/prn324/</link>
+      <pubDate>Sat, 11 Feb 2023 17:02:48 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn324/</guid>
+      <description>Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion (ACL 2022) 开源代码传送门 概述 Text-to-SQL 解析任务中的域泛化问题。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023)</title>
       <link>http://jonathanwayy.xyz/2023/prn323/</link>
