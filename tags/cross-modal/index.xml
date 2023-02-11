@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Feb 2023 14:54:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 15:55:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] CLIP the Gap: A Single DG Approach for Object Detection (2023)</title>
+      <link>http://jonathanwayy.xyz/2023/prn322/</link>
+      <pubDate>Sat, 11 Feb 2023 15:55:41 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn322/</guid>
+      <description>2301.05499 CLIP the Gap: A Single Domain Generalization Approach for Object Detection (2023) 概述 本文关注目标检测任务中的单源域泛化问题，引入 CLIP。 模型架构 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Aggregation of Disentangle: Reconsider D Variations in DG (2023)</title>
       <link>http://jonathanwayy.xyz/2023/prn321/</link>
