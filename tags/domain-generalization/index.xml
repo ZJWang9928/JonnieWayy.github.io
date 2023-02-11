@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Feb 2023 14:36:41 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 14:54:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Aggregation of Disentangle: Reconsider D Variations in DG (2023)</title>
+      <link>http://jonathanwayy.xyz/2023/prn321/</link>
+      <pubDate>Sat, 11 Feb 2023 14:54:14 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn321/</guid>
+      <description>2302.02350 Aggregation of Disentanglement: Reconsidering Domain Variations in Domain Generalization (2023) 概述 域泛化问题。 本文认为从多个源域得到的域不变特征不一定是分类任务的最优解。 一方面，生成的域不变信息在目标域并不一定有</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Modeling Uncertain Feature Representation for DG (2023)</title>
       <link>http://jonathanwayy.xyz/2023/prn320/</link>
