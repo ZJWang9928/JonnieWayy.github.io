@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Feb 2023 17:37:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/mae/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Feb 2023 21:26:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/mae/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VLP] SimVTP: Simple Video Text Pre-training with MAEs (2022)</title>
+      <link>http://jonathanwayy.xyz/2023/prn336/</link>
+      <pubDate>Thu, 16 Feb 2023 21:26:17 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn336/</guid>
+      <description>2212.03490 SimVTP: Simple Video Text Pre-training with Masked Autoencoders (2022) 开源代码传送门 概述 本文基于 MAE 提出一种简单视频-文本预训练框架 SimVTP。 模型架构 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- VLP] Learning Transferable Visual Models From NL Supervision (ICML 2021)</title>
       <link>http://jonathanwayy.xyz/2023/prn335/</link>
