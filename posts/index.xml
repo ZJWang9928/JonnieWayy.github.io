@@ -117,12 +117,30 @@
     </item>
     
     <item>
+      <title>壁纸分享[65]</title>
+      <link>http://jonathanwayy.xyz/2023/bg65/</link>
+      <pubDate>Wed, 01 Feb 2023 14:55:30 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/bg65/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization using Ensemble Learning (IntelliSys 2021)</title>
       <link>http://jonathanwayy.xyz/2023/prn318/</link>
       <pubDate>Fri, 06 Jan 2023 17:23:16 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/2023/prn318/</guid>
       <description>2103.10257 Domain Generalization using Ensemble Learning (IntelliSys 2021) 概述 本文关注利用集成学习解决单源域泛化问题。 用于集成的 CNN 结构 集成方式 分别计算，标签预测求均值 单层感知机作 Meta-learner 计算权重 多层感知机</description>
+    </item>
+    
+    <item>
+      <title>壁纸分享[64]</title>
+      <link>http://jonathanwayy.xyz/2023/bg64/</link>
+      <pubDate>Sun, 01 Jan 2023 14:53:39 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/bg64/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2023/bg65/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2023/prn320/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2023/prn319/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2022/prn317/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2023/prn318/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2023/bg64/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 域泛化] Uncertainty Modeling for OOD Generalization (ICLR 2022) | Jonathan`s Blog
+           壁纸分享[64] | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 域泛化] Uncertainty Modeling for OOD Generalization (ICLR 2022) | Jonathan`s Blog">
+  <meta name="title" content="壁纸分享[64] | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 域泛化] Uncertainty Modeling for OOD Generalization (ICLR 2022)",
-    "headline" : "[论文阅读笔记 -- 域泛化] Uncertainty Modeling for OOD Generalization (ICLR 2022)",
-    "description" : "Uncertainty Modeling for Out-of-Distribution Generalization (ICLR 2022) 开源代码传送门 概述 域泛化任务。 本文提出一种概率方法，用不确定性最域迁移进行建模 (modeling Domain Shifts with Uncertainty, DSU)，将特征统计量建模为不确定性分",
+    "name" : "壁纸分享[64]",
+    "headline" : "壁纸分享[64]",
+    "description" : "",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2023",
-    "datePublished": "2023-02-10 23:26:52 \u002b0800 CST",
-    "dateModified" : "2023-02-10 23:26:52 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2023\/prn319\/",
-    "wordCount" : "199",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","domain generalization","uncertainty", "Jonathan`s Blog"]
+    "datePublished": "2023-01-01 14:53:39 \u002b0800 CST",
+    "dateModified" : "2023-01-01 14:53:39 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2023\/bg64\/",
+    "wordCount" : "0",
+    "keywords" : [ "linux","wallpaper","manjaro","kde", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,20 +160,20 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Uncertainty Modeling for OOD Generalization (ICLR 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">壁纸分享[64]</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2023-02-10 itemprop="datePublished">February 10, 2023</time>
+                on <time datetime=2023-01-01 itemprop="datePublished">January 1, 2023</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
+                        <a href="http://jonathanwayy.xyz/categories/awesome-wallpapers/"> Awesome Wallpapers </a>
                         
                 </span>
-                <span class="post-word-count">, 199 words</span>
+                <span class="post-word-count">, 0 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,20 +194,16 @@
           
           
 
-          <h1 id="uncertainty-modeling-for-out-of-distribution-generalization-iclr-2022">Uncertainty Modeling for Out-of-Distribution Generalization (ICLR 2022)</h1>
-<p><a href="https://github.com/lixiaotong97/DSU">开源代码传送门</a></p>
-<p><img src="/images/2023/PRN319/1.png" alt="Fig 1"></p>
-<h2 id="概述">概述</h2>
-<p>域泛化任务。</p>
-<p>本文提出一种概率方法，用不确定性最域迁移进行建模 (modeling Domain Shifts with Uncertainty, DSU)，将特征统计量建模为不确定性分布。</p>
-<p><img src="/images/2023/PRN319/2.png" alt="Fig 2"></p>
-<h2 id="本文方法">本文方法</h2>
-<p>本文假设在考虑了潜在的不确定性后，各特征统计量服从多元高斯分布。</p>
-<p>一些基于生成的研究表明，特征之间的差异含有隐式的语义含义，差异大的方向表明存在更多有价值的语义变化。</p>
-<p>因此，本文用一个特征均值和方差各自在 batch 中的方差来表征各自的不确定性估计。</p>
-<h2 id="可视化示例">可视化示例</h2>
-<p><img src="/images/2023/PRN319/3.png" alt="Fig 3"></p>
-<p><img src="/images/2023/PRN319/6.png" alt="Fig 6"></p>
+          <p><img src="/images/2020/01/wallpaper/631.png" alt="631">
+<img src="/images/2020/01/wallpaper/632.jpg" alt="632">
+<img src="/images/2020/01/wallpaper/633.jpg" alt="633">
+<img src="/images/2020/01/wallpaper/634.jpg" alt="634">
+<img src="/images/2020/01/wallpaper/635.jpg" alt="635">
+<img src="/images/2020/01/wallpaper/636.png" alt="636">
+<img src="/images/2020/01/wallpaper/637.jpg" alt="637">
+<img src="/images/2020/01/wallpaper/638.jpg" alt="638">
+<img src="/images/2020/01/wallpaper/639.png" alt="639">
+<img src="/images/2020/01/wallpaper/640.png" alt="640"></p>
 
     </div>
 
@@ -222,7 +218,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2023/prn319/>http://jonathanwayy.xyz/2023/prn319/</span>
+                    <a href=http://jonathanwayy.xyz/2023/bg64/>http://jonathanwayy.xyz/2023/bg64/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -242,23 +238,17 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/paper-reading/">
-                    #paper reading</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/linux/">
+                    #linux</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cv/">
-                    #cv</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/wallpaper/">
+                    #wallpaper</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/notes/">
-                    #notes</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/manjaro/">
+                    #manjaro</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
-                    #cross-modal</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/domain-generalization/">
-                    #domain generalization</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/uncertainty/">
-                    #uncertainty</a></span>
+            <span class="tag"><a href="http://jonathanwayy.xyz/tags/kde/">
+                    #kde</a></span>
             
             </section>
         
@@ -270,10 +260,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2023/bg65/" class="prev" rel="prev" title="壁纸分享[65]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[65]</a>
+        <a href="http://jonathanwayy.xyz/2022/prn317/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] Domain Generalization with Correlated Style Uncertainty (2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] Domain Generalization with Correlated Style Uncertainty (2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2023/prn320/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] Modeling Uncertain Feature Representation for DG (2023)">[论文阅读笔记 -- 域泛化] Modeling Uncertain Feature Representation for DG (2023)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2023/prn318/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] Domain Generalization using Ensemble Learning (IntelliSys 2021)">[论文阅读笔记 -- 域泛化] Domain Generalization using Ensemble Learning (IntelliSys 2021)&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -282,7 +272,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 0 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
