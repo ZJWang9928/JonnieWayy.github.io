@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Feb 2023 14:57:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Feb 2023 16:02:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- MAE] Multimodal Masked AEs Learn Transferable Representations (2022)</title>
+      <link>http://jonathanwayy.xyz/2023/prn331/</link>
+      <pubDate>Thu, 16 Feb 2023 16:02:26 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn331/</guid>
+      <description>2205.14204 Multimodal Masked Autoencoders Learn Transferable Representations (2022) 开源代码传送门 概述 本文提出 Multimodal Masked Autoencoders (M3AE)，为图文数据学习一个整合的模型。 核心想法为将一个图文对视为一个令牌长序列。 模型架</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- MAE] Masked Autoencoders Are Scalable Vision Learners (CVPR 2022)</title>
       <link>http://jonathanwayy.xyz/2023/prn330/</link>
