@@ -7,22 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 17 Feb 2023 12:42:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 20:52:34 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
-      <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
+      <title>cross-modal</title>
+      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
+      <pubDate>Fri, 17 Feb 2023 20:52:34 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
+      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
       <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
+      <pubDate>Fri, 17 Feb 2023 20:52:34 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>domain generalization</title>
+      <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
+      <pubDate>Fri, 17 Feb 2023 20:52:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Fri, 17 Feb 2023 20:52:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Fri, 17 Feb 2023 20:52:34 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attention</title>
+      <link>http://jonathanwayy.xyz/tags/attention/</link>
+      <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
       <description></description>
     </item>
     
@@ -45,47 +81,11 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Thu, 16 Feb 2023 16:45:41 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>retrieval</title>
       <link>http://jonathanwayy.xyz/tags/retrieval/</link>
       <pubDate>Thu, 16 Feb 2023 16:45:41 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>domain generalization</title>
-      <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-      <pubDate>Wed, 15 Feb 2023 14:39:28 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
       <description></description>
     </item>
     
