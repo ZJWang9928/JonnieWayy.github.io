@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Feb 2023 20:18:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 12:42:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- MAE] Data Efficient Masked Language Modeling for VL (EMNLP 2021)</title>
+      <link>http://jonathanwayy.xyz/2023/prn337/</link>
+      <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn337/</guid>
+      <description>Data Efficient Masked Language Modeling for Vision and Language (EMNLP 2021) 开源代码传送门 概述 本文为 MLM 预训练提出新的掩码策略。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Unseen Target Stance Detection with Adversarial DG (IJCNN 2020)</title>
       <link>http://jonathanwayy.xyz/2023/prn327/</link>
