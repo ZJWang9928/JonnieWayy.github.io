@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 18 Feb 2023 15:55:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 16:11:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data augmentation</title>
+      <link>http://jonathanwayy.xyz/tags/data-augmentation/</link>
+      <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/data-augmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>http://jonathanwayy.xyz/tags/nlp/</link>
+      <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://jonathanwayy.xyz/tags/notes/</link>
+      <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
+      <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survey</title>
+      <link>http://jonathanwayy.xyz/tags/survey/</link>
+      <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/tags/survey/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cross-modal</title>
       <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
@@ -36,24 +81,6 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Sat, 18 Feb 2023 15:55:17 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Sat, 18 Feb 2023 15:55:17 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>domain generalization</title>
       <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
       <pubDate>Sat, 18 Feb 2023 15:27:38 +0800</pubDate>
@@ -77,15 +104,6 @@
       <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/mae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nlp</title>
-      <link>http://jonathanwayy.xyz/tags/nlp/</link>
-      <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/nlp/</guid>
       <description></description>
     </item>
     
@@ -311,15 +329,6 @@
       <pubDate>Fri, 14 Oct 2022 12:08:46 +0800</pubDate>
       
       <guid>http://jonathanwayy.xyz/tags/segmentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Survey</title>
-      <link>http://jonathanwayy.xyz/tags/survey/</link>
-      <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/survey/</guid>
       <description></description>
     </item>
     
