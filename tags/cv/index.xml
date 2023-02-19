@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 18 Feb 2023 15:55:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 15:46:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Robust Representation Learning with Self-Distillation for DG (2023)</title>
+      <link>http://jonathanwayy.xyz/2023/prn343/</link>
+      <pubDate>Sun, 19 Feb 2023 15:46:16 +0800</pubDate>
+      
+      <guid>http://jonathanwayy.xyz/2023/prn343/</guid>
+      <description>2302.06874 Robust Representation Learning with Self-Distillation for Domain Generalization (2023) 概述 本文针对域泛化问题，提出一种 Robust Representation Learning with Self-Distillation (RRLD) 方法，其包含 intermediate-block self-distillation (IBSD) 和 augmentation-guided self-distillation (AGSD)。 模型架构 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- LM] General. through Memorization: NN Language Models (ICLR 2020)</title>
       <link>http://jonathanwayy.xyz/2023/prn341/</link>
