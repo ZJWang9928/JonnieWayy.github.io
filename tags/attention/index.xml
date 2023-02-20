@@ -1,577 +1,577 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>attention on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/attention/</link>
-    <description>Recent content in attention on Jonathan`s Blog</description>
+    <title>attention on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/attention/</link>
+    <description>Recent content in attention on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 17 Feb 2023 12:42:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 12:42:33 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/attention/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- MAE] Data Efficient Masked Language Modeling for VL (EMNLP 2021)</title>
-      <link>http://jonathanwayy.xyz/2023/prn337/</link>
+      <link>http://wzj.life/2023/prn337/</link>
       <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn337/</guid>
+      <guid>http://wzj.life/2023/prn337/</guid>
       <description>Data Efficient Masked Language Modeling for Vision and Language (EMNLP 2021) 开源代码传送门 概述 本文为 MLM 预训练提出新的掩码策略。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- MAE] SimVTP: Simple Video Text Pre-training with MAEs (2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn336/</link>
+      <link>http://wzj.life/2023/prn336/</link>
       <pubDate>Thu, 16 Feb 2023 21:26:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn336/</guid>
+      <guid>http://wzj.life/2023/prn336/</guid>
       <description>2212.03490 SimVTP: Simple Video Text Pre-training with Masked Autoencoders (2022) 开源代码传送门 概述 本文基于 MAE 提出一种简单视频-文本预训练框架 SimVTP。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- VLP] Learning Transferable Visual Models From NL Supervision (ICML 2021)</title>
-      <link>http://jonathanwayy.xyz/2023/prn335/</link>
+      <link>http://wzj.life/2023/prn335/</link>
       <pubDate>Thu, 16 Feb 2023 17:37:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn335/</guid>
+      <guid>http://wzj.life/2023/prn335/</guid>
       <description>Learning Transferable Visual Models From Natural Language Supervision (ICML 2021) 开源代码传送门 概述 本文提出图文预训练模型 Contrastive Language-Image Pre-training (CLIP)。 模型架构 核心机制伪代码</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- MAE] Multi-modal Masked Autoencoders for Medical VLP (MICCAI 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn334/</link>
+      <link>http://wzj.life/2023/prn334/</link>
       <pubDate>Thu, 16 Feb 2023 17:03:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn334/</guid>
+      <guid>http://wzj.life/2023/prn334/</guid>
       <description>Multi-modal Masked Autoencoders for Medical Vision-and-Language Pre-training (MICCAI 2022) 开源代码传送门 概述 本文提出一种 Multi-modal Masked Autoencoder (M3AE) 架构。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- MAE] Masked Contrastive Pre-Training for Efficient VT Retrieval (2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn333/</link>
+      <link>http://wzj.life/2023/prn333/</link>
       <pubDate>Thu, 16 Feb 2023 16:45:41 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn333/</guid>
+      <guid>http://wzj.life/2023/prn333/</guid>
       <description>2212.00986 Masked Contrastive Pre-Training for Efficient Video-Text Retrieval (2022) 开源代码传送门 概述 本文针对文本-视频预训练，提出一种 Masked Contrastive Pre-Training (MAC) 方法。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- MAE] VLMAE: Vision-Language Masked Autoencoder (2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn332/</link>
+      <link>http://wzj.life/2023/prn332/</link>
       <pubDate>Thu, 16 Feb 2023 16:22:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn332/</guid>
+      <guid>http://wzj.life/2023/prn332/</guid>
       <description>2208.09374 VLMAE: Vision-Language Masked Autoencoder (2022) 概述 本文提出一种新的图文预训练框架，称为 Vision-Language Masked Autoencoder (VLMAE) 图文数据集情况 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- MAE] Multimodal Masked AEs Learn Transferable Representations (2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn331/</link>
+      <link>http://wzj.life/2023/prn331/</link>
       <pubDate>Thu, 16 Feb 2023 16:02:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn331/</guid>
+      <guid>http://wzj.life/2023/prn331/</guid>
       <description>2205.14204 Multimodal Masked Autoencoders Learn Transferable Representations (2022) 开源代码传送门 概述 本文提出 Multimodal Masked Autoencoders (M3AE)，为图文数据学习一个整合的模型。 核心想法为将一个图文对视为一个令牌长序列。 模型架</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- MAE] Masked Autoencoders Are Scalable Vision Learners (CVPR 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn330/</link>
+      <link>http://wzj.life/2023/prn330/</link>
       <pubDate>Thu, 16 Feb 2023 14:57:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn330/</guid>
+      <guid>http://wzj.life/2023/prn330/</guid>
       <description>Masked Autoencoders Are Scalable Vision Learners (CVPR 2022) 开源代码传送门 概述 将 MAE 引入到视觉任务。 模型架构 加掩码重构效果示例 掩码率的影响 掩码采样策略对比</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Attention Diversification for Domain Generalization (ECCV 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn298/</link>
+      <link>http://wzj.life/2022/prn298/</link>
       <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn298/</guid>
+      <guid>http://wzj.life/2022/prn298/</guid>
       <description>Attention Diversification for Domain Generalization (ECCV 2022) 开源代码传送门 概述 本文针对 DG 任务，提出一种注意力多样化架构 (Attention Diversification framework)。 模型架构 训练策略 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 图像检索] Self-Supervised Product Quantization for Uns. IR (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn180/</link>
+      <link>http://wzj.life/2022/prn180/</link>
       <pubDate>Sun, 30 Jan 2022 14:47:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn180/</guid>
+      <guid>http://wzj.life/2022/prn180/</guid>
       <description>Self-Supervised Product Quantization for Deep Unsupervised Image Retrieval (ICCV 2021) 开源代码传送门 概述 本文提出首个无监督端到端基于量化的图像检索方法，称为 Self-supervised Product Quantization (SPQ) Network，联合学习特征提取器和编码。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Tiled SE: Channel Att. With Local Spatial Context (ICCVW 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn178/</link>
+      <link>http://wzj.life/2022/prn178/</link>
       <pubDate>Thu, 27 Jan 2022 18:06:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn178/</guid>
+      <guid>http://wzj.life/2022/prn178/</guid>
       <description>Tiled Squeeze-and-Excite: Channel Attention With Local Spatial Context (ICCVW 2021) 概述 旨在分析有效的通道注意力所需的最小空间上下文。 本文基于 SENet 提出一种 Tiled Squeeze-and-Excite (TSE) 注意力。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 图像检索] DOLG: Deep Orthogonal Fusion of Local Global Feat. (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn174/</link>
+      <link>http://wzj.life/2022/prn174/</link>
       <pubDate>Thu, 20 Jan 2022 17:48:10 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn174/</guid>
+      <guid>http://wzj.life/2022/prn174/</guid>
       <description>DOLG: Single-Stage Image Retrieval With Deep Orthogonal Fusion of Local and Global Features (ICCV 2021) 开源代码传送门 (PaddlePaddle) 概述 本文提出一种深度正交局部与全局特征融合模型 (Deep Orthogonal Local and Global feature fusion model, DOLG)，由一个局部分支和一个</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn134/</link>
+      <link>http://wzj.life/2021/prn134/</link>
       <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn134/</guid>
+      <guid>http://wzj.life/2021/prn134/</guid>
       <description>2106.05822 GroupBERT: Enhanced Transformer Architecture with Efficient Grouped Structures (2021) 概述 本文对 Transformer 曾的结构进行了一些改进： 增加一个卷积模块作为自注意力模块的补充，分解局部与全局关系的学习 引入 grouped transformeation 以降低前馈层</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn133/</link>
+      <link>http://wzj.life/2021/prn133/</link>
       <pubDate>Thu, 02 Dec 2021 20:43:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn133/</guid>
+      <guid>http://wzj.life/2021/prn133/</guid>
       <description>2111.11418 MetaFormer is Actually What You Need for Vision (2021) 开源代码传送门 概述 Transformer 中的编码器包含两部分，其一是注意力模块，用于混合 token 之间的信息，本文称之为 token mixer；其二是其余的模</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Learning LocFeat with Multiple Dynamic Attention (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn132/</link>
+      <link>http://wzj.life/2021/prn132/</link>
       <pubDate>Wed, 01 Dec 2021 10:57:35 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn132/</guid>
+      <guid>http://wzj.life/2021/prn132/</guid>
       <description>Learning Deep Local Features With Multiple Dynamic Attentions for Large-Scale Image Retrieval (ICCV 2021) 开源代码传送门 概述 由于图像内容的多样性，只提取一张注意力图难以有效捕捉所有潜在的语义模式。 本文提出一个新架构，使</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn114/</link>
+      <link>http://wzj.life/2021/prn114/</link>
       <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn114/</guid>
+      <guid>http://wzj.life/2021/prn114/</guid>
       <description>2104.05704 Escaping the Big Data Paradigm with Compact Transformers (2021) 开源代码传送门 概述 针对 Transformer 模型的数据饥饿 (data hungry) 传统观点，尝试弥合 Transformer 和 CNN 两种架构之间的鸿沟，结合二者优势，使得基于 Transformer 的模型能够</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] PCNET: Parallelly Conquer Large Variance of Person ReId (ICIP 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn95/</link>
+      <link>http://wzj.life/2021/prn95/</link>
       <pubDate>Fri, 10 Sep 2021 13:22:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn95/</guid>
+      <guid>http://wzj.life/2021/prn95/</guid>
       <description>PCNET: Parallelly Conquer the Large Variance of Person Re-Identification (ICIP 2021) 概述 本文提出 Parallelly Conquer Net (PCNet)，主要包含三个部件： Pose Adaptation Module (PAM) Global Alignment Module (GAM) Pixel-Wised Attention Module (PWAM) 用模块聚合单元 (Module Aggregation Unit) 整合各个子模块生成的特</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn94/</link>
+      <link>http://wzj.life/2021/prn94/</link>
       <pubDate>Thu, 09 Sep 2021 22:52:53 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn94/</guid>
+      <guid>http://wzj.life/2021/prn94/</guid>
       <description>Cross-Modal Center Loss for 3D Cross-Modal Retrieval (CVPR 2021) 概述 现有方法的问题 核心想法是最小化由预训练模型提取的特征之间的跨模态差异，预训练模型没有参与训练或进行微调 现有的损失函数主</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn93/</link>
+      <link>http://wzj.life/2021/prn93/</link>
       <pubDate>Thu, 09 Sep 2021 21:42:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn93/</guid>
+      <guid>http://wzj.life/2021/prn93/</guid>
       <description>Modality-Specific and Shared Generative Adversarial Network for Cross-modal Retrieval (PR 2020) 概述 本文提出 Modality-Specific and Shared Generative Adversarial Network (\(MS^2GAN\))。 生成模型 标签预测 将模态中特征与公共空间特征拼接后用于预测标签，采用</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Learning Sufficient Scene Representation(Neurocomputing 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn91/</link>
+      <link>http://wzj.life/2021/prn91/</link>
       <pubDate>Wed, 08 Sep 2021 19:36:34 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn91/</guid>
+      <guid>http://wzj.life/2021/prn91/</guid>
       <description>Learning Sufficient Scene Representation for Unsupervised Cross-modal Retrieval (Neurocomputing 2021) 背景 此前有工作从统计层面证明分析了跨模态检索的过程，借助变分推断证明了不可能同时最大化模态内与模态间相似度，二者会互相约</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Unsupervised Cross-modal Retrieval through AL (ICME 2017)</title>
-      <link>http://jonathanwayy.xyz/2021/prn90/</link>
+      <link>http://wzj.life/2021/prn90/</link>
       <pubDate>Tue, 07 Sep 2021 14:45:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn90/</guid>
+      <guid>http://wzj.life/2021/prn90/</guid>
       <description>Unsupervised Cross-modal Retrieval through Adversarial Learning (ICME 2017) 概述 本文提出基于对抗学习的无监督跨模态检索 (Unsupervised Cross-modal Retrieval with Adversarial, UCAL)。 包含四个部分： 图像特征映射 文本特征映射 模态分类器，生成二元特</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Contextual Transformer Networks for Visual Recognition (CVPRW 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn89/</link>
+      <link>http://wzj.life/2021/prn89/</link>
       <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn89/</guid>
+      <guid>http://wzj.life/2021/prn89/</guid>
       <description>2107.12292 Contextual Transformer Networks for Visual Recognition (CVPRW 2021) 开源代码传送门 概述 现有 ViT 方法的问题 只是基于各位置上孤立的 key 和 query 求得注意力矩阵，忽略了相邻 key 之间丰富的上下文信息。 本文提出一</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn88/</link>
+      <link>http://wzj.life/2021/prn88/</link>
       <pubDate>Thu, 02 Sep 2021 12:29:35 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn88/</guid>
+      <guid>http://wzj.life/2021/prn88/</guid>
       <description>Attention-Guided Semantic Hashing for Unsupervised Cross-Modal Retrieval (ICME 2021) 概述 无监督跨模态哈希问题。 本文提出注意力指导的语义哈希模型 (Attention-Guided Semantic Hashing)。 模型架构 特征提取 VGG-16 提取图像特征，unive</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] HAL: Mitigating Visual Semantic Hubs (AAAI 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn83/</link>
+      <link>http://wzj.life/2021/prn83/</link>
       <pubDate>Thu, 26 Aug 2021 12:55:43 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn83/</guid>
+      <guid>http://wzj.life/2021/prn83/</guid>
       <description>HAL: Improved Text-Image Matching by Mitigating Visual Semantic Hubs (AAAI 2020) 背景 本文主要针对图文匹配任务中的枢纽点问题 (Hubness Problem) 进行研究。 由于图文匹配中的嵌入空间是由联合建模视觉和语言得到的，通常将其</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Step-Wise Hierarchical Alignment Network (IJCAI 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn82/</link>
+      <link>http://wzj.life/2021/prn82/</link>
       <pubDate>Mon, 23 Aug 2021 14:43:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn82/</guid>
+      <guid>http://wzj.life/2021/prn82/</guid>
       <description>Step-Wise Hierarchical Alignment Network for Image-Text Matching (IJCAI 2021) 背景 现有方法的问题 根据明显差异来鉴别图文对，可能会因而无法区分具有微小上下文信息差异但是语义内容相似的样本。 本文提出一种逐</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn81/</link>
+      <link>http://wzj.life/2021/prn81/</link>
       <pubDate>Thu, 19 Aug 2021 11:43:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn81/</guid>
+      <guid>http://wzj.life/2021/prn81/</guid>
       <description>Probabilistic Embeddings for Cross-Modal Retrieval (CVPR 2021) 开源代码传送门 背景 一张图像可能与多条不同的文本相匹配，一条文本也可能对应多张不同的图像。 本文提出一种概率跨模态嵌入模型 (Probabilistic Cross-Modal Embedding, P</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn80/</link>
+      <link>http://wzj.life/2021/prn80/</link>
       <pubDate>Tue, 17 Aug 2021 15:53:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn80/</guid>
+      <guid>http://wzj.life/2021/prn80/</guid>
       <description>2101.11873 A Graph-based Relevance Matching Model for Ad-hoc Retrieval (AAAI 2021) 背景 query-document 检索任务。 两类架构 representation-based matching interaction-based matching 两种重要关系 term-level query-document interaction document-level word relationships 一个问题 用来检索的短语可能并不连续出现在文档中，可能相隔甚远。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn77/</link>
+      <link>http://wzj.life/2021/prn77/</link>
       <pubDate>Thu, 12 Aug 2021 16:00:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn77/</guid>
+      <guid>http://wzj.life/2021/prn77/</guid>
       <description>2106.05786 CAT: Cross Attention in Vision Transformer (2021) 开源代码传送门 核心 设计了一种在单通道特征图上做注意力的方法，提出交叉注意力。 结合 Transformer 和 CNN 的优点构建 CAT。 Patch 内自注意力块 (IPSA) 与 Patch</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn76/</link>
+      <link>http://wzj.life/2021/prn76/</link>
       <pubDate>Wed, 11 Aug 2021 15:46:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn76/</guid>
+      <guid>http://wzj.life/2021/prn76/</guid>
       <description>Fashion Retrieval via Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019) 概述 Fashion Retrieval 任务。 一个问题在于对应位置的局部块通常是失配的，因此需要在同尺度所有局部之间遍历匹配。 设计了一种基于相似度金</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Attention in Attention Network for Image Super-Resolution (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn75/</link>
+      <link>http://wzj.life/2021/prn75/</link>
       <pubDate>Tue, 10 Aug 2021 11:12:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn75/</guid>
+      <guid>http://wzj.life/2021/prn75/</guid>
       <description>2104.09497 Attention in Attention Network for Image Super-Resolution (2021) 开源代码传送门 概览 图像超分任务。 提出一种 attention in attention 块 (\(A^2B\))，并设计了 \(A^2N\) 架构。 出发点 两个问题 图像的哪一部分倾向于有</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 注意力机制] CCNet: Criss-Cross Attention (ICCV 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn74/</link>
+      <link>http://wzj.life/2021/prn74/</link>
       <pubDate>Mon, 09 Aug 2021 12:11:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn74/</guid>
+      <guid>http://wzj.life/2021/prn74/</guid>
       <description>CCNet: Criss-Cross Attention for Semantic Segmentation (ICCV 2019) 开源代码传送门 概述 提出十字注意力 (Criss-Cross Attention)，将参数量从非局部注意力的 \(H \times W\) 减少到了 \(H + W -1\)。 为了捕捉全图依</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Learning Joint Embedding of Food Images and Recipes (TMM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn73/</link>
+      <link>http://wzj.life/2021/prn73/</link>
       <pubDate>Sun, 08 Aug 2021 20:31:27 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn73/</guid>
+      <guid>http://wzj.life/2021/prn73/</guid>
       <description>Cross-Modal Food Retrieval: Learning a Joint Embedding of Food Images and Recipes with Semantic Consistency and Attention Mechanism (TMM 2021) 核心 相同食物的数据表征可能不同，而不同食物的数据表征可能相似，从而导致食物数据有较大的类内方差与较小</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Attentional Feature Fusion (WACV 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn72/</link>
+      <link>http://wzj.life/2021/prn72/</link>
       <pubDate>Fri, 06 Aug 2021 14:50:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn72/</guid>
+      <guid>http://wzj.life/2021/prn72/</guid>
       <description>2009.14082 Attentional Feature Fusion (WACV 2021) 开源代码传送门 概述 本文研究特征融合 (feature fusion)，提出注意力特征融合模块 (attentional feature fusion module, AFF)。 为了缓解由于尺度变化以及小目标引起的</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Context-Aware Attention Network (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn71/</link>
+      <link>http://wzj.life/2021/prn71/</link>
       <pubDate>Wed, 04 Aug 2021 19:43:07 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn71/</guid>
+      <guid>http://wzj.life/2021/prn71/</guid>
       <description>Context-Aware Attention Network for Image-Text Retrieval (CVPR 2020) 背景 现有方法的问题 不同的局部块有不同重要性 忽略同模态中各局部之间的语义相关性 一个单词或一个图像区域在不同的全局上下文中可能有</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn70/</link>
+      <link>http://wzj.life/2021/prn70/</link>
       <pubDate>Tue, 03 Aug 2021 12:09:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn70/</guid>
+      <guid>http://wzj.life/2021/prn70/</guid>
       <description>2106.03180 Transformer in Convolutional Neural Networks (2021) 开源代码传送门 概览 本文提出层级化的多头注意力 (H-MHSA)。 为了结合 CNN 与 Transformer 的优势，提出 Transformer in Convolutional Neural Networks (TransCNN) 的概念，TransCNN 直</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn69/</link>
+      <link>http://wzj.life/2021/prn69/</link>
       <pubDate>Tue, 03 Aug 2021 11:07:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn69/</guid>
+      <guid>http://wzj.life/2021/prn69/</guid>
       <description>Set and Rebase: Determining the Semantic Graph Connectivity for Unsupervised Cross-Modal Hashing (IJCAI 2020) 概述 两类无监督跨模态哈系 跨模态量化，最小化二进制编码与原始数据低维投影之间的鸿沟 跨模态相似度搜索 三个主要问题 在没</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn68/</link>
+      <link>http://wzj.life/2021/prn68/</link>
       <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn68/</guid>
+      <guid>http://wzj.life/2021/prn68/</guid>
       <description>Adapted Graph Reasoning and Filtration for Description-Image Retrieval (SIGIR 2021) 概述 本文处理更加抽象的文本描述。 提出一种自适应的图推理与过滤网络 (Adapted Graph Reasoning and Filtration network, AGRF)，包含两大主要部件： 自适应图推理网</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn64/</link>
+      <link>http://wzj.life/2021/prn64/</link>
       <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn64/</guid>
+      <guid>http://wzj.life/2021/prn64/</guid>
       <description>2103.11920v1 Retrieve Fast, Rerank Smart: Cooperative and Joint Approaches for Improved Cross-Modal Retrieval (2021) 开源代码传送门 核心想法 要在计算效率和模型精度上找到平衡。 四种模型 Cross-Encoders 如图 1(a) 所示。 二分类问题，将 \([CLS]\) token 输入分类器，用交</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] TIED: A Cycle Consistent Encoder-Decoder Model (CVPRW 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn63/</link>
+      <link>http://wzj.life/2021/prn63/</link>
       <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn63/</guid>
+      <guid>http://wzj.life/2021/prn63/</guid>
       <description>TIED: A Cycle Consistent Encoder-Decoder Model for Text-to-Image Retrieval (CVPRW 2021) 概览 Natural Language (NL) based Vehicle Track Retrieval 任务，对时间也有要求。 本文提出一种文本到图像的编码器解码器网络 (Text-to-Image Encoder-Decoder network, TIED)，将图文映射到潜在空间</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 联邦学习 / 跨模态检索] FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn62/</link>
+      <link>http://wzj.life/2021/prn62/</link>
       <pubDate>Wed, 28 Jul 2021 14:36:28 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn62/</guid>
+      <guid>http://wzj.life/2021/prn62/</guid>
       <description>FedCMR: Federated Cross-Modal Retrieval (SIGIR 2021) 概述 基于深度学习的方法需要大量高质量的多模态数据，而现实中，多模态数据由许多不同用户 (client) 分别生成。 本文研究联邦跨模态检索 (Federated Cross-Modal Retrieval, Fe</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn61/</link>
+      <link>http://wzj.life/2021/prn61/</link>
       <pubDate>Wed, 28 Jul 2021 10:41:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn61/</guid>
+      <guid>http://wzj.life/2021/prn61/</guid>
       <description>Revamping Cross-Modal Recipe Retrieval with Hierarchical Transformers and Self-supervised Learning (CVPR 2021) 开源代码传送门 图像编码器 \(\phi_{img}\) ResNet-50 / ResNeXt / ViT 菜谱编码器 \(\phi_{rec}\) 三类数据要处理 标题 成分 指导 用三个独立的基于 Transformer 的编码器分别处理三种数据</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Early Convolutions Help Transformers See Better (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn60/</link>
+      <link>http://wzj.life/2021/prn60/</link>
       <pubDate>Tue, 27 Jul 2021 11:07:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn60/</guid>
+      <guid>http://wzj.life/2021/prn60/</guid>
       <description>2106.14881 Early Convolutions Help Transformers See Better (2021) ViT 模型对超参数敏感，不好优化；而 CNN 更容易优化。 本文认为问题在于 ViT 的前期视觉处理 (early visual processing)，通常是 patchify stem，</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Fine-grained Video-Text Retrieval with HGR (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn59/</link>
+      <link>http://wzj.life/2021/prn59/</link>
       <pubDate>Mon, 26 Jul 2021 11:53:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn59/</guid>
+      <guid>http://wzj.life/2021/prn59/</guid>
       <description>Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning (CVPR 2020) 开源代码传送门 核心 提出一种层级式的图推理模型 (Hierarchical Graph Reasoning model, HGR)，将视频-文本匹配分解为三级语义： 全局事件，在文本中对应整个句</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] A Deep Local and Global Scene-Graph Matching (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn58/</link>
+      <link>http://wzj.life/2021/prn58/</link>
       <pubDate>Sun, 25 Jul 2021 11:30:31 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn58/</guid>
+      <guid>http://wzj.life/2021/prn58/</guid>
       <description>2106.02400 A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval (2021) 核心 提出一种局部与全局场景图匹配 (Local and Global Scene Graph Matching, LGSGM) 方法。 视觉图编码器 文本编码器 图嵌入 用多尺度节点注意力将图嵌入为向量。 附</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT / ReID] TransReID: Transformer-based Object Re-Identification (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn57/</link>
+      <link>http://wzj.life/2021/prn57/</link>
       <pubDate>Wed, 21 Jul 2021 10:10:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn57/</guid>
+      <guid>http://wzj.life/2021/prn57/</guid>
       <description>2102.04378v2 TransReID: Transformer-based Object Re-Identification (2021) 开源代码传送门 背景 目标 ReID 尚未很好解决的两个问题 从全局视角提取丰富的结构模式 包含细节信息的细粒度特征提取受到下采样的限制 本文提出一</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] CMT: Convolutional Neural Networks Meet Vision Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn56/</link>
+      <link>http://wzj.life/2021/prn56/</link>
       <pubDate>Tue, 20 Jul 2021 14:32:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn56/</guid>
+      <guid>http://wzj.life/2021/prn56/</guid>
       <description>2107.06263 CMT: Convolutional Neural Networks Meet Vision Transformers (2021) 核心 本文设计了一种 CNN 与 transformer 的交集，即 CMT 架构。 CMT 块 Local Perception Unit (LPU) 绝对的位置编码破坏了平移不变性，忽视了 patch 中的局部关联与结构信息。 $$LPU(X) =</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Incorporating Convolution Designs into Visual Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn55/</link>
+      <link>http://wzj.life/2021/prn55/</link>
       <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn55/</guid>
+      <guid>http://wzj.life/2021/prn55/</guid>
       <description>2103.11816 Incorporating Convolution Designs into Visual Transformers (2021) 核心 设计一种通过卷积增强的图像 Transformer (Convolution-enhanced image Transformer, CeiT)，将 CNN 提取低级特征、强化局部性与 Transformer 提取长程依赖的优势相结合。 Image-to-Tokens 模块 $$x&amp;rsquo; = I2T(x) = MaxPool(BN(Conv(x))).$$</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn54/</link>
+      <link>http://wzj.life/2021/prn54/</link>
       <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn54/</guid>
+      <guid>http://wzj.life/2021/prn54/</guid>
       <description>Heterogeneous Attention Network for Effective and Efficient Cross-modal Retrieval (SIGIR 2021) 背景 联合嵌入 (joint embedding) 方法的问题 只进行全局匹配 文本与图像只在匹配阶段有交互 多模态的 Transformer 系方法能够在较早的阶段实现跨模态交互，但</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn53/</link>
+      <link>http://wzj.life/2021/prn53/</link>
       <pubDate>Sun, 18 Jul 2021 11:25:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn53/</guid>
+      <guid>http://wzj.life/2021/prn53/</guid>
       <description>Cross-Graph Attention Enhanced Multi-Modal Correlation Learning for Fine-Grained Image-Text Retrieval (SIGIR 2021) 背景 SIGIR 2021 短文。 现有三类跨模态检索方法 全局相关性学习 局部相关性学习 高阶语义概念学习 在模态特定的语义概念 (modality-specific semantic concepts) 之外，还应</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn52/</link>
+      <link>http://wzj.life/2021/prn52/</link>
       <pubDate>Sun, 18 Jul 2021 10:10:07 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn52/</guid>
+      <guid>http://wzj.life/2021/prn52/</guid>
       <description>2004.00277 Graph Structured Network for Image-Text Matching (CVPR 2020) 开源代码传送门 总览 本文提出一种图结构匹配网络 (Graph Structured Matching Network, GSMN)，对目标、关系与属性显式建模。 以下两组相关性互相促进 细粒度目</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn51/</link>
+      <link>http://wzj.life/2021/prn51/</link>
       <pubDate>Sat, 17 Jul 2021 14:34:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn51/</guid>
+      <guid>http://wzj.life/2021/prn51/</guid>
       <description>2104.09770 M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection (2021) 背景 Deepfake 检测任务。 本文提出一种多模态多尺度 Transformer (Multi-modal Multi-scale Transformer, M2TR)，包含一个多尺度 Transformer 模块 (MT) 和一个跨模态融合模块 (CMF)，利用频域</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn49/</link>
+      <link>http://wzj.life/2021/prn49/</link>
       <pubDate>Fri, 16 Jul 2021 19:50:39 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn49/</guid>
+      <guid>http://wzj.life/2021/prn49/</guid>
       <description>2107.00645 Global Filter Networks for Image Classification (2021) 开源代码传送门 核心方法 本文提出一种全局滤波器网络 (Global Filter Network, GFNet)，在频域中学习空间位置之间的相互关系。 不同于视觉 transformer 中的自注</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Multi-Modality Cross Attention Network (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn45/</link>
+      <link>http://wzj.life/2021/prn45/</link>
       <pubDate>Wed, 14 Jul 2021 10:42:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn45/</guid>
+      <guid>http://wzj.life/2021/prn45/</guid>
       <description>Multi-Modality Cross Attention Network for Image and Sentence Matching (CVPR 2020) 出发点 既考虑模态间关联，也考虑模态内关联。 提出多模态交叉注意力网络 (Multi-Modality Cross Attention Network)，主要由自注意力模块与交叉注意</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 注意力机制] Non-Local Neural Networks (CVPR 2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn43/</link>
+      <link>http://wzj.life/2021/prn43/</link>
       <pubDate>Mon, 12 Jul 2021 15:09:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn43/</guid>
+      <guid>http://wzj.life/2021/prn43/</guid>
       <description>Non-Local Neural Networks (CVPR 2018) 开源代码传送门 核心内容 提出非局部操作用于捕捉长距离依赖关系，通过输入特征图所有位置上特征的加权和计算各位置的响应值 (respons</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] CAMP: Cross-Modal Adaptive Message Passing (ICCV 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn42/</link>
+      <link>http://wzj.life/2021/prn42/</link>
       <pubDate>Mon, 12 Jul 2021 10:58:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn42/</guid>
+      <guid>http://wzj.life/2021/prn42/</guid>
       <description>CAMP: Cross-Modal Adaptive Message Passing for Text-Image Retrieval (ICCV 2019) 开源代码传送门 背景 现有方法的问题 现有方法通常学习一个公共的嵌入空间，在其中衡量特征相似度，使用 ranking loss 进行训练。 这类方法没有</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现</title>
-      <link>http://jonathanwayy.xyz/2021/channel-shuffle/</link>
+      <link>http://wzj.life/2021/channel-shuffle/</link>
       <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/channel-shuffle/</guid>
+      <guid>http://wzj.life/2021/channel-shuffle/</guid>
       <description>在 ShuffleNet、SA-Net 以及一系列模型中涉及到了一种 Channel Shuffle 操作，用于在沿着通道维分组运算后保证各组特征之间能够有信息交互。 Channel Shuffle 的机</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 注意力机制] SA-Net: Shuffle Attention for Deep CNNs (ICASSP 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn40/</link>
+      <link>http://wzj.life/2021/prn40/</link>
       <pubDate>Sun, 11 Jul 2021 10:53:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn40/</guid>
+      <guid>http://wzj.life/2021/prn40/</guid>
       <description>2102.00240v1 SA-Net: Shuffle Attention for Deep Convolutional Neural Networks (ICASSP 2021) 开源代码传送门 背景 设计了 Shuffle Attention (SA) 模块，将特征沿着通道维分组，对每个子特征用 Shuffle 单元同时计算通道注意力与空间注意力。 Shuffle Attention (SA) 特</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn38/</link>
+      <link>http://wzj.life/2021/prn38/</link>
       <pubDate>Sat, 10 Jul 2021 15:34:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn38/</guid>
+      <guid>http://wzj.life/2021/prn38/</guid>
       <description>2105.03824 FNet: Mixing Tokens with Fourier Transforms (2021) 开源代码传送门 出发点 用更简单的 token 混合机制取代自注意力层。 最终选择傅利叶变换，设计了 FNet 模型。 离散傅利叶变换 (Discrete Fourier Transform, DFT) 傅利叶变换将</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT / 跨模态检索] Fine-grained Visual Textual Alignment (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn37/</link>
+      <link>http://wzj.life/2021/prn37/</link>
       <pubDate>Sat, 10 Jul 2021 11:14:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn37/</guid>
+      <guid>http://wzj.life/2021/prn37/</guid>
       <description>2008.05231 Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders (2020) 背景 在分类任务上预训练的 CNN 网络所提取的特征通常只能捕捉到图像的全局描述，而忽视了重要的局部细节。 现有方法的问题 由于交</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Swin Transformer (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn35/</link>
+      <link>http://wzj.life/2021/prn35/</link>
       <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn35/</guid>
+      <guid>http://wzj.life/2021/prn35/</guid>
       <description>2103.14030 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows (2021) 开源代码传送门 背景 Transformer 在视觉任务上的主要困难 视觉元素的尺度可能相当不同，但是当前工作中 token 都固定尺度 图像具有更高的像素分辨率</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] XCiT: Cross-Covariance Image Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn32/</link>
+      <link>http://wzj.life/2021/prn32/</link>
       <pubDate>Mon, 05 Jul 2021 12:59:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn32/</guid>
+      <guid>http://wzj.life/2021/prn32/</guid>
       <description>2106.09681 XCiT: Cross-Covariance Image Transformers (2021) 开源代码传送门 背景 Transformers 中自注意力模块计算复杂度高。 本文用一种转置的注意力 (transposed attention) 取代自注意力，称为交叉协方差注意力 (cross-covariance attention, XCA)，其对于</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 注意力机制] VOLO: Vision Outlooker for Visual Recognition (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn30/</link>
+      <link>http://wzj.life/2021/prn30/</link>
       <pubDate>Sat, 03 Jul 2021 16:23:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn30/</guid>
+      <guid>http://wzj.life/2021/prn30/</guid>
       <description>2106.13112v2 VOLO: Vision Outlooker for Visual Recognition (2021) 背景 制约 ViT 不如 CNN 的一个主要因素 ViT 在将细粒度特征以及上下文编码成 token 时效率较低。 本文设计了一种简单轻量的注意力机制，称为 Outl</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] FcaNet: Frequency Channel Attention Networks (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn13/</link>
+      <link>http://wzj.life/2021/prn13/</link>
       <pubDate>Sun, 20 Jun 2021 14:25:10 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn13/</guid>
+      <guid>http://wzj.life/2021/prn13/</guid>
       <description>2012.11879 FcaNet: Frequency Channel Attention Networks (2020) 利用频率分析重新思索通道注意力，并从数学上证明传统的全局平均池化 (GAP) 是频域中特征分解的一种特殊情况。 GAP 的潜在问题 尽管简洁高效， GAP</description>
     </item>
     

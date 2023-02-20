@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vim on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/vim/</link>
-    <description>Recent content in Vim on Jonathan`s Blog</description>
+    <title>Vim on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/vim/</link>
+    <description>Recent content in Vim on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 08 Dec 2020 04:55:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 04:55:03 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[34] Vim 设置背景透明</title>
-      <link>http://jonathanwayy.xyz/2020/blwl34/</link>
+      <link>http://wzj.life/2020/blwl34/</link>
       <pubDate>Tue, 08 Dec 2020 04:55:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl34/</guid>
+      <guid>http://wzj.life/2020/blwl34/</guid>
       <description>Vim 通过 colorscheme 设置了主题后，通常背景会变成实色，想要让 Vim 的背景色跟随终端的透明度配置，在 .vimrc 文件中加入如下一行即可： hi Normal ctermfg=255 ctermbg=none</description>
     </item>
     
     <item>
       <title>BLWL[30] Vim成对符号处理插件surround</title>
-      <link>http://jonathanwayy.xyz/2020/blwl30/</link>
+      <link>http://wzj.life/2020/blwl30/</link>
       <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl30/</guid>
+      <guid>http://wzj.life/2020/blwl30/</guid>
       <description>surround 是一款可用于高效操作成对符号的 Vim 插件，可以实现成对符号的替换、删除等功能。 surround 插件 GitHub地址 传送门，插件安装方式很常规，这里不再赘述。</description>
     </item>
     
     <item>
       <title>BLWL[18] Vimscript Notes</title>
-      <link>http://jonathanwayy.xyz/2020/blwl18/</link>
+      <link>http://wzj.life/2020/blwl18/</link>
       <pubDate>Thu, 23 Jan 2020 22:40:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl18/</guid>
+      <guid>http://wzj.life/2020/blwl18/</guid>
       <description>:echo 命令输出的信息在脚本运行完毕后就会消失， :echom 打印的信息会保存下来，可以执行 :messages 命令再次查看 :set /:set no 或直接 :set ! 可切换布尔选项的值 :set ? 命令可获取一个</description>
     </item>
     
     <item>
       <title>BLWL[17] Vim保存上次退出时光标位置</title>
-      <link>http://jonathanwayy.xyz/2020/blwl17/</link>
+      <link>http://wzj.life/2020/blwl17/</link>
       <pubDate>Thu, 23 Jan 2020 22:39:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl17/</guid>
+      <guid>http://wzj.life/2020/blwl17/</guid>
       <description>记录上次关闭某一文件时的光标位置，并在下一次打开该文件时将光标移动到该位置 在 .vimrc 中添加 au BufReadPost * if line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;gt; 1 &amp;amp;&amp;amp; line(&amp;quot;&#39;\&amp;quot;&amp;quot;) &amp;lt;= line(&amp;quot;$&amp;quot;) | exe &amp;quot;normal! g&#39;\&amp;quot;&amp;quot; | endif 保存即可</description>
     </item>
     
     <item>
       <title>BLWL[16] Vimdiff Tips</title>
-      <link>http://jonathanwayy.xyz/2020/blwl16/</link>
+      <link>http://wzj.life/2020/blwl16/</link>
       <pubDate>Thu, 23 Jan 2020 22:38:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl16/</guid>
+      <guid>http://wzj.life/2020/blwl16/</guid>
       <description>Vimdiff 是 Vim 自带的一个文件差异编辑器 启动 vimdiff： vimdiff file1 file2 常用命令： ]c 下一差异 [c 上一差异 do 导入差异 dp 导出差异 zo 打开折叠 zc 关闭折叠 :diffupdate 重新扫描文件</description>
     </item>
     
     <item>
       <title>BLWL[15] Vim Tips</title>
-      <link>http://jonathanwayy.xyz/2020/blwl15/</link>
+      <link>http://wzj.life/2020/blwl15/</link>
       <pubDate>Thu, 23 Jan 2020 22:37:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl15/</guid>
+      <guid>http://wzj.life/2020/blwl15/</guid>
       <description>i 如 ci&amp;quot;，di&amp;lt;，yi( 等，在相应符号间执行有关操作 f 查询与其他操作配合使用实现操作至某字符的效果，如df:，yfa visual 模式</description>
     </item>
     
     <item>
       <title>BLWL[14] Vim Macro的使用</title>
-      <link>http://jonathanwayy.xyz/2020/blwl14/</link>
+      <link>http://wzj.life/2020/blwl14/</link>
       <pubDate>Thu, 23 Jan 2020 22:36:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl14/</guid>
+      <guid>http://wzj.life/2020/blwl14/</guid>
       <description>可以通过 Vim 的宏录制完成重复的同一操作 在 normal 模式下输入 qa（qb，qc，etc.）选择将录制好的宏放入寄存器 a（b，c，etc.） 正常情况下， Vim</description>
     </item>
     

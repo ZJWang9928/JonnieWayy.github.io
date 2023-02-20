@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>video on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/video/</link>
-    <description>Recent content in video on Jonathan`s Blog</description>
+    <title>video on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/video/</link>
+    <description>Recent content in video on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 02 Dec 2022 16:45:58 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Dec 2022 16:45:58 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/video/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn313/</link>
+      <link>http://wzj.life/2022/prn313/</link>
       <pubDate>Fri, 02 Dec 2022 16:45:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn313/</guid>
+      <guid>http://wzj.life/2022/prn313/</guid>
       <description>Refined Semantic Enhancement towards Frequency Diffusion for Video Captioning (AAAI 2022) 开源代码传送门 概述 Video Captioning 任务。 本文提出一种 Refined Semantic enhancement method towards Frequency Diffusion (RSFD) 方法。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Visual Consensus Modeling for Video-Text Retrieval (AAAI 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn290/</link>
+      <link>http://wzj.life/2022/prn290/</link>
       <pubDate>Sun, 23 Oct 2022 20:08:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn290/</guid>
+      <guid>http://wzj.life/2022/prn290/</guid>
       <description>Visual Consensus Modeling for Video-Text Retrieval (AAAI 2022) 开源代码传送门 概述 本文提出对视觉共识进行建模 (Visual Consensus Modeling)。 模型架构 Consensus Knowledge Extracting Knowledge Integration Module 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] TeachText: CrossModal Generalized Distillation for TVR (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn239/</link>
+      <link>http://wzj.life/2022/prn239/</link>
       <pubDate>Wed, 15 Jun 2022 15:34:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn239/</guid>
+      <guid>http://wzj.life/2022/prn239/</guid>
       <description>TeachText: CrossModal Generalized Distillation for Text-Video Retrieval (ICCV 2021) 开源代码传送门 概述 本文提出 TEACHTEXT，充分利用来自多个文本编码器的额外信息。 不同文本嵌入的影响 本文发现很多 query 都对所</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Disentangled Representation Learning for Text-Video Retrieval (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn238/</link>
+      <link>http://wzj.life/2022/prn238/</link>
       <pubDate>Wed, 15 Jun 2022 10:44:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn238/</guid>
+      <guid>http://wzj.life/2022/prn238/</guid>
       <description>2203.07111 Disentangled Representation Learning for Text-Video Retrieval (2022) 概述 两个隐含的假设 文本描述可能只涉及局部的视频内容 同一段视频存在不同的描述视角 典型的文本-视频检索架构及本文方法 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Salient-to-Broad Transition for Video Person Re-identification (CVPR 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn236/</link>
+      <link>http://wzj.life/2022/prn236/</link>
       <pubDate>Tue, 14 Jun 2022 10:17:24 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn236/</guid>
+      <guid>http://wzj.life/2022/prn236/</guid>
       <description>Salient-to-Broad Transition for Video Person Re-identification (CVPR 2022) 开源代码传送门 概述 现有方法的两大不足： 注意力中心集中于显著但是局部的区域，扩大注意力区域能够进一步增强鲁棒性 帧之间时序关联即</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] X-Pool: CM Language-Video Attention for TV Retrieval (CVPR 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn227/</link>
+      <link>http://wzj.life/2022/prn227/</link>
       <pubDate>Wed, 11 May 2022 11:41:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn227/</guid>
+      <guid>http://wzj.life/2022/prn227/</guid>
       <description>X-Pool: Cross-Modal Language-Video Attention for Text-Video Retrieval (CVPR 2022) 开源代码传送门 概述 现有工作通常用视频的整体特征进行匹配，但是一段视频可能包含多样的内容。 本文提出 X-Pool，进行文本与视</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Fine-grained Cross-modal Alignment Network for TVR (MM 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn209/</link>
+      <link>http://wzj.life/2022/prn209/</link>
       <pubDate>Wed, 09 Mar 2022 14:44:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn209/</guid>
+      <guid>http://wzj.life/2022/prn209/</guid>
       <description>Fine-grained Cross-modal Alignment Network for Text-Video Retrieval (MM 2021) 概述 文本-视频检索问题。 本文提出一种细粒度跨模态对齐网络 (Fine-grained Cross-modal Alignment Network, FCA-Net)。 模型架构 可视化示例</description>
     </item>
     

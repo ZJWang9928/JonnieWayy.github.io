@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cuda on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/cuda/</link>
-    <description>Recent content in cuda on Jonathan`s Blog</description>
+    <title>cuda on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/cuda/</link>
+    <description>Recent content in cuda on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Dec 2021 17:35:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 17:35:03 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_loss_grad/</link>
+      <link>http://wzj.life/2021/ldp_loss_grad/</link>
       <pubDate>Sun, 12 Dec 2021 17:35:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_loss_grad/</guid>
+      <guid>http://wzj.life/2021/ldp_loss_grad/</guid>
       <description>问题描述 模型训练时遇到如下报错： RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.FloatTensor [50, 76, 512]] is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True). 一种解决办法 将原先的</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Python 报错 RuntimeError: CUDA error: invalid device ordinal 解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</link>
+      <link>http://wzj.life/2021/ldp_invalid_device_ordinal/</link>
       <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</guid>
+      <guid>http://wzj.life/2021/ldp_invalid_device_ordinal/</guid>
       <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&amp;#39;CUDA_VISIBLE_DEVICES&amp;#39;] = &amp;#34;0,1,2,3,4,5,6,7&amp;#34;</description>
     </item>
     
     <item>
       <title>BLWL[37] 简单干净卸载 cuda 的方法</title>
-      <link>http://jonathanwayy.xyz/2020/blwl37/</link>
+      <link>http://wzj.life/2020/blwl37/</link>
       <pubDate>Sat, 19 Dec 2020 21:00:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl37/</guid>
+      <guid>http://wzj.life/2020/blwl37/</guid>
       <description>网上有各种有关如何通过一系列命令卸载 cuda 的教程，但其实 cuda 是自带卸载脚本的。 第一步： 找到 cuda 所在路径 cuda 位于 /usr/local/cuda/bin 目录下。 进入目录后运行卸载脚本： sudo ./uninstall_cuda_10.0.pl 第</description>
     </item>
     

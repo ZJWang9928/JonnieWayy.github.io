@@ -1,29 +1,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jonathan`s Blog on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/</link>
-    <description>Recent content in Jonathan`s Blog on Jonathan`s Blog</description>
+    <title>Zijie Wang`s Blog on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/</link>
+    <description>Recent content in Zijie Wang`s Blog on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Feb 2023 16:43:02 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 20 Feb 2023 18:24:38 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Posts</title>
-      <link>http://jonathanwayy.xyz/posts/</link>
-      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
+      <link>http://wzj.life/posts/</link>
+      <pubDate>Mon, 20 Feb 2023 18:24:38 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/posts/</guid>
+      <guid>http://wzj.life/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://jonathanwayy.xyz/about/</link>
+      <link>http://wzj.life/about/</link>
       <pubDate>Fri, 24 Jan 2020 00:35:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/about/</guid>
+      <guid>http://wzj.life/about/</guid>
       <description>&lt;style&gt;
 
     @import url(&#39;https://fonts.googleapis.com/css?family=Katibeh&amp;display=swap&#39;);
@@ -127,7 +127,7 @@
 
 
 &lt;!-- &lt;p&gt;&lt;img src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/2.gif&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt; --&gt;
-&lt;p&gt;&lt;img src=&#34;http://jonathanwayy.xyz/images/about/2.gif&#34; alt=&#34;banner&#34; style=&#34;height: 60px; width: 100%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://wzj.life/images/about/2.gif&#34; alt=&#34;banner&#34; style=&#34;height: 60px; width: 100%;&#34; /&gt;&lt;/p&gt;
 
 &lt;div class=&#34;about-info&#34;&gt;
     &lt;div class=&#34;about-info-left&#34;&gt;
@@ -151,7 +151,7 @@
 &lt;div class=&#34;about-info-right&#34;&gt;
 	    &lt;div class=&#34;left-hand&#34;&gt;&lt;span style=&#34;font-size: 0.5em&#34;&gt;&amp;ensp;&lt;/span&gt;٩&lt;/div&gt;
         &lt;div class=&#34;left-ear&#34;&gt;▲&lt;/div&gt;
-        &lt;img alt=&#34;Mogeko&#34; src=&#34;http://jonathanwayy.xyz/images/me/avatar.jpg&#34;&gt;
+        &lt;img alt=&#34;Mogeko&#34; src=&#34;http://wzj.life/images/me/avatar.jpg&#34;&gt;
         &lt;div class=&#34;right-ear&#34;&gt;▲&lt;/div&gt;
         &lt;div class=&#34;right-hand&#34;&gt;و&lt;span style=&#34;font-size: 0.5em&#34;&gt;✧&lt;/span&gt;&lt;/div&gt;
     &lt;/div&gt;
@@ -207,7 +207,7 @@
 &lt;!-- &lt;/div&gt; --&gt;
 
 &lt;!-- &lt;p&gt;&lt;img src=&#34;https://github.com/JonnieWayy/JonnieWayy/blob/master/src/imgs/3.gif&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt; --&gt;
-&lt;!-- &lt;p&gt;&lt;img src=&#34;http://jonathanwayy.xyz/images/about/3.gif&#34; alt=&#34;footer&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt; --&gt;
+&lt;!-- &lt;p&gt;&lt;img src=&#34;http://wzj.life/images/about/3.gif&#34; alt=&#34;footer&#34; style=&#34;height: 50px; width: 100%;&#34; /&gt;&lt;/p&gt; --&gt;
 </description>
     </item>
     

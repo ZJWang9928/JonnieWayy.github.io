@@ -1,118 +1,118 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nlp on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/nlp/</link>
-    <description>Recent content in nlp on Jonathan`s Blog</description>
+    <title>nlp on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/nlp/</link>
+    <description>Recent content in nlp on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 18 Feb 2023 16:11:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 16:11:01 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 数据增广] Data Augmentation Approaches in NLP: A Survey (AI Open 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn342/</link>
+      <link>http://wzj.life/2023/prn342/</link>
       <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn342/</guid>
+      <guid>http://wzj.life/2023/prn342/</guid>
       <description>Data Augmentation Approaches in Natural Language Processing: A Survey (AI Open 2022) 概述 关于 NLP 中数据增广的综述。 三类方法 Paraphrasing-based Noising-based Sampling-based Paraphrasing 的三种等级 一些 Paraphrasing-based 方法 一些 Noising-based 方法 一些 Sampling-based 方法 方法对比 影响 DA 效果的超参数</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- MAE] Data Efficient Masked Language Modeling for VL (EMNLP 2021)</title>
-      <link>http://jonathanwayy.xyz/2023/prn337/</link>
+      <link>http://wzj.life/2023/prn337/</link>
       <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn337/</guid>
+      <guid>http://wzj.life/2023/prn337/</guid>
       <description>Data Efficient Masked Language Modeling for Vision and Language (EMNLP 2021) 开源代码传送门 概述 本文为 MLM 预训练提出新的掩码策略。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Unseen Target Stance Detection with Adversarial DG (IJCNN 2020)</title>
-      <link>http://jonathanwayy.xyz/2023/prn327/</link>
+      <link>http://wzj.life/2023/prn327/</link>
       <pubDate>Sat, 11 Feb 2023 20:18:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn327/</guid>
+      <guid>http://wzj.life/2023/prn327/</guid>
       <description>Unseen Target Stance Detection with Adversarial Domain Generalization (IJCNN 2020) 概述 立场检测任务中的域泛化问题。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Meta-Learning for DG in Semantic Parsing (ACL 2021)</title>
-      <link>http://jonathanwayy.xyz/2023/prn326/</link>
+      <link>http://wzj.life/2023/prn326/</link>
       <pubDate>Sat, 11 Feb 2023 17:32:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn326/</guid>
+      <guid>http://wzj.life/2023/prn326/</guid>
       <description>Meta-Learning for Domain Generalization in Semantic Parsing (ACL 2021) 开源代码传送门 概述 本文关注语义解析中的域泛化问题，引入元学习架构。 训练算法</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] DG for Text Classification with Memory-Based SCL (COLING 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn325/</link>
+      <link>http://wzj.life/2023/prn325/</link>
       <pubDate>Sat, 11 Feb 2023 17:13:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn325/</guid>
+      <guid>http://wzj.life/2023/prn325/</guid>
       <description>Domain Generalization for Text Classification with Memory-Based Supervised Contrastive Learning (COLING 2022) 开源代码传送门 概述 本文关注文本分类任务中的域泛化问题，引入监督对比学习 (supervised contrasive learning, SCL)。 SCL 本文方法</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn324/</link>
+      <link>http://wzj.life/2023/prn324/</link>
       <pubDate>Sat, 11 Feb 2023 17:02:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn324/</guid>
+      <guid>http://wzj.life/2023/prn324/</guid>
       <description>Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion (ACL 2022) 开源代码传送门 概述 Text-to-SQL 解析任务中的域泛化问题。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Generalizing through Forgetting - DG for SEE in CN (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn309/</link>
+      <link>http://wzj.life/2022/prn309/</link>
       <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn309/</guid>
+      <guid>http://wzj.life/2022/prn309/</guid>
       <description>2209.09485 Generalizing through Forgetting - Domain Generalization for Symptom Event Extraction in Clinical Notes (2022) 概述 Cross-domain Symptom Event Extraction 问题。 数据集情况 本文方法</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] DG of NMT: Fusing Adapters with LODO Training (ACL 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn308/</link>
+      <link>http://wzj.life/2022/prn308/</link>
       <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn308/</guid>
+      <guid>http://wzj.life/2022/prn308/</guid>
       <description>Domain Generalisation of NMT: Fusing Adapters with Leave-One-Domain-Out Training (ACL 2022) 开源代码传送门 概述 本文关注机器翻译任务中的域泛化问题。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] HiddenCut: Simple Data Augmentation for NLU (ACL 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn306/</link>
+      <link>http://wzj.life/2022/prn306/</link>
       <pubDate>Thu, 24 Nov 2022 17:11:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn306/</guid>
+      <guid>http://wzj.life/2022/prn306/</guid>
       <description>HiddenCut: Simple Data Augmentation for Natural Language Understanding with Better Generalization (ACL 2021) 开源代码传送门 概述 本文提出一种数据增广方法，称为 HiddenCut，用于在微调阶段对预训练语言模型进行正则化。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn134/</link>
+      <link>http://wzj.life/2021/prn134/</link>
       <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn134/</guid>
+      <guid>http://wzj.life/2021/prn134/</guid>
       <description>2106.05822 GroupBERT: Enhanced Transformer Architecture with Efficient Grouped Structures (2021) 概述 本文对 Transformer 曾的结构进行了一些改进： 增加一个卷积模块作为自注意力模块的补充，分解局部与全局关系的学习 引入 grouped transformeation 以降低前馈层</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn38/</link>
+      <link>http://wzj.life/2021/prn38/</link>
       <pubDate>Sat, 10 Jul 2021 15:34:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn38/</guid>
+      <guid>http://wzj.life/2021/prn38/</guid>
       <description>2105.03824 FNet: Mixing Tokens with Fourier Transforms (2021) 开源代码传送门 出发点 用更简单的 token 混合机制取代自注意力层。 最终选择傅利叶变换，设计了 FNet 模型。 离散傅利叶变换 (Discrete Fourier Transform, DFT) 傅利叶变换将</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn27/</link>
+      <link>http://wzj.life/2021/prn27/</link>
       <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn27/</guid>
+      <guid>http://wzj.life/2021/prn27/</guid>
       <description>Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020) 开源代码传送门 背景 对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。 攻击图像比攻击文本容易得多，因为图像</description>
     </item>
     

@@ -1,199 +1,199 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>transformer on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/transformer/</link>
-    <description>Recent content in transformer on Jonathan`s Blog</description>
+    <title>transformer on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/transformer/</link>
+    <description>Recent content in transformer on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 02 Dec 2021 21:15:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 21:15:17 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- ViT] GroupBERT: Enhanced TF with Efficient Grouped Structures (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn134/</link>
+      <link>http://wzj.life/2021/prn134/</link>
       <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn134/</guid>
+      <guid>http://wzj.life/2021/prn134/</guid>
       <description>2106.05822 GroupBERT: Enhanced Transformer Architecture with Efficient Grouped Structures (2021) 概述 本文对 Transformer 曾的结构进行了一些改进： 增加一个卷积模块作为自注意力模块的补充，分解局部与全局关系的学习 引入 grouped transformeation 以降低前馈层</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] MetaFormer is Actually What You Need for Vision (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn133/</link>
+      <link>http://wzj.life/2021/prn133/</link>
       <pubDate>Thu, 02 Dec 2021 20:43:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn133/</guid>
+      <guid>http://wzj.life/2021/prn133/</guid>
       <description>2111.11418 MetaFormer is Actually What You Need for Vision (2021) 开源代码传送门 概述 Transformer 中的编码器包含两部分，其一是注意力模块，用于混合 token 之间的信息，本文称之为 token mixer；其二是其余的模</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Escaping the Big Data Paradigm with Compact Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn114/</link>
+      <link>http://wzj.life/2021/prn114/</link>
       <pubDate>Thu, 11 Nov 2021 20:39:25 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn114/</guid>
+      <guid>http://wzj.life/2021/prn114/</guid>
       <description>2104.05704 Escaping the Big Data Paradigm with Compact Transformers (2021) 开源代码传送门 概述 针对 Transformer 模型的数据饥饿 (data hungry) 传统观点，尝试弥合 Transformer 和 CNN 两种架构之间的鸿沟，结合二者优势，使得基于 Transformer 的模型能够</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn108/</link>
+      <link>http://wzj.life/2021/prn108/</link>
       <pubDate>Sun, 31 Oct 2021 17:14:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn108/</guid>
+      <guid>http://wzj.life/2021/prn108/</guid>
       <description>Pose-guided Inter- and Intra-part Relational Transformer for Occluded Person Re-Identification (MM 2021) 开源代码传送门 概述 本文提出一种姿态指导的部件内间关系 Transformer。 姿态指导的特征提取 $$M = GMP(\hat{M}),$$ $$c_{g} = max(M_{g}),$$ $$F_{pose} = GAP((M &amp;gt; \tau)</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Contextual Transformer Networks for Visual Recognition (CVPRW 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn89/</link>
+      <link>http://wzj.life/2021/prn89/</link>
       <pubDate>Thu, 02 Sep 2021 21:44:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn89/</guid>
+      <guid>http://wzj.life/2021/prn89/</guid>
       <description>2107.12292 Contextual Transformer Networks for Visual Recognition (CVPRW 2021) 开源代码传送门 概述 现有 ViT 方法的问题 只是基于各位置上孤立的 key 和 query 求得注意力矩阵，忽略了相邻 key 之间丰富的上下文信息。 本文提出一</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] CAT: Cross Attention in Vision Transformer (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn77/</link>
+      <link>http://wzj.life/2021/prn77/</link>
       <pubDate>Thu, 12 Aug 2021 16:00:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn77/</guid>
+      <guid>http://wzj.life/2021/prn77/</guid>
       <description>2106.05786 CAT: Cross Attention in Vision Transformer (2021) 开源代码传送门 核心 设计了一种在单通道特征图上做注意力的方法，提出交叉注意力。 结合 Transformer 和 CNN 的优点构建 CAT。 Patch 内自注意力块 (IPSA) 与 Patch</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Transformer in Convolutional Neural Networks (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn70/</link>
+      <link>http://wzj.life/2021/prn70/</link>
       <pubDate>Tue, 03 Aug 2021 12:09:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn70/</guid>
+      <guid>http://wzj.life/2021/prn70/</guid>
       <description>2106.03180 Transformer in Convolutional Neural Networks (2021) 开源代码传送门 概览 本文提出层级化的多头注意力 (H-MHSA)。 为了结合 CNN 与 Transformer 的优势，提出 Transformer in Convolutional Neural Networks (TransCNN) 的概念，TransCNN 直</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Retrieve Fast Rerank Smart: Cooperative and Joint Approaches (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn64/</link>
+      <link>http://wzj.life/2021/prn64/</link>
       <pubDate>Fri, 30 Jul 2021 11:12:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn64/</guid>
+      <guid>http://wzj.life/2021/prn64/</guid>
       <description>2103.11920v1 Retrieve Fast, Rerank Smart: Cooperative and Joint Approaches for Improved Cross-Modal Retrieval (2021) 开源代码传送门 核心想法 要在计算效率和模型精度上找到平衡。 四种模型 Cross-Encoders 如图 1(a) 所示。 二分类问题，将 \([CLS]\) token 输入分类器，用交</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] TIED: A Cycle Consistent Encoder-Decoder Model (CVPRW 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn63/</link>
+      <link>http://wzj.life/2021/prn63/</link>
       <pubDate>Thu, 29 Jul 2021 11:27:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn63/</guid>
+      <guid>http://wzj.life/2021/prn63/</guid>
       <description>TIED: A Cycle Consistent Encoder-Decoder Model for Text-to-Image Retrieval (CVPRW 2021) 概览 Natural Language (NL) based Vehicle Track Retrieval 任务，对时间也有要求。 本文提出一种文本到图像的编码器解码器网络 (Text-to-Image Encoder-Decoder network, TIED)，将图文映射到潜在空间</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT / 跨模态检索] Revamping Cross-Modal Recipe Retrieval (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn61/</link>
+      <link>http://wzj.life/2021/prn61/</link>
       <pubDate>Wed, 28 Jul 2021 10:41:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn61/</guid>
+      <guid>http://wzj.life/2021/prn61/</guid>
       <description>Revamping Cross-Modal Recipe Retrieval with Hierarchical Transformers and Self-supervised Learning (CVPR 2021) 开源代码传送门 图像编码器 \(\phi_{img}\) ResNet-50 / ResNeXt / ViT 菜谱编码器 \(\phi_{rec}\) 三类数据要处理 标题 成分 指导 用三个独立的基于 Transformer 的编码器分别处理三种数据</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Early Convolutions Help Transformers See Better (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn60/</link>
+      <link>http://wzj.life/2021/prn60/</link>
       <pubDate>Tue, 27 Jul 2021 11:07:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn60/</guid>
+      <guid>http://wzj.life/2021/prn60/</guid>
       <description>2106.14881 Early Convolutions Help Transformers See Better (2021) ViT 模型对超参数敏感，不好优化；而 CNN 更容易优化。 本文认为问题在于 ViT 的前期视觉处理 (early visual processing)，通常是 patchify stem，</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT / ReID] TransReID: Transformer-based Object Re-Identification (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn57/</link>
+      <link>http://wzj.life/2021/prn57/</link>
       <pubDate>Wed, 21 Jul 2021 10:10:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn57/</guid>
+      <guid>http://wzj.life/2021/prn57/</guid>
       <description>2102.04378v2 TransReID: Transformer-based Object Re-Identification (2021) 开源代码传送门 背景 目标 ReID 尚未很好解决的两个问题 从全局视角提取丰富的结构模式 包含细节信息的细粒度特征提取受到下采样的限制 本文提出一</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] CMT: Convolutional Neural Networks Meet Vision Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn56/</link>
+      <link>http://wzj.life/2021/prn56/</link>
       <pubDate>Tue, 20 Jul 2021 14:32:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn56/</guid>
+      <guid>http://wzj.life/2021/prn56/</guid>
       <description>2107.06263 CMT: Convolutional Neural Networks Meet Vision Transformers (2021) 核心 本文设计了一种 CNN 与 transformer 的交集，即 CMT 架构。 CMT 块 Local Perception Unit (LPU) 绝对的位置编码破坏了平移不变性，忽视了 patch 中的局部关联与结构信息。 $$LPU(X) =</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Incorporating Convolution Designs into Visual Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn55/</link>
+      <link>http://wzj.life/2021/prn55/</link>
       <pubDate>Tue, 20 Jul 2021 10:06:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn55/</guid>
+      <guid>http://wzj.life/2021/prn55/</guid>
       <description>2103.11816 Incorporating Convolution Designs into Visual Transformers (2021) 核心 设计一种通过卷积增强的图像 Transformer (Convolution-enhanced image Transformer, CeiT)，将 CNN 提取低级特征、强化局部性与 Transformer 提取长程依赖的优势相结合。 Image-to-Tokens 模块 $$x&amp;rsquo; = I2T(x) = MaxPool(BN(Conv(x))).$$</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Heterogeneous Attention Network (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn54/</link>
+      <link>http://wzj.life/2021/prn54/</link>
       <pubDate>Sun, 18 Jul 2021 19:39:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn54/</guid>
+      <guid>http://wzj.life/2021/prn54/</guid>
       <description>Heterogeneous Attention Network for Effective and Efficient Cross-modal Retrieval (SIGIR 2021) 背景 联合嵌入 (joint embedding) 方法的问题 只进行全局匹配 文本与图像只在匹配阶段有交互 多模态的 Transformer 系方法能够在较早的阶段实现跨模态交互，但</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn51/</link>
+      <link>http://wzj.life/2021/prn51/</link>
       <pubDate>Sat, 17 Jul 2021 14:34:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn51/</guid>
+      <guid>http://wzj.life/2021/prn51/</guid>
       <description>2104.09770 M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection (2021) 背景 Deepfake 检测任务。 本文提出一种多模态多尺度 Transformer (Multi-modal Multi-scale Transformer, M2TR)，包含一个多尺度 Transformer 模块 (MT) 和一个跨模态融合模块 (CMF)，利用频域</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn38/</link>
+      <link>http://wzj.life/2021/prn38/</link>
       <pubDate>Sat, 10 Jul 2021 15:34:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn38/</guid>
+      <guid>http://wzj.life/2021/prn38/</guid>
       <description>2105.03824 FNet: Mixing Tokens with Fourier Transforms (2021) 开源代码传送门 出发点 用更简单的 token 混合机制取代自注意力层。 最终选择傅利叶变换，设计了 FNet 模型。 离散傅利叶变换 (Discrete Fourier Transform, DFT) 傅利叶变换将</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT / 跨模态检索] Fine-grained Visual Textual Alignment (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn37/</link>
+      <link>http://wzj.life/2021/prn37/</link>
       <pubDate>Sat, 10 Jul 2021 11:14:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn37/</guid>
+      <guid>http://wzj.life/2021/prn37/</guid>
       <description>2008.05231 Fine-grained Visual Textual Alignment for Cross-Modal Retrieval using Transformer Encoders (2020) 背景 在分类任务上预训练的 CNN 网络所提取的特征通常只能捕捉到图像的全局描述，而忽视了重要的局部细节。 现有方法的问题 由于交</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 多模态预训练] Unicoder-VL (AAAI 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn36/</link>
+      <link>http://wzj.life/2021/prn36/</link>
       <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn36/</guid>
+      <guid>http://wzj.life/2021/prn36/</guid>
       <description>Unicoder-VL: A Universal Encoder for Vision and Language by Cross-Modal Pre-Training (AAAI 2020) 背景 尚未出现能够够直接处理跨模态任务与数据的预训练模型。 本文基于多层 Transformer 提出一种通用视觉语言编码器 (Universal Encoder for Vision And Language, Uni</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] Swin Transformer (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn35/</link>
+      <link>http://wzj.life/2021/prn35/</link>
       <pubDate>Fri, 09 Jul 2021 10:54:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn35/</guid>
+      <guid>http://wzj.life/2021/prn35/</guid>
       <description>2103.14030 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows (2021) 开源代码传送门 背景 Transformer 在视觉任务上的主要困难 视觉元素的尺度可能相当不同，但是当前工作中 token 都固定尺度 图像具有更高的像素分辨率</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ViT] XCiT: Cross-Covariance Image Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn32/</link>
+      <link>http://wzj.life/2021/prn32/</link>
       <pubDate>Mon, 05 Jul 2021 12:59:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn32/</guid>
+      <guid>http://wzj.life/2021/prn32/</guid>
       <description>2106.09681 XCiT: Cross-Covariance Image Transformers (2021) 开源代码传送门 背景 Transformers 中自注意力模块计算复杂度高。 本文用一种转置的注意力 (transposed attention) 取代自注意力，称为交叉协方差注意力 (cross-covariance attention, XCA)，其对于</description>
     </item>
     

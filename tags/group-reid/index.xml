@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Group ReID on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/group-reid/</link>
-    <description>Recent content in Group ReID on Jonathan`s Blog</description>
+    <title>Group ReID on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/group-reid/</link>
+    <description>Recent content in Group ReID on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 15:23:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/group-reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 15:23:48 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/group-reid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- GReID] Modeling 3D Layout For Group Re-Identification (CVPR 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn233/</link>
+      <link>http://wzj.life/2022/prn233/</link>
       <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn233/</guid>
+      <guid>http://wzj.life/2022/prn233/</guid>
       <description>Modeling 3D Layout For Group Re-Identification (CVPR 2022) 数据集传送门 概述 Group Re-identification (GReID) 任务。 通常处理包含 2 到 6 人的组，将含有超过 60% 相同成员的组视为相同类别。 本文从 3D 视角对分布关系进行建模，</description>
     </item>
     

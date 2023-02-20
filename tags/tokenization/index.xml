@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tokenization on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/tokenization/</link>
-    <description>Recent content in tokenization on Jonathan`s Blog</description>
+    <title>tokenization on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/tokenization/</link>
+    <description>Recent content in tokenization on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 23 Oct 2022 16:27:03 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/tokenization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2022 16:27:03 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/tokenization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 特征解耦] Visual Concepts Tokenization (NeurIPS 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn289/</link>
+      <link>http://wzj.life/2022/prn289/</link>
       <pubDate>Sun, 23 Oct 2022 16:27:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn289/</guid>
+      <guid>http://wzj.life/2022/prn289/</guid>
       <description>Visual Concepts Tokenization (NeurIPS 2022) 开源代码传送门 概述 本文针对视觉概念学习 (visual concept learning)，提出一种基于 transformer 的无监督方法，称为视觉概念令牌化 (Visual Concept Tokenization, VCT)，其包含</description>
     </item>
     

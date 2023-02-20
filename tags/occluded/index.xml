@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>occluded on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/occluded/</link>
-    <description>Recent content in occluded on Jonathan`s Blog</description>
+    <title>occluded on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/occluded/</link>
+    <description>Recent content in occluded on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 31 Oct 2021 17:14:50 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/occluded/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 17:14:50 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/occluded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- ReID] Pose-guided Inter- and Intra-part Relational Transformer (MM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn108/</link>
+      <link>http://wzj.life/2021/prn108/</link>
       <pubDate>Sun, 31 Oct 2021 17:14:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn108/</guid>
+      <guid>http://wzj.life/2021/prn108/</guid>
       <description>Pose-guided Inter- and Intra-part Relational Transformer for Occluded Person Re-Identification (MM 2021) 开源代码传送门 概述 本文提出一种姿态指导的部件内间关系 Transformer。 姿态指导的特征提取 $$M = GMP(\hat{M}),$$ $$c_{g} = max(M_{g}),$$ $$F_{pose} = GAP((M &amp;gt; \tau)</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn107/</link>
+      <link>http://wzj.life/2021/prn107/</link>
       <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn107/</guid>
+      <guid>http://wzj.life/2021/prn107/</guid>
       <description>Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network (MM 2021) 开源代码传送门 概述 现有的数据增强方法通过改变空间或色彩信息、增加噪音或混合来自不同图像的信息，来提高网络的泛化能力和鲁</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn106/</link>
+      <link>http://wzj.life/2021/prn106/</link>
       <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn106/</guid>
+      <guid>http://wzj.life/2021/prn106/</guid>
       <description>Pose-Guided Feature Learning with Knowledge Distillation for Occluded Person Re-Identification (MM 2021) 概述 本文提出一种通过知识蒸馏进行基于姿态指导的特征学习架构 (Pose-Guided Feature Learning with Knowledge Distillation network, PGFL-KD) 架构，姿态信息用于约束全局特征的学习而在测</description>
     </item>
     

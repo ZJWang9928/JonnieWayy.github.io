@@ -1,298 +1,298 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>frequency on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/frequency/</link>
-    <description>Recent content in frequency on Jonathan`s Blog</description>
+    <title>frequency on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/frequency/</link>
+    <description>Recent content in frequency on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 02 Dec 2022 16:45:58 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Dec 2022 16:45:58 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/frequency/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- Captioning] Refined Semantic Enhance. towards Freq. Diffusion (AAAI 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn313/</link>
+      <link>http://wzj.life/2022/prn313/</link>
       <pubDate>Fri, 02 Dec 2022 16:45:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn313/</guid>
+      <guid>http://wzj.life/2022/prn313/</guid>
       <description>Refined Semantic Enhancement towards Frequency Diffusion for Video Captioning (AAAI 2022) 开源代码传送门 概述 Video Captioning 任务。 本文提出一种 Refined Semantic enhancement method towards Frequency Diffusion (RSFD) 方法。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Deep Frequency Filtering for Domain Generalization (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn312/</link>
+      <link>http://wzj.life/2022/prn312/</link>
       <pubDate>Wed, 30 Nov 2022 17:21:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn312/</guid>
+      <guid>http://wzj.life/2022/prn312/</guid>
       <description>2203.12198 Deep Frequency Filtering for Domain Generalization (2022) 概述 本文针对域泛化问题，提出深度频率滤波 (Deep Frequency Filtering, DFF)。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] FSDR: Freq. Space Domain Randomization for DG(CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn311/</link>
+      <link>http://wzj.life/2022/prn311/</link>
       <pubDate>Tue, 29 Nov 2022 16:29:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn311/</guid>
+      <guid>http://wzj.life/2022/prn311/</guid>
       <description>FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021) 概述 语义分割任务。 本文提出一种频率空间域随机化 (Frequency Space Domain Randomization, FSDR) 方法。 谱分解可视化 模型架构 DIFs 与 DVFs 分析 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] DG via FDB Feature Disentanglement and Interaction (MM 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn304/</link>
+      <link>http://wzj.life/2022/prn304/</link>
       <pubDate>Thu, 24 Nov 2022 09:40:38 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn304/</guid>
+      <guid>http://wzj.life/2022/prn304/</guid>
       <description>Domain Generalization via Frequency-domain-based Feature Disentanglement and Interaction (MM 2022) 概述 一个发现 图像的高频信息在不同域中较为一致 低频信息与域更为相关 本文提出一种基于频域的特征结构与交互框架 (Frequency-domain-based Feature Disentanglement and Interaction framework, FF</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID / 频域] HLFNet: High-low Frequency Network for Person ReID (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn121/</link>
+      <link>http://wzj.life/2021/prn121/</link>
       <pubDate>Tue, 23 Nov 2021 14:29:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn121/</guid>
+      <guid>http://wzj.life/2021/prn121/</guid>
       <description>HLFNet: High-low Frequency Network for Person Re-Identification (IEEE Signal Processing Letters 2021) 概述 本文提出一种高低频网络 (high-low frequency network, HLFNet)。 Frequency Splitting Module (FSM) 利用 guide filter 将原始图像分为高低频图像： $$I_{l} = \mathcal{G}(I_{o}),$$ $$I_{h} = I_{o} / (I_{l} + eps).$$ 将得到</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Learning Omni-frequency Region-adaptive Representations (AAAI 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn87/</link>
+      <link>http://wzj.life/2021/prn87/</link>
       <pubDate>Mon, 30 Aug 2021 11:13:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn87/</guid>
+      <guid>http://wzj.life/2021/prn87/</guid>
       <description>Learning Omni-frequency Region-adaptive Representations for Real Image Super-Resolution (AAAI 2021) 概述 本文提出 Omni-frequency Region-adaptive Network (ORNet) 解决真实图像超分问题。 模型架构 频率分解模块 (Frequency Decomposition Module, FD) FD 模块由两个阶段组成： 频率分解阶段 频率增强阶段 频率</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Frequency Separation for Real-World Super-Resolution (ICCVW 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn85/</link>
+      <link>http://wzj.life/2021/prn85/</link>
       <pubDate>Fri, 27 Aug 2021 13:40:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn85/</guid>
+      <guid>http://wzj.life/2021/prn85/</guid>
       <description>1911.07850 Frequency Separation for Real-World Super-Resolution (ICCVW 2019) 开源代码传送门 速览 速读一篇文献，主要关注一下频域相关的处理。 下采样操作去除了高频信息而保留低频信息。 因而本文对高低频信息进行</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Focal Frequency Loss for Image Reconstruction (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn84/</link>
+      <link>http://wzj.life/2021/prn84/</link>
       <pubDate>Thu, 26 Aug 2021 20:50:08 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn84/</guid>
+      <guid>http://wzj.life/2021/prn84/</guid>
       <description>2012.12821 Focal Frequency Loss for Image Reconstruction and Synthesis (ICCV 2021) 开源代码传送门 项目主页传送门 背景 Image Reconstruction And Synthesis 任务。 本文提出一种 Focal Frequency Loss，直接在频域中优化生成模型。 Focal Frequency Loss 由 2D DFT 的公式表</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建</title>
-      <link>http://jonathanwayy.xyz/2021/fft-ap/</link>
+      <link>http://wzj.life/2021/fft-ap/</link>
       <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/fft-ap/</guid>
+      <guid>http://wzj.life/2021/fft-ap/</guid>
       <description>简单记录一下如何使用 PyTorch 对做过傅利叶变换后的特征进行幅度与相位的分离与重建。 In [1]: import torch In [2]: import numpy as np # 生成一个张量作为特征 In [3]: feat = torch.rand((3,10)) In [4]: feat Out[4]: tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01,</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] FDA: Fourier Domain Adaptation (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn79/</link>
+      <link>http://wzj.life/2021/prn79/</link>
       <pubDate>Mon, 16 Aug 2021 16:19:12 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn79/</guid>
+      <guid>http://wzj.life/2021/prn79/</guid>
       <description>FDA: Fourier Domain Adaptation for Semantic Segmentation (CVPR 2020) 开源代码传送门 概述 提出傅里叶域自适应 (FDA)。 FFT ==&amp;gt; 用目标图像的低频成分替换源图像低频成分 ==&amp;gt; iFFT FDA 设计了一个外圈置零的掩码：</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Phase Consistent Ecological Domain Adaptation (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn78/</link>
+      <link>http://wzj.life/2021/prn78/</link>
       <pubDate>Sun, 15 Aug 2021 12:28:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn78/</guid>
+      <guid>http://wzj.life/2021/prn78/</guid>
       <description>Phase Consistent Ecological Domain Adaptation (CVPR 2020) 开源代码传送门 概述 无监督域适应 (Unsupervised Domain Adaptation, UDA) 任务。 通常的 UDA 方法 学习一个从源分布到目标分布的映射 训练一个对域变化不敏感的骨架网络 本文引</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Wavelet Pooling for Convolutional Neural Networks (ICLR 2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn67/</link>
+      <link>http://wzj.life/2021/prn67/</link>
       <pubDate>Sat, 31 Jul 2021 19:43:38 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn67/</guid>
+      <guid>http://wzj.life/2021/prn67/</guid>
       <description>Wavelet Pooling for Convolutional Neural Networks (ICLR 2018) 概述 本文提出一种小波池化算法，使用二阶小波分解对特征进行子采样，放弃了最近临插值方法，而采用了一种子带方法，从而得以使用更少</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Wavelet-enhanced Convolutional Neural Network (2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn66/</link>
+      <link>http://wzj.life/2021/prn66/</link>
       <pubDate>Fri, 30 Jul 2021 21:55:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn66/</guid>
+      <guid>http://wzj.life/2021/prn66/</guid>
       <description>Wavelet-enhanced Convolutional Neural Network: A New Idea in A Deep Learning Paradigm (2018) 概览 结合 CNN 与小波变换提升分割任务表现。 小波变换在图像处理中的主要作用在于其能够将图像分解为含有不同级别细节的不同尺</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Wavelet Integrated CNNs for Noise-Robust Img Classification(CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn65/</link>
+      <link>http://wzj.life/2021/prn65/</link>
       <pubDate>Fri, 30 Jul 2021 19:49:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn65/</guid>
+      <guid>http://wzj.life/2021/prn65/</guid>
       <description>Wavelet Integrated CNNs for Noise-Robust Image Classification (CVPR 2020) 开源代码传送门 概述 CNN 对噪声的鲁棒性较差，随机噪声大多为高频成分，CNN 在下采样之前缺少滤波步骤，可能会导致高低频成分的混叠</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / ViT] M2TR: Multi-modal Multi-scale Transformers (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn51/</link>
+      <link>http://wzj.life/2021/prn51/</link>
       <pubDate>Sat, 17 Jul 2021 14:34:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn51/</guid>
+      <guid>http://wzj.life/2021/prn51/</guid>
       <description>2104.09770 M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection (2021) 背景 Deepfake 检测任务。 本文提出一种多模态多尺度 Transformer (Multi-modal Multi-scale Transformer, M2TR)，包含一个多尺度 Transformer 模块 (MT) 和一个跨模态融合模块 (CMF)，利用频域</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Frequency learning for image classification (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn50/</link>
+      <link>http://wzj.life/2021/prn50/</link>
       <pubDate>Fri, 16 Jul 2021 21:04:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn50/</guid>
+      <guid>http://wzj.life/2021/prn50/</guid>
       <description>2006.15476 Frequency learning for image classification (2020) 核心问题 如果一个神经网络完全设计成在频域进行操作会怎么样？ 本文设计了 FreqNet 研究上述问题。 本文方法 图像分块 对图像层级式地分块以提取多</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Global Filter Networks for Image Classification (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn49/</link>
+      <link>http://wzj.life/2021/prn49/</link>
       <pubDate>Fri, 16 Jul 2021 19:50:39 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn49/</guid>
+      <guid>http://wzj.life/2021/prn49/</guid>
       <description>2107.00645 Global Filter Networks for Image Classification (2021) 开源代码传送门 核心方法 本文提出一种全局滤波器网络 (Global Filter Network, GFNet)，在频域中学习空间位置之间的相互关系。 不同于视觉 transformer 中的自注</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Improving Image Classification With Frequency Domain Layers (MLSP 2017)</title>
-      <link>http://jonathanwayy.xyz/2021/prn48/</link>
+      <link>http://wzj.life/2021/prn48/</link>
       <pubDate>Fri, 16 Jul 2021 15:02:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn48/</guid>
+      <guid>http://wzj.life/2021/prn48/</guid>
       <description>Improving image classification with frequency domain layers for feature extraction (MLSP 2017) 核心 研究从频域提取的特征对深度网络架构的作用。 提出频率特征提取层。 方法 对输入图像层级式分块以提取多粒度信息，对各块使</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] High-Frequency Component Explain Generalization of CNNs (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn47/</link>
+      <link>http://wzj.life/2021/prn47/</link>
       <pubDate>Fri, 16 Jul 2021 10:29:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn47/</guid>
+      <guid>http://wzj.life/2021/prn47/</guid>
       <description>High-Frequency Component Helps Explain the Generalization of Convolutional Neural Networks (CVPR 2020) 背景 从数据视角研究 CNN 的泛化表现。 CNN 挖掘高频成分 将原始数据分解为高低频成分，\(x = \{x_{l}, x_{h}\}\)，分别简写为 LFC</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 人脸伪造检测] Spatial-Phase Shallow Learning (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn46/</link>
+      <link>http://wzj.life/2021/prn46/</link>
       <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn46/</guid>
+      <guid>http://wzj.life/2021/prn46/</guid>
       <description>Spatial-Phase Shallow Learning: Rethinking Face Forgery Detection in Frequency Domain (CVPR 2021) 背景 人脸伪造检测 (face forgery detection) 任务。 在合成假脸过程中使用上采样，该操作通常会在频域留下痕迹。 核心方法与观点 本文提出一种空间-</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 风格迁移] Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn41/</link>
+      <link>http://wzj.life/2021/prn41/</link>
       <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn41/</guid>
+      <guid>http://wzj.life/2021/prn41/</guid>
       <description>Photorealistic Style Transfer via Wavelet Transforms (ICCV 2019) 开源代码传送门 背景 风格迁移任务。 模型应当在不损伤图像细节的情况下实现风格迁移。 本文提出一种基于白化与色彩变换的小波矫正迁移 (wavelet</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 图像恢复] Multi-level Wavelet-CNN for Image Restoration (CVPR 2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn39/</link>
+      <link>http://wzj.life/2021/prn39/</link>
       <pubDate>Sat, 10 Jul 2021 16:41:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn39/</guid>
+      <guid>http://wzj.life/2021/prn39/</guid>
       <description>Multi-level Wavelet-CNN for Image Restoration (CVPR 2018) 背景 图像恢复 (Image Restoration) 的目的 从观测到的较差图像 \(y\) 恢复潜在的干净图像 \(x\)。 本文设计了一种多级小波 CNN (multi-level wavelet CNN, MWCNN) 模型，增大感受野，改善</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / Transformer] FNet: Mixing Tokens with Fourier Transforms (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn38/</link>
+      <link>http://wzj.life/2021/prn38/</link>
       <pubDate>Sat, 10 Jul 2021 15:34:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn38/</guid>
+      <guid>http://wzj.life/2021/prn38/</guid>
       <description>2105.03824 FNet: Mixing Tokens with Fourier Transforms (2021) 开源代码传送门 出发点 用更简单的 token 混合机制取代自注意力层。 最终选择傅利叶变换，设计了 FNet 模型。 离散傅利叶变换 (Discrete Fourier Transform, DFT) 傅利叶变换将</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Nyquist 频率与 Nyquist 间隔</title>
-      <link>http://jonathanwayy.xyz/2021/ldp9/</link>
+      <link>http://wzj.life/2021/ldp9/</link>
       <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp9/</guid>
+      <guid>http://wzj.life/2021/ldp9/</guid>
       <description>若带限信号 \(x(t)\) 的最高角频率为 \(\omega_{m}\)，则在一定条件下，信号 \(x(t)\) 可以用等间隔 \(T\) 的抽样值唯一表示。 抽样间隔 \(T\) 需满足： $$T \le \frac{\pi}{\omega_{m}} = \frac{1}{2f_{m}},$$ 或</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 时域抽样定理</title>
-      <link>http://jonathanwayy.xyz/2021/ldp8/</link>
+      <link>http://wzj.life/2021/ldp8/</link>
       <pubDate>Tue, 06 Jul 2021 11:24:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp8/</guid>
+      <guid>http://wzj.life/2021/ldp8/</guid>
       <description>时域抽样定理 设 \(X(j\omega)\) 和 \(X(e^{j\Omega})\) 分别表示连续时间信号 \(x(t)\) 和离散时间信号 \(x[k]\) 的频谱，即 $$X(j\omega) = \int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt, \ X(e^{j\Omega}) = \sum_{-\infty}^{\infty} x[k]e^{-j\Omega k}.$$ 若存在 $$x[k] = x(t)|_{t = kT},$$ 则有 $$X(e^{j\Omega}) = \frac{1}{T}\sum_{-\infty}^{+\infty} X[j(\omega - n\omega_{sam})], \quad \omega_{sam} = 2\pi/T, \quad \Omega = \omega T.$$ 表</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 图网络] Beyond Low-frequency Information in GCNs (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn26/</link>
+      <link>http://wzj.life/2021/prn26/</link>
       <pubDate>Tue, 29 Jun 2021 12:00:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn26/</guid>
+      <guid>http://wzj.life/2021/prn26/</guid>
       <description>2101.00797 Beyond Low-frequency Information in Graph Convolutional Networks 背景 当前一些研究认为平滑信号，即低频信息是 GNN 成功的关键。 本文重点思考是否低频信息就能完全满足需求，以及其他信息在 GNN 中扮演着怎</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 图网络] Spectral Graph Attention Network (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn25/</link>
+      <link>http://wzj.life/2021/prn25/</link>
       <pubDate>Mon, 28 Jun 2021 19:34:36 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn25/</guid>
+      <guid>http://wzj.life/2021/prn25/</guid>
       <description>2003.07450 Spectral Graph Attention Network (2020) 背景 图注意力网络 (Graph Attention Network, GAT) 通过引入注意力机制优化 GCN 的卷积过程。具体来说，在节点聚合 (node aggregation) 阶段，GAT 赋予各边一个自注意力权重，用于捕</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn21/</link>
+      <link>http://wzj.life/2021/prn21/</link>
       <pubDate>Sat, 26 Jun 2021 11:27:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn21/</guid>
+      <guid>http://wzj.life/2021/prn21/</guid>
       <description>FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021) 背景 语义分割受限于数据标注的难度，因此带有自动生成标签的合成图像成了缓解这一问题的一个选择。 但是这类模型由于域偏置与偏移</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] Learning in the Frequency Domain (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn20/</link>
+      <link>http://wzj.life/2021/prn20/</link>
       <pubDate>Fri, 25 Jun 2021 15:44:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn20/</guid>
+      <guid>http://wzj.life/2021/prn20/</guid>
       <description>Learning in the Frequency Domain (CVPR 2020) 出发点 受计算资源与内存限制，大多数 CNN 模型只用低分辨率的 RGB 图像作为输入，处理现实中高分辨率图像时要先缩小尺寸，而这一过程难免带来</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 带限函数</title>
-      <link>http://jonathanwayy.xyz/2021/ldp6/</link>
+      <link>http://wzj.life/2021/ldp6/</link>
       <pubDate>Thu, 24 Jun 2021 22:32:06 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp6/</guid>
+      <guid>http://wzj.life/2021/ldp6/</guid>
       <description>定义 若一个函数对于以原点为中心的有限区间（带宽） \([-\mu_{max}, \mu_{max}]\)以外的频率值，其傅里叶变换均为 0，则称之为带限函数*。*</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 卷积定理</title>
-      <link>http://jonathanwayy.xyz/2021/conv-theory/</link>
+      <link>http://wzj.life/2021/conv-theory/</link>
       <pubDate>Thu, 24 Jun 2021 21:23:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/conv-theory/</guid>
+      <guid>http://wzj.life/2021/conv-theory/</guid>
       <description>卷积定义 用算子 \(\star\) 表示两个函数的卷积，定义为 $$(f \star h)(t) = \int_{-\infty}^{\infty} f(\tau)h(t-\tau)d\tau.$$ 卷积定理 空间域中两个函数的卷积的傅里叶变换，等于频率域中两个函数傅里叶变换的乘积。反过</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域] FcaNet: Frequency Channel Attention Networks (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn13/</link>
+      <link>http://wzj.life/2021/prn13/</link>
       <pubDate>Sun, 20 Jun 2021 14:25:10 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn13/</guid>
+      <guid>http://wzj.life/2021/prn13/</guid>
       <description>2012.11879 FcaNet: Frequency Channel Attention Networks (2020) 利用频率分析重新思索通道注意力，并从数学上证明传统的全局平均池化 (GAP) 是频域中特征分解的一种特殊情况。 GAP 的潜在问题 尽管简洁高效， GAP</description>
     </item>
     

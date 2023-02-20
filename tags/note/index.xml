@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>note on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/note/</link>
-    <description>Recent content in note on Jonathan`s Blog</description>
+    <title>note on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/note/</link>
+    <description>Recent content in note on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 05 Oct 2020 19:34:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 19:34:16 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>花书 阅读笔记</title>
-      <link>http://jonathanwayy.xyz/2020/flower-book-notes/</link>
+      <link>http://wzj.life/2020/flower-book-notes/</link>
       <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/flower-book-notes/</guid>
+      <guid>http://wzj.life/2020/flower-book-notes/</guid>
       <description>Chapter 1 硬编码知识体系 —— 知识库方法（Cyc） 从原始数据中提取模式 —— 机器学习 简单的机器学习算法的性能很大程度上以来于给定数据的表示 很难知道该提</description>
     </item>
     

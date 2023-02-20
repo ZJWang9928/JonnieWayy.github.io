@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>adversarial on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/adversarial/</link>
-    <description>Recent content in adversarial on Jonathan`s Blog</description>
+    <title>adversarial on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/adversarial/</link>
+    <description>Recent content in adversarial on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 29 Nov 2021 13:39:17 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/adversarial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Nov 2021 13:39:17 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/adversarial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- ReID / 对抗攻击] Multi-Expert AAD Using Context Inconsistency (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn130/</link>
+      <link>http://wzj.life/2021/prn130/</link>
       <pubDate>Mon, 29 Nov 2021 13:39:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn130/</guid>
+      <guid>http://wzj.life/2021/prn130/</guid>
       <description>Multi-Expert Adversarial Attack Detection in Person Re-Identification Using Context Inconsistency (ICCV 2021) 概述 ReID 属于排序问题而非分类问题，因而现有针对分类问题的防御方法并不适合 ReID 任务。 本文提出多专家对抗攻击检测方法 (Multi-Expert Adversarial Attack Detection,</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Modality-Specific and Shared GAN (PR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn93/</link>
+      <link>http://wzj.life/2021/prn93/</link>
       <pubDate>Thu, 09 Sep 2021 21:42:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn93/</guid>
+      <guid>http://wzj.life/2021/prn93/</guid>
       <description>Modality-Specific and Shared Generative Adversarial Network for Cross-modal Retrieval (PR 2020) 概述 本文提出 Modality-Specific and Shared Generative Adversarial Network (\(MS^2GAN\))。 生成模型 标签预测 将模态中特征与公共空间特征拼接后用于预测标签，采用</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 对抗样本] Generating Adversarial Examples with Adversarial Networks (IJCAI 2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn34/</link>
+      <link>http://wzj.life/2021/prn34/</link>
       <pubDate>Wed, 07 Jul 2021 11:06:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn34/</guid>
+      <guid>http://wzj.life/2021/prn34/</guid>
       <description>Generating Adversarial Examples with Adversarial Networks (IJCAI 2018) AdvGAN 模型架构 $$\mathcal{L}_{GAN} = \mathbb{E}_{x} log \mathcal{D}(x) + \mathbb{E}_{x} log(1 - \mathcal{D}(x + \mathcal{G}(x))),$$ $$\mathcal{L}_{adv}^{f} = \mathbb{E}_{x}\mathcal{l}_f(x + \mathcal{G}(x), t),$$ $$\mathcal{L}_{hinge} = \mathbb{E}_{x} max(0, ||\mathcal{G}(x)||_{2} - c),$$ $$\mathcal{L} = \mathcal{L}_{adv}^{f} + \alpha \mathcal{L}_{GAN} + \beta \mathcal{L}_{hinge}.$$ 样本可视化</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 对抗样本] Query Attack via Opposite-Direction Feature (2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn33/</link>
+      <link>http://wzj.life/2021/prn33/</link>
       <pubDate>Tue, 06 Jul 2021 15:13:34 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn33/</guid>
+      <guid>http://wzj.life/2021/prn33/</guid>
       <description>1809.02681 Query Attack via Opposite-Direction Feature:Towards Robust Image Retrieval (2018) 背景 现有分类攻击方法在在检索场景中的困难 其目标是类别预测，与检索任务不同 检索场景中训练时的类别与测试时通常是不同的 本文针</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 对抗样本 / ReID] Vulnerability of Person Re-Identification Models (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn29/</link>
+      <link>http://wzj.life/2021/prn29/</link>
       <pubDate>Fri, 02 Jul 2021 11:05:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn29/</guid>
+      <guid>http://wzj.life/2021/prn29/</guid>
       <description>Vulnerability of Person Re-Identification Models to Metric Adversarial Attacks (CVPR 2020) 背景 闭集 (closed-set) 任务，即训练与测试使用同样类别的任务上对抗样本已经有了较广泛的研究，开集 (open-set) 任务如 ReID 上的相关研究较少。 为了骗过</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 文本对抗样本] Seq2Sick: Evaluating Robustness of Seq2Seq Models (AAAI 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn27/</link>
+      <link>http://wzj.life/2021/prn27/</link>
       <pubDate>Tue, 29 Jun 2021 21:36:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn27/</guid>
+      <guid>http://wzj.life/2021/prn27/</guid>
       <description>Seq2Sick: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples (AAAI 2020) 开源代码传送门 背景 对抗攻击可用于衡量 DNN 的鲁棒性，对抗样本越容易生成则模型越健壮。 攻击图像比攻击文本容易得多，因为图像</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 对抗样本] Cross-Modal Learning with Adversarial Samples (NeurIPS 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn23/</link>
+      <link>http://wzj.life/2021/prn23/</link>
       <pubDate>Sun, 27 Jun 2021 13:29:36 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn23/</guid>
+      <guid>http://wzj.life/2021/prn23/</guid>
       <description>Cross-Modal Learning with Adversarial Samples (NeurIPS 2019) 文中主要以跨模态哈希检索为例，其搜索空间大致可分为四个部分：T2T、I2I、I2T/T2I、NR (not relevant)。 理想的针</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 对抗样本] AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn22/</link>
+      <link>http://wzj.life/2021/prn22/</link>
       <pubDate>Sat, 26 Jun 2021 15:10:01 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn22/</guid>
+      <guid>http://wzj.life/2021/prn22/</guid>
       <description>2002.02196 AI-GAN: Attack-Inspired Generation of Adversarial Examples (2020) 本文设计了一种新的 GAN 的变体，称为 Attack-Inspired GAN (AI-GAN) 用于生成对抗扰动。 AI-GAN 的训练包含两个阶段： 第一阶段，联合训练一个生成器、一个鉴别器和一个</description>
     </item>
     

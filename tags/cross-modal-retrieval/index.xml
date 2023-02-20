@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cross-modal retrieval on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/cross-modal-retrieval/</link>
-    <description>Recent content in cross-modal retrieval on Jonathan`s Blog</description>
+    <title>cross-modal retrieval on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/cross-modal-retrieval/</link>
+    <description>Recent content in cross-modal retrieval on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 29 May 2021 10:55:05 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/cross-modal-retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 May 2021 10:55:05 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal-retrieval/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] Consensus-Aware Visual-Semantic Embedding (ECCV 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn6/</link>
+      <link>http://wzj.life/2021/prn6/</link>
       <pubDate>Sat, 29 May 2021 10:55:05 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn6/</guid>
+      <guid>http://wzj.life/2021/prn6/</guid>
       <description>2007.08883 Consensus-Aware Visual-Semantic Embedding for Image-Text Matching (ECCV 2020) 当前主流方法 将图像与文本投影到一个公共空间，通常无法充分利用图像中目标以及句子段之间的关系 分块级别的匹配 (fragment-level matching) + 聚合其相似度</description>
     </item>
     

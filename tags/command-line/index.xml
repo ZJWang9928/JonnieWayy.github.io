@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>command line on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/command-line/</link>
-    <description>Recent content in command line on Jonathan`s Blog</description>
+    <title>command line on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/command-line/</link>
+    <description>Recent content in command line on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 30 Jan 2020 17:34:13 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2020 17:34:13 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[24] Linux终端快捷键</title>
-      <link>http://jonathanwayy.xyz/2020/blwl24/</link>
+      <link>http://wzj.life/2020/blwl24/</link>
       <pubDate>Thu, 30 Jan 2020 17:34:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl24/</guid>
+      <guid>http://wzj.life/2020/blwl24/</guid>
       <description>Keystrokes for Navigating Command Lines Keystroke Full Name Meaning Ctrl + F Character forward Go forward one character. Ctrl + B Character backward Go backward one character. Alt + F Word forward Go forward one word. Alt + B Word backward Go backward one word. Ctrl + A Beginning of line Go to the beginning of the current line. Ctrl + E End of line Go to the end of</description>
     </item>
     

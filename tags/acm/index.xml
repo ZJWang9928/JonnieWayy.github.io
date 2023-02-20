@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>acm on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/acm/</link>
-    <description>Recent content in acm on Jonathan`s Blog</description>
+    <title>acm on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/acm/</link>
+    <description>Recent content in acm on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 13 May 2022 00:27:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/acm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2022 00:27:22 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/acm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Latex argmin 与 argmax 中下标出现在下方的一种方式</title>
-      <link>http://jonathanwayy.xyz/2022/latex_argminmax_down/</link>
+      <link>http://wzj.life/2022/latex_argminmax_down/</link>
       <pubDate>Fri, 13 May 2022 00:27:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/latex_argminmax_down/</guid>
+      <guid>http://wzj.life/2022/latex_argminmax_down/</guid>
       <description>记录一种 Latex 中使 argmin 与 argmax 命令的下标出现在下方的一种方式： \begin{equation} \mathop{\arg\min}_{\theta} ... \end{equation} 如此即可。</description>
     </item>
     
     <item>
       <title>Latex 使用 thanks 脚注后多出一个空白页问题解决办法</title>
-      <link>http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/</link>
+      <link>http://wzj.life/2022/latex_thanks_blank_page_one/</link>
       <pubDate>Thu, 24 Mar 2022 14:50:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/</guid>
+      <guid>http://wzj.life/2022/latex_thanks_blank_page_one/</guid>
       <description>问题描述 在 LaTex 中使用如下命令添加作者及其单位： \author{A, B, C} \thanks{A is xxxxxx, B is xxxxxx, C is xxxxxx} 编译后发现在文档最开头多出了一个空白页。 原因分析 \thanks 放在 \author 命令外面，导致其</description>
     </item>
     
     <item>
       <title>Latex 旋转文字方向</title>
-      <link>http://jonathanwayy.xyz/2021/latex_rotatebox/</link>
+      <link>http://wzj.life/2021/latex_rotatebox/</link>
       <pubDate>Thu, 28 Oct 2021 12:34:42 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_rotatebox/</guid>
+      <guid>http://wzj.life/2021/latex_rotatebox/</guid>
       <description>有时在 Latex 表格中需要改变文字方向，可以用如下语句实现： \rotatebox{角度}{文本}</description>
     </item>
     
     <item>
       <title>编译 Latex 遇到 File ended while scanning use of 
 ewlbel 问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/latex_newlbel/</link>
+      <link>http://wzj.life/2021/latex_newlbel/</link>
       <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_newlbel/</guid>
+      <guid>http://wzj.life/2021/latex_newlbel/</guid>
       <description>问题描述 编译 Latex 时出现如下报错： File ended while scanning use of \@newl@bel... 解决办法 将目录中除了 .tex 文件以及图像、参考文献等文件其外的其余文件均删除后重新编译即可。</description>
     </item>
     
     <item>
       <title>Latex 表格使用 toprule、midrule 及 bottomrule 时出现 undefined control sequence 报错解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/latex_booktabs/</link>
+      <link>http://wzj.life/2021/latex_booktabs/</link>
       <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_booktabs/</guid>
+      <guid>http://wzj.life/2021/latex_booktabs/</guid>
       <description>问题描述 在 Latex 表格中，使用 \toprule、\midrule 以及 \bottomrule 时报错 “undefined control sequence”。 解决办法 缺少相应宏包，导入即</description>
     </item>
     
     <item>
       <title>ACM 会议论文模板去除 ACM Reference Format 信息</title>
-      <link>http://jonathanwayy.xyz/2021/latex_acmtem/</link>
+      <link>http://wzj.life/2021/latex_acmtem/</link>
       <pubDate>Fri, 16 Apr 2021 18:48:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_acmtem/</guid>
+      <guid>http://wzj.life/2021/latex_acmtem/</guid>
       <description>在投稿撰文时，可以去掉 ACM 的 latex 模板中会有的 ACM Reference Format 信息。 方法如下： 在 \documentclass[sigconf]{acmart} 下面添加以下几行： \settopmatter{printacmref=false} % Removes citation information below abstract \renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column \pagestyle{plain} % removes running headers</description>
     </item>
     

@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GCN on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/gcn/</link>
-    <description>Recent content in GCN on Jonathan`s Blog</description>
+    <title>GCN on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/gcn/</link>
+    <description>Recent content in GCN on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 17 Aug 2021 15:53:21 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/gcn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2021 15:53:21 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/gcn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn80/</link>
+      <link>http://wzj.life/2021/prn80/</link>
       <pubDate>Tue, 17 Aug 2021 15:53:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn80/</guid>
+      <guid>http://wzj.life/2021/prn80/</guid>
       <description>2101.11873 A Graph-based Relevance Matching Model for Ad-hoc Retrieval (AAAI 2021) 背景 query-document 检索任务。 两类架构 representation-based matching interaction-based matching 两种重要关系 term-level query-document interaction document-level word relationships 一个问题 用来检索的短语可能并不连续出现在文档中，可能相隔甚远。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn76/</link>
+      <link>http://wzj.life/2021/prn76/</link>
       <pubDate>Wed, 11 Aug 2021 15:46:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn76/</guid>
+      <guid>http://wzj.life/2021/prn76/</guid>
       <description>Fashion Retrieval via Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019) 概述 Fashion Retrieval 任务。 一个问题在于对应位置的局部块通常是失配的，因此需要在同尺度所有局部之间遍历匹配。 设计了一种基于相似度金</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn69/</link>
+      <link>http://wzj.life/2021/prn69/</link>
       <pubDate>Tue, 03 Aug 2021 11:07:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn69/</guid>
+      <guid>http://wzj.life/2021/prn69/</guid>
       <description>Set and Rebase: Determining the Semantic Graph Connectivity for Unsupervised Cross-Modal Hashing (IJCAI 2020) 概述 两类无监督跨模态哈系 跨模态量化，最小化二进制编码与原始数据低维投影之间的鸿沟 跨模态相似度搜索 三个主要问题 在没</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn68/</link>
+      <link>http://wzj.life/2021/prn68/</link>
       <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn68/</guid>
+      <guid>http://wzj.life/2021/prn68/</guid>
       <description>Adapted Graph Reasoning and Filtration for Description-Image Retrieval (SIGIR 2021) 概述 本文处理更加抽象的文本描述。 提出一种自适应的图推理与过滤网络 (Adapted Graph Reasoning and Filtration network, AGRF)，包含两大主要部件： 自适应图推理网</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Fine-grained Video-Text Retrieval with HGR (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn59/</link>
+      <link>http://wzj.life/2021/prn59/</link>
       <pubDate>Mon, 26 Jul 2021 11:53:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn59/</guid>
+      <guid>http://wzj.life/2021/prn59/</guid>
       <description>Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning (CVPR 2020) 开源代码传送门 核心 提出一种层级式的图推理模型 (Hierarchical Graph Reasoning model, HGR)，将视频-文本匹配分解为三级语义： 全局事件，在文本中对应整个句</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] A Deep Local and Global Scene-Graph Matching (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn58/</link>
+      <link>http://wzj.life/2021/prn58/</link>
       <pubDate>Sun, 25 Jul 2021 11:30:31 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn58/</guid>
+      <guid>http://wzj.life/2021/prn58/</guid>
       <description>2106.02400 A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval (2021) 核心 提出一种局部与全局场景图匹配 (Local and Global Scene Graph Matching, LGSGM) 方法。 视觉图编码器 文本编码器 图嵌入 用多尺度节点注意力将图嵌入为向量。 附</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn53/</link>
+      <link>http://wzj.life/2021/prn53/</link>
       <pubDate>Sun, 18 Jul 2021 11:25:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn53/</guid>
+      <guid>http://wzj.life/2021/prn53/</guid>
       <description>Cross-Graph Attention Enhanced Multi-Modal Correlation Learning for Fine-Grained Image-Text Retrieval (SIGIR 2021) 背景 SIGIR 2021 短文。 现有三类跨模态检索方法 全局相关性学习 局部相关性学习 高阶语义概念学习 在模态特定的语义概念 (modality-specific semantic concepts) 之外，还应</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn52/</link>
+      <link>http://wzj.life/2021/prn52/</link>
       <pubDate>Sun, 18 Jul 2021 10:10:07 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn52/</guid>
+      <guid>http://wzj.life/2021/prn52/</guid>
       <description>2004.00277 Graph Structured Network for Image-Text Matching (CVPR 2020) 开源代码传送门 总览 本文提出一种图结构匹配网络 (Graph Structured Matching Network, GSMN)，对目标、关系与属性显式建模。 以下两组相关性互相促进 细粒度目</description>
     </item>
     

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>view on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/view/</link>
-    <description>Recent content in view on Jonathan`s Blog</description>
+    <title>view on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/view/</link>
+    <description>Recent content in view on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 08 May 2021 18:37:46 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/view/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 May 2021 18:37:46 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/view/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>炼丹杂记 -- Pytorch view 函数 RuntimeError 问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/ldp4/</link>
+      <link>http://wzj.life/2021/ldp4/</link>
       <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp4/</guid>
+      <guid>http://wzj.life/2021/ldp4/</guid>
       <description>问题描述 在程序中使用形如 A = X.view(32, -1) 的语句调用 view 时出现如下报错： RuntimeError: view size is not compatible with input tensor&amp;#39;s size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead. 原因分析 view() 需要 Tensor 中元素地址连续，</description>
     </item>
     

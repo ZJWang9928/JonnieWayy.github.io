@@ -2,7 +2,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kliv/</loc>
+      <loc>http://wzj.life/2020/kliv/</loc>
       
       <lastmod>2020-01-24T22:35:24+08:00</lastmod>
       
@@ -12,7 +12,117 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn346/</loc>
+      <loc>http://wzj.life/2023/prn347/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/categories/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/tags/cv/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/tags/data-augmentation/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/tags/notes/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/tags/paper-reading/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/categories/paper-reading-notes/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/posts/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/tags/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/tags/test-time/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/</loc>
+      
+      <lastmod>2023-02-20T18:24:38+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://wzj.life/2023/prn346/</loc>
       
       <lastmod>2023-02-20T16:43:02+08:00</lastmod>
       
@@ -22,7 +132,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/</loc>
+      <loc>http://wzj.life/tags/cross-modal/</loc>
       
       <lastmod>2023-02-20T16:43:02+08:00</lastmod>
       
@@ -32,7 +142,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/cross-modal/</loc>
+      <loc>http://wzj.life/tags/reid/</loc>
       
       <lastmod>2023-02-20T16:43:02+08:00</lastmod>
       
@@ -42,7 +152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/cv/</loc>
+      <loc>http://wzj.life/tags/retrieval/</loc>
       
       <lastmod>2023-02-20T16:43:02+08:00</lastmod>
       
@@ -52,87 +162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/</loc>
-      
-      <lastmod>2023-02-20T16:43:02+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/notes/</loc>
-      
-      <lastmod>2023-02-20T16:43:02+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/paper-reading/</loc>
-      
-      <lastmod>2023-02-20T16:43:02+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/categories/paper-reading-notes/</loc>
-      
-      <lastmod>2023-02-20T16:43:02+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/posts/</loc>
-      
-      <lastmod>2023-02-20T16:43:02+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/reid/</loc>
-      
-      <lastmod>2023-02-20T16:43:02+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/retrieval/</loc>
-      
-      <lastmod>2023-02-20T16:43:02+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/tags/</loc>
-      
-      <lastmod>2023-02-20T16:43:02+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/2023/prn345/</loc>
+      <loc>http://wzj.life/2023/prn345/</loc>
       
       <lastmod>2023-02-20T10:03:27+08:00</lastmod>
       
@@ -142,7 +172,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn344/</loc>
+      <loc>http://wzj.life/2023/prn344/</loc>
       
       <lastmod>2023-02-19T17:30:51+08:00</lastmod>
       
@@ -152,7 +182,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/domain-generalization/</loc>
+      <loc>http://wzj.life/tags/domain-generalization/</loc>
       
       <lastmod>2023-02-19T17:30:51+08:00</lastmod>
       
@@ -162,7 +192,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/re-identification/</loc>
+      <loc>http://wzj.life/tags/re-identification/</loc>
       
       <lastmod>2023-02-19T17:30:51+08:00</lastmod>
       
@@ -172,7 +202,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn343/</loc>
+      <loc>http://wzj.life/2023/prn343/</loc>
       
       <lastmod>2023-02-19T15:46:16+08:00</lastmod>
       
@@ -182,7 +212,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn342/</loc>
+      <loc>http://wzj.life/2023/prn342/</loc>
       
       <lastmod>2023-02-18T16:11:01+08:00</lastmod>
       
@@ -192,7 +222,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/data-augmentation/</loc>
+      <loc>http://wzj.life/tags/nlp/</loc>
       
       <lastmod>2023-02-18T16:11:01+08:00</lastmod>
       
@@ -202,7 +232,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/nlp/</loc>
+      <loc>http://wzj.life/tags/survey/</loc>
       
       <lastmod>2023-02-18T16:11:01+08:00</lastmod>
       
@@ -212,17 +242,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/survey/</loc>
-      
-      <lastmod>2023-02-18T16:11:01+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>http://jonathanwayy.xyz/2023/prn341/</loc>
+      <loc>http://wzj.life/2023/prn341/</loc>
       
       <lastmod>2023-02-18T15:55:17+08:00</lastmod>
       
@@ -232,7 +252,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/language-model/</loc>
+      <loc>http://wzj.life/tags/language-model/</loc>
       
       <lastmod>2023-02-18T15:55:17+08:00</lastmod>
       
@@ -242,7 +262,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn340/</loc>
+      <loc>http://wzj.life/2023/prn340/</loc>
       
       <lastmod>2023-02-18T15:27:38+08:00</lastmod>
       
@@ -252,7 +272,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn339/</loc>
+      <loc>http://wzj.life/2023/prn339/</loc>
       
       <lastmod>2023-02-18T11:49:48+08:00</lastmod>
       
@@ -262,7 +282,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn338/</loc>
+      <loc>http://wzj.life/2023/prn338/</loc>
       
       <lastmod>2023-02-17T20:52:34+08:00</lastmod>
       
@@ -272,7 +292,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn337/</loc>
+      <loc>http://wzj.life/2023/prn337/</loc>
       
       <lastmod>2023-02-17T12:42:33+08:00</lastmod>
       
@@ -282,7 +302,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/attention/</loc>
+      <loc>http://wzj.life/tags/attention/</loc>
       
       <lastmod>2023-02-17T12:42:33+08:00</lastmod>
       
@@ -292,7 +312,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/mae/</loc>
+      <loc>http://wzj.life/tags/mae/</loc>
       
       <lastmod>2023-02-17T12:42:33+08:00</lastmod>
       
@@ -302,7 +322,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn336/</loc>
+      <loc>http://wzj.life/2023/prn336/</loc>
       
       <lastmod>2023-02-16T21:26:17+08:00</lastmod>
       
@@ -312,7 +332,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn335/</loc>
+      <loc>http://wzj.life/2023/prn335/</loc>
       
       <lastmod>2023-02-16T17:37:17+08:00</lastmod>
       
@@ -322,7 +342,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn334/</loc>
+      <loc>http://wzj.life/2023/prn334/</loc>
       
       <lastmod>2023-02-16T17:03:21+08:00</lastmod>
       
@@ -332,7 +352,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn333/</loc>
+      <loc>http://wzj.life/2023/prn333/</loc>
       
       <lastmod>2023-02-16T16:45:41+08:00</lastmod>
       
@@ -342,7 +362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn332/</loc>
+      <loc>http://wzj.life/2023/prn332/</loc>
       
       <lastmod>2023-02-16T16:22:44+08:00</lastmod>
       
@@ -352,7 +372,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn331/</loc>
+      <loc>http://wzj.life/2023/prn331/</loc>
       
       <lastmod>2023-02-16T16:02:26+08:00</lastmod>
       
@@ -362,7 +382,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn330/</loc>
+      <loc>http://wzj.life/2023/prn330/</loc>
       
       <lastmod>2023-02-16T14:57:16+08:00</lastmod>
       
@@ -372,7 +392,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn329/</loc>
+      <loc>http://wzj.life/2023/prn329/</loc>
       
       <lastmod>2023-02-15T14:39:28+08:00</lastmod>
       
@@ -382,7 +402,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn328/</loc>
+      <loc>http://wzj.life/2023/prn328/</loc>
       
       <lastmod>2023-02-12T20:36:29+08:00</lastmod>
       
@@ -392,7 +412,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn327/</loc>
+      <loc>http://wzj.life/2023/prn327/</loc>
       
       <lastmod>2023-02-11T20:18:14+08:00</lastmod>
       
@@ -402,7 +422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/stance-detection/</loc>
+      <loc>http://wzj.life/tags/stance-detection/</loc>
       
       <lastmod>2023-02-11T20:18:14+08:00</lastmod>
       
@@ -412,7 +432,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn326/</loc>
+      <loc>http://wzj.life/2023/prn326/</loc>
       
       <lastmod>2023-02-11T17:32:11+08:00</lastmod>
       
@@ -422,7 +442,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/meta-learning/</loc>
+      <loc>http://wzj.life/tags/meta-learning/</loc>
       
       <lastmod>2023-02-11T17:32:11+08:00</lastmod>
       
@@ -432,7 +452,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn325/</loc>
+      <loc>http://wzj.life/2023/prn325/</loc>
       
       <lastmod>2023-02-11T17:13:19+08:00</lastmod>
       
@@ -442,7 +462,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn324/</loc>
+      <loc>http://wzj.life/2023/prn324/</loc>
       
       <lastmod>2023-02-11T17:02:48+08:00</lastmod>
       
@@ -452,7 +472,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn323/</loc>
+      <loc>http://wzj.life/2023/prn323/</loc>
       
       <lastmod>2023-02-11T16:29:21+08:00</lastmod>
       
@@ -462,7 +482,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn322/</loc>
+      <loc>http://wzj.life/2023/prn322/</loc>
       
       <lastmod>2023-02-11T15:55:41+08:00</lastmod>
       
@@ -472,7 +492,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn321/</loc>
+      <loc>http://wzj.life/2023/prn321/</loc>
       
       <lastmod>2023-02-11T14:54:14+08:00</lastmod>
       
@@ -482,7 +502,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn320/</loc>
+      <loc>http://wzj.life/2023/prn320/</loc>
       
       <lastmod>2023-02-11T14:36:41+08:00</lastmod>
       
@@ -492,7 +512,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/uncertainty/</loc>
+      <loc>http://wzj.life/tags/uncertainty/</loc>
       
       <lastmod>2023-02-11T14:36:41+08:00</lastmod>
       
@@ -502,7 +522,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn319/</loc>
+      <loc>http://wzj.life/2023/prn319/</loc>
       
       <lastmod>2023-02-10T23:26:52+08:00</lastmod>
       
@@ -512,7 +532,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/awesome-wallpapers/</loc>
+      <loc>http://wzj.life/categories/awesome-wallpapers/</loc>
       
       <lastmod>2023-02-01T14:55:30+08:00</lastmod>
       
@@ -522,7 +542,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/kde/</loc>
+      <loc>http://wzj.life/tags/kde/</loc>
       
       <lastmod>2023-02-01T14:55:30+08:00</lastmod>
       
@@ -532,7 +552,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/linux/</loc>
+      <loc>http://wzj.life/tags/linux/</loc>
       
       <lastmod>2023-02-01T14:55:30+08:00</lastmod>
       
@@ -542,7 +562,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/manjaro/</loc>
+      <loc>http://wzj.life/tags/manjaro/</loc>
       
       <lastmod>2023-02-01T14:55:30+08:00</lastmod>
       
@@ -552,7 +572,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/wallpaper/</loc>
+      <loc>http://wzj.life/tags/wallpaper/</loc>
       
       <lastmod>2023-02-01T14:55:30+08:00</lastmod>
       
@@ -562,7 +582,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/bg65/</loc>
+      <loc>http://wzj.life/2023/bg65/</loc>
       
       <lastmod>2023-02-01T14:55:30+08:00</lastmod>
       
@@ -572,7 +592,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/prn318/</loc>
+      <loc>http://wzj.life/2023/prn318/</loc>
       
       <lastmod>2023-01-06T17:23:16+08:00</lastmod>
       
@@ -582,7 +602,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2023/bg64/</loc>
+      <loc>http://wzj.life/2023/bg64/</loc>
       
       <lastmod>2023-01-01T14:53:39+08:00</lastmod>
       
@@ -592,7 +612,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn317/</loc>
+      <loc>http://wzj.life/2022/prn317/</loc>
       
       <lastmod>2022-12-30T18:22:50+08:00</lastmod>
       
@@ -602,7 +622,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn316/</loc>
+      <loc>http://wzj.life/2022/prn316/</loc>
       
       <lastmod>2022-12-30T16:22:55+08:00</lastmod>
       
@@ -612,7 +632,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/vit/</loc>
+      <loc>http://wzj.life/tags/vit/</loc>
       
       <lastmod>2022-12-30T16:22:55+08:00</lastmod>
       
@@ -622,7 +642,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn315/</loc>
+      <loc>http://wzj.life/2022/prn315/</loc>
       
       <lastmod>2022-12-10T10:15:43+08:00</lastmod>
       
@@ -632,7 +652,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn314/</loc>
+      <loc>http://wzj.life/2022/prn314/</loc>
       
       <lastmod>2022-12-07T17:25:28+08:00</lastmod>
       
@@ -642,7 +662,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn313/</loc>
+      <loc>http://wzj.life/2022/prn313/</loc>
       
       <lastmod>2022-12-02T16:45:58+08:00</lastmod>
       
@@ -652,7 +672,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/captioning/</loc>
+      <loc>http://wzj.life/tags/captioning/</loc>
       
       <lastmod>2022-12-02T16:45:58+08:00</lastmod>
       
@@ -662,7 +682,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/frequency/</loc>
+      <loc>http://wzj.life/tags/frequency/</loc>
       
       <lastmod>2022-12-02T16:45:58+08:00</lastmod>
       
@@ -672,7 +692,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/video/</loc>
+      <loc>http://wzj.life/tags/video/</loc>
       
       <lastmod>2022-12-02T16:45:58+08:00</lastmod>
       
@@ -682,7 +702,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg63/</loc>
+      <loc>http://wzj.life/2022/bg63/</loc>
       
       <lastmod>2022-12-01T16:30:43+08:00</lastmod>
       
@@ -692,7 +712,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn312/</loc>
+      <loc>http://wzj.life/2022/prn312/</loc>
       
       <lastmod>2022-11-30T17:21:56+08:00</lastmod>
       
@@ -702,7 +722,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn311/</loc>
+      <loc>http://wzj.life/2022/prn311/</loc>
       
       <lastmod>2022-11-29T16:29:40+08:00</lastmod>
       
@@ -712,7 +732,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/semantic-segmentation/</loc>
+      <loc>http://wzj.life/tags/semantic-segmentation/</loc>
       
       <lastmod>2022-11-29T16:29:40+08:00</lastmod>
       
@@ -722,7 +742,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn310/</loc>
+      <loc>http://wzj.life/2022/prn310/</loc>
       
       <lastmod>2022-11-28T15:23:22+08:00</lastmod>
       
@@ -732,7 +752,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn309/</loc>
+      <loc>http://wzj.life/2022/prn309/</loc>
       
       <lastmod>2022-11-25T16:21:17+08:00</lastmod>
       
@@ -742,7 +762,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/symptom-extraction/</loc>
+      <loc>http://wzj.life/tags/symptom-extraction/</loc>
       
       <lastmod>2022-11-25T16:21:17+08:00</lastmod>
       
@@ -752,7 +772,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn308/</loc>
+      <loc>http://wzj.life/2022/prn308/</loc>
       
       <lastmod>2022-11-24T19:55:33+08:00</lastmod>
       
@@ -762,7 +782,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/machine-translation/</loc>
+      <loc>http://wzj.life/tags/machine-translation/</loc>
       
       <lastmod>2022-11-24T19:55:33+08:00</lastmod>
       
@@ -772,7 +792,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn307/</loc>
+      <loc>http://wzj.life/2022/prn307/</loc>
       
       <lastmod>2022-11-24T17:47:34+08:00</lastmod>
       
@@ -782,7 +802,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn306/</loc>
+      <loc>http://wzj.life/2022/prn306/</loc>
       
       <lastmod>2022-11-24T17:11:09+08:00</lastmod>
       
@@ -792,7 +812,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/natural-language-understanding/</loc>
+      <loc>http://wzj.life/tags/natural-language-understanding/</loc>
       
       <lastmod>2022-11-24T17:11:09+08:00</lastmod>
       
@@ -802,7 +822,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn305/</loc>
+      <loc>http://wzj.life/2022/prn305/</loc>
       
       <lastmod>2022-11-24T16:02:32+08:00</lastmod>
       
@@ -812,7 +832,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/teacher-student/</loc>
+      <loc>http://wzj.life/tags/teacher-student/</loc>
       
       <lastmod>2022-11-24T16:02:32+08:00</lastmod>
       
@@ -822,7 +842,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn304/</loc>
+      <loc>http://wzj.life/2022/prn304/</loc>
       
       <lastmod>2022-11-24T09:40:38+08:00</lastmod>
       
@@ -832,7 +852,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn303/</loc>
+      <loc>http://wzj.life/2022/prn303/</loc>
       
       <lastmod>2022-11-23T16:51:38+08:00</lastmod>
       
@@ -842,7 +862,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn302/</loc>
+      <loc>http://wzj.life/2022/prn302/</loc>
       
       <lastmod>2022-11-23T14:06:11+08:00</lastmod>
       
@@ -852,7 +872,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn301/</loc>
+      <loc>http://wzj.life/2022/prn301/</loc>
       
       <lastmod>2022-11-22T14:57:16+08:00</lastmod>
       
@@ -862,7 +882,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn300/</loc>
+      <loc>http://wzj.life/2022/prn300/</loc>
       
       <lastmod>2022-11-17T14:32:31+08:00</lastmod>
       
@@ -872,7 +892,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn299/</loc>
+      <loc>http://wzj.life/2022/prn299/</loc>
       
       <lastmod>2022-11-16T17:07:13+08:00</lastmod>
       
@@ -882,7 +902,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn298/</loc>
+      <loc>http://wzj.life/2022/prn298/</loc>
       
       <lastmod>2022-11-15T14:09:44+08:00</lastmod>
       
@@ -892,7 +912,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn297/</loc>
+      <loc>http://wzj.life/2022/prn297/</loc>
       
       <lastmod>2022-11-07T12:44:14+08:00</lastmod>
       
@@ -902,7 +922,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/disentangling/</loc>
+      <loc>http://wzj.life/tags/disentangling/</loc>
       
       <lastmod>2022-11-07T12:44:14+08:00</lastmod>
       
@@ -912,7 +932,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn296/</loc>
+      <loc>http://wzj.life/2022/prn296/</loc>
       
       <lastmod>2022-11-07T12:00:14+08:00</lastmod>
       
@@ -922,7 +942,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn295/</loc>
+      <loc>http://wzj.life/2022/prn295/</loc>
       
       <lastmod>2022-11-07T11:48:07+08:00</lastmod>
       
@@ -932,7 +952,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn294/</loc>
+      <loc>http://wzj.life/2022/prn294/</loc>
       
       <lastmod>2022-11-07T08:13:27+08:00</lastmod>
       
@@ -942,7 +962,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn293/</loc>
+      <loc>http://wzj.life/2022/prn293/</loc>
       
       <lastmod>2022-11-05T15:05:46+08:00</lastmod>
       
@@ -952,7 +972,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/clip/</loc>
+      <loc>http://wzj.life/tags/clip/</loc>
       
       <lastmod>2022-11-05T15:05:46+08:00</lastmod>
       
@@ -962,7 +982,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/counterfactual/</loc>
+      <loc>http://wzj.life/tags/counterfactual/</loc>
       
       <lastmod>2022-11-05T15:05:46+08:00</lastmod>
       
@@ -972,7 +992,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/image-manipulation/</loc>
+      <loc>http://wzj.life/tags/image-manipulation/</loc>
       
       <lastmod>2022-11-05T15:05:46+08:00</lastmod>
       
@@ -982,7 +1002,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn292/</loc>
+      <loc>http://wzj.life/2022/prn292/</loc>
       
       <lastmod>2022-11-04T18:12:19+08:00</lastmod>
       
@@ -992,7 +1012,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg62/</loc>
+      <loc>http://wzj.life/2022/bg62/</loc>
       
       <lastmod>2022-11-01T16:57:12+08:00</lastmod>
       
@@ -1002,7 +1022,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn291/</loc>
+      <loc>http://wzj.life/2022/prn291/</loc>
       
       <lastmod>2022-10-24T10:49:20+08:00</lastmod>
       
@@ -1012,7 +1032,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn290/</loc>
+      <loc>http://wzj.life/2022/prn290/</loc>
       
       <lastmod>2022-10-23T20:08:54+08:00</lastmod>
       
@@ -1022,7 +1042,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn289/</loc>
+      <loc>http://wzj.life/2022/prn289/</loc>
       
       <lastmod>2022-10-23T16:27:03+08:00</lastmod>
       
@@ -1032,7 +1052,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/disentanglement/</loc>
+      <loc>http://wzj.life/tags/disentanglement/</loc>
       
       <lastmod>2022-10-23T16:27:03+08:00</lastmod>
       
@@ -1042,7 +1062,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/tokenization/</loc>
+      <loc>http://wzj.life/tags/tokenization/</loc>
       
       <lastmod>2022-10-23T16:27:03+08:00</lastmod>
       
@@ -1052,7 +1072,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn288/</loc>
+      <loc>http://wzj.life/2022/prn288/</loc>
       
       <lastmod>2022-10-23T15:47:00+08:00</lastmod>
       
@@ -1062,7 +1082,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn287/</loc>
+      <loc>http://wzj.life/2022/prn287/</loc>
       
       <lastmod>2022-10-21T13:43:55+08:00</lastmod>
       
@@ -1072,7 +1092,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn286/</loc>
+      <loc>http://wzj.life/2022/prn286/</loc>
       
       <lastmod>2022-10-19T11:45:59+08:00</lastmod>
       
@@ -1082,7 +1102,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn285/</loc>
+      <loc>http://wzj.life/2022/prn285/</loc>
       
       <lastmod>2022-10-18T10:04:08+08:00</lastmod>
       
@@ -1092,7 +1112,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn284/</loc>
+      <loc>http://wzj.life/2022/prn284/</loc>
       
       <lastmod>2022-10-17T16:46:41+08:00</lastmod>
       
@@ -1102,7 +1122,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn283/</loc>
+      <loc>http://wzj.life/2022/prn283/</loc>
       
       <lastmod>2022-10-16T16:45:45+08:00</lastmod>
       
@@ -1112,7 +1132,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn282/</loc>
+      <loc>http://wzj.life/2022/prn282/</loc>
       
       <lastmod>2022-10-14T12:08:46+08:00</lastmod>
       
@@ -1122,7 +1142,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/segmentation/</loc>
+      <loc>http://wzj.life/tags/segmentation/</loc>
       
       <lastmod>2022-10-14T12:08:46+08:00</lastmod>
       
@@ -1132,7 +1152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn281/</loc>
+      <loc>http://wzj.life/2022/prn281/</loc>
       
       <lastmod>2022-10-13T11:44:20+08:00</lastmod>
       
@@ -1142,7 +1162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn280/</loc>
+      <loc>http://wzj.life/2022/prn280/</loc>
       
       <lastmod>2022-10-12T11:31:16+08:00</lastmod>
       
@@ -1152,7 +1172,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/transfer-learning/</loc>
+      <loc>http://wzj.life/tags/transfer-learning/</loc>
       
       <lastmod>2022-10-12T11:31:16+08:00</lastmod>
       
@@ -1162,7 +1182,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn279/</loc>
+      <loc>http://wzj.life/2022/prn279/</loc>
       
       <lastmod>2022-10-11T11:07:57+08:00</lastmod>
       
@@ -1172,7 +1192,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn278/</loc>
+      <loc>http://wzj.life/2022/prn278/</loc>
       
       <lastmod>2022-10-10T10:21:01+08:00</lastmod>
       
@@ -1182,7 +1202,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/dataset/</loc>
+      <loc>http://wzj.life/tags/dataset/</loc>
       
       <lastmod>2022-10-10T10:21:01+08:00</lastmod>
       
@@ -1192,7 +1212,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn277/</loc>
+      <loc>http://wzj.life/2022/prn277/</loc>
       
       <lastmod>2022-10-06T14:28:56+08:00</lastmod>
       
@@ -1202,7 +1222,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn276/</loc>
+      <loc>http://wzj.life/2022/prn276/</loc>
       
       <lastmod>2022-10-06T10:33:35+08:00</lastmod>
       
@@ -1212,7 +1232,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn275/</loc>
+      <loc>http://wzj.life/2022/prn275/</loc>
       
       <lastmod>2022-10-04T10:11:22+08:00</lastmod>
       
@@ -1222,7 +1242,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg61/</loc>
+      <loc>http://wzj.life/2022/bg61/</loc>
       
       <lastmod>2022-10-01T14:26:01+08:00</lastmod>
       
@@ -1232,7 +1252,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn274/</loc>
+      <loc>http://wzj.life/2022/prn274/</loc>
       
       <lastmod>2022-09-27T14:32:40+08:00</lastmod>
       
@@ -1242,7 +1262,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/domain-adaptation/</loc>
+      <loc>http://wzj.life/tags/domain-adaptation/</loc>
       
       <lastmod>2022-09-27T14:32:40+08:00</lastmod>
       
@@ -1252,7 +1272,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/uda/</loc>
+      <loc>http://wzj.life/tags/uda/</loc>
       
       <lastmod>2022-09-27T14:32:40+08:00</lastmod>
       
@@ -1262,7 +1282,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn273/</loc>
+      <loc>http://wzj.life/2022/prn273/</loc>
       
       <lastmod>2022-09-26T13:48:46+08:00</lastmod>
       
@@ -1272,7 +1292,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn272/</loc>
+      <loc>http://wzj.life/2022/prn272/</loc>
       
       <lastmod>2022-09-23T13:45:24+08:00</lastmod>
       
@@ -1282,7 +1302,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/continual-learning/</loc>
+      <loc>http://wzj.life/tags/continual-learning/</loc>
       
       <lastmod>2022-09-23T13:45:24+08:00</lastmod>
       
@@ -1292,7 +1312,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/lifelong/</loc>
+      <loc>http://wzj.life/tags/lifelong/</loc>
       
       <lastmod>2022-09-23T13:45:24+08:00</lastmod>
       
@@ -1302,7 +1322,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn271/</loc>
+      <loc>http://wzj.life/2022/prn271/</loc>
       
       <lastmod>2022-09-19T15:44:12+08:00</lastmod>
       
@@ -1312,7 +1332,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/composed-retrieval/</loc>
+      <loc>http://wzj.life/tags/composed-retrieval/</loc>
       
       <lastmod>2022-09-19T15:44:12+08:00</lastmod>
       
@@ -1322,7 +1342,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn270/</loc>
+      <loc>http://wzj.life/2022/prn270/</loc>
       
       <lastmod>2022-09-18T13:28:41+08:00</lastmod>
       
@@ -1332,7 +1352,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn269/</loc>
+      <loc>http://wzj.life/2022/prn269/</loc>
       
       <lastmod>2022-09-17T15:07:41+08:00</lastmod>
       
@@ -1342,7 +1362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn268/</loc>
+      <loc>http://wzj.life/2022/prn268/</loc>
       
       <lastmod>2022-09-16T17:30:00+08:00</lastmod>
       
@@ -1352,7 +1372,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn267/</loc>
+      <loc>http://wzj.life/2022/prn267/</loc>
       
       <lastmod>2022-09-03T16:01:54+08:00</lastmod>
       
@@ -1362,7 +1382,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg60/</loc>
+      <loc>http://wzj.life/2022/bg60/</loc>
       
       <lastmod>2022-09-01T13:58:07+08:00</lastmod>
       
@@ -1372,7 +1392,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn266/</loc>
+      <loc>http://wzj.life/2022/prn266/</loc>
       
       <lastmod>2022-08-31T20:55:26+08:00</lastmod>
       
@@ -1382,7 +1402,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/clothes-changing/</loc>
+      <loc>http://wzj.life/tags/clothes-changing/</loc>
       
       <lastmod>2022-08-31T20:55:26+08:00</lastmod>
       
@@ -1392,7 +1412,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn265/</loc>
+      <loc>http://wzj.life/2022/prn265/</loc>
       
       <lastmod>2022-08-31T14:46:43+08:00</lastmod>
       
@@ -1402,7 +1422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn264/</loc>
+      <loc>http://wzj.life/2022/prn264/</loc>
       
       <lastmod>2022-08-30T21:15:39+08:00</lastmod>
       
@@ -1412,7 +1432,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn263/</loc>
+      <loc>http://wzj.life/2022/prn263/</loc>
       
       <lastmod>2022-08-30T20:06:01+08:00</lastmod>
       
@@ -1422,7 +1442,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn262/</loc>
+      <loc>http://wzj.life/2022/prn262/</loc>
       
       <lastmod>2022-08-30T17:34:20+08:00</lastmod>
       
@@ -1432,7 +1452,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn261/</loc>
+      <loc>http://wzj.life/2022/prn261/</loc>
       
       <lastmod>2022-08-30T14:01:55+08:00</lastmod>
       
@@ -1442,7 +1462,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn260/</loc>
+      <loc>http://wzj.life/2022/prn260/</loc>
       
       <lastmod>2022-08-19T16:31:48+08:00</lastmod>
       
@@ -1452,7 +1472,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn259/</loc>
+      <loc>http://wzj.life/2022/prn259/</loc>
       
       <lastmod>2022-08-03T17:11:11+08:00</lastmod>
       
@@ -1462,7 +1482,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/anonymization/</loc>
+      <loc>http://wzj.life/tags/anonymization/</loc>
       
       <lastmod>2022-08-03T17:11:11+08:00</lastmod>
       
@@ -1472,7 +1492,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg59/</loc>
+      <loc>http://wzj.life/2022/bg59/</loc>
       
       <lastmod>2022-08-01T16:54:27+08:00</lastmod>
       
@@ -1482,7 +1502,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn257/</loc>
+      <loc>http://wzj.life/2022/prn257/</loc>
       
       <lastmod>2022-07-19T18:11:43+08:00</lastmod>
       
@@ -1492,7 +1512,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn256/</loc>
+      <loc>http://wzj.life/2022/prn256/</loc>
       
       <lastmod>2022-07-16T13:34:15+08:00</lastmod>
       
@@ -1502,7 +1522,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn255/</loc>
+      <loc>http://wzj.life/2022/prn255/</loc>
       
       <lastmod>2022-07-12T15:07:49+08:00</lastmod>
       
@@ -1512,7 +1532,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn254/</loc>
+      <loc>http://wzj.life/2022/prn254/</loc>
       
       <lastmod>2022-07-11T15:25:27+08:00</lastmod>
       
@@ -1522,7 +1542,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn253/</loc>
+      <loc>http://wzj.life/2022/prn253/</loc>
       
       <lastmod>2022-07-07T13:47:03+08:00</lastmod>
       
@@ -1532,7 +1552,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn252/</loc>
+      <loc>http://wzj.life/2022/prn252/</loc>
       
       <lastmod>2022-07-03T15:43:02+08:00</lastmod>
       
@@ -1542,7 +1562,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn251/</loc>
+      <loc>http://wzj.life/2022/prn251/</loc>
       
       <lastmod>2022-07-02T15:23:20+08:00</lastmod>
       
@@ -1552,7 +1572,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn250/</loc>
+      <loc>http://wzj.life/2022/prn250/</loc>
       
       <lastmod>2022-07-02T13:47:20+08:00</lastmod>
       
@@ -1562,7 +1582,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg58/</loc>
+      <loc>http://wzj.life/2022/bg58/</loc>
       
       <lastmod>2022-07-01T13:24:40+08:00</lastmod>
       
@@ -1572,7 +1592,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn249/</loc>
+      <loc>http://wzj.life/2022/prn249/</loc>
       
       <lastmod>2022-06-30T18:06:40+08:00</lastmod>
       
@@ -1582,7 +1602,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/sketch/</loc>
+      <loc>http://wzj.life/tags/sketch/</loc>
       
       <lastmod>2022-06-30T18:06:40+08:00</lastmod>
       
@@ -1592,7 +1612,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn248/</loc>
+      <loc>http://wzj.life/2022/prn248/</loc>
       
       <lastmod>2022-06-27T13:41:48+08:00</lastmod>
       
@@ -1602,7 +1622,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/person-search/</loc>
+      <loc>http://wzj.life/tags/person-search/</loc>
       
       <lastmod>2022-06-27T13:41:48+08:00</lastmod>
       
@@ -1612,7 +1632,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/weakly-supervised/</loc>
+      <loc>http://wzj.life/tags/weakly-supervised/</loc>
       
       <lastmod>2022-06-27T13:41:48+08:00</lastmod>
       
@@ -1622,7 +1642,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn247/</loc>
+      <loc>http://wzj.life/2022/prn247/</loc>
       
       <lastmod>2022-06-26T16:16:30+08:00</lastmod>
       
@@ -1632,7 +1652,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/cross-domain/</loc>
+      <loc>http://wzj.life/tags/cross-domain/</loc>
       
       <lastmod>2022-06-26T16:16:30+08:00</lastmod>
       
@@ -1642,7 +1662,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn246/</loc>
+      <loc>http://wzj.life/2022/prn246/</loc>
       
       <lastmod>2022-06-24T14:06:24+08:00</lastmod>
       
@@ -1652,7 +1672,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn245/</loc>
+      <loc>http://wzj.life/2022/prn245/</loc>
       
       <lastmod>2022-06-22T15:31:35+08:00</lastmod>
       
@@ -1662,7 +1682,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn244/</loc>
+      <loc>http://wzj.life/2022/prn244/</loc>
       
       <lastmod>2022-06-20T14:40:14+08:00</lastmod>
       
@@ -1672,7 +1692,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn243/</loc>
+      <loc>http://wzj.life/2022/prn243/</loc>
       
       <lastmod>2022-06-18T17:05:55+08:00</lastmod>
       
@@ -1682,7 +1702,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn242/</loc>
+      <loc>http://wzj.life/2022/prn242/</loc>
       
       <lastmod>2022-06-17T13:27:43+08:00</lastmod>
       
@@ -1692,7 +1712,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn241/</loc>
+      <loc>http://wzj.life/2022/prn241/</loc>
       
       <lastmod>2022-06-16T16:20:55+08:00</lastmod>
       
@@ -1702,7 +1722,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn240/</loc>
+      <loc>http://wzj.life/2022/prn240/</loc>
       
       <lastmod>2022-06-16T13:50:07+08:00</lastmod>
       
@@ -1712,7 +1732,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn239/</loc>
+      <loc>http://wzj.life/2022/prn239/</loc>
       
       <lastmod>2022-06-15T15:34:32+08:00</lastmod>
       
@@ -1722,7 +1742,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg57/</loc>
+      <loc>http://wzj.life/2022/bg57/</loc>
       
       <lastmod>2022-06-15T14:56:26+08:00</lastmod>
       
@@ -1732,7 +1752,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn238/</loc>
+      <loc>http://wzj.life/2022/prn238/</loc>
       
       <lastmod>2022-06-15T10:44:18+08:00</lastmod>
       
@@ -1742,7 +1762,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn237/</loc>
+      <loc>http://wzj.life/2022/prn237/</loc>
       
       <lastmod>2022-06-14T15:04:51+08:00</lastmod>
       
@@ -1752,7 +1772,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/incremental-learning/</loc>
+      <loc>http://wzj.life/tags/incremental-learning/</loc>
       
       <lastmod>2022-06-14T15:04:51+08:00</lastmod>
       
@@ -1762,7 +1782,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn236/</loc>
+      <loc>http://wzj.life/2022/prn236/</loc>
       
       <lastmod>2022-06-14T10:17:24+08:00</lastmod>
       
@@ -1772,7 +1792,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn235/</loc>
+      <loc>http://wzj.life/2022/prn235/</loc>
       
       <lastmod>2022-06-13T19:04:06+08:00</lastmod>
       
@@ -1782,7 +1802,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn234/</loc>
+      <loc>http://wzj.life/2022/prn234/</loc>
       
       <lastmod>2022-06-13T15:57:14+08:00</lastmod>
       
@@ -1792,7 +1812,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn233/</loc>
+      <loc>http://wzj.life/2022/prn233/</loc>
       
       <lastmod>2022-06-13T15:23:48+08:00</lastmod>
       
@@ -1802,7 +1822,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/3d/</loc>
+      <loc>http://wzj.life/tags/3d/</loc>
       
       <lastmod>2022-06-13T15:23:48+08:00</lastmod>
       
@@ -1812,7 +1832,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/group-reid/</loc>
+      <loc>http://wzj.life/tags/group-reid/</loc>
       
       <lastmod>2022-06-13T15:23:48+08:00</lastmod>
       
@@ -1822,7 +1842,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn232/</loc>
+      <loc>http://wzj.life/2022/prn232/</loc>
       
       <lastmod>2022-06-12T10:51:29+08:00</lastmod>
       
@@ -1832,7 +1852,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn231/</loc>
+      <loc>http://wzj.life/2022/prn231/</loc>
       
       <lastmod>2022-06-11T14:13:16+08:00</lastmod>
       
@@ -1842,7 +1862,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/unsupervised/</loc>
+      <loc>http://wzj.life/tags/unsupervised/</loc>
       
       <lastmod>2022-06-11T14:13:16+08:00</lastmod>
       
@@ -1852,7 +1872,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn230/</loc>
+      <loc>http://wzj.life/2022/prn230/</loc>
       
       <lastmod>2022-06-09T20:50:18+08:00</lastmod>
       
@@ -1862,7 +1882,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/human-parsing/</loc>
+      <loc>http://wzj.life/tags/human-parsing/</loc>
       
       <lastmod>2022-06-09T20:50:18+08:00</lastmod>
       
@@ -1872,7 +1892,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn229/</loc>
+      <loc>http://wzj.life/2022/prn229/</loc>
       
       <lastmod>2022-06-07T14:52:12+08:00</lastmod>
       
@@ -1882,7 +1902,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/super-resolution/</loc>
+      <loc>http://wzj.life/tags/super-resolution/</loc>
       
       <lastmod>2022-06-07T14:52:12+08:00</lastmod>
       
@@ -1892,7 +1912,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg56/</loc>
+      <loc>http://wzj.life/2022/bg56/</loc>
       
       <lastmod>2022-06-01T16:26:48+08:00</lastmod>
       
@@ -1902,7 +1922,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn228/</loc>
+      <loc>http://wzj.life/2022/prn228/</loc>
       
       <lastmod>2022-05-26T12:13:58+08:00</lastmod>
       
@@ -1912,7 +1932,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/self-supervision/</loc>
+      <loc>http://wzj.life/tags/self-supervision/</loc>
       
       <lastmod>2022-05-26T12:13:58+08:00</lastmod>
       
@@ -1922,7 +1942,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/acm/</loc>
+      <loc>http://wzj.life/tags/acm/</loc>
       
       <lastmod>2022-05-13T00:27:22+08:00</lastmod>
       
@@ -1932,7 +1952,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/deep-learning/</loc>
+      <loc>http://wzj.life/tags/deep-learning/</loc>
       
       <lastmod>2022-05-13T00:27:22+08:00</lastmod>
       
@@ -1942,7 +1962,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/latex/</loc>
+      <loc>http://wzj.life/tags/latex/</loc>
       
       <lastmod>2022-05-13T00:27:22+08:00</lastmod>
       
@@ -1952,7 +1972,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/latex_argminmax_down/</loc>
+      <loc>http://wzj.life/2022/latex_argminmax_down/</loc>
       
       <lastmod>2022-05-13T00:27:22+08:00</lastmod>
       
@@ -1962,7 +1982,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/paperwriting/</loc>
+      <loc>http://wzj.life/tags/paperwriting/</loc>
       
       <lastmod>2022-05-13T00:27:22+08:00</lastmod>
       
@@ -1972,7 +1992,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/things-about-latex-md/</loc>
+      <loc>http://wzj.life/categories/things-about-latex-md/</loc>
       
       <lastmod>2022-05-13T00:27:22+08:00</lastmod>
       
@@ -1982,7 +2002,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn227/</loc>
+      <loc>http://wzj.life/2022/prn227/</loc>
       
       <lastmod>2022-05-11T11:41:23+08:00</lastmod>
       
@@ -1992,7 +2012,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn226/</loc>
+      <loc>http://wzj.life/2022/prn226/</loc>
       
       <lastmod>2022-05-10T10:12:56+08:00</lastmod>
       
@@ -2002,7 +2022,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn225/</loc>
+      <loc>http://wzj.life/2022/prn225/</loc>
       
       <lastmod>2022-05-08T16:30:03+08:00</lastmod>
       
@@ -2012,7 +2032,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg55/</loc>
+      <loc>http://wzj.life/2022/bg55/</loc>
       
       <lastmod>2022-05-01T16:26:48+08:00</lastmod>
       
@@ -2022,7 +2042,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn224/</loc>
+      <loc>http://wzj.life/2022/prn224/</loc>
       
       <lastmod>2022-04-28T20:01:57+08:00</lastmod>
       
@@ -2032,7 +2052,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn223/</loc>
+      <loc>http://wzj.life/2022/prn223/</loc>
       
       <lastmod>2022-04-27T10:29:18+08:00</lastmod>
       
@@ -2042,7 +2062,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn222/</loc>
+      <loc>http://wzj.life/2022/prn222/</loc>
       
       <lastmod>2022-04-24T16:44:47+08:00</lastmod>
       
@@ -2052,7 +2072,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pretraining/</loc>
+      <loc>http://wzj.life/tags/pretraining/</loc>
       
       <lastmod>2022-04-24T16:44:47+08:00</lastmod>
       
@@ -2062,7 +2082,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn221/</loc>
+      <loc>http://wzj.life/2022/prn221/</loc>
       
       <lastmod>2022-04-16T20:27:36+08:00</lastmod>
       
@@ -2072,7 +2092,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn220/</loc>
+      <loc>http://wzj.life/2022/prn220/</loc>
       
       <lastmod>2022-04-14T21:46:02+08:00</lastmod>
       
@@ -2082,7 +2102,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn219/</loc>
+      <loc>http://wzj.life/2022/prn219/</loc>
       
       <lastmod>2022-04-07T17:39:01+08:00</lastmod>
       
@@ -2092,7 +2112,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg54/</loc>
+      <loc>http://wzj.life/2022/bg54/</loc>
       
       <lastmod>2022-04-01T15:12:09+08:00</lastmod>
       
@@ -2102,7 +2122,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn218/</loc>
+      <loc>http://wzj.life/2022/prn218/</loc>
       
       <lastmod>2022-03-24T15:01:42+08:00</lastmod>
       
@@ -2112,7 +2132,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/</loc>
+      <loc>http://wzj.life/2022/latex_thanks_blank_page_one/</loc>
       
       <lastmod>2022-03-24T14:50:13+08:00</lastmod>
       
@@ -2122,7 +2142,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn217/</loc>
+      <loc>http://wzj.life/2022/prn217/</loc>
       
       <lastmod>2022-03-23T21:28:42+08:00</lastmod>
       
@@ -2132,7 +2152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg53/</loc>
+      <loc>http://wzj.life/2022/bg53/</loc>
       
       <lastmod>2022-03-21T11:02:01+08:00</lastmod>
       
@@ -2142,7 +2162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn215/</loc>
+      <loc>http://wzj.life/2022/prn215/</loc>
       
       <lastmod>2022-03-20T20:59:17+08:00</lastmod>
       
@@ -2152,7 +2172,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/sequential/</loc>
+      <loc>http://wzj.life/tags/sequential/</loc>
       
       <lastmod>2022-03-20T20:59:17+08:00</lastmod>
       
@@ -2162,7 +2182,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn214/</loc>
+      <loc>http://wzj.life/2022/prn214/</loc>
       
       <lastmod>2022-03-20T18:47:56+08:00</lastmod>
       
@@ -2172,7 +2192,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn213/</loc>
+      <loc>http://wzj.life/2022/prn213/</loc>
       
       <lastmod>2022-03-19T17:31:41+08:00</lastmod>
       
@@ -2182,7 +2202,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn212/</loc>
+      <loc>http://wzj.life/2022/prn212/</loc>
       
       <lastmod>2022-03-16T08:16:08+08:00</lastmod>
       
@@ -2192,7 +2212,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/blog/</loc>
+      <loc>http://wzj.life/tags/blog/</loc>
       
       <lastmod>2022-03-16T01:08:48+08:00</lastmod>
       
@@ -2202,7 +2222,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/blog6/</loc>
+      <loc>http://wzj.life/2022/blog6/</loc>
       
       <lastmod>2022-03-16T01:08:48+08:00</lastmod>
       
@@ -2212,7 +2232,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/toss-about-blog/</loc>
+      <loc>http://wzj.life/categories/toss-about-blog/</loc>
       
       <lastmod>2022-03-16T01:08:48+08:00</lastmod>
       
@@ -2222,7 +2242,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn211/</loc>
+      <loc>http://wzj.life/2022/prn211/</loc>
       
       <lastmod>2022-03-15T22:43:39+08:00</lastmod>
       
@@ -2232,7 +2252,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn210/</loc>
+      <loc>http://wzj.life/2022/prn210/</loc>
       
       <lastmod>2022-03-15T12:38:10+08:00</lastmod>
       
@@ -2242,7 +2262,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg52/</loc>
+      <loc>http://wzj.life/2022/bg52/</loc>
       
       <lastmod>2022-03-14T22:17:12+08:00</lastmod>
       
@@ -2252,7 +2272,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn209/</loc>
+      <loc>http://wzj.life/2022/prn209/</loc>
       
       <lastmod>2022-03-09T14:44:48+08:00</lastmod>
       
@@ -2262,7 +2282,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn208/</loc>
+      <loc>http://wzj.life/2022/prn208/</loc>
       
       <lastmod>2022-03-08T21:27:52+08:00</lastmod>
       
@@ -2272,7 +2292,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/tiger/</loc>
+      <loc>http://wzj.life/tags/tiger/</loc>
       
       <lastmod>2022-03-08T21:27:52+08:00</lastmod>
       
@@ -2282,7 +2302,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn207/</loc>
+      <loc>http://wzj.life/2022/prn207/</loc>
       
       <lastmod>2022-03-08T16:14:16+08:00</lastmod>
       
@@ -2292,7 +2312,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/long-term/</loc>
+      <loc>http://wzj.life/tags/long-term/</loc>
       
       <lastmod>2022-03-08T16:14:16+08:00</lastmod>
       
@@ -2302,7 +2322,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn206/</loc>
+      <loc>http://wzj.life/2022/prn206/</loc>
       
       <lastmod>2022-03-07T23:17:29+08:00</lastmod>
       
@@ -2312,7 +2332,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn205/</loc>
+      <loc>http://wzj.life/2022/prn205/</loc>
       
       <lastmod>2022-03-07T17:40:03+08:00</lastmod>
       
@@ -2322,7 +2342,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pose/</loc>
+      <loc>http://wzj.life/tags/pose/</loc>
       
       <lastmod>2022-03-07T17:40:03+08:00</lastmod>
       
@@ -2332,7 +2352,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg51/</loc>
+      <loc>http://wzj.life/2022/bg51/</loc>
       
       <lastmod>2022-03-07T17:36:15+08:00</lastmod>
       
@@ -2342,7 +2362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn204/</loc>
+      <loc>http://wzj.life/2022/prn204/</loc>
       
       <lastmod>2022-03-06T12:56:17+08:00</lastmod>
       
@@ -2352,7 +2372,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn203/</loc>
+      <loc>http://wzj.life/2022/prn203/</loc>
       
       <lastmod>2022-03-05T22:07:29+08:00</lastmod>
       
@@ -2362,7 +2382,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn202/</loc>
+      <loc>http://wzj.life/2022/prn202/</loc>
       
       <lastmod>2022-03-05T18:20:12+08:00</lastmod>
       
@@ -2372,7 +2392,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn201/</loc>
+      <loc>http://wzj.life/2022/prn201/</loc>
       
       <lastmod>2022-03-05T15:49:19+08:00</lastmod>
       
@@ -2382,7 +2402,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn200/</loc>
+      <loc>http://wzj.life/2022/prn200/</loc>
       
       <lastmod>2022-03-04T18:14:15+08:00</lastmod>
       
@@ -2392,7 +2412,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn199/</loc>
+      <loc>http://wzj.life/2022/prn199/</loc>
       
       <lastmod>2022-03-04T17:06:38+08:00</lastmod>
       
@@ -2402,7 +2422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn198/</loc>
+      <loc>http://wzj.life/2022/prn198/</loc>
       
       <lastmod>2022-03-04T14:56:51+08:00</lastmod>
       
@@ -2412,7 +2432,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn197/</loc>
+      <loc>http://wzj.life/2022/prn197/</loc>
       
       <lastmod>2022-03-03T17:36:09+08:00</lastmod>
       
@@ -2422,7 +2442,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg50/</loc>
+      <loc>http://wzj.life/2022/bg50/</loc>
       
       <lastmod>2022-03-01T19:46:58+08:00</lastmod>
       
@@ -2432,7 +2452,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/archlinux/</loc>
+      <loc>http://wzj.life/tags/archlinux/</loc>
       
       <lastmod>2022-02-27T15:47:04+08:00</lastmod>
       
@@ -2442,7 +2462,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/better-life-with-linux/</loc>
+      <loc>http://wzj.life/categories/better-life-with-linux/</loc>
       
       <lastmod>2022-02-27T15:47:04+08:00</lastmod>
       
@@ -2452,7 +2472,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/blwl43/</loc>
+      <loc>http://wzj.life/2022/blwl43/</loc>
       
       <lastmod>2022-02-27T15:47:04+08:00</lastmod>
       
@@ -2462,7 +2482,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pacman/</loc>
+      <loc>http://wzj.life/tags/pacman/</loc>
       
       <lastmod>2022-02-27T15:47:04+08:00</lastmod>
       
@@ -2472,7 +2492,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn196/</loc>
+      <loc>http://wzj.life/2022/prn196/</loc>
       
       <lastmod>2022-02-24T23:10:29+08:00</lastmod>
       
@@ -2482,7 +2502,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/hashing/</loc>
+      <loc>http://wzj.life/tags/hashing/</loc>
       
       <lastmod>2022-02-24T23:10:29+08:00</lastmod>
       
@@ -2492,7 +2512,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/online-learning/</loc>
+      <loc>http://wzj.life/tags/online-learning/</loc>
       
       <lastmod>2022-02-24T23:10:29+08:00</lastmod>
       
@@ -2502,7 +2522,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn195/</loc>
+      <loc>http://wzj.life/2022/prn195/</loc>
       
       <lastmod>2022-02-22T10:05:27+08:00</lastmod>
       
@@ -2512,7 +2532,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn194/</loc>
+      <loc>http://wzj.life/2022/prn194/</loc>
       
       <lastmod>2022-02-21T12:55:36+08:00</lastmod>
       
@@ -2522,7 +2542,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg49/</loc>
+      <loc>http://wzj.life/2022/bg49/</loc>
       
       <lastmod>2022-02-21T12:50:07+08:00</lastmod>
       
@@ -2532,7 +2552,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn193/</loc>
+      <loc>http://wzj.life/2022/prn193/</loc>
       
       <lastmod>2022-02-19T21:06:23+08:00</lastmod>
       
@@ -2542,7 +2562,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/asr/</loc>
+      <loc>http://wzj.life/tags/asr/</loc>
       
       <lastmod>2022-02-19T21:06:23+08:00</lastmod>
       
@@ -2552,7 +2572,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/lifelong-learning/</loc>
+      <loc>http://wzj.life/tags/lifelong-learning/</loc>
       
       <lastmod>2022-02-19T21:06:23+08:00</lastmod>
       
@@ -2562,7 +2582,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn192/</loc>
+      <loc>http://wzj.life/2022/prn192/</loc>
       
       <lastmod>2022-02-19T16:12:55+08:00</lastmod>
       
@@ -2572,7 +2592,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn191/</loc>
+      <loc>http://wzj.life/2022/prn191/</loc>
       
       <lastmod>2022-02-16T22:09:12+08:00</lastmod>
       
@@ -2582,7 +2602,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn190/</loc>
+      <loc>http://wzj.life/2022/prn190/</loc>
       
       <lastmod>2022-02-15T15:53:03+08:00</lastmod>
       
@@ -2592,7 +2612,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn189/</loc>
+      <loc>http://wzj.life/2022/prn189/</loc>
       
       <lastmod>2022-02-15T13:35:16+08:00</lastmod>
       
@@ -2602,7 +2622,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/knowledge-distillation/</loc>
+      <loc>http://wzj.life/tags/knowledge-distillation/</loc>
       
       <lastmod>2022-02-15T13:35:16+08:00</lastmod>
       
@@ -2612,7 +2632,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg48/</loc>
+      <loc>http://wzj.life/2022/bg48/</loc>
       
       <lastmod>2022-02-14T23:24:37+08:00</lastmod>
       
@@ -2622,7 +2642,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn188/</loc>
+      <loc>http://wzj.life/2022/prn188/</loc>
       
       <lastmod>2022-02-13T20:25:22+08:00</lastmod>
       
@@ -2632,7 +2652,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn187/</loc>
+      <loc>http://wzj.life/2022/prn187/</loc>
       
       <lastmod>2022-02-13T15:51:47+08:00</lastmod>
       
@@ -2642,7 +2662,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn186/</loc>
+      <loc>http://wzj.life/2022/prn186/</loc>
       
       <lastmod>2022-02-12T18:05:22+08:00</lastmod>
       
@@ -2652,7 +2672,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn185/</loc>
+      <loc>http://wzj.life/2022/prn185/</loc>
       
       <lastmod>2022-02-11T15:51:42+08:00</lastmod>
       
@@ -2662,7 +2682,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/domain/</loc>
+      <loc>http://wzj.life/tags/domain/</loc>
       
       <lastmod>2022-02-11T15:51:42+08:00</lastmod>
       
@@ -2672,7 +2692,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn184/</loc>
+      <loc>http://wzj.life/2022/prn184/</loc>
       
       <lastmod>2022-02-10T13:47:34+08:00</lastmod>
       
@@ -2682,7 +2702,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg47/</loc>
+      <loc>http://wzj.life/2022/bg47/</loc>
       
       <lastmod>2022-02-08T17:40:44+08:00</lastmod>
       
@@ -2692,7 +2712,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn183/</loc>
+      <loc>http://wzj.life/2022/prn183/</loc>
       
       <lastmod>2022-02-06T18:08:02+08:00</lastmod>
       
@@ -2702,7 +2722,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/baggage/</loc>
+      <loc>http://wzj.life/tags/baggage/</loc>
       
       <lastmod>2022-02-06T18:08:02+08:00</lastmod>
       
@@ -2712,7 +2732,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn182/</loc>
+      <loc>http://wzj.life/2022/prn182/</loc>
       
       <lastmod>2022-02-04T16:55:12+08:00</lastmod>
       
@@ -2722,7 +2742,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/alchemy-of-cv/</loc>
+      <loc>http://wzj.life/categories/alchemy-of-cv/</loc>
       
       <lastmod>2022-02-03T15:48:26+08:00</lastmod>
       
@@ -2732,7 +2752,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/coding/</loc>
+      <loc>http://wzj.life/tags/coding/</loc>
       
       <lastmod>2022-02-03T15:48:26+08:00</lastmod>
       
@@ -2742,7 +2762,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/python/</loc>
+      <loc>http://wzj.life/tags/python/</loc>
       
       <lastmod>2022-02-03T15:48:26+08:00</lastmod>
       
@@ -2752,7 +2772,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pytorch/</loc>
+      <loc>http://wzj.life/tags/pytorch/</loc>
       
       <lastmod>2022-02-03T15:48:26+08:00</lastmod>
       
@@ -2762,7 +2782,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/resnet/</loc>
+      <loc>http://wzj.life/tags/resnet/</loc>
       
       <lastmod>2022-02-03T15:48:26+08:00</lastmod>
       
@@ -2772,7 +2792,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/ldp_pytorch_resnet_input/</loc>
+      <loc>http://wzj.life/2022/ldp_pytorch_resnet_input/</loc>
       
       <lastmod>2022-02-03T15:48:26+08:00</lastmod>
       
@@ -2782,7 +2802,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg46/</loc>
+      <loc>http://wzj.life/2022/bg46/</loc>
       
       <lastmod>2022-02-01T14:42:59+08:00</lastmod>
       
@@ -2792,7 +2812,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn181/</loc>
+      <loc>http://wzj.life/2022/prn181/</loc>
       
       <lastmod>2022-01-30T22:02:51+08:00</lastmod>
       
@@ -2802,7 +2822,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn180/</loc>
+      <loc>http://wzj.life/2022/prn180/</loc>
       
       <lastmod>2022-01-30T14:47:51+08:00</lastmod>
       
@@ -2812,7 +2832,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn179/</loc>
+      <loc>http://wzj.life/2022/prn179/</loc>
       
       <lastmod>2022-01-29T14:55:04+08:00</lastmod>
       
@@ -2822,7 +2842,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn178/</loc>
+      <loc>http://wzj.life/2022/prn178/</loc>
       
       <lastmod>2022-01-27T18:06:33+08:00</lastmod>
       
@@ -2832,7 +2852,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn177/</loc>
+      <loc>http://wzj.life/2022/prn177/</loc>
       
       <lastmod>2022-01-24T14:16:02+08:00</lastmod>
       
@@ -2842,7 +2862,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn176/</loc>
+      <loc>http://wzj.life/2022/prn176/</loc>
       
       <lastmod>2022-01-23T14:22:49+08:00</lastmod>
       
@@ -2852,7 +2872,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/regression/</loc>
+      <loc>http://wzj.life/tags/regression/</loc>
       
       <lastmod>2022-01-23T14:22:49+08:00</lastmod>
       
@@ -2862,7 +2882,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/self-supervised/</loc>
+      <loc>http://wzj.life/tags/self-supervised/</loc>
       
       <lastmod>2022-01-23T14:22:49+08:00</lastmod>
       
@@ -2872,7 +2892,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg45/</loc>
+      <loc>http://wzj.life/2022/bg45/</loc>
       
       <lastmod>2022-01-22T20:16:39+08:00</lastmod>
       
@@ -2882,7 +2902,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pooling/</loc>
+      <loc>http://wzj.life/tags/pooling/</loc>
       
       <lastmod>2022-01-21T23:21:35+08:00</lastmod>
       
@@ -2892,7 +2912,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/ldp_gempooling/</loc>
+      <loc>http://wzj.life/2022/ldp_gempooling/</loc>
       
       <lastmod>2022-01-21T23:21:35+08:00</lastmod>
       
@@ -2902,7 +2922,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn175/</loc>
+      <loc>http://wzj.life/2022/prn175/</loc>
       
       <lastmod>2022-01-21T14:49:33+08:00</lastmod>
       
@@ -2912,7 +2932,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn174/</loc>
+      <loc>http://wzj.life/2022/prn174/</loc>
       
       <lastmod>2022-01-20T17:48:10+08:00</lastmod>
       
@@ -2922,7 +2942,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn173/</loc>
+      <loc>http://wzj.life/2022/prn173/</loc>
       
       <lastmod>2022-01-18T14:44:53+08:00</lastmod>
       
@@ -2932,7 +2952,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn172/</loc>
+      <loc>http://wzj.life/2022/prn172/</loc>
       
       <lastmod>2022-01-16T20:46:29+08:00</lastmod>
       
@@ -2942,7 +2962,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg44/</loc>
+      <loc>http://wzj.life/2022/bg44/</loc>
       
       <lastmod>2022-01-15T20:40:12+08:00</lastmod>
       
@@ -2952,7 +2972,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn171/</loc>
+      <loc>http://wzj.life/2022/prn171/</loc>
       
       <lastmod>2022-01-14T16:38:07+08:00</lastmod>
       
@@ -2962,7 +2982,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn170/</loc>
+      <loc>http://wzj.life/2022/prn170/</loc>
       
       <lastmod>2022-01-13T14:33:04+08:00</lastmod>
       
@@ -2972,7 +2992,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn169/</loc>
+      <loc>http://wzj.life/2022/prn169/</loc>
       
       <lastmod>2022-01-13T13:21:37+08:00</lastmod>
       
@@ -2982,7 +3002,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn168/</loc>
+      <loc>http://wzj.life/2022/prn168/</loc>
       
       <lastmod>2022-01-12T21:10:36+08:00</lastmod>
       
@@ -2992,7 +3012,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn167/</loc>
+      <loc>http://wzj.life/2022/prn167/</loc>
       
       <lastmod>2022-01-12T15:46:39+08:00</lastmod>
       
@@ -3002,7 +3022,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn166/</loc>
+      <loc>http://wzj.life/2022/prn166/</loc>
       
       <lastmod>2022-01-12T15:12:41+08:00</lastmod>
       
@@ -3012,7 +3032,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn165/</loc>
+      <loc>http://wzj.life/2022/prn165/</loc>
       
       <lastmod>2022-01-12T14:20:52+08:00</lastmod>
       
@@ -3022,7 +3042,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn164/</loc>
+      <loc>http://wzj.life/2022/prn164/</loc>
       
       <lastmod>2022-01-11T13:17:12+08:00</lastmod>
       
@@ -3032,7 +3052,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn163/</loc>
+      <loc>http://wzj.life/2022/prn163/</loc>
       
       <lastmod>2022-01-10T12:09:02+08:00</lastmod>
       
@@ -3042,7 +3062,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn162/</loc>
+      <loc>http://wzj.life/2022/prn162/</loc>
       
       <lastmod>2022-01-08T14:00:13+08:00</lastmod>
       
@@ -3052,7 +3072,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn161/</loc>
+      <loc>http://wzj.life/2022/prn161/</loc>
       
       <lastmod>2022-01-08T13:10:56+08:00</lastmod>
       
@@ -3062,7 +3082,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn160/</loc>
+      <loc>http://wzj.life/2022/prn160/</loc>
       
       <lastmod>2022-01-07T20:57:18+08:00</lastmod>
       
@@ -3072,7 +3092,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn159/</loc>
+      <loc>http://wzj.life/2022/prn159/</loc>
       
       <lastmod>2022-01-07T16:16:34+08:00</lastmod>
       
@@ -3082,7 +3102,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn158/</loc>
+      <loc>http://wzj.life/2022/prn158/</loc>
       
       <lastmod>2022-01-07T13:18:28+08:00</lastmod>
       
@@ -3092,7 +3112,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg43/</loc>
+      <loc>http://wzj.life/2022/bg43/</loc>
       
       <lastmod>2022-01-07T11:03:01+08:00</lastmod>
       
@@ -3102,7 +3122,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn157/</loc>
+      <loc>http://wzj.life/2022/prn157/</loc>
       
       <lastmod>2022-01-06T14:04:53+08:00</lastmod>
       
@@ -3112,7 +3132,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn156/</loc>
+      <loc>http://wzj.life/2022/prn156/</loc>
       
       <lastmod>2022-01-05T14:24:59+08:00</lastmod>
       
@@ -3122,7 +3142,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn155/</loc>
+      <loc>http://wzj.life/2022/prn155/</loc>
       
       <lastmod>2022-01-04T10:58:10+08:00</lastmod>
       
@@ -3132,7 +3152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn154/</loc>
+      <loc>http://wzj.life/2022/prn154/</loc>
       
       <lastmod>2022-01-03T20:17:42+08:00</lastmod>
       
@@ -3142,7 +3162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn153/</loc>
+      <loc>http://wzj.life/2022/prn153/</loc>
       
       <lastmod>2022-01-02T15:11:12+08:00</lastmod>
       
@@ -3152,7 +3172,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn152/</loc>
+      <loc>http://wzj.life/2022/prn152/</loc>
       
       <lastmod>2022-01-02T14:10:05+08:00</lastmod>
       
@@ -3162,7 +3182,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/prn151/</loc>
+      <loc>http://wzj.life/2022/prn151/</loc>
       
       <lastmod>2022-01-01T14:25:05+08:00</lastmod>
       
@@ -3172,7 +3192,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2022/bg42/</loc>
+      <loc>http://wzj.life/2022/bg42/</loc>
       
       <lastmod>2022-01-01T13:17:08+08:00</lastmod>
       
@@ -3182,7 +3202,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn150/</loc>
+      <loc>http://wzj.life/2021/prn150/</loc>
       
       <lastmod>2021-12-29T15:30:46+08:00</lastmod>
       
@@ -3192,7 +3212,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/vehicle/</loc>
+      <loc>http://wzj.life/tags/vehicle/</loc>
       
       <lastmod>2021-12-29T15:30:46+08:00</lastmod>
       
@@ -3202,7 +3222,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn149/</loc>
+      <loc>http://wzj.life/2021/prn149/</loc>
       
       <lastmod>2021-12-29T15:05:23+08:00</lastmod>
       
@@ -3212,7 +3232,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn148/</loc>
+      <loc>http://wzj.life/2021/prn148/</loc>
       
       <lastmod>2021-12-29T12:48:11+08:00</lastmod>
       
@@ -3222,7 +3242,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn147/</loc>
+      <loc>http://wzj.life/2021/prn147/</loc>
       
       <lastmod>2021-12-29T12:06:15+08:00</lastmod>
       
@@ -3232,7 +3252,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn146/</loc>
+      <loc>http://wzj.life/2021/prn146/</loc>
       
       <lastmod>2021-12-28T13:14:24+08:00</lastmod>
       
@@ -3242,7 +3262,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/occuluded/</loc>
+      <loc>http://wzj.life/tags/occuluded/</loc>
       
       <lastmod>2021-12-28T13:14:24+08:00</lastmod>
       
@@ -3252,7 +3272,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn145/</loc>
+      <loc>http://wzj.life/2021/prn145/</loc>
       
       <lastmod>2021-12-28T10:56:11+08:00</lastmod>
       
@@ -3262,7 +3282,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn144/</loc>
+      <loc>http://wzj.life/2021/prn144/</loc>
       
       <lastmod>2021-12-27T17:59:41+08:00</lastmod>
       
@@ -3272,7 +3292,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/visual-dialog/</loc>
+      <loc>http://wzj.life/tags/visual-dialog/</loc>
       
       <lastmod>2021-12-27T17:59:41+08:00</lastmod>
       
@@ -3282,7 +3302,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn143/</loc>
+      <loc>http://wzj.life/2021/prn143/</loc>
       
       <lastmod>2021-12-26T15:06:04+08:00</lastmod>
       
@@ -3292,7 +3312,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn142/</loc>
+      <loc>http://wzj.life/2021/prn142/</loc>
       
       <lastmod>2021-12-25T16:05:09+08:00</lastmod>
       
@@ -3302,7 +3322,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn141/</loc>
+      <loc>http://wzj.life/2021/prn141/</loc>
       
       <lastmod>2021-12-25T14:59:38+08:00</lastmod>
       
@@ -3312,7 +3332,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn140/</loc>
+      <loc>http://wzj.life/2021/prn140/</loc>
       
       <lastmod>2021-12-25T14:15:45+08:00</lastmod>
       
@@ -3322,7 +3342,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn139/</loc>
+      <loc>http://wzj.life/2021/prn139/</loc>
       
       <lastmod>2021-12-24T18:43:24+08:00</lastmod>
       
@@ -3332,7 +3352,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg41/</loc>
+      <loc>http://wzj.life/2021/bg41/</loc>
       
       <lastmod>2021-12-23T20:27:10+08:00</lastmod>
       
@@ -3342,7 +3362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/plt/</loc>
+      <loc>http://wzj.life/tags/plt/</loc>
       
       <lastmod>2021-12-22T17:01:28+08:00</lastmod>
       
@@ -3352,7 +3372,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</loc>
+      <loc>http://wzj.life/2021/ldp_plt_savefig_nowhite/</loc>
       
       <lastmod>2021-12-22T17:01:28+08:00</lastmod>
       
@@ -3362,7 +3382,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn138/</loc>
+      <loc>http://wzj.life/2021/prn138/</loc>
       
       <lastmod>2021-12-20T17:26:20+08:00</lastmod>
       
@@ -3372,7 +3392,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn137/</loc>
+      <loc>http://wzj.life/2021/prn137/</loc>
       
       <lastmod>2021-12-20T16:40:23+08:00</lastmod>
       
@@ -3382,7 +3402,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn136/</loc>
+      <loc>http://wzj.life/2021/prn136/</loc>
       
       <lastmod>2021-12-20T15:56:20+08:00</lastmod>
       
@@ -3392,7 +3412,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg40/</loc>
+      <loc>http://wzj.life/2021/bg40/</loc>
       
       <lastmod>2021-12-15T12:43:08+08:00</lastmod>
       
@@ -3402,7 +3422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_got3and1/</loc>
+      <loc>http://wzj.life/2021/ldp_got3and1/</loc>
       
       <lastmod>2021-12-13T17:34:51+08:00</lastmod>
       
@@ -3412,7 +3432,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/cuda/</loc>
+      <loc>http://wzj.life/tags/cuda/</loc>
       
       <lastmod>2021-12-12T17:35:03+08:00</lastmod>
       
@@ -3422,7 +3442,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_loss_grad/</loc>
+      <loc>http://wzj.life/2021/ldp_loss_grad/</loc>
       
       <lastmod>2021-12-12T17:35:03+08:00</lastmod>
       
@@ -3432,7 +3452,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_resizebox/</loc>
+      <loc>http://wzj.life/2021/latex_resizebox/</loc>
       
       <lastmod>2021-12-09T12:01:57+08:00</lastmod>
       
@@ -3442,7 +3462,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn135/</loc>
+      <loc>http://wzj.life/2021/prn135/</loc>
       
       <lastmod>2021-12-07T12:32:26+08:00</lastmod>
       
@@ -3452,7 +3472,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/mutual-learning/</loc>
+      <loc>http://wzj.life/tags/mutual-learning/</loc>
       
       <lastmod>2021-12-07T12:32:26+08:00</lastmod>
       
@@ -3462,7 +3482,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg39/</loc>
+      <loc>http://wzj.life/2021/bg39/</loc>
       
       <lastmod>2021-12-05T20:33:36+08:00</lastmod>
       
@@ -3472,7 +3492,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn134/</loc>
+      <loc>http://wzj.life/2021/prn134/</loc>
       
       <lastmod>2021-12-02T21:15:17+08:00</lastmod>
       
@@ -3482,7 +3502,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/cnn/</loc>
+      <loc>http://wzj.life/tags/cnn/</loc>
       
       <lastmod>2021-12-02T21:15:17+08:00</lastmod>
       
@@ -3492,7 +3512,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/transformer/</loc>
+      <loc>http://wzj.life/tags/transformer/</loc>
       
       <lastmod>2021-12-02T21:15:17+08:00</lastmod>
       
@@ -3502,7 +3522,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn133/</loc>
+      <loc>http://wzj.life/2021/prn133/</loc>
       
       <lastmod>2021-12-02T20:43:49+08:00</lastmod>
       
@@ -3512,7 +3532,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn132/</loc>
+      <loc>http://wzj.life/2021/prn132/</loc>
       
       <lastmod>2021-12-01T10:57:35+08:00</lastmod>
       
@@ -3522,7 +3542,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn131/</loc>
+      <loc>http://wzj.life/2021/prn131/</loc>
       
       <lastmod>2021-11-30T11:50:29+08:00</lastmod>
       
@@ -3532,7 +3552,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn130/</loc>
+      <loc>http://wzj.life/2021/prn130/</loc>
       
       <lastmod>2021-11-29T13:39:17+08:00</lastmod>
       
@@ -3542,7 +3562,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/adversarial/</loc>
+      <loc>http://wzj.life/tags/adversarial/</loc>
       
       <lastmod>2021-11-29T13:39:17+08:00</lastmod>
       
@@ -3552,7 +3572,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/adversarial-samples/</loc>
+      <loc>http://wzj.life/tags/adversarial-samples/</loc>
       
       <lastmod>2021-11-29T13:39:17+08:00</lastmod>
       
@@ -3562,7 +3582,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn129/</loc>
+      <loc>http://wzj.life/2021/prn129/</loc>
       
       <lastmod>2021-11-29T11:06:53+08:00</lastmod>
       
@@ -3572,7 +3592,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn128/</loc>
+      <loc>http://wzj.life/2021/prn128/</loc>
       
       <lastmod>2021-11-28T19:56:39+08:00</lastmod>
       
@@ -3582,7 +3602,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg38/</loc>
+      <loc>http://wzj.life/2021/bg38/</loc>
       
       <lastmod>2021-11-28T16:54:18+08:00</lastmod>
       
@@ -3592,7 +3612,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn127/</loc>
+      <loc>http://wzj.life/2021/prn127/</loc>
       
       <lastmod>2021-11-27T13:37:53+08:00</lastmod>
       
@@ -3602,7 +3622,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn126/</loc>
+      <loc>http://wzj.life/2021/prn126/</loc>
       
       <lastmod>2021-11-26T16:19:18+08:00</lastmod>
       
@@ -3612,7 +3632,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn125/</loc>
+      <loc>http://wzj.life/2021/prn125/</loc>
       
       <lastmod>2021-11-26T15:23:07+08:00</lastmod>
       
@@ -3622,7 +3642,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn124/</loc>
+      <loc>http://wzj.life/2021/prn124/</loc>
       
       <lastmod>2021-11-26T13:08:31+08:00</lastmod>
       
@@ -3632,7 +3652,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn123/</loc>
+      <loc>http://wzj.life/2021/prn123/</loc>
       
       <lastmod>2021-11-25T10:10:27+08:00</lastmod>
       
@@ -3642,7 +3662,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn122/</loc>
+      <loc>http://wzj.life/2021/prn122/</loc>
       
       <lastmod>2021-11-24T12:41:55+08:00</lastmod>
       
@@ -3652,7 +3672,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn121/</loc>
+      <loc>http://wzj.life/2021/prn121/</loc>
       
       <lastmod>2021-11-23T14:29:09+08:00</lastmod>
       
@@ -3662,7 +3682,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn120/</loc>
+      <loc>http://wzj.life/2021/prn120/</loc>
       
       <lastmod>2021-11-22T15:13:24+08:00</lastmod>
       
@@ -3672,7 +3692,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg37/</loc>
+      <loc>http://wzj.life/2021/bg37/</loc>
       
       <lastmod>2021-11-21T10:15:42+08:00</lastmod>
       
@@ -3682,7 +3702,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn119/</loc>
+      <loc>http://wzj.life/2021/prn119/</loc>
       
       <lastmod>2021-11-20T17:40:34+08:00</lastmod>
       
@@ -3692,7 +3712,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn118/</loc>
+      <loc>http://wzj.life/2021/prn118/</loc>
       
       <lastmod>2021-11-19T16:42:59+08:00</lastmod>
       
@@ -3702,7 +3722,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn117/</loc>
+      <loc>http://wzj.life/2021/prn117/</loc>
       
       <lastmod>2021-11-18T09:42:55+08:00</lastmod>
       
@@ -3712,7 +3732,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/nas/</loc>
+      <loc>http://wzj.life/tags/nas/</loc>
       
       <lastmod>2021-11-18T09:42:55+08:00</lastmod>
       
@@ -3722,7 +3742,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn116/</loc>
+      <loc>http://wzj.life/2021/prn116/</loc>
       
       <lastmod>2021-11-17T20:40:52+08:00</lastmod>
       
@@ -3732,7 +3752,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg36/</loc>
+      <loc>http://wzj.life/2021/bg36/</loc>
       
       <lastmod>2021-11-16T10:09:55+08:00</lastmod>
       
@@ -3742,7 +3762,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn115/</loc>
+      <loc>http://wzj.life/2021/prn115/</loc>
       
       <lastmod>2021-11-15T11:06:37+08:00</lastmod>
       
@@ -3752,7 +3772,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_cline/</loc>
+      <loc>http://wzj.life/2021/latex_cline/</loc>
       
       <lastmod>2021-11-13T14:47:13+08:00</lastmod>
       
@@ -3762,7 +3782,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn114/</loc>
+      <loc>http://wzj.life/2021/prn114/</loc>
       
       <lastmod>2021-11-11T20:39:25+08:00</lastmod>
       
@@ -3772,7 +3792,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn113/</loc>
+      <loc>http://wzj.life/2021/prn113/</loc>
       
       <lastmod>2021-11-10T19:27:01+08:00</lastmod>
       
@@ -3782,7 +3802,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn112/</loc>
+      <loc>http://wzj.life/2021/prn112/</loc>
       
       <lastmod>2021-11-09T09:03:20+08:00</lastmod>
       
@@ -3792,7 +3812,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn111/</loc>
+      <loc>http://wzj.life/2021/prn111/</loc>
       
       <lastmod>2021-11-08T12:14:22+08:00</lastmod>
       
@@ -3802,7 +3822,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg35/</loc>
+      <loc>http://wzj.life/2021/bg35/</loc>
       
       <lastmod>2021-11-07T20:31:52+08:00</lastmod>
       
@@ -3812,7 +3832,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn110/</loc>
+      <loc>http://wzj.life/2021/prn110/</loc>
       
       <lastmod>2021-11-04T11:07:28+08:00</lastmod>
       
@@ -3822,7 +3842,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn109/</loc>
+      <loc>http://wzj.life/2021/prn109/</loc>
       
       <lastmod>2021-11-02T19:54:04+08:00</lastmod>
       
@@ -3832,7 +3852,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg34/</loc>
+      <loc>http://wzj.life/2021/bg34/</loc>
       
       <lastmod>2021-11-01T20:53:26+08:00</lastmod>
       
@@ -3842,7 +3862,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn108/</loc>
+      <loc>http://wzj.life/2021/prn108/</loc>
       
       <lastmod>2021-10-31T17:14:50+08:00</lastmod>
       
@@ -3852,7 +3872,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/occluded/</loc>
+      <loc>http://wzj.life/tags/occluded/</loc>
       
       <lastmod>2021-10-31T17:14:50+08:00</lastmod>
       
@@ -3862,7 +3882,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn107/</loc>
+      <loc>http://wzj.life/2021/prn107/</loc>
       
       <lastmod>2021-10-29T14:34:34+08:00</lastmod>
       
@@ -3872,7 +3892,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_rotatebox/</loc>
+      <loc>http://wzj.life/2021/latex_rotatebox/</loc>
       
       <lastmod>2021-10-28T12:34:42+08:00</lastmod>
       
@@ -3882,7 +3902,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn106/</loc>
+      <loc>http://wzj.life/2021/prn106/</loc>
       
       <lastmod>2021-10-26T22:45:19+08:00</lastmod>
       
@@ -3892,7 +3912,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg33/</loc>
+      <loc>http://wzj.life/2021/bg33/</loc>
       
       <lastmod>2021-10-17T21:58:31+08:00</lastmod>
       
@@ -3902,7 +3922,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn105/</loc>
+      <loc>http://wzj.life/2021/prn105/</loc>
       
       <lastmod>2021-10-15T16:42:40+08:00</lastmod>
       
@@ -3912,7 +3932,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</loc>
+      <loc>http://wzj.life/2021/ldp_invalid_device_ordinal/</loc>
       
       <lastmod>2021-10-13T23:06:19+08:00</lastmod>
       
@@ -3922,7 +3942,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/matrix/</loc>
+      <loc>http://wzj.life/tags/matrix/</loc>
       
       <lastmod>2021-10-12T19:13:06+08:00</lastmod>
       
@@ -3932,7 +3952,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</loc>
+      <loc>http://wzj.life/2021/ldp_pytorch_diag/</loc>
       
       <lastmod>2021-10-12T19:13:06+08:00</lastmod>
       
@@ -3942,7 +3962,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg32/</loc>
+      <loc>http://wzj.life/2021/bg32/</loc>
       
       <lastmod>2021-10-01T21:53:20+08:00</lastmod>
       
@@ -3952,7 +3972,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pickle/</loc>
+      <loc>http://wzj.life/tags/pickle/</loc>
       
       <lastmod>2021-09-26T21:00:54+08:00</lastmod>
       
@@ -3962,7 +3982,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/protocol/</loc>
+      <loc>http://wzj.life/tags/protocol/</loc>
       
       <lastmod>2021-09-26T21:00:54+08:00</lastmod>
       
@@ -3972,7 +3992,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/windows/</loc>
+      <loc>http://wzj.life/tags/windows/</loc>
       
       <lastmod>2021-09-26T21:00:54+08:00</lastmod>
       
@@ -3982,7 +4002,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/</loc>
+      <loc>http://wzj.life/2021/ldp_pickle_protocol_5/</loc>
       
       <lastmod>2021-09-26T21:00:54+08:00</lastmod>
       
@@ -3992,7 +4012,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn104/</loc>
+      <loc>http://wzj.life/2021/prn104/</loc>
       
       <lastmod>2021-09-26T17:07:17+08:00</lastmod>
       
@@ -4002,7 +4022,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/normalization/</loc>
+      <loc>http://wzj.life/tags/normalization/</loc>
       
       <lastmod>2021-09-26T17:07:17+08:00</lastmod>
       
@@ -4012,7 +4032,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/style-transfer/</loc>
+      <loc>http://wzj.life/tags/style-transfer/</loc>
       
       <lastmod>2021-09-26T17:07:17+08:00</lastmod>
       
@@ -4022,7 +4042,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn103/</loc>
+      <loc>http://wzj.life/2021/prn103/</loc>
       
       <lastmod>2021-09-25T15:30:28+08:00</lastmod>
       
@@ -4032,7 +4052,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn102/</loc>
+      <loc>http://wzj.life/2021/prn102/</loc>
       
       <lastmod>2021-09-24T22:10:19+08:00</lastmod>
       
@@ -4042,7 +4062,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn101/</loc>
+      <loc>http://wzj.life/2021/prn101/</loc>
       
       <lastmod>2021-09-24T19:53:50+08:00</lastmod>
       
@@ -4052,7 +4072,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn100/</loc>
+      <loc>http://wzj.life/2021/prn100/</loc>
       
       <lastmod>2021-09-23T16:48:51+08:00</lastmod>
       
@@ -4062,7 +4082,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn99/</loc>
+      <loc>http://wzj.life/2021/prn99/</loc>
       
       <lastmod>2021-09-22T13:14:16+08:00</lastmod>
       
@@ -4072,7 +4092,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/image-captioning/</loc>
+      <loc>http://wzj.life/tags/image-captioning/</loc>
       
       <lastmod>2021-09-22T13:14:16+08:00</lastmod>
       
@@ -4082,7 +4102,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</loc>
+      <loc>http://wzj.life/2021/ldp_torch_notimplementederror/</loc>
       
       <lastmod>2021-09-21T23:36:45+08:00</lastmod>
       
@@ -4092,7 +4112,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn98/</loc>
+      <loc>http://wzj.life/2021/prn98/</loc>
       
       <lastmod>2021-09-16T15:23:30+08:00</lastmod>
       
@@ -4102,7 +4122,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/manifold/</loc>
+      <loc>http://wzj.life/tags/manifold/</loc>
       
       <lastmod>2021-09-16T15:23:30+08:00</lastmod>
       
@@ -4112,7 +4132,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg31/</loc>
+      <loc>http://wzj.life/2021/bg31/</loc>
       
       <lastmod>2021-09-15T19:28:32+08:00</lastmod>
       
@@ -4122,7 +4142,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn97/</loc>
+      <loc>http://wzj.life/2021/prn97/</loc>
       
       <lastmod>2021-09-13T13:18:31+08:00</lastmod>
       
@@ -4132,7 +4152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pip/</loc>
+      <loc>http://wzj.life/tags/pip/</loc>
       
       <lastmod>2021-09-12T20:39:13+08:00</lastmod>
       
@@ -4142,7 +4162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/python2/</loc>
+      <loc>http://wzj.life/tags/python2/</loc>
       
       <lastmod>2021-09-12T20:39:13+08:00</lastmod>
       
@@ -4152,7 +4172,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/tensorflow/</loc>
+      <loc>http://wzj.life/tags/tensorflow/</loc>
       
       <lastmod>2021-09-12T20:39:13+08:00</lastmod>
       
@@ -4162,7 +4182,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_py2_win_tf/</loc>
+      <loc>http://wzj.life/2021/ldp_py2_win_tf/</loc>
       
       <lastmod>2021-09-12T20:39:13+08:00</lastmod>
       
@@ -4172,7 +4192,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/grpcio/</loc>
+      <loc>http://wzj.life/tags/grpcio/</loc>
       
       <lastmod>2021-09-12T20:25:22+08:00</lastmod>
       
@@ -4182,7 +4202,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_py2_grpcio/</loc>
+      <loc>http://wzj.life/2021/ldp_py2_grpcio/</loc>
       
       <lastmod>2021-09-12T20:25:22+08:00</lastmod>
       
@@ -4192,7 +4212,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/opendr/</loc>
+      <loc>http://wzj.life/tags/opendr/</loc>
       
       <lastmod>2021-09-12T15:35:04+08:00</lastmod>
       
@@ -4202,7 +4222,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_win_opendr/</loc>
+      <loc>http://wzj.life/2021/ldp_win_opendr/</loc>
       
       <lastmod>2021-09-12T15:35:04+08:00</lastmod>
       
@@ -4212,7 +4232,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/opencv/</loc>
+      <loc>http://wzj.life/tags/opencv/</loc>
       
       <lastmod>2021-09-11T21:46:05+08:00</lastmod>
       
@@ -4222,7 +4242,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</loc>
+      <loc>http://wzj.life/2021/ldp_python2_opencv/</loc>
       
       <lastmod>2021-09-11T21:46:05+08:00</lastmod>
       
@@ -4232,7 +4252,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn96/</loc>
+      <loc>http://wzj.life/2021/prn96/</loc>
       
       <lastmod>2021-09-11T14:44:37+08:00</lastmod>
       
@@ -4242,7 +4262,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn95/</loc>
+      <loc>http://wzj.life/2021/prn95/</loc>
       
       <lastmod>2021-09-10T13:22:48+08:00</lastmod>
       
@@ -4252,7 +4272,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn94/</loc>
+      <loc>http://wzj.life/2021/prn94/</loc>
       
       <lastmod>2021-09-09T22:52:53+08:00</lastmod>
       
@@ -4262,7 +4282,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn93/</loc>
+      <loc>http://wzj.life/2021/prn93/</loc>
       
       <lastmod>2021-09-09T21:42:02+08:00</lastmod>
       
@@ -4272,7 +4292,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn92/</loc>
+      <loc>http://wzj.life/2021/prn92/</loc>
       
       <lastmod>2021-09-09T13:11:23+08:00</lastmod>
       
@@ -4282,7 +4302,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/graph/</loc>
+      <loc>http://wzj.life/tags/graph/</loc>
       
       <lastmod>2021-09-09T13:11:23+08:00</lastmod>
       
@@ -4292,7 +4312,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn91/</loc>
+      <loc>http://wzj.life/2021/prn91/</loc>
       
       <lastmod>2021-09-08T19:36:34+08:00</lastmod>
       
@@ -4302,7 +4322,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn90/</loc>
+      <loc>http://wzj.life/2021/prn90/</loc>
       
       <lastmod>2021-09-07T14:45:21+08:00</lastmod>
       
@@ -4312,7 +4332,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/ieee/</loc>
+      <loc>http://wzj.life/tags/ieee/</loc>
       
       <lastmod>2021-09-04T00:21:40+08:00</lastmod>
       
@@ -4322,7 +4342,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/sharp5/</loc>
+      <loc>http://wzj.life/2021/sharp5/</loc>
       
       <lastmod>2021-09-04T00:21:40+08:00</lastmod>
       
@@ -4332,7 +4352,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/sharp-tools/</loc>
+      <loc>http://wzj.life/categories/sharp-tools/</loc>
       
       <lastmod>2021-09-04T00:21:40+08:00</lastmod>
       
@@ -4342,7 +4362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/tools/</loc>
+      <loc>http://wzj.life/tags/tools/</loc>
       
       <lastmod>2021-09-04T00:21:40+08:00</lastmod>
       
@@ -4352,7 +4372,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/blwl42/</loc>
+      <loc>http://wzj.life/2021/blwl42/</loc>
       
       <lastmod>2021-09-03T15:05:14+08:00</lastmod>
       
@@ -4362,7 +4382,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn89/</loc>
+      <loc>http://wzj.life/2021/prn89/</loc>
       
       <lastmod>2021-09-02T21:44:32+08:00</lastmod>
       
@@ -4372,7 +4392,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn88/</loc>
+      <loc>http://wzj.life/2021/prn88/</loc>
       
       <lastmod>2021-09-02T12:29:35+08:00</lastmod>
       
@@ -4382,7 +4402,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg30/</loc>
+      <loc>http://wzj.life/2021/bg30/</loc>
       
       <lastmod>2021-08-31T11:53:48+08:00</lastmod>
       
@@ -4392,7 +4412,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn87/</loc>
+      <loc>http://wzj.life/2021/prn87/</loc>
       
       <lastmod>2021-08-30T11:13:40+08:00</lastmod>
       
@@ -4402,7 +4422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/image/</loc>
+      <loc>http://wzj.life/tags/image/</loc>
       
       <lastmod>2021-08-30T11:13:40+08:00</lastmod>
       
@@ -4412,7 +4432,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn86/</loc>
+      <loc>http://wzj.life/2021/prn86/</loc>
       
       <lastmod>2021-08-29T14:30:30+08:00</lastmod>
       
@@ -4422,7 +4442,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn85/</loc>
+      <loc>http://wzj.life/2021/prn85/</loc>
       
       <lastmod>2021-08-27T13:40:16+08:00</lastmod>
       
@@ -4432,7 +4452,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn84/</loc>
+      <loc>http://wzj.life/2021/prn84/</loc>
       
       <lastmod>2021-08-26T20:50:08+08:00</lastmod>
       
@@ -4442,7 +4462,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn83/</loc>
+      <loc>http://wzj.life/2021/prn83/</loc>
       
       <lastmod>2021-08-26T12:55:43+08:00</lastmod>
       
@@ -4452,7 +4472,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/hubness/</loc>
+      <loc>http://wzj.life/tags/hubness/</loc>
       
       <lastmod>2021-08-26T12:55:43+08:00</lastmod>
       
@@ -4462,7 +4482,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp_hubness_problem/</loc>
+      <loc>http://wzj.life/2021/ldp_hubness_problem/</loc>
       
       <lastmod>2021-08-25T18:08:27+08:00</lastmod>
       
@@ -4472,7 +4492,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_longtable/</loc>
+      <loc>http://wzj.life/2021/latex_longtable/</loc>
       
       <lastmod>2021-08-25T12:41:56+08:00</lastmod>
       
@@ -4482,7 +4502,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/longtable/</loc>
+      <loc>http://wzj.life/tags/longtable/</loc>
       
       <lastmod>2021-08-25T12:41:56+08:00</lastmod>
       
@@ -4492,7 +4512,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_newlbel/</loc>
+      <loc>http://wzj.life/2021/latex_newlbel/</loc>
       
       <lastmod>2021-08-25T12:23:59+08:00</lastmod>
       
@@ -4502,7 +4522,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/sharp4/</loc>
+      <loc>http://wzj.life/2021/sharp4/</loc>
       
       <lastmod>2021-08-24T23:02:01+08:00</lastmod>
       
@@ -4512,7 +4532,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg29/</loc>
+      <loc>http://wzj.life/2021/bg29/</loc>
       
       <lastmod>2021-08-24T21:41:47+08:00</lastmod>
       
@@ -4522,7 +4542,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn82/</loc>
+      <loc>http://wzj.life/2021/prn82/</loc>
       
       <lastmod>2021-08-23T14:43:44+08:00</lastmod>
       
@@ -4532,7 +4552,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/probability/</loc>
+      <loc>http://wzj.life/tags/probability/</loc>
       
       <lastmod>2021-08-23T14:43:44+08:00</lastmod>
       
@@ -4542,7 +4562,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn81/</loc>
+      <loc>http://wzj.life/2021/prn81/</loc>
       
       <lastmod>2021-08-19T11:43:18+08:00</lastmod>
       
@@ -4552,7 +4572,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/backup/</loc>
+      <loc>http://wzj.life/tags/backup/</loc>
       
       <lastmod>2021-08-18T14:36:27+08:00</lastmod>
       
@@ -4562,7 +4582,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/blwl41/</loc>
+      <loc>http://wzj.life/2021/blwl41/</loc>
       
       <lastmod>2021-08-18T14:36:27+08:00</lastmod>
       
@@ -4572,7 +4592,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/tar/</loc>
+      <loc>http://wzj.life/tags/tar/</loc>
       
       <lastmod>2021-08-18T14:36:27+08:00</lastmod>
       
@@ -4582,7 +4602,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_booktabs/</loc>
+      <loc>http://wzj.life/2021/latex_booktabs/</loc>
       
       <lastmod>2021-08-17T20:24:16+08:00</lastmod>
       
@@ -4592,7 +4612,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn80/</loc>
+      <loc>http://wzj.life/2021/prn80/</loc>
       
       <lastmod>2021-08-17T15:53:21+08:00</lastmod>
       
@@ -4602,7 +4622,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/gcn/</loc>
+      <loc>http://wzj.life/tags/gcn/</loc>
       
       <lastmod>2021-08-17T15:53:21+08:00</lastmod>
       
@@ -4612,7 +4632,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/fft/</loc>
+      <loc>http://wzj.life/tags/fft/</loc>
       
       <lastmod>2021-08-16T17:57:11+08:00</lastmod>
       
@@ -4622,7 +4642,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/numpy/</loc>
+      <loc>http://wzj.life/tags/numpy/</loc>
       
       <lastmod>2021-08-16T17:57:11+08:00</lastmod>
       
@@ -4632,7 +4652,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/fft-ap/</loc>
+      <loc>http://wzj.life/2021/fft-ap/</loc>
       
       <lastmod>2021-08-16T17:57:11+08:00</lastmod>
       
@@ -4642,7 +4662,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn79/</loc>
+      <loc>http://wzj.life/2021/prn79/</loc>
       
       <lastmod>2021-08-16T16:19:12+08:00</lastmod>
       
@@ -4652,7 +4672,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn78/</loc>
+      <loc>http://wzj.life/2021/prn78/</loc>
       
       <lastmod>2021-08-15T12:28:20+08:00</lastmod>
       
@@ -4662,7 +4682,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg28/</loc>
+      <loc>http://wzj.life/2021/bg28/</loc>
       
       <lastmod>2021-08-14T23:45:18+08:00</lastmod>
       
@@ -4672,7 +4692,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn77/</loc>
+      <loc>http://wzj.life/2021/prn77/</loc>
       
       <lastmod>2021-08-12T16:00:40+08:00</lastmod>
       
@@ -4682,7 +4702,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn76/</loc>
+      <loc>http://wzj.life/2021/prn76/</loc>
       
       <lastmod>2021-08-11T15:46:56+08:00</lastmod>
       
@@ -4692,7 +4712,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn75/</loc>
+      <loc>http://wzj.life/2021/prn75/</loc>
       
       <lastmod>2021-08-10T11:12:17+08:00</lastmod>
       
@@ -4702,7 +4722,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn74/</loc>
+      <loc>http://wzj.life/2021/prn74/</loc>
       
       <lastmod>2021-08-09T12:11:40+08:00</lastmod>
       
@@ -4712,7 +4732,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn73/</loc>
+      <loc>http://wzj.life/2021/prn73/</loc>
       
       <lastmod>2021-08-08T20:31:27+08:00</lastmod>
       
@@ -4722,7 +4742,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn72/</loc>
+      <loc>http://wzj.life/2021/prn72/</loc>
       
       <lastmod>2021-08-06T14:50:11+08:00</lastmod>
       
@@ -4732,7 +4752,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn71/</loc>
+      <loc>http://wzj.life/2021/prn71/</loc>
       
       <lastmod>2021-08-04T19:43:07+08:00</lastmod>
       
@@ -4742,7 +4762,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn70/</loc>
+      <loc>http://wzj.life/2021/prn70/</loc>
       
       <lastmod>2021-08-03T12:09:03+08:00</lastmod>
       
@@ -4752,7 +4772,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn69/</loc>
+      <loc>http://wzj.life/2021/prn69/</loc>
       
       <lastmod>2021-08-03T11:07:47+08:00</lastmod>
       
@@ -4762,7 +4782,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn68/</loc>
+      <loc>http://wzj.life/2021/prn68/</loc>
       
       <lastmod>2021-08-02T16:52:49+08:00</lastmod>
       
@@ -4772,7 +4792,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg27/</loc>
+      <loc>http://wzj.life/2021/bg27/</loc>
       
       <lastmod>2021-08-01T21:27:16+08:00</lastmod>
       
@@ -4782,7 +4802,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn67/</loc>
+      <loc>http://wzj.life/2021/prn67/</loc>
       
       <lastmod>2021-07-31T19:43:38+08:00</lastmod>
       
@@ -4792,7 +4812,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn66/</loc>
+      <loc>http://wzj.life/2021/prn66/</loc>
       
       <lastmod>2021-07-30T21:55:30+08:00</lastmod>
       
@@ -4802,7 +4822,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn65/</loc>
+      <loc>http://wzj.life/2021/prn65/</loc>
       
       <lastmod>2021-07-30T19:49:00+08:00</lastmod>
       
@@ -4812,7 +4832,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn64/</loc>
+      <loc>http://wzj.life/2021/prn64/</loc>
       
       <lastmod>2021-07-30T11:12:23+08:00</lastmod>
       
@@ -4822,7 +4842,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn63/</loc>
+      <loc>http://wzj.life/2021/prn63/</loc>
       
       <lastmod>2021-07-29T11:27:32+08:00</lastmod>
       
@@ -4832,7 +4852,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn62/</loc>
+      <loc>http://wzj.life/2021/prn62/</loc>
       
       <lastmod>2021-07-28T14:36:28+08:00</lastmod>
       
@@ -4842,7 +4862,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/federated-learning/</loc>
+      <loc>http://wzj.life/tags/federated-learning/</loc>
       
       <lastmod>2021-07-28T14:36:28+08:00</lastmod>
       
@@ -4852,7 +4872,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn61/</loc>
+      <loc>http://wzj.life/2021/prn61/</loc>
       
       <lastmod>2021-07-28T10:41:00+08:00</lastmod>
       
@@ -4862,7 +4882,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn60/</loc>
+      <loc>http://wzj.life/2021/prn60/</loc>
       
       <lastmod>2021-07-27T11:07:09+08:00</lastmod>
       
@@ -4872,7 +4892,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn59/</loc>
+      <loc>http://wzj.life/2021/prn59/</loc>
       
       <lastmod>2021-07-26T11:53:00+08:00</lastmod>
       
@@ -4882,7 +4902,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn58/</loc>
+      <loc>http://wzj.life/2021/prn58/</loc>
       
       <lastmod>2021-07-25T11:30:31+08:00</lastmod>
       
@@ -4892,7 +4912,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg26/</loc>
+      <loc>http://wzj.life/2021/bg26/</loc>
       
       <lastmod>2021-07-22T20:38:10+08:00</lastmod>
       
@@ -4902,7 +4922,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn57/</loc>
+      <loc>http://wzj.life/2021/prn57/</loc>
       
       <lastmod>2021-07-21T10:10:54+08:00</lastmod>
       
@@ -4912,7 +4932,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn56/</loc>
+      <loc>http://wzj.life/2021/prn56/</loc>
       
       <lastmod>2021-07-20T14:32:30+08:00</lastmod>
       
@@ -4922,7 +4942,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn55/</loc>
+      <loc>http://wzj.life/2021/prn55/</loc>
       
       <lastmod>2021-07-20T10:06:20+08:00</lastmod>
       
@@ -4932,7 +4952,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn54/</loc>
+      <loc>http://wzj.life/2021/prn54/</loc>
       
       <lastmod>2021-07-18T19:39:50+08:00</lastmod>
       
@@ -4942,7 +4962,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_matrix/</loc>
+      <loc>http://wzj.life/2021/latex_matrix/</loc>
       
       <lastmod>2021-07-18T16:20:27+08:00</lastmod>
       
@@ -4952,7 +4972,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn53/</loc>
+      <loc>http://wzj.life/2021/prn53/</loc>
       
       <lastmod>2021-07-18T11:25:44+08:00</lastmod>
       
@@ -4962,7 +4982,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn52/</loc>
+      <loc>http://wzj.life/2021/prn52/</loc>
       
       <lastmod>2021-07-18T10:10:07+08:00</lastmod>
       
@@ -4972,7 +4992,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn51/</loc>
+      <loc>http://wzj.life/2021/prn51/</loc>
       
       <lastmod>2021-07-17T14:34:02+08:00</lastmod>
       
@@ -4982,7 +5002,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</loc>
+      <loc>http://wzj.life/2021/latex_footnote_without_number/</loc>
       
       <lastmod>2021-07-17T11:53:47+08:00</lastmod>
       
@@ -4992,7 +5012,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn50/</loc>
+      <loc>http://wzj.life/2021/prn50/</loc>
       
       <lastmod>2021-07-16T21:04:14+08:00</lastmod>
       
@@ -5002,7 +5022,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn49/</loc>
+      <loc>http://wzj.life/2021/prn49/</loc>
       
       <lastmod>2021-07-16T19:50:39+08:00</lastmod>
       
@@ -5012,7 +5032,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn48/</loc>
+      <loc>http://wzj.life/2021/prn48/</loc>
       
       <lastmod>2021-07-16T15:02:02+08:00</lastmod>
       
@@ -5022,7 +5042,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn47/</loc>
+      <loc>http://wzj.life/2021/prn47/</loc>
       
       <lastmod>2021-07-16T10:29:32+08:00</lastmod>
       
@@ -5032,7 +5052,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn46/</loc>
+      <loc>http://wzj.life/2021/prn46/</loc>
       
       <lastmod>2021-07-15T21:12:47+08:00</lastmod>
       
@@ -5042,7 +5062,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/detection/</loc>
+      <loc>http://wzj.life/tags/detection/</loc>
       
       <lastmod>2021-07-15T21:12:47+08:00</lastmod>
       
@@ -5052,7 +5072,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/face-forgery/</loc>
+      <loc>http://wzj.life/tags/face-forgery/</loc>
       
       <lastmod>2021-07-15T21:12:47+08:00</lastmod>
       
@@ -5062,7 +5082,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn45/</loc>
+      <loc>http://wzj.life/2021/prn45/</loc>
       
       <lastmod>2021-07-14T10:42:26+08:00</lastmod>
       
@@ -5072,7 +5092,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg25/</loc>
+      <loc>http://wzj.life/2021/bg25/</loc>
       
       <lastmod>2021-07-13T14:27:47+08:00</lastmod>
       
@@ -5082,7 +5102,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn44/</loc>
+      <loc>http://wzj.life/2021/prn44/</loc>
       
       <lastmod>2021-07-12T21:56:05+08:00</lastmod>
       
@@ -5092,7 +5112,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/image-deniosing/</loc>
+      <loc>http://wzj.life/tags/image-deniosing/</loc>
       
       <lastmod>2021-07-12T21:56:05+08:00</lastmod>
       
@@ -5102,7 +5122,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn43/</loc>
+      <loc>http://wzj.life/2021/prn43/</loc>
       
       <lastmod>2021-07-12T15:09:26+08:00</lastmod>
       
@@ -5112,7 +5132,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn42/</loc>
+      <loc>http://wzj.life/2021/prn42/</loc>
       
       <lastmod>2021-07-12T10:58:13+08:00</lastmod>
       
@@ -5122,7 +5142,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/vqa/</loc>
+      <loc>http://wzj.life/tags/vqa/</loc>
       
       <lastmod>2021-07-12T10:58:13+08:00</lastmod>
       
@@ -5132,7 +5152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn41/</loc>
+      <loc>http://wzj.life/2021/prn41/</loc>
       
       <lastmod>2021-07-12T10:12:48+08:00</lastmod>
       
@@ -5142,7 +5162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/wavelet/</loc>
+      <loc>http://wzj.life/tags/wavelet/</loc>
       
       <lastmod>2021-07-12T10:12:48+08:00</lastmod>
       
@@ -5152,7 +5172,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/channel-shuffle/</loc>
+      <loc>http://wzj.life/2021/channel-shuffle/</loc>
       
       <lastmod>2021-07-11T14:26:18+08:00</lastmod>
       
@@ -5162,7 +5182,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn40/</loc>
+      <loc>http://wzj.life/2021/prn40/</loc>
       
       <lastmod>2021-07-11T10:53:48+08:00</lastmod>
       
@@ -5172,7 +5192,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn39/</loc>
+      <loc>http://wzj.life/2021/prn39/</loc>
       
       <lastmod>2021-07-10T16:41:48+08:00</lastmod>
       
@@ -5182,7 +5202,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn38/</loc>
+      <loc>http://wzj.life/2021/prn38/</loc>
       
       <lastmod>2021-07-10T15:34:14+08:00</lastmod>
       
@@ -5192,7 +5212,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn37/</loc>
+      <loc>http://wzj.life/2021/prn37/</loc>
       
       <lastmod>2021-07-10T11:14:29+08:00</lastmod>
       
@@ -5202,7 +5222,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn36/</loc>
+      <loc>http://wzj.life/2021/prn36/</loc>
       
       <lastmod>2021-07-10T10:00:50+08:00</lastmod>
       
@@ -5212,7 +5232,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pre-training/</loc>
+      <loc>http://wzj.life/tags/pre-training/</loc>
       
       <lastmod>2021-07-10T10:00:50+08:00</lastmod>
       
@@ -5222,7 +5242,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn35/</loc>
+      <loc>http://wzj.life/2021/prn35/</loc>
       
       <lastmod>2021-07-09T10:54:19+08:00</lastmod>
       
@@ -5232,7 +5252,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn34/</loc>
+      <loc>http://wzj.life/2021/prn34/</loc>
       
       <lastmod>2021-07-07T11:06:29+08:00</lastmod>
       
@@ -5242,7 +5262,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/gan/</loc>
+      <loc>http://wzj.life/tags/gan/</loc>
       
       <lastmod>2021-07-07T11:06:29+08:00</lastmod>
       
@@ -5252,7 +5272,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn33/</loc>
+      <loc>http://wzj.life/2021/prn33/</loc>
       
       <lastmod>2021-07-06T15:13:34+08:00</lastmod>
       
@@ -5262,7 +5282,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/convolution/</loc>
+      <loc>http://wzj.life/tags/convolution/</loc>
       
       <lastmod>2021-07-06T11:36:55+08:00</lastmod>
       
@@ -5272,7 +5292,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/digital-signal-processing/</loc>
+      <loc>http://wzj.life/tags/digital-signal-processing/</loc>
       
       <lastmod>2021-07-06T11:36:55+08:00</lastmod>
       
@@ -5282,7 +5302,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/dip/</loc>
+      <loc>http://wzj.life/tags/dip/</loc>
       
       <lastmod>2021-07-06T11:36:55+08:00</lastmod>
       
@@ -5292,7 +5312,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp9/</loc>
+      <loc>http://wzj.life/2021/ldp9/</loc>
       
       <lastmod>2021-07-06T11:36:55+08:00</lastmod>
       
@@ -5302,7 +5322,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp8/</loc>
+      <loc>http://wzj.life/2021/ldp8/</loc>
       
       <lastmod>2021-07-06T11:24:56+08:00</lastmod>
       
@@ -5312,7 +5332,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn32/</loc>
+      <loc>http://wzj.life/2021/prn32/</loc>
       
       <lastmod>2021-07-05T12:59:51+08:00</lastmod>
       
@@ -5322,7 +5342,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn31/</loc>
+      <loc>http://wzj.life/2021/prn31/</loc>
       
       <lastmod>2021-07-03T21:00:55+08:00</lastmod>
       
@@ -5332,7 +5352,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn30/</loc>
+      <loc>http://wzj.life/2021/prn30/</loc>
       
       <lastmod>2021-07-03T16:23:02+08:00</lastmod>
       
@@ -5342,7 +5362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn29/</loc>
+      <loc>http://wzj.life/2021/prn29/</loc>
       
       <lastmod>2021-07-02T11:05:32+08:00</lastmod>
       
@@ -5352,7 +5372,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn28/</loc>
+      <loc>http://wzj.life/2021/prn28/</loc>
       
       <lastmod>2021-07-01T13:01:57+08:00</lastmod>
       
@@ -5362,7 +5382,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn27/</loc>
+      <loc>http://wzj.life/2021/prn27/</loc>
       
       <lastmod>2021-06-29T21:36:09+08:00</lastmod>
       
@@ -5372,7 +5392,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn26/</loc>
+      <loc>http://wzj.life/2021/prn26/</loc>
       
       <lastmod>2021-06-29T12:00:44+08:00</lastmod>
       
@@ -5382,7 +5402,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg24/</loc>
+      <loc>http://wzj.life/2021/bg24/</loc>
       
       <lastmod>2021-06-29T11:39:02+08:00</lastmod>
       
@@ -5392,7 +5412,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn25/</loc>
+      <loc>http://wzj.life/2021/prn25/</loc>
       
       <lastmod>2021-06-28T19:34:36+08:00</lastmod>
       
@@ -5402,7 +5422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn24/</loc>
+      <loc>http://wzj.life/2021/prn24/</loc>
       
       <lastmod>2021-06-28T11:45:52+08:00</lastmod>
       
@@ -5412,7 +5432,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/noisy-label/</loc>
+      <loc>http://wzj.life/tags/noisy-label/</loc>
       
       <lastmod>2021-06-28T11:45:52+08:00</lastmod>
       
@@ -5422,7 +5442,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn23/</loc>
+      <loc>http://wzj.life/2021/prn23/</loc>
       
       <lastmod>2021-06-27T13:29:36+08:00</lastmod>
       
@@ -5432,7 +5452,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn22/</loc>
+      <loc>http://wzj.life/2021/prn22/</loc>
       
       <lastmod>2021-06-26T15:10:01+08:00</lastmod>
       
@@ -5442,7 +5462,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn21/</loc>
+      <loc>http://wzj.life/2021/prn21/</loc>
       
       <lastmod>2021-06-26T11:27:54+08:00</lastmod>
       
@@ -5452,7 +5472,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/rnn/</loc>
+      <loc>http://wzj.life/tags/rnn/</loc>
       
       <lastmod>2021-06-26T10:35:58+08:00</lastmod>
       
@@ -5462,7 +5482,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp7/</loc>
+      <loc>http://wzj.life/2021/ldp7/</loc>
       
       <lastmod>2021-06-26T10:35:58+08:00</lastmod>
       
@@ -5472,7 +5492,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn20/</loc>
+      <loc>http://wzj.life/2021/prn20/</loc>
       
       <lastmod>2021-06-25T15:44:51+08:00</lastmod>
       
@@ -5482,7 +5502,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_greeceletter/</loc>
+      <loc>http://wzj.life/2021/latex_greeceletter/</loc>
       
       <lastmod>2021-06-25T11:30:21+08:00</lastmod>
       
@@ -5492,7 +5512,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp6/</loc>
+      <loc>http://wzj.life/2021/ldp6/</loc>
       
       <lastmod>2021-06-24T22:32:06+08:00</lastmod>
       
@@ -5502,7 +5522,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/conv-theory/</loc>
+      <loc>http://wzj.life/2021/conv-theory/</loc>
       
       <lastmod>2021-06-24T21:23:26+08:00</lastmod>
       
@@ -5512,7 +5532,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn19/</loc>
+      <loc>http://wzj.life/2021/prn19/</loc>
       
       <lastmod>2021-06-24T15:26:11+08:00</lastmod>
       
@@ -5522,7 +5542,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/tensor/</loc>
+      <loc>http://wzj.life/tags/tensor/</loc>
       
       <lastmod>2021-06-24T00:01:18+08:00</lastmod>
       
@@ -5532,7 +5552,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp5/</loc>
+      <loc>http://wzj.life/2021/ldp5/</loc>
       
       <lastmod>2021-06-24T00:01:18+08:00</lastmod>
       
@@ -5542,7 +5562,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn18/</loc>
+      <loc>http://wzj.life/2021/prn18/</loc>
       
       <lastmod>2021-06-23T09:36:01+08:00</lastmod>
       
@@ -5552,7 +5572,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_case/</loc>
+      <loc>http://wzj.life/2021/latex_case/</loc>
       
       <lastmod>2021-06-22T21:05:14+08:00</lastmod>
       
@@ -5562,7 +5582,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn17/</loc>
+      <loc>http://wzj.life/2021/prn17/</loc>
       
       <lastmod>2021-06-22T19:53:32+08:00</lastmod>
       
@@ -5572,7 +5592,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn16/</loc>
+      <loc>http://wzj.life/2021/prn16/</loc>
       
       <lastmod>2021-06-22T16:33:39+08:00</lastmod>
       
@@ -5582,7 +5602,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn15/</loc>
+      <loc>http://wzj.life/2021/prn15/</loc>
       
       <lastmod>2021-06-22T10:54:41+08:00</lastmod>
       
@@ -5592,7 +5612,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/blwl40/</loc>
+      <loc>http://wzj.life/2021/blwl40/</loc>
       
       <lastmod>2021-06-21T19:47:15+08:00</lastmod>
       
@@ -5602,7 +5622,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn14/</loc>
+      <loc>http://wzj.life/2021/prn14/</loc>
       
       <lastmod>2021-06-21T14:24:22+08:00</lastmod>
       
@@ -5612,7 +5632,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_space/</loc>
+      <loc>http://wzj.life/2021/latex_space/</loc>
       
       <lastmod>2021-06-21T14:11:57+08:00</lastmod>
       
@@ -5622,7 +5642,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn13/</loc>
+      <loc>http://wzj.life/2021/prn13/</loc>
       
       <lastmod>2021-06-20T14:25:10+08:00</lastmod>
       
@@ -5632,7 +5652,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg23/</loc>
+      <loc>http://wzj.life/2021/bg23/</loc>
       
       <lastmod>2021-06-19T13:29:42+08:00</lastmod>
       
@@ -5642,7 +5662,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn12/</loc>
+      <loc>http://wzj.life/2021/prn12/</loc>
       
       <lastmod>2021-06-17T20:35:36+08:00</lastmod>
       
@@ -5652,7 +5672,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_spaceline/</loc>
+      <loc>http://wzj.life/2021/latex_spaceline/</loc>
       
       <lastmod>2021-06-16T20:38:50+08:00</lastmod>
       
@@ -5662,7 +5682,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_noindent/</loc>
+      <loc>http://wzj.life/2021/latex_noindent/</loc>
       
       <lastmod>2021-06-16T20:28:52+08:00</lastmod>
       
@@ -5672,7 +5692,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn11/</loc>
+      <loc>http://wzj.life/2021/prn11/</loc>
       
       <lastmod>2021-06-15T13:42:56+08:00</lastmod>
       
@@ -5682,7 +5702,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/blwl39/</loc>
+      <loc>http://wzj.life/2021/blwl39/</loc>
       
       <lastmod>2021-06-11T11:39:03+08:00</lastmod>
       
@@ -5692,7 +5712,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/yay/</loc>
+      <loc>http://wzj.life/tags/yay/</loc>
       
       <lastmod>2021-06-11T11:39:03+08:00</lastmod>
       
@@ -5702,7 +5722,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/matplotlib/</loc>
+      <loc>http://wzj.life/tags/matplotlib/</loc>
       
       <lastmod>2021-06-06T16:46:11+08:00</lastmod>
       
@@ -5712,7 +5732,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/matplotlib-color/</loc>
+      <loc>http://wzj.life/2021/matplotlib-color/</loc>
       
       <lastmod>2021-06-06T16:46:11+08:00</lastmod>
       
@@ -5722,7 +5742,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn10/</loc>
+      <loc>http://wzj.life/2021/prn10/</loc>
       
       <lastmod>2021-06-03T18:30:46+08:00</lastmod>
       
@@ -5732,7 +5752,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn9/</loc>
+      <loc>http://wzj.life/2021/prn9/</loc>
       
       <lastmod>2021-06-01T09:48:18+08:00</lastmod>
       
@@ -5742,7 +5762,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg22/</loc>
+      <loc>http://wzj.life/2021/bg22/</loc>
       
       <lastmod>2021-05-31T13:24:23+08:00</lastmod>
       
@@ -5752,7 +5772,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn8/</loc>
+      <loc>http://wzj.life/2021/prn8/</loc>
       
       <lastmod>2021-05-30T14:39:03+08:00</lastmod>
       
@@ -5762,7 +5782,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn7/</loc>
+      <loc>http://wzj.life/2021/prn7/</loc>
       
       <lastmod>2021-05-29T14:57:33+08:00</lastmod>
       
@@ -5772,7 +5792,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn6/</loc>
+      <loc>http://wzj.life/2021/prn6/</loc>
       
       <lastmod>2021-05-29T10:55:05+08:00</lastmod>
       
@@ -5782,7 +5802,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/cross-modal-retrieval/</loc>
+      <loc>http://wzj.life/tags/cross-modal-retrieval/</loc>
       
       <lastmod>2021-05-29T10:55:05+08:00</lastmod>
       
@@ -5792,7 +5812,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn5/</loc>
+      <loc>http://wzj.life/2021/prn5/</loc>
       
       <lastmod>2021-05-28T19:43:09+08:00</lastmod>
       
@@ -5802,7 +5822,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn4/</loc>
+      <loc>http://wzj.life/2021/prn4/</loc>
       
       <lastmod>2021-05-28T15:21:20+08:00</lastmod>
       
@@ -5812,7 +5832,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn3/</loc>
+      <loc>http://wzj.life/2021/prn3/</loc>
       
       <lastmod>2021-05-28T14:06:27+08:00</lastmod>
       
@@ -5822,7 +5842,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn2/</loc>
+      <loc>http://wzj.life/2021/prn2/</loc>
       
       <lastmod>2021-05-27T13:55:03+08:00</lastmod>
       
@@ -5832,7 +5852,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/prn1/</loc>
+      <loc>http://wzj.life/2021/prn1/</loc>
       
       <lastmod>2021-05-27T13:49:47+08:00</lastmod>
       
@@ -5842,7 +5862,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg21/</loc>
+      <loc>http://wzj.life/2021/bg21/</loc>
       
       <lastmod>2021-05-14T19:58:05+08:00</lastmod>
       
@@ -5852,7 +5872,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/nvidia/</loc>
+      <loc>http://wzj.life/tags/nvidia/</loc>
       
       <lastmod>2021-05-14T19:46:19+08:00</lastmod>
       
@@ -5862,7 +5882,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/opencv-pil-channel/</loc>
+      <loc>http://wzj.life/2021/opencv-pil-channel/</loc>
       
       <lastmod>2021-05-14T19:46:19+08:00</lastmod>
       
@@ -5872,7 +5892,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pil/</loc>
+      <loc>http://wzj.life/tags/pil/</loc>
       
       <lastmod>2021-05-14T19:46:19+08:00</lastmod>
       
@@ -5882,7 +5902,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/markdown/</loc>
+      <loc>http://wzj.life/tags/markdown/</loc>
       
       <lastmod>2021-05-10T13:45:00+08:00</lastmod>
       
@@ -5892,7 +5912,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/md-signs/</loc>
+      <loc>http://wzj.life/2021/md-signs/</loc>
       
       <lastmod>2021-05-10T13:45:00+08:00</lastmod>
       
@@ -5902,7 +5922,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/math/</loc>
+      <loc>http://wzj.life/tags/math/</loc>
       
       <lastmod>2021-05-10T13:21:04+08:00</lastmod>
       
@@ -5912,7 +5932,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/sinc/</loc>
+      <loc>http://wzj.life/tags/sinc/</loc>
       
       <lastmod>2021-05-10T13:21:04+08:00</lastmod>
       
@@ -5922,7 +5942,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/sinc/</loc>
+      <loc>http://wzj.life/2021/sinc/</loc>
       
       <lastmod>2021-05-10T13:21:04+08:00</lastmod>
       
@@ -5932,7 +5952,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/view/</loc>
+      <loc>http://wzj.life/tags/view/</loc>
       
       <lastmod>2021-05-08T18:37:46+08:00</lastmod>
       
@@ -5942,7 +5962,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp4/</loc>
+      <loc>http://wzj.life/2021/ldp4/</loc>
       
       <lastmod>2021-05-08T18:37:46+08:00</lastmod>
       
@@ -5952,7 +5972,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg20/</loc>
+      <loc>http://wzj.life/2021/bg20/</loc>
       
       <lastmod>2021-04-27T16:52:32+08:00</lastmod>
       
@@ -5962,7 +5982,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/vmware-windows-activate/</loc>
+      <loc>http://wzj.life/2021/vmware-windows-activate/</loc>
       
       <lastmod>2021-04-27T14:19:09+08:00</lastmod>
       
@@ -5972,7 +5992,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/vmware/</loc>
+      <loc>http://wzj.life/tags/vmware/</loc>
       
       <lastmod>2021-04-27T14:19:09+08:00</lastmod>
       
@@ -5982,7 +6002,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/latex_acmtem/</loc>
+      <loc>http://wzj.life/2021/latex_acmtem/</loc>
       
       <lastmod>2021-04-16T18:48:00+08:00</lastmod>
       
@@ -5992,7 +6012,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-swjc3-notes/</loc>
+      <loc>http://wzj.life/2021/catti-swjc3-notes/</loc>
       
       <lastmod>2021-04-10T20:29:58+08:00</lastmod>
       
@@ -6002,7 +6022,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/catti/</loc>
+      <loc>http://wzj.life/tags/catti/</loc>
       
       <lastmod>2021-04-10T20:29:58+08:00</lastmod>
       
@@ -6012,7 +6032,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/english/</loc>
+      <loc>http://wzj.life/tags/english/</loc>
       
       <lastmod>2021-04-10T20:29:58+08:00</lastmod>
       
@@ -6022,7 +6042,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/language-learning/</loc>
+      <loc>http://wzj.life/categories/language-learning/</loc>
       
       <lastmod>2021-04-10T20:29:58+08:00</lastmod>
       
@@ -6032,7 +6052,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-idiom-notes/</loc>
+      <loc>http://wzj.life/2021/catti-idiom-notes/</loc>
       
       <lastmod>2021-04-09T16:55:30+08:00</lastmod>
       
@@ -6042,7 +6062,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-scect2-notes/</loc>
+      <loc>http://wzj.life/2021/catti-scect2-notes/</loc>
       
       <lastmod>2021-04-08T21:14:31+08:00</lastmod>
       
@@ -6052,7 +6072,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/gelu/</loc>
+      <loc>http://wzj.life/tags/gelu/</loc>
       
       <lastmod>2021-03-25T17:48:10+08:00</lastmod>
       
@@ -6062,7 +6082,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp3/</loc>
+      <loc>http://wzj.life/2021/ldp3/</loc>
       
       <lastmod>2021-03-25T17:48:10+08:00</lastmod>
       
@@ -6072,7 +6092,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-scect-notes/</loc>
+      <loc>http://wzj.life/2021/catti-scect-notes/</loc>
       
       <lastmod>2021-02-21T16:02:55+08:00</lastmod>
       
@@ -6082,7 +6102,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-hg903-notes/</loc>
+      <loc>http://wzj.life/2021/catti-hg903-notes/</loc>
       
       <lastmod>2021-02-19T21:51:20+08:00</lastmod>
       
@@ -6092,7 +6112,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-wf12-notes/</loc>
+      <loc>http://wzj.life/2021/catti-wf12-notes/</loc>
       
       <lastmod>2021-02-13T21:26:22+08:00</lastmod>
       
@@ -6102,7 +6122,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-article-notes/</loc>
+      <loc>http://wzj.life/2021/catti-article-notes/</loc>
       
       <lastmod>2021-02-07T22:45:20+08:00</lastmod>
       
@@ -6112,7 +6132,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/catti-vocab-notes/</loc>
+      <loc>http://wzj.life/2021/catti-vocab-notes/</loc>
       
       <lastmod>2021-02-06T13:26:49+08:00</lastmod>
       
@@ -6122,7 +6142,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg19/</loc>
+      <loc>http://wzj.life/2021/bg19/</loc>
       
       <lastmod>2021-01-22T14:33:34+08:00</lastmod>
       
@@ -6132,7 +6152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/nvidia-smi/</loc>
+      <loc>http://wzj.life/tags/nvidia-smi/</loc>
       
       <lastmod>2021-01-22T14:27:20+08:00</lastmod>
       
@@ -6142,7 +6162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/ldp2/</loc>
+      <loc>http://wzj.life/2021/ldp2/</loc>
       
       <lastmod>2021-01-22T14:27:20+08:00</lastmod>
       
@@ -6152,7 +6172,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2021/bg18/</loc>
+      <loc>http://wzj.life/2021/bg18/</loc>
       
       <lastmod>2021-01-20T01:22:14+08:00</lastmod>
       
@@ -6162,7 +6182,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg17/</loc>
+      <loc>http://wzj.life/2020/bg17/</loc>
       
       <lastmod>2020-12-23T13:19:04+08:00</lastmod>
       
@@ -6172,7 +6192,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl37/</loc>
+      <loc>http://wzj.life/2020/blwl37/</loc>
       
       <lastmod>2020-12-19T21:00:26+08:00</lastmod>
       
@@ -6182,7 +6202,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/drivers/</loc>
+      <loc>http://wzj.life/tags/drivers/</loc>
       
       <lastmod>2020-12-19T21:00:26+08:00</lastmod>
       
@@ -6192,7 +6212,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/ubuntu/</loc>
+      <loc>http://wzj.life/tags/ubuntu/</loc>
       
       <lastmod>2020-12-19T21:00:26+08:00</lastmod>
       
@@ -6202,7 +6222,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/conda/</loc>
+      <loc>http://wzj.life/tags/conda/</loc>
       
       <lastmod>2020-12-18T00:33:49+08:00</lastmod>
       
@@ -6212,7 +6232,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/conda-opencv/</loc>
+      <loc>http://wzj.life/2020/conda-opencv/</loc>
       
       <lastmod>2020-12-18T00:33:49+08:00</lastmod>
       
@@ -6222,7 +6242,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg16/</loc>
+      <loc>http://wzj.life/2020/bg16/</loc>
       
       <lastmod>2020-12-15T00:04:04+08:00</lastmod>
       
@@ -6232,7 +6252,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl36/</loc>
+      <loc>http://wzj.life/2020/blwl36/</loc>
       
       <lastmod>2020-12-14T23:50:32+08:00</lastmod>
       
@@ -6242,7 +6262,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl35/</loc>
+      <loc>http://wzj.life/2020/blwl35/</loc>
       
       <lastmod>2020-12-14T23:18:03+08:00</lastmod>
       
@@ -6252,7 +6272,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/sunlogin/</loc>
+      <loc>http://wzj.life/tags/sunlogin/</loc>
       
       <lastmod>2020-12-14T23:18:03+08:00</lastmod>
       
@@ -6262,7 +6282,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl34/</loc>
+      <loc>http://wzj.life/2020/blwl34/</loc>
       
       <lastmod>2020-12-08T04:55:03+08:00</lastmod>
       
@@ -6272,7 +6292,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/vim/</loc>
+      <loc>http://wzj.life/tags/vim/</loc>
       
       <lastmod>2020-12-08T04:55:03+08:00</lastmod>
       
@@ -6282,7 +6302,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/paper/</loc>
+      <loc>http://wzj.life/tags/paper/</loc>
       
       <lastmod>2020-12-06T23:51:53+08:00</lastmod>
       
@@ -6292,7 +6312,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/latex_vspace/</loc>
+      <loc>http://wzj.life/2020/latex_vspace/</loc>
       
       <lastmod>2020-12-06T23:51:53+08:00</lastmod>
       
@@ -6302,7 +6322,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg15/</loc>
+      <loc>http://wzj.life/2020/bg15/</loc>
       
       <lastmod>2020-11-14T11:35:21+08:00</lastmod>
       
@@ -6312,7 +6332,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/jupyter-notebook/</loc>
+      <loc>http://wzj.life/tags/jupyter-notebook/</loc>
       
       <lastmod>2020-11-12T12:47:56+08:00</lastmod>
       
@@ -6322,7 +6342,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/ldp1/</loc>
+      <loc>http://wzj.life/2020/ldp1/</loc>
       
       <lastmod>2020-11-12T12:47:56+08:00</lastmod>
       
@@ -6332,7 +6352,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg14/</loc>
+      <loc>http://wzj.life/2020/bg14/</loc>
       
       <lastmod>2020-10-24T11:35:21+08:00</lastmod>
       
@@ -6342,7 +6362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/book/</loc>
+      <loc>http://wzj.life/tags/book/</loc>
       
       <lastmod>2020-10-05T19:34:16+08:00</lastmod>
       
@@ -6352,7 +6372,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/note/</loc>
+      <loc>http://wzj.life/tags/note/</loc>
       
       <lastmod>2020-10-05T19:34:16+08:00</lastmod>
       
@@ -6362,7 +6382,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/flower-book-notes/</loc>
+      <loc>http://wzj.life/2020/flower-book-notes/</loc>
       
       <lastmod>2020-10-05T19:34:16+08:00</lastmod>
       
@@ -6372,7 +6392,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg13/</loc>
+      <loc>http://wzj.life/2020/bg13/</loc>
       
       <lastmod>2020-09-24T11:35:21+08:00</lastmod>
       
@@ -6382,7 +6402,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg12/</loc>
+      <loc>http://wzj.life/2020/bg12/</loc>
       
       <lastmod>2020-09-19T11:35:21+08:00</lastmod>
       
@@ -6392,7 +6412,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl33/</loc>
+      <loc>http://wzj.life/2020/blwl33/</loc>
       
       <lastmod>2020-09-14T22:17:35+08:00</lastmod>
       
@@ -6402,7 +6422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/docker/</loc>
+      <loc>http://wzj.life/tags/docker/</loc>
       
       <lastmod>2020-09-14T22:17:35+08:00</lastmod>
       
@@ -6412,7 +6432,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg11/</loc>
+      <loc>http://wzj.life/2020/bg11/</loc>
       
       <lastmod>2020-09-12T11:35:21+08:00</lastmod>
       
@@ -6422,7 +6442,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg10/</loc>
+      <loc>http://wzj.life/2020/bg10/</loc>
       
       <lastmod>2020-09-06T11:35:21+08:00</lastmod>
       
@@ -6432,7 +6452,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg9/</loc>
+      <loc>http://wzj.life/2020/bg9/</loc>
       
       <lastmod>2020-08-26T11:35:21+08:00</lastmod>
       
@@ -6442,7 +6462,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/algorithm/</loc>
+      <loc>http://wzj.life/tags/algorithm/</loc>
       
       <lastmod>2020-08-04T16:55:15+08:00</lastmod>
       
@@ -6452,7 +6472,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/kmp/</loc>
+      <loc>http://wzj.life/tags/kmp/</loc>
       
       <lastmod>2020-08-04T16:55:15+08:00</lastmod>
       
@@ -6462,7 +6482,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kmp/</loc>
+      <loc>http://wzj.life/2020/kmp/</loc>
       
       <lastmod>2020-08-04T16:55:15+08:00</lastmod>
       
@@ -6472,7 +6492,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl32/</loc>
+      <loc>http://wzj.life/2020/blwl32/</loc>
       
       <lastmod>2020-08-02T16:50:51+08:00</lastmod>
       
@@ -6482,7 +6502,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/pyinstall/</loc>
+      <loc>http://wzj.life/tags/pyinstall/</loc>
       
       <lastmod>2020-08-02T16:50:51+08:00</lastmod>
       
@@ -6492,7 +6512,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg8/</loc>
+      <loc>http://wzj.life/2020/bg8/</loc>
       
       <lastmod>2020-07-19T00:03:32+08:00</lastmod>
       
@@ -6502,7 +6522,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl31/</loc>
+      <loc>http://wzj.life/2020/blwl31/</loc>
       
       <lastmod>2020-07-16T14:24:33+08:00</lastmod>
       
@@ -6512,7 +6532,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/fork/</loc>
+      <loc>http://wzj.life/tags/fork/</loc>
       
       <lastmod>2020-07-16T14:24:33+08:00</lastmod>
       
@@ -6522,7 +6542,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/git/</loc>
+      <loc>http://wzj.life/tags/git/</loc>
       
       <lastmod>2020-07-16T14:24:33+08:00</lastmod>
       
@@ -6532,7 +6552,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/github/</loc>
+      <loc>http://wzj.life/tags/github/</loc>
       
       <lastmod>2020-07-16T14:24:33+08:00</lastmod>
       
@@ -6542,7 +6562,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg7/</loc>
+      <loc>http://wzj.life/2020/bg7/</loc>
       
       <lastmod>2020-07-15T00:03:32+08:00</lastmod>
       
@@ -6552,7 +6572,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kali1/</loc>
+      <loc>http://wzj.life/2020/kali1/</loc>
       
       <lastmod>2020-07-12T15:43:39+08:00</lastmod>
       
@@ -6562,7 +6582,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/kali/</loc>
+      <loc>http://wzj.life/tags/kali/</loc>
       
       <lastmod>2020-07-12T15:43:39+08:00</lastmod>
       
@@ -6572,7 +6592,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/penetration-testing/</loc>
+      <loc>http://wzj.life/tags/penetration-testing/</loc>
       
       <lastmod>2020-07-12T15:43:39+08:00</lastmod>
       
@@ -6582,7 +6602,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/white-hat/</loc>
+      <loc>http://wzj.life/tags/white-hat/</loc>
       
       <lastmod>2020-07-12T15:43:39+08:00</lastmod>
       
@@ -6592,7 +6612,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/white-hat-struggling/</loc>
+      <loc>http://wzj.life/categories/white-hat-struggling/</loc>
       
       <lastmod>2020-07-12T15:43:39+08:00</lastmod>
       
@@ -6602,7 +6622,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl30/</loc>
+      <loc>http://wzj.life/2020/blwl30/</loc>
       
       <lastmod>2020-06-19T21:13:37+08:00</lastmod>
       
@@ -6612,7 +6632,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/plugin/</loc>
+      <loc>http://wzj.life/tags/plugin/</loc>
       
       <lastmod>2020-06-19T21:13:37+08:00</lastmod>
       
@@ -6622,7 +6642,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/surround/</loc>
+      <loc>http://wzj.life/tags/surround/</loc>
       
       <lastmod>2020-06-19T21:13:37+08:00</lastmod>
       
@@ -6632,7 +6652,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/vim-plugin/</loc>
+      <loc>http://wzj.life/tags/vim-plugin/</loc>
       
       <lastmod>2020-06-19T21:13:37+08:00</lastmod>
       
@@ -6642,7 +6662,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl29/</loc>
+      <loc>http://wzj.life/2020/blwl29/</loc>
       
       <lastmod>2020-06-19T20:24:14+08:00</lastmod>
       
@@ -6652,7 +6672,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/git-clone/</loc>
+      <loc>http://wzj.life/tags/git-clone/</loc>
       
       <lastmod>2020-06-19T20:24:14+08:00</lastmod>
       
@@ -6662,7 +6682,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/git-fetch/</loc>
+      <loc>http://wzj.life/tags/git-fetch/</loc>
       
       <lastmod>2020-06-19T20:24:14+08:00</lastmod>
       
@@ -6672,7 +6692,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg6/</loc>
+      <loc>http://wzj.life/2020/bg6/</loc>
       
       <lastmod>2020-06-15T00:00:27+08:00</lastmod>
       
@@ -6682,7 +6702,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg5/</loc>
+      <loc>http://wzj.life/2020/bg5/</loc>
       
       <lastmod>2020-06-13T11:41:05+08:00</lastmod>
       
@@ -6692,7 +6712,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg4/</loc>
+      <loc>http://wzj.life/2020/bg4/</loc>
       
       <lastmod>2020-05-13T11:40:00+08:00</lastmod>
       
@@ -6702,7 +6722,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/njtu-cst-learning-notes/</loc>
+      <loc>http://wzj.life/categories/njtu-cst-learning-notes/</loc>
       
       <lastmod>2020-05-12T21:46:35+08:00</lastmod>
       
@@ -6712,7 +6732,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/math-la/</loc>
+      <loc>http://wzj.life/2020/math-la/</loc>
       
       <lastmod>2020-05-12T21:46:35+08:00</lastmod>
       
@@ -6722,7 +6742,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl28/</loc>
+      <loc>http://wzj.life/2020/blwl28/</loc>
       
       <lastmod>2020-04-30T10:22:14+08:00</lastmod>
       
@@ -6732,7 +6752,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/math-dj/</loc>
+      <loc>http://wzj.life/2020/math-dj/</loc>
       
       <lastmod>2020-04-27T17:12:02+08:00</lastmod>
       
@@ -6742,7 +6762,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/eng-ky1/</loc>
+      <loc>http://wzj.life/2020/eng-ky1/</loc>
       
       <lastmod>2020-04-27T15:27:53+08:00</lastmod>
       
@@ -6752,7 +6772,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/software/</loc>
+      <loc>http://wzj.life/tags/software/</loc>
       
       <lastmod>2020-04-26T16:43:44+08:00</lastmod>
       
@@ -6762,7 +6782,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes12/</loc>
+      <loc>http://wzj.life/2020/se-notes12/</loc>
       
       <lastmod>2020-04-26T16:43:44+08:00</lastmod>
       
@@ -6772,7 +6792,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes11/</loc>
+      <loc>http://wzj.life/2020/se-notes11/</loc>
       
       <lastmod>2020-04-26T16:19:25+08:00</lastmod>
       
@@ -6782,7 +6802,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes10/</loc>
+      <loc>http://wzj.life/2020/se-notes10/</loc>
       
       <lastmod>2020-04-26T13:08:51+08:00</lastmod>
       
@@ -6792,7 +6812,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes9/</loc>
+      <loc>http://wzj.life/2020/se-notes9/</loc>
       
       <lastmod>2020-04-26T11:30:59+08:00</lastmod>
       
@@ -6802,7 +6822,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes8/</loc>
+      <loc>http://wzj.life/2020/se-notes8/</loc>
       
       <lastmod>2020-04-24T19:30:54+08:00</lastmod>
       
@@ -6812,7 +6832,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes7/</loc>
+      <loc>http://wzj.life/2020/se-notes7/</loc>
       
       <lastmod>2020-04-24T13:43:03+08:00</lastmod>
       
@@ -6822,7 +6842,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes6/</loc>
+      <loc>http://wzj.life/2020/se-notes6/</loc>
       
       <lastmod>2020-04-23T19:09:46+08:00</lastmod>
       
@@ -6832,7 +6852,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes5/</loc>
+      <loc>http://wzj.life/2020/se-notes5/</loc>
       
       <lastmod>2020-04-23T13:47:30+08:00</lastmod>
       
@@ -6842,7 +6862,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes4/</loc>
+      <loc>http://wzj.life/2020/se-notes4/</loc>
       
       <lastmod>2020-04-23T09:53:53+08:00</lastmod>
       
@@ -6852,7 +6872,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes3/</loc>
+      <loc>http://wzj.life/2020/se-notes3/</loc>
       
       <lastmod>2020-04-22T17:24:10+08:00</lastmod>
       
@@ -6862,7 +6882,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes2/</loc>
+      <loc>http://wzj.life/2020/se-notes2/</loc>
       
       <lastmod>2020-04-22T17:18:47+08:00</lastmod>
       
@@ -6872,7 +6892,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/se-notes1/</loc>
+      <loc>http://wzj.life/2020/se-notes1/</loc>
       
       <lastmod>2020-04-22T14:31:05+08:00</lastmod>
       
@@ -6882,7 +6902,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/numpy-allclose/</loc>
+      <loc>http://wzj.life/2020/numpy-allclose/</loc>
       
       <lastmod>2020-04-21T13:09:31+08:00</lastmod>
       
@@ -6892,7 +6912,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/numpy-clip/</loc>
+      <loc>http://wzj.life/2020/numpy-clip/</loc>
       
       <lastmod>2020-04-21T12:54:52+08:00</lastmod>
       
@@ -6902,7 +6922,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/math-dw/</loc>
+      <loc>http://wzj.life/2020/math-dw/</loc>
       
       <lastmod>2020-04-20T16:19:26+08:00</lastmod>
       
@@ -6912,7 +6932,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/math-vk/</loc>
+      <loc>http://wzj.life/2020/math-vk/</loc>
       
       <lastmod>2020-04-20T15:53:16+08:00</lastmod>
       
@@ -6922,7 +6942,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blog5/</loc>
+      <loc>http://wzj.life/2020/blog5/</loc>
       
       <lastmod>2020-04-15T21:47:18+08:00</lastmod>
       
@@ -6932,7 +6952,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blog4/</loc>
+      <loc>http://wzj.life/2020/blog4/</loc>
       
       <lastmod>2020-04-15T20:56:12+08:00</lastmod>
       
@@ -6942,7 +6962,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/active-function/</loc>
+      <loc>http://wzj.life/tags/active-function/</loc>
       
       <lastmod>2020-04-15T13:20:00+08:00</lastmod>
       
@@ -6952,7 +6972,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/machine-learning/</loc>
+      <loc>http://wzj.life/tags/machine-learning/</loc>
       
       <lastmod>2020-04-15T13:20:00+08:00</lastmod>
       
@@ -6962,7 +6982,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/zero-centered-active-function/</loc>
+      <loc>http://wzj.life/2020/zero-centered-active-function/</loc>
       
       <lastmod>2020-04-15T13:20:00+08:00</lastmod>
       
@@ -6972,7 +6992,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg3/</loc>
+      <loc>http://wzj.life/2020/bg3/</loc>
       
       <lastmod>2020-04-13T11:38:46+08:00</lastmod>
       
@@ -6982,7 +7002,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl27/</loc>
+      <loc>http://wzj.life/2020/blwl27/</loc>
       
       <lastmod>2020-04-13T10:06:16+08:00</lastmod>
       
@@ -6992,7 +7012,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/command/</loc>
+      <loc>http://wzj.life/tags/command/</loc>
       
       <lastmod>2020-04-13T10:06:16+08:00</lastmod>
       
@@ -7002,7 +7022,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl26/</loc>
+      <loc>http://wzj.life/2020/blwl26/</loc>
       
       <lastmod>2020-03-12T11:00:10+08:00</lastmod>
       
@@ -7012,7 +7032,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/dl-notes1/</loc>
+      <loc>http://wzj.life/2020/dl-notes1/</loc>
       
       <lastmod>2020-03-04T09:07:11+08:00</lastmod>
       
@@ -7022,7 +7042,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/eng2/</loc>
+      <loc>http://wzj.life/2020/eng2/</loc>
       
       <lastmod>2020-02-25T19:58:23+08:00</lastmod>
       
@@ -7032,7 +7052,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg2/</loc>
+      <loc>http://wzj.life/2020/bg2/</loc>
       
       <lastmod>2020-02-10T11:33:00+08:00</lastmod>
       
@@ -7042,7 +7062,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl25/</loc>
+      <loc>http://wzj.life/2020/blwl25/</loc>
       
       <lastmod>2020-02-03T00:44:13+08:00</lastmod>
       
@@ -7052,7 +7072,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl24/</loc>
+      <loc>http://wzj.life/2020/blwl24/</loc>
       
       <lastmod>2020-01-30T17:34:13+08:00</lastmod>
       
@@ -7062,7 +7082,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/command-line/</loc>
+      <loc>http://wzj.life/tags/command-line/</loc>
       
       <lastmod>2020-01-30T17:34:13+08:00</lastmod>
       
@@ -7072,7 +7092,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/eng1/</loc>
+      <loc>http://wzj.life/2020/eng1/</loc>
       
       <lastmod>2020-01-29T23:32:23+08:00</lastmod>
       
@@ -7082,7 +7102,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/face-detection/</loc>
+      <loc>http://wzj.life/tags/face-detection/</loc>
       
       <lastmod>2020-01-29T18:56:28+08:00</lastmod>
       
@@ -7092,7 +7112,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/mask-wearing/</loc>
+      <loc>http://wzj.life/2020/mask-wearing/</loc>
       
       <lastmod>2020-01-29T18:56:28+08:00</lastmod>
       
@@ -7102,7 +7122,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli18/</loc>
+      <loc>http://wzj.life/2020/kli18/</loc>
       
       <lastmod>2020-01-28T18:53:37+08:00</lastmod>
       
@@ -7112,7 +7132,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/tags/klingon/</loc>
+      <loc>http://wzj.life/tags/klingon/</loc>
       
       <lastmod>2020-01-28T18:53:37+08:00</lastmod>
       
@@ -7122,7 +7142,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/klingon/</loc>
+      <loc>http://wzj.life/categories/klingon/</loc>
       
       <lastmod>2020-01-28T18:53:37+08:00</lastmod>
       
@@ -7132,7 +7152,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli17/</loc>
+      <loc>http://wzj.life/2020/kli17/</loc>
       
       <lastmod>2020-01-28T18:47:04+08:00</lastmod>
       
@@ -7142,7 +7162,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli16/</loc>
+      <loc>http://wzj.life/2020/kli16/</loc>
       
       <lastmod>2020-01-28T17:23:09+08:00</lastmod>
       
@@ -7152,7 +7172,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/bg1/</loc>
+      <loc>http://wzj.life/2020/bg1/</loc>
       
       <lastmod>2020-01-26T11:35:21+08:00</lastmod>
       
@@ -7162,7 +7182,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/sharp3/</loc>
+      <loc>http://wzj.life/2020/sharp3/</loc>
       
       <lastmod>2020-01-26T11:11:17+08:00</lastmod>
       
@@ -7172,7 +7192,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli15/</loc>
+      <loc>http://wzj.life/2020/kli15/</loc>
       
       <lastmod>2020-01-25T22:00:44+08:00</lastmod>
       
@@ -7182,7 +7202,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli14/</loc>
+      <loc>http://wzj.life/2020/kli14/</loc>
       
       <lastmod>2020-01-25T21:49:03+08:00</lastmod>
       
@@ -7192,7 +7212,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blog3/</loc>
+      <loc>http://wzj.life/2020/blog3/</loc>
       
       <lastmod>2020-01-25T11:16:48+08:00</lastmod>
       
@@ -7202,7 +7222,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/sharp2/</loc>
+      <loc>http://wzj.life/2020/sharp2/</loc>
       
       <lastmod>2020-01-25T11:06:10+08:00</lastmod>
       
@@ -7212,7 +7232,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli13/</loc>
+      <loc>http://wzj.life/2020/kli13/</loc>
       
       <lastmod>2020-01-24T20:27:21+08:00</lastmod>
       
@@ -7222,7 +7242,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli12/</loc>
+      <loc>http://wzj.life/2020/kli12/</loc>
       
       <lastmod>2020-01-24T20:14:03+08:00</lastmod>
       
@@ -7232,7 +7252,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli11/</loc>
+      <loc>http://wzj.life/2020/kli11/</loc>
       
       <lastmod>2020-01-24T20:03:58+08:00</lastmod>
       
@@ -7242,7 +7262,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blog2/</loc>
+      <loc>http://wzj.life/2020/blog2/</loc>
       
       <lastmod>2020-01-24T16:28:50+08:00</lastmod>
       
@@ -7252,7 +7272,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli10/</loc>
+      <loc>http://wzj.life/2020/kli10/</loc>
       
       <lastmod>2020-01-24T15:51:42+08:00</lastmod>
       
@@ -7262,7 +7282,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli9/</loc>
+      <loc>http://wzj.life/2020/kli9/</loc>
       
       <lastmod>2020-01-24T15:44:39+08:00</lastmod>
       
@@ -7272,7 +7292,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/sharp1/</loc>
+      <loc>http://wzj.life/2020/sharp1/</loc>
       
       <lastmod>2020-01-24T15:20:08+08:00</lastmod>
       
@@ -7282,7 +7302,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli8/</loc>
+      <loc>http://wzj.life/2020/kli8/</loc>
       
       <lastmod>2020-01-24T12:56:54+08:00</lastmod>
       
@@ -7292,7 +7312,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli7/</loc>
+      <loc>http://wzj.life/2020/kli7/</loc>
       
       <lastmod>2020-01-24T12:48:25+08:00</lastmod>
       
@@ -7302,7 +7322,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli6/</loc>
+      <loc>http://wzj.life/2020/kli6/</loc>
       
       <lastmod>2020-01-24T12:39:30+08:00</lastmod>
       
@@ -7312,7 +7332,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli5/</loc>
+      <loc>http://wzj.life/2020/kli5/</loc>
       
       <lastmod>2020-01-24T12:34:14+08:00</lastmod>
       
@@ -7322,7 +7342,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli4/</loc>
+      <loc>http://wzj.life/2020/kli4/</loc>
       
       <lastmod>2020-01-24T12:22:46+08:00</lastmod>
       
@@ -7332,7 +7352,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli3/</loc>
+      <loc>http://wzj.life/2020/kli3/</loc>
       
       <lastmod>2020-01-24T11:47:52+08:00</lastmod>
       
@@ -7342,7 +7362,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli2/</loc>
+      <loc>http://wzj.life/2020/kli2/</loc>
       
       <lastmod>2020-01-24T10:47:47+08:00</lastmod>
       
@@ -7352,7 +7372,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/kli1/</loc>
+      <loc>http://wzj.life/2020/kli1/</loc>
       
       <lastmod>2020-01-24T10:44:47+08:00</lastmod>
       
@@ -7362,7 +7382,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blog1/</loc>
+      <loc>http://wzj.life/2020/blog1/</loc>
       
       <lastmod>2020-01-24T09:51:39+08:00</lastmod>
       
@@ -7372,7 +7392,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/about/</loc>
+      <loc>http://wzj.life/about/</loc>
       
       <lastmod>2020-01-24T00:35:26+08:00</lastmod>
       
@@ -7382,7 +7402,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl23/</loc>
+      <loc>http://wzj.life/2020/blwl23/</loc>
       
       <lastmod>2020-01-23T22:45:58+08:00</lastmod>
       
@@ -7392,7 +7412,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl22/</loc>
+      <loc>http://wzj.life/2020/blwl22/</loc>
       
       <lastmod>2020-01-23T22:44:58+08:00</lastmod>
       
@@ -7402,7 +7422,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl21/</loc>
+      <loc>http://wzj.life/2020/blwl21/</loc>
       
       <lastmod>2020-01-23T22:43:58+08:00</lastmod>
       
@@ -7412,7 +7432,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl20/</loc>
+      <loc>http://wzj.life/2020/blwl20/</loc>
       
       <lastmod>2020-01-23T22:42:58+08:00</lastmod>
       
@@ -7422,7 +7442,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl19/</loc>
+      <loc>http://wzj.life/2020/blwl19/</loc>
       
       <lastmod>2020-01-23T22:41:58+08:00</lastmod>
       
@@ -7432,7 +7452,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl18/</loc>
+      <loc>http://wzj.life/2020/blwl18/</loc>
       
       <lastmod>2020-01-23T22:40:58+08:00</lastmod>
       
@@ -7442,7 +7462,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl17/</loc>
+      <loc>http://wzj.life/2020/blwl17/</loc>
       
       <lastmod>2020-01-23T22:39:58+08:00</lastmod>
       
@@ -7452,7 +7472,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl16/</loc>
+      <loc>http://wzj.life/2020/blwl16/</loc>
       
       <lastmod>2020-01-23T22:38:58+08:00</lastmod>
       
@@ -7462,7 +7482,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl15/</loc>
+      <loc>http://wzj.life/2020/blwl15/</loc>
       
       <lastmod>2020-01-23T22:37:58+08:00</lastmod>
       
@@ -7472,7 +7492,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl14/</loc>
+      <loc>http://wzj.life/2020/blwl14/</loc>
       
       <lastmod>2020-01-23T22:36:58+08:00</lastmod>
       
@@ -7482,7 +7502,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl13/</loc>
+      <loc>http://wzj.life/2020/blwl13/</loc>
       
       <lastmod>2020-01-23T22:35:58+08:00</lastmod>
       
@@ -7492,7 +7512,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl12/</loc>
+      <loc>http://wzj.life/2020/blwl12/</loc>
       
       <lastmod>2020-01-23T22:34:58+08:00</lastmod>
       
@@ -7502,7 +7522,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl11/</loc>
+      <loc>http://wzj.life/2020/blwl11/</loc>
       
       <lastmod>2020-01-23T22:33:58+08:00</lastmod>
       
@@ -7512,7 +7532,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl10/</loc>
+      <loc>http://wzj.life/2020/blwl10/</loc>
       
       <lastmod>2020-01-23T22:32:58+08:00</lastmod>
       
@@ -7522,7 +7542,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl9/</loc>
+      <loc>http://wzj.life/2020/blwl9/</loc>
       
       <lastmod>2020-01-23T22:31:58+08:00</lastmod>
       
@@ -7532,7 +7552,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl8/</loc>
+      <loc>http://wzj.life/2020/blwl8/</loc>
       
       <lastmod>2020-01-23T22:30:58+08:00</lastmod>
       
@@ -7542,7 +7562,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl7/</loc>
+      <loc>http://wzj.life/2020/blwl7/</loc>
       
       <lastmod>2020-01-23T22:29:58+08:00</lastmod>
       
@@ -7552,7 +7572,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl6/</loc>
+      <loc>http://wzj.life/2020/blwl6/</loc>
       
       <lastmod>2020-01-23T22:28:58+08:00</lastmod>
       
@@ -7562,7 +7582,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl5/</loc>
+      <loc>http://wzj.life/2020/blwl5/</loc>
       
       <lastmod>2020-01-23T22:27:58+08:00</lastmod>
       
@@ -7572,7 +7592,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl4/</loc>
+      <loc>http://wzj.life/2020/blwl4/</loc>
       
       <lastmod>2020-01-23T22:26:58+08:00</lastmod>
       
@@ -7582,7 +7602,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl3/</loc>
+      <loc>http://wzj.life/2020/blwl3/</loc>
       
       <lastmod>2020-01-23T22:25:56+08:00</lastmod>
       
@@ -7592,7 +7612,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl2/</loc>
+      <loc>http://wzj.life/2020/blwl2/</loc>
       
       <lastmod>2020-01-23T22:24:58+08:00</lastmod>
       
@@ -7602,7 +7622,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/2020/blwl1/</loc>
+      <loc>http://wzj.life/2020/blwl1/</loc>
       
       <lastmod>2020-01-23T22:23:58+08:00</lastmod>
       
@@ -7612,7 +7632,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/categories/c/c&#43;&#43;-and-algorithm/</loc>
+      <loc>http://wzj.life/categories/c/c&#43;&#43;-and-algorithm/</loc>
       
       
       
@@ -7620,7 +7640,7 @@
     </url>
   
     <url>
-      <loc>http://jonathanwayy.xyz/series/</loc>
+      <loc>http://wzj.life/series/</loc>
       
       
       

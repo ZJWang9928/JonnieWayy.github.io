@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>white hat on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/white-hat/</link>
-    <description>Recent content in white hat on Jonathan`s Blog</description>
+    <title>white hat on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/white-hat/</link>
+    <description>Recent content in white hat on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Jul 2020 15:43:39 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/white-hat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jul 2020 15:43:39 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/white-hat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Kali学习笔记1] Kali Linux渗透测试介绍</title>
-      <link>http://jonathanwayy.xyz/2020/kali1/</link>
+      <link>http://wzj.life/2020/kali1/</link>
       <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/kali1/</guid>
+      <guid>http://wzj.life/2020/kali1/</guid>
       <description>安全问题的根源 优点：分工明确，工作效率高。 缺点：从业人员对系统没有整体的认识，对安全认识较为片面。 最大威胁是人，人都会犯错，安全问题不能10</description>
     </item>
     

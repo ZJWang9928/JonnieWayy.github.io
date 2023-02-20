@@ -1,487 +1,487 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>domain generalization on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-    <description>Recent content in domain generalization on Jonathan`s Blog</description>
+    <title>domain generalization on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/domain-generalization/</link>
+    <description>Recent content in domain generalization on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 19 Feb 2023 17:30:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 17:30:51 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn344/</link>
+      <link>http://wzj.life/2023/prn344/</link>
       <pubDate>Sun, 19 Feb 2023 17:30:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn344/</guid>
+      <guid>http://wzj.life/2023/prn344/</guid>
       <description>Unsupervised Cross-domain Person Re-identification by Instance And Distribution Alignment (PR 2022) 概述 本文针对无监督跨域 ReID 提出一种 Hierarchical Unsupervised Domain Adaptation (HUDA) 模型。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Robust Representation Learning with Self-Distillation for DG (2023)</title>
-      <link>http://jonathanwayy.xyz/2023/prn343/</link>
+      <link>http://wzj.life/2023/prn343/</link>
       <pubDate>Sun, 19 Feb 2023 15:46:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn343/</guid>
+      <guid>http://wzj.life/2023/prn343/</guid>
       <description>2302.06874 Robust Representation Learning with Self-Distillation for Domain Generalization (2023) 概述 本文针对域泛化问题，提出一种 Robust Representation Learning with Self-Distillation (RRLD) 方法，其包含 intermediate-block self-distillation (IBSD) 和 augmentation-guided self-distillation (AGSD)。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Learning to Learn Domain-invariant Parameters for DG (2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn340/</link>
+      <link>http://wzj.life/2023/prn340/</link>
       <pubDate>Sat, 18 Feb 2023 15:27:38 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn340/</guid>
+      <guid>http://wzj.life/2023/prn340/</guid>
       <description>2211.04582 Learning to Learn Domain-invariant Parameters for Domain Generalization (2022) 概述 一个模型的部分参数对学习域不变表征占据主导地位，因而本文致力于自适应地利用与更新这一部分参数，提出了一种 Domain Decoupling and Combination (DDC) 模</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Test-time Fourier Style Calibration for DG (IJCAI 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn339/</link>
+      <link>http://wzj.life/2023/prn339/</link>
       <pubDate>Sat, 18 Feb 2023 11:49:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn339/</guid>
+      <guid>http://wzj.life/2023/prn339/</guid>
       <description>Test-time Fourier Style Calibration for Domain Generalization (IJCAI 2022) 概述 本文针对域泛化问题，提出一种 Test-time Fourier Style Calibration (TF-Cal) 方法。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Foresee What You Will Learn: DA4DG in Non-Stationary Env (2023)</title>
-      <link>http://jonathanwayy.xyz/2023/prn338/</link>
+      <link>http://wzj.life/2023/prn338/</link>
       <pubDate>Fri, 17 Feb 2023 20:52:34 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn338/</guid>
+      <guid>http://wzj.life/2023/prn338/</guid>
       <description>2301.07845 Foresee What You Will Learn: Data Augmentation for Domain Generalization in Non-Stationary Environments (2023) 概述 本文关注 Evolving Domain Generalization 问题，提出一种方向性域增广 (Directional Domain Augmentation, DDA) 策略。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain-Conditioned Normalization for Test-Time DG (ECCV 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn329/</link>
+      <link>http://wzj.life/2023/prn329/</link>
       <pubDate>Wed, 15 Feb 2023 14:39:28 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn329/</guid>
+      <guid>http://wzj.life/2023/prn329/</guid>
       <description>Domain-Conditioned Normalization for Test-Time Domain Generalization (ECCV 2022) 概述 当前主要的三类 DG 方法 Invariant representation learning Data augmentation Regularization techniques 本文提出一种测试时的 DG 方法，称为 Domain Conditioned Normalization (DCN)。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Style Neophile: Constantly Seeking Novel Styles for DG (CVPR 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn328/</link>
+      <link>http://wzj.life/2023/prn328/</link>
       <pubDate>Sun, 12 Feb 2023 20:36:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn328/</guid>
+      <guid>http://wzj.life/2023/prn328/</guid>
       <description>Style Neophile: Constantly Seeking Novel Styles for Domain Generalization (CVPR 2022) 概述 本文试图在训练过程中不断生成新的可能的风格。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Unseen Target Stance Detection with Adversarial DG (IJCNN 2020)</title>
-      <link>http://jonathanwayy.xyz/2023/prn327/</link>
+      <link>http://wzj.life/2023/prn327/</link>
       <pubDate>Sat, 11 Feb 2023 20:18:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn327/</guid>
+      <guid>http://wzj.life/2023/prn327/</guid>
       <description>Unseen Target Stance Detection with Adversarial Domain Generalization (IJCNN 2020) 概述 立场检测任务中的域泛化问题。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Meta-Learning for DG in Semantic Parsing (ACL 2021)</title>
-      <link>http://jonathanwayy.xyz/2023/prn326/</link>
+      <link>http://wzj.life/2023/prn326/</link>
       <pubDate>Sat, 11 Feb 2023 17:32:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn326/</guid>
+      <guid>http://wzj.life/2023/prn326/</guid>
       <description>Meta-Learning for Domain Generalization in Semantic Parsing (ACL 2021) 开源代码传送门 概述 本文关注语义解析中的域泛化问题，引入元学习架构。 训练算法</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] DG for Text Classification with Memory-Based SCL (COLING 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn325/</link>
+      <link>http://wzj.life/2023/prn325/</link>
       <pubDate>Sat, 11 Feb 2023 17:13:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn325/</guid>
+      <guid>http://wzj.life/2023/prn325/</guid>
       <description>Domain Generalization for Text Classification with Memory-Based Supervised Contrastive Learning (COLING 2022) 开源代码传送门 概述 本文关注文本分类任务中的域泛化问题，引入监督对比学习 (supervised contrasive learning, SCL)。 SCL 本文方法</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Bridging the GGap in Text-to-SQL Parsing with SE (ACL 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn324/</link>
+      <link>http://wzj.life/2023/prn324/</link>
       <pubDate>Sat, 11 Feb 2023 17:02:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn324/</guid>
+      <guid>http://wzj.life/2023/prn324/</guid>
       <description>Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion (ACL 2022) 开源代码传送门 概述 Text-to-SQL 解析任务中的域泛化问题。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization Emerges from Dreaming (2023)</title>
-      <link>http://jonathanwayy.xyz/2023/prn323/</link>
+      <link>http://wzj.life/2023/prn323/</link>
       <pubDate>Sat, 11 Feb 2023 16:29:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn323/</guid>
+      <guid>http://wzj.life/2023/prn323/</guid>
       <description>2302.00980 Domain Generalization Emerges from Dreaming (2023) 概述 域泛化问题。 本文提出一种称为 Stylized Dream 的数据增广方法，以减轻模型的 texture bias。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] CLIP the Gap: A Single DG Approach for Object Detection (2023)</title>
-      <link>http://jonathanwayy.xyz/2023/prn322/</link>
+      <link>http://wzj.life/2023/prn322/</link>
       <pubDate>Sat, 11 Feb 2023 15:55:41 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn322/</guid>
+      <guid>http://wzj.life/2023/prn322/</guid>
       <description>2301.05499 CLIP the Gap: A Single Domain Generalization Approach for Object Detection (2023) 概述 本文关注目标检测任务中的单源域泛化问题，引入 CLIP。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Aggregation of Disentangle: Reconsider D Variations in DG (2023)</title>
-      <link>http://jonathanwayy.xyz/2023/prn321/</link>
+      <link>http://wzj.life/2023/prn321/</link>
       <pubDate>Sat, 11 Feb 2023 14:54:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn321/</guid>
+      <guid>http://wzj.life/2023/prn321/</guid>
       <description>2302.02350 Aggregation of Disentanglement: Reconsidering Domain Variations in Domain Generalization (2023) 概述 域泛化问题。 本文认为从多个源域得到的域不变特征不一定是分类任务的最优解。 一方面，生成的域不变信息在目标域并不一定有</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Modeling Uncertain Feature Representation for DG (2023)</title>
-      <link>http://jonathanwayy.xyz/2023/prn320/</link>
+      <link>http://wzj.life/2023/prn320/</link>
       <pubDate>Sat, 11 Feb 2023 14:36:41 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn320/</guid>
+      <guid>http://wzj.life/2023/prn320/</guid>
       <description>2301.06442 Modeling Uncertain Feature Representation for Domain Generalization (2023) 开源代码传送门 概述 论文 Uncertainty Modeling for Out-of-Distribution Generalization (ICLR 2022) 的拓展工作。 模型架构 重构样本示例 Inference-time Adapatation</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Uncertainty Modeling for OOD Generalization (ICLR 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn319/</link>
+      <link>http://wzj.life/2023/prn319/</link>
       <pubDate>Fri, 10 Feb 2023 23:26:52 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn319/</guid>
+      <guid>http://wzj.life/2023/prn319/</guid>
       <description>Uncertainty Modeling for Out-of-Distribution Generalization (ICLR 2022) 开源代码传送门 概述 域泛化任务。 本文提出一种概率方法，用不确定性最域迁移进行建模 (modeling Domain Shifts with Uncertainty, DSU)，将特征统计量建模为不确定性分</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization using Ensemble Learning (IntelliSys 2021)</title>
-      <link>http://jonathanwayy.xyz/2023/prn318/</link>
+      <link>http://wzj.life/2023/prn318/</link>
       <pubDate>Fri, 06 Jan 2023 17:23:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn318/</guid>
+      <guid>http://wzj.life/2023/prn318/</guid>
       <description>2103.10257 Domain Generalization using Ensemble Learning (IntelliSys 2021) 概述 本文关注利用集成学习解决单源域泛化问题。 用于集成的 CNN 结构 集成方式 分别计算，标签预测求均值 单层感知机作 Meta-learner 计算权重 多层感知机</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization with Correlated Style Uncertainty (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn317/</link>
+      <link>http://wzj.life/2022/prn317/</link>
       <pubDate>Fri, 30 Dec 2022 18:22:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn317/</guid>
+      <guid>http://wzj.life/2022/prn317/</guid>
       <description>2212.09950 Domain Generalization with Correlated Style Uncertainty (2022) 概述 本文提出一种新的域泛化方法，称为 Correlated Style Uncertainty (CSU)。 Feature Statistics Correlation 本文方法</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] HMOE: Hypernetwork-based Mixture of Experts for DG (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn315/</link>
+      <link>http://wzj.life/2022/prn315/</link>
       <pubDate>Sat, 10 Dec 2022 10:15:43 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn315/</guid>
+      <guid>http://wzj.life/2022/prn315/</guid>
       <description>2211.08253 HMOE: Hypernetwork-based Mixture of Experts for Domain Generalization (2022) 概述 本文旨在提出一种无需域标签且具有良好可解释性的 DG 算法，设计了一种 Hypernetwork-based Mixture of Experts (MoE) 方法。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Adversarially Adaptive Normalization for Single DG (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn314/</link>
+      <link>http://wzj.life/2022/prn314/</link>
       <pubDate>Wed, 07 Dec 2022 17:25:28 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn314/</guid>
+      <guid>http://wzj.life/2022/prn314/</guid>
       <description>Adversarially Adaptive Normalization for Single Domain Generalization (CVPR 2021) 概述 本文提出一种 Adaptive Standardization and Rescaling Normalization (ASR-Norm) 方法用于单源域泛化。 ASR-Norm 层结构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Deep Frequency Filtering for Domain Generalization (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn312/</link>
+      <link>http://wzj.life/2022/prn312/</link>
       <pubDate>Wed, 30 Nov 2022 17:21:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn312/</guid>
+      <guid>http://wzj.life/2022/prn312/</guid>
       <description>2203.12198 Deep Frequency Filtering for Domain Generalization (2022) 概述 本文针对域泛化问题，提出深度频率滤波 (Deep Frequency Filtering, DFF)。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] FSDR: Freq. Space Domain Randomization for DG(CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn311/</link>
+      <link>http://wzj.life/2022/prn311/</link>
       <pubDate>Tue, 29 Nov 2022 16:29:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn311/</guid>
+      <guid>http://wzj.life/2022/prn311/</guid>
       <description>FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021) 概述 语义分割任务。 本文提出一种频率空间域随机化 (Frequency Space Domain Randomization, FSDR) 方法。 谱分解可视化 模型架构 DIFs 与 DVFs 分析 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Explainable Deep Classification Models for DG (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn310/</link>
+      <link>http://wzj.life/2022/prn310/</link>
       <pubDate>Mon, 28 Nov 2022 15:23:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn310/</guid>
+      <guid>http://wzj.life/2022/prn310/</guid>
       <description>Explainable Deep Classification Models for Domain Generalization (CVPR 2021) 概述 本文认为提高分类器的可解释性能够提升其泛化能力，并主要关注单源域泛化问题。 基于数据增广的方法通常只改变了色彩特征，但无</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Generalizing through Forgetting - DG for SEE in CN (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn309/</link>
+      <link>http://wzj.life/2022/prn309/</link>
       <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn309/</guid>
+      <guid>http://wzj.life/2022/prn309/</guid>
       <description>2209.09485 Generalizing through Forgetting - Domain Generalization for Symptom Event Extraction in Clinical Notes (2022) 概述 Cross-domain Symptom Event Extraction 问题。 数据集情况 本文方法</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] DG of NMT: Fusing Adapters with LODO Training (ACL 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn308/</link>
+      <link>http://wzj.life/2022/prn308/</link>
       <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn308/</guid>
+      <guid>http://wzj.life/2022/prn308/</guid>
       <description>Domain Generalisation of NMT: Fusing Adapters with Leave-One-Domain-Out Training (ACL 2022) 开源代码传送门 概述 本文关注机器翻译任务中的域泛化问题。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Grounding Visual Representations with Texts for DG (ECCV 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn307/</link>
+      <link>http://wzj.life/2022/prn307/</link>
       <pubDate>Thu, 24 Nov 2022 17:47:34 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn307/</guid>
+      <guid>http://wzj.life/2022/prn307/</guid>
       <description>Grounding Visual Representations with Texts for Domain Generalization (ECCV 2022) 开源代码传送门 概述 本文旨在利用跨模态监督学习更加域不变的表征。 本文提出一个视觉文本联合嵌入器 (Visual and Textual Joint Embedder) 和一个文本解释生成</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] HiddenCut: Simple Data Augmentation for NLU (ACL 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn306/</link>
+      <link>http://wzj.life/2022/prn306/</link>
       <pubDate>Thu, 24 Nov 2022 17:11:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn306/</guid>
+      <guid>http://wzj.life/2022/prn306/</guid>
       <description>HiddenCut: Simple Data Augmentation for Natural Language Understanding with Better Generalization (ACL 2021) 开源代码传送门 概述 本文提出一种数据增广方法，称为 HiddenCut，用于在微调阶段对预训练语言模型进行正则化。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Adversarial TS Representation Learning for DG (NeurIPS 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn305/</link>
+      <link>http://wzj.life/2022/prn305/</link>
       <pubDate>Thu, 24 Nov 2022 16:02:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn305/</guid>
+      <guid>http://wzj.life/2022/prn305/</guid>
       <description>Adversarial Teacher-Student Representation Learning for Domain Generalization (NeurIPS 2021) 概述 现有工作只保证了对可见源域不变，而不能保证学习到的表征对不可见域数据的泛化能力。 本文提出一种对抗师生表征学习框架 (Adversarial Teacher-Student Representation</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] DG via FDB Feature Disentanglement and Interaction (MM 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn304/</link>
+      <link>http://wzj.life/2022/prn304/</link>
       <pubDate>Thu, 24 Nov 2022 09:40:38 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn304/</guid>
+      <guid>http://wzj.life/2022/prn304/</guid>
       <description>Domain Generalization via Frequency-domain-based Feature Disentanglement and Interaction (MM 2022) 概述 一个发现 图像的高频信息在不同域中较为一致 低频信息与域更为相关 本文提出一种基于频域的特征结构与交互框架 (Frequency-domain-based Feature Disentanglement and Interaction framework, FF</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Learning to Learn Single Domain Generalization (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2022/prn303/</link>
+      <link>http://wzj.life/2022/prn303/</link>
       <pubDate>Wed, 23 Nov 2022 16:51:38 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn303/</guid>
+      <guid>http://wzj.life/2022/prn303/</guid>
       <description>Learning to Learn Single Domain Generalization (CVPR 2020) 开源代码传送门 概述 单源域泛化问题。 本文提出一种基于元学习的对抗域增广 (Meta-Learning based Adversarial Domain Augmentation, M-ADA) 方法。 模型架构 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Uncertainty-guided Model Gen. to Unseen Domains (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn301/</link>
+      <link>http://wzj.life/2022/prn301/</link>
       <pubDate>Tue, 22 Nov 2022 14:57:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn301/</guid>
+      <guid>http://wzj.life/2022/prn301/</guid>
       <description>Uncertainty-guided Model Generalization to Unseen Domains (CVPR 2021) 开源代码传送门 概述 本文关注关注单源域 OOD 泛化问题，提出 Uncertain Out-of-domain Generalization，旨在通过不确定性估计的指导在输入空间和</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Meta Convolutional Neural Networks for Single DG (CVPR 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn300/</link>
+      <link>http://wzj.life/2022/prn300/</link>
       <pubDate>Thu, 17 Nov 2022 14:32:31 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn300/</guid>
+      <guid>http://wzj.life/2022/prn300/</guid>
       <description>Meta Convolutional Neural Networks for Single Domain Generalization (CVPR 2022) 概述 本文关注单源域泛化问题，提出一种新的卷积神经网络，称为 Meta CNN。 BoMF 操作 Meta CNN 架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] FIXED: Frustratingly Easy Domain Generalization with Mixup (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn299/</link>
+      <link>http://wzj.life/2022/prn299/</link>
       <pubDate>Wed, 16 Nov 2022 17:07:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn299/</guid>
+      <guid>http://wzj.life/2022/prn299/</guid>
       <description>2211.05228 FIXED: Frustratingly Easy Domain Generalization with Mixup (2022) 概述 本文将现有 DG 工作分为三类： Learning domain invariant representations Meta-learning Data augmentation-based DG 本文关注数据增广，尤其是 Mixup，其通过任意一对数据之间的线性插值生成新数</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Attention Diversification for Domain Generalization (ECCV 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn298/</link>
+      <link>http://wzj.life/2022/prn298/</link>
       <pubDate>Tue, 15 Nov 2022 14:09:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn298/</guid>
+      <guid>http://wzj.life/2022/prn298/</guid>
       <description>Attention Diversification for Domain Generalization (ECCV 2022) 开源代码传送门 概述 本文针对 DG 任务，提出一种注意力多样化架构 (Attention Diversification framework)。 模型架构 训练策略 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Attention-Calibration Based Double-Branch CD ReID (KBS 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn288/</link>
+      <link>http://wzj.life/2022/prn288/</link>
       <pubDate>Sun, 23 Oct 2022 15:47:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn288/</guid>
+      <guid>http://wzj.life/2022/prn288/</guid>
       <description>Attention-Calibration Based Double-Branch Cross-Domain Person Re-Identification (KBS 2022) 概述 本文提出一种 Attention-Calibration Based Double-Branch Cross-Domain Person Re-Identification Network (ACDBNet)，其核心观点为：通道特征和空间特征用于提取可区别的特征，域无关特征和域特定特</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Generalizing to Unseen Domains: A Survey on DG (TKDE 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn281/</link>
+      <link>http://wzj.life/2022/prn281/</link>
       <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn281/</guid>
+      <guid>http://wzj.life/2022/prn281/</guid>
       <description>Generalizing to Unseen Domains: A Survey on Domain Generalization (TKDE 2022) DeepDG 传送门 概述 域泛化综述。 域泛化定义 相关任务差异对比 现有 DG 方法分类 DG 的应用 常用 DG 数据集</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 迁移学习] Knowledge as Priors: CMKG for Datasets without SK (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2022/prn280/</link>
+      <link>http://wzj.life/2022/prn280/</link>
       <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn280/</guid>
+      <guid>http://wzj.life/2022/prn280/</guid>
       <description>Knowledge as Priors: Cross-Modal Knowledge Generalization for Datasets without Superior Knowledge (CVPR 2020) 概述 本文基于跨模态知识蒸馏 (Cross-Modal Knowledge Distillation, CMKD) 任务，研究将从成对数据的源数据集上学习到的跨模态知识迁移到监督模态缺失的目标数据</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Style Variable and Irrelevant Learning for Generalizable ReID (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn279/</link>
+      <link>http://wzj.life/2022/prn279/</link>
       <pubDate>Tue, 11 Oct 2022 11:07:57 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn279/</guid>
+      <guid>http://wzj.life/2022/prn279/</guid>
       <description>2209.05235 Style Variable and Irrelevant Learning for Generalizable Person Re-identification (2022) 概述 现有方法可以分为三类 基于对抗学习的方法 基于归一化的方法 基于元学习的方法 一个基本问题 DG-ReID 中包含的域偏差 (domain bias) 主要是哪些因</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] GReID with Relevance-aware Mixture of Experts (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn277/</link>
+      <link>http://wzj.life/2022/prn277/</link>
       <pubDate>Thu, 06 Oct 2022 14:28:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn277/</guid>
+      <guid>http://wzj.life/2022/prn277/</guid>
       <description>Generalizable Person Re-identification with Relevance-aware Mixture of Experts (CVPR 2021) 概述 现有工作通常将多个源域数据整合到一起训练一个模型，这类方法存在如下问题： 为不同的域学习一个公共的特征空间，可能会忽略</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域自适应] Feat. Align. by Uncertainty and Self-Training for SFUDA (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn274/</link>
+      <link>http://wzj.life/2022/prn274/</link>
       <pubDate>Tue, 27 Sep 2022 14:32:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn274/</guid>
+      <guid>http://wzj.life/2022/prn274/</guid>
       <description>2208.14888 Feature Alignment by Uncertainty and Self-Training for Source-Free Unsupervised Domain Adaptation (2022) 概述 本文提出一种 source-free UDA 方法，称为 Feature Alignment by Uncertainty and Self-Training (FAUST)。 模型架构</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] MVDG: A Unified Multi-view Framework for DG (ECCV 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn273/</link>
+      <link>http://wzj.life/2022/prn273/</link>
       <pubDate>Mon, 26 Sep 2022 13:48:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn273/</guid>
+      <guid>http://wzj.life/2022/prn273/</guid>
       <description>MVDG: A Unified Multi-view Framework for Domain Generalization (ECCV 2022) 开源代码传送门 概述 域泛化问题。 本文认为源域上过拟合的问题不仅存在于训练阶段，对测试阶段也有很大影响。 本文提出一种多视角架</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] CrossNorm and SelfNorm for Generalization under DS (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn270/</link>
+      <link>http://wzj.life/2022/prn270/</link>
       <pubDate>Sun, 18 Sep 2022 13:28:41 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn270/</guid>
+      <guid>http://wzj.life/2022/prn270/</guid>
       <description>CrossNorm and SelfNorm for Generalization under Distribution Shifts (ICCV 2021) 开源代码传送门 概述 本文从两个方面处理分布迁移问题： 增大训练分布 减小测试分布 本文提出互补的 CrossNorm 和 SelfNorm。 本文方法 可</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Feature-based Style Randomization for DG (2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn269/</link>
+      <link>http://wzj.life/2022/prn269/</link>
       <pubDate>Sat, 17 Sep 2022 15:07:41 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn269/</guid>
+      <guid>http://wzj.life/2022/prn269/</guid>
       <description>2106.03171 Feature-based Style Randomization for Domain Generalization (2021) 概述 现有大部分 DG 方法只在源域做图像级别的数据增广，本文旨在提高增广的多样性，提出一种基于特征的风格随机化模块 (Feature-based Style Randomization, FSR)。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Attention Consistency on Visual Corruptions for SSDG (CVPRW 22)</title>
-      <link>http://jonathanwayy.xyz/2022/prn268/</link>
+      <link>http://wzj.life/2022/prn268/</link>
       <pubDate>Fri, 16 Sep 2022 17:30:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn268/</guid>
+      <guid>http://wzj.life/2022/prn268/</guid>
       <description>Attention Consistency on Visual Corruptions for Single-Source Domain Generalization (CVPRW 22) 开源代码传送门 概述 单源域泛化问题。 本文认为一个健壮的 single DG 模型应当对同一训练样本的多个增广给出一致的诠释；此外，所采用的</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Learning Domain Invariant Representations for Gen. ReID (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn262/</link>
+      <link>http://wzj.life/2022/prn262/</link>
       <pubDate>Tue, 30 Aug 2022 17:34:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn262/</guid>
+      <guid>http://wzj.life/2022/prn262/</guid>
       <description>2103.15890 Learning Domain Invariant Representations for Generalizable Person Re-identification (2022) 概述 本文认为行人图像受以下两组潜在随机变量的影响： Identity-specific Factors \(S\) Domain-specific Factors \(V\) \(V\) 可能会混淆模型，两者间的伪相关也会使得模型难以基于 \(S\) 对 ID</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Feature-Distribution Perturbation and Calibration for GReID (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn257/</link>
+      <link>http://wzj.life/2022/prn257/</link>
       <pubDate>Tue, 19 Jul 2022 18:11:43 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn257/</guid>
+      <guid>http://wzj.life/2022/prn257/</guid>
       <description>2205.11197 Feature-Distribution Perturbation and Calibration for Generalized ReID (2022) 概述 本文提出一种特征分布扰动与校准模型 (Feature-Distribution Perturbation and Calibration model, PECA)，其包含局部分布扰动和全局分布校准。 本文方法</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Style Interleaved Learning for Generalizable Person Re-identification (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn256/</link>
+      <link>http://wzj.life/2022/prn256/</link>
       <pubDate>Sat, 16 Jul 2022 13:34:15 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn256/</guid>
+      <guid>http://wzj.life/2022/prn256/</guid>
       <description>2207.03132 Style Interleaved Learning for Generalizable Person Re-identification (2022) 开源代码传送门 概述 本文提出一种风格交叉学习框架 (Style Interleaved Learning Framework)，每次迭代包含两次前向传播和一次反向传播，用合成的</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Learning to Diversify for Single Domain Generalization (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn254/</link>
+      <link>http://wzj.life/2022/prn254/</link>
       <pubDate>Mon, 11 Jul 2022 15:25:27 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn254/</guid>
+      <guid>http://wzj.life/2022/prn254/</guid>
       <description>Learning to Diversify for Single Domain Generalization (ICCV 2021) 开源代码传送门 概述 主流的 DG 技术可分为基于对齐的和基于增广的两种。 本文关注只有单个源域的域泛化问题，提出一种 Learning-to-diversify (L2D) 方法。 本文方</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization: A Survey (2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn253/</link>
+      <link>http://wzj.life/2022/prn253/</link>
       <pubDate>Thu, 07 Jul 2022 13:47:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn253/</guid>
+      <guid>http://wzj.life/2022/prn253/</guid>
       <description>2103.02503 Domain Generalization: A Survey (2021) 概述 域泛化综述。 两类 DG Multi-Source DG Single-Source DG 常用的 DG 数据集 表现衡量 通常遵循 leave-one-domain-out 原则，即留出一个域作为目标域。 用在留出的域上平均或最坏的表现来评估</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Meta Batch-Instance Normalization for Generalizable ReID (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn252/</link>
+      <link>http://wzj.life/2022/prn252/</link>
       <pubDate>Sun, 03 Jul 2022 15:43:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn252/</guid>
+      <guid>http://wzj.life/2022/prn252/</guid>
       <description>Meta Batch-Instance Normalization for Generalizable Person Re-Identification (CVPR 2021) 开源代码传送门 概述 本文发现 BN 模型主要基于各个 mini-batch 中的风格变化来学习有鉴别力的信息，但是难以处理风格没见过的样本，因此称之为 u</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Dual Distribution Alignment Network for Generalizable ReID (AAAI 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn251/</link>
+      <link>http://wzj.life/2022/prn251/</link>
       <pubDate>Sat, 02 Jul 2022 15:23:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn251/</guid>
+      <guid>http://wzj.life/2022/prn251/</guid>
       <description>Dual Distribution Alignment Network for Generalizable Person Re-Identification (AAAI 2021) 概述 DG for Person ReID 的两大困难 Domain-wise Variations Identity-wise Similarities 本文提出一种端到端的 双分布对齐网络 (Dual Distribution Alignment Network, DDAN)。 本文方法 Domain-wise Adversarial Feature Learning 旨在应对 Domain-wise Variations 问题。 将</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] CADG: A Model Based on Cross Attention for D. Generalization (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn250/</link>
+      <link>http://wzj.life/2022/prn250/</link>
       <pubDate>Sat, 02 Jul 2022 13:47:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn250/</guid>
+      <guid>http://wzj.life/2022/prn250/</guid>
       <description>CADG: A Model Based on Cross Attention for Domain Generalization (2022) 概述 相比于集成学习，训练单个端到端模型来解决分布迁移问题更加可行。 本文设计了一种针对域泛化的交叉注意力 (Cross Attention for Domain Generalization, CAD</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 迁移学习] FSDR: Frequency Space Domain Randomization (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn21/</link>
+      <link>http://wzj.life/2021/prn21/</link>
       <pubDate>Sat, 26 Jun 2021 11:27:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn21/</guid>
+      <guid>http://wzj.life/2021/prn21/</guid>
       <description>FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021) 背景 语义分割受限于数据标注的难度，因此带有自动生成标签的合成图像成了缓解这一问题的一个选择。 但是这类模型由于域偏置与偏移</description>
     </item>
     

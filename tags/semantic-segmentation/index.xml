@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>semantic segmentation on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/semantic-segmentation/</link>
-    <description>Recent content in semantic segmentation on Jonathan`s Blog</description>
+    <title>semantic segmentation on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/semantic-segmentation/</link>
+    <description>Recent content in semantic segmentation on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 29 Nov 2022 16:29:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/semantic-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 16:29:40 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/semantic-segmentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 域泛化] FSDR: Freq. Space Domain Randomization for DG(CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn311/</link>
+      <link>http://wzj.life/2022/prn311/</link>
       <pubDate>Tue, 29 Nov 2022 16:29:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn311/</guid>
+      <guid>http://wzj.life/2022/prn311/</guid>
       <description>FSDR: Frequency Space Domain Randomization for Domain Generalization (CVPR 2021) 概述 语义分割任务。 本文提出一种频率空间域随机化 (Frequency Space Domain Randomization, FSDR) 方法。 谱分解可视化 模型架构 DIFs 与 DVFs 分析 可视化示例</description>
     </item>
     

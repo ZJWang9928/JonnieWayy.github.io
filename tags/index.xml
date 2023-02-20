@@ -1,1630 +1,1639 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/</link>
-    <description>Recent content in Tags on Jonathan`s Blog</description>
+    <title>Tags on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/</link>
+    <description>Recent content in Tags on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Feb 2023 16:43:02 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cross-modal</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal/</link>
-      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 20 Feb 2023 18:24:38 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
-      <link>http://jonathanwayy.xyz/tags/cv/</link>
-      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
+      <link>http://wzj.life/tags/cv/</link>
+      <pubDate>Mon, 20 Feb 2023 18:24:38 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://jonathanwayy.xyz/tags/notes/</link>
-      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://jonathanwayy.xyz/tags/paper-reading/</link>
-      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://jonathanwayy.xyz/tags/reid/</link>
-      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/retrieval/</link>
-      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>domain generalization</title>
-      <link>http://jonathanwayy.xyz/tags/domain-generalization/</link>
-      <pubDate>Sun, 19 Feb 2023 17:30:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>re-identification</title>
-      <link>http://jonathanwayy.xyz/tags/re-identification/</link>
-      <pubDate>Sun, 19 Feb 2023 17:30:51 +0800</pubDate>
-      
-      <guid>http://jonathanwayy.xyz/tags/re-identification/</guid>
+      <guid>http://wzj.life/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data augmentation</title>
-      <link>http://jonathanwayy.xyz/tags/data-augmentation/</link>
-      <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
+      <link>http://wzj.life/tags/data-augmentation/</link>
+      <pubDate>Mon, 20 Feb 2023 18:24:38 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/data-augmentation/</guid>
+      <guid>http://wzj.life/tags/data-augmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://wzj.life/tags/notes/</link>
+      <pubDate>Mon, 20 Feb 2023 18:24:38 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://wzj.life/tags/paper-reading/</link>
+      <pubDate>Mon, 20 Feb 2023 18:24:38 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test-time</title>
+      <link>http://wzj.life/tags/test-time/</link>
+      <pubDate>Mon, 20 Feb 2023 18:24:38 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/test-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://wzj.life/tags/cross-modal/</link>
+      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://wzj.life/tags/reid/</link>
+      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://wzj.life/tags/retrieval/</link>
+      <pubDate>Mon, 20 Feb 2023 16:43:02 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>domain generalization</title>
+      <link>http://wzj.life/tags/domain-generalization/</link>
+      <pubDate>Sun, 19 Feb 2023 17:30:51 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/domain-generalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>re-identification</title>
+      <link>http://wzj.life/tags/re-identification/</link>
+      <pubDate>Sun, 19 Feb 2023 17:30:51 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/re-identification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nlp</title>
-      <link>http://jonathanwayy.xyz/tags/nlp/</link>
+      <link>http://wzj.life/tags/nlp/</link>
       <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/nlp/</guid>
+      <guid>http://wzj.life/tags/nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Survey</title>
-      <link>http://jonathanwayy.xyz/tags/survey/</link>
+      <link>http://wzj.life/tags/survey/</link>
       <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/survey/</guid>
+      <guid>http://wzj.life/tags/survey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>language model</title>
-      <link>http://jonathanwayy.xyz/tags/language-model/</link>
+      <link>http://wzj.life/tags/language-model/</link>
       <pubDate>Sat, 18 Feb 2023 15:55:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/language-model/</guid>
+      <guid>http://wzj.life/tags/language-model/</guid>
       <description></description>
     </item>
     
     <item>
       <title>attention</title>
-      <link>http://jonathanwayy.xyz/tags/attention/</link>
+      <link>http://wzj.life/tags/attention/</link>
       <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/attention/</guid>
+      <guid>http://wzj.life/tags/attention/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MAE</title>
-      <link>http://jonathanwayy.xyz/tags/mae/</link>
+      <link>http://wzj.life/tags/mae/</link>
       <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/mae/</guid>
+      <guid>http://wzj.life/tags/mae/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stance detection</title>
-      <link>http://jonathanwayy.xyz/tags/stance-detection/</link>
+      <link>http://wzj.life/tags/stance-detection/</link>
       <pubDate>Sat, 11 Feb 2023 20:18:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/stance-detection/</guid>
+      <guid>http://wzj.life/tags/stance-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>meta-learning</title>
-      <link>http://jonathanwayy.xyz/tags/meta-learning/</link>
+      <link>http://wzj.life/tags/meta-learning/</link>
       <pubDate>Sat, 11 Feb 2023 17:32:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/meta-learning/</guid>
+      <guid>http://wzj.life/tags/meta-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uncertainty</title>
-      <link>http://jonathanwayy.xyz/tags/uncertainty/</link>
+      <link>http://wzj.life/tags/uncertainty/</link>
       <pubDate>Sat, 11 Feb 2023 14:36:41 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/uncertainty/</guid>
+      <guid>http://wzj.life/tags/uncertainty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kde</title>
-      <link>http://jonathanwayy.xyz/tags/kde/</link>
+      <link>http://wzj.life/tags/kde/</link>
       <pubDate>Wed, 01 Feb 2023 14:55:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/kde/</guid>
+      <guid>http://wzj.life/tags/kde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://jonathanwayy.xyz/tags/linux/</link>
+      <link>http://wzj.life/tags/linux/</link>
       <pubDate>Wed, 01 Feb 2023 14:55:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/linux/</guid>
+      <guid>http://wzj.life/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>manjaro</title>
-      <link>http://jonathanwayy.xyz/tags/manjaro/</link>
+      <link>http://wzj.life/tags/manjaro/</link>
       <pubDate>Wed, 01 Feb 2023 14:55:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/manjaro/</guid>
+      <guid>http://wzj.life/tags/manjaro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wallpaper</title>
-      <link>http://jonathanwayy.xyz/tags/wallpaper/</link>
+      <link>http://wzj.life/tags/wallpaper/</link>
       <pubDate>Wed, 01 Feb 2023 14:55:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/wallpaper/</guid>
+      <guid>http://wzj.life/tags/wallpaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ViT</title>
-      <link>http://jonathanwayy.xyz/tags/vit/</link>
+      <link>http://wzj.life/tags/vit/</link>
       <pubDate>Fri, 30 Dec 2022 16:22:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/vit/</guid>
+      <guid>http://wzj.life/tags/vit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>captioning</title>
-      <link>http://jonathanwayy.xyz/tags/captioning/</link>
+      <link>http://wzj.life/tags/captioning/</link>
       <pubDate>Fri, 02 Dec 2022 16:45:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/captioning/</guid>
+      <guid>http://wzj.life/tags/captioning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>frequency</title>
-      <link>http://jonathanwayy.xyz/tags/frequency/</link>
+      <link>http://wzj.life/tags/frequency/</link>
       <pubDate>Fri, 02 Dec 2022 16:45:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/frequency/</guid>
+      <guid>http://wzj.life/tags/frequency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>video</title>
-      <link>http://jonathanwayy.xyz/tags/video/</link>
+      <link>http://wzj.life/tags/video/</link>
       <pubDate>Fri, 02 Dec 2022 16:45:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/video/</guid>
+      <guid>http://wzj.life/tags/video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>semantic segmentation</title>
-      <link>http://jonathanwayy.xyz/tags/semantic-segmentation/</link>
+      <link>http://wzj.life/tags/semantic-segmentation/</link>
       <pubDate>Tue, 29 Nov 2022 16:29:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/semantic-segmentation/</guid>
+      <guid>http://wzj.life/tags/semantic-segmentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>symptom extraction</title>
-      <link>http://jonathanwayy.xyz/tags/symptom-extraction/</link>
+      <link>http://wzj.life/tags/symptom-extraction/</link>
       <pubDate>Fri, 25 Nov 2022 16:21:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/symptom-extraction/</guid>
+      <guid>http://wzj.life/tags/symptom-extraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine translation</title>
-      <link>http://jonathanwayy.xyz/tags/machine-translation/</link>
+      <link>http://wzj.life/tags/machine-translation/</link>
       <pubDate>Thu, 24 Nov 2022 19:55:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/machine-translation/</guid>
+      <guid>http://wzj.life/tags/machine-translation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>natural language understanding</title>
-      <link>http://jonathanwayy.xyz/tags/natural-language-understanding/</link>
+      <link>http://wzj.life/tags/natural-language-understanding/</link>
       <pubDate>Thu, 24 Nov 2022 17:11:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/natural-language-understanding/</guid>
+      <guid>http://wzj.life/tags/natural-language-understanding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teacher-student</title>
-      <link>http://jonathanwayy.xyz/tags/teacher-student/</link>
+      <link>http://wzj.life/tags/teacher-student/</link>
       <pubDate>Thu, 24 Nov 2022 16:02:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/teacher-student/</guid>
+      <guid>http://wzj.life/tags/teacher-student/</guid>
       <description></description>
     </item>
     
     <item>
       <title>disentangling</title>
-      <link>http://jonathanwayy.xyz/tags/disentangling/</link>
+      <link>http://wzj.life/tags/disentangling/</link>
       <pubDate>Mon, 07 Nov 2022 12:44:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/disentangling/</guid>
+      <guid>http://wzj.life/tags/disentangling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CLIP</title>
-      <link>http://jonathanwayy.xyz/tags/clip/</link>
+      <link>http://wzj.life/tags/clip/</link>
       <pubDate>Sat, 05 Nov 2022 15:05:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/clip/</guid>
+      <guid>http://wzj.life/tags/clip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>counterfactual</title>
-      <link>http://jonathanwayy.xyz/tags/counterfactual/</link>
+      <link>http://wzj.life/tags/counterfactual/</link>
       <pubDate>Sat, 05 Nov 2022 15:05:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/counterfactual/</guid>
+      <guid>http://wzj.life/tags/counterfactual/</guid>
       <description></description>
     </item>
     
     <item>
       <title>image manipulation</title>
-      <link>http://jonathanwayy.xyz/tags/image-manipulation/</link>
+      <link>http://wzj.life/tags/image-manipulation/</link>
       <pubDate>Sat, 05 Nov 2022 15:05:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/image-manipulation/</guid>
+      <guid>http://wzj.life/tags/image-manipulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>disentanglement</title>
-      <link>http://jonathanwayy.xyz/tags/disentanglement/</link>
+      <link>http://wzj.life/tags/disentanglement/</link>
       <pubDate>Sun, 23 Oct 2022 16:27:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/disentanglement/</guid>
+      <guid>http://wzj.life/tags/disentanglement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tokenization</title>
-      <link>http://jonathanwayy.xyz/tags/tokenization/</link>
+      <link>http://wzj.life/tags/tokenization/</link>
       <pubDate>Sun, 23 Oct 2022 16:27:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/tokenization/</guid>
+      <guid>http://wzj.life/tags/tokenization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>segmentation</title>
-      <link>http://jonathanwayy.xyz/tags/segmentation/</link>
+      <link>http://wzj.life/tags/segmentation/</link>
       <pubDate>Fri, 14 Oct 2022 12:08:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/segmentation/</guid>
+      <guid>http://wzj.life/tags/segmentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transfer Learning</title>
-      <link>http://jonathanwayy.xyz/tags/transfer-learning/</link>
+      <link>http://wzj.life/tags/transfer-learning/</link>
       <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/transfer-learning/</guid>
+      <guid>http://wzj.life/tags/transfer-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dataset</title>
-      <link>http://jonathanwayy.xyz/tags/dataset/</link>
+      <link>http://wzj.life/tags/dataset/</link>
       <pubDate>Mon, 10 Oct 2022 10:21:01 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/dataset/</guid>
+      <guid>http://wzj.life/tags/dataset/</guid>
       <description></description>
     </item>
     
     <item>
       <title>domain adaptation</title>
-      <link>http://jonathanwayy.xyz/tags/domain-adaptation/</link>
+      <link>http://wzj.life/tags/domain-adaptation/</link>
       <pubDate>Tue, 27 Sep 2022 14:32:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/domain-adaptation/</guid>
+      <guid>http://wzj.life/tags/domain-adaptation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UDA</title>
-      <link>http://jonathanwayy.xyz/tags/uda/</link>
+      <link>http://wzj.life/tags/uda/</link>
       <pubDate>Tue, 27 Sep 2022 14:32:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/uda/</guid>
+      <guid>http://wzj.life/tags/uda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continual learning</title>
-      <link>http://jonathanwayy.xyz/tags/continual-learning/</link>
+      <link>http://wzj.life/tags/continual-learning/</link>
       <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/continual-learning/</guid>
+      <guid>http://wzj.life/tags/continual-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lifelong</title>
-      <link>http://jonathanwayy.xyz/tags/lifelong/</link>
+      <link>http://wzj.life/tags/lifelong/</link>
       <pubDate>Fri, 23 Sep 2022 13:45:24 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/lifelong/</guid>
+      <guid>http://wzj.life/tags/lifelong/</guid>
       <description></description>
     </item>
     
     <item>
       <title>composed retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/composed-retrieval/</link>
+      <link>http://wzj.life/tags/composed-retrieval/</link>
       <pubDate>Mon, 19 Sep 2022 15:44:12 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/composed-retrieval/</guid>
+      <guid>http://wzj.life/tags/composed-retrieval/</guid>
       <description></description>
     </item>
     
     <item>
       <title>clothes-changing</title>
-      <link>http://jonathanwayy.xyz/tags/clothes-changing/</link>
+      <link>http://wzj.life/tags/clothes-changing/</link>
       <pubDate>Wed, 31 Aug 2022 20:55:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/clothes-changing/</guid>
+      <guid>http://wzj.life/tags/clothes-changing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>anonymization</title>
-      <link>http://jonathanwayy.xyz/tags/anonymization/</link>
+      <link>http://wzj.life/tags/anonymization/</link>
       <pubDate>Wed, 03 Aug 2022 17:11:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/anonymization/</guid>
+      <guid>http://wzj.life/tags/anonymization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sketch</title>
-      <link>http://jonathanwayy.xyz/tags/sketch/</link>
+      <link>http://wzj.life/tags/sketch/</link>
       <pubDate>Thu, 30 Jun 2022 18:06:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/sketch/</guid>
+      <guid>http://wzj.life/tags/sketch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>person search</title>
-      <link>http://jonathanwayy.xyz/tags/person-search/</link>
+      <link>http://wzj.life/tags/person-search/</link>
       <pubDate>Mon, 27 Jun 2022 13:41:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/person-search/</guid>
+      <guid>http://wzj.life/tags/person-search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>weakly supervised</title>
-      <link>http://jonathanwayy.xyz/tags/weakly-supervised/</link>
+      <link>http://wzj.life/tags/weakly-supervised/</link>
       <pubDate>Mon, 27 Jun 2022 13:41:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/weakly-supervised/</guid>
+      <guid>http://wzj.life/tags/weakly-supervised/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cross-domain</title>
-      <link>http://jonathanwayy.xyz/tags/cross-domain/</link>
+      <link>http://wzj.life/tags/cross-domain/</link>
       <pubDate>Sun, 26 Jun 2022 16:16:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/cross-domain/</guid>
+      <guid>http://wzj.life/tags/cross-domain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>incremental learning</title>
-      <link>http://jonathanwayy.xyz/tags/incremental-learning/</link>
+      <link>http://wzj.life/tags/incremental-learning/</link>
       <pubDate>Tue, 14 Jun 2022 15:04:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/incremental-learning/</guid>
+      <guid>http://wzj.life/tags/incremental-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3D</title>
-      <link>http://jonathanwayy.xyz/tags/3d/</link>
+      <link>http://wzj.life/tags/3d/</link>
       <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/3d/</guid>
+      <guid>http://wzj.life/tags/3d/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Group ReID</title>
-      <link>http://jonathanwayy.xyz/tags/group-reid/</link>
+      <link>http://wzj.life/tags/group-reid/</link>
       <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/group-reid/</guid>
+      <guid>http://wzj.life/tags/group-reid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unsupervised</title>
-      <link>http://jonathanwayy.xyz/tags/unsupervised/</link>
+      <link>http://wzj.life/tags/unsupervised/</link>
       <pubDate>Sat, 11 Jun 2022 14:13:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/unsupervised/</guid>
+      <guid>http://wzj.life/tags/unsupervised/</guid>
       <description></description>
     </item>
     
     <item>
       <title>human parsing</title>
-      <link>http://jonathanwayy.xyz/tags/human-parsing/</link>
+      <link>http://wzj.life/tags/human-parsing/</link>
       <pubDate>Thu, 09 Jun 2022 20:50:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/human-parsing/</guid>
+      <guid>http://wzj.life/tags/human-parsing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>super-resolution</title>
-      <link>http://jonathanwayy.xyz/tags/super-resolution/</link>
+      <link>http://wzj.life/tags/super-resolution/</link>
       <pubDate>Tue, 07 Jun 2022 14:52:12 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/super-resolution/</guid>
+      <guid>http://wzj.life/tags/super-resolution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>self-supervision</title>
-      <link>http://jonathanwayy.xyz/tags/self-supervision/</link>
+      <link>http://wzj.life/tags/self-supervision/</link>
       <pubDate>Thu, 26 May 2022 12:13:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/self-supervision/</guid>
+      <guid>http://wzj.life/tags/self-supervision/</guid>
       <description></description>
     </item>
     
     <item>
       <title>acm</title>
-      <link>http://jonathanwayy.xyz/tags/acm/</link>
+      <link>http://wzj.life/tags/acm/</link>
       <pubDate>Fri, 13 May 2022 00:27:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/acm/</guid>
+      <guid>http://wzj.life/tags/acm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep learning</title>
-      <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
+      <link>http://wzj.life/tags/deep-learning/</link>
       <pubDate>Fri, 13 May 2022 00:27:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/deep-learning/</guid>
+      <guid>http://wzj.life/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>latex</title>
-      <link>http://jonathanwayy.xyz/tags/latex/</link>
+      <link>http://wzj.life/tags/latex/</link>
       <pubDate>Fri, 13 May 2022 00:27:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/latex/</guid>
+      <guid>http://wzj.life/tags/latex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>paperwriting</title>
-      <link>http://jonathanwayy.xyz/tags/paperwriting/</link>
+      <link>http://wzj.life/tags/paperwriting/</link>
       <pubDate>Fri, 13 May 2022 00:27:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/paperwriting/</guid>
+      <guid>http://wzj.life/tags/paperwriting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pretraining</title>
-      <link>http://jonathanwayy.xyz/tags/pretraining/</link>
+      <link>http://wzj.life/tags/pretraining/</link>
       <pubDate>Sun, 24 Apr 2022 16:44:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pretraining/</guid>
+      <guid>http://wzj.life/tags/pretraining/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sequential</title>
-      <link>http://jonathanwayy.xyz/tags/sequential/</link>
+      <link>http://wzj.life/tags/sequential/</link>
       <pubDate>Sun, 20 Mar 2022 20:59:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/sequential/</guid>
+      <guid>http://wzj.life/tags/sequential/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://jonathanwayy.xyz/tags/blog/</link>
+      <link>http://wzj.life/tags/blog/</link>
       <pubDate>Wed, 16 Mar 2022 01:08:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/blog/</guid>
+      <guid>http://wzj.life/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tiger</title>
-      <link>http://jonathanwayy.xyz/tags/tiger/</link>
+      <link>http://wzj.life/tags/tiger/</link>
       <pubDate>Tue, 08 Mar 2022 21:27:52 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/tiger/</guid>
+      <guid>http://wzj.life/tags/tiger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>long-term</title>
-      <link>http://jonathanwayy.xyz/tags/long-term/</link>
+      <link>http://wzj.life/tags/long-term/</link>
       <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/long-term/</guid>
+      <guid>http://wzj.life/tags/long-term/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pose</title>
-      <link>http://jonathanwayy.xyz/tags/pose/</link>
+      <link>http://wzj.life/tags/pose/</link>
       <pubDate>Mon, 07 Mar 2022 17:40:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pose/</guid>
+      <guid>http://wzj.life/tags/pose/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ArchLinux</title>
-      <link>http://jonathanwayy.xyz/tags/archlinux/</link>
+      <link>http://wzj.life/tags/archlinux/</link>
       <pubDate>Sun, 27 Feb 2022 15:47:04 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/archlinux/</guid>
+      <guid>http://wzj.life/tags/archlinux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pacman</title>
-      <link>http://jonathanwayy.xyz/tags/pacman/</link>
+      <link>http://wzj.life/tags/pacman/</link>
       <pubDate>Sun, 27 Feb 2022 15:47:04 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pacman/</guid>
+      <guid>http://wzj.life/tags/pacman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hashing</title>
-      <link>http://jonathanwayy.xyz/tags/hashing/</link>
+      <link>http://wzj.life/tags/hashing/</link>
       <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/hashing/</guid>
+      <guid>http://wzj.life/tags/hashing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>online learning</title>
-      <link>http://jonathanwayy.xyz/tags/online-learning/</link>
+      <link>http://wzj.life/tags/online-learning/</link>
       <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/online-learning/</guid>
+      <guid>http://wzj.life/tags/online-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>asr</title>
-      <link>http://jonathanwayy.xyz/tags/asr/</link>
+      <link>http://wzj.life/tags/asr/</link>
       <pubDate>Sat, 19 Feb 2022 21:06:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/asr/</guid>
+      <guid>http://wzj.life/tags/asr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lifelong learning</title>
-      <link>http://jonathanwayy.xyz/tags/lifelong-learning/</link>
+      <link>http://wzj.life/tags/lifelong-learning/</link>
       <pubDate>Sat, 19 Feb 2022 21:06:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/lifelong-learning/</guid>
+      <guid>http://wzj.life/tags/lifelong-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>knowledge distillation</title>
-      <link>http://jonathanwayy.xyz/tags/knowledge-distillation/</link>
+      <link>http://wzj.life/tags/knowledge-distillation/</link>
       <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/knowledge-distillation/</guid>
+      <guid>http://wzj.life/tags/knowledge-distillation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Domain</title>
-      <link>http://jonathanwayy.xyz/tags/domain/</link>
+      <link>http://wzj.life/tags/domain/</link>
       <pubDate>Fri, 11 Feb 2022 15:51:42 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/domain/</guid>
+      <guid>http://wzj.life/tags/domain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Baggage</title>
-      <link>http://jonathanwayy.xyz/tags/baggage/</link>
+      <link>http://wzj.life/tags/baggage/</link>
       <pubDate>Sun, 06 Feb 2022 18:08:02 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/baggage/</guid>
+      <guid>http://wzj.life/tags/baggage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>coding</title>
-      <link>http://jonathanwayy.xyz/tags/coding/</link>
+      <link>http://wzj.life/tags/coding/</link>
       <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/coding/</guid>
+      <guid>http://wzj.life/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://jonathanwayy.xyz/tags/python/</link>
+      <link>http://wzj.life/tags/python/</link>
       <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/python/</guid>
+      <guid>http://wzj.life/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pytorch</title>
-      <link>http://jonathanwayy.xyz/tags/pytorch/</link>
+      <link>http://wzj.life/tags/pytorch/</link>
       <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pytorch/</guid>
+      <guid>http://wzj.life/tags/pytorch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>resnet</title>
-      <link>http://jonathanwayy.xyz/tags/resnet/</link>
+      <link>http://wzj.life/tags/resnet/</link>
       <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/resnet/</guid>
+      <guid>http://wzj.life/tags/resnet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>http://jonathanwayy.xyz/tags/regression/</link>
+      <link>http://wzj.life/tags/regression/</link>
       <pubDate>Sun, 23 Jan 2022 14:22:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/regression/</guid>
+      <guid>http://wzj.life/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>self-supervised</title>
-      <link>http://jonathanwayy.xyz/tags/self-supervised/</link>
+      <link>http://wzj.life/tags/self-supervised/</link>
       <pubDate>Sun, 23 Jan 2022 14:22:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/self-supervised/</guid>
+      <guid>http://wzj.life/tags/self-supervised/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pooling</title>
-      <link>http://jonathanwayy.xyz/tags/pooling/</link>
+      <link>http://wzj.life/tags/pooling/</link>
       <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pooling/</guid>
+      <guid>http://wzj.life/tags/pooling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vehicle</title>
-      <link>http://jonathanwayy.xyz/tags/vehicle/</link>
+      <link>http://wzj.life/tags/vehicle/</link>
       <pubDate>Wed, 29 Dec 2021 15:30:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/vehicle/</guid>
+      <guid>http://wzj.life/tags/vehicle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>occuluded</title>
-      <link>http://jonathanwayy.xyz/tags/occuluded/</link>
+      <link>http://wzj.life/tags/occuluded/</link>
       <pubDate>Tue, 28 Dec 2021 13:14:24 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/occuluded/</guid>
+      <guid>http://wzj.life/tags/occuluded/</guid>
       <description></description>
     </item>
     
     <item>
       <title>visual dialog</title>
-      <link>http://jonathanwayy.xyz/tags/visual-dialog/</link>
+      <link>http://wzj.life/tags/visual-dialog/</link>
       <pubDate>Mon, 27 Dec 2021 17:59:41 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/visual-dialog/</guid>
+      <guid>http://wzj.life/tags/visual-dialog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plt</title>
-      <link>http://jonathanwayy.xyz/tags/plt/</link>
+      <link>http://wzj.life/tags/plt/</link>
       <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/plt/</guid>
+      <guid>http://wzj.life/tags/plt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cuda</title>
-      <link>http://jonathanwayy.xyz/tags/cuda/</link>
+      <link>http://wzj.life/tags/cuda/</link>
       <pubDate>Sun, 12 Dec 2021 17:35:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/cuda/</guid>
+      <guid>http://wzj.life/tags/cuda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mutual learning</title>
-      <link>http://jonathanwayy.xyz/tags/mutual-learning/</link>
+      <link>http://wzj.life/tags/mutual-learning/</link>
       <pubDate>Tue, 07 Dec 2021 12:32:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/mutual-learning/</guid>
+      <guid>http://wzj.life/tags/mutual-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CNN</title>
-      <link>http://jonathanwayy.xyz/tags/cnn/</link>
+      <link>http://wzj.life/tags/cnn/</link>
       <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/cnn/</guid>
+      <guid>http://wzj.life/tags/cnn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>transformer</title>
-      <link>http://jonathanwayy.xyz/tags/transformer/</link>
+      <link>http://wzj.life/tags/transformer/</link>
       <pubDate>Thu, 02 Dec 2021 21:15:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/transformer/</guid>
+      <guid>http://wzj.life/tags/transformer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>adversarial</title>
-      <link>http://jonathanwayy.xyz/tags/adversarial/</link>
+      <link>http://wzj.life/tags/adversarial/</link>
       <pubDate>Mon, 29 Nov 2021 13:39:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/adversarial/</guid>
+      <guid>http://wzj.life/tags/adversarial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>adversarial samples</title>
-      <link>http://jonathanwayy.xyz/tags/adversarial-samples/</link>
+      <link>http://wzj.life/tags/adversarial-samples/</link>
       <pubDate>Mon, 29 Nov 2021 13:39:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/adversarial-samples/</guid>
+      <guid>http://wzj.life/tags/adversarial-samples/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NAS</title>
-      <link>http://jonathanwayy.xyz/tags/nas/</link>
+      <link>http://wzj.life/tags/nas/</link>
       <pubDate>Thu, 18 Nov 2021 09:42:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/nas/</guid>
+      <guid>http://wzj.life/tags/nas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>occluded</title>
-      <link>http://jonathanwayy.xyz/tags/occluded/</link>
+      <link>http://wzj.life/tags/occluded/</link>
       <pubDate>Sun, 31 Oct 2021 17:14:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/occluded/</guid>
+      <guid>http://wzj.life/tags/occluded/</guid>
       <description></description>
     </item>
     
     <item>
       <title>matrix</title>
-      <link>http://jonathanwayy.xyz/tags/matrix/</link>
+      <link>http://wzj.life/tags/matrix/</link>
       <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/matrix/</guid>
+      <guid>http://wzj.life/tags/matrix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pickle</title>
-      <link>http://jonathanwayy.xyz/tags/pickle/</link>
+      <link>http://wzj.life/tags/pickle/</link>
       <pubDate>Sun, 26 Sep 2021 21:00:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pickle/</guid>
+      <guid>http://wzj.life/tags/pickle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>protocol</title>
-      <link>http://jonathanwayy.xyz/tags/protocol/</link>
+      <link>http://wzj.life/tags/protocol/</link>
       <pubDate>Sun, 26 Sep 2021 21:00:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/protocol/</guid>
+      <guid>http://wzj.life/tags/protocol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>http://jonathanwayy.xyz/tags/windows/</link>
+      <link>http://wzj.life/tags/windows/</link>
       <pubDate>Sun, 26 Sep 2021 21:00:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/windows/</guid>
+      <guid>http://wzj.life/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>normalization</title>
-      <link>http://jonathanwayy.xyz/tags/normalization/</link>
+      <link>http://wzj.life/tags/normalization/</link>
       <pubDate>Sun, 26 Sep 2021 17:07:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/normalization/</guid>
+      <guid>http://wzj.life/tags/normalization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>style transfer</title>
-      <link>http://jonathanwayy.xyz/tags/style-transfer/</link>
+      <link>http://wzj.life/tags/style-transfer/</link>
       <pubDate>Sun, 26 Sep 2021 17:07:17 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/style-transfer/</guid>
+      <guid>http://wzj.life/tags/style-transfer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>image captioning</title>
-      <link>http://jonathanwayy.xyz/tags/image-captioning/</link>
+      <link>http://wzj.life/tags/image-captioning/</link>
       <pubDate>Wed, 22 Sep 2021 13:14:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/image-captioning/</guid>
+      <guid>http://wzj.life/tags/image-captioning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>manifold</title>
-      <link>http://jonathanwayy.xyz/tags/manifold/</link>
+      <link>http://wzj.life/tags/manifold/</link>
       <pubDate>Thu, 16 Sep 2021 15:23:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/manifold/</guid>
+      <guid>http://wzj.life/tags/manifold/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pip</title>
-      <link>http://jonathanwayy.xyz/tags/pip/</link>
+      <link>http://wzj.life/tags/pip/</link>
       <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pip/</guid>
+      <guid>http://wzj.life/tags/pip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python2</title>
-      <link>http://jonathanwayy.xyz/tags/python2/</link>
+      <link>http://wzj.life/tags/python2/</link>
       <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/python2/</guid>
+      <guid>http://wzj.life/tags/python2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tensorflow</title>
-      <link>http://jonathanwayy.xyz/tags/tensorflow/</link>
+      <link>http://wzj.life/tags/tensorflow/</link>
       <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/tensorflow/</guid>
+      <guid>http://wzj.life/tags/tensorflow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>grpcio</title>
-      <link>http://jonathanwayy.xyz/tags/grpcio/</link>
+      <link>http://wzj.life/tags/grpcio/</link>
       <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/grpcio/</guid>
+      <guid>http://wzj.life/tags/grpcio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>opendr</title>
-      <link>http://jonathanwayy.xyz/tags/opendr/</link>
+      <link>http://wzj.life/tags/opendr/</link>
       <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/opendr/</guid>
+      <guid>http://wzj.life/tags/opendr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>opencv</title>
-      <link>http://jonathanwayy.xyz/tags/opencv/</link>
+      <link>http://wzj.life/tags/opencv/</link>
       <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/opencv/</guid>
+      <guid>http://wzj.life/tags/opencv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>graph</title>
-      <link>http://jonathanwayy.xyz/tags/graph/</link>
+      <link>http://wzj.life/tags/graph/</link>
       <pubDate>Thu, 09 Sep 2021 13:11:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/graph/</guid>
+      <guid>http://wzj.life/tags/graph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IEEE</title>
-      <link>http://jonathanwayy.xyz/tags/ieee/</link>
+      <link>http://wzj.life/tags/ieee/</link>
       <pubDate>Sat, 04 Sep 2021 00:21:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/ieee/</guid>
+      <guid>http://wzj.life/tags/ieee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tools</title>
-      <link>http://jonathanwayy.xyz/tags/tools/</link>
+      <link>http://wzj.life/tags/tools/</link>
       <pubDate>Sat, 04 Sep 2021 00:21:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/tools/</guid>
+      <guid>http://wzj.life/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>image</title>
-      <link>http://jonathanwayy.xyz/tags/image/</link>
+      <link>http://wzj.life/tags/image/</link>
       <pubDate>Mon, 30 Aug 2021 11:13:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/image/</guid>
+      <guid>http://wzj.life/tags/image/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hubness</title>
-      <link>http://jonathanwayy.xyz/tags/hubness/</link>
+      <link>http://wzj.life/tags/hubness/</link>
       <pubDate>Thu, 26 Aug 2021 12:55:43 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/hubness/</guid>
+      <guid>http://wzj.life/tags/hubness/</guid>
       <description></description>
     </item>
     
     <item>
       <title>longtable</title>
-      <link>http://jonathanwayy.xyz/tags/longtable/</link>
+      <link>http://wzj.life/tags/longtable/</link>
       <pubDate>Wed, 25 Aug 2021 12:41:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/longtable/</guid>
+      <guid>http://wzj.life/tags/longtable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>probability</title>
-      <link>http://jonathanwayy.xyz/tags/probability/</link>
+      <link>http://wzj.life/tags/probability/</link>
       <pubDate>Mon, 23 Aug 2021 14:43:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/probability/</guid>
+      <guid>http://wzj.life/tags/probability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>backup</title>
-      <link>http://jonathanwayy.xyz/tags/backup/</link>
+      <link>http://wzj.life/tags/backup/</link>
       <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/backup/</guid>
+      <guid>http://wzj.life/tags/backup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tar</title>
-      <link>http://jonathanwayy.xyz/tags/tar/</link>
+      <link>http://wzj.life/tags/tar/</link>
       <pubDate>Wed, 18 Aug 2021 14:36:27 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/tar/</guid>
+      <guid>http://wzj.life/tags/tar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GCN</title>
-      <link>http://jonathanwayy.xyz/tags/gcn/</link>
+      <link>http://wzj.life/tags/gcn/</link>
       <pubDate>Tue, 17 Aug 2021 15:53:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/gcn/</guid>
+      <guid>http://wzj.life/tags/gcn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fft</title>
-      <link>http://jonathanwayy.xyz/tags/fft/</link>
+      <link>http://wzj.life/tags/fft/</link>
       <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/fft/</guid>
+      <guid>http://wzj.life/tags/fft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>numpy</title>
-      <link>http://jonathanwayy.xyz/tags/numpy/</link>
+      <link>http://wzj.life/tags/numpy/</link>
       <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/numpy/</guid>
+      <guid>http://wzj.life/tags/numpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>federated learning</title>
-      <link>http://jonathanwayy.xyz/tags/federated-learning/</link>
+      <link>http://wzj.life/tags/federated-learning/</link>
       <pubDate>Wed, 28 Jul 2021 14:36:28 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/federated-learning/</guid>
+      <guid>http://wzj.life/tags/federated-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>detection</title>
-      <link>http://jonathanwayy.xyz/tags/detection/</link>
+      <link>http://wzj.life/tags/detection/</link>
       <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/detection/</guid>
+      <guid>http://wzj.life/tags/detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>face forgery</title>
-      <link>http://jonathanwayy.xyz/tags/face-forgery/</link>
+      <link>http://wzj.life/tags/face-forgery/</link>
       <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/face-forgery/</guid>
+      <guid>http://wzj.life/tags/face-forgery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>image deniosing</title>
-      <link>http://jonathanwayy.xyz/tags/image-deniosing/</link>
+      <link>http://wzj.life/tags/image-deniosing/</link>
       <pubDate>Mon, 12 Jul 2021 21:56:05 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/image-deniosing/</guid>
+      <guid>http://wzj.life/tags/image-deniosing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vqa</title>
-      <link>http://jonathanwayy.xyz/tags/vqa/</link>
+      <link>http://wzj.life/tags/vqa/</link>
       <pubDate>Mon, 12 Jul 2021 10:58:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/vqa/</guid>
+      <guid>http://wzj.life/tags/vqa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wavelet</title>
-      <link>http://jonathanwayy.xyz/tags/wavelet/</link>
+      <link>http://wzj.life/tags/wavelet/</link>
       <pubDate>Mon, 12 Jul 2021 10:12:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/wavelet/</guid>
+      <guid>http://wzj.life/tags/wavelet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pre-training</title>
-      <link>http://jonathanwayy.xyz/tags/pre-training/</link>
+      <link>http://wzj.life/tags/pre-training/</link>
       <pubDate>Sat, 10 Jul 2021 10:00:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pre-training/</guid>
+      <guid>http://wzj.life/tags/pre-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GAN</title>
-      <link>http://jonathanwayy.xyz/tags/gan/</link>
+      <link>http://wzj.life/tags/gan/</link>
       <pubDate>Wed, 07 Jul 2021 11:06:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/gan/</guid>
+      <guid>http://wzj.life/tags/gan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>convolution</title>
-      <link>http://jonathanwayy.xyz/tags/convolution/</link>
+      <link>http://wzj.life/tags/convolution/</link>
       <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/convolution/</guid>
+      <guid>http://wzj.life/tags/convolution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>digital signal processing</title>
-      <link>http://jonathanwayy.xyz/tags/digital-signal-processing/</link>
+      <link>http://wzj.life/tags/digital-signal-processing/</link>
       <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/digital-signal-processing/</guid>
+      <guid>http://wzj.life/tags/digital-signal-processing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DIP</title>
-      <link>http://jonathanwayy.xyz/tags/dip/</link>
+      <link>http://wzj.life/tags/dip/</link>
       <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/dip/</guid>
+      <guid>http://wzj.life/tags/dip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>noisy label</title>
-      <link>http://jonathanwayy.xyz/tags/noisy-label/</link>
+      <link>http://wzj.life/tags/noisy-label/</link>
       <pubDate>Mon, 28 Jun 2021 11:45:52 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/noisy-label/</guid>
+      <guid>http://wzj.life/tags/noisy-label/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rnn</title>
-      <link>http://jonathanwayy.xyz/tags/rnn/</link>
+      <link>http://wzj.life/tags/rnn/</link>
       <pubDate>Sat, 26 Jun 2021 10:35:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/rnn/</guid>
+      <guid>http://wzj.life/tags/rnn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tensor</title>
-      <link>http://jonathanwayy.xyz/tags/tensor/</link>
+      <link>http://wzj.life/tags/tensor/</link>
       <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/tensor/</guid>
+      <guid>http://wzj.life/tags/tensor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yay</title>
-      <link>http://jonathanwayy.xyz/tags/yay/</link>
+      <link>http://wzj.life/tags/yay/</link>
       <pubDate>Fri, 11 Jun 2021 11:39:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/yay/</guid>
+      <guid>http://wzj.life/tags/yay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>matplotlib</title>
-      <link>http://jonathanwayy.xyz/tags/matplotlib/</link>
+      <link>http://wzj.life/tags/matplotlib/</link>
       <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/matplotlib/</guid>
+      <guid>http://wzj.life/tags/matplotlib/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cross-modal retrieval</title>
-      <link>http://jonathanwayy.xyz/tags/cross-modal-retrieval/</link>
+      <link>http://wzj.life/tags/cross-modal-retrieval/</link>
       <pubDate>Sat, 29 May 2021 10:55:05 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/cross-modal-retrieval/</guid>
+      <guid>http://wzj.life/tags/cross-modal-retrieval/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nvidia</title>
-      <link>http://jonathanwayy.xyz/tags/nvidia/</link>
+      <link>http://wzj.life/tags/nvidia/</link>
       <pubDate>Fri, 14 May 2021 19:46:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/nvidia/</guid>
+      <guid>http://wzj.life/tags/nvidia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PIL</title>
-      <link>http://jonathanwayy.xyz/tags/pil/</link>
+      <link>http://wzj.life/tags/pil/</link>
       <pubDate>Fri, 14 May 2021 19:46:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pil/</guid>
+      <guid>http://wzj.life/tags/pil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>http://jonathanwayy.xyz/tags/markdown/</link>
+      <link>http://wzj.life/tags/markdown/</link>
       <pubDate>Mon, 10 May 2021 13:45:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/markdown/</guid>
+      <guid>http://wzj.life/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>http://jonathanwayy.xyz/tags/math/</link>
+      <link>http://wzj.life/tags/math/</link>
       <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/math/</guid>
+      <guid>http://wzj.life/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sinc</title>
-      <link>http://jonathanwayy.xyz/tags/sinc/</link>
+      <link>http://wzj.life/tags/sinc/</link>
       <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/sinc/</guid>
+      <guid>http://wzj.life/tags/sinc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>view</title>
-      <link>http://jonathanwayy.xyz/tags/view/</link>
+      <link>http://wzj.life/tags/view/</link>
       <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/view/</guid>
+      <guid>http://wzj.life/tags/view/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vmware</title>
-      <link>http://jonathanwayy.xyz/tags/vmware/</link>
+      <link>http://wzj.life/tags/vmware/</link>
       <pubDate>Tue, 27 Apr 2021 14:19:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/vmware/</guid>
+      <guid>http://wzj.life/tags/vmware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CATTI</title>
-      <link>http://jonathanwayy.xyz/tags/catti/</link>
+      <link>http://wzj.life/tags/catti/</link>
       <pubDate>Sat, 10 Apr 2021 20:29:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/catti/</guid>
+      <guid>http://wzj.life/tags/catti/</guid>
       <description></description>
     </item>
     
     <item>
       <title>English</title>
-      <link>http://jonathanwayy.xyz/tags/english/</link>
+      <link>http://wzj.life/tags/english/</link>
       <pubDate>Sat, 10 Apr 2021 20:29:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/english/</guid>
+      <guid>http://wzj.life/tags/english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gelu</title>
-      <link>http://jonathanwayy.xyz/tags/gelu/</link>
+      <link>http://wzj.life/tags/gelu/</link>
       <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/gelu/</guid>
+      <guid>http://wzj.life/tags/gelu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nvidia-smi</title>
-      <link>http://jonathanwayy.xyz/tags/nvidia-smi/</link>
+      <link>http://wzj.life/tags/nvidia-smi/</link>
       <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/nvidia-smi/</guid>
+      <guid>http://wzj.life/tags/nvidia-smi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>drivers</title>
-      <link>http://jonathanwayy.xyz/tags/drivers/</link>
+      <link>http://wzj.life/tags/drivers/</link>
       <pubDate>Sat, 19 Dec 2020 21:00:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/drivers/</guid>
+      <guid>http://wzj.life/tags/drivers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>http://jonathanwayy.xyz/tags/ubuntu/</link>
+      <link>http://wzj.life/tags/ubuntu/</link>
       <pubDate>Sat, 19 Dec 2020 21:00:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/ubuntu/</guid>
+      <guid>http://wzj.life/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conda</title>
-      <link>http://jonathanwayy.xyz/tags/conda/</link>
+      <link>http://wzj.life/tags/conda/</link>
       <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/conda/</guid>
+      <guid>http://wzj.life/tags/conda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sunlogin</title>
-      <link>http://jonathanwayy.xyz/tags/sunlogin/</link>
+      <link>http://wzj.life/tags/sunlogin/</link>
       <pubDate>Mon, 14 Dec 2020 23:18:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/sunlogin/</guid>
+      <guid>http://wzj.life/tags/sunlogin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>http://jonathanwayy.xyz/tags/vim/</link>
+      <link>http://wzj.life/tags/vim/</link>
       <pubDate>Tue, 08 Dec 2020 04:55:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/vim/</guid>
+      <guid>http://wzj.life/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>paper</title>
-      <link>http://jonathanwayy.xyz/tags/paper/</link>
+      <link>http://wzj.life/tags/paper/</link>
       <pubDate>Sun, 06 Dec 2020 23:51:53 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/paper/</guid>
+      <guid>http://wzj.life/tags/paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jupyter notebook</title>
-      <link>http://jonathanwayy.xyz/tags/jupyter-notebook/</link>
+      <link>http://wzj.life/tags/jupyter-notebook/</link>
       <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/jupyter-notebook/</guid>
+      <guid>http://wzj.life/tags/jupyter-notebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>book</title>
-      <link>http://jonathanwayy.xyz/tags/book/</link>
+      <link>http://wzj.life/tags/book/</link>
       <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/book/</guid>
+      <guid>http://wzj.life/tags/book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>note</title>
-      <link>http://jonathanwayy.xyz/tags/note/</link>
+      <link>http://wzj.life/tags/note/</link>
       <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/note/</guid>
+      <guid>http://wzj.life/tags/note/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>http://jonathanwayy.xyz/tags/docker/</link>
+      <link>http://wzj.life/tags/docker/</link>
       <pubDate>Mon, 14 Sep 2020 22:17:35 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/docker/</guid>
+      <guid>http://wzj.life/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>algorithm</title>
-      <link>http://jonathanwayy.xyz/tags/algorithm/</link>
+      <link>http://wzj.life/tags/algorithm/</link>
       <pubDate>Tue, 04 Aug 2020 16:55:15 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/algorithm/</guid>
+      <guid>http://wzj.life/tags/algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kmp</title>
-      <link>http://jonathanwayy.xyz/tags/kmp/</link>
+      <link>http://wzj.life/tags/kmp/</link>
       <pubDate>Tue, 04 Aug 2020 16:55:15 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/kmp/</guid>
+      <guid>http://wzj.life/tags/kmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pyinstall</title>
-      <link>http://jonathanwayy.xyz/tags/pyinstall/</link>
+      <link>http://wzj.life/tags/pyinstall/</link>
       <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/pyinstall/</guid>
+      <guid>http://wzj.life/tags/pyinstall/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fork</title>
-      <link>http://jonathanwayy.xyz/tags/fork/</link>
+      <link>http://wzj.life/tags/fork/</link>
       <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/fork/</guid>
+      <guid>http://wzj.life/tags/fork/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://jonathanwayy.xyz/tags/git/</link>
+      <link>http://wzj.life/tags/git/</link>
       <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/git/</guid>
+      <guid>http://wzj.life/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>http://jonathanwayy.xyz/tags/github/</link>
+      <link>http://wzj.life/tags/github/</link>
       <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/github/</guid>
+      <guid>http://wzj.life/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kali</title>
-      <link>http://jonathanwayy.xyz/tags/kali/</link>
+      <link>http://wzj.life/tags/kali/</link>
       <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/kali/</guid>
+      <guid>http://wzj.life/tags/kali/</guid>
       <description></description>
     </item>
     
     <item>
       <title>penetration testing</title>
-      <link>http://jonathanwayy.xyz/tags/penetration-testing/</link>
+      <link>http://wzj.life/tags/penetration-testing/</link>
       <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/penetration-testing/</guid>
+      <guid>http://wzj.life/tags/penetration-testing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>white hat</title>
-      <link>http://jonathanwayy.xyz/tags/white-hat/</link>
+      <link>http://wzj.life/tags/white-hat/</link>
       <pubDate>Sun, 12 Jul 2020 15:43:39 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/white-hat/</guid>
+      <guid>http://wzj.life/tags/white-hat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plugin</title>
-      <link>http://jonathanwayy.xyz/tags/plugin/</link>
+      <link>http://wzj.life/tags/plugin/</link>
       <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/plugin/</guid>
+      <guid>http://wzj.life/tags/plugin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>surround</title>
-      <link>http://jonathanwayy.xyz/tags/surround/</link>
+      <link>http://wzj.life/tags/surround/</link>
       <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/surround/</guid>
+      <guid>http://wzj.life/tags/surround/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vim-plugin</title>
-      <link>http://jonathanwayy.xyz/tags/vim-plugin/</link>
+      <link>http://wzj.life/tags/vim-plugin/</link>
       <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/vim-plugin/</guid>
+      <guid>http://wzj.life/tags/vim-plugin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git clone</title>
-      <link>http://jonathanwayy.xyz/tags/git-clone/</link>
+      <link>http://wzj.life/tags/git-clone/</link>
       <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/git-clone/</guid>
+      <guid>http://wzj.life/tags/git-clone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git fetch</title>
-      <link>http://jonathanwayy.xyz/tags/git-fetch/</link>
+      <link>http://wzj.life/tags/git-fetch/</link>
       <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/git-fetch/</guid>
+      <guid>http://wzj.life/tags/git-fetch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>http://jonathanwayy.xyz/tags/software/</link>
+      <link>http://wzj.life/tags/software/</link>
       <pubDate>Sun, 26 Apr 2020 16:43:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/software/</guid>
+      <guid>http://wzj.life/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>active function</title>
-      <link>http://jonathanwayy.xyz/tags/active-function/</link>
+      <link>http://wzj.life/tags/active-function/</link>
       <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/active-function/</guid>
+      <guid>http://wzj.life/tags/active-function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>http://jonathanwayy.xyz/tags/machine-learning/</link>
+      <link>http://wzj.life/tags/machine-learning/</link>
       <pubDate>Wed, 15 Apr 2020 13:20:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/machine-learning/</guid>
+      <guid>http://wzj.life/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Command</title>
-      <link>http://jonathanwayy.xyz/tags/command/</link>
+      <link>http://wzj.life/tags/command/</link>
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/command/</guid>
+      <guid>http://wzj.life/tags/command/</guid>
       <description></description>
     </item>
     
     <item>
       <title>command line</title>
-      <link>http://jonathanwayy.xyz/tags/command-line/</link>
+      <link>http://wzj.life/tags/command-line/</link>
       <pubDate>Thu, 30 Jan 2020 17:34:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/command-line/</guid>
+      <guid>http://wzj.life/tags/command-line/</guid>
       <description></description>
     </item>
     
     <item>
       <title>face detection</title>
-      <link>http://jonathanwayy.xyz/tags/face-detection/</link>
+      <link>http://wzj.life/tags/face-detection/</link>
       <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/face-detection/</guid>
+      <guid>http://wzj.life/tags/face-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>klingon</title>
-      <link>http://jonathanwayy.xyz/tags/klingon/</link>
+      <link>http://wzj.life/tags/klingon/</link>
       <pubDate>Tue, 28 Jan 2020 18:53:37 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/tags/klingon/</guid>
+      <guid>http://wzj.life/tags/klingon/</guid>
       <description></description>
     </item>
     

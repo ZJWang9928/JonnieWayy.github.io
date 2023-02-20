@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>re-identification on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/re-identification/</link>
-    <description>Recent content in re-identification on Jonathan`s Blog</description>
+    <title>re-identification on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/re-identification/</link>
+    <description>Recent content in re-identification on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 19 Feb 2023 17:30:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/re-identification/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 17:30:51 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/re-identification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn344/</link>
+      <link>http://wzj.life/2023/prn344/</link>
       <pubDate>Sun, 19 Feb 2023 17:30:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn344/</guid>
+      <guid>http://wzj.life/2023/prn344/</guid>
       <description>Unsupervised Cross-domain Person Re-identification by Instance And Distribution Alignment (PR 2022) 概述 本文针对无监督跨域 ReID 提出一种 Hierarchical Unsupervised Domain Adaptation (HUDA) 模型。 模型架构 可视化示例</description>
     </item>
     

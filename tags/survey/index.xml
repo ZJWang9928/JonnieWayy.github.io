@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Survey on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/survey/</link>
-    <description>Recent content in Survey on Jonathan`s Blog</description>
+    <title>Survey on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/survey/</link>
+    <description>Recent content in Survey on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 18 Feb 2023 16:11:01 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/survey/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 16:11:01 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/survey/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 数据增广] Data Augmentation Approaches in NLP: A Survey (AI Open 2022)</title>
-      <link>http://jonathanwayy.xyz/2023/prn342/</link>
+      <link>http://wzj.life/2023/prn342/</link>
       <pubDate>Sat, 18 Feb 2023 16:11:01 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2023/prn342/</guid>
+      <guid>http://wzj.life/2023/prn342/</guid>
       <description>Data Augmentation Approaches in Natural Language Processing: A Survey (AI Open 2022) 概述 关于 NLP 中数据增广的综述。 三类方法 Paraphrasing-based Noising-based Sampling-based Paraphrasing 的三种等级 一些 Paraphrasing-based 方法 一些 Noising-based 方法 一些 Sampling-based 方法 方法对比 影响 DA 效果的超参数</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Generalizing to Unseen Domains: A Survey on DG (TKDE 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn281/</link>
+      <link>http://wzj.life/2022/prn281/</link>
       <pubDate>Thu, 13 Oct 2022 11:44:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn281/</guid>
+      <guid>http://wzj.life/2022/prn281/</guid>
       <description>Generalizing to Unseen Domains: A Survey on Domain Generalization (TKDE 2022) DeepDG 传送门 概述 域泛化综述。 域泛化定义 相关任务差异对比 现有 DG 方法分类 DG 的应用 常用 DG 数据集</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization: A Survey (2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn253/</link>
+      <link>http://wzj.life/2022/prn253/</link>
       <pubDate>Thu, 07 Jul 2022 13:47:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn253/</guid>
+      <guid>http://wzj.life/2022/prn253/</guid>
       <description>2103.02503 Domain Generalization: A Survey (2021) 概述 域泛化综述。 两类 DG Multi-Source DG Single-Source DG 常用的 DG 数据集 表现衡量 通常遵循 leave-one-domain-out 原则，即留出一个域作为目标域。 用在留出的域上平均或最坏的表现来评估</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Person Search Challenges and Solutions: A Survey (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn102/</link>
+      <link>http://wzj.life/2021/prn102/</link>
       <pubDate>Fri, 24 Sep 2021 22:10:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn102/</guid>
+      <guid>http://wzj.life/2021/prn102/</guid>
       <description>2105.01605v1 Person Search Challenges and Solutions: A Survey (2021) 概述 关于 Image-based Person Search 与 Text-based Person Search 的综述。 本文与现有综述的差异 Detection-identification Inconsistency Problem Person Search 研究进展时间线 三个主要挑战 从场景图像学习具有足够鉴别能力的行人</description>
     </item>
     

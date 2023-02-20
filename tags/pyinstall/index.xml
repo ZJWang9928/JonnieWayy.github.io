@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pyinstall on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/pyinstall/</link>
-    <description>Recent content in pyinstall on Jonathan`s Blog</description>
+    <title>pyinstall on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/pyinstall/</link>
+    <description>Recent content in pyinstall on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 02 Aug 2020 16:50:51 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/pyinstall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Aug 2020 16:50:51 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/pyinstall/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[32] Pyinstaller 打包时报错 TypeError: an integer is required (got type bytes)</title>
-      <link>http://jonathanwayy.xyz/2020/blwl32/</link>
+      <link>http://wzj.life/2020/blwl32/</link>
       <pubDate>Sun, 02 Aug 2020 16:50:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl32/</guid>
+      <guid>http://wzj.life/2020/blwl32/</guid>
       <description>报错示例 Traceback (most recent call last): File &amp;#34;/home/godlovesjonny/.local/bin/pyinstaller&amp;#34;, line 8, in &amp;lt;module&amp;gt; sys.exit(run()) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;#34;, line 111, in run run_build(pyi_config, spec_file, **vars(args)) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/__main__.py&amp;#34;, line 63, in run_build PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;#34;, line 844, in main build(specfile, kw.get(&amp;#39;distpath&amp;#39;), kw.get(&amp;#39;workpath&amp;#39;), kw.get(&amp;#39;clean_build&amp;#39;)) File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/build_main.py&amp;#34;, line 791, in build exec(code, spec_namespace) File &amp;#34;/home/godlovesjonny/Jonny/Installs/v2rayL-master/v2rayL-GUI/v2rayLui.spec&amp;#34;, line 18, in &amp;lt;module&amp;gt; pyz = PYZ(a.pure, a.zipped_data, File &amp;#34;/usr/lib/python3.8/site-packages/PyInstaller/building/api.py&amp;#34;, line 98, in __init__ self.__postinit__() File</description>
     </item>
     

@@ -1,136 +1,136 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pytorch on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/pytorch/</link>
-    <description>Recent content in pytorch on Jonathan`s Blog</description>
+    <title>pytorch on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/pytorch/</link>
+    <description>Recent content in pytorch on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 03 Feb 2022 15:48:26 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Feb 2022 15:48:26 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>炼丹杂记 -- Pytorch 修改官方预训练模型输入通道数</title>
-      <link>http://jonathanwayy.xyz/2022/ldp_pytorch_resnet_input/</link>
+      <link>http://wzj.life/2022/ldp_pytorch_resnet_input/</link>
       <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/ldp_pytorch_resnet_input/</guid>
+      <guid>http://wzj.life/2022/ldp_pytorch_resnet_input/</guid>
       <description>有时需要修改预训练模型的输入通道数，在此记录一下一种可行的方法。 首先加载需要修改的预训练模型，查看一下模型的第一层，以 ResNet-50 为例： import torchvision.models as models backbone = models.resnet101(pretrained=False)</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- GeM Pooling 的 Pytorch 实现</title>
-      <link>http://jonathanwayy.xyz/2022/ldp_gempooling/</link>
+      <link>http://wzj.life/2022/ldp_gempooling/</link>
       <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/ldp_gempooling/</guid>
+      <guid>http://wzj.life/2022/ldp_gempooling/</guid>
       <description>记录一下 Generalized Mean Pooling (GeM 池化) 的一种 PyTorch 实现方式。 定义 GeM 池化公式定义如下： $$f_{g, c} = (\frac{1}{hw} \sum_{(i, j)} f_{4, (c, i, j)}^p)^{1/p}_{c = 1, 2, \dots, C},$$ 其中超参数 \(p &amp;gt; 0\)，默认设为 3.0，\(f_</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_got3and1/</link>
+      <link>http://wzj.life/2021/ldp_got3and1/</link>
       <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_got3and1/</guid>
+      <guid>http://wzj.life/2021/ldp_got3and1/</guid>
       <description>问题描述 在 dataloader 相关部分出现如下报错： RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 0. Got 3 and 1 in dimension 1 at /pytorch/aten/src/TH/generic/THTensorMath.c:3586 原因分析 RGB 图像中混有单通道的灰度图，导致堆叠时无法对齐。 解决办</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_loss_grad/</link>
+      <link>http://wzj.life/2021/ldp_loss_grad/</link>
       <pubDate>Sun, 12 Dec 2021 17:35:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_loss_grad/</guid>
+      <guid>http://wzj.life/2021/ldp_loss_grad/</guid>
       <description>问题描述 模型训练时遇到如下报错： RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.FloatTensor [50, 76, 512]] is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True). 一种解决办法 将原先的</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Python 报错 RuntimeError: CUDA error: invalid device ordinal 解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</link>
+      <link>http://wzj.life/2021/ldp_invalid_device_ordinal/</link>
       <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</guid>
+      <guid>http://wzj.life/2021/ldp_invalid_device_ordinal/</guid>
       <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&amp;#39;CUDA_VISIBLE_DEVICES&amp;#39;] = &amp;#34;0,1,2,3,4,5,6,7&amp;#34;</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Pytorch 取矩阵对角线元素</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</link>
+      <link>http://wzj.life/2021/ldp_pytorch_diag/</link>
       <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</guid>
+      <guid>http://wzj.life/2021/ldp_pytorch_diag/</guid>
       <description>在 Pytorch 中，可以用 torch.diag 取矩阵的对角线元素，返回的是一个向量；使用 torch.diag_embed 可将向量变换为以该向量为对角线的方阵。 In [1]: import torch In [2]: A = torch.randn(3, 3) In [3]: A Out[3]: tensor([[ 0.1808, 0.2905, -2.2199], [-0.8913, 1.1296, 0.6261],</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- PyTorch 出现 NotImplementedError 报错的一种可能情况</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</link>
+      <link>http://wzj.life/2021/ldp_torch_notimplementederror/</link>
       <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</guid>
+      <guid>http://wzj.life/2021/ldp_torch_notimplementederror/</guid>
       <description>问题描述 PyTorch 一使用网络进行计算即出现如下报错： raise NotImplementedErrorh 问题原因 经过反复的调试和检查后，发现是 forward 函数的问题，网络模型类中的 def forward 一行多缩进了一个 Tab 位，</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建</title>
-      <link>http://jonathanwayy.xyz/2021/fft-ap/</link>
+      <link>http://wzj.life/2021/fft-ap/</link>
       <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/fft-ap/</guid>
+      <guid>http://wzj.life/2021/fft-ap/</guid>
       <description>简单记录一下如何使用 PyTorch 对做过傅利叶变换后的特征进行幅度与相位的分离与重建。 In [1]: import torch In [2]: import numpy as np # 生成一个张量作为特征 In [3]: feat = torch.rand((3,10)) In [4]: feat Out[4]: tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01,</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现</title>
-      <link>http://jonathanwayy.xyz/2021/channel-shuffle/</link>
+      <link>http://wzj.life/2021/channel-shuffle/</link>
       <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/channel-shuffle/</guid>
+      <guid>http://wzj.life/2021/channel-shuffle/</guid>
       <description>在 ShuffleNet、SA-Net 以及一系列模型中涉及到了一种 Channel Shuffle 操作，用于在沿着通道维分组运算后保证各组特征之间能够有信息交互。 Channel Shuffle 的机</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/ldp7/</link>
+      <link>http://wzj.life/2021/ldp7/</link>
       <pubDate>Sat, 26 Jun 2021 10:35:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp7/</guid>
+      <guid>http://wzj.life/2021/ldp7/</guid>
       <description>背景 近期用到了一台新的堡垒机，上面的驱动环境比较老只能用 1.0.0 版本的 PyTorch。 调试了代码以后发现大体上没有遇到什么问题，唯一就是涉及到 GRU 的</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- ValueError: only one element tensors can be converted to Python scalars 问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/ldp5/</link>
+      <link>http://wzj.life/2021/ldp5/</link>
       <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp5/</guid>
+      <guid>http://wzj.life/2021/ldp5/</guid>
       <description>问题描述 形如以下操作： lst = [] a, b = torch.tensor([1, 2, 3]), torch.tensor([4, 5, 6]) lst.append(a) lst.append(b) converted_lst = torch.tensor(lst) 得到如下报错信息： ValueError: only one element tensors can be converted to Python scalars 原因分析 元素为 tensor 的 list 无法转化为 tensor。</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Pytorch view 函数 RuntimeError 问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/ldp4/</link>
+      <link>http://wzj.life/2021/ldp4/</link>
       <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp4/</guid>
+      <guid>http://wzj.life/2021/ldp4/</guid>
       <description>问题描述 在程序中使用形如 A = X.view(32, -1) 的语句调用 view 时出现如下报错： RuntimeError: view size is not compatible with input tensor&amp;#39;s size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead. 原因分析 view() 需要 Tensor 中元素地址连续，</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- GELU 激活函数的 Pytorch 实现</title>
-      <link>http://jonathanwayy.xyz/2021/ldp3/</link>
+      <link>http://wzj.life/2021/ldp3/</link>
       <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp3/</guid>
+      <guid>http://wzj.life/2021/ldp3/</guid>
       <description>Transformers 中提出了一个新的激活函数 GELU，由于比较新，该模块仅在 1.8 以上版本的 Pytorch 中被收录。 要在较低版本的 Pytorch 中使用 GELU，可自行编写实现，代码如下：</description>
     </item>
     
     <item>
       <title>通过 Conda 安装 Python OpenCV</title>
-      <link>http://jonathanwayy.xyz/2020/conda-opencv/</link>
+      <link>http://wzj.life/2020/conda-opencv/</link>
       <pubDate>Fri, 18 Dec 2020 00:33:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/conda-opencv/</guid>
+      <guid>http://wzj.life/2020/conda-opencv/</guid>
       <description>可通过以下命令安装 OpenCV： conda install -c menpo opencv</description>
     </item>
     

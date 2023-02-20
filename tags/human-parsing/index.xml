@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>human parsing on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/human-parsing/</link>
-    <description>Recent content in human parsing on Jonathan`s Blog</description>
+    <title>human parsing on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/human-parsing/</link>
+    <description>Recent content in human parsing on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 09 Jun 2022 20:50:18 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/human-parsing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jun 2022 20:50:18 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/human-parsing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- ReID] Identity-Guided Human Semantic Parsing for Person ReID (ECCV 2020)</title>
-      <link>http://jonathanwayy.xyz/2022/prn230/</link>
+      <link>http://wzj.life/2022/prn230/</link>
       <pubDate>Thu, 09 Jun 2022 20:50:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn230/</guid>
+      <guid>http://wzj.life/2022/prn230/</guid>
       <description>Identity-Guided Human Semantic Parsing for Person Re-Identification (ECCV 2020) 开源代码传送门 概述 本文提出一种身份指导的语义解析方法 (Identity-guided Semantic Parsing, ISP)，通过行人身份标签定位躯干部分和物件。</description>
     </item>
     

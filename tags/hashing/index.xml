@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hashing on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/hashing/</link>
-    <description>Recent content in hashing on Jonathan`s Blog</description>
+    <title>hashing on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/hashing/</link>
+    <description>Recent content in hashing on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Feb 2022 23:10:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/hashing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Feb 2022 23:10:29 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/hashing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Efficient Online Label Consistent Hashing (ICME 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn196/</link>
+      <link>http://wzj.life/2022/prn196/</link>
       <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn196/</guid>
+      <guid>http://wzj.life/2022/prn196/</guid>
       <description>Efficient Online Label Consistent Hashing for Large-Scale Cross-Modal Retrieval (ICME 2021) 概述 本文关注在线跨模态哈希问题，提出一种在线标签一致哈希方法 (Online Label Consistent Hashing approach, OLCH)。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID / 哈希] Faster Person Re-Identification (ECCV 2020)</title>
-      <link>http://jonathanwayy.xyz/2022/prn182/</link>
+      <link>http://wzj.life/2022/prn182/</link>
       <pubDate>Fri, 04 Feb 2022 16:55:12 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn182/</guid>
+      <guid>http://wzj.life/2022/prn182/</guid>
       <description>Faster Person Re-Identification (ECCV 2020) 开源代码传送门 概述 ReID 任务与一般的图像任务相比具有其特殊性，属于开放集合中实例级别的匹配，训练集与测试集的类别 (ID) 不同，这导致了需要很</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Hashing Person Re-ID with Self-distilling Smooth Relaxation (NC 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn181/</link>
+      <link>http://wzj.life/2022/prn181/</link>
       <pubDate>Sun, 30 Jan 2022 22:02:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn181/</guid>
+      <guid>http://wzj.life/2022/prn181/</guid>
       <description>Hashing Person Re-ID with Self-distilling Smooth Relaxation (Neurocomputing 2021) 概述 影响哈希 ReID 表现的两大因素： 特征表征：与非哈希方法的浮点特征相比，哈希编码在表征能力上具有内在的劣势 哈希松弛度：为了能够</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 图像检索] Self-Supervised Product Quantization for Uns. IR (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn180/</link>
+      <link>http://wzj.life/2022/prn180/</link>
       <pubDate>Sun, 30 Jan 2022 14:47:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn180/</guid>
+      <guid>http://wzj.life/2022/prn180/</guid>
       <description>Self-Supervised Product Quantization for Deep Unsupervised Image Retrieval (ICCV 2021) 开源代码传送门 概述 本文提出首个无监督端到端基于量化的图像检索方法，称为 Self-supervised Product Quantization (SPQ) Network，联合学习特征提取器和编码。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] SDMCH: Supervised Discrete Manifold-Embeded (IJCAI 2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn98/</link>
+      <link>http://wzj.life/2021/prn98/</link>
       <pubDate>Thu, 16 Sep 2021 15:23:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn98/</guid>
+      <guid>http://wzj.life/2021/prn98/</guid>
       <description>SDMCH: Supervised Discrete Manifold-Embedded Cross-Modal Hashing (IJCAI 2018) 概述 本文提出离散流形嵌入跨模态哈希方法 (Discrete Manifold-Embedded Cross-Modal Hashing, SDMCH)。 既挖掘数据的非线性流形结构，也在多模态之间构建相关性。 流形结构学</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn92/</link>
+      <link>http://wzj.life/2021/prn92/</link>
       <pubDate>Thu, 09 Sep 2021 13:11:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn92/</guid>
+      <guid>http://wzj.life/2021/prn92/</guid>
       <description>Aggregation-based Graph Convolutional Hashing for Unsupervised Cross-modal Retrieval (TMM 2021) 概述 本文提出基于聚合的图卷积哈希方法 (Aggregation-based Graph Convolutional Hashing, AGCH)。 模型架构 主要部件 图像编码器 + 图像 GCN 文本编码器 + 文本 GCN 融合模块 生成</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Attention-Guided Semantic Hashing (ICME 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn88/</link>
+      <link>http://wzj.life/2021/prn88/</link>
       <pubDate>Thu, 02 Sep 2021 12:29:35 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn88/</guid>
+      <guid>http://wzj.life/2021/prn88/</guid>
       <description>Attention-Guided Semantic Hashing for Unsupervised Cross-Modal Retrieval (ICME 2021) 概述 无监督跨模态哈希问题。 本文提出注意力指导的语义哈希模型 (Attention-Guided Semantic Hashing)。 模型架构 特征提取 VGG-16 提取图像特征，unive</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Graph Convolutional Network Hashing (IJCAI 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn19/</link>
+      <link>http://wzj.life/2021/prn19/</link>
       <pubDate>Thu, 24 Jun 2021 15:26:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn19/</guid>
+      <guid>http://wzj.life/2021/prn19/</guid>
       <description>Graph Convolutional Network Hashing for Cross-Modal Retrieval (IJCAI 2019) 本文提出一种针对跨模态检索的图卷积网络哈希 (graph convolution network hashing, GCH)，由一个语义编码器、两个特征编码网络和一个基于融合模块的图卷积网</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Deep Cross-Modal Hashing (CVPR 2017)</title>
-      <link>http://jonathanwayy.xyz/2021/prn16/</link>
+      <link>http://wzj.life/2021/prn16/</link>
       <pubDate>Tue, 22 Jun 2021 16:33:39 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn16/</guid>
+      <guid>http://wzj.life/2021/prn16/</guid>
       <description>Deep Cross-Modal Hashing (CVPR 2017) 哈希的目标 将原始空间数据点映射为汉明空间中的二进制编码，在汉明空间中保留原始空间中的相似度。 两类多模态哈希 (Multi-Modal Hashing, MMH) 多源哈希 (multi-source hashing, MSH) 目的</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Self-Supervised Adversarial Hashing Networks (CVPR 2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn15/</link>
+      <link>http://wzj.life/2021/prn15/</link>
       <pubDate>Tue, 22 Jun 2021 10:54:41 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn15/</guid>
+      <guid>http://wzj.life/2021/prn15/</guid>
       <description>Self-Supervised Adversarial Hashing Networks for Cross-Modal Retrieval (CVPR 2018) 当前(当时)跨模态哈希方法的主要不足 直接使用单类标签来衡量跨模态的语义关联，而事实上标准的跨模态数据集中一个图像实例往往能</description>
     </item>
     

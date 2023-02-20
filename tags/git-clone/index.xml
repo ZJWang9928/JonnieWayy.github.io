@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git clone on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/git-clone/</link>
-    <description>Recent content in git clone on Jonathan`s Blog</description>
+    <title>git clone on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/git-clone/</link>
+    <description>Recent content in git clone on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 20:24:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/git-clone/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jun 2020 20:24:14 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/git-clone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[29] git拉取库时断点续传的实现</title>
-      <link>http://jonathanwayy.xyz/2020/blwl29/</link>
+      <link>http://wzj.life/2020/blwl29/</link>
       <pubDate>Fri, 19 Jun 2020 20:24:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl29/</guid>
+      <guid>http://wzj.life/2020/blwl29/</guid>
       <description>git clone 不支持断点续传，拉取失败的库总是需要从头开始拉取，库大网慢的时候实在是很心累。 可以用 git fetch 解决这个问题。 # 建立同名目录并进入 $&amp;gt; mkdir dirname $&amp;gt; cd dirname #</description>
     </item>
     

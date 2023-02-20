@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>self-supervised on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/self-supervised/</link>
-    <description>Recent content in self-supervised on Jonathan`s Blog</description>
+    <title>self-supervised on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/self-supervised/</link>
+    <description>Recent content in self-supervised on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 23 Jan 2022 14:22:49 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/self-supervised/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 14:22:49 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/self-supervised/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 知识蒸馏] SimReg: Regression as a Simple Yet Effective Tool (BMVC 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn176/</link>
+      <link>http://wzj.life/2022/prn176/</link>
       <pubDate>Sun, 23 Jan 2022 14:22:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn176/</guid>
+      <guid>http://wzj.life/2022/prn176/</guid>
       <description>2201.05131 SimReg: Regression as a Simple Yet Effective Tool for Self-supervised Knowledge Distillation (BMVC 2021) 开源代码传送门 概述 本文关注自监督模型的蒸馏，发现 backbone 输出的特征比预测头最后一层输出的特征能更好地与教师模型相匹配</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 自监督学习] Self-supervised Geometric Features Discovery (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn150/</link>
+      <link>http://wzj.life/2021/prn150/</link>
       <pubDate>Wed, 29 Dec 2021 15:30:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn150/</guid>
+      <guid>http://wzj.life/2021/prn150/</guid>
       <description>Self-supervised Geometric Features Discovery via Interpretable Attention for Vehicle Re-Identification and Beyond (ICCV 2021) 概述 本文提出一种新的架构来学习具有鉴别能力的几何特征 (geometric features)，其借助自监督学习和一个简单但是可解释的</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 自监督学习] The Devil is in the Details for Vehicle ReID (ECCV 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn149/</link>
+      <link>http://wzj.life/2021/prn149/</link>
       <pubDate>Wed, 29 Dec 2021 15:05:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn149/</guid>
+      <guid>http://wzj.life/2021/prn149/</guid>
       <description>The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification (ECCV 2020) 概述 本文提出一种针对车辆 ReID 的自监督注意力 (SAVER)，自动关注车辆图像中的显著区域而无需额外的人工标注。 自监督残</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 自监督学习] Cross and Learn: Cross-Modal Self-Supervision (GCPR 2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn147/</link>
+      <link>http://wzj.life/2021/prn147/</link>
       <pubDate>Wed, 29 Dec 2021 12:06:15 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn147/</guid>
+      <guid>http://wzj.life/2021/prn147/</guid>
       <description>Cross and Learn: Cross-Modal Self-Supervision (GCPR 2018) 开源代码传送门 概述 本文关注自监督学习任务，常用的流程是在一个需要语义理解的代理任务上预训练一个网络，本文利用跨模态信息作为监督</description>
     </item>
     

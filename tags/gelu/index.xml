@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gelu on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/gelu/</link>
-    <description>Recent content in gelu on Jonathan`s Blog</description>
+    <title>gelu on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/gelu/</link>
+    <description>Recent content in gelu on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 25 Mar 2021 17:48:10 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/gelu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Mar 2021 17:48:10 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/gelu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>炼丹杂记 -- GELU 激活函数的 Pytorch 实现</title>
-      <link>http://jonathanwayy.xyz/2021/ldp3/</link>
+      <link>http://wzj.life/2021/ldp3/</link>
       <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp3/</guid>
+      <guid>http://wzj.life/2021/ldp3/</guid>
       <description>Transformers 中提出了一个新的激活函数 GELU，由于比较新，该模块仅在 1.8 以上版本的 Pytorch 中被收录。 要在较低版本的 Pytorch 中使用 GELU，可自行编写实现，代码如下：</description>
     </item>
     

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>online learning on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/online-learning/</link>
-    <description>Recent content in online learning on Jonathan`s Blog</description>
+    <title>online learning on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/online-learning/</link>
+    <description>Recent content in online learning on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Feb 2022 23:10:29 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/online-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Feb 2022 23:10:29 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/online-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Efficient Online Label Consistent Hashing (ICME 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn196/</link>
+      <link>http://wzj.life/2022/prn196/</link>
       <pubDate>Thu, 24 Feb 2022 23:10:29 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn196/</guid>
+      <guid>http://wzj.life/2022/prn196/</guid>
       <description>Efficient Online Label Consistent Hashing for Large-Scale Cross-Modal Retrieval (ICME 2021) 概述 本文关注在线跨模态哈希问题，提出一种在线标签一致哈希方法 (Online Label Consistent Hashing approach, OLCH)。</description>
     </item>
     

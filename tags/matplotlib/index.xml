@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>matplotlib on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/matplotlib/</link>
-    <description>Recent content in matplotlib on Jonathan`s Blog</description>
+    <title>matplotlib on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/matplotlib/</link>
+    <description>Recent content in matplotlib on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 06 Jun 2021 16:46:11 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jun 2021 16:46:11 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Matplotlib 颜色表</title>
-      <link>http://jonathanwayy.xyz/2021/matplotlib-color/</link>
+      <link>http://wzj.life/2021/matplotlib-color/</link>
       <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/matplotlib-color/</guid>
+      <guid>http://wzj.life/2021/matplotlib-color/</guid>
       <description>Matplotlib 中的颜色表如下图所示，可以直接通过参数color=&#39;颜色名称&#39;选取对应的颜色。</description>
     </item>
     

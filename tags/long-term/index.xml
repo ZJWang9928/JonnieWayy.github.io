@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>long-term on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/long-term/</link>
-    <description>Recent content in long-term on Jonathan`s Blog</description>
+    <title>long-term on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/long-term/</link>
+    <description>Recent content in long-term on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 08 Mar 2022 16:14:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/long-term/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2022 16:14:16 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/long-term/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- ReID] Clothing Status Awareness for Long-Term Person ReID (ICCV 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn207/</link>
+      <link>http://wzj.life/2022/prn207/</link>
       <pubDate>Tue, 08 Mar 2022 16:14:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn207/</guid>
+      <guid>http://wzj.life/2022/prn207/</guid>
       <description>Clothing Status Awareness for Long-Term Person Re-Identification (ICCV 2021) 概述 本文关注 Long-Term Person Re-identification (LT-reID) 问题，现有方法可主要分为两类： Biometrics-based Approach Dada Adaptation based Approach 这些方法并没有显式地考虑真实的衣着状况，即各行人到底是否换了</description>
     </item>
     

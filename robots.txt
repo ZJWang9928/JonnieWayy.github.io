@@ -63,4 +63,4 @@ Disallow:
 User-agent: ZoominfoBot
 Disallow:
 
-Sitemap: http://jonathanwayy.xyz/sitemap.xml
+Sitemap: http://wzj.life/sitemap.xml

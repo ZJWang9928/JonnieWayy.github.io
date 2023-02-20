@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3D on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/3d/</link>
-    <description>Recent content in 3D on Jonathan`s Blog</description>
+    <title>3D on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/3d/</link>
+    <description>Recent content in 3D on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 15:23:48 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/3d/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 15:23:48 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/3d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- GReID] Modeling 3D Layout For Group Re-Identification (CVPR 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn233/</link>
+      <link>http://wzj.life/2022/prn233/</link>
       <pubDate>Mon, 13 Jun 2022 15:23:48 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn233/</guid>
+      <guid>http://wzj.life/2022/prn233/</guid>
       <description>Modeling 3D Layout For Group Re-Identification (CVPR 2022) 数据集传送门 概述 Group Re-identification (GReID) 任务。 通常处理包含 2 到 6 人的组，将含有超过 60% 相同成员的组视为相同类别。 本文从 3D 视角对分布关系进行建模，</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Parameter-Efficient Person Re-identification in the 3D Space (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn96/</link>
+      <link>http://wzj.life/2021/prn96/</link>
       <pubDate>Sat, 11 Sep 2021 14:44:37 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn96/</guid>
+      <guid>http://wzj.life/2021/prn96/</guid>
       <description>2006.04569 Parameter-Efficient Person Re-identification in the 3D Space (2020) 开源代码传送门 概述 考察 2D 行人外观与 3D 几何结构之间的互补信息。 本文提出 Omni-scale Graph Network (OG-Net)，在 3D 空间中进行 ReID。 模型架</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 3D 跨模态检索] Cross-Modal Center Loss for 3D CM Retrieval (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn94/</link>
+      <link>http://wzj.life/2021/prn94/</link>
       <pubDate>Thu, 09 Sep 2021 22:52:53 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn94/</guid>
+      <guid>http://wzj.life/2021/prn94/</guid>
       <description>Cross-Modal Center Loss for 3D Cross-Modal Retrieval (CVPR 2021) 概述 现有方法的问题 核心想法是最小化由预训练模型提取的特征之间的跨模态差异，预训练模型没有参与训练或进行微调 现有的损失函数主</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Learn 3D Shape Feature for Texture-insensitive Person ReID (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn86/</link>
+      <link>http://wzj.life/2021/prn86/</link>
       <pubDate>Sun, 29 Aug 2021 14:30:30 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn86/</guid>
+      <guid>http://wzj.life/2021/prn86/</guid>
       <description>Learning 3D Shape Feature for Texture-insensitive Person Re-identification (CVPR 2021) 开源代码传送门 背景 Person ReID 任务。 研究表明 Person ReID 相当依赖衣着外观纹理 (clothing appearance textures)，大多数现有方法在衣着纹理较迷惑时表现</description>
     </item>
     

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>teacher-student on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/teacher-student/</link>
-    <description>Recent content in teacher-student on Jonathan`s Blog</description>
+    <title>teacher-student on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/teacher-student/</link>
+    <description>Recent content in teacher-student on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Nov 2022 16:02:32 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/teacher-student/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 16:02:32 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/teacher-student/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 域泛化] Adversarial TS Representation Learning for DG (NeurIPS 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn305/</link>
+      <link>http://wzj.life/2022/prn305/</link>
       <pubDate>Thu, 24 Nov 2022 16:02:32 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn305/</guid>
+      <guid>http://wzj.life/2022/prn305/</guid>
       <description>Adversarial Teacher-Student Representation Learning for Domain Generalization (NeurIPS 2021) 概述 现有工作只保证了对可见源域不变，而不能保证学习到的表征对不可见域数据的泛化能力。 本文提出一种对抗师生表征学习框架 (Adversarial Teacher-Student Representation</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 迁移学习] Knowledge as Priors: CMKG for Datasets without SK (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2022/prn280/</link>
+      <link>http://wzj.life/2022/prn280/</link>
       <pubDate>Wed, 12 Oct 2022 11:31:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn280/</guid>
+      <guid>http://wzj.life/2022/prn280/</guid>
       <description>Knowledge as Priors: Cross-Modal Knowledge Generalization for Datasets without Superior Knowledge (CVPR 2020) 概述 本文基于跨模态知识蒸馏 (Cross-Modal Knowledge Distillation, CMKD) 任务，研究将从成对数据的源数据集上学习到的跨模态知识迁移到监督模态缺失的目标数据</description>
     </item>
     

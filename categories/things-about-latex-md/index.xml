@@ -1,173 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Things About Latex &amp; MD on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/categories/things-about-latex-md/</link>
-    <description>Recent content in Things About Latex &amp; MD on Jonathan`s Blog</description>
+    <title>Things About Latex &amp; MD on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/categories/things-about-latex-md/</link>
+    <description>Recent content in Things About Latex &amp; MD on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 13 May 2022 00:27:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/categories/things-about-latex-md/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2022 00:27:22 +0800</lastBuildDate><atom:link href="http://wzj.life/categories/things-about-latex-md/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Latex argmin 与 argmax 中下标出现在下方的一种方式</title>
-      <link>http://jonathanwayy.xyz/2022/latex_argminmax_down/</link>
+      <link>http://wzj.life/2022/latex_argminmax_down/</link>
       <pubDate>Fri, 13 May 2022 00:27:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/latex_argminmax_down/</guid>
+      <guid>http://wzj.life/2022/latex_argminmax_down/</guid>
       <description>记录一种 Latex 中使 argmin 与 argmax 命令的下标出现在下方的一种方式： \begin{equation} \mathop{\arg\min}_{\theta} ... \end{equation} 如此即可。</description>
     </item>
     
     <item>
       <title>Latex 使用 thanks 脚注后多出一个空白页问题解决办法</title>
-      <link>http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/</link>
+      <link>http://wzj.life/2022/latex_thanks_blank_page_one/</link>
       <pubDate>Thu, 24 Mar 2022 14:50:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/</guid>
+      <guid>http://wzj.life/2022/latex_thanks_blank_page_one/</guid>
       <description>问题描述 在 LaTex 中使用如下命令添加作者及其单位： \author{A, B, C} \thanks{A is xxxxxx, B is xxxxxx, C is xxxxxx} 编译后发现在文档最开头多出了一个空白页。 原因分析 \thanks 放在 \author 命令外面，导致其</description>
     </item>
     
     <item>
       <title>Latex 调整表格宽度与高度</title>
-      <link>http://jonathanwayy.xyz/2021/latex_resizebox/</link>
+      <link>http://wzj.life/2021/latex_resizebox/</link>
       <pubDate>Thu, 09 Dec 2021 12:01:57 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_resizebox/</guid>
+      <guid>http://wzj.life/2021/latex_resizebox/</guid>
       <description>有时会遇到表格超出页面正常宽度的情况，可使用 \resizebox 命令进行调整。 \begin{table} \centering \resizebox{\columnwidth}{20mm}{ \begin{tabular}{l|ccc} \toprule Method &amp;amp; Top-1 &amp;amp; Top-5 &amp;amp; Top-10 \\ \midrule DSSL \small{$_{MM21}$} \tiny{\cite{dssl}} &amp;amp; 59.98 &amp;amp; 80.41 &amp;amp; \textbf{87.56} \\ \bottomrule \end{tabular}} \caption{xxxxxxxx.} \label{tab:example} \end{table} 注：命令加在 tabular 外一层，</description>
     </item>
     
     <item>
       <title>Latex 表格中绘制经过指定列的水平线</title>
-      <link>http://jonathanwayy.xyz/2021/latex_cline/</link>
+      <link>http://wzj.life/2021/latex_cline/</link>
       <pubDate>Sat, 13 Nov 2021 14:47:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_cline/</guid>
+      <guid>http://wzj.life/2021/latex_cline/</guid>
       <description>在用 Latex 绘制表格的过程中，有时需要绘制不完全贯穿整行的水平线，可用如下命令指定需要贯穿的列： \cline{起始列-终止列} 此命令中列从 1 开始排</description>
     </item>
     
     <item>
       <title>Latex 旋转文字方向</title>
-      <link>http://jonathanwayy.xyz/2021/latex_rotatebox/</link>
+      <link>http://wzj.life/2021/latex_rotatebox/</link>
       <pubDate>Thu, 28 Oct 2021 12:34:42 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_rotatebox/</guid>
+      <guid>http://wzj.life/2021/latex_rotatebox/</guid>
       <description>有时在 Latex 表格中需要改变文字方向，可以用如下语句实现： \rotatebox{角度}{文本}</description>
     </item>
     
     <item>
       <title>Latex 使用 longtable 实现多页显示长表格</title>
-      <link>http://jonathanwayy.xyz/2021/latex_longtable/</link>
+      <link>http://wzj.life/2021/latex_longtable/</link>
       <pubDate>Wed, 25 Aug 2021 12:41:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_longtable/</guid>
+      <guid>http://wzj.life/2021/latex_longtable/</guid>
       <description>在使用 Latex 写论文时，有时会出现表格过长超出一页的情况，可以通过 longtable 包实现表格的多页显示。 首先引入宏包 \usepackage{longtable} 使用 longtable 首先删去 \begin{table} 和 \end{table}，</description>
     </item>
     
     <item>
       <title>编译 Latex 遇到 File ended while scanning use of 
 ewlbel 问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/latex_newlbel/</link>
+      <link>http://wzj.life/2021/latex_newlbel/</link>
       <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_newlbel/</guid>
+      <guid>http://wzj.life/2021/latex_newlbel/</guid>
       <description>问题描述 编译 Latex 时出现如下报错： File ended while scanning use of \@newl@bel... 解决办法 将目录中除了 .tex 文件以及图像、参考文献等文件其外的其余文件均删除后重新编译即可。</description>
     </item>
     
     <item>
       <title>Latex 表格使用 toprule、midrule 及 bottomrule 时出现 undefined control sequence 报错解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/latex_booktabs/</link>
+      <link>http://wzj.life/2021/latex_booktabs/</link>
       <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_booktabs/</guid>
+      <guid>http://wzj.life/2021/latex_booktabs/</guid>
       <description>问题描述 在 Latex 表格中，使用 \toprule、\midrule 以及 \bottomrule 时报错 “undefined control sequence”。 解决办法 缺少相应宏包，导入即</description>
     </item>
     
     <item>
       <title>Latex 中矩阵的几种实现方式</title>
-      <link>http://jonathanwayy.xyz/2021/latex_matrix/</link>
+      <link>http://wzj.life/2021/latex_matrix/</link>
       <pubDate>Sun, 18 Jul 2021 16:20:27 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_matrix/</guid>
+      <guid>http://wzj.life/2021/latex_matrix/</guid>
       <description>记录一下 Latex 中实现矩阵的几种方式。 1. 无括号 代码 \begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix} 效果 $$\begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix}$$ 2. 圆括号 代码 \begin{pmatrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{pmatrix} % 或 \left(\begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix}\right) 效果</description>
     </item>
     
     <item>
       <title>Latex 添加无编号脚注</title>
-      <link>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</link>
+      <link>http://wzj.life/2021/latex_footnote_without_number/</link>
       <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</guid>
+      <guid>http://wzj.life/2021/latex_footnote_without_number/</guid>
       <description>在使用 Latex 的过程中，有时需要添加不带编号的脚注，目前尝试过有效的有两种办法，记录如下。 方法一 \renewcommand{\thefootnote}{} \footnotetext{脚注内容} 方法二 \l</description>
     </item>
     
     <item>
       <title>Latex 希腊字母</title>
-      <link>http://jonathanwayy.xyz/2021/latex_greeceletter/</link>
+      <link>http://wzj.life/2021/latex_greeceletter/</link>
       <pubDate>Fri, 25 Jun 2021 11:30:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_greeceletter/</guid>
+      <guid>http://wzj.life/2021/latex_greeceletter/</guid>
       <description>记录一下 Latex 中的希腊字母实现，以备查用。 小写 代码 大写 代码 \(\alpha\) \alpha \(\Alpha\) \(A\) \Alpha A \(\beta\) \beta \(\Beta\) \(B\) \Beta B \(\gamma\) \gamma \(\Gamma\) \Gamma \(\delta\) \delta \(\Delta\) \Delta \(\epsilon\) \(\varepsilon\) \epsilon \varepsilon \(\Epsilon\) \(E\) \Epsilon E \(\zeta\) \zeta \(\Zeta\) \(Z\) \Zeta Z \(\eta\) \eta \(\Eta\) \(H\) \Eta H \(\theta\) \(\vartheta\) \theta</description>
     </item>
     
     <item>
       <title>Latex 分段函数的一种实现方式</title>
-      <link>http://jonathanwayy.xyz/2021/latex_case/</link>
+      <link>http://wzj.life/2021/latex_case/</link>
       <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_case/</guid>
+      <guid>http://wzj.life/2021/latex_case/</guid>
       <description>代码实现 $$f(x) = \begin{cases} 2x + 1, \quad if \ x &amp;gt; 1, \\\\ -3x, \quad if \ x \le 1.\end{cases}$$ 呈现效果 $$f(x) = \begin{cases} 2x + 1, \quad if \ x &amp;gt; 1, \\ -3x, \quad if \ x \le 1.\end{cases}$$</description>
     </item>
     
     <item>
       <title>Latex 公式中的空格表示</title>
-      <link>http://jonathanwayy.xyz/2021/latex_space/</link>
+      <link>http://wzj.life/2021/latex_space/</link>
       <pubDate>Mon, 21 Jun 2021 14:11:57 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_space/</guid>
+      <guid>http://wzj.life/2021/latex_space/</guid>
       <description>类型 代码 效果 备注 两个 quad 空格 a \qquad b \(a \qquad b\) 两个 M 的宽度 quad 空格 a \quad b \(a \quad b\) 一个 M 的宽度 大空格 a\ b \(a \ b\) 1/3 M 的宽度 中等空格 a\;b \(a \; b\) 2/7 M 的宽度 小空格 a\,b</description>
     </item>
     
     <item>
       <title>Latex 插入空行</title>
-      <link>http://jonathanwayy.xyz/2021/latex_spaceline/</link>
+      <link>http://wzj.life/2021/latex_spaceline/</link>
       <pubDate>Wed, 16 Jun 2021 20:38:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_spaceline/</guid>
+      <guid>http://wzj.life/2021/latex_spaceline/</guid>
       <description>有时需要在 Latex 文档中插入一个空行，查阅一些文档并做了一些尝试后，发现了一种较为简单的方法： \\ \hspace*{\fill} \\ 即换行，用空格填充后，再次换行。</description>
     </item>
     
     <item>
       <title>Latex 取消段首缩进</title>
-      <link>http://jonathanwayy.xyz/2021/latex_noindent/</link>
+      <link>http://wzj.life/2021/latex_noindent/</link>
       <pubDate>Wed, 16 Jun 2021 20:28:52 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_noindent/</guid>
+      <guid>http://wzj.life/2021/latex_noindent/</guid>
       <description>要取消 Latex 段首缩进，可以在需要处理的段落前加上如下代码： \noindent</description>
     </item>
     
     <item>
       <title>Markdown 数学符号与公式</title>
-      <link>http://jonathanwayy.xyz/2021/md-signs/</link>
+      <link>http://wzj.life/2021/md-signs/</link>
       <pubDate>Mon, 10 May 2021 13:45:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/md-signs/</guid>
+      <guid>http://wzj.life/2021/md-signs/</guid>
       <description>符号 代码 描述 \(\sum\) $\sum$ 求和公式 \(\sum_{i=0}^n\) $\sum_{i=0}^n$ 求和上下标 \(\pm\) $\pm 正负号 \(\times\) $\times$ 乘号 \(\div\) $\div$ 除号 \(\mid\) $\mid$ 竖线 \(\cdot\) $\cdot$ 点 \(\circ\) $circ$ 圈 未完待续</description>
     </item>
     
     <item>
       <title>ACM 会议论文模板去除 ACM Reference Format 信息</title>
-      <link>http://jonathanwayy.xyz/2021/latex_acmtem/</link>
+      <link>http://wzj.life/2021/latex_acmtem/</link>
       <pubDate>Fri, 16 Apr 2021 18:48:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_acmtem/</guid>
+      <guid>http://wzj.life/2021/latex_acmtem/</guid>
       <description>在投稿撰文时，可以去掉 ACM 的 latex 模板中会有的 ACM Reference Format 信息。 方法如下： 在 \documentclass[sigconf]{acmart} 下面添加以下几行： \settopmatter{printacmref=false} % Removes citation information below abstract \renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column \pagestyle{plain} % removes running headers</description>
     </item>
     
     <item>
       <title>压缩图表空间以调整 Latex 版面</title>
-      <link>http://jonathanwayy.xyz/2020/latex_vspace/</link>
+      <link>http://wzj.life/2020/latex_vspace/</link>
       <pubDate>Sun, 06 Dec 2020 23:51:53 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/latex_vspace/</guid>
+      <guid>http://wzj.life/2020/latex_vspace/</guid>
       <description>很多会议论文都有特定的模板格式，并且在篇幅上有所限制，为了尽可能地多写一点内容，可以考虑在图像、表格、公式中利用 \vspace{} 来压缩垂直距离。 例如： \begin{figure*}[t] \vspace{-1.0cm}</description>
     </item>
     

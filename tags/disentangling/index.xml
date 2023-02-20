@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>disentangling on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/disentangling/</link>
-    <description>Recent content in disentangling on Jonathan`s Blog</description>
+    <title>disentangling on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/disentangling/</link>
+    <description>Recent content in disentangling on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 07 Nov 2022 12:44:14 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/disentangling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 12:44:14 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/disentangling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 特征解耦] Isolating Sources of Disentanglement in VAEs (NeurIPS 2018)</title>
-      <link>http://jonathanwayy.xyz/2022/prn297/</link>
+      <link>http://wzj.life/2022/prn297/</link>
       <pubDate>Mon, 07 Nov 2022 12:44:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn297/</guid>
+      <guid>http://wzj.life/2022/prn297/</guid>
       <description>Isolating Sources of Disentanglement in VAEs (NeurIPS 2018) 概述 本文提出一种互信息鸿沟 (Mutual Information Gap, IMP) 评价机制。 $$\frac{1}{K} \sum_{k=1}^{K} \frac{1}{H(v_{k})} (I_{n}(z_{j^{(k)}}; v_{k}) - max_{j \ne j^{(k)}} I_{n}(z_{j}; v_{k})).$$</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 特征解耦] A Framework for the Quantitative Evaluation of DR (ICLR 2018)</title>
-      <link>http://jonathanwayy.xyz/2022/prn296/</link>
+      <link>http://wzj.life/2022/prn296/</link>
       <pubDate>Mon, 07 Nov 2022 12:00:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn296/</guid>
+      <guid>http://wzj.life/2022/prn296/</guid>
       <description>A Framework for the Quantitative Evaluation of Disentangled Representations (ICLR 2018) 开源代码传送门 概述 三个标准 (DCI) Disentanglement Completeness Informativeness</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 特征解耦] Beta-VAE: Learning Basic Visual Concepts (ICLR 2017)</title>
-      <link>http://jonathanwayy.xyz/2022/prn295/</link>
+      <link>http://wzj.life/2022/prn295/</link>
       <pubDate>Mon, 07 Nov 2022 11:48:07 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn295/</guid>
+      <guid>http://wzj.life/2022/prn295/</guid>
       <description>Beta-VAE: Learning Basic Visual Concepts with A Constrained Vatiational Framework (ICLR 2017) 概述 评价机制 可视化示例</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 特征解耦] Disentangling by Factorising (ICML 2018)</title>
-      <link>http://jonathanwayy.xyz/2022/prn294/</link>
+      <link>http://wzj.life/2022/prn294/</link>
       <pubDate>Mon, 07 Nov 2022 08:13:27 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn294/</guid>
+      <guid>http://wzj.life/2022/prn294/</guid>
       <description>Disentangling by Factorising (ICML 2018) 概述 本文定义并尝试解决无监督的特征结构问题，并提出了 Factor-VAE。 Factor-VAE 架构 新的评价机制</description>
     </item>
     

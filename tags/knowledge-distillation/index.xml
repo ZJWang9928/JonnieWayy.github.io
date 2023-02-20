@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>knowledge distillation on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/knowledge-distillation/</link>
-    <description>Recent content in knowledge distillation on Jonathan`s Blog</description>
+    <title>knowledge distillation on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/knowledge-distillation/</link>
+    <description>Recent content in knowledge distillation on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 15 Feb 2022 13:35:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/knowledge-distillation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 13:35:16 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/knowledge-distillation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- ReID] Object ReID Using Teacher-Like and Light Students (BMVC 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn189/</link>
+      <link>http://wzj.life/2022/prn189/</link>
       <pubDate>Tue, 15 Feb 2022 13:35:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn189/</guid>
+      <guid>http://wzj.life/2022/prn189/</guid>
       <description>Object Re-identification Using Teacher-Like and Light Students (BMVC 2021) 概述 本文提出一种联合蒸馏与剪枝方法 (Joint Distillation and Pruning method, JDP) 以学习与教师相似且轻量的学生模型 (Teacher-Like and Light students, TTL students)，其结合了知识蒸</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 知识蒸馏] SimReg: Regression as a Simple Yet Effective Tool (BMVC 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn176/</link>
+      <link>http://wzj.life/2022/prn176/</link>
       <pubDate>Sun, 23 Jan 2022 14:22:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn176/</guid>
+      <guid>http://wzj.life/2022/prn176/</guid>
       <description>2201.05131 SimReg: Regression as a Simple Yet Effective Tool for Self-supervised Knowledge Distillation (BMVC 2021) 开源代码传送门 概述 本文关注自监督模型的蒸馏，发现 backbone 输出的特征比预测头最后一层输出的特征能更好地与教师模型相匹配</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 知识蒸馏 / 互学习] Deep Mutual Learning (CVPR 2018)</title>
-      <link>http://jonathanwayy.xyz/2021/prn135/</link>
+      <link>http://wzj.life/2021/prn135/</link>
       <pubDate>Tue, 07 Dec 2021 12:32:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn135/</guid>
+      <guid>http://wzj.life/2021/prn135/</guid>
       <description>Deep Mutual Learning (CVPR 2018) 开源代码传送门 1 开源代码传送门 2 概述 本文提出互学习 (mutual learning) 的概念，在若干个学生模型之间进行知识蒸馏。 深度互学习 定义 由两个网络分别计算得</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 数据增强] Cut-Thumbnail: A Novel Data Augmentation for CNN (MM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn107/</link>
+      <link>http://wzj.life/2021/prn107/</link>
       <pubDate>Fri, 29 Oct 2021 14:34:34 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn107/</guid>
+      <guid>http://wzj.life/2021/prn107/</guid>
       <description>Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network (MM 2021) 开源代码传送门 概述 现有的数据增强方法通过改变空间或色彩信息、增加噪音或混合来自不同图像的信息，来提高网络的泛化能力和鲁</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- ReID] Pose-Guided Feature Learning with KD for Occluded ReID (MM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn106/</link>
+      <link>http://wzj.life/2021/prn106/</link>
       <pubDate>Tue, 26 Oct 2021 22:45:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn106/</guid>
+      <guid>http://wzj.life/2021/prn106/</guid>
       <description>Pose-Guided Feature Learning with Knowledge Distillation for Occluded Person Re-Identification (MM 2021) 概述 本文提出一种通过知识蒸馏进行基于姿态指导的特征学习架构 (Pose-Guided Feature Learning with Knowledge Distillation network, PGFL-KD) 架构，姿态信息用于约束全局特征的学习而在测</description>
     </item>
     

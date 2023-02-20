@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Command on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/command/</link>
-    <description>Recent content in Command on Jonathan`s Blog</description>
+    <title>Command on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/command/</link>
+    <description>Recent content in Command on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 10:06:16 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/command/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2020 10:06:16 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/command/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[27] Shell 杂记</title>
-      <link>http://jonathanwayy.xyz/2020/blwl27/</link>
+      <link>http://wzj.life/2020/blwl27/</link>
       <pubDate>Mon, 13 Apr 2020 10:06:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl27/</guid>
+      <guid>http://wzj.life/2020/blwl27/</guid>
       <description>cd - 回到前一个工作路径 若在输入命令时中途改变了主意，可以按下** Alt-#* *在行首添加 # 以注释该命令并回车执行（相当于依次按下 Ctrl-A, #, Enter）。这样</description>
     </item>
     
     <item>
       <title>BLWL[26] Axel Command Tips</title>
-      <link>http://jonathanwayy.xyz/2020/blwl26/</link>
+      <link>http://wzj.life/2020/blwl26/</link>
       <pubDate>Thu, 12 Mar 2020 11:00:10 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl26/</guid>
+      <guid>http://wzj.life/2020/blwl26/</guid>
       <description>axel 是 Linux 下一个不错的 HTTP/ftp 高速下载工具。 axel 支持多线程下载、断点续传，且可以从多个地址或者从一个地址的多个连接来下载同一个文件。 下载过程中断可以再执</description>
     </item>
     

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/series/</link>
-    <description>Recent content in Series on Jonathan`s Blog</description>
+    <title>Series on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/series/</link>
+    <description>Recent content in Series on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>All rights reserved - 2020</copyright><atom:link href="http://jonathanwayy.xyz/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>All rights reserved - 2020</copyright><atom:link href="http://wzj.life/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

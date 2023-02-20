@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>vmware on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/vmware/</link>
-    <description>Recent content in vmware on Jonathan`s Blog</description>
+    <title>vmware on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/vmware/</link>
+    <description>Recent content in vmware on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 27 Apr 2021 14:19:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 14:19:09 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[38] 激活 vmware 中的 Windows 操作系统</title>
-      <link>http://jonathanwayy.xyz/2021/vmware-windows-activate/</link>
+      <link>http://wzj.life/2021/vmware-windows-activate/</link>
       <pubDate>Tue, 27 Apr 2021 14:19:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/vmware-windows-activate/</guid>
+      <guid>http://wzj.life/2021/vmware-windows-activate/</guid>
       <description>为了方便平时工作（主要是为了用 visio 做图），之前在 vmware 中配置了一个 Windows 10 的虚拟机。 一般的在物理机上适用的激活方式尝试后没能成功在虚拟机中激活 Wind</description>
     </item>
     
     <item>
       <title>BLWL[28] Manjaro无法启动vmware虚拟机问题</title>
-      <link>http://jonathanwayy.xyz/2020/blwl28/</link>
+      <link>http://wzj.life/2020/blwl28/</link>
       <pubDate>Thu, 30 Apr 2020 10:22:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl28/</guid>
+      <guid>http://wzj.life/2020/blwl28/</guid>
       <description>问题1 Could not open /dev/vmmon: ???. Please make sure that the kernel module `vmmon’ is loaded. 解决方案 1.查看自己的内核版本 &amp;gt; uname -r 5.6.7-1-MANJARO 2.安装对应的 linux-headers sudo pacman -S linux56-headers 3.加载内核模块 sudo modprobe -a vmw_vmci vmmon 问题</description>
     </item>
     

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>face forgery on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/face-forgery/</link>
-    <description>Recent content in face forgery on Jonathan`s Blog</description>
+    <title>face forgery on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/face-forgery/</link>
+    <description>Recent content in face forgery on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 15 Jul 2021 21:12:47 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/face-forgery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jul 2021 21:12:47 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/face-forgery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 频域 / 人脸伪造检测] Spatial-Phase Shallow Learning (CVPR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn46/</link>
+      <link>http://wzj.life/2021/prn46/</link>
       <pubDate>Thu, 15 Jul 2021 21:12:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn46/</guid>
+      <guid>http://wzj.life/2021/prn46/</guid>
       <description>Spatial-Phase Shallow Learning: Rethinking Face Forgery Detection in Frequency Domain (CVPR 2021) 背景 人脸伪造检测 (face forgery detection) 任务。 在合成假脸过程中使用上采样，该操作通常会在频域留下痕迹。 核心方法与观点 本文提出一种空间-</description>
     </item>
     

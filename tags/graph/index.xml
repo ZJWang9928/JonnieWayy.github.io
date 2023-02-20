@@ -1,127 +1,127 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>graph on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/graph/</link>
-    <description>Recent content in graph on Jonathan`s Blog</description>
+    <title>graph on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/graph/</link>
+    <description>Recent content in graph on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 09 Sep 2021 13:11:23 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Sep 2021 13:11:23 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/graph/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Aggregation-based Graph Convolutional Hashing (TMM 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn92/</link>
+      <link>http://wzj.life/2021/prn92/</link>
       <pubDate>Thu, 09 Sep 2021 13:11:23 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn92/</guid>
+      <guid>http://wzj.life/2021/prn92/</guid>
       <description>Aggregation-based Graph Convolutional Hashing for Unsupervised Cross-modal Retrieval (TMM 2021) 概述 本文提出基于聚合的图卷积哈希方法 (Aggregation-based Graph Convolutional Hashing, AGCH)。 模型架构 主要部件 图像编码器 + 图像 GCN 文本编码器 + 文本 GCN 融合模块 生成</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 图网络 / Ad-hoc 检索] A Graph-based Relevance Matching Model (AAAI 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn80/</link>
+      <link>http://wzj.life/2021/prn80/</link>
       <pubDate>Tue, 17 Aug 2021 15:53:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn80/</guid>
+      <guid>http://wzj.life/2021/prn80/</guid>
       <description>2101.11873 A Graph-based Relevance Matching Model for Ad-hoc Retrieval (AAAI 2021) 背景 query-document 检索任务。 两类架构 representation-based matching interaction-based matching 两种重要关系 term-level query-document interaction document-level word relationships 一个问题 用来检索的短语可能并不连续出现在文档中，可能相隔甚远。</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 图网络] Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn76/</link>
+      <link>http://wzj.life/2021/prn76/</link>
       <pubDate>Wed, 11 Aug 2021 15:46:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn76/</guid>
+      <guid>http://wzj.life/2021/prn76/</guid>
       <description>Fashion Retrieval via Graph Reasoning Networks on a Similarity Pyramid (ICCV 2019) 概述 Fashion Retrieval 任务。 一个问题在于对应位置的局部块通常是失配的，因此需要在同尺度所有局部之间遍历匹配。 设计了一种基于相似度金</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希 / 图网络] Determining the Semantic Graph Connectivity (IJCAI 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn69/</link>
+      <link>http://wzj.life/2021/prn69/</link>
       <pubDate>Tue, 03 Aug 2021 11:07:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn69/</guid>
+      <guid>http://wzj.life/2021/prn69/</guid>
       <description>Set and Rebase: Determining the Semantic Graph Connectivity for Unsupervised Cross-Modal Hashing (IJCAI 2020) 概述 两类无监督跨模态哈系 跨模态量化，最小化二进制编码与原始数据低维投影之间的鸿沟 跨模态相似度搜索 三个主要问题 在没</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Adapted Graph Reasoning and Filtration (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn68/</link>
+      <link>http://wzj.life/2021/prn68/</link>
       <pubDate>Mon, 02 Aug 2021 16:52:49 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn68/</guid>
+      <guid>http://wzj.life/2021/prn68/</guid>
       <description>Adapted Graph Reasoning and Filtration for Description-Image Retrieval (SIGIR 2021) 概述 本文处理更加抽象的文本描述。 提出一种自适应的图推理与过滤网络 (Adapted Graph Reasoning and Filtration network, AGRF)，包含两大主要部件： 自适应图推理网</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Fine-grained Video-Text Retrieval with HGR (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn59/</link>
+      <link>http://wzj.life/2021/prn59/</link>
       <pubDate>Mon, 26 Jul 2021 11:53:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn59/</guid>
+      <guid>http://wzj.life/2021/prn59/</guid>
       <description>Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning (CVPR 2020) 开源代码传送门 核心 提出一种层级式的图推理模型 (Hierarchical Graph Reasoning model, HGR)，将视频-文本匹配分解为三级语义： 全局事件，在文本中对应整个句</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] A Deep Local and Global Scene-Graph Matching (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn58/</link>
+      <link>http://wzj.life/2021/prn58/</link>
       <pubDate>Sun, 25 Jul 2021 11:30:31 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn58/</guid>
+      <guid>http://wzj.life/2021/prn58/</guid>
       <description>2106.02400 A Deep Local and Global Scene-Graph Matching for Image-Text Retrieval (2021) 核心 提出一种局部与全局场景图匹配 (Local and Global Scene Graph Matching, LGSGM) 方法。 视觉图编码器 文本编码器 图嵌入 用多尺度节点注意力将图嵌入为向量。 附</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Cross-Graph Attention Model (SIGIR 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn53/</link>
+      <link>http://wzj.life/2021/prn53/</link>
       <pubDate>Sun, 18 Jul 2021 11:25:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn53/</guid>
+      <guid>http://wzj.life/2021/prn53/</guid>
       <description>Cross-Graph Attention Enhanced Multi-Modal Correlation Learning for Fine-Grained Image-Text Retrieval (SIGIR 2021) 背景 SIGIR 2021 短文。 现有三类跨模态检索方法 全局相关性学习 局部相关性学习 高阶语义概念学习 在模态特定的语义概念 (modality-specific semantic concepts) 之外，还应</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Graph Structured Network (CVPR 2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn52/</link>
+      <link>http://wzj.life/2021/prn52/</link>
       <pubDate>Sun, 18 Jul 2021 10:10:07 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn52/</guid>
+      <guid>http://wzj.life/2021/prn52/</guid>
       <description>2004.00277 Graph Structured Network for Image-Text Matching (CVPR 2020) 开源代码传送门 总览 本文提出一种图结构匹配网络 (Graph Structured Matching Network, GSMN)，对目标、关系与属性显式建模。 以下两组相关性互相促进 细粒度目</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态检索 / 图网络] Similarity Reasoning and Filtration (AAAI 2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn31/</link>
+      <link>http://wzj.life/2021/prn31/</link>
       <pubDate>Sat, 03 Jul 2021 21:00:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn31/</guid>
+      <guid>http://wzj.life/2021/prn31/</guid>
       <description>2101.01368 Similarity Reasoning and Filtration for Image-Text Matching (AAAI 2021) 开源代码传送门 先前方法的缺陷 在局部特征之间计算基于标量的余弦相似度，可能并不足以表征区域与单词之间的关联模式 大多数方法使</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 图网络] Beyond Low-frequency Information in GCNs (2021)</title>
-      <link>http://jonathanwayy.xyz/2021/prn26/</link>
+      <link>http://wzj.life/2021/prn26/</link>
       <pubDate>Tue, 29 Jun 2021 12:00:44 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn26/</guid>
+      <guid>http://wzj.life/2021/prn26/</guid>
       <description>2101.00797 Beyond Low-frequency Information in Graph Convolutional Networks 背景 当前一些研究认为平滑信号，即低频信息是 GNN 成功的关键。 本文重点思考是否低频信息就能完全满足需求，以及其他信息在 GNN 中扮演着怎</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 频域 / 图网络] Spectral Graph Attention Network (2020)</title>
-      <link>http://jonathanwayy.xyz/2021/prn25/</link>
+      <link>http://wzj.life/2021/prn25/</link>
       <pubDate>Mon, 28 Jun 2021 19:34:36 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn25/</guid>
+      <guid>http://wzj.life/2021/prn25/</guid>
       <description>2003.07450 Spectral Graph Attention Network (2020) 背景 图注意力网络 (Graph Attention Network, GAT) 通过引入注意力机制优化 GCN 的卷积过程。具体来说，在节点聚合 (node aggregation) 阶段，GAT 赋予各边一个自注意力权重，用于捕</description>
     </item>
     
     <item>
       <title>[论文阅读笔记 -- 跨模态哈希] Graph Convolutional Network Hashing (IJCAI 2019)</title>
-      <link>http://jonathanwayy.xyz/2021/prn19/</link>
+      <link>http://wzj.life/2021/prn19/</link>
       <pubDate>Thu, 24 Jun 2021 15:26:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/prn19/</guid>
+      <guid>http://wzj.life/2021/prn19/</guid>
       <description>Graph Convolutional Network Hashing for Cross-Modal Retrieval (IJCAI 2019) 本文提出一种针对跨模态检索的图卷积网络哈希 (graph convolution network hashing, GCH)，由一个语义编码器、两个特征编码网络和一个基于融合模块的图卷积网</description>
     </item>
     

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>opendr on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/opendr/</link>
-    <description>Recent content in opendr on Jonathan`s Blog</description>
+    <title>opendr on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/opendr/</link>
+    <description>Recent content in opendr on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Sep 2021 15:35:04 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/opendr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Sep 2021 15:35:04 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/opendr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>炼丹杂记 -- Windows 下使用 pip 安装 opendr</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_win_opendr/</link>
+      <link>http://wzj.life/2021/ldp_win_opendr/</link>
       <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_win_opendr/</guid>
+      <guid>http://wzj.life/2021/ldp_win_opendr/</guid>
       <description>问题描述 直接使用 pip install opendr 会报一个 failed with exit code 1181 的错误。 解决办法 首先安装 glfw，是 opengl 的一个框架： pip install glfw 在这里下载 opendr 后构建并安装： &amp;gt; git clone https://github.com/polmorenoc/opendr.git &amp;gt; cd ./opendr/opendr &amp;gt; python</description>
     </item>
     

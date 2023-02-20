@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>domain adaptation on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/domain-adaptation/</link>
-    <description>Recent content in domain adaptation on Jonathan`s Blog</description>
+    <title>domain adaptation on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/domain-adaptation/</link>
+    <description>Recent content in domain adaptation on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 27 Sep 2022 14:32:40 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/domain-adaptation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Sep 2022 14:32:40 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/domain-adaptation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 域自适应] Feat. Align. by Uncertainty and Self-Training for SFUDA (2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn274/</link>
+      <link>http://wzj.life/2022/prn274/</link>
       <pubDate>Tue, 27 Sep 2022 14:32:40 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn274/</guid>
+      <guid>http://wzj.life/2022/prn274/</guid>
       <description>2208.14888 Feature Alignment by Uncertainty and Self-Training for Source-Free Unsupervised Domain Adaptation (2022) 概述 本文提出一种 source-free UDA 方法，称为 Feature Alignment by Uncertainty and Self-Training (FAUST)。 模型架构</description>
     </item>
     

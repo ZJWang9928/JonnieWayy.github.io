@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>natural language understanding on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/natural-language-understanding/</link>
-    <description>Recent content in natural language understanding on Jonathan`s Blog</description>
+    <title>natural language understanding on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/natural-language-understanding/</link>
+    <description>Recent content in natural language understanding on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 24 Nov 2022 17:11:09 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/natural-language-understanding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 17:11:09 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/natural-language-understanding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- 域泛化] HiddenCut: Simple Data Augmentation for NLU (ACL 2021)</title>
-      <link>http://jonathanwayy.xyz/2022/prn306/</link>
+      <link>http://wzj.life/2022/prn306/</link>
       <pubDate>Thu, 24 Nov 2022 17:11:09 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn306/</guid>
+      <guid>http://wzj.life/2022/prn306/</guid>
       <description>HiddenCut: Simple Data Augmentation for Natural Language Understanding with Better Generalization (ACL 2021) 开源代码传送门 概述 本文提出一种数据增广方法，称为 HiddenCut，用于在微调阶段对预训练语言模型进行正则化。</description>
     </item>
     

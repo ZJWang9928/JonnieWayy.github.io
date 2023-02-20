@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>digital signal processing on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/digital-signal-processing/</link>
-    <description>Recent content in digital signal processing on Jonathan`s Blog</description>
+    <title>digital signal processing on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/digital-signal-processing/</link>
+    <description>Recent content in digital signal processing on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 06 Jul 2021 11:36:55 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/digital-signal-processing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 11:36:55 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/digital-signal-processing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>炼丹杂记 -- Nyquist 频率与 Nyquist 间隔</title>
-      <link>http://jonathanwayy.xyz/2021/ldp9/</link>
+      <link>http://wzj.life/2021/ldp9/</link>
       <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp9/</guid>
+      <guid>http://wzj.life/2021/ldp9/</guid>
       <description>若带限信号 \(x(t)\) 的最高角频率为 \(\omega_{m}\)，则在一定条件下，信号 \(x(t)\) 可以用等间隔 \(T\) 的抽样值唯一表示。 抽样间隔 \(T\) 需满足： $$T \le \frac{\pi}{\omega_{m}} = \frac{1}{2f_{m}},$$ 或</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 时域抽样定理</title>
-      <link>http://jonathanwayy.xyz/2021/ldp8/</link>
+      <link>http://wzj.life/2021/ldp8/</link>
       <pubDate>Tue, 06 Jul 2021 11:24:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp8/</guid>
+      <guid>http://wzj.life/2021/ldp8/</guid>
       <description>时域抽样定理 设 \(X(j\omega)\) 和 \(X(e^{j\Omega})\) 分别表示连续时间信号 \(x(t)\) 和离散时间信号 \(x[k]\) 的频谱，即 $$X(j\omega) = \int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt, \ X(e^{j\Omega}) = \sum_{-\infty}^{\infty} x[k]e^{-j\Omega k}.$$ 若存在 $$x[k] = x(t)|_{t = kT},$$ 则有 $$X(e^{j\Omega}) = \frac{1}{T}\sum_{-\infty}^{+\infty} X[j(\omega - n\omega_{sam})], \quad \omega_{sam} = 2\pi/T, \quad \Omega = \omega T.$$ 表</description>
     </item>
     

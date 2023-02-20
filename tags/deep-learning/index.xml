@@ -1,434 +1,434 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>deep learning on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/deep-learning/</link>
-    <description>Recent content in deep learning on Jonathan`s Blog</description>
+    <title>deep learning on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/deep-learning/</link>
+    <description>Recent content in deep learning on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 13 May 2022 00:27:22 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2022 00:27:22 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Latex argmin 与 argmax 中下标出现在下方的一种方式</title>
-      <link>http://jonathanwayy.xyz/2022/latex_argminmax_down/</link>
+      <link>http://wzj.life/2022/latex_argminmax_down/</link>
       <pubDate>Fri, 13 May 2022 00:27:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/latex_argminmax_down/</guid>
+      <guid>http://wzj.life/2022/latex_argminmax_down/</guid>
       <description>记录一种 Latex 中使 argmin 与 argmax 命令的下标出现在下方的一种方式： \begin{equation} \mathop{\arg\min}_{\theta} ... \end{equation} 如此即可。</description>
     </item>
     
     <item>
       <title>Latex 使用 thanks 脚注后多出一个空白页问题解决办法</title>
-      <link>http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/</link>
+      <link>http://wzj.life/2022/latex_thanks_blank_page_one/</link>
       <pubDate>Thu, 24 Mar 2022 14:50:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/latex_thanks_blank_page_one/</guid>
+      <guid>http://wzj.life/2022/latex_thanks_blank_page_one/</guid>
       <description>问题描述 在 LaTex 中使用如下命令添加作者及其单位： \author{A, B, C} \thanks{A is xxxxxx, B is xxxxxx, C is xxxxxx} 编译后发现在文档最开头多出了一个空白页。 原因分析 \thanks 放在 \author 命令外面，导致其</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Pytorch 修改官方预训练模型输入通道数</title>
-      <link>http://jonathanwayy.xyz/2022/ldp_pytorch_resnet_input/</link>
+      <link>http://wzj.life/2022/ldp_pytorch_resnet_input/</link>
       <pubDate>Thu, 03 Feb 2022 15:48:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/ldp_pytorch_resnet_input/</guid>
+      <guid>http://wzj.life/2022/ldp_pytorch_resnet_input/</guid>
       <description>有时需要修改预训练模型的输入通道数，在此记录一下一种可行的方法。 首先加载需要修改的预训练模型，查看一下模型的第一层，以 ResNet-50 为例： import torchvision.models as models backbone = models.resnet101(pretrained=False)</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- GeM Pooling 的 Pytorch 实现</title>
-      <link>http://jonathanwayy.xyz/2022/ldp_gempooling/</link>
+      <link>http://wzj.life/2022/ldp_gempooling/</link>
       <pubDate>Fri, 21 Jan 2022 23:21:35 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/ldp_gempooling/</guid>
+      <guid>http://wzj.life/2022/ldp_gempooling/</guid>
       <description>记录一下 Generalized Mean Pooling (GeM 池化) 的一种 PyTorch 实现方式。 定义 GeM 池化公式定义如下： $$f_{g, c} = (\frac{1}{hw} \sum_{(i, j)} f_{4, (c, i, j)}^p)^{1/p}_{c = 1, 2, \dots, C},$$ 其中超参数 \(p &amp;gt; 0\)，默认设为 3.0，\(f_</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 去除 plt.savefig() 保存图像时的白边</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</link>
+      <link>http://wzj.life/2021/ldp_plt_savefig_nowhite/</link>
       <pubDate>Wed, 22 Dec 2021 17:01:28 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_plt_savefig_nowhite/</guid>
+      <guid>http://wzj.life/2021/ldp_plt_savefig_nowhite/</guid>
       <description>在用 plt 保存图像时发现图像带有白边，查阅文档后解决了这一问题，在此记录一下。 将语句写成如下形式即可： plt.savefig(&amp;#39;xxx.png&amp;#39;, dpi=500, bbox_inches=&amp;#39;tight&amp;#39;, pad_inches=0.0) 其中将 pad_inches 参数置零即可去除白边，而将</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- PyTorch 报错 Got 3 and 1 in dimension 1 的一种解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_got3and1/</link>
+      <link>http://wzj.life/2021/ldp_got3and1/</link>
       <pubDate>Mon, 13 Dec 2021 17:34:51 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_got3and1/</guid>
+      <guid>http://wzj.life/2021/ldp_got3and1/</guid>
       <description>问题描述 在 dataloader 相关部分出现如下报错： RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 0. Got 3 and 1 in dimension 1 at /pytorch/aten/src/TH/generic/THTensorMath.c:3586 原因分析 RGB 图像中混有单通道的灰度图，导致堆叠时无法对齐。 解决办</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Python 报错 RuntimeError: ... is at version 2; expected version 1 ... 的一种解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_loss_grad/</link>
+      <link>http://wzj.life/2021/ldp_loss_grad/</link>
       <pubDate>Sun, 12 Dec 2021 17:35:03 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_loss_grad/</guid>
+      <guid>http://wzj.life/2021/ldp_loss_grad/</guid>
       <description>问题描述 模型训练时遇到如下报错： RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.FloatTensor [50, 76, 512]] is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True). 一种解决办法 将原先的</description>
     </item>
     
     <item>
       <title>Latex 调整表格宽度与高度</title>
-      <link>http://jonathanwayy.xyz/2021/latex_resizebox/</link>
+      <link>http://wzj.life/2021/latex_resizebox/</link>
       <pubDate>Thu, 09 Dec 2021 12:01:57 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_resizebox/</guid>
+      <guid>http://wzj.life/2021/latex_resizebox/</guid>
       <description>有时会遇到表格超出页面正常宽度的情况，可使用 \resizebox 命令进行调整。 \begin{table} \centering \resizebox{\columnwidth}{20mm}{ \begin{tabular}{l|ccc} \toprule Method &amp;amp; Top-1 &amp;amp; Top-5 &amp;amp; Top-10 \\ \midrule DSSL \small{$_{MM21}$} \tiny{\cite{dssl}} &amp;amp; 59.98 &amp;amp; 80.41 &amp;amp; \textbf{87.56} \\ \bottomrule \end{tabular}} \caption{xxxxxxxx.} \label{tab:example} \end{table} 注：命令加在 tabular 外一层，</description>
     </item>
     
     <item>
       <title>Latex 表格中绘制经过指定列的水平线</title>
-      <link>http://jonathanwayy.xyz/2021/latex_cline/</link>
+      <link>http://wzj.life/2021/latex_cline/</link>
       <pubDate>Sat, 13 Nov 2021 14:47:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_cline/</guid>
+      <guid>http://wzj.life/2021/latex_cline/</guid>
       <description>在用 Latex 绘制表格的过程中，有时需要绘制不完全贯穿整行的水平线，可用如下命令指定需要贯穿的列： \cline{起始列-终止列} 此命令中列从 1 开始排</description>
     </item>
     
     <item>
       <title>Latex 旋转文字方向</title>
-      <link>http://jonathanwayy.xyz/2021/latex_rotatebox/</link>
+      <link>http://wzj.life/2021/latex_rotatebox/</link>
       <pubDate>Thu, 28 Oct 2021 12:34:42 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_rotatebox/</guid>
+      <guid>http://wzj.life/2021/latex_rotatebox/</guid>
       <description>有时在 Latex 表格中需要改变文字方向，可以用如下语句实现： \rotatebox{角度}{文本}</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Python 报错 RuntimeError: CUDA error: invalid device ordinal 解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</link>
+      <link>http://wzj.life/2021/ldp_invalid_device_ordinal/</link>
       <pubDate>Wed, 13 Oct 2021 23:06:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_invalid_device_ordinal/</guid>
+      <guid>http://wzj.life/2021/ldp_invalid_device_ordinal/</guid>
       <description>问题描述 在涉及 to(device) 操作时出现如下报错： RuntimeError: CUDA error: invalid device ordinal 解决办法 在该操作前指定可选的 GPU 卡： import os os.environ[&amp;#39;CUDA_VISIBLE_DEVICES&amp;#39;] = &amp;#34;0,1,2,3,4,5,6,7&amp;#34;</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Pytorch 取矩阵对角线元素</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</link>
+      <link>http://wzj.life/2021/ldp_pytorch_diag/</link>
       <pubDate>Tue, 12 Oct 2021 19:13:06 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_pytorch_diag/</guid>
+      <guid>http://wzj.life/2021/ldp_pytorch_diag/</guid>
       <description>在 Pytorch 中，可以用 torch.diag 取矩阵的对角线元素，返回的是一个向量；使用 torch.diag_embed 可将向量变换为以该向量为对角线的方阵。 In [1]: import torch In [2]: A = torch.randn(3, 3) In [3]: A Out[3]: tensor([[ 0.1808, 0.2905, -2.2199], [-0.8913, 1.1296, 0.6261],</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Python 读取 pkl 文件报错 ValueError: unsupported pickle protocol: 5 解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/</link>
+      <link>http://wzj.life/2021/ldp_pickle_protocol_5/</link>
       <pubDate>Sun, 26 Sep 2021 21:00:54 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_pickle_protocol_5/</guid>
+      <guid>http://wzj.life/2021/ldp_pickle_protocol_5/</guid>
       <description>问题描述 使用 Python 读取 .pkl 文件时报错如下： ValueError: unsupported pickle protocol: 5 原因分析 Python 3.8 以上版本在保存 .pkl 文件时使用的协议号为 5，即 protocol 关键字为 5，若在读取时使用低于 3.8 版本的</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- PyTorch 出现 NotImplementedError 报错的一种可能情况</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</link>
+      <link>http://wzj.life/2021/ldp_torch_notimplementederror/</link>
       <pubDate>Tue, 21 Sep 2021 23:36:45 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_torch_notimplementederror/</guid>
+      <guid>http://wzj.life/2021/ldp_torch_notimplementederror/</guid>
       <description>问题描述 PyTorch 一使用网络进行计算即出现如下报错： raise NotImplementedErrorh 问题原因 经过反复的调试和检查后，发现是 forward 函数的问题，网络模型类中的 def forward 一行多缩进了一个 Tab 位，</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Windows 环境下 Python 2 可用的一个 Tensorflow 轮子</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_py2_win_tf/</link>
+      <link>http://wzj.life/2021/ldp_py2_win_tf/</link>
       <pubDate>Sun, 12 Sep 2021 20:39:13 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_py2_win_tf/</guid>
+      <guid>http://wzj.life/2021/ldp_py2_win_tf/</guid>
       <description>Tensorflow 在 Windows 环境下不支持 Python 2，但是最近需要在一台 Windows 系统的工作站上给基于 Python 2.7 的虚拟环境配置 Tensorflow。 记录一下找到的一个可用的轮子： https://github.com/fo40225/tensorflow-windows-wheel 下载</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Python 2 安装 grpcio 的一个可用版本</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_py2_grpcio/</link>
+      <link>http://wzj.life/2021/ldp_py2_grpcio/</link>
       <pubDate>Sun, 12 Sep 2021 20:25:22 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_py2_grpcio/</guid>
+      <guid>http://wzj.life/2021/ldp_py2_grpcio/</guid>
       <description>在一台 Windows 工作站上需要配置一个基于 Python 2.7 的 TF 虚拟环境，安装一个依赖包 grpcio 时遇到了问题。 分析以后应该是由于新版本的 grpcio 不支持 Python 2.7 了，直接用 pip 安装不行，</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Windows 下使用 pip 安装 opendr</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_win_opendr/</link>
+      <link>http://wzj.life/2021/ldp_win_opendr/</link>
       <pubDate>Sun, 12 Sep 2021 15:35:04 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_win_opendr/</guid>
+      <guid>http://wzj.life/2021/ldp_win_opendr/</guid>
       <description>问题描述 直接使用 pip install opendr 会报一个 failed with exit code 1181 的错误。 解决办法 首先安装 glfw，是 opengl 的一个框架： pip install glfw 在这里下载 opendr 后构建并安装： &amp;gt; git clone https://github.com/polmorenoc/opendr.git &amp;gt; cd ./opendr/opendr &amp;gt; python</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Python 2 安装 opencv-python 包出错解决办法</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</link>
+      <link>http://wzj.life/2021/ldp_python2_opencv/</link>
       <pubDate>Sat, 11 Sep 2021 21:46:05 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_python2_opencv/</guid>
+      <guid>http://wzj.life/2021/ldp_python2_opencv/</guid>
       <description>问题描述 在为使用 Python 2.7 的虚拟环境使用如下命令安装 OpenCV 时 pip2 install opencv-python 出现了如下报错： TypeError: &amp;#39;NoneType&amp;#39; object is not iterable 原因分析 出现这种情况是因为最新版的 OpenCV 不再支持 Python 2.7，而</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 枢纽点问题 (Hubness Problem)</title>
-      <link>http://jonathanwayy.xyz/2021/ldp_hubness_problem/</link>
+      <link>http://wzj.life/2021/ldp_hubness_problem/</link>
       <pubDate>Wed, 25 Aug 2021 18:08:27 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp_hubness_problem/</guid>
+      <guid>http://wzj.life/2021/ldp_hubness_problem/</guid>
       <description>当特征嵌入空间是一个高维空间时，容易出现枢纽点问题 (Hubness Problem)。 问题定义 在高维空间中，一部分测试集的类别可能会成为很多数据点的 K 近邻 (</description>
     </item>
     
     <item>
       <title>Latex 使用 longtable 实现多页显示长表格</title>
-      <link>http://jonathanwayy.xyz/2021/latex_longtable/</link>
+      <link>http://wzj.life/2021/latex_longtable/</link>
       <pubDate>Wed, 25 Aug 2021 12:41:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_longtable/</guid>
+      <guid>http://wzj.life/2021/latex_longtable/</guid>
       <description>在使用 Latex 写论文时，有时会出现表格过长超出一页的情况，可以通过 longtable 包实现表格的多页显示。 首先引入宏包 \usepackage{longtable} 使用 longtable 首先删去 \begin{table} 和 \end{table}，</description>
     </item>
     
     <item>
       <title>编译 Latex 遇到 File ended while scanning use of 
 ewlbel 问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/latex_newlbel/</link>
+      <link>http://wzj.life/2021/latex_newlbel/</link>
       <pubDate>Wed, 25 Aug 2021 12:23:59 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_newlbel/</guid>
+      <guid>http://wzj.life/2021/latex_newlbel/</guid>
       <description>问题描述 编译 Latex 时出现如下报错： File ended while scanning use of \@newl@bel... 解决办法 将目录中除了 .tex 文件以及图像、参考文献等文件其外的其余文件均删除后重新编译即可。</description>
     </item>
     
     <item>
       <title>Latex 表格使用 toprule、midrule 及 bottomrule 时出现 undefined control sequence 报错解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/latex_booktabs/</link>
+      <link>http://wzj.life/2021/latex_booktabs/</link>
       <pubDate>Tue, 17 Aug 2021 20:24:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_booktabs/</guid>
+      <guid>http://wzj.life/2021/latex_booktabs/</guid>
       <description>问题描述 在 Latex 表格中，使用 \toprule、\midrule 以及 \bottomrule 时报错 “undefined control sequence”。 解决办法 缺少相应宏包，导入即</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- PyTorch 特征傅利叶变换幅度相位分离与重建</title>
-      <link>http://jonathanwayy.xyz/2021/fft-ap/</link>
+      <link>http://wzj.life/2021/fft-ap/</link>
       <pubDate>Mon, 16 Aug 2021 17:57:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/fft-ap/</guid>
+      <guid>http://wzj.life/2021/fft-ap/</guid>
       <description>简单记录一下如何使用 PyTorch 对做过傅利叶变换后的特征进行幅度与相位的分离与重建。 In [1]: import torch In [2]: import numpy as np # 生成一个张量作为特征 In [3]: feat = torch.rand((3,10)) In [4]: feat Out[4]: tensor([[3.7899e-01, 2.9198e-01, 6.4575e-01,</description>
     </item>
     
     <item>
       <title>Latex 中矩阵的几种实现方式</title>
-      <link>http://jonathanwayy.xyz/2021/latex_matrix/</link>
+      <link>http://wzj.life/2021/latex_matrix/</link>
       <pubDate>Sun, 18 Jul 2021 16:20:27 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_matrix/</guid>
+      <guid>http://wzj.life/2021/latex_matrix/</guid>
       <description>记录一下 Latex 中实现矩阵的几种方式。 1. 无括号 代码 \begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix} 效果 $$\begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix}$$ 2. 圆括号 代码 \begin{pmatrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{pmatrix} % 或 \left(\begin{matrix} 0 &amp;amp; 1 \\ 2 &amp;amp; 3 \end{matrix}\right) 效果</description>
     </item>
     
     <item>
       <title>Latex 添加无编号脚注</title>
-      <link>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</link>
+      <link>http://wzj.life/2021/latex_footnote_without_number/</link>
       <pubDate>Sat, 17 Jul 2021 11:53:47 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_footnote_without_number/</guid>
+      <guid>http://wzj.life/2021/latex_footnote_without_number/</guid>
       <description>在使用 Latex 的过程中，有时需要添加不带编号的脚注，目前尝试过有效的有两种办法，记录如下。 方法一 \renewcommand{\thefootnote}{} \footnotetext{脚注内容} 方法二 \l</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Channel Shuffle 操作的 PyTorch 实现</title>
-      <link>http://jonathanwayy.xyz/2021/channel-shuffle/</link>
+      <link>http://wzj.life/2021/channel-shuffle/</link>
       <pubDate>Sun, 11 Jul 2021 14:26:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/channel-shuffle/</guid>
+      <guid>http://wzj.life/2021/channel-shuffle/</guid>
       <description>在 ShuffleNet、SA-Net 以及一系列模型中涉及到了一种 Channel Shuffle 操作，用于在沿着通道维分组运算后保证各组特征之间能够有信息交互。 Channel Shuffle 的机</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Nyquist 频率与 Nyquist 间隔</title>
-      <link>http://jonathanwayy.xyz/2021/ldp9/</link>
+      <link>http://wzj.life/2021/ldp9/</link>
       <pubDate>Tue, 06 Jul 2021 11:36:55 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp9/</guid>
+      <guid>http://wzj.life/2021/ldp9/</guid>
       <description>若带限信号 \(x(t)\) 的最高角频率为 \(\omega_{m}\)，则在一定条件下，信号 \(x(t)\) 可以用等间隔 \(T\) 的抽样值唯一表示。 抽样间隔 \(T\) 需满足： $$T \le \frac{\pi}{\omega_{m}} = \frac{1}{2f_{m}},$$ 或</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 时域抽样定理</title>
-      <link>http://jonathanwayy.xyz/2021/ldp8/</link>
+      <link>http://wzj.life/2021/ldp8/</link>
       <pubDate>Tue, 06 Jul 2021 11:24:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp8/</guid>
+      <guid>http://wzj.life/2021/ldp8/</guid>
       <description>时域抽样定理 设 \(X(j\omega)\) 和 \(X(e^{j\Omega})\) 分别表示连续时间信号 \(x(t)\) 和离散时间信号 \(x[k]\) 的频谱，即 $$X(j\omega) = \int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt, \ X(e^{j\Omega}) = \sum_{-\infty}^{\infty} x[k]e^{-j\Omega k}.$$ 若存在 $$x[k] = x(t)|_{t = kT},$$ 则有 $$X(e^{j\Omega}) = \frac{1}{T}\sum_{-\infty}^{+\infty} X[j(\omega - n\omega_{sam})], \quad \omega_{sam} = 2\pi/T, \quad \Omega = \omega T.$$ 表</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 低版本 PyTorch 中 pack_padded_sequence 缺少 enforce_sorted 参数问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/ldp7/</link>
+      <link>http://wzj.life/2021/ldp7/</link>
       <pubDate>Sat, 26 Jun 2021 10:35:58 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp7/</guid>
+      <guid>http://wzj.life/2021/ldp7/</guid>
       <description>背景 近期用到了一台新的堡垒机，上面的驱动环境比较老只能用 1.0.0 版本的 PyTorch。 调试了代码以后发现大体上没有遇到什么问题，唯一就是涉及到 GRU 的</description>
     </item>
     
     <item>
       <title>Latex 希腊字母</title>
-      <link>http://jonathanwayy.xyz/2021/latex_greeceletter/</link>
+      <link>http://wzj.life/2021/latex_greeceletter/</link>
       <pubDate>Fri, 25 Jun 2021 11:30:21 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_greeceletter/</guid>
+      <guid>http://wzj.life/2021/latex_greeceletter/</guid>
       <description>记录一下 Latex 中的希腊字母实现，以备查用。 小写 代码 大写 代码 \(\alpha\) \alpha \(\Alpha\) \(A\) \Alpha A \(\beta\) \beta \(\Beta\) \(B\) \Beta B \(\gamma\) \gamma \(\Gamma\) \Gamma \(\delta\) \delta \(\Delta\) \Delta \(\epsilon\) \(\varepsilon\) \epsilon \varepsilon \(\Epsilon\) \(E\) \Epsilon E \(\zeta\) \zeta \(\Zeta\) \(Z\) \Zeta Z \(\eta\) \eta \(\Eta\) \(H\) \Eta H \(\theta\) \(\vartheta\) \theta</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 带限函数</title>
-      <link>http://jonathanwayy.xyz/2021/ldp6/</link>
+      <link>http://wzj.life/2021/ldp6/</link>
       <pubDate>Thu, 24 Jun 2021 22:32:06 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp6/</guid>
+      <guid>http://wzj.life/2021/ldp6/</guid>
       <description>定义 若一个函数对于以原点为中心的有限区间（带宽） \([-\mu_{max}, \mu_{max}]\)以外的频率值，其傅里叶变换均为 0，则称之为带限函数*。*</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 卷积定理</title>
-      <link>http://jonathanwayy.xyz/2021/conv-theory/</link>
+      <link>http://wzj.life/2021/conv-theory/</link>
       <pubDate>Thu, 24 Jun 2021 21:23:26 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/conv-theory/</guid>
+      <guid>http://wzj.life/2021/conv-theory/</guid>
       <description>卷积定义 用算子 \(\star\) 表示两个函数的卷积，定义为 $$(f \star h)(t) = \int_{-\infty}^{\infty} f(\tau)h(t-\tau)d\tau.$$ 卷积定理 空间域中两个函数的卷积的傅里叶变换，等于频率域中两个函数傅里叶变换的乘积。反过</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- ValueError: only one element tensors can be converted to Python scalars 问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/ldp5/</link>
+      <link>http://wzj.life/2021/ldp5/</link>
       <pubDate>Thu, 24 Jun 2021 00:01:18 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp5/</guid>
+      <guid>http://wzj.life/2021/ldp5/</guid>
       <description>问题描述 形如以下操作： lst = [] a, b = torch.tensor([1, 2, 3]), torch.tensor([4, 5, 6]) lst.append(a) lst.append(b) converted_lst = torch.tensor(lst) 得到如下报错信息： ValueError: only one element tensors can be converted to Python scalars 原因分析 元素为 tensor 的 list 无法转化为 tensor。</description>
     </item>
     
     <item>
       <title>Latex 分段函数的一种实现方式</title>
-      <link>http://jonathanwayy.xyz/2021/latex_case/</link>
+      <link>http://wzj.life/2021/latex_case/</link>
       <pubDate>Tue, 22 Jun 2021 21:05:14 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_case/</guid>
+      <guid>http://wzj.life/2021/latex_case/</guid>
       <description>代码实现 $$f(x) = \begin{cases} 2x + 1, \quad if \ x &amp;gt; 1, \\\\ -3x, \quad if \ x \le 1.\end{cases}$$ 呈现效果 $$f(x) = \begin{cases} 2x + 1, \quad if \ x &amp;gt; 1, \\ -3x, \quad if \ x \le 1.\end{cases}$$</description>
     </item>
     
     <item>
       <title>Latex 公式中的空格表示</title>
-      <link>http://jonathanwayy.xyz/2021/latex_space/</link>
+      <link>http://wzj.life/2021/latex_space/</link>
       <pubDate>Mon, 21 Jun 2021 14:11:57 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_space/</guid>
+      <guid>http://wzj.life/2021/latex_space/</guid>
       <description>类型 代码 效果 备注 两个 quad 空格 a \qquad b \(a \qquad b\) 两个 M 的宽度 quad 空格 a \quad b \(a \quad b\) 一个 M 的宽度 大空格 a\ b \(a \ b\) 1/3 M 的宽度 中等空格 a\;b \(a \; b\) 2/7 M 的宽度 小空格 a\,b</description>
     </item>
     
     <item>
       <title>Latex 插入空行</title>
-      <link>http://jonathanwayy.xyz/2021/latex_spaceline/</link>
+      <link>http://wzj.life/2021/latex_spaceline/</link>
       <pubDate>Wed, 16 Jun 2021 20:38:50 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_spaceline/</guid>
+      <guid>http://wzj.life/2021/latex_spaceline/</guid>
       <description>有时需要在 Latex 文档中插入一个空行，查阅一些文档并做了一些尝试后，发现了一种较为简单的方法： \\ \hspace*{\fill} \\ 即换行，用空格填充后，再次换行。</description>
     </item>
     
     <item>
       <title>Latex 取消段首缩进</title>
-      <link>http://jonathanwayy.xyz/2021/latex_noindent/</link>
+      <link>http://wzj.life/2021/latex_noindent/</link>
       <pubDate>Wed, 16 Jun 2021 20:28:52 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_noindent/</guid>
+      <guid>http://wzj.life/2021/latex_noindent/</guid>
       <description>要取消 Latex 段首缩进，可以在需要处理的段落前加上如下代码： \noindent</description>
     </item>
     
     <item>
       <title>Matplotlib 颜色表</title>
-      <link>http://jonathanwayy.xyz/2021/matplotlib-color/</link>
+      <link>http://wzj.life/2021/matplotlib-color/</link>
       <pubDate>Sun, 06 Jun 2021 16:46:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/matplotlib-color/</guid>
+      <guid>http://wzj.life/2021/matplotlib-color/</guid>
       <description>Matplotlib 中的颜色表如下图所示，可以直接通过参数color=&#39;颜色名称&#39;选取对应的颜色。</description>
     </item>
     
     <item>
       <title>OpenCV 与 PIL.Image 之间的图像通道（channel）转换</title>
-      <link>http://jonathanwayy.xyz/2021/opencv-pil-channel/</link>
+      <link>http://wzj.life/2021/opencv-pil-channel/</link>
       <pubDate>Fri, 14 May 2021 19:46:19 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/opencv-pil-channel/</guid>
+      <guid>http://wzj.life/2021/opencv-pil-channel/</guid>
       <description>今天有学弟提到了一个打开图像并显示时图像色调变蓝的问题，经历一番周折后最终解决，在此记录。 问题的根本原因在于 OpenCV 默认是以 BGR 的通道顺序打开和显示</description>
     </item>
     
     <item>
       <title>辛格函数 sinc 杂记</title>
-      <link>http://jonathanwayy.xyz/2021/sinc/</link>
+      <link>http://wzj.life/2021/sinc/</link>
       <pubDate>Mon, 10 May 2021 13:21:04 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/sinc/</guid>
+      <guid>http://wzj.life/2021/sinc/</guid>
       <description>sinc 函数在不同领域有不同的定义，用符号 \(sinc(x)\) 表示，可被定义为归一化的或者非归一化的，不过两种函数都是正弦函数和单调递减函数 \(\frac{1}{x}\) 的乘积。 数字信号处理和</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- Pytorch view 函数 RuntimeError 问题解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/ldp4/</link>
+      <link>http://wzj.life/2021/ldp4/</link>
       <pubDate>Sat, 08 May 2021 18:37:46 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp4/</guid>
+      <guid>http://wzj.life/2021/ldp4/</guid>
       <description>问题描述 在程序中使用形如 A = X.view(32, -1) 的语句调用 view 时出现如下报错： RuntimeError: view size is not compatible with input tensor&amp;#39;s size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead. 原因分析 view() 需要 Tensor 中元素地址连续，</description>
     </item>
     
     <item>
       <title>ACM 会议论文模板去除 ACM Reference Format 信息</title>
-      <link>http://jonathanwayy.xyz/2021/latex_acmtem/</link>
+      <link>http://wzj.life/2021/latex_acmtem/</link>
       <pubDate>Fri, 16 Apr 2021 18:48:00 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/latex_acmtem/</guid>
+      <guid>http://wzj.life/2021/latex_acmtem/</guid>
       <description>在投稿撰文时，可以去掉 ACM 的 latex 模板中会有的 ACM Reference Format 信息。 方法如下： 在 \documentclass[sigconf]{acmart} 下面添加以下几行： \settopmatter{printacmref=false} % Removes citation information below abstract \renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column \pagestyle{plain} % removes running headers</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- GELU 激活函数的 Pytorch 实现</title>
-      <link>http://jonathanwayy.xyz/2021/ldp3/</link>
+      <link>http://wzj.life/2021/ldp3/</link>
       <pubDate>Thu, 25 Mar 2021 17:48:10 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp3/</guid>
+      <guid>http://wzj.life/2021/ldp3/</guid>
       <description>Transformers 中提出了一个新的激活函数 GELU，由于比较新，该模块仅在 1.8 以上版本的 Pytorch 中被收录。 要在较低版本的 Pytorch 中使用 GELU，可自行编写实现，代码如下：</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- nvidia-smi指令报错：Failed to initialize NVML 解决方案</title>
-      <link>http://jonathanwayy.xyz/2021/ldp2/</link>
+      <link>http://wzj.life/2021/ldp2/</link>
       <pubDate>Fri, 22 Jan 2021 14:27:20 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2021/ldp2/</guid>
+      <guid>http://wzj.life/2021/ldp2/</guid>
       <description>问题描述 使用指令 nvidia-smi 时报错： Failed to initialize NVML: Driver/library version mismatch 问题原因 NVIDIA 内核驱动版本与系统驱动不一致。 解决办法 网上有很多调整驱动版本的方法教程，但其实最简单的方法</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- &#39; xsrf&#39; argument missing from POST 解决方法</title>
-      <link>http://jonathanwayy.xyz/2020/ldp1/</link>
+      <link>http://wzj.life/2020/ldp1/</link>
       <pubDate>Thu, 12 Nov 2020 12:47:56 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/ldp1/</guid>
+      <guid>http://wzj.life/2020/ldp1/</guid>
       <description>问题描述 Jupyter Notebook 保存时出现 ‘_xsrf’ argument missing from POST 错误，保存失败。 解决方法 刷新 Jupyter Notebook 的 home 界面即可，简单粗暴，亲测有效。</description>
     </item>
     
     <item>
       <title>花书 阅读笔记</title>
-      <link>http://jonathanwayy.xyz/2020/flower-book-notes/</link>
+      <link>http://wzj.life/2020/flower-book-notes/</link>
       <pubDate>Mon, 05 Oct 2020 19:34:16 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/flower-book-notes/</guid>
+      <guid>http://wzj.life/2020/flower-book-notes/</guid>
       <description>Chapter 1 硬编码知识体系 —— 知识库方法（Cyc） 从原始数据中提取模式 —— 机器学习 简单的机器学习算法的性能很大程度上以来于给定数据的表示 很难知道该提</description>
     </item>
     
     <item>
       <title>炼丹杂记 -- 饱和激活函数</title>
-      <link>http://jonathanwayy.xyz/2020/dl-notes1/</link>
+      <link>http://wzj.life/2020/dl-notes1/</link>
       <pubDate>Wed, 04 Mar 2020 09:07:11 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/dl-notes1/</guid>
+      <guid>http://wzj.life/2020/dl-notes1/</guid>
       <description>饱和激活函数 当自变量趋于正无穷时，若激活函数的导数趋于0,则称之为右饱和。 当自变量趋于负无穷时，若激活函数的导数趋于0,则称之为左饱和。 若一</description>
     </item>
     

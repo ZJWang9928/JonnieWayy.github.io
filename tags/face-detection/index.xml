@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>face detection on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/face-detection/</link>
-    <description>Recent content in face detection on Jonathan`s Blog</description>
+    <title>face detection on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/face-detection/</link>
+    <description>Recent content in face detection on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 29 Jan 2020 18:56:28 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/face-detection/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jan 2020 18:56:28 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/face-detection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>基于人脸检测的自动口罩/护目镜佩戴小程序</title>
-      <link>http://jonathanwayy.xyz/2020/mask-wearing/</link>
+      <link>http://wzj.life/2020/mask-wearing/</link>
       <pubDate>Wed, 29 Jan 2020 18:56:28 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/mask-wearing/</guid>
+      <guid>http://wzj.life/2020/mask-wearing/</guid>
       <description>最近武汉的疫情闹得沸沸扬扬，大家出行都戴上了口罩预防被传染，很多人还给自己的社交媒体头像戴上了口罩。 为了省去P图时来回来去调整的麻烦，这里开</description>
     </item>
     

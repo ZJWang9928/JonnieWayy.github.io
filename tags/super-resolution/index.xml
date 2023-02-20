@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>super-resolution on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/super-resolution/</link>
-    <description>Recent content in super-resolution on Jonathan`s Blog</description>
+    <title>super-resolution on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/super-resolution/</link>
+    <description>Recent content in super-resolution on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 07 Jun 2022 14:52:12 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/super-resolution/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 14:52:12 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/super-resolution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[论文阅读笔记 -- ReID] Super‐resolution‐based Part Collaboration Network for VReID (WWW 2022)</title>
-      <link>http://jonathanwayy.xyz/2022/prn229/</link>
+      <link>http://wzj.life/2022/prn229/</link>
       <pubDate>Tue, 07 Jun 2022 14:52:12 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2022/prn229/</guid>
+      <guid>http://wzj.life/2022/prn229/</guid>
       <description>Super‐resolution‐based Part Collaboration Network for Vehicle Re‐identification (WWW 2022) 概述 Vehicle ReID 的两个主要困难 Intra-instance Difference Inter-instance Similarity 本文提出一种双分支</description>
     </item>
     

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>github on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/github/</link>
-    <description>Recent content in github on Jonathan`s Blog</description>
+    <title>github on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/github/</link>
+    <description>Recent content in github on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Jul 2020 14:24:33 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2020 14:24:33 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[31] GitHub下fork后同步源的新更新内容</title>
-      <link>http://jonathanwayy.xyz/2020/blwl31/</link>
+      <link>http://wzj.life/2020/blwl31/</link>
       <pubDate>Thu, 16 Jul 2020 14:24:33 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl31/</guid>
+      <guid>http://wzj.life/2020/blwl31/</guid>
       <description>在 GitHub 下，当 A 开发者 fork 了 B 开发者的库后，若 B 开发者更新了内容， A 开发者可以通过如下方法实现库同步。 给 fork 配置远程库 查看远程状态 $&amp;gt; git remote -v 添加将被同</description>
     </item>
     

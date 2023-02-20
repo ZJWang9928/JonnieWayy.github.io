@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>surround on Jonathan`s Blog</title>
-    <link>http://jonathanwayy.xyz/tags/surround/</link>
-    <description>Recent content in surround on Jonathan`s Blog</description>
+    <title>surround on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/surround/</link>
+    <description>Recent content in surround on Zijie Wang`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate><atom:link href="http://jonathanwayy.xyz/tags/surround/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jun 2020 21:13:37 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/surround/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLWL[30] Vim成对符号处理插件surround</title>
-      <link>http://jonathanwayy.xyz/2020/blwl30/</link>
+      <link>http://wzj.life/2020/blwl30/</link>
       <pubDate>Fri, 19 Jun 2020 21:13:37 +0800</pubDate>
       
-      <guid>http://jonathanwayy.xyz/2020/blwl30/</guid>
+      <guid>http://wzj.life/2020/blwl30/</guid>
       <description>surround 是一款可用于高效操作成对符号的 Vim 插件，可以实现成对符号的替换、删除等功能。 surround 插件 GitHub地址 传送门，插件安装方式很常规，这里不再赘述。</description>
     </item>
     
