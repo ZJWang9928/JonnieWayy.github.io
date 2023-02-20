@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://jonathanwayy.xyz/2023/prn343/" />
-  <link rel="next" href="http://jonathanwayy.xyz/2023/prn345/" />
-  <link rel="canonical" href="http://jonathanwayy.xyz/2023/prn344/" />
+  <link rel="prev" href="http://jonathanwayy.xyz/2023/prn344/" />
+  <link rel="next" href="http://jonathanwayy.xyz/2020/kliv/" />
+  <link rel="canonical" href="http://jonathanwayy.xyz/2023/prn345/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022) | Jonathan`s Blog
+           [论文阅读笔记 -- VLP] UniAdapter: Unified Parameter-Efficient Transfer Learning (2023) | Jonathan`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022) | Jonathan`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- VLP] UniAdapter: Unified Parameter-Efficient Transfer Learning (2023) | Jonathan`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/jonathanwayy.xyz"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022)",
-    "headline" : "[论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022)",
-    "description" : "Unsupervised Cross-domain Person Re-identification by Instance And Distribution Alignment (PR 2022) 概述 本文针对无监督跨域 ReID 提出一种 Hierarchical Unsupervised Domain Adaptation (HUDA) 模型。 模型架构 可视化示例",
+    "name" : "[论文阅读笔记 -- VLP] UniAdapter: Unified Parameter-Efficient Transfer Learning (2023)",
+    "headline" : "[论文阅读笔记 -- VLP] UniAdapter: Unified Parameter-Efficient Transfer Learning (2023)",
+    "description" : "2302.06605 UniAdapter: Unified Parameter-Efficient Transfer Learning for Cross-modal Modeling (2023) 开源代码传送门 概述 本文针对 unified parameter-efficient cross-modal transfer learning 问题，提出一种 UniAdapter 模型。 模型架构",
     "inLanguage" : "zh-cn",
     "author" : "Jonathan Wang",
     "creator" : "Jonathan Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Jonathan Wang",
     "copyrightHolder" : "Jonathan Wang",
     "copyrightYear" : "2023",
-    "datePublished": "2023-02-19 17:30:51 \u002b0800 CST",
-    "dateModified" : "2023-02-19 17:30:51 \u002b0800 CST",
-    "url" : "http:\/\/jonathanwayy.xyz\/2023\/prn344\/",
-    "wordCount" : "44",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","domain generalization","re-identification", "Jonathan`s Blog"]
+    "datePublished": "2023-02-20 10:03:27 \u002b0800 CST",
+    "dateModified" : "2023-02-20 10:03:27 \u002b0800 CST",
+    "url" : "http:\/\/jonathanwayy.xyz\/2023\/prn345\/",
+    "wordCount" : "43",
+    "keywords" : [ "paper reading","cv","notes","cross-modal", "Jonathan`s Blog"]
 }
 </script>
 
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- VLP] UniAdapter: Unified Parameter-Efficient Transfer Learning (2023)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://jonathanwayy.xyz" rel="author">Jonathan Wang</a> 
                 <span class="post-time">
-                on <time datetime=2023-02-19 itemprop="datePublished">February 19, 2023</time>
+                on <time datetime=2023-02-20 itemprop="datePublished">February 20, 2023</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://jonathanwayy.xyz/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 44 words</span>
+                <span class="post-word-count">, 43 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,14 +194,13 @@
           
           
 
-          <h1 id="unsupervised-cross-domain-person-re-identification-by-instance-and-distribution-alignment-pr-2022">Unsupervised Cross-domain Person Re-identification by Instance And Distribution Alignment (PR 2022)</h1>
+          <h1 id="230206605-uniadapter-unified-parameter-efficient-transfer-learning-for-cross-modal-modeling-2023">2302.06605 UniAdapter: Unified Parameter-Efficient Transfer Learning for Cross-modal Modeling (2023)</h1>
+<p><a href="https://github.com/RERV/UniAdapter">开源代码传送门</a></p>
+<p><img src="/images/2023/PRN345/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文针对无监督跨域 ReID 提出一种 Hierarchical Unsupervised Domain Adaptation (HUDA) 模型。</p>
+<p>本文针对 unified parameter-efficient cross-modal transfer learning 问题，提出一种 UniAdapter 模型。</p>
 <h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2023/PRN344/1.png" alt="Fig 1"></p>
-<h3 id="可视化示例">可视化示例</h3>
-<p><img src="/images/2023/PRN344/2.png" alt="Fig 2"></p>
-<p><img src="/images/2023/PRN344/4.png" alt="Fig 4"></p>
+<p><img src="/images/2023/PRN345/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -216,7 +215,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://jonathanwayy.xyz/2023/prn344/>http://jonathanwayy.xyz/2023/prn344/</span>
+                    <a href=http://jonathanwayy.xyz/2023/prn345/>http://jonathanwayy.xyz/2023/prn345/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -248,12 +247,6 @@
             <span class="tag"><a href="http://jonathanwayy.xyz/tags/cross-modal/">
                     #cross-modal</a></span>
             
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/domain-generalization/">
-                    #domain generalization</a></span>
-            
-            <span class="tag"><a href="http://jonathanwayy.xyz/tags/re-identification/">
-                    #re-identification</a></span>
-            
             </section>
         
         <section>
@@ -264,10 +257,10 @@
 
     <div class="post-nav">
         
-        <a href="http://jonathanwayy.xyz/2023/prn343/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] Robust Representation Learning with Self-Distillation for DG (2023)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] Robust Representation Learning with Self-Distillation for DG (2023)</a>
+        <a href="http://jonathanwayy.xyz/2023/prn344/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] UCD ReID by Instance And Distribution Alignment (PR 2022)</a>
          
         
-        <a href="http://jonathanwayy.xyz/2023/prn345/" class="next" rel="next" title="[论文阅读笔记 -- VLP] UniAdapter: Unified Parameter-Efficient Transfer Learning (2023)">[论文阅读笔记 -- VLP] UniAdapter: Unified Parameter-Efficient Transfer Learning (2023)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://jonathanwayy.xyz/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
