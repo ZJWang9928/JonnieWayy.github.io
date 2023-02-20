@@ -14,7 +14,7 @@
       <pubDate>Mon, 20 Feb 2023 18:24:38 +0800</pubDate>
       
       <guid>http://wzj.life/2023/prn347/</guid>
-      <description>Better Aggregation in Test-Time Augmentation (ICCV 2021) 概述</description>
+      <description>Better Aggregation in Test-Time Augmentation (ICCV 2021) 概述 TTA 依赖于两个选择 包含哪些增广 怎样聚合结果 本文进一步优化 TTA 方法。</description>
     </item>
     
     <item>
