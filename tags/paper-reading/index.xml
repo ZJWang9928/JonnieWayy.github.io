@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 22 Feb 2023 20:48:21 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 21:07:44 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Causality-based Dual-Contrastive Learning Framework for DG (2023)</title>
+      <link>http://wzj.life/2023/prn350/</link>
+      <pubDate>Wed, 22 Feb 2023 21:07:44 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn350/</guid>
+      <description>2301.09120 Causality-based Dual-Contrastive Learning Framework for Domain Generalization (2023) 概述 本文认为现有的大多数 DG 算法设计上较为复杂，不容易嵌入到任意网络中。 本文提出一种 Dual-Contrastive Learning (DCL) module with Causal Fusion Attention (CFA) 方法。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Visible-Infrared ReID via Patch-Mixed Cross-Modality Learning (2023)</title>
       <link>http://wzj.life/2023/prn349/</link>

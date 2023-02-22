@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://wzj.life/2023/prn348/" />
-  <link rel="next" href="http://wzj.life/2023/prn350/" />
-  <link rel="canonical" href="http://wzj.life/2023/prn349/" />
+  <link rel="prev" href="http://wzj.life/2023/prn349/" />
+  <link rel="next" href="http://wzj.life/2020/kliv/" />
+  <link rel="canonical" href="http://wzj.life/2023/prn350/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] Visible-Infrared ReID via Patch-Mixed Cross-Modality Learning (2023) | Zijie Wang`s Blog
+           [论文阅读笔记 -- 域泛化] Causality-based Dual-Contrastive Learning Framework for DG (2023) | Zijie Wang`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] Visible-Infrared ReID via Patch-Mixed Cross-Modality Learning (2023) | Zijie Wang`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 域泛化] Causality-based Dual-Contrastive Learning Framework for DG (2023) | Zijie Wang`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/wzj.life"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] Visible-Infrared ReID via Patch-Mixed Cross-Modality Learning (2023)",
-    "headline" : "[论文阅读笔记 -- ReID] Visible-Infrared ReID via Patch-Mixed Cross-Modality Learning (2023)",
-    "description" : "2302.08212 Visible-Infrared Person Re-Identification via Patch-Mixed Cross-Modality Learning (2023) 概述 VI-ReID 任务。 本文提出一种 Patch-Mixed Cross-Modality (PMCM) 架构。 模型架构 可视化示例",
+    "name" : "[论文阅读笔记 -- 域泛化] Causality-based Dual-Contrastive Learning Framework for DG (2023)",
+    "headline" : "[论文阅读笔记 -- 域泛化] Causality-based Dual-Contrastive Learning Framework for DG (2023)",
+    "description" : "2301.09120 Causality-based Dual-Contrastive Learning Framework for Domain Generalization (2023) 概述 本文认为现有的大多数 DG 算法设计上较为复杂，不容易嵌入到任意网络中。 本文提出一种 Dual-Contrastive Learning (DCL) module with Causal Fusion Attention (CFA) 方法。 模型架构",
     "inLanguage" : "zh-cn",
     "author" : "Zijie Wang",
     "creator" : "Zijie Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Zijie Wang",
     "copyrightHolder" : "Zijie Wang",
     "copyrightYear" : "2023",
-    "datePublished": "2023-02-22 20:48:21 \u002b0800 CST",
-    "dateModified" : "2023-02-22 20:48:21 \u002b0800 CST",
-    "url" : "http:\/\/wzj.life\/2023\/prn349\/",
-    "wordCount" : "36",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Zijie Wang`s Blog"]
+    "datePublished": "2023-02-22 21:07:44 \u002b0800 CST",
+    "dateModified" : "2023-02-22 21:07:44 \u002b0800 CST",
+    "url" : "http:\/\/wzj.life\/2023\/prn350\/",
+    "wordCount" : "66",
+    "keywords" : [ "paper reading","cv","notes","cross-modal","domain generalization", "Zijie Wang`s Blog"]
 }
 </script>
 
@@ -160,7 +160,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] Visible-Infrared ReID via Patch-Mixed Cross-Modality Learning (2023)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Causality-based Dual-Contrastive Learning Framework for DG (2023)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://wzj.life" rel="author">Zijie Wang</a> 
@@ -173,7 +173,7 @@
                         <a href="http://wzj.life/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 36 words</span>
+                <span class="post-word-count">, 66 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,15 +194,13 @@
           
           
 
-          <h1 id="230208212-visible-infrared-person-re-identification-via-patch-mixed-cross-modality-learning-2023">2302.08212 Visible-Infrared Person Re-Identification via Patch-Mixed Cross-Modality Learning (2023)</h1>
-<p><img src="/images/2023/PRN349/1.png" alt="Fig 1"></p>
+          <h1 id="230109120-causality-based-dual-contrastive-learning-framework-for-domain-generalization-2023">2301.09120 Causality-based Dual-Contrastive Learning Framework for Domain Generalization (2023)</h1>
+<p><img src="/images/2023/PRN350/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>VI-ReID 任务。</p>
-<p>本文提出一种 Patch-Mixed Cross-Modality (PMCM) 架构。</p>
+<p>本文认为现有的大多数 DG 算法设计上较为复杂，不容易嵌入到任意网络中。</p>
+<p>本文提出一种 Dual-Contrastive Learning (DCL) module with Causal Fusion Attention (CFA) 方法。</p>
 <h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2023/PRN349/2.png" alt="Fig 2"></p>
-<h3 id="可视化示例">可视化示例</h3>
-<p><img src="/images/2023/PRN349/3.png" alt="Fig 3"></p>
+<p><img src="/images/2023/PRN350/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -217,7 +215,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://wzj.life/2023/prn349/>http://wzj.life/2023/prn349/</span>
+                    <a href=http://wzj.life/2023/prn350/>http://wzj.life/2023/prn350/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -249,11 +247,8 @@
             <span class="tag"><a href="http://wzj.life/tags/cross-modal/">
                     #cross-modal</a></span>
             
-            <span class="tag"><a href="http://wzj.life/tags/retrieval/">
-                    #retrieval</a></span>
-            
-            <span class="tag"><a href="http://wzj.life/tags/reid/">
-                    #ReID</a></span>
+            <span class="tag"><a href="http://wzj.life/tags/domain-generalization/">
+                    #domain generalization</a></span>
             
             </section>
         
@@ -265,10 +260,10 @@
 
     <div class="post-nav">
         
-        <a href="http://wzj.life/2023/prn348/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] Domain Generalization with Global Sample Mixup (ECCVW 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] Domain Generalization with Global Sample Mixup (ECCVW 2022)</a>
+        <a href="http://wzj.life/2023/prn349/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] Visible-Infrared ReID via Patch-Mixed Cross-Modality Learning (2023)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] Visible-Infrared ReID via Patch-Mixed Cross-Modality Learning (2023)</a>
          
         
-        <a href="http://wzj.life/2023/prn350/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] Causality-based Dual-Contrastive Learning Framework for DG (2023)">[论文阅读笔记 -- 域泛化] Causality-based Dual-Contrastive Learning Framework for DG (2023)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://wzj.life/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
