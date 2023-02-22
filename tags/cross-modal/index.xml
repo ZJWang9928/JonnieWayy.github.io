@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Feb 2023 16:43:02 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 20:23:37 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Domain Generalization with Global Sample Mixup (ECCVW 2022)</title>
+      <link>http://wzj.life/2023/prn348/</link>
+      <pubDate>Wed, 22 Feb 2023 20:23:37 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn348/</guid>
+      <description>Domain Generalization with Global Sample Mixup (ECCVW 2022) 概述 NICO Common Context Generalization Challenge 2022 赛事第三名。 本文提出一种 Global Sample Mixup 策略用于域泛化。 与 Batch Sample Mixup 对比 集成学习 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Spectral Aware Softmax for Visible-Infrared Person ReID (2023)</title>
       <link>http://wzj.life/2023/prn346/</link>
