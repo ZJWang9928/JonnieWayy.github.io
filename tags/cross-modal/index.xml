@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 22 Feb 2023 21:42:44 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 22:05:55 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Inter-Intra Modal Representation Aug with DTAN (TMM 2023)</title>
+      <link>http://wzj.life/2023/prn352/</link>
+      <pubDate>Wed, 22 Feb 2023 22:05:55 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn352/</guid>
+      <description>Inter-Intra Modal Representation Augmentation with DCT-Transformer Adversarial Network for Image-Text Matching (TMM 2023) 概述 本文针对图文检索提出一种 DCT-Transformer Adversarial Network (DTAN)。 Co-attention DCT-transformer Layer 模型架构 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] DCR-ReID: Deep Component Reconstruction for CCReID (TCSVT 2023)</title>
       <link>http://wzj.life/2023/prn351/</link>
