@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 23 Feb 2023 18:40:05 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 21:37:27 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Gated Domain-Invariant Feature Disentanglement for DGOD (2023)</title>
+      <link>http://wzj.life/2023/prn355/</link>
+      <pubDate>Thu, 23 Feb 2023 21:37:27 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn355/</guid>
+      <description>2203.11432 Gated Domain-Invariant Feature Disentanglement for Domain Generalizable Object Detection (2022) 概述 域泛化目标检测任务。 本文提出一种 Gated Domain-Invariant Feature Disentanglement (GDIFD) 方法，沿通道维分离域不变和域特定信息。 模型架构 Channel Gate Module 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] A Review on GAN for Data Augmentation in ReID Systems (2023)</title>
       <link>http://wzj.life/2023/prn354/</link>
