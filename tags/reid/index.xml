@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 23 Feb 2023 16:31:49 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 18:40:05 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] A Review on GAN for Data Augmentation in ReID Systems (2023)</title>
+      <link>http://wzj.life/2023/prn354/</link>
+      <pubDate>Thu, 23 Feb 2023 18:40:05 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn354/</guid>
+      <description>2302.09119 A Review on Generative Adversarial Networks for Data Augmentation in Person Re-Identification Systems (2023) 概述 ReID 中 GAN 用于数据增广的综述。 主要分为三类 Style transfer Pose transfer Random Generation</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Asymmetric Cross-Scale Alignment for TBPS (2023)</title>
       <link>http://wzj.life/2023/prn353/</link>
