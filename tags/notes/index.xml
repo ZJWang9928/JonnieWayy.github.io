@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 23 Feb 2023 21:37:27 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 22:03:44 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 可解释性] Exploring Linear Feature Disentanglement For NNs (ICME 2022)</title>
+      <link>http://wzj.life/2023/prn356/</link>
+      <pubDate>Thu, 23 Feb 2023 22:03:44 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn356/</guid>
+      <description>Exploring Linear Feature Disentanglement For Neural Networks (ICME 2022) 概述 本文探究是否所有特征都需要被非线性函数处理，关注神经网络中的线性特征解构问题，设计了一个可学习的掩码模块来区分线性与非</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Gated Domain-Invariant Feature Disentanglement for DGOD (2023)</title>
       <link>http://wzj.life/2023/prn355/</link>
