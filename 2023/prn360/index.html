@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://wzj.life/2023/bg66/" />
-  <link rel="next" href="http://wzj.life/2023/prn359/" />
-  <link rel="canonical" href="http://wzj.life/2023/prn358/" />
+  <link rel="prev" href="http://wzj.life/2023/prn359/" />
+  <link rel="next" href="http://wzj.life/2020/kliv/" />
+  <link rel="canonical" href="http://wzj.life/2023/prn360/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] DC-Former: Diverse and Compact Transformer for ReID (AAAI 2023) | Zijie Wang`s Blog
+           [论文阅读笔记 -- VLP] RILS: Masked Visual Reconst. in Language Semantic Space (CVPR 2023) | Zijie Wang`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] DC-Former: Diverse and Compact Transformer for ReID (AAAI 2023) | Zijie Wang`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- VLP] RILS: Masked Visual Reconst. in Language Semantic Space (CVPR 2023) | Zijie Wang`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/wzj.life"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] DC-Former: Diverse and Compact Transformer for ReID (AAAI 2023)",
-    "headline" : "[论文阅读笔记 -- ReID] DC-Former: Diverse and Compact Transformer for ReID (AAAI 2023)",
-    "description" : "DC-Former: Diverse and Compact Transformer for Person Re-Identification (AAAI 2023) 开源代码传送门 概述 本文从数据量角度来解决 ReID 任务，减小嵌入空间的尺度以相对增加空间中的 ID 密度，提出一种 Diverse and Compact Transformer (DC-Former) 模型。 模型",
+    "name" : "[论文阅读笔记 -- VLP] RILS: Masked Visual Reconst. in Language Semantic Space (CVPR 2023)",
+    "headline" : "[论文阅读笔记 -- VLP] RILS: Masked Visual Reconst. in Language Semantic Space (CVPR 2023)",
+    "description" : "RILS: Masked Visual Reconstruction in Language Semantic Space (CVPR 2023) 开源代码传送门 概述 本文提出一种 masked visual Reconstruction In Language semantic Space (RILS) 预训练框架。 架构对比",
     "inLanguage" : "zh-cn",
     "author" : "Zijie Wang",
     "creator" : "Zijie Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Zijie Wang",
     "copyrightHolder" : "Zijie Wang",
     "copyrightYear" : "2023",
-    "datePublished": "2023-03-02 20:52:46 \u002b0800 CST",
-    "dateModified" : "2023-03-02 20:52:46 \u002b0800 CST",
-    "url" : "http:\/\/wzj.life\/2023\/prn358\/",
-    "wordCount" : "77",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID","vit","transformer","attention", "Zijie Wang`s Blog"]
+    "datePublished": "2023-03-04 22:00:41 \u002b0800 CST",
+    "dateModified" : "2023-03-04 22:00:41 \u002b0800 CST",
+    "url" : "http:\/\/wzj.life\/2023\/prn360\/",
+    "wordCount" : "43",
+    "keywords" : [ "paper reading","cv","notes","cross-modal", "Zijie Wang`s Blog"]
 }
 </script>
 
@@ -160,12 +160,12 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] DC-Former: Diverse and Compact Transformer for ReID (AAAI 2023)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- VLP] RILS: Masked Visual Reconst. in Language Semantic Space (CVPR 2023)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://wzj.life" rel="author">Zijie Wang</a> 
                 <span class="post-time">
-                on <time datetime=2023-03-02 itemprop="datePublished">March 2, 2023</time>
+                on <time datetime=2023-03-04 itemprop="datePublished">March 4, 2023</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -173,7 +173,7 @@
                         <a href="http://wzj.life/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 77 words</span>
+                <span class="post-word-count">, 43 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,17 +194,13 @@
           
           
 
-          <h1 id="dc-former-diverse-and-compact-transformer-for-person-re-identification-aaai-2023">DC-Former: Diverse and Compact Transformer for Person Re-Identification (AAAI 2023)</h1>
-<p><a href="https://github.com/ant-research/Diverse-and-Compact-Transformer">开源代码传送门</a></p>
-<p><img src="/images/2023/PRN358/1.png" alt="Fig 1"></p>
+          <h1 id="rils-masked-visual-reconstruction-in-language-semantic-space-cvpr-2023">RILS: Masked Visual Reconstruction in Language Semantic Space (CVPR 2023)</h1>
+<p><a href="https://github.com/hustvl/RILS">开源代码传送门</a></p>
+<p><img src="/images/2023/PRN360/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文从数据量角度来解决 ReID 任务，减小嵌入空间的尺度以相对增加空间中的 ID 密度，提出一种 Diverse and Compact Transformer (DC-Former) 模型。</p>
-<h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2023/PRN358/2.png" alt="Fig 2"></p>
-<h3 id="可视化示例">可视化示例</h3>
-<p><img src="/images/2023/PRN358/3.png" alt="Fig 3"></p>
-<p><img src="/images/2023/PRN358/4.png" alt="Fig 4"></p>
-<p><img src="/images/2023/PRN358/5.png" alt="Fig 5"></p>
+<p>本文提出一种 masked visual Reconstruction In Language semantic Space (RILS) 预训练框架。</p>
+<h3 id="架构对比">架构对比</h3>
+<p><img src="/images/2023/PRN360/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -219,7 +215,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://wzj.life/2023/prn358/>http://wzj.life/2023/prn358/</span>
+                    <a href=http://wzj.life/2023/prn360/>http://wzj.life/2023/prn360/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -251,21 +247,6 @@
             <span class="tag"><a href="http://wzj.life/tags/cross-modal/">
                     #cross-modal</a></span>
             
-            <span class="tag"><a href="http://wzj.life/tags/retrieval/">
-                    #retrieval</a></span>
-            
-            <span class="tag"><a href="http://wzj.life/tags/reid/">
-                    #ReID</a></span>
-            
-            <span class="tag"><a href="http://wzj.life/tags/vit/">
-                    #vit</a></span>
-            
-            <span class="tag"><a href="http://wzj.life/tags/transformer/">
-                    #transformer</a></span>
-            
-            <span class="tag"><a href="http://wzj.life/tags/attention/">
-                    #attention</a></span>
-            
             </section>
         
         <section>
@@ -276,10 +257,10 @@
 
     <div class="post-nav">
         
-        <a href="http://wzj.life/2023/bg66/" class="prev" rel="prev" title="壁纸分享[66]"><i class="iconfont icon-left"></i>&nbsp;壁纸分享[66]</a>
+        <a href="http://wzj.life/2023/prn359/" class="prev" rel="prev" title="[论文阅读笔记 -- 域泛化] Fourier-based Augmentation with Applications to DG (PR 2023)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 域泛化] Fourier-based Augmentation with Applications to DG (PR 2023)</a>
          
         
-        <a href="http://wzj.life/2023/prn359/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] Fourier-based Augmentation with Applications to DG (PR 2023)">[论文阅读笔记 -- 域泛化] Fourier-based Augmentation with Applications to DG (PR 2023)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://wzj.life/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

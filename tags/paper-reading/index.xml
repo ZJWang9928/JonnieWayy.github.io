@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 04 Mar 2023 21:19:34 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 22:00:41 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VLP] RILS: Masked Visual Reconst. in Language Semantic Space (CVPR 2023)</title>
+      <link>http://wzj.life/2023/prn360/</link>
+      <pubDate>Sat, 04 Mar 2023 22:00:41 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn360/</guid>
+      <description>RILS: Masked Visual Reconstruction in Language Semantic Space (CVPR 2023) 开源代码传送门 概述 本文提出一种 masked visual Reconstruction In Language semantic Space (RILS) 预训练框架。 架构对比</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Fourier-based Augmentation with Applications to DG (PR 2023)</title>
       <link>http://wzj.life/2023/prn359/</link>
-      <pubDate>Sat, 04 Mar 2023 21:19:34 +0800</pubDate>
+      <pubDate>Fri, 03 Mar 2023 21:19:34 +0800</pubDate>
       
       <guid>http://wzj.life/2023/prn359/</guid>
       <description>Fourier-based Augmentation with Applications to Domain Generalization (PR 2023) 开源代码传送门 概述 不同的 DG 任务设定 本文从频域角度增广数据进行更好的域泛化，提出一种 AmpMix 策略。 方法对比 FACT 架构 可视化示例</description>
@@ -20,7 +29,7 @@
     <item>
       <title>[论文阅读笔记 -- ReID] DC-Former: Diverse and Compact Transformer for ReID (AAAI 2023)</title>
       <link>http://wzj.life/2023/prn358/</link>
-      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      <pubDate>Thu, 02 Mar 2023 20:52:46 +0800</pubDate>
       
       <guid>http://wzj.life/2023/prn358/</guid>
       <description>DC-Former: Diverse and Compact Transformer for Person Re-Identification (AAAI 2023) 开源代码传送门 概述 本文从数据量角度来解决 ReID 任务，减小嵌入空间的尺度以相对增加空间中的 ID 密度，提出一种 Diverse and Compact Transformer (DC-Former) 模型。 模型</description>
