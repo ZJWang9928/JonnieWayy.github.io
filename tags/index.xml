@@ -7,7 +7,88 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 01 Mar 2023 20:49:20 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 20:52:46 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>attention</title>
+      <link>http://wzj.life/tags/attention/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-modal</title>
+      <link>http://wzj.life/tags/cross-modal/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://wzj.life/tags/cv/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://wzj.life/tags/notes/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://wzj.life/tags/paper-reading/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://wzj.life/tags/reid/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://wzj.life/tags/retrieval/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transformer</title>
+      <link>http://wzj.life/tags/transformer/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ViT</title>
+      <link>http://wzj.life/tags/vit/</link>
+      <pubDate>Sat, 04 Mar 2023 20:52:46 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/vit/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>kde</title>
       <link>http://wzj.life/tags/kde/</link>
@@ -45,56 +126,11 @@
     </item>
     
     <item>
-      <title>cross-modal</title>
-      <link>http://wzj.life/tags/cross-modal/</link>
-      <pubDate>Fri, 24 Feb 2023 11:35:31 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://wzj.life/tags/cv/</link>
-      <pubDate>Fri, 24 Feb 2023 11:35:31 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>domain generalization</title>
       <link>http://wzj.life/tags/domain-generalization/</link>
       <pubDate>Fri, 24 Feb 2023 11:35:31 +0800</pubDate>
       
       <guid>http://wzj.life/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://wzj.life/tags/notes/</link>
-      <pubDate>Fri, 24 Feb 2023 11:35:31 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://wzj.life/tags/paper-reading/</link>
-      <pubDate>Fri, 24 Feb 2023 11:35:31 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://wzj.life/tags/retrieval/</link>
-      <pubDate>Fri, 24 Feb 2023 11:35:31 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -117,15 +153,6 @@
     </item>
     
     <item>
-      <title>ReID</title>
-      <link>http://wzj.life/tags/reid/</link>
-      <pubDate>Thu, 23 Feb 2023 18:40:05 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Survey</title>
       <link>http://wzj.life/tags/survey/</link>
       <pubDate>Thu, 23 Feb 2023 18:40:05 +0800</pubDate>
@@ -140,24 +167,6 @@
       <pubDate>Wed, 22 Feb 2023 22:05:55 +0800</pubDate>
       
       <guid>http://wzj.life/tags/data-augmentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>transformer</title>
-      <link>http://wzj.life/tags/transformer/</link>
-      <pubDate>Wed, 22 Feb 2023 22:05:55 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/transformer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ViT</title>
-      <link>http://wzj.life/tags/vit/</link>
-      <pubDate>Wed, 22 Feb 2023 22:05:55 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/vit/</guid>
       <description></description>
     </item>
     
@@ -203,15 +212,6 @@
       <pubDate>Sat, 18 Feb 2023 15:55:17 +0800</pubDate>
       
       <guid>http://wzj.life/tags/language-model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>attention</title>
-      <link>http://wzj.life/tags/attention/</link>
-      <pubDate>Fri, 17 Feb 2023 12:42:33 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/attention/</guid>
       <description></description>
     </item>
     
