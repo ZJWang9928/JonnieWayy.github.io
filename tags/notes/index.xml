@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 05 Mar 2023 08:34:37 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 09:01:30 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Refined Knowledge Transfer for Language-Based PS (TMM 2023)</title>
+      <link>http://wzj.life/2023/prn362/</link>
+      <pubDate>Mon, 06 Mar 2023 09:01:30 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn362/</guid>
+      <description>Refined Knowledge Transfer for Language-Based Person Search (TMM 2023) 概述 本文关注图文信息的不对称性，提出一种 Refined Knowledge Transfer (RKT) 方法。 方法对比 模型架构 测试阶段 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- VLP] Vision Learners Meet Web Image-Text Pairs (2023)</title>
       <link>http://wzj.life/2023/prn361/</link>
@@ -81,12 +90,12 @@
     </item>
     
     <item>
-      <title>[论文阅读笔记 -- ReID] Asymmetric Cross-Scale Alignment for TBPS (2023)</title>
+      <title>[论文阅读笔记 -- ReID] Asymmetric Cross-Scale Alignment for TBPS (TMM 2023)</title>
       <link>http://wzj.life/2023/prn353/</link>
       <pubDate>Thu, 23 Feb 2023 16:31:49 +0800</pubDate>
       
       <guid>http://wzj.life/2023/prn353/</guid>
-      <description>2212.11958v1 Asymmetric Cross-Scale Alignment for Text-Based Person Search (2023) 开源代码传送门 概述 本文提出一种 Asymmetric Cross-Scale Alignment (ACSA) 方法。 Motivation 模型架构 交叉注意力模块 可视化示例</description>
+      <description>Asymmetric Cross-Scale Alignment for Text-Based Person Search (TMM 2023) 开源代码传送门 概述 本文提出一种 Asymmetric Cross-Scale Alignment (ACSA) 方法。 Motivation 模型架构 交叉注意力模块 可视化示例</description>
     </item>
     
     <item>
