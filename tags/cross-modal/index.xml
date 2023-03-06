@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 04 Mar 2023 22:00:41 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 08:34:37 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VLP] Vision Learners Meet Web Image-Text Pairs (2023)</title>
+      <link>http://wzj.life/2023/prn361/</link>
+      <pubDate>Mon, 06 Mar 2023 08:34:37 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn361/</guid>
+      <description>2301.07088 Vision Learners Meet Web Image-Text Pairs (2023) 开源代码传送门 概述 可以将先前的表征学习方法分为三类： Single-modal Discriminative (SimCLR) Single-modal Generative (MAE) Mlti-modal Discriminative (CLIP) 两个发现： 生成式方法的迁移表现更好 单模态 SSL 方法通常比多</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- VLP] RILS: Masked Visual Reconst. in Language Semantic Space (CVPR 2023)</title>
       <link>http://wzj.life/2023/prn360/</link>
