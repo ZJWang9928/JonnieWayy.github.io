@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 06 Mar 2023 09:01:30 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Mar 2023 15:16:48 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VLP] MedCLIP: CL from Unpaired Medical Images and Text (EMNLP 2022)</title>
+      <link>http://wzj.life/2023/prn365/</link>
+      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn365/</guid>
+      <description>MedCLIP: Contrastive Learning from Unpaired Medical Images and Text (EMNLP 2022) 开源代码传送门 概述 图文预训练在医药领域的困难 可获取的数据量不足 医药任务中各域之间的差异更加细化 本文提出 MedCLIP，</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Refined Knowledge Transfer for Language-Based PS (TMM 2023)</title>
       <link>http://wzj.life/2023/prn362/</link>

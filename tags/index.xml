@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 08 Mar 2023 21:13:14 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Mar 2023 15:16:48 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cross-modal</title>
+      <link>http://wzj.life/tags/cross-modal/</link>
+      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://wzj.life/tags/cv/</link>
-      <pubDate>Wed, 08 Mar 2023 21:13:14 +0800</pubDate>
+      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
       
       <guid>http://wzj.life/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://wzj.life/tags/notes/</link>
+      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://wzj.life/tags/paper-reading/</link>
+      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vlp</title>
+      <link>http://wzj.life/tags/vlp/</link>
+      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/vlp/</guid>
       <description></description>
     </item>
     
@@ -27,38 +63,11 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://wzj.life/tags/notes/</link>
-      <pubDate>Wed, 08 Mar 2023 21:13:14 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://wzj.life/tags/paper-reading/</link>
-      <pubDate>Wed, 08 Mar 2023 21:13:14 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>VAE</title>
       <link>http://wzj.life/tags/vae/</link>
       <pubDate>Tue, 07 Mar 2023 11:26:53 +0800</pubDate>
       
       <guid>http://wzj.life/tags/vae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://wzj.life/tags/cross-modal/</link>
-      <pubDate>Mon, 06 Mar 2023 09:01:30 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/cross-modal/</guid>
       <description></description>
     </item>
     
@@ -77,15 +86,6 @@
       <pubDate>Mon, 06 Mar 2023 09:01:30 +0800</pubDate>
       
       <guid>http://wzj.life/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vlp</title>
-      <link>http://wzj.life/tags/vlp/</link>
-      <pubDate>Sun, 05 Mar 2023 08:34:37 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/vlp/</guid>
       <description></description>
     </item>
     
