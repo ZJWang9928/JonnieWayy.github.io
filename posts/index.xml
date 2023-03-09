@@ -23,7 +23,7 @@
       <pubDate>Wed, 08 Mar 2023 21:13:14 +0800</pubDate>
       
       <guid>http://wzj.life/2023/prn364/</guid>
-      <description>Where and What? Examining Interpretable Disentangled Representations (CVPR 2021) 概述 从三方面评估解耦 Informativeness Independence Interpretability 一个问题 能否在没有监督的情况下要求特征的可解释性？ 两个假设 Spatial Constriction : A representation is usually interpretable if we can consistently tell where the controlled variations are in</description>
+      <description>Where and What? Examining Interpretable Disentangled Representations (CVPR 2021) 看源代码传送门 概述 从三方面评估解耦 Informativeness Independence Interpretability 一个问题 能否在没有监督的情况下要求特征的可解释性？ 两个假设 Spatial Constriction : A representation is usually interpretable if we can consistently</description>
     </item>
     
     <item>
