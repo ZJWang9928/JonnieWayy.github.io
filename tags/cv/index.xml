@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Mar 2023 18:17:26 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 20:37:07 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VLP] Image as a Foreign Language: BEiT Pretraining for All Tasks (2023)</title>
+      <link>http://wzj.life/2023/prn370/</link>
+      <pubDate>Sat, 11 Mar 2023 20:37:07 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn370/</guid>
+      <description>Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks (2023) 开源代码传送门 概述 本文提出 BEiT-3。 在各种任务上的表现 模型架构 多种下游任务</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- MAE] Generic-to-Specific Distillation of Masked Autoencoders (CVPR 2023)</title>
       <link>http://wzj.life/2023/prn369/</link>
