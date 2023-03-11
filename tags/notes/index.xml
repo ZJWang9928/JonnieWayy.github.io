@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Mar 2023 17:48:15 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 18:17:26 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- MAE] Generic-to-Specific Distillation of Masked Autoencoders (CVPR 2023)</title>
+      <link>http://wzj.life/2023/prn369/</link>
+      <pubDate>Sat, 11 Mar 2023 18:17:26 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn369/</guid>
+      <description>Generic-to-Specific Distillation of Masked Autoencoders (CVPR 2023) 开源代码传送门 概述 本文发现小型 ViT 从大量数据或自监督学习方法中获益有限，提出 General-to-Specific Distillation (G2SD) 从 MAEs 向轻量 ViTs 迁移任务无关与特定知识。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 跨模态检索] CM Retrieval between Event-Dense Text and Image (ICMR 2022)</title>
       <link>http://wzj.life/2023/prn368/</link>
