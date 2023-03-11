@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 09 Mar 2023 15:16:48 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 16:08:01 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-modal</title>
       <link>http://wzj.life/tags/cross-modal/</link>
-      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      <pubDate>Sat, 11 Mar 2023 16:08:01 +0800</pubDate>
       
       <guid>http://wzj.life/tags/cross-modal/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>cv</title>
       <link>http://wzj.life/tags/cv/</link>
-      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      <pubDate>Sat, 11 Mar 2023 16:08:01 +0800</pubDate>
       
       <guid>http://wzj.life/tags/cv/</guid>
       <description></description>
@@ -29,18 +29,45 @@
     <item>
       <title>notes</title>
       <link>http://wzj.life/tags/notes/</link>
-      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      <pubDate>Sat, 11 Mar 2023 16:08:01 +0800</pubDate>
       
       <guid>http://wzj.life/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>occluded</title>
+      <link>http://wzj.life/tags/occluded/</link>
+      <pubDate>Sat, 11 Mar 2023 16:08:01 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/occluded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>paper reading</title>
       <link>http://wzj.life/tags/paper-reading/</link>
-      <pubDate>Thu, 09 Mar 2023 15:16:48 +0800</pubDate>
+      <pubDate>Sat, 11 Mar 2023 16:08:01 +0800</pubDate>
       
       <guid>http://wzj.life/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://wzj.life/tags/reid/</link>
+      <pubDate>Sat, 11 Mar 2023 16:08:01 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://wzj.life/tags/retrieval/</link>
+      <pubDate>Sat, 11 Mar 2023 16:08:01 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -68,24 +95,6 @@
       <pubDate>Tue, 07 Mar 2023 11:26:53 +0800</pubDate>
       
       <guid>http://wzj.life/tags/vae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://wzj.life/tags/reid/</link>
-      <pubDate>Mon, 06 Mar 2023 09:01:30 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://wzj.life/tags/retrieval/</link>
-      <pubDate>Mon, 06 Mar 2023 09:01:30 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -887,15 +896,6 @@
       <pubDate>Thu, 18 Nov 2021 09:42:55 +0800</pubDate>
       
       <guid>http://wzj.life/tags/nas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>occluded</title>
-      <link>http://wzj.life/tags/occluded/</link>
-      <pubDate>Sun, 31 Oct 2021 17:14:50 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/occluded/</guid>
       <description></description>
     </item>
     
