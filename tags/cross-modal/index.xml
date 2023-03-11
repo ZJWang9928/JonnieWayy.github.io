@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sat, 11 Mar 2023 16:08:01 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 17:19:21 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- VLP] RelationCLIP: Training-free FG Visual &amp; Language Concept Match (2023)</title>
+      <link>http://wzj.life/2023/prn367/</link>
+      <pubDate>Sat, 11 Mar 2023 17:19:21 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn367/</guid>
+      <description>RelationCLIP: Training-free Fine-grained Visual and Language Concept Matching (2022) 概述 本文提出一种 RelationCLIP 架构。 模型架构 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Feature Completion Transformer for Occluded Person ReID (TMM 2023)</title>
       <link>http://wzj.life/2023/prn366/</link>
