@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Mar 2023 14:17:41 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 16:56:06 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 特征解耦] Blobgan: Spatially Disentangled Scene Representations (ECCV 2022)</title>
+      <link>http://wzj.life/2023/prn373/</link>
+      <pubDate>Sun, 12 Mar 2023 16:56:06 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn373/</guid>
+      <description>Blobgan: Spatially Disentangled Scene Representations (ECCV 2022) 开源代码传送门 概述 本文为场景生成模型提出一种无监督的中间级别表征。</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 特征解耦] Learning Debiased Representation via DFA (NeurIPS 2021)</title>
       <link>http://wzj.life/2023/prn372/</link>
