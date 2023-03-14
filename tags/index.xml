@@ -7,13 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 13 Mar 2023 11:42:29 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 12:09:13 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://wzj.life/tags/cv/</link>
-      <pubDate>Mon, 13 Mar 2023 11:42:29 +0800</pubDate>
+      <pubDate>Tue, 14 Mar 2023 12:09:13 +0800</pubDate>
       
       <guid>http://wzj.life/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enhancement</title>
+      <link>http://wzj.life/tags/enhancement/</link>
+      <pubDate>Tue, 14 Mar 2023 12:09:13 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/enhancement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fourier</title>
+      <link>http://wzj.life/tags/fourier/</link>
+      <pubDate>Tue, 14 Mar 2023 12:09:13 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/fourier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frequency</title>
+      <link>http://wzj.life/tags/frequency/</link>
+      <pubDate>Tue, 14 Mar 2023 12:09:13 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/frequency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://wzj.life/tags/notes/</link>
+      <pubDate>Tue, 14 Mar 2023 12:09:13 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://wzj.life/tags/paper-reading/</link>
+      <pubDate>Tue, 14 Mar 2023 12:09:13 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -23,24 +68,6 @@
       <pubDate>Mon, 13 Mar 2023 11:42:29 +0800</pubDate>
       
       <guid>http://wzj.life/tags/disentangling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://wzj.life/tags/notes/</link>
-      <pubDate>Mon, 13 Mar 2023 11:42:29 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://wzj.life/tags/paper-reading/</link>
-      <pubDate>Mon, 13 Mar 2023 11:42:29 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -167,15 +194,6 @@
       <pubDate>Fri, 03 Mar 2023 21:19:34 +0800</pubDate>
       
       <guid>http://wzj.life/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>frequency</title>
-      <link>http://wzj.life/tags/frequency/</link>
-      <pubDate>Fri, 03 Mar 2023 21:19:34 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/frequency/</guid>
       <description></description>
     </item>
     
