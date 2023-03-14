@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 03 Mar 2023 21:19:34 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 15:41:25 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Generative Inference Network for Imbalanced DG (TIP 2023)</title>
+      <link>http://wzj.life/2023/prn377/</link>
+      <pubDate>Tue, 14 Mar 2023 15:41:25 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn377/</guid>
+      <description>Generative Inference Network for Imbalanced Domain Generalization (TIP 2023) 开源代码传送门 概述 本文关注不平衡域泛化 (IDG) 问题，提出一种生成推断网络 (Generative Inference Network, GINet)。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Fourier-based Augmentation with Applications to DG (PR 2023)</title>
       <link>http://wzj.life/2023/prn359/</link>

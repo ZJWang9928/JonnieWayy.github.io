@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 14 Mar 2023 15:25:45 +0800</lastBuildDate><atom:link href="http://wzj.life/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 15:41:25 +0800</lastBuildDate><atom:link href="http://wzj.life/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KLI] Klingon Vocabulary</title>
       <link>http://wzj.life/2020/kliv/</link>
@@ -15,6 +15,15 @@
       
       <guid>http://wzj.life/2020/kliv/</guid>
       <description> Kli Eng HISlaH yes ghobe&#39; no je and &amp;rsquo;ej and &amp;lsquo;ach but DaH now wa&amp;rsquo;leS tomorrow DaHjaj today wa&amp;rsquo;Hu&amp;rsquo; yesterday vay&#39; anyone, anybody pagh no one, nobody &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- tlhIngan Klingon tera&amp;rsquo;ngan Terran Hol language batlh honor Qapla&#39; success pong name puq child loD man be&#39; woman Duj ship qach building Dlvl&#39; English, federation, the Federation Suvwl&#39; fighter, warroir jagh enemy mang soldier muSwl&#39; hater qoq robot yuch chocolate mu&#39; word paq book ram night nagh stone Ha&amp;rsquo;DIbaH meat, animal Sargh sark &amp;lsquo;avwl&amp;rsquo; guard &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- &amp;lsquo;oH is jatlh speak Qong sleep qet run yIt walk Sup jump yIn live, be alive Hegh die vum work yaj understand Suv fight Ho&amp;rsquo; admire vuv respect HoH kill legh see voq trust muS hate plch blame tl&#39; repair Hub&#39; defend Qal swim ghaj have laD read &amp;lsquo;ol verify SaH care ghov recognize Qoy hear Suj disturb boQ assist &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- mach little, small tIn big woch tall val smart Qlp stupid Qup young maw&amp;rsquo; crazy Daj interesting &amp;lsquo;IH beautiful, handsome Dun wonderful, great HoS strong chuS noisy </description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Generative Inference Network for Imbalanced DG (TIP 2023)</title>
+      <link>http://wzj.life/2023/prn377/</link>
+      <pubDate>Tue, 14 Mar 2023 15:41:25 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn377/</guid>
+      <description>Generative Inference Network for Imbalanced Domain Generalization (TIP 2023) 开源代码传送门 概述 本文关注不平衡域泛化 (IDG) 问题，提出一种生成推断网络 (Generative Inference Network, GINet)。 模型架构</description>
     </item>
     
     <item>
