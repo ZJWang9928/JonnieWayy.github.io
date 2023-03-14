@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 12 Mar 2023 16:56:06 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 11:42:29 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 特征解耦] Learning Feature Disentang. and Dynamic Fusion (CVPRW 2022)</title>
+      <link>http://wzj.life/2023/prn374/</link>
+      <pubDate>Mon, 13 Mar 2023 11:42:29 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn374/</guid>
+      <description>Learning Feature Disentanglement and Dynamic Fusion for Recaptured Image Forensic (CVPRW 2022) 概述 Image Recapture Forensic 任务。 四种需要识别的模式 moire edge artifact other 本文提出一种特征解耦与动态融合模型 (Feature Disentanglement and Dynamic Fusion model, FDDF)，并构建了一个大规</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 特征解耦] Blobgan: Spatially Disentangled Scene Representations (ECCV 2022)</title>
       <link>http://wzj.life/2023/prn373/</link>

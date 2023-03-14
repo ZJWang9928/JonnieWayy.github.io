@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recapture on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/recapture/</link>
+    <description>Recent content in recapture on Zijie Wang`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Mon, 13 Mar 2023 11:42:29 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/recapture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 特征解耦] Learning Feature Disentang. and Dynamic Fusion (CVPRW 2022)</title>
+      <link>http://wzj.life/2023/prn374/</link>
+      <pubDate>Mon, 13 Mar 2023 11:42:29 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn374/</guid>
+      <description>Learning Feature Disentanglement and Dynamic Fusion for Recaptured Image Forensic (CVPRW 2022) 概述 Image Recapture Forensic 任务。 四种需要识别的模式 moire edge artifact other 本文提出一种特征解耦与动态融合模型 (Feature Disentanglement and Dynamic Fusion model, FDDF)，并构建了一个大规</description>
+    </item>
+    
+  </channel>
+</rss>
