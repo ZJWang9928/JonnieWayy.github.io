@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 14 Mar 2023 15:41:25 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 15:55:54 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] DART: Diversify-Aggregate-Repeat Training Improves G of NNs (2023)</title>
+      <link>http://wzj.life/2023/prn378/</link>
+      <pubDate>Tue, 14 Mar 2023 15:55:54 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn378/</guid>
+      <description>2302.14685 DART: Diversify-Aggregate-Repeat Training Improves Generalization of Neural Networks (2023) 概述 本文提出一种多样化-聚合-重复训练策略 (Diversify-Aggregate-Repeat Training strategy, DART)。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Generative Inference Network for Imbalanced DG (TIP 2023)</title>
       <link>http://wzj.life/2023/prn377/</link>
