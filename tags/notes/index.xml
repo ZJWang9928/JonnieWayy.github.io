@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 14 Mar 2023 16:35:44 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 15:44:19 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Modality-Agnostic Debiasing for Single Domain Generalization (2023)</title>
+      <link>http://wzj.life/2023/prn380/</link>
+      <pubDate>Thu, 16 Mar 2023 15:44:19 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn380/</guid>
+      <description>2303.07123 Modality-Agnostic Debiasing for Single Domain Generalization (2023) 概述 单源域泛化任务。 本文试图直接强化分类器识别域特定特征的能力，并同时增强对域共享特征的学习，提出一种 Modality-Agnostic Debiasing (MAD) 框架。 一个观点，</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 特征解耦] On Transfer of Inductive Bias from Simulation to RW (NeurIPS 2019)</title>
       <link>http://wzj.life/2023/prn379/</link>
