@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 16 Mar 2023 15:44:19 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Mar 2023 10:24:41 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://wzj.life/tags/cv/</link>
-      <pubDate>Thu, 16 Mar 2023 15:44:19 +0800</pubDate>
+      <pubDate>Fri, 17 Mar 2023 10:24:41 +0800</pubDate>
       
       <guid>http://wzj.life/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>domain adaption</title>
+      <link>http://wzj.life/tags/domain-adaption/</link>
+      <pubDate>Fri, 17 Mar 2023 10:24:41 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/domain-adaption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://wzj.life/tags/notes/</link>
+      <pubDate>Fri, 17 Mar 2023 10:24:41 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://wzj.life/tags/paper-reading/</link>
+      <pubDate>Fri, 17 Mar 2023 10:24:41 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://wzj.life/tags/retrieval/</link>
+      <pubDate>Fri, 17 Mar 2023 10:24:41 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -23,24 +59,6 @@
       <pubDate>Thu, 16 Mar 2023 15:44:19 +0800</pubDate>
       
       <guid>http://wzj.life/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://wzj.life/tags/notes/</link>
-      <pubDate>Thu, 16 Mar 2023 15:44:19 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://wzj.life/tags/paper-reading/</link>
-      <pubDate>Thu, 16 Mar 2023 15:44:19 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -86,15 +104,6 @@
       <pubDate>Tue, 14 Mar 2023 15:25:45 +0800</pubDate>
       
       <guid>http://wzj.life/tags/reid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://wzj.life/tags/retrieval/</link>
-      <pubDate>Tue, 14 Mar 2023 15:25:45 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/retrieval/</guid>
       <description></description>
     </item>
     
