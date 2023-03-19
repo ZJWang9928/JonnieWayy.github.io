@@ -7,9 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Fri, 17 Mar 2023 10:24:41 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 12:01:05 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[论文阅读笔记 -- 域泛化] Probability Weighted Compact Feature for DA Retrieval (CVPR 2020)</title>
+      <title>[论文阅读笔记 -- 图像检索] Learn More for Food Recognition via Progressive Self-Distill. (2023)</title>
+      <link>http://wzj.life/2023/prn382/</link>
+      <pubDate>Sat, 18 Mar 2023 12:01:05 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn382/</guid>
+      <description>2303.05073 Learn More for Food Recognition via Progressive Self-Distillation (2023) 概述 食品识别任务。 本文提出一种 Progressive Self-Distillation (PSD) 方法。 模型架构 可视化示例</description>
+    </item>
+    
+    <item>
+      <title>[论文阅读笔记 -- 域自适应] Probability Weighted Compact Feature for DA Retrieval (CVPR 2020)</title>
       <link>http://wzj.life/2023/prn381/</link>
       <pubDate>Fri, 17 Mar 2023 10:24:41 +0800</pubDate>
       
