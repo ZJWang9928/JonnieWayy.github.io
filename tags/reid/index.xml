@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Sun, 19 Mar 2023 16:49:37 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 15:04:12 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/reid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023)</title>
+      <link>http://wzj.life/2023/prn386/</link>
+      <pubDate>Tue, 28 Mar 2023 15:04:12 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn386/</guid>
+      <description>Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval (CVPR 2023) 开源代码传送门 概述 本文提出一种 cross-modal Implicit Relation Reasoning and Aligning (IRRA) 框架。 模型架构 MLM Multimodal Interation Encoder 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] Mining False Positive Examples for Text-Based Person ReID (2023)</title>
       <link>http://wzj.life/2023/prn383/</link>
