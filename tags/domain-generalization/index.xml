@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 20 Mar 2023 15:54:39 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 16:41:49 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Finding Competence Regions in Domain Generalization (2023)</title>
+      <link>http://wzj.life/2023/prn387/</link>
+      <pubDate>Tue, 28 Mar 2023 16:41:49 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn387/</guid>
+      <description>2303.09989 Finding Competence Regions in Domain Generalization (2023) 概述 本文针对域泛化任务，思考一个问题：基于一个训练好的模型和潜在有问题的数据样例，能否判断模型的响应是否可信？ 由此考虑分布迁</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Domain Generalization via Nuclear Norm Regularization (2023)</title>
       <link>http://wzj.life/2023/prn384/</link>

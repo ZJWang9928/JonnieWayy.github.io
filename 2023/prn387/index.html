@@ -19,9 +19,9 @@
   
   
   
-  <link rel="prev" href="http://wzj.life/2023/prn385/" />
-  <link rel="next" href="http://wzj.life/2023/prn387/" />
-  <link rel="canonical" href="http://wzj.life/2023/prn386/" />
+  <link rel="prev" href="http://wzj.life/2023/prn386/" />
+  <link rel="next" href="http://wzj.life/2020/kliv/" />
+  <link rel="canonical" href="http://wzj.life/2023/prn387/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,10 +32,10 @@
   <title>
        
        
-           [论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023) | Zijie Wang`s Blog
+           [论文阅读笔记 -- 域泛化] Finding Competence Regions in Domain Generalization (2023) | Zijie Wang`s Blog
        
   </title>
-  <meta name="title" content="[论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023) | Zijie Wang`s Blog">
+  <meta name="title" content="[论文阅读笔记 -- 域泛化] Finding Competence Regions in Domain Generalization (2023) | Zijie Wang`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -55,9 +55,9 @@
          "@id": "http:\/\/wzj.life"
     },
     "articleSection" : "posts",
-    "name" : "[论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023)",
-    "headline" : "[论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023)",
-    "description" : "Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval (CVPR 2023) 开源代码传送门 概述 本文提出一种 cross-modal Implicit Relation Reasoning and Aligning (IRRA) 框架。 模型架构 MLM Multimodal Interation Encoder 可视化示例",
+    "name" : "[论文阅读笔记 -- 域泛化] Finding Competence Regions in Domain Generalization (2023)",
+    "headline" : "[论文阅读笔记 -- 域泛化] Finding Competence Regions in Domain Generalization (2023)",
+    "description" : "2303.09989 Finding Competence Regions in Domain Generalization (2023) 概述 本文针对域泛化任务，思考一个问题：基于一个训练好的模型和潜在有问题的数据样例，能否判断模型的响应是否可信？ 由此考虑分布迁",
     "inLanguage" : "zh-cn",
     "author" : "Zijie Wang",
     "creator" : "Zijie Wang",
@@ -65,11 +65,11 @@
     "accountablePerson" : "Zijie Wang",
     "copyrightHolder" : "Zijie Wang",
     "copyrightYear" : "2023",
-    "datePublished": "2023-03-28 15:04:12 \u002b0800 CST",
-    "dateModified" : "2023-03-28 15:04:12 \u002b0800 CST",
-    "url" : "http:\/\/wzj.life\/2023\/prn386\/",
-    "wordCount" : "50",
-    "keywords" : [ "paper reading","cv","notes","cross-modal","retrieval","ReID", "Zijie Wang`s Blog"]
+    "datePublished": "2023-03-28 16:41:49 \u002b0800 CST",
+    "dateModified" : "2023-03-28 16:41:49 \u002b0800 CST",
+    "url" : "http:\/\/wzj.life\/2023\/prn387\/",
+    "wordCount" : "148",
+    "keywords" : [ "paper reading","cv","notes","domain generalization", "Zijie Wang`s Blog"]
 }
 </script>
 
@@ -160,7 +160,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023)</h1>
+        <h1 class="post-title" itemprop="name headline">[论文阅读笔记 -- 域泛化] Finding Competence Regions in Domain Generalization (2023)</h1>
         <div class="post-meta">
                 
                 Written by <a itemprop="name" href="http://wzj.life" rel="author">Zijie Wang</a> 
@@ -173,7 +173,7 @@
                         <a href="http://wzj.life/categories/paper-reading-notes/"> Paper Reading Notes </a>
                         
                 </span>
-                <span class="post-word-count">, 50 words</span>
+                <span class="post-word-count">, 148 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -194,19 +194,14 @@
           
           
 
-          <h1 id="cross-modal-implicit-relation-reasoning-and-aligning-for-text-to-image-person-retrieval-cvpr-2023">Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval (CVPR 2023)</h1>
-<p><a href="https://github.com/anosorae/IRRA">开源代码传送门</a></p>
-<p><img src="/images/2023/PRN386/1.png" alt="Fig 1"></p>
+          <h1 id="230309989-finding-competence-regions-in-domain-generalization-2023">2303.09989 Finding Competence Regions in Domain Generalization (2023)</h1>
+<p><img src="/images/2023/PRN387/1.png" alt="Fig 1"></p>
 <h2 id="概述">概述</h2>
-<p>本文提出一种 cross-modal Implicit Relation Reasoning and Aligning (IRRA) 框架。</p>
-<h3 id="模型架构">模型架构</h3>
-<p><img src="/images/2023/PRN386/2.png" alt="Fig 2"></p>
-<h3 id="mlm">MLM</h3>
-<p><img src="/images/2023/PRN386/3.png" alt="Fig 3"></p>
-<h3 id="multimodal-interation-encoder">Multimodal Interation Encoder</h3>
-<p><img src="/images/2023/PRN386/4.png" alt="Fig 4"></p>
-<h3 id="可视化示例">可视化示例</h3>
-<p><img src="/images/2023/PRN386/5.png" alt="Fig 5"></p>
+<p>本文针对域泛化任务，思考一个问题：基于一个训练好的模型和潜在有问题的数据样例，能否判断模型的响应是否可信？</p>
+<p>由此考虑分布迁移较为和缓的情况，不是直接拒绝所有 OOD 样例，而是拒绝让模型表现低于某个接受阈值的样例。</p>
+<p>本文引入 incompetence score 提出一种 learning to reject 框架。</p>
+<p>Incompetence score 用于衡量分类器对某个输入的熟悉程度。</p>
+<p><img src="/images/2023/PRN387/2.png" alt="Fig 2"></p>
 
     </div>
 
@@ -221,7 +216,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=http://wzj.life/2023/prn386/>http://wzj.life/2023/prn386/</span>
+                    <a href=http://wzj.life/2023/prn387/>http://wzj.life/2023/prn387/</span>
             </p>
             <p>
                 <span>Ads:</span>
@@ -250,14 +245,8 @@
             <span class="tag"><a href="http://wzj.life/tags/notes/">
                     #notes</a></span>
             
-            <span class="tag"><a href="http://wzj.life/tags/cross-modal/">
-                    #cross-modal</a></span>
-            
-            <span class="tag"><a href="http://wzj.life/tags/retrieval/">
-                    #retrieval</a></span>
-            
-            <span class="tag"><a href="http://wzj.life/tags/reid/">
-                    #ReID</a></span>
+            <span class="tag"><a href="http://wzj.life/tags/domain-generalization/">
+                    #domain generalization</a></span>
             
             </section>
         
@@ -269,10 +258,10 @@
 
     <div class="post-nav">
         
-        <a href="http://wzj.life/2023/prn385/" class="prev" rel="prev" title="[论文阅读笔记 -- 跨模态检索] MM Disentanglement VAEs for Zero-Shot CMR (SIGIR 2022)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- 跨模态检索] MM Disentanglement VAEs for Zero-Shot CMR (SIGIR 2022)</a>
+        <a href="http://wzj.life/2023/prn386/" class="prev" rel="prev" title="[论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023)"><i class="iconfont icon-left"></i>&nbsp;[论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023)</a>
          
         
-        <a href="http://wzj.life/2023/prn387/" class="next" rel="next" title="[论文阅读笔记 -- 域泛化] Finding Competence Regions in Domain Generalization (2023)">[论文阅读笔记 -- 域泛化] Finding Competence Regions in Domain Generalization (2023)&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="http://wzj.life/2020/kliv/" class="next" rel="next" title="[KLI] Klingon Vocabulary">[KLI] Klingon Vocabulary&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -281,7 +270,7 @@
                  
           
     </div>
-    <h5 id="wc" style="font-size: 1rem;text-align: center;">100 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+    <h5 id="wc" style="font-size: 1rem;text-align: center;">200 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
 </article>
           </div>
 		   </main>
