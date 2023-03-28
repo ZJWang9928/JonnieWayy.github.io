@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Mar 2023 17:26:59 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 21:20:24 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Federated Adversarial Domain Hallucination for PP DG (TMM 2023)</title>
+      <link>http://wzj.life/2023/prn389/</link>
+      <pubDate>Tue, 28 Mar 2023 21:20:24 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn389/</guid>
+      <description>Federated Adversarial Domain Hallucination for Privacy-preserving Domain Generalization (TMM 2023) 概述 联邦域泛化任务。 本文提出一种 Federated Adversarial Domain Hallucination (FADH) 方法。 DG 与 DedDG 中域幻觉对比 模型架构 训练过程 Domain Hallucinator 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Sharpness-Aware Gradient Matching for DG (CVPR 2023)</title>
       <link>http://wzj.life/2023/prn388/</link>
