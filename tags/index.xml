@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Mar 2023 21:20:24 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Mar 2023 15:25:16 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cv</title>
       <link>http://wzj.life/tags/cv/</link>
-      <pubDate>Tue, 28 Mar 2023 21:20:24 +0800</pubDate>
+      <pubDate>Wed, 29 Mar 2023 15:25:16 +0800</pubDate>
       
       <guid>http://wzj.life/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://wzj.life/tags/notes/</link>
+      <pubDate>Wed, 29 Mar 2023 15:25:16 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://wzj.life/tags/paper-reading/</link>
+      <pubDate>Wed, 29 Mar 2023 15:25:16 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protein</title>
+      <link>http://wzj.life/tags/protein/</link>
+      <pubDate>Wed, 29 Mar 2023 15:25:16 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/protein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protein structure prediction</title>
+      <link>http://wzj.life/tags/protein-structure-prediction/</link>
+      <pubDate>Wed, 29 Mar 2023 15:25:16 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/protein-structure-prediction/</guid>
       <description></description>
     </item>
     
@@ -32,24 +68,6 @@
       <pubDate>Tue, 28 Mar 2023 21:20:24 +0800</pubDate>
       
       <guid>http://wzj.life/tags/federated-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://wzj.life/tags/notes/</link>
-      <pubDate>Tue, 28 Mar 2023 21:20:24 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://wzj.life/tags/paper-reading/</link>
-      <pubDate>Tue, 28 Mar 2023 21:20:24 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/paper-reading/</guid>
       <description></description>
     </item>
     

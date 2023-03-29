@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>protein on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/protein/</link>
+    <description>Recent content in protein on Zijie Wang`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Wed, 29 Mar 2023 15:25:16 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/protein/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- PSP] Highly Accurate Protein Structure Prediction with AlphaFold (Nature 2021)</title>
+      <link>http://wzj.life/2023/prn390/</link>
+      <pubDate>Wed, 29 Mar 2023 15:25:16 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn390/</guid>
+      <description>Highly Accurate Protein Structure Prediction with AlphaFold (Nature 2021) 开源代码传送门 概述 本文提出 AlphaFold 模型用于蛋白质结构预测。 模型架构</description>
+    </item>
+    
+  </channel>
+</rss>

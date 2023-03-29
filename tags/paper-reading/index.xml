@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Mar 2023 21:20:24 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Mar 2023 15:25:16 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- PSP] Highly Accurate Protein Structure Prediction with AlphaFold (Nature 2021)</title>
+      <link>http://wzj.life/2023/prn390/</link>
+      <pubDate>Wed, 29 Mar 2023 15:25:16 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn390/</guid>
+      <description>Highly Accurate Protein Structure Prediction with AlphaFold (Nature 2021) 开源代码传送门 概述 本文提出 AlphaFold 模型用于蛋白质结构预测。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Federated Adversarial Domain Hallucination for PP DG (TMM 2023)</title>
       <link>http://wzj.life/2023/prn389/</link>
