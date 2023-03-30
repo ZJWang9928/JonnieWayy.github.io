@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>weather on Zijie Wang`s Blog</title>
+    <link>http://wzj.life/tags/weather/</link>
+    <description>Recent content in weather on Zijie Wang`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Wed, 29 Mar 2023 18:38:56 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/weather/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 气象预报] Conditional Local Conv for ST Meteorological Forecast (AAAI 2022)</title>
+      <link>http://wzj.life/2023/prn391/</link>
+      <pubDate>Wed, 29 Mar 2023 18:38:56 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn391/</guid>
+      <description>Conditional Local Convolution for Spatio-Temporal Meteorological Forecasting (AAAI 2022) 开源代码传送门 概述 时空气象预测任务，该任务中信号是从非平面流形中采样得到的，且时空之间具有高度依赖性。 本文提出一种条件局部</description>
+    </item>
+    
+  </channel>
+</rss>
