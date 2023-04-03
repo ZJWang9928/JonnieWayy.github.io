@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 30 Mar 2023 15:41:48 +0800</lastBuildDate><atom:link href="http://wzj.life/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2023 16:03:22 +0800</lastBuildDate><atom:link href="http://wzj.life/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 气象预报] Forecasting Global Weather with Graph Neural Networks (2022)</title>
+      <link>http://wzj.life/2023/prn393/</link>
+      <pubDate>Mon, 03 Apr 2023 16:03:22 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn393/</guid>
+      <description>2202.07575 Forecasting Global Weather with Graph Neural Networks (2022) 开源代码传送门 概述 本文提出一种数据驱动的机器学习模型用于预报全球气象。 与先前工作的不同 模拟了一个密度显著增大的物理系统 使用</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 气象预报] WeatherBench: A Benchmark Dataset for Data-driven WF (2020)</title>
       <link>http://wzj.life/2023/prn392/</link>
