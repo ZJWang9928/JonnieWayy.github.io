@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 04 Apr 2023 16:50:55 +0800</lastBuildDate><atom:link href="http://wzj.life/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 20:05:18 +0800</lastBuildDate><atom:link href="http://wzj.life/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] TFS-ViT: Token-Level Feature Stylization for Domain Generalization (2023)</title>
+      <link>http://wzj.life/2023/prn396/</link>
+      <pubDate>Tue, 04 Apr 2023 20:05:18 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn396/</guid>
+      <description>2303.15698 TFS-ViT: Token-Level Feature Stylization for Domain Generalization (2023) 开源代码传送门 概述 本文针对 DG 任务，提出一种 Token-level Feature Stylization (TFS-ViT) 方法。 模型架构 TFS 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Debiased Contrastive Curriculum Learn for Prog GReID (TCSVT 2023)</title>
       <link>http://wzj.life/2023/prn395/</link>
