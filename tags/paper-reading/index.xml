@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 04 Apr 2023 10:22:06 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 16:50:55 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Debiased Contrastive Curriculum Learn for Prog GReID (TCSVT 2023)</title>
+      <link>http://wzj.life/2023/prn395/</link>
+      <pubDate>Tue, 04 Apr 2023 16:50:55 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn395/</guid>
+      <description>Debiased Contrastive Curriculum Learning for Progressive Generalizable Person Re-identification (TCSVT 2023) 概述 DG ReID 任务。 本文提出一种 Debiased Contrastive Curriculum Learning (DCCL) 策略。 模型架构 Curriculum-based Random Picker 损失对比 Inter-Domain Mix Module 训练过程</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 气象预报] Pangu-Weather: A 3D HR Model for Fast and Accurate GWF (2022)</title>
       <link>http://wzj.life/2023/prn394/</link>
