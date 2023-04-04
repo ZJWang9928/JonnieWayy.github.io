@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 03 Apr 2023 16:03:22 +0800</lastBuildDate><atom:link href="http://wzj.life/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 10:22:06 +0800</lastBuildDate><atom:link href="http://wzj.life/categories/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 气象预报] Pangu-Weather: A 3D HR Model for Fast and Accurate GWF (2022)</title>
+      <link>http://wzj.life/2023/prn394/</link>
+      <pubDate>Tue, 04 Apr 2023 10:22:06 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn394/</guid>
+      <description>2211.02556 Pangu-Weather: A 3D High-Resolution Model for Fast and Accurate Global Weather Forecast (2022) 开源代码传送门 概述 本文提出一种基于 AI 的天气预报系统，称为 Pangu-Weather。其采用 3D 深度网络 3D Earth-specific Transformers (3DEST) 以整</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 气象预报] Forecasting Global Weather with Graph Neural Networks (2022)</title>
       <link>http://wzj.life/2023/prn393/</link>
