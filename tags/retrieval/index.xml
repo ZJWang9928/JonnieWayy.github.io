@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Tue, 28 Mar 2023 15:04:12 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Apr 2023 09:42:39 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 跨模态检索] Efficient IT Retrieval via Keyword-Guided Pre-Screening (2023)</title>
+      <link>http://wzj.life/2023/prn397/</link>
+      <pubDate>Wed, 05 Apr 2023 09:42:39 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn397/</guid>
+      <description>2303.07740 Efficient Image-Text Retrieval via Keyword-Guided Pre-Screening (2023) 概述 本文针对跨模态检索任务，提出一种 Keyword-Guided Pre-Screening 框架。 Pre-Screening 的必要性 模型架构 Keyword Prediction Pre-Screening 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- ReID] CM Implicit Relation Reasoning and Aligning for TIPR (CVPR 2023)</title>
       <link>http://wzj.life/2023/prn386/</link>
