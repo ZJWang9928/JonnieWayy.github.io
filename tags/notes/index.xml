@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Thu, 06 Apr 2023 14:58:14 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 13:53:16 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] EPVT: Environment-aware Prompt Vision Transformer for DG (2023)</title>
+      <link>http://wzj.life/2023/prn399/</link>
+      <pubDate>Mon, 10 Apr 2023 13:53:16 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn399/</guid>
+      <description>2304.01508 EPVT: Environment-aware Prompt Vision Transformer for Domain Generalization in Skin Lesion Recognition (2023) 开源代码传送门 概述 本文针对皮肤病变识别中的域泛化问题，提出一种 Environment-aware Prompt Vision Transformer (EPVT) 模型。 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 多向量检索] Rethinking the Role of Token Retrieval in Multi-Vector Retrieval (2023)</title>
       <link>http://wzj.life/2023/prn398/</link>
