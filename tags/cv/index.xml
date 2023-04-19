@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 19 Apr 2023 16:28:21 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 18:01:19 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] D2IFLN: Disentangled DI Feature Learning Network for DG (TCDS 2023)</title>
+      <link>http://wzj.life/2023/prn404/</link>
+      <pubDate>Wed, 19 Apr 2023 18:01:19 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn404/</guid>
+      <description>D2IFLN: Disentangled Domain-Invariant Feature Learning Networks for Domain Generalization (TCDS 2023) 概述 本文针对域泛化任务，提出一种 Disentangled Domain-Invariant Feature Learning Networks (D\(^2\)IFLN) 模型。 三个空间 模型架构</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] KD-based Domain-invariant Representation Learning for DG (TMM 2023)</title>
       <link>http://wzj.life/2023/prn403/</link>
