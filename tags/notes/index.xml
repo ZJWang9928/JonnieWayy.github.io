@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 10 Apr 2023 15:12:56 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Apr 2023 17:00:07 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- ReID] Calibrating Cross-modal Feature for Text-Based Person Searching (2023)</title>
+      <link>http://wzj.life/2023/prn401/</link>
+      <pubDate>Tue, 18 Apr 2023 17:00:07 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn401/</guid>
+      <description>2304.02278 Calibrating Cross-modal Feature for Text-Based Person Searching (2023) 概述 本文提出一种包含一个双编码器和一个可拆卸图文解码器的架构，并设计了 sew loss 和 masking caption modeling (MCM) loss。 模型架构 Sew Loss 算法流程 可视化示</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Progressive Random Convolutions for Single DG (2023)</title>
       <link>http://wzj.life/2023/prn400/</link>

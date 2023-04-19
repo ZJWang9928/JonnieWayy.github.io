@@ -7,13 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 10 Apr 2023 15:12:56 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Apr 2023 17:00:07 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cross-modal</title>
+      <link>http://wzj.life/tags/cross-modal/</link>
+      <pubDate>Tue, 18 Apr 2023 17:00:07 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/cross-modal/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://wzj.life/tags/cv/</link>
-      <pubDate>Mon, 10 Apr 2023 15:12:56 +0800</pubDate>
+      <pubDate>Tue, 18 Apr 2023 17:00:07 +0800</pubDate>
       
       <guid>http://wzj.life/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://wzj.life/tags/notes/</link>
+      <pubDate>Tue, 18 Apr 2023 17:00:07 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://wzj.life/tags/paper-reading/</link>
+      <pubDate>Tue, 18 Apr 2023 17:00:07 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/paper-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReID</title>
+      <link>http://wzj.life/tags/reid/</link>
+      <pubDate>Tue, 18 Apr 2023 17:00:07 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/reid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrieval</title>
+      <link>http://wzj.life/tags/retrieval/</link>
+      <pubDate>Tue, 18 Apr 2023 17:00:07 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/retrieval/</guid>
       <description></description>
     </item>
     
@@ -27,56 +72,11 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>http://wzj.life/tags/notes/</link>
-      <pubDate>Mon, 10 Apr 2023 15:12:56 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://wzj.life/tags/paper-reading/</link>
-      <pubDate>Mon, 10 Apr 2023 15:12:56 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/paper-reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cross-modal</title>
-      <link>http://wzj.life/tags/cross-modal/</link>
-      <pubDate>Thu, 06 Apr 2023 14:58:14 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/cross-modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrieval</title>
-      <link>http://wzj.life/tags/retrieval/</link>
-      <pubDate>Thu, 06 Apr 2023 14:58:14 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ViT</title>
       <link>http://wzj.life/tags/vit/</link>
       <pubDate>Tue, 04 Apr 2023 20:05:18 +0800</pubDate>
       
       <guid>http://wzj.life/tags/vit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReID</title>
-      <link>http://wzj.life/tags/reid/</link>
-      <pubDate>Tue, 04 Apr 2023 16:50:55 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/reid/</guid>
       <description></description>
     </item>
     
