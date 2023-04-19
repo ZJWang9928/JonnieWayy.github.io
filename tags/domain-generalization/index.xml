@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 10 Apr 2023 15:12:56 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 14:24:48 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/domain-generalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Style Uncertainty Based Self-Paced Meta Learning for GReID (TIP 2023)</title>
+      <link>http://wzj.life/2023/prn402/</link>
+      <pubDate>Wed, 19 Apr 2023 14:24:48 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn402/</guid>
+      <description>Style Uncertainty Based Self-Paced Meta Learning for Generalizable Person Re-Identification (TIP 2023) 概述 本文提出一种风格不确定性增广 (Style-uncertainty Augmentation, SuA) 方法，设计了一种 Style-Uncertainty based Self-paced Meta Learning (SuA-SpML) 框架。 不同参数设置下的增广结果示例 模型架构 SuA 伪代码</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] Progressive Random Convolutions for Single DG (2023)</title>
       <link>http://wzj.life/2023/prn400/</link>
