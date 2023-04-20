@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 19 Apr 2023 18:01:19 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 13:08:57 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[论文阅读笔记 -- 域泛化] Visual Textual Alignment for GReID in Internet of Things (IoTJ 2023)</title>
+      <link>http://wzj.life/2023/prn405/</link>
+      <pubDate>Thu, 20 Apr 2023 13:08:57 +0800</pubDate>
+      
+      <guid>http://wzj.life/2023/prn405/</guid>
+      <description>Visual Textual Alignment for Generalizable Person Re-Identification in Internet of Things (IoTJ 2023) 概述 本文针对域泛化 ReID 任务提出一种 Visual Textual Alignment (VTA) 方法。 Motivation 模型架构 文本维度变换 由属性生成文本 算法流程 可视化示例</description>
+    </item>
+    
     <item>
       <title>[论文阅读笔记 -- 域泛化] D2IFLN: Disentangled DI Feature Learning Network for DG (TCDS 2023)</title>
       <link>http://wzj.life/2023/prn404/</link>
