@@ -7,13 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Mon, 24 Apr 2023 16:43:39 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Apr 2023 17:16:57 +0800</lastBuildDate><atom:link href="http://wzj.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>attention</title>
+      <link>http://wzj.life/tags/attention/</link>
+      <pubDate>Mon, 24 Apr 2023 17:16:57 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/attention/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cv</title>
       <link>http://wzj.life/tags/cv/</link>
-      <pubDate>Mon, 24 Apr 2023 16:43:39 +0800</pubDate>
+      <pubDate>Mon, 24 Apr 2023 17:16:57 +0800</pubDate>
       
       <guid>http://wzj.life/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>konwledge distillation</title>
+      <link>http://wzj.life/tags/konwledge-distillation/</link>
+      <pubDate>Mon, 24 Apr 2023 17:16:57 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/konwledge-distillation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAE</title>
+      <link>http://wzj.life/tags/mae/</link>
+      <pubDate>Mon, 24 Apr 2023 17:16:57 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/mae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>http://wzj.life/tags/nlp/</link>
+      <pubDate>Mon, 24 Apr 2023 17:16:57 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://wzj.life/tags/notes/</link>
+      <pubDate>Mon, 24 Apr 2023 17:16:57 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper reading</title>
+      <link>http://wzj.life/tags/paper-reading/</link>
+      <pubDate>Mon, 24 Apr 2023 17:16:57 +0800</pubDate>
+      
+      <guid>http://wzj.life/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -23,24 +77,6 @@
       <pubDate>Mon, 24 Apr 2023 16:43:39 +0800</pubDate>
       
       <guid>http://wzj.life/tags/domain-generalization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://wzj.life/tags/notes/</link>
-      <pubDate>Mon, 24 Apr 2023 16:43:39 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paper reading</title>
-      <link>http://wzj.life/tags/paper-reading/</link>
-      <pubDate>Mon, 24 Apr 2023 16:43:39 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/paper-reading/</guid>
       <description></description>
     </item>
     
@@ -198,15 +234,6 @@
     </item>
     
     <item>
-      <title>attention</title>
-      <link>http://wzj.life/tags/attention/</link>
-      <pubDate>Tue, 14 Mar 2023 15:25:45 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>enhancement</title>
       <link>http://wzj.life/tags/enhancement/</link>
       <pubDate>Tue, 14 Mar 2023 12:09:13 +0800</pubDate>
@@ -266,33 +293,6 @@
       <pubDate>Sat, 11 Mar 2023 21:01:36 +0800</pubDate>
       
       <guid>http://wzj.life/tags/vlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>konwledge distillation</title>
-      <link>http://wzj.life/tags/konwledge-distillation/</link>
-      <pubDate>Sat, 11 Mar 2023 18:17:26 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/konwledge-distillation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MAE</title>
-      <link>http://wzj.life/tags/mae/</link>
-      <pubDate>Sat, 11 Mar 2023 18:17:26 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/mae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nlp</title>
-      <link>http://wzj.life/tags/nlp/</link>
-      <pubDate>Sat, 11 Mar 2023 18:17:26 +0800</pubDate>
-      
-      <guid>http://wzj.life/tags/nlp/</guid>
       <description></description>
     </item>
     
